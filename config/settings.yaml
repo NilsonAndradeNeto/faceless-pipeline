@@ -37,7 +37,7 @@ limpeza:
 llm:
   # Escreve, edita e checa os roteiros. Plano grátis do Gemini (modelos Pro não têm cota grátis).
   # Cada modelo Flash tem cota própria: quando um bate no limite, pula pro próximo sem esperar.
-  roteirista: { provider: gemini, model: [gemini-3.5-flash, gemini-3-flash-preview, gemini-3.7-flash, gemini-3.8-flash] }
+  roteirista: { provider: gemini, model: [gemini-3.5-flash, gemini-3-flash-preview, gemini-3.8-flash, gemini-3.7-flash] }
   # llama-3.3-70b foi descontinuado no Groq; gpt-oss-120b é o substituto mais forte
   primario: { provider: groq, model: openai/gpt-oss-120b }
   fallback: { provider: openai, model: gpt-4o-mini }

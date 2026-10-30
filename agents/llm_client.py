@@ -48,7 +48,7 @@ def _chamar_gemini(messages, model, json_mode, temperature):
     kwargs = dict(model=model, messages=messages, temperature=temperature)
     if json_mode:
         kwargs["response_format"] = {"type": "json_object"}
-    cliente = OpenAI(api_key=os.environ["GEMINI_API_KEY"].strip(), base_url=GEMINI_BASE, max_retries=0, timeout=180)
+    cliente = OpenAI(api_key=os.environ["GEMINI_API_KEY"].strip(), base_url=GEMINI_BASE, max_retries=0, timeout=90)
     return cliente.chat.completions.create(**kwargs)
 
 
@@ -120,8 +120,10 @@ def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", perfil="pad
             except Exception as e:
                 ultimo_erro = e
                 espera = _espera_limite(e)
-                if espera is not None and tem_irmao:
-                    log.info("%s/%s no limite, trocando para %s", nome, model, provedores[i + 1][1])
+                travou = "timed out" in str(e).lower() or "timeout" in type(e).__name__.lower()
+                if (espera is not None or travou) and tem_irmao:
+                    log.info("%s/%s %s, trocando para %s", nome, model,
+                             "travou" if travou else "no limite", provedores[i + 1][1])
                     break
                 if espera is not None and limites < esperas_limite:
                     limites += 1
