@@ -33,6 +33,13 @@ def config(nome: str) -> dict:
     return yaml.safe_load((CONFIG / f"{nome}.yaml").read_text(encoding="utf-8"))
 
 
+def idiomas() -> list[str]:
+    return config("settings")["producao"]["idiomas"]
+
+
+BANDEIRA = {"pt": "🇧🇷", "en": "🇺🇸", "es": "🇪🇸"}
+
+
 def agora_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 

@@ -1,6 +1,6 @@
-# Vozes ElevenLabs. O modelo eleven_multilingual_v2 faz qualquer voz falar PT ou ES.
+# Vozes ElevenLabs. O modelo eleven_multilingual_v2 faz qualquer voz falar PT ou EN.
 # Pra trocar: escolha em https://elevenlabs.io/app/voice-library, copie o "Voice ID" e cole aqui.
-# Dica pós-teste: uma voz nativa PT-BR / ES-latina da biblioteca soa mais natural que as premade.
+# Dica pós-teste: uma voz nativa PT-BR da biblioteca soa mais natural que as premade em português.
 
 modelo: eleven_multilingual_v2
 config_voz: { stability: 0.45, similarity_boost: 0.8, style: 0.35, use_speaker_boost: true, speed: 1.05 }
@@ -8,11 +8,11 @@ config_voz: { stability: 0.45, similarity_boost: 0.8, style: 0.35, use_speaker_b
 pt:
   principal: { nome: George, id: JBFqnCBsd6RMkjVDRZzb }   # contador de histórias, grave e envolvente
   alternativa: { nome: Brian, id: nPczCjzI2devNBz1zQrb }
-es:
-  principal: { nome: George, id: JBFqnCBsd6RMkjVDRZzb }
-  alternativa: { nome: Brian, id: nPczCjzI2devNBz1zQrb }
+en:
+  principal: { nome: George, id: JBFqnCBsd6RMkjVDRZzb }   # nativo em inglês (britânico): soa perfeito
+  alternativa: { nome: Brian, id: nPczCjzI2devNBz1zQrb }  # americano grave
 
-# Reserva grátis quando o ElevenLabs falhar ou a cota acabar (fala PT e ES com a mesma voz).
+# Reserva grátis quando o ElevenLabs falhar ou a cota acabar (fala PT e EN com a mesma voz).
 # Outras vozes: Algenib (rouca), Enceladus (sussurrada), Orus (firme), Fenrir (intensa).
 gemini:
   voz: Charon

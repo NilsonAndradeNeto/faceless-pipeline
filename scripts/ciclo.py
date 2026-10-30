@@ -1,7 +1,7 @@
 """Ciclo automático — roda a cada 15 min (Agendador do Windows) e faz o que estiver na hora.
 
 Rotina (config/settings.yaml → agenda):
-  22:30            gera os roteiros do dia seguinte (1 PT + 1 ES), se a fila do idioma estiver vazia
+  22:30            gera os roteiros do dia seguinte (1 por idioma), se a fila do idioma estiver vazia
   até 12:00        você valida no painel
   12:00            o que não foi validado é aprovado sozinho (roteiro com frase sem base é refeito;
                    se continuar com problema, o vídeo daquele idioma é pulado no dia)
@@ -18,7 +18,7 @@ import time
 from datetime import date, datetime, timedelta
 
 from agents import progresso
-from agents.common import STORAGE, config, ler_json, salvar_json
+from agents.common import STORAGE, config, idiomas, ler_json, salvar_json
 from pipeline import produzir as prod
 from pipeline.broll_fetcher import SemCotaIA
 from pipeline.publicar import PLATAFORMAS, ContaNaoConectada, publicar
@@ -30,7 +30,7 @@ APROVADOS = STORAGE / "scripts" / "approved"
 REJEITADOS = STORAGE / "scripts" / "rejected"
 AGENDA = STORAGE / "agenda"
 TRAVA = STORAGE / "ciclo.lock"
-IDIOMAS = ("pt", "es")
+IDIOMAS = tuple(idiomas())
 
 
 def _hora(txt: str, dia: date) -> datetime:

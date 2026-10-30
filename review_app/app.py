@@ -11,14 +11,13 @@ from pathlib import Path
 import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from agents.common import ROOT, STORAGE, ler_json, salvar_json  # noqa: E402
+from agents.common import BANDEIRA, ROOT, STORAGE, idiomas, ler_json, salvar_json  # noqa: E402
 
 PENDENTES = STORAGE / "scripts" / "pending"
 APROVADOS = STORAGE / "scripts" / "approved"
 REJEITADOS = STORAGE / "scripts" / "rejected"
 PRONTOS = STORAGE / "shorts" / "ready"
 JOBS = STORAGE / "jobs"
-BANDEIRA = {"pt": "🇧🇷", "es": "🇪🇸"}
 
 # Processos em segundo plano: prioridade baixa e sem janela
 FLAGS = (0x00004000 | 0x00000008 | 0x00000200) if sys.platform == "win32" else 0
@@ -103,7 +102,7 @@ with st.sidebar:
         st.metric("Voz ElevenLabs (caracteres)", f"{restantes:,}".replace(",", "."),
                   help="Cada Short gasta ~1.100. Quando acabar, renova no próximo mês.")
     st.divider()
-    lang = st.selectbox("Gerar roteiro em", ["pt", "es"], format_func=lambda l: f"{BANDEIRA[l]} {l.upper()}")
+    lang = st.selectbox("Gerar roteiro em", idiomas(), format_func=lambda l: f"{BANDEIRA[l]} {l.upper()}")
     if st.button("✍️ Gerar 1 roteiro novo agora", use_container_width=True):
         em_segundo_plano("scripts.novo_roteiro", "--lang", lang, "--job", f"roteiro_{int(time.time())}")
         st.success("Começou! Acompanhe a barra na aba Roteiros.")
@@ -126,7 +125,7 @@ def quadro_agenda():
         arq = STORAGE / "agenda" / f"{dia.isoformat()}.json"
         ag = ler_json(arq) if arq.exists() else {}
         linhas = []
-        for lang in ("pt", "es"):
+        for lang in idiomas():
             horarios = " · ".join(f"{p} {h}" for p, h in cfg["postagens"][lang].items())
             item = ag.get(lang)
             if not item:

@@ -19,7 +19,8 @@ chat = partial(llm_client.chat, perfil="roteiro")
 
 log = logging.getLogger("scriptwriter")
 
-IDIOMA = {"pt": "português do Brasil", "es": "espanhol latino-americano neutro"}
+IDIOMA = {"pt": "português do Brasil", "en": "inglês americano (natural, de narrador nativo)",
+          "es": "espanhol latino-americano neutro"}
 
 PROMPT_ROTEIRO = """Você é o roteirista-chefe de um canal de vídeos verticais de História e Mistérios reais
 com milhões de views. Seu único objetivo: a pessoa NÃO consegue sair do vídeo antes do fim.

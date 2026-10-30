@@ -78,7 +78,6 @@ def palavras_de_alinhamento(al: dict) -> list[dict]:
 
 GEMINI_TTS = ["gemini-3.8-flash-tts", "gemini-3.1-flash-tts-preview", "gemini-3.8-flash-lite-tts",
               "gemini-2.5-flash-preview-tts"]
-DIRECAO = {"pt": "português do Brasil", "es": "espanhol latino-americano neutro"}
 
 
 def gemini_tts(texto: str, lang: str, destino_wav) -> None:

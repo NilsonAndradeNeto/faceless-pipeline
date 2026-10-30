@@ -7,14 +7,14 @@ import argparse
 import time
 
 from agents import progresso
-from agents.common import STORAGE, ler_json
+from agents.common import STORAGE, idiomas, ler_json
 from agents.researcher import pesquisar
 from agents.scriptwriter import processar_pendentes
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     g = ap.add_mutually_exclusive_group(required=True)
-    g.add_argument("--lang", choices=["pt", "es"])
+    g.add_argument("--lang", choices=idiomas())
     g.add_argument("--refazer")
     ap.add_argument("--job", default=f"roteiro_{int(time.time())}")
     a = ap.parse_args()

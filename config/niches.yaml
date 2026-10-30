@@ -54,54 +54,54 @@ pt:
   - { tema: "A 'Bateria de Bagdá': pilha antiga ou mal-entendido?", score: 0 }
   - { tema: "O desaparecimento do voo MH370", score: 0 }
 
-es:
-  - { tema: "El misterio de Ötzi, el hombre de los hielos", score: 0 }
-  - { tema: "La desaparición del vuelo Star Dust en los Andes (1947)", score: 0 }
-  - { tema: "Paititi, la ciudad perdida de los incas", score: 0 }
-  - { tema: "Por qué fue abandonada Machu Picchu", score: 0 }
-  - { tema: "Puma Punku y la precisión de sus piedras", score: 0 }
-  - { tema: "Quién construyó Teotihuacán", score: 0 }
-  - { tema: "El tesoro perdido de Moctezuma", score: 0 }
-  - { tema: "El galeón San José y su tesoro hundido", score: 0 }
-  - { tema: "El cenote sagrado de Chichén Itzá", score: 0 }
-  - { tema: "El Códice de Dresde y la astronomía maya", score: 0 }
-  - { tema: "Las líneas de Nazca: para qué servían", score: 0 }
-  - { tema: "La Zona del Silencio en México: mito y realidad", score: 0 }
-  - { tema: "Las calaveras de cristal: el fraude que engañó a museos", score: 0 }
-  - { tema: "La tragedia de los Andes de 1972", score: 0 }
-  - { tema: "El colapso de la civilización maya clásica", score: 0 }
-  - { tema: "El incidente del Paso Dyatlov", score: 0 }
-  - { tema: "La colonia perdida de Roanoke", score: 0 }
-  - { tema: "La desaparición de Amelia Earhart", score: 0 }
-  - { tema: "El Mary Celeste, el barco sin tripulación", score: 0 }
-  - { tema: "El Manuscrito Voynich", score: 0 }
-  - { tema: "El caso del Hombre de Somerton", score: 0 }
-  - { tema: "El mecanismo de Anticitera", score: 0 }
-  - { tema: "La expedición perdida de Franklin", score: 0 }
-  - { tema: "La epidemia de baile de 1518", score: 0 }
-  - { tema: "La tumba perdida de Gengis Kan", score: 0 }
-  - { tema: "La tumba sellada del primer emperador de China", score: 0 }
-  - { tema: "El Hombre de la Máscara de Hierro", score: 0 }
-  - { tema: "Kaspar Hauser, el joven que apareció de la nada", score: 0 }
-  - { tema: "Los niños verdes de Woolpit", score: 0 }
-  - { tema: "La Cámara de Ámbar desaparecida", score: 0 }
-  - { tema: "El evento de Tunguska", score: 0 }
-  - { tema: "Göbekli Tepe, el templo más antiguo del mundo", score: 0 }
-  - { tema: "El misterio de los moáis de la Isla de Pascua", score: 0 }
-  - { tema: "Rongorongo, la escritura perdida de Rapa Nui", score: 0 }
-  - { tema: "El fin de los templarios", score: 0 }
-  - { tema: "La 'maldición' de Tutankamón", score: 0 }
-  - { tema: "El origen del mito de la Atlántida", score: 0 }
-  - { tema: "El disco de Festo", score: 0 }
-  - { tema: "El caso de D.B. Cooper", score: 0 }
-  - { tema: "La señal Wow! de 1977", score: 0 }
-  - { tema: "Los fareros desaparecidos de las islas Flannan", score: 0 }
-  - { tema: "El naufragio del Batavia", score: 0 }
-  - { tema: "El SS Baychimo, el barco fantasma del Ártico", score: 0 }
-  - { tema: "La Biblioteca de Alejandría: cómo se perdió", score: 0 }
-  - { tema: "Cómo se construyó Stonehenge", score: 0 }
-  - { tema: "El tesoro de Lima", score: 0 }
-  - { tema: "El Vuelo 19 y el Triángulo de las Bermudas", score: 0 }
-  - { tema: "La Sábana Santa de Turín según la ciencia", score: 0 }
-  - { tema: "La Llanura de las Jarras en Laos", score: 0 }
-  - { tema: "La desaparición del vuelo MH370", score: 0 }
+en:
+  - { tema: "Franklin's lost expedition: 129 men who vanished in the Arctic", score: 0 }
+  - { tema: "The Dyatlov Pass incident: nine hikers dead in the Ural Mountains", score: 0 }
+  - { tema: "The Lost Colony of Roanoke and the word CROATOAN", score: 0 }
+  - { tema: "The Mary Celeste: a ship found intact with no one aboard", score: 0 }
+  - { tema: "The Somerton Man and the Tamam Shud code", score: 0 }
+  - { tema: "The Voynich Manuscript, the book no one can read", score: 0 }
+  - { tema: "The Zodiac Killer's unsolved ciphers", score: 0 }
+  - { tema: "D.B. Cooper: the hijacker who jumped and was never found", score: 0 }
+  - { tema: "Amelia Earhart's last flight over the Pacific", score: 0 }
+  - { tema: "The Flannan Isles lighthouse keepers who disappeared", score: 0 }
+  - { tema: "The dancing plague of 1518 in Strasbourg", score: 0 }
+  - { tema: "The Antikythera mechanism, an ancient Greek computer", score: 0 }
+  - { tema: "The Tunguska event: the explosion that flattened 80 million trees", score: 0 }
+  - { tema: "The Hinterkaifeck murders, Germany's unsolved farm massacre", score: 0 }
+  - { tema: "The Wow! signal received from space in 1977", score: 0 }
+  - { tema: "The Oak Island money pit", score: 0 }
+  - { tema: "Kaspar Hauser, the boy who appeared out of nowhere", score: 0 }
+  - { tema: "The Green Children of Woolpit", score: 0 }
+  - { tema: "The Amber Room that vanished in World War II", score: 0 }
+  - { tema: "Flight 19 and the legend of the Bermuda Triangle", score: 0 }
+  - { tema: "The Man in the Iron Mask", score: 0 }
+  - { tema: "Ötzi the Iceman, murdered 5,300 years ago", score: 0 }
+  - { tema: "The sealed tomb of China's first emperor", score: 0 }
+  - { tema: "The lost tomb of Genghis Khan", score: 0 }
+  - { tema: "The Batavia shipwreck and the bloodiest mutiny in history", score: 0 }
+  - { tema: "SS Baychimo, the ghost ship of the Arctic", score: 0 }
+  - { tema: "Percy Fawcett and the Lost City of Z", score: 0 }
+  - { tema: "Göbekli Tepe, the temple older than Stonehenge", score: 0 }
+  - { tema: "The Phaistos Disc, a script no one can translate", score: 0 }
+  - { tema: "Rongorongo, the lost script of Easter Island", score: 0 }
+  - { tema: "The Mothman sightings and the Silver Bridge collapse", score: 0 }
+  - { tema: "The Lake Bodom murders in Finland", score: 0 }
+  - { tema: "The Sodder children who vanished after a house fire", score: 0 }
+  - { tema: "The Hope Diamond and its supposed curse", score: 0 }
+  - { tema: "The discovery of the Dead Sea Scrolls", score: 0 }
+  - { tema: "The Shroud of Turin: what science found", score: 0 }
+  - { tema: "The Carroll A. Deering, the ghost ship of Cape Hatteras", score: 0 }
+  - { tema: "Jack the Ripper: what the investigation really found", score: 0 }
+  - { tema: "The curse of Tutankhamun: fact and myth", score: 0 }
+  - { tema: "The real story behind the Salem witch trials", score: 0 }
+  - { tema: "The Princes in the Tower", score: 0 }
+  - { tema: "The Lindbergh baby kidnapping", score: 0 }
+  - { tema: "The Black Dahlia murder", score: 0 }
+  - { tema: "The Villisca axe murders", score: 0 }
+  - { tema: "The Overtoun Bridge and the dogs that jumped", score: 0 }
+  - { tema: "MH370: the plane that vanished", score: 0 }
+  - { tema: "The Plain of Jars in Laos", score: 0 }
+  - { tema: "The collapse of the Classic Maya civilization", score: 0 }
+  - { tema: "The fall of the Knights Templar and their missing treasure", score: 0 }
+  - { tema: "The Library of Alexandria: how it was really lost", score: 0 }

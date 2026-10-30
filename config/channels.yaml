@@ -1,9 +1,9 @@
-# Contas de destino por idioma. Preencha conforme for criando os canais.
+# Contas de destino por idioma. Preenchido quando cada conta for conectada.
 pt:
   youtube: { channel_id: "", token_file: credentials/youtube_pt.token.json }
   tiktok: { username: "" }
   instagram: { ig_user_id: "", token_env: IG_TOKEN_PT }
-es:
-  youtube: { channel_id: "", token_file: credentials/youtube_es.token.json }
+en:
+  youtube: { channel_id: "", token_file: credentials/youtube_en.token.json }
   tiktok: { username: "" }
-  instagram: { ig_user_id: "", token_env: IG_TOKEN_ES }
+  instagram: { ig_user_id: "", token_env: IG_TOKEN_EN }

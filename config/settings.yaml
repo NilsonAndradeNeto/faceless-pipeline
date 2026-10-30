@@ -9,11 +9,11 @@ agenda:
   tentativas_refazer: 2          # roteiro com frase sem base na fonte é reescrito até 2x; se continuar, pula o dia
   postagens:
     pt: { youtube: "17:00", instagram: "18:00", tiktok: "19:00" }
-    es: { youtube: "20:00", instagram: "21:00", tiktok: "22:00" }   # = 17h/18h/19h no México
+    en: { youtube: "20:00", instagram: "21:00", tiktok: "22:00" }   # = 18h/19h/20h em Nova York (horário de inverno)
 
 producao:
   shorts_por_dia_por_idioma: 1      # começa leve; sobe pra 2 depois que estabilizar
-  idiomas: [pt, es]
+  idiomas: [pt, en]               # inglês no lugar do espanhol (YouTube paga 3–10x mais por view)
   duracao_alvo_seg: [45, 60]
   resolucao: [1080, 1920]           # 9:16 vertical
   fps: 30

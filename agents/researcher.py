@@ -8,7 +8,7 @@ import logging
 
 import requests
 
-from agents.common import STORAGE, agora_iso, anexar_jsonl, config, salvar_json
+from agents.common import STORAGE, agora_iso, anexar_jsonl, config, idiomas, salvar_json
 from agents.llm_client import chat
 
 log = logging.getLogger("researcher")
@@ -73,8 +73,10 @@ def pesquisar(lang: str, tema: str | None = None) -> dict:
     log.info("Tema escolhido (%s): %s", lang, tema)
 
     termos = termos_de_busca(tema, lang)
-    fontes = [f for f in (buscar_wikipedia(termos.get("en", tema), "en"),
-                          buscar_wikipedia(termos.get("local", tema), lang)) if f]
+    fontes = [buscar_wikipedia(termos.get("en", tema), "en")]
+    if lang != "en":  # em inglês a fonte local é a mesma
+        fontes.append(buscar_wikipedia(termos.get("local", tema), lang))
+    fontes = [f for f in fontes if f]
     if not fontes:
         raise RuntimeError(f"Não achei fonte na Wikipedia para: {tema}")
     log.info("Fontes: %s", ", ".join(f"{f['titulo']} ({f['lang']})" for f in fontes))
@@ -87,7 +89,7 @@ def pesquisar(lang: str, tema: str | None = None) -> dict:
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--lang", choices=["pt", "es"], required=True)
+    ap.add_argument("--lang", choices=idiomas(), required=True)
     ap.add_argument("--tema", help="força um tema específico (ignora o niches.yaml)")
     a = ap.parse_args()
     t = pesquisar(a.lang, a.tema)
