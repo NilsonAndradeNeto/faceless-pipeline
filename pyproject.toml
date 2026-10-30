@@ -12,6 +12,8 @@ dependencies = [
     "pillow>=10.4",
     "streamlit>=1.39",
     "wikipedia-api>=0.7",
+    "numpy>=2.4.6",
+    "scipy>=1.17.1",
 ]
 
 [tool.uv]

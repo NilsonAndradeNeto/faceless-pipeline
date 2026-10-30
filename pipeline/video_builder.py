@@ -174,7 +174,7 @@ def montar(script_id: str, pasta_script=None) -> dict:
     if musica:
         log.info("Música: %s", musica.name)
         entradas += ["-stream_loop", "-1", "-i", str(musica)]
-        audio = ("[2:a]volume=0.18,afade=t=out:st={f}:d=1.5[m];"
+        audio = ("[2:a]volume=0.35,afade=t=out:st={f}:d=1.5[m];"
                  "[m][1:a]sidechaincompress=threshold=0.03:ratio=8:attack=20:release=400[md];"
                  "[md][1:a]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]").format(f=max(duracao - 1.5, 0))
     else:
