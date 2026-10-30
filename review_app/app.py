@@ -110,6 +110,39 @@ with st.sidebar:
     if st.button("🔄 Atualizar", use_container_width=True):
         st.rerun()
 
+def quadro_agenda():
+    from datetime import date, datetime, timedelta
+
+    from agents.common import config
+    cfg = config("settings")["agenda"]
+    agora = datetime.now()
+    prazo = datetime.combine(agora.date(), datetime.strptime(cfg["prazo_validacao"], "%H:%M").time())
+    if agora < prazo:
+        falta = prazo - agora
+        st.warning(f"⏰ Valide até **{cfg['prazo_validacao']}** (faltam {falta.seconds // 3600}h{falta.seconds % 3600 // 60:02d}). "
+                   "Depois disso, o primeiro roteiro de cada idioma é aprovado automaticamente.")
+    icones = {"publicado": "✅", "conta não conectada": "🔌", "vídeo ainda não ficou pronto": "⏳", "erro": "❌"}
+    for dia, nome in ((agora.date(), "Hoje"), (agora.date() + timedelta(days=1), "Amanhã")):
+        arq = STORAGE / "agenda" / f"{dia.isoformat()}.json"
+        ag = ler_json(arq) if arq.exists() else {}
+        linhas = []
+        for lang in ("pt", "es"):
+            horarios = " · ".join(f"{p} {h}" for p, h in cfg["postagens"][lang].items())
+            item = ag.get(lang)
+            if not item:
+                linhas.append(f"{BANDEIRA[lang]} _a definir_ — {horarios}")
+            elif not item.get("script"):
+                linhas.append(f"{BANDEIRA[lang]} sem vídeo ({item.get('motivo')})")
+            else:
+                posts = " ".join(f"{icones.get(v.get('estado'), '•')}{p}" for p, v in item["posts"].items())
+                quem = "aprovado por você" if item.get("aprovacao") == "voce" else "aprovado automaticamente"
+                linhas.append(f"{BANDEIRA[lang]} **{item['titulo']}** ({quem}) — {horarios} {posts}")
+        st.markdown(f"**📅 {nome} ({dia.strftime('%d/%m')})**  \n" + "  \n".join(linhas))
+
+
+with st.expander("📅 Agenda de postagens", expanded=True):
+    quadro_agenda()
+
 aba_roteiros, aba_videos = st.tabs([f"📝 Roteiros ({len(pendentes)})", f"🎬 Vídeos ({len(aprovados)})"])
 
 with aba_roteiros:

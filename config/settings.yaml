@@ -1,5 +1,16 @@
 # Configurações gerais + limites pra proteger o PC (GTX 1060 3GB, Ryzen 5 5600GT)
 
+# Rotina diária (horário de Brasília). O scripts/ciclo.py roda a cada 15 min e faz o que estiver na hora;
+# se o PC estava desligado, recupera o atraso no mesmo dia.
+agenda:
+  inicio: "2026-10-31"           # primeiro dia em que a aprovação automática e as postagens valem
+  gerar_roteiros: "22:30"       # gera os roteiros do DIA SEGUINTE (se a fila daquele idioma estiver vazia)
+  prazo_validacao: "12:00"       # o que você não validou até aqui é aprovado automaticamente
+  tentativas_refazer: 2          # roteiro com frase sem base na fonte é reescrito até 2x; se continuar, pula o dia
+  postagens:
+    pt: { youtube: "17:00", instagram: "18:00", tiktok: "19:00" }
+    es: { youtube: "20:00", instagram: "21:00", tiktok: "22:00" }   # = 17h/18h/19h no México
+
 producao:
   shorts_por_dia_por_idioma: 1      # começa leve; sobe pra 2 depois que estabilizar
   idiomas: [pt, es]
