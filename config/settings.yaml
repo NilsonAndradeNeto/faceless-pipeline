@@ -11,7 +11,9 @@ seguranca_pc:
   um_video_por_vez: true            # nunca renderiza em paralelo
   prioridade_processo: below_normal # você continua usando o PC normalmente
   ffmpeg_threads: 4                 # de 12 disponíveis
-  encoder: h264_nvenc               # chip de vídeo da GPU (leve); cai pra libx264 se falhar
+  # NVENC do ffmpeg 9 exige driver 610+, que não existe pra GTX 1060 (Pascal parou no 580).
+  # O builder testa e cai pra libx264 sozinho (~90s por Short, com prioridade baixa).
+  encoder: h264_nvenc
   whisper: groq                     # whisper-large-v3-turbo na nuvem (grátis); PC não processa nada
   xtts_device: cpu
   docker_mem_limit: 4g              # por container

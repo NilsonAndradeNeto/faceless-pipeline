@@ -1,15 +1,16 @@
 # Vozes ElevenLabs. O modelo eleven_multilingual_v2 faz qualquer voz falar PT ou ES.
-# Os IDs abaixo são vozes pré-prontas da biblioteca. Pra trocar: escolha uma voz em
-# https://elevenlabs.io/app/voice-library, copie o "Voice ID" e cole aqui.
+# Pra trocar: escolha em https://elevenlabs.io/app/voice-library, copie o "Voice ID" e cole aqui.
+# Dica pós-teste: uma voz nativa PT-BR / ES-latina da biblioteca soa mais natural que as premade.
 
 modelo: eleven_multilingual_v2
+config_voz: { stability: 0.45, similarity_boost: 0.8, style: 0.35, use_speaker_boost: true, speed: 1.05 }
 
 pt:
-  principal: { nome: Adam, id: pNInz6obpgDQGcFmaJgB }   # masculina, grave — combina com mistério
-  alternativa: { nome: Bella, id: EXAVITQu4vr4xnSDxMaL }
+  principal: { nome: George, id: JBFqnCBsd6RMkjVDRZzb }   # contador de histórias, grave e envolvente
+  alternativa: { nome: Brian, id: nPczCjzI2devNBz1zQrb }
 es:
-  principal: { nome: Adam, id: pNInz6obpgDQGcFmaJgB }
-  alternativa: { nome: Bella, id: EXAVITQu4vr4xnSDxMaL }
+  principal: { nome: George, id: JBFqnCBsd6RMkjVDRZzb }
+  alternativa: { nome: Brian, id: nPczCjzI2devNBz1zQrb }
 
 # Fallback local (CPU) quando a cota do ElevenLabs acabar
 xtts:
