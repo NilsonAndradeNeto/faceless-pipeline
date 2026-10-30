@@ -94,15 +94,40 @@ def _extrair_json(texto: str):
     return json.loads(texto)
 
 
+RODADAS_QUALIDADE = 6        # perfil "roteiro": quantas voltas pelos modelos Gemini antes de aceitar o Groq
+PAUSA_ENTRE_RODADAS = 300    # segundos (6 voltas ≈ 30 min esperando a cota liberar)
+
+
 def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", perfil="padrao",
          tentativas=3, esperas_limite=6):
     """Envia mensagens ao LLM. Com json_mode=True devolve dict; senão, texto.
 
     Limite de taxa (429) e sobrecarga (503) do plano grátis não contam como falha:
-    espera e tenta de novo.
+    espera e tenta de novo. No perfil "roteiro" a qualidade vem primeiro: se todos os modelos
+    Gemini estiverem no limite, espera a cota liberar antes de cair para um modelo mais fraco.
     """
+    if perfil != "roteiro":
+        return _chat(messages, json_mode, temperature, tarefa, _provedores(perfil), tentativas, esperas_limite)
+    provs = _provedores(perfil)
+    melhores = [p for p in provs if p[0] == "gemini"]
+    reservas = [p for p in provs if p[0] != "gemini"]
+    for rodada in range(1, RODADAS_QUALIDADE + 1):
+        if not melhores:
+            break
+        try:
+            return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
+        except RuntimeError:
+            if rodada < RODADAS_QUALIDADE:
+                log.info("Todos os modelos Gemini no limite — esperando %ds pela cota (prioridade: qualidade, %d/%d)",
+                         PAUSA_ENTRE_RODADAS, rodada, RODADAS_QUALIDADE)
+                progresso.atualizar(detalhe=f"Esperando a cota do Gemini liberar (qualidade em primeiro) — {rodada}/{RODADAS_QUALIDADE}")
+                time.sleep(PAUSA_ENTRE_RODADAS)
+    log.warning("Gemini indisponível por muito tempo — usando reserva (%s)", ", ".join(m for _, m, _ in reservas))
+    return _chat(messages, json_mode, temperature, tarefa, reservas, tentativas, esperas_limite)
+
+
+def _chat(messages, json_mode, temperature, tarefa, provedores, tentativas, esperas_limite):
     ultimo_erro = None
-    provedores = _provedores(perfil)
     for i, (nome, model, fn) in enumerate(provedores):
         # Se o próximo da lista é outro modelo do mesmo provedor (cota separada), troca em vez de esperar
         tem_irmao = i + 1 < len(provedores) and provedores[i + 1][0] == nome
