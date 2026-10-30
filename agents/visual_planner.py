@@ -1,11 +1,18 @@
-"""Planejador visual: divide a narração em cenas curtas e escolhe o que mostrar em cada uma.
+"""Planejador visual: divide a narração em cenas curtas e decide o que mostrar em cada uma.
 
-Cortes rápidos (2–5s) seguram retenção em vídeo vertical.
+Estratégia (o visual SEMPRE tem que bater com o que está sendo falado):
+  1. Foto/gravura REAL tirada do próprio artigo da Wikipedia usado como fonte (nunca de busca solta,
+     que traz homônimos) — só quando a cena cita aquela pessoa/navio/lugar/documento.
+  2. Imagem gerada por IA que mostra exatamente a frase narrada, com estilo visual fixo.
+
 Uso: uv run python -m agents.visual_planner --id ID
 Saída: storage/scripts/{id}.scenes.json
 """
 import argparse
 import logging
+import re
+
+import requests
 
 from agents.common import STORAGE, ler_json, salvar_json
 from agents.llm_client import chat
@@ -13,25 +20,37 @@ from agents.llm_client import chat
 log = logging.getLogger("visual_planner")
 
 MIN_CENA, MAX_CENA = 2.0, 5.0
+WIKI_HEADERS = {"User-Agent": "FacelessHistoryPipeline/0.1 (educational history shorts; python-requests)"}
 
-PROMPT = """Você é editor de vídeo de um canal de mistérios históricos (vídeo vertical 9:16).
+# Estilo fixo acrescentado a todo prompt de IA: dá unidade visual ao vídeo
+ESTILO_IA = ("cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, "
+             "film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, "
+             "no gore, no modern objects, no screens, no tattoos")
+
+PROMPT = """Você é diretor de arte de um canal de mistérios históricos (vídeo vertical 9:16).
 Tema: {tema}
+Época/lugar: deduza do tema e das cenas.
 
-Para cada cena numerada abaixo, escolha o visual. Regras:
-- "wikimedia": busca em inglês para o Wikimedia Commons quando a cena cita algo REAL e específico
-  (pessoa, navio, lugar, objeto, documento, mapa). Inclua ano/época ou contexto para evitar homônimos.
-  Ex.: "HMS Erebus 1845 Franklin", "John Franklin portrait", "King William Island map".
-  Use null se a cena não cita nada específico.
-- "pixabay": busca de VÍDEO em inglês, 1–3 palavras, de clima/atmosfera para a cena
-  (ex.: "arctic ice", "dark ocean storm", "old ship", "candle dark"). Sempre preencha.
-- "ia": prompt em inglês para gerar imagem quando nada real existir: cinematic, dark, historically
-  accurate, 19th century style, sem texto. Sempre preencha.
-- Varie: não repita a mesma busca em cenas seguidas. Priorize wikimedia em cenas com nomes/objetos reais.
+IMAGENS REAIS DISPONÍVEIS (tiradas do artigo da Wikipedia sobre o tema):
+{reais}
+
+Para cada cena numerada abaixo:
+- "real": número da imagem real SÓ se ela mostra exatamente o que a cena cita (a pessoa citada, o navio
+  citado, o mapa do lugar citado, o documento citado). Use cada imagem real no máximo uma vez. Senão null.
+  Nunca use bandeiras, brasões ou mapas de localização genéricos.
+- "ia": prompt em inglês (25–45 palavras) para gerar uma imagem que mostre LITERALMENTE o que a frase narra,
+  com elementos concretos da época (roupas, objetos, lugar, clima). Se a frase é abstrata ("ninguém sabe",
+  "e você?"), mostre um detalhe simbólico concreto ligado ao tema. Pessoas: sem rosto em close de pessoas reais
+  identificáveis. Sem sangue, sem cadáveres explícitos (as redes punem) — sugira pelo contexto
+  (sombras, objetos deixados, pegadas, ossos discretos ao longe).
+  Sempre preencha "ia", mesmo quando escolher "real" (é o plano B).
 
 CENAS:
 {cenas}
 
-Responda em JSON: {{"cenas": [{{"n": 1, "wikimedia": "... ou null", "pixabay": "...", "ia": "..."}}]}}"""
+Responda em JSON:
+{{"epoca": "época e lugar em inglês, curto, ex.: 'Canadian Arctic, 1840s, Royal Navy expedition'",
+  "cenas": [{{"n": 1, "real": null, "ia": "..."}}]}}"""
 
 
 def dividir_cenas(palavras: list[dict]) -> list[dict]:
@@ -56,9 +75,44 @@ def dividir_cenas(palavras: list[dict]) -> list[dict]:
     for atual, prox in zip(resultado, resultado[1:]):
         atual["fim"] = prox["inicio"]
     resultado[-1]["fim"] = palavras[-1]["fim"] + 0.6
+    resultado[0]["inicio"] = 0.0
     for c in resultado:
         c["duracao"] = round(c["fim"] - c["inicio"], 3)
     return resultado
+
+
+def imagens_do_artigo(fontes: list[dict], limite: int = 25) -> list[dict]:
+    """Imagens usadas dentro dos artigos-fonte, com descrição (garante que são do tema certo)."""
+    imagens, vistos = [], set()
+    for f in fontes:
+        lang = f.get("lang") or f["url"].split("//")[1].split(".")[0]
+        try:
+            r = requests.get(f"https://{lang}.wikipedia.org/w/api.php", headers=WIKI_HEADERS, timeout=30,
+                             params={"action": "query", "format": "json", "titles": f["titulo"], "generator": "images",
+                                     "gimlimit": 50, "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata",
+                                     "iiurlwidth": 1280})
+            paginas = r.json().get("query", {}).get("pages", {}).values()
+        except Exception as e:
+            log.warning("Não consegui listar imagens de %s: %s", f["titulo"], e)
+            continue
+        for p in paginas:
+            info = (p.get("imageinfo") or [{}])[0]
+            nome = p.get("title", "")
+            if nome in vistos or info.get("mime") not in ("image/jpeg", "image/png"):
+                continue
+            if info.get("width", 0) < 500 or re.search(r"(?i)icon|logo|flag|symbol|commons-|wiki", nome):
+                continue
+            meta = info.get("extmetadata", {})
+            desc = re.sub(r"<[^>]+>", "", meta.get("ImageDescription", {}).get("value", "")).strip()
+            # Bandeira/brasão/mapa de localização não ilustram cena nenhuma
+            if re.search(r"(?i)\bflag\b|bandeira|coat of arms|bras[ãa]o|locator|location map|mapa de localiza", f"{nome} {desc}"):
+                continue
+            licenca = re.sub(r"<[^>]+>", "", meta.get("LicenseShortName", {}).get("value", "")).strip()
+            vistos.add(nome)
+            imagens.append({"nome": nome.split(":", 1)[-1], "descricao": desc[:160], "licenca": licenca,
+                            "url": info.get("thumburl") or info.get("url"),
+                            "autor": re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "?")).strip()[:80]})
+    return imagens[:limite]
 
 
 def planejar(script_id: str, pasta_script=None) -> list[dict]:
@@ -66,21 +120,31 @@ def planejar(script_id: str, pasta_script=None) -> list[dict]:
     meta = ler_json(pasta_script / f"{script_id}.meta.json")
     palavras = ler_json(STORAGE / "audio" / f"{script_id}.words.json")
     cenas = dividir_cenas(palavras)
-    if cenas[0]["inicio"] > 0:
-        cenas[0]["inicio"], cenas[0]["duracao"] = 0.0, round(cenas[0]["fim"], 3)
 
-    lista = "\n".join(f"{c['n']}. ({c['duracao']:.1f}s) {c['texto']}" for c in cenas)
-    r = chat([{"role": "user", "content": PROMPT.format(tema=meta["tema"], cenas=lista)}],
+    reais = imagens_do_artigo(meta["fontes"])
+    log.info("%d imagens reais disponíveis nos artigos-fonte", len(reais))
+    lista_reais = "\n".join(f"{i}. {r['nome']} — {r['descricao']}" for i, r in enumerate(reais, 1)) or "(nenhuma)"
+    lista_cenas = "\n".join(f"{c['n']}. ({c['duracao']:.1f}s) {c['texto']}" for c in cenas)
+
+    r = chat([{"role": "user", "content": PROMPT.format(tema=meta["tema"], reais=lista_reais, cenas=lista_cenas)}],
              json_mode=True, temperature=0.5, tarefa="visual")
     por_n = {c["n"]: c for c in r.get("cenas", [])}
+    # A época vai na frente de todo prompt: sem isso a IA mistura navio moderno, tela, tatuagem...
+    epoca = r.get("epoca") or meta["tema"]
+    usados = set()
     for c in cenas:
         v = por_n.get(c["n"], {})
-        c["busca"] = {"wikimedia": v.get("wikimedia") or None,
-                      "pixabay": v.get("pixabay") or meta["tema"],
-                      "ia": v.get("ia") or f"cinematic dark historical scene, {meta['tema']}"}
+        real = v.get("real")
+        escolhida = None
+        if isinstance(real, int) and 1 <= real <= len(reais) and real not in usados:
+            escolhida = reais[real - 1]
+            usados.add(real)
+        c["visual"] = {"real": escolhida,
+                       "ia": f"{epoca}, period-accurate clothing and technology. {v.get('ia') or meta['tema']}, {ESTILO_IA}"}
 
     salvar_json(STORAGE / "scripts" / f"{script_id}.scenes.json", cenas)
-    log.info("%d cenas planejadas (média %.1fs)", len(cenas), sum(c["duracao"] for c in cenas) / len(cenas))
+    log.info("%d cenas (média %.1fs): %d com imagem real, %d com IA", len(cenas),
+             sum(c["duracao"] for c in cenas) / len(cenas), len(usados), len(cenas) - len(usados))
     return cenas
 
 

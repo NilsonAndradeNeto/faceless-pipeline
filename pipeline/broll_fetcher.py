@@ -1,17 +1,15 @@
-"""Busca o visual de cada cena: Wikimedia Commons (real) → Pixabay (vídeo) → Pixabay (foto/ilustração).
+"""Gera/baixa o visual de cada cena seguindo o plano do visual_planner.
 
-Pollinations virou pago (HTTP 402); fica como último recurso caso volte a ser grátis.
-
+Ordem: imagem real do artigo-fonte → IA Cloudflare (lucid-origin, vertical) → IA flux-schnell → Pixabay foto.
 Uso: uv run python -m pipeline.broll_fetcher --id ID
-Atualiza storage/scripts/{id}.scenes.json com "midia" e grava créditos de imagem no .meta.json.
+Atualiza storage/scripts/{id}.scenes.json com "midia" e grava créditos no .meta.json.
 """
 import argparse
+import base64
 import hashlib
 import logging
 import os
-import re
 import time
-import urllib.parse
 
 import requests
 
@@ -23,21 +21,32 @@ CACHE = STORAGE / "broll"
 # Wikimedia exige User-Agent identificável e limita downloads em sequência
 HEADERS = {"User-Agent": "FacelessHistoryPipeline/0.1 (educational history shorts; python-requests)"}
 LICENCAS_OK = ("public domain", "pd", "cc0", "cc by", "cc-by", "attribution")
-LARGURA_WIKIMEDIA = 1280  # tamanho padrão de miniatura (tamanhos fora do padrão são bloqueados)
+
+# Modelos de imagem do Cloudflare Workers AI (plano grátis = 10 mil "neurons"/dia, renova 00:00 UTC).
+# lucid-origin é o mais bonito e o mais caro (~30 imagens/dia): só nas cenas do gancho.
+# flux-2-klein-4b é barato e também gera na vertical: resto das cenas. flux-1-schnell (quadrado) é reserva.
+LUCID = ("@cf/leonardo/lucid-origin", {"width": 768, "height": 1344}, False)
+KLEIN = ("@cf/black-forest-labs/flux-2-klein-4b", {"width": "768", "height": "1344"}, True)  # exige multipart
+SCHNELL = ("@cf/black-forest-labs/flux-1-schnell", {"steps": 6}, False)
+CENAS_PREMIUM = 3
 
 
-def _cache(url: str, ext: str):
-    return CACHE / f"{hashlib.sha1(url.encode()).hexdigest()[:16]}.{ext}"
+class SemCotaIA(Exception):
+    pass
 
 
-def baixar(url: str, ext: str, tentativas: int = 4):
+def _cache(chave: str, ext: str):
+    return CACHE / f"{hashlib.sha1(chave.encode()).hexdigest()[:16]}.{ext}"
+
+
+def baixar(url: str, ext: str, tentativas: int = 5):
     destino = _cache(url, ext)
     if destino.exists() and destino.stat().st_size > 10_000:
         return destino
     for t in range(1, tentativas + 1):
         r = requests.get(url, headers=HEADERS, timeout=120)
         if r.status_code == 429 and t < tentativas:
-            espera = int(r.headers.get("retry-after", 0) or 0) or 5 * t
+            espera = int(r.headers.get("retry-after", 0) or 0) or 8 * t
             log.info("Limite de download, aguardando %ds", espera)
             time.sleep(espera)
             continue
@@ -47,48 +56,40 @@ def baixar(url: str, ext: str, tentativas: int = 4):
         return destino
 
 
-def _limpar_html(t: str) -> str:
-    return re.sub(r"<[^>]+>", "", t or "").strip()
-
-
-def wikimedia(busca: str, usados: set) -> dict | None:
-    r = requests.get("https://commons.wikimedia.org/w/api.php", headers=HEADERS, timeout=30, params={
-        "action": "query", "format": "json", "generator": "search", "gsrnamespace": 6,
-        "gsrsearch": f"{busca} filetype:bitmap", "gsrlimit": 12,
-        "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata", "iiurlwidth": LARGURA_WIKIMEDIA})
-    paginas = sorted(r.json().get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 99))
-    for p in paginas:
-        info = (p.get("imageinfo") or [{}])[0]
-        url = info.get("thumburl") or info.get("url")
-        if not url or url in usados or info.get("mime") not in ("image/jpeg", "image/png"):
-            continue
-        if info.get("width", 0) < 700 or info.get("height", 0) < 500:
-            continue
-        meta = info.get("extmetadata", {})
-        licenca = _limpar_html(meta.get("LicenseShortName", {}).get("value", ""))
-        if not any(l in licenca.lower() for l in LICENCAS_OK):
-            continue
-        return {"tipo": "imagem", "fonte": "wikimedia", "url": url, "arquivo": str(baixar(url, "jpg")),
-                "credito": f"{p['title'].removeprefix('File:')} — {_limpar_html(meta.get('Artist', {}).get('value', '?'))[:80]} ({licenca})"}
-    return None
-
-
-def pixabay(busca: str, usados: set, duracao_min: float) -> dict | None:
-    chave = os.getenv("PIXABAY_API_KEY")
-    if not chave:
+def imagem_real(real: dict) -> dict | None:
+    if not any(l in real.get("licenca", "").lower() for l in LICENCAS_OK):
         return None
-    r = requests.get("https://pixabay.com/api/videos/", timeout=30,
-                     params={"key": chave, "q": busca, "per_page": 15, "safesearch": "true"})
-    for hit in r.json().get("hits", []):
-        if hit["duration"] < duracao_min or hit["id"] in usados:
+    return {"tipo": "imagem", "fonte": "wikimedia", "url": real["url"], "arquivo": str(baixar(real["url"], "jpg")),
+            "credito": f"{real['nome']} — {real['autor']} ({real['licenca']})"}
+
+
+def imagem_ia(prompt: str, modelos_esgotados: set, premium: bool = False) -> dict | None:
+    conta, token = os.getenv("CLOUDFLARE_ACCOUNT_ID", "").strip(), os.getenv("CLOUDFLARE_API_TOKEN", "").strip()
+    if not (conta and token):
+        return None
+    ordem = [LUCID, KLEIN, SCHNELL] if premium else [KLEIN, LUCID, SCHNELL]
+    for modelo, extra, multipart in ordem:
+        if modelo in modelos_esgotados:
             continue
-        v = hit["videos"].get("large") or {}
-        if not v.get("url") or v.get("width", 0) < 1280:
-            v = hit["videos"].get("medium") or {}
-        if not v.get("url"):
-            continue
-        return {"tipo": "video", "fonte": "pixabay", "url": v["url"], "id": hit["id"],
-                "arquivo": str(baixar(v["url"], "mp4")), "credito": f"Pixabay #{hit['id']}"}
+        destino = _cache(modelo + prompt, "jpg")
+        if destino.exists():
+            return {"tipo": "imagem", "fonte": "ia", "arquivo": str(destino), "credito": "imagem gerada por IA"}
+        for tentativa in range(3):
+            campos = {"prompt": prompt, **extra}
+            envio = {"files": {k: (None, str(v)) for k, v in campos.items()}} if multipart else {"json": campos}
+            r = requests.post(f"https://api.cloudflare.com/client/v4/accounts/{conta}/ai/run/{modelo}",
+                              headers={"Authorization": f"Bearer {token}"}, timeout=180, **envio)
+            if r.ok:
+                destino.write_bytes(base64.b64decode(r.json()["result"]["image"]))
+                return {"tipo": "imagem", "fonte": "ia", "modelo": modelo, "arquivo": str(destino),
+                        "credito": "imagem gerada por IA"}
+            texto = r.text.lower()
+            if r.status_code == 429 and ("daily" in texto or "allocation" in texto or "neurons" in texto):
+                log.warning("Cota grátis diária de %s esgotada", modelo)
+                modelos_esgotados.add(modelo)
+                break
+            log.warning("%s falhou (%s): %s", modelo, r.status_code, r.text[:150])
+            time.sleep(5 * (tentativa + 1))
     return None
 
 
@@ -96,7 +97,8 @@ def pixabay_foto(busca: str, usados: set) -> dict | None:
     chave = os.getenv("PIXABAY_API_KEY")
     if not chave:
         return None
-    for q in (busca, " ".join(busca.split()[:2]), busca.split()[0]):
+    palavras = [p for p in busca.split(",")[0].split() if len(p) > 3][:3]
+    for q in (" ".join(palavras), palavras[0] if palavras else "dark history"):
         r = requests.get("https://pixabay.com/api/", timeout=30, params={
             "key": chave, "q": q, "per_page": 20, "safesearch": "true", "min_width": 1080})
         for hit in r.json().get("hits", []):
@@ -107,32 +109,20 @@ def pixabay_foto(busca: str, usados: set) -> dict | None:
     return None
 
 
-def pollinations(prompt: str) -> dict | None:
-    url = ("https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt)
-           + "?width=1080&height=1920&model=flux&nologo=true&seed=" + str(int(time.time()) % 100000))
-    try:
-        return {"tipo": "imagem", "fonte": "ia", "url": url, "arquivo": str(baixar(url, "jpg")),
-                "credito": "imagem gerada por IA"}
-    except Exception as e:
-        log.warning("Pollinations falhou: %s", e)
-        return None
-
-
 def buscar(script_id: str, pasta_script=None) -> list[dict]:
     CACHE.mkdir(parents=True, exist_ok=True)
     pasta_script = pasta_script or STORAGE / "scripts" / "approved"
     arq_cenas = STORAGE / "scripts" / f"{script_id}.scenes.json"
     cenas = ler_json(arq_cenas)
-    usados = set()
+    usados, esgotados = set(), set()
 
     for c in cenas:
-        b, midia = c["busca"], None
+        v, midia = c["visual"], None
         fontes = []
-        if b.get("wikimedia"):
-            fontes.append(lambda: wikimedia(b["wikimedia"], usados))
-        fontes += [lambda: pixabay(b["pixabay"], usados, c["duracao"]),
-                   lambda: pixabay_foto(b["pixabay"], usados),
-                   lambda: pollinations(b["ia"])]
+        if v.get("real"):
+            fontes.append(lambda: imagem_real(v["real"]))
+        fontes += [lambda: imagem_ia(v["ia"], esgotados, premium=c["n"] <= CENAS_PREMIUM),
+                   lambda: pixabay_foto(v["ia"], usados)]
         for fonte in fontes:
             try:
                 midia = fonte()
@@ -142,14 +132,15 @@ def buscar(script_id: str, pasta_script=None) -> list[dict]:
                 break
         if not midia:
             raise RuntimeError(f"Cena {c['n']} ficou sem visual")
-        usados.add(midia.get("id") or midia["url"])
+        usados.add(midia.get("url") or midia["arquivo"])
         c["midia"] = midia
-        log.info("Cena %2d (%.1fs): %-9s %s", c["n"], c["duracao"], midia["fonte"], midia["credito"][:70])
+        log.info("Cena %2d (%.1fs): %-9s %s", c["n"], c["duracao"], midia["fonte"], c["texto"][:60])
 
     salvar_json(arq_cenas, cenas)
     meta_path = pasta_script / f"{script_id}.meta.json"
     meta = ler_json(meta_path)
-    meta["creditos_imagens"] = sorted({c["midia"]["credito"] for c in cenas if c["midia"]["fonte"] == "wikimedia"})
+    meta["creditos_imagens"] = sorted({c["midia"]["credito"] for c in cenas if c["midia"]["fonte"] != "ia"})
+    meta["imagens_ia"] = sum(1 for c in cenas if c["midia"]["fonte"] == "ia")
     salvar_json(meta_path, meta)
     return cenas
 
