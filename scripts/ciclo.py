@@ -15,11 +15,12 @@ import logging
 import os
 import shutil
 import time
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 
 from agents import progresso
 from agents.common import STORAGE, config, ler_json, salvar_json
 from pipeline import produzir as prod
+from pipeline.broll_fetcher import SemCotaIA
 from pipeline.publicar import PLATAFORMAS, ContaNaoConectada, publicar
 
 log = logging.getLogger("ciclo")
@@ -146,9 +147,38 @@ def definir_videos_do_dia(agora: datetime):
 
 # ---------- 3. produzir ----------
 
+COTA_ESGOTADA = STORAGE / "cota_imagens_esgotada.txt"
+
+
+def _cota_renovou() -> bool:
+    """A cota do Cloudflare renova 00:00 UTC (21h Brasília). Depois disso, pode tentar de novo."""
+    if not COTA_ESGOTADA.exists():
+        return True
+    esgotou = datetime.fromtimestamp(COTA_ESGOTADA.stat().st_mtime)
+    renova = esgotou.replace(hour=21, minute=5, second=0, microsecond=0)
+    if esgotou >= renova:  # esgotou depois das 21h: só renova no dia seguinte
+        renova += timedelta(days=1)
+    if datetime.now() >= renova:
+        COTA_ESGOTADA.unlink(missing_ok=True)
+        return True
+    return False
+
+
 def produzir_aprovados():
-    if prod.pendentes_de_producao():
-        prod.com_trava(lambda: [prod.produzir(sid) for sid in prod.pendentes_de_producao()])
+    if not prod.pendentes_de_producao() or not _cota_renovou():
+        return
+
+    def rodar():
+        for sid in prod.pendentes_de_producao():
+            try:
+                prod.produzir(sid)
+            except SemCotaIA:
+                COTA_ESGOTADA.write_text(datetime.now().isoformat())
+                log.info("Cota de imagens acabou — produção continua depois das 21h")
+                return
+            except Exception:
+                log.exception("Falha ao produzir %s (segue para o próximo)", sid)
+    prod.com_trava(rodar)
 
 
 # ---------- 4. publicar ----------
