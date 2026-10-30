@@ -11,6 +11,12 @@ from pathlib import Path
 import streamlit as st
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+# O Streamlit não recarrega módulos importados quando o código muda: força a versão atual
+import importlib  # noqa: E402
+
+import agents.common  # noqa: E402
+
+importlib.reload(agents.common)
 from agents.common import BANDEIRA, ROOT, STORAGE, idiomas, ler_json, salvar_json  # noqa: E402
 
 PENDENTES = STORAGE / "scripts" / "pending"
