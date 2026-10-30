@@ -10,6 +10,7 @@ import hashlib
 import logging
 import os
 import time
+from pathlib import Path
 
 import requests
 
@@ -117,12 +118,17 @@ def buscar(script_id: str, pasta_script=None) -> list[dict]:
     usados, esgotados = set(), set()
 
     for c in cenas:
+        # Retomada: cena que já tem imagem boa (IA ou real do artigo) não é refeita
+        feita = c.get("midia")
+        if feita and feita["fonte"] in ("ia", "wikimedia") and Path(feita["arquivo"]).exists():
+            usados.add(feita.get("url") or feita["arquivo"])
+            continue
         v, midia = c["visual"], None
         fontes = []
         if v.get("real"):
             fontes.append(lambda: imagem_real(v["real"]))
-        fontes += [lambda: imagem_ia(v["ia"], esgotados, premium=c["n"] <= CENAS_PREMIUM),
-                   lambda: pixabay_foto(v["ia"], usados)]
+        # Pixabay NÃO entra como reserva: foto genérica sem relação com a fala derruba a retenção.
+        fontes.append(lambda: imagem_ia(v["ia"], esgotados, premium=c["n"] <= CENAS_PREMIUM))
         for fonte in fontes:
             try:
                 midia = fonte()
@@ -131,6 +137,9 @@ def buscar(script_id: str, pasta_script=None) -> list[dict]:
             if midia:
                 break
         if not midia:
+            salvar_json(arq_cenas, cenas)  # guarda o que já foi feito; o cache evita gerar de novo
+            if {LUCID[0], KLEIN[0], SCHNELL[0]} <= esgotados:
+                raise SemCotaIA("Cota grátis diária de imagens acabou — renova às 21h (Brasília)")
             raise RuntimeError(f"Cena {c['n']} ficou sem visual")
         usados.add(midia.get("url") or midia["arquivo"])
         c["midia"] = midia
