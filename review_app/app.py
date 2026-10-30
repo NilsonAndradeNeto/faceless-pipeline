@@ -40,6 +40,24 @@ def caracteres_elevenlabs():
         return None
 
 
+@st.fragment(run_every="2s")
+def barra_progresso(meta_path: Path):
+    """Relê o status a cada 2s e mostra a porcentagem; quando termina, recarrega a página."""
+    prod = ler_json(meta_path).get("producao", {})
+    etapa = prod.get("etapa", "na fila")
+    if etapa in ("pronto", "erro"):
+        st.rerun()
+    if etapa.startswith("aguardando"):
+        st.warning(f"⏸️ Pausado em {prod.get('progresso', 0):.0%} — cota grátis de imagens acabou hoje. "
+                   "Continua sozinho às 21h30.")
+        return
+    if etapa == "na fila":
+        st.info("⏳ Na fila — começa assim que o vídeo anterior terminar.")
+        return
+    pct = prod.get("progresso", 0)
+    st.progress(pct, text=f"**{pct:.0%}** · {prod.get('detalhe') or etapa}")
+
+
 st.set_page_config(page_title="Arquivo Sombrio — Painel", page_icon="🕯️", layout="centered")
 st.title("🕯️ Painel de aprovação")
 
@@ -135,4 +153,4 @@ with aba_videos:
                     em_segundo_plano("pipeline.produzir", "--todos")
                     st.rerun()
             else:
-                st.info(f"⏳ Produzindo: **{etapa}** (atualizado {prod.get('atualizado', '-')}). Clique em Atualizar.")
+                barra_progresso(meta_path)

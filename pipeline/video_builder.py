@@ -145,7 +145,8 @@ def escolher_musica():
     return random.choice(musicas) if musicas else None
 
 
-def montar(script_id: str, pasta_script=None) -> dict:
+def montar(script_id: str, pasta_script=None, progresso=None) -> dict:
+    avisar = progresso or (lambda *_: None)
     pasta_script = pasta_script or STORAGE / "scripts" / "approved"
     meta = ler_json(pasta_script / f"{script_id}.meta.json")
     cenas = ler_json(STORAGE / "scripts" / f"{script_id}.scenes.json")
@@ -156,7 +157,9 @@ def montar(script_id: str, pasta_script=None) -> dict:
     shutil.rmtree(trab, ignore_errors=True)
     trab.mkdir(parents=True)
 
-    for c in cenas:
+    # Cenas = 75% do tempo da montagem; mixagem + legenda final = 25%
+    for i, c in enumerate(cenas):
+        avisar(0.75 * i / len(cenas), f"Animando cena {c['n']} de {len(cenas)}")
         saida = trab / f"cena_{c['n']:03d}.mp4"
         log.info("Cena %d/%d (%s, %.1fs)", c["n"], len(cenas), c["midia"]["tipo"], c["duracao"])
         if c["midia"]["tipo"] == "video":
@@ -164,6 +167,7 @@ def montar(script_id: str, pasta_script=None) -> dict:
         else:
             cena_imagem(c["midia"], c["duracao"], saida, c["n"])
 
+    avisar(0.75, "Juntando cenas, música e legenda")
     (trab / "lista.txt").write_text("".join(f"file 'cena_{c['n']:03d}.mp4'\n" for c in cenas), encoding="utf-8")
     ffmpeg(["-f", "concat", "-safe", "0", "-i", "lista.txt", "-c", "copy", "visual.mp4"], cwd=trab)
     gerar_ass(palavras, meta["titulo"], trab / "legenda.ass")

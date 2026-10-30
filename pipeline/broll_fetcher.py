@@ -110,14 +110,16 @@ def pixabay_foto(busca: str, usados: set) -> dict | None:
     return None
 
 
-def buscar(script_id: str, pasta_script=None) -> list[dict]:
+def buscar(script_id: str, pasta_script=None, progresso=None) -> list[dict]:
     CACHE.mkdir(parents=True, exist_ok=True)
     pasta_script = pasta_script or STORAGE / "scripts" / "approved"
     arq_cenas = STORAGE / "scripts" / f"{script_id}.scenes.json"
     cenas = ler_json(arq_cenas)
     usados, esgotados = set(), set()
 
-    for c in cenas:
+    for i, c in enumerate(cenas):
+        if progresso:
+            progresso(i / len(cenas), f"Gerando imagens: cena {c['n']} de {len(cenas)}")
         # Retomada: cena que já tem imagem boa (IA ou real do artigo) não é refeita
         feita = c.get("midia")
         if feita and feita["fonte"] in ("ia", "wikimedia") and Path(feita["arquivo"]).exists():

@@ -32,11 +32,28 @@ def espaco_ok() -> bool:
     return livre >= minimo
 
 
-def status(script_id: str, etapa: str, erro: str | None = None):
+def status(script_id: str, etapa: str, erro: str | None = None, progresso: float | None = None,
+           detalhe: str = ""):
     meta_path = APROVADOS / f"{script_id}.meta.json"
     meta = ler_json(meta_path)
-    meta["producao"] = {"etapa": etapa, "erro": erro, "atualizado": time.strftime("%Y-%m-%d %H:%M")}
+    anterior = meta.get("producao", {}).get("progresso", 0)
+    meta["producao"] = {"etapa": etapa, "erro": erro, "detalhe": detalhe,
+                        "progresso": round(progresso if progresso is not None else anterior, 3),
+                        "atualizado": time.strftime("%Y-%m-%d %H:%M:%S")}
     salvar_json(meta_path, meta)
+
+
+# Fatia da barra de progresso de cada etapa (imagens e montagem são as demoradas)
+FAIXAS = {"narração": (0.00, 0.10), "plano visual": (0.10, 0.18), "imagens": (0.18, 0.60), "montagem": (0.60, 1.00)}
+
+
+def reportar(script_id: str, etapa: str):
+    """Callback que as etapas chamam com (fração 0–1, texto) para atualizar a barra."""
+    ini, fim = FAIXAS[etapa]
+
+    def _cb(fracao: float, detalhe: str = ""):
+        status(script_id, etapa, progresso=ini + (fim - ini) * min(max(fracao, 0), 1), detalhe=detalhe)
+    return _cb
 
 
 def produzir(script_id: str):
@@ -49,10 +66,12 @@ def produzir(script_id: str):
     etapas = [("narração", lambda: None if ja_narrado else narrar(script_id)),
               ("plano visual", lambda: None if (STORAGE / "scripts" / f"{script_id}.scenes.json").exists()
                else planejar(script_id)),
-              ("imagens", lambda: buscar(script_id)),
-              ("montagem", lambda: montar(script_id))]
+              ("imagens", lambda: buscar(script_id, progresso=reportar(script_id, "imagens"))),
+              ("montagem", lambda: montar(script_id, progresso=reportar(script_id, "montagem")))]
+    textos = {"narração": "Gravando narração", "plano visual": "Planejando as cenas",
+              "imagens": "Gerando imagens", "montagem": "Montando o vídeo"}
     for nome, fn in etapas:
-        status(script_id, nome)
+        status(script_id, nome, progresso=FAIXAS[nome][0], detalhe=textos[nome])
         try:
             fn()
         except SemCotaIA as e:
@@ -64,7 +83,7 @@ def produzir(script_id: str):
             log.exception("Falhou na etapa %s", nome)
             status(script_id, "erro", f"{nome}: {str(e)[:300]}")
             raise
-    status(script_id, "pronto")
+    status(script_id, "pronto", progresso=1.0)
     log.info("✅ Pronto: %s", meta["titulo"])
 
 
