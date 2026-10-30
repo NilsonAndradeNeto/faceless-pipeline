@@ -24,6 +24,8 @@ limpeza:
   espaco_minimo_livre_gb: 20        # pipeline pausa se o D: ficar abaixo disso
 
 llm:
+  # Escreve, edita e checa os roteiros. Plano grátis do Gemini (modelos Pro não têm cota grátis).
+  roteirista: { provider: gemini, model: gemini-3.5-flash }
   # llama-3.3-70b foi descontinuado no Groq; gpt-oss-120b é o substituto mais forte
   primario: { provider: groq, model: openai/gpt-oss-120b }
   fallback: { provider: openai, model: gpt-4o-mini }

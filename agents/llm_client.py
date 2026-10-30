@@ -1,4 +1,9 @@
-"""Cliente de LLM: Groq primeiro, OpenAI como fallback, com retry e log de custo."""
+"""Cliente de LLM com perfis, retry e log de custo.
+
+Perfis (config/settings.yaml → llm):
+  padrao   → Groq (grátis) → OpenAI
+  roteiro  → Gemini Flash (grátis, escreve melhor) → Groq → OpenAI
+"""
 import json
 import logging
 import os
@@ -13,7 +18,8 @@ PRECOS = {
     "openai/gpt-oss-120b": (0.15, 0.60),
     "gpt-4o-mini": (0.15, 0.60),
 }
-GROQ_GRATIS = True
+PROVEDORES_GRATIS = {"groq", "gemini"}
+GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta/openai/"
 
 
 def _chamar_groq(messages, model, json_mode, temperature):
@@ -35,22 +41,39 @@ def _chamar_openai(messages, model, json_mode, temperature):
     return OpenAI(api_key=os.environ["OPENAI_API_KEY"], max_retries=0).chat.completions.create(**kwargs)
 
 
-def _provedores():
+def _chamar_gemini(messages, model, json_mode, temperature):
+    from openai import OpenAI
+
+    kwargs = dict(model=model, messages=messages, temperature=temperature)
+    if json_mode:
+        kwargs["response_format"] = {"type": "json_object"}
+    cliente = OpenAI(api_key=os.environ["GEMINI_API_KEY"].strip(), base_url=GEMINI_BASE, max_retries=0, timeout=180)
+    return cliente.chat.completions.create(**kwargs)
+
+
+CHAMADAS = {
+    "groq": ("GROQ_API_KEY", _chamar_groq),
+    "openai": ("OPENAI_API_KEY", _chamar_openai),
+    "gemini": ("GEMINI_API_KEY", _chamar_gemini),
+}
+
+
+def _provedores(perfil: str):
     cfg = config("settings")["llm"]
-    provs = []
-    if os.getenv("GROQ_API_KEY"):
-        provs.append(("groq", cfg["primario"]["model"], _chamar_groq))
-    if os.getenv("OPENAI_API_KEY"):
-        provs.append(("openai", cfg["fallback"]["model"], _chamar_openai))
+    ordem = [cfg["primario"], cfg["fallback"]]
+    if perfil == "roteiro":
+        ordem = [cfg["roteirista"], *ordem]
+    provs = [(p["provider"], p["model"], CHAMADAS[p["provider"]][1])
+             for p in ordem if os.getenv(CHAMADAS[p["provider"]][0])]
     if not provs:
-        raise RuntimeError("Nenhuma chave de LLM no .env (GROQ_API_KEY ou OPENAI_API_KEY).")
+        raise RuntimeError("Nenhuma chave de LLM no .env (GEMINI_API_KEY, GROQ_API_KEY ou OPENAI_API_KEY).")
     return provs
 
 
 def _espera_limite(erro) -> float | None:
     """Se for limite de taxa (429), devolve quantos segundos o provedor pede para esperar."""
     resp = getattr(erro, "response", None)
-    if getattr(erro, "status_code", None) != 429 or resp is None:
+    if getattr(erro, "status_code", None) not in (429, 503) or resp is None:
         return None
     try:
         return min(float(resp.headers.get("retry-after", 30)) + 2, 90)
@@ -58,13 +81,23 @@ def _espera_limite(erro) -> float | None:
         return 30
 
 
-def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", tentativas=3, esperas_limite=6):
+def _extrair_json(texto: str):
+    """Aceita JSON puro ou dentro de bloco ```json```."""
+    texto = texto.strip()
+    if texto.startswith("```"):
+        texto = texto.split("\n", 1)[1].rsplit("```", 1)[0]
+    return json.loads(texto)
+
+
+def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", perfil="padrao",
+         tentativas=3, esperas_limite=6):
     """Envia mensagens ao LLM. Com json_mode=True devolve dict; senão, texto.
 
-    Limite de taxa (429) do plano grátis não conta como falha: espera o tempo pedido e tenta de novo.
+    Limite de taxa (429) e sobrecarga (503) do plano grátis não contam como falha:
+    espera e tenta de novo.
     """
     ultimo_erro = None
-    for nome, model, fn in _provedores():
+    for nome, model, fn in _provedores(perfil):
         falhas = limites = 0
         while falhas < tentativas:
             inicio = time.time()
@@ -72,7 +105,7 @@ def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", tentativas=
                 r = fn(messages, model, json_mode, temperature)
                 texto = r.choices[0].message.content or ""
                 _registrar(nome, model, tarefa, r.usage, time.time() - inicio)
-                return json.loads(texto) if json_mode else texto
+                return _extrair_json(texto) if json_mode else texto
             except json.JSONDecodeError as e:
                 ultimo_erro, falhas = e, falhas + 1
                 log.warning("%s devolveu JSON inválido (tentativa %d)", nome, falhas)
@@ -98,7 +131,7 @@ def _registrar(provedor, model, tarefa, usage, segundos):
     entrada = getattr(usage, "prompt_tokens", 0) or 0
     saida = getattr(usage, "completion_tokens", 0) or 0
     p_in, p_out = PRECOS.get(model, (0, 0))
-    custo = 0.0 if (provedor == "groq" and GROQ_GRATIS) else (entrada * p_in + saida * p_out) / 1e6
+    custo = 0.0 if provedor in PROVEDORES_GRATIS else (entrada * p_in + saida * p_out) / 1e6
     anexar_jsonl(STORAGE / "logs" / "llm.jsonl", {
         "ts": time.strftime("%Y-%m-%dT%H:%M:%S"), "provedor": provedor, "modelo": model,
         "tarefa": tarefa, "tokens_entrada": entrada, "tokens_saida": saida,

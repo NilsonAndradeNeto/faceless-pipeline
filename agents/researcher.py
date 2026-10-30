@@ -15,7 +15,7 @@ log = logging.getLogger("researcher")
 
 HISTORICO = STORAGE / "topics" / "history.jsonl"
 WIKI_HEADERS = {"User-Agent": "faceless-pipeline/0.1 (pesquisa educacional)"}
-MAX_CHARS_FONTE = 6000
+MAX_CHARS_FONTE = 10000
 
 
 def temas_usados() -> set[str]:

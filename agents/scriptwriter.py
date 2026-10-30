@@ -10,7 +10,12 @@ import re
 import shutil
 
 from agents.common import STORAGE, ler_json, salvar_json
-from agents.llm_client import chat
+from functools import partial
+
+from agents import llm_client
+
+# Todas as etapas do roteiro usam o perfil "roteiro" (modelo que escreve melhor)
+chat = partial(llm_client.chat, perfil="roteiro")
 
 log = logging.getLogger("scriptwriter")
 
@@ -76,11 +81,15 @@ Responda em JSON:
   "roteiro_melhorado": "..."
 }}"""
 
-PROMPT_PROVAS = """Liste CADA afirmação factual do ROTEIRO (nomes, datas, números, eventos, causas, objetos,
-o que foi encontrado, quem fez o quê). Para cada uma, copie das FONTES a frase que a comprova,
-EXATAMENTE como está escrita na fonte (copiar e colar, sem traduzir, sem resumir, 8 a 40 palavras).
-Se nenhuma frase da fonte comprova, use "citacao": null. Seja rigoroso: detalhe dramatizado
-que não está na fonte (ex.: "marcas de dentes" quando a fonte diz "marcas de faca") = null.
+PROMPT_PROVAS = """Você é checador de fatos. Analise CADA frase do ROTEIRO contra as FONTES e classifique:
+- "comprovado": o fato está nas fontes (mesmo que com outras palavras ou em outro idioma).
+  Copie em "citacao" um trecho curto da fonte, exatamente como está escrito lá.
+- "estilo": frase sem fato verificável — clima, emoção, transição, pergunta ao público
+  ("o frio era insuportável", "o que encontraram é pior", "e você, o que faria?"). Isso é permitido.
+- "sem_base": afirma um fato concreto (número, data, nome, causa, evento, tempo decorrido, conclusão)
+  que as fontes NÃO trazem.
+- "contradiz": as fontes dizem outra coisa (ex.: roteiro diz "séculos depois", fonte mostra 170 anos;
+  roteiro diz "marcas de dentes", fonte diz "marcas de faca"; roteiro diz "assassinos", fonte só fala em canibalismo).
 
 FONTES:
 {fontes}
@@ -88,11 +97,14 @@ FONTES:
 ROTEIRO:
 {roteiro}
 
-Responda em JSON: {{"afirmacoes": [{{"trecho": "trecho do roteiro", "citacao": "frase exata da fonte ou null"}}]}}"""
+Responda em JSON:
+{{"frases": [{{"trecho": "frase do roteiro", "veredito": "comprovado|estilo|sem_base|contradiz",
+  "citacao": "trecho da fonte ou null", "motivo": "só para sem_base/contradiz"}}]}}"""
 
-PROMPT_CORRECAO = """Reescreva o ROTEIRO removendo ou corrigindo os trechos SEM COMPROVAÇÃO listados abaixo.
-Use só o que as FONTES dizem. Mantenha idioma ({idioma}), estilo, ritmo, gancho e 165–190 palavras.
-Se o gancho ou o clímax dependiam de um trecho sem comprovação, troque por outro fato forte das fontes.
+PROMPT_CORRECAO = """Corrija SOMENTE as frases problemáticas listadas abaixo. Todas as outras frases do ROTEIRO
+devem permanecer EXATAMENTE iguais, palavra por palavra.
+Para cada frase problemática: troque o fato errado pelo que as FONTES dizem, ou apague a frase se não houver
+equivalente. Mantenha idioma ({idioma}), o tom e frases curtas. Nada de linguagem de enciclopédia.
 
 FONTES:
 {fontes}
@@ -100,7 +112,7 @@ FONTES:
 ROTEIRO:
 {roteiro}
 
-TRECHOS SEM COMPROVAÇÃO:
+FRASES PROBLEMÁTICAS:
 {problemas}
 
 Responda em JSON: {{"roteiro_corrigido": "..."}}"""
@@ -121,22 +133,30 @@ def citacao_existe(citacao: str | None, fontes_norm: str) -> bool:
     return any(" ".join(palavras[i:i + 6]) in fontes_norm for i in range(len(palavras) - 5))
 
 
-def checar_fatos(roteiro: str, fontes_txt: str, lang: str, rodadas: int = 2) -> tuple[str, list]:
+def checar_fatos(roteiro: str, fontes_txt: str, lang: str, rodadas: int = 2) -> tuple[str, list, list]:
+    """Devolve (roteiro, problemas_restantes, atencao).
+
+    problemas = sem_base/contradiz → corrigidos automaticamente.
+    atencao = "comprovado" cuja citação não foi achada literalmente na fonte → painel destaca para revisão humana.
+    """
     fontes_norm = _normalizar(fontes_txt)
-    problemas = []
+    problemas, atencao = [], []
     for rodada in range(1, rodadas + 1):
         p = chat([{"role": "user", "content": PROMPT_PROVAS.format(fontes=fontes_txt, roteiro=roteiro)}],
                  json_mode=True, temperature=0, tarefa="provas")
-        problemas = [a for a in p.get("afirmacoes", []) if not citacao_existe(a.get("citacao"), fontes_norm)]
-        log.info("Checagem %d: %d afirmações, %d sem comprovação", rodada, len(p.get("afirmacoes", [])), len(problemas))
+        frases = p.get("frases", [])
+        problemas = [f for f in frases if f.get("veredito") in ("sem_base", "contradiz")]
+        atencao = [f["trecho"] for f in frases
+                   if f.get("veredito") == "comprovado" and not citacao_existe(f.get("citacao"), fontes_norm)]
+        log.info("Checagem %d: %d frases, %d com problema, %d para conferir", rodada, len(frases), len(problemas), len(atencao))
         if not problemas:
-            return roteiro, []
-        lista = "\n".join(f"- {a['trecho']}" for a in problemas)
+            break
+        lista = "\n".join(f"- \"{f['trecho']}\" → {f.get('veredito')}: {f.get('motivo', '')}" for f in problemas)
         log.info("Corrigindo:\n%s", lista)
         roteiro = chat([{"role": "user", "content": PROMPT_CORRECAO.format(
             idioma=IDIOMA[lang], fontes=fontes_txt, roteiro=roteiro, problemas=lista)}],
             json_mode=True, temperature=0.3, tarefa="correcao")["roteiro_corrigido"]
-    return roteiro, problemas
+    return roteiro, [f["trecho"] for f in problemas], atencao
 
 
 def formatar_fontes(fontes):
@@ -158,7 +178,7 @@ def escrever(topico: dict) -> dict:
     log.info("Notas do editor (antes de reescrever): %s", e.get("notas"))
 
     log.info("Checando fatos (cada afirmação precisa de citação real da fonte)...")
-    roteiro, pendentes = checar_fatos(editado, fontes_txt, topico["lang"])
+    roteiro, pendentes, atencao = checar_fatos(editado, fontes_txt, topico["lang"])
     meta = {
         "id": topico["id"], "lang": topico["lang"], "tema": topico["tema"],
         "titulo": r["titulo"], "hook": roteiro.split(".")[0].strip() + ".",
@@ -166,8 +186,8 @@ def escrever(topico: dict) -> dict:
         "palavras": len(roteiro.split()), "caracteres": len(roteiro),
         "notas_editor_antes": e.get("notas"),
         # Se sobrar algo sem comprovação após as rodadas, o painel de revisão destaca em vermelho
-        "checagem": {"sem_comprovacao": [a["trecho"] for a in pendentes],
-                     "confianca": "alta" if not pendentes else "baixa"},
+        "checagem": {"sem_comprovacao": pendentes, "conferir": atencao,
+                     "confianca": "baixa" if pendentes else ("media" if atencao else "alta")},
         "versoes": {"rascunho": r["roteiro"], "editado": editado},
         "fontes": [{"titulo": f["titulo"], "url": f["url"]} for f in topico["fontes"]],
     }
