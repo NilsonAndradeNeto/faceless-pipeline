@@ -127,7 +127,8 @@ def planejar(script_id: str, pasta_script=None) -> list[dict]:
     lista_cenas = "\n".join(f"{c['n']}. ({c['duracao']:.1f}s) {c['texto']}" for c in cenas)
 
     r = chat([{"role": "user", "content": PROMPT.format(tema=meta["tema"], reais=lista_reais, cenas=lista_cenas)}],
-             json_mode=True, temperature=0.5, tarefa="visual", perfil="roteiro")  # qualidade: Gemini primeiro
+             json_mode=True, temperature=0.5, tarefa="visual", perfil="roteiro",
+             reserva=False)  # qualidade: só Gemini; se estiver no limite, a produção pausa e retoma
     por_n = {c["n"]: c for c in r.get("cenas", [])}
     # A época vai na frente de todo prompt: sem isso a IA mistura navio moderno, tela, tatuagem...
     epoca = r.get("epoca") or meta["tema"]

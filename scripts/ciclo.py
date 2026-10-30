@@ -20,7 +20,6 @@ from datetime import date, datetime, timedelta
 from agents import progresso
 from agents.common import STORAGE, config, idiomas, ler_json, salvar_json
 from pipeline import produzir as prod
-from pipeline.broll_fetcher import SemCotaIA
 from pipeline.publicar import PLATAFORMAS, ContaNaoConectada, publicar
 
 log = logging.getLogger("ciclo")
@@ -169,15 +168,12 @@ def produzir_aprovados():
         return
 
     def rodar():
-        for sid in prod.pendentes_de_producao():
-            try:
-                prod.produzir(sid)
-            except SemCotaIA:
-                COTA_ESGOTADA.write_text(datetime.now().isoformat())
-                log.info("Cota de imagens acabou — produção continua depois das 21h")
-                return
-            except Exception:
-                log.exception("Falha ao produzir %s (segue para o próximo)", sid)
+        faltou = prod.produzir_fila()
+        if faltou == "imagens":
+            COTA_ESGOTADA.write_text(datetime.now().isoformat())
+            log.info("Cota de imagens acabou — narração/plano adiantados; imagens depois das 21h")
+        elif faltou == "gemini":
+            log.info("Gemini no limite — produção retoma no próximo ciclo")
     prod.com_trava(rodar)
 
 

@@ -55,8 +55,7 @@ def barra_progresso(meta_path: Path):
     if etapa in ("pronto", "erro"):
         st.rerun()
     if etapa.startswith("aguardando"):
-        st.warning(f"⏸️ Pausado em {prod.get('progresso', 0):.0%} — cota grátis de imagens acabou hoje. "
-                   "Continua sozinho às 21h30.")
+        st.warning(f"⏸️ Pausado em {prod.get('progresso', 0):.0%} — {etapa}.")
         return
     if etapa == "na fila":
         st.info("⏳ Na fila — começa assim que o vídeo anterior terminar.")

@@ -13,6 +13,7 @@ import time
 
 from agents.common import STORAGE, ler_json, salvar_json
 from agents.visual_planner import planejar
+from agents.llm_client import CotaEsgotada
 from pipeline.broll_fetcher import SemCotaIA, buscar
 from pipeline.tts import narrar
 from pipeline.video_builder import montar
@@ -56,7 +57,8 @@ def reportar(script_id: str, etapa: str):
     return _cb
 
 
-def produzir(script_id: str):
+def produzir(script_id: str, ate: str | None = None):
+    """Produz o vídeo. Com ate="plano visual", só adianta narração e plano (quando não há cota de imagens)."""
     meta = ler_json(APROVADOS / f"{script_id}.meta.json")
     if (STORAGE / "shorts" / "ready" / f"{script_id}.mp4").exists() and meta.get("producao", {}).get("etapa") == "pronto":
         log.info("%s já está pronto", script_id)
@@ -77,12 +79,20 @@ def produzir(script_id: str):
         except SemCotaIA as e:
             # Não é erro: o agendador retoma depois que a cota renova (narração já feita é reaproveitada)
             log.warning("%s", e)
-            status(script_id, "aguardando cota de imagens (renova 21h)")
+            status(script_id, "aguardando cota de imagens (renova às 21h)")
+            raise
+        except CotaEsgotada as e:
+            log.warning("%s", e)
+            status(script_id, "aguardando cota do Gemini (qualidade em primeiro — retoma sozinho)")
             raise
         except Exception as e:
             log.exception("Falhou na etapa %s", nome)
             status(script_id, "erro", f"{nome}: {str(e)[:300]}")
             raise
+        if nome == ate:
+            status(script_id, "aguardando cota de imagens (renova às 21h)")
+            log.info("Adiantado até '%s': %s", ate, meta["titulo"])
+            return
     status(script_id, "pronto", progresso=1.0)
     log.info("✅ Pronto: %s", meta["titulo"])
 
@@ -94,6 +104,21 @@ def pendentes_de_producao() -> list[str]:
         if meta.get("producao", {}).get("etapa") not in ("pronto",):
             ids.append(meta["id"])
     return ids
+
+
+def produzir_fila() -> str | None:
+    """Produz todos os aprovados. Devolve o que faltou: "imagens", "gemini" ou None (tudo certo)."""
+    sem_imagens = False
+    for sid in pendentes_de_producao():
+        try:
+            produzir(sid, ate="plano visual" if sem_imagens else None)
+        except SemCotaIA:
+            sem_imagens = True  # os próximos só adiantam narração e plano
+        except CotaEsgotada:
+            return "gemini"     # sem Gemini os próximos também param no plano visual
+        except Exception:
+            log.exception("Falha ao produzir %s (segue para o próximo)", sid)
+    return "imagens" if sem_imagens else None
 
 
 def com_trava(fn):
@@ -117,13 +142,12 @@ if __name__ == "__main__":
     def rodar():
         if not espaco_ok():
             return
-        for sid in ([a.id] if a.id else pendentes_de_producao()):
+        if a.id:
             try:
-                produzir(sid)
-            except SemCotaIA:
-                break  # sem imagens hoje: os próximos também iam parar aqui
-            except Exception:
-                if a.id:
-                    raise
+                produzir(a.id)
+            except (SemCotaIA, CotaEsgotada):
+                pass  # status já registrado; retoma sozinho
+        else:
+            produzir_fila()
 
     com_trava(rodar)

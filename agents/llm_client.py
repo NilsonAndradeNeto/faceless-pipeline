@@ -94,12 +94,16 @@ def _extrair_json(texto: str):
     return json.loads(texto)
 
 
-RODADAS_QUALIDADE = 6        # perfil "roteiro": quantas voltas pelos modelos Gemini antes de aceitar o Groq
+class CotaEsgotada(RuntimeError):
+    """Gemini no limite e o chamador pediu para não usar modelo mais fraco (produção pausa e retoma depois)."""
+
+
+RODADAS_QUALIDADE = 6       # perfil "roteiro": quantas voltas pelos modelos Gemini antes de aceitar o Groq
 PAUSA_ENTRE_RODADAS = 300    # segundos (6 voltas ≈ 30 min esperando a cota liberar)
 
 
 def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", perfil="padrao",
-         tentativas=3, esperas_limite=6):
+         tentativas=3, esperas_limite=6, reserva=True):
     """Envia mensagens ao LLM. Com json_mode=True devolve dict; senão, texto.
 
     Limite de taxa (429) e sobrecarga (503) do plano grátis não contam como falha:
@@ -111,12 +115,15 @@ def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", perfil="pad
     provs = _provedores(perfil)
     melhores = [p for p in provs if p[0] == "gemini"]
     reservas = [p for p in provs if p[0] != "gemini"]
-    for rodada in range(1, RODADAS_QUALIDADE + 1):
+    rodadas = RODADAS_QUALIDADE if reserva else 1
+    for rodada in range(1, rodadas + 1):
         if not melhores:
             break
         try:
             return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
         except RuntimeError:
+            if not reserva:
+                raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
             if rodada < RODADAS_QUALIDADE:
                 log.info("Todos os modelos Gemini no limite — esperando %ds pela cota (prioridade: qualidade, %d/%d)",
                          PAUSA_ENTRE_RODADAS, rodada, RODADAS_QUALIDADE)
