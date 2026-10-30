@@ -5,6 +5,7 @@ Rodar: uv run streamlit run review_app/app.py --server.port 3200
 import shutil
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 import streamlit as st
@@ -16,6 +17,7 @@ PENDENTES = STORAGE / "scripts" / "pending"
 APROVADOS = STORAGE / "scripts" / "approved"
 REJEITADOS = STORAGE / "scripts" / "rejected"
 PRONTOS = STORAGE / "shorts" / "ready"
+JOBS = STORAGE / "jobs"
 BANDEIRA = {"pt": "🇧🇷", "es": "🇪🇸"}
 
 # Processos em segundo plano: prioridade baixa e sem janela
@@ -58,6 +60,35 @@ def barra_progresso(meta_path: Path):
     st.progress(pct, text=f"**{pct:.0%}** · {prod.get('detalhe') or etapa}")
 
 
+@st.fragment(run_every="2s")
+def roteiros_em_andamento():
+    """Barra de cada roteiro sendo escrito; quando termina, recarrega pra mostrar o roteiro novo."""
+    jobs = JOBS.glob("roteiro_*.json") if JOBS.exists() else []
+    for arq in sorted(jobs):
+        try:
+            job = ler_json(arq)
+        except Exception:
+            continue  # arquivo sendo escrito neste instante
+        if job["estado"] == "pronto":
+            arq.unlink(missing_ok=True)
+            st.rerun()
+        with st.container(border=True):
+            minutos = (time.time() - job["inicio"]) / 60
+            if job["estado"] == "erro":
+                st.error(f"❌ {job['titulo']} falhou: {job.get('erro')}")
+                if st.button("Fechar aviso", key=f"fechar_{arq.stem}"):
+                    arq.unlink(missing_ok=True)
+                    st.rerun()
+            elif time.time() - job["atualizado"] > 20 * 60:
+                st.warning(f"⚠️ {job['titulo']} parou de responder há mais de 20 min.")
+                if st.button("Fechar aviso", key=f"fechar_{arq.stem}"):
+                    arq.unlink(missing_ok=True)
+                    st.rerun()
+            else:
+                st.caption(f"✍️ {job['titulo']} · {minutos:.0f} min")
+                st.progress(job["progresso"], text=f"**{job['progresso']:.0%}** · {job['detalhe']}")
+
+
 st.set_page_config(page_title="Arquivo Sombrio — Painel", page_icon="🕯️", layout="centered")
 st.title("🕯️ Painel de aprovação")
 
@@ -74,14 +105,15 @@ with st.sidebar:
     st.divider()
     lang = st.selectbox("Gerar roteiro em", ["pt", "es"], format_func=lambda l: f"{BANDEIRA[l]} {l.upper()}")
     if st.button("✍️ Gerar 1 roteiro novo agora", use_container_width=True):
-        em_segundo_plano("scripts.novo_roteiro", "--lang", lang)
-        st.success("Gerando em segundo plano (5–10 min). Atualize a página depois.")
+        em_segundo_plano("scripts.novo_roteiro", "--lang", lang, "--job", f"roteiro_{int(time.time())}")
+        st.success("Começou! Acompanhe a barra na aba Roteiros.")
     if st.button("🔄 Atualizar", use_container_width=True):
         st.rerun()
 
 aba_roteiros, aba_videos = st.tabs([f"📝 Roteiros ({len(pendentes)})", f"🎬 Vídeos ({len(aprovados)})"])
 
 with aba_roteiros:
+    roteiros_em_andamento()
     if not pendentes:
         st.info("Nenhum roteiro esperando. Use **Gerar 1 roteiro novo** na barra lateral.")
     for meta_path in pendentes:
@@ -123,8 +155,8 @@ with aba_roteiros:
                 if topico.exists():
                     shutil.move(topico, STORAGE / "topics" / "pending" / topico.name)
                 mover(sid, PENDENTES, REJEITADOS)
-                em_segundo_plano("agents.scriptwriter", "--id", sid)
-                st.info("Reescrevendo em segundo plano (5–10 min).")
+                em_segundo_plano("scripts.novo_roteiro", "--refazer", sid, "--job", f"roteiro_{int(time.time())}")
+                st.info("Reescrevendo — acompanhe a barra no topo desta aba.")
                 st.rerun()
             if c3.button("❌ Rejeitar", key=f"x_{sid}", use_container_width=True):
                 mover(sid, PENDENTES, REJEITADOS)

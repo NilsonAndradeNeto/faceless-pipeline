@@ -9,6 +9,7 @@ import logging
 import os
 import time
 
+from agents import progresso
 from agents.common import STORAGE, anexar_jsonl, config
 
 log = logging.getLogger("llm")
@@ -116,6 +117,7 @@ def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", perfil="pad
                     limites += 1
                     log.info("%s: limite por minuto atingido, aguardando %.0fs (%d/%d)",
                              nome, espera, limites, esperas_limite)
+                    progresso.atualizar(detalhe=f"Esperando o limite grátis do {nome.title()} liberar (~{espera:.0f}s)…")
                     time.sleep(espera)
                     continue
                 falhas += 1

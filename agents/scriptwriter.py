@@ -12,7 +12,7 @@ import shutil
 from agents.common import STORAGE, ler_json, salvar_json
 from functools import partial
 
-from agents import llm_client
+from agents import llm_client, progresso
 
 # Todas as etapas do roteiro usam o perfil "roteiro" (modelo que escreve melhor)
 chat = partial(llm_client.chat, perfil="roteiro")
@@ -142,6 +142,7 @@ def checar_fatos(roteiro: str, fontes_txt: str, lang: str, rodadas: int = 2) -> 
     fontes_norm = _normalizar(fontes_txt)
     problemas, atencao = [], []
     for rodada in range(1, rodadas + 1):
+        progresso.atualizar(0.50 + 0.22 * (rodada - 1), f"Checando os fatos com as fontes (rodada {rodada})")
         p = chat([{"role": "user", "content": PROMPT_PROVAS.format(fontes=fontes_txt, roteiro=roteiro)}],
                  json_mode=True, temperature=0, tarefa="provas")
         frases = p.get("frases", [])
@@ -153,6 +154,7 @@ def checar_fatos(roteiro: str, fontes_txt: str, lang: str, rodadas: int = 2) -> 
             break
         lista = "\n".join(f"- \"{f['trecho']}\" → {f.get('veredito')}: {f.get('motivo', '')}" for f in problemas)
         log.info("Corrigindo:\n%s", lista)
+        progresso.atualizar(0.61 + 0.22 * (rodada - 1), f"Corrigindo {len(problemas)} frase(s) sem base na fonte")
         roteiro = chat([{"role": "user", "content": PROMPT_CORRECAO.format(
             idioma=IDIOMA[lang], fontes=fontes_txt, roteiro=roteiro, problemas=lista)}],
             json_mode=True, temperature=0.3, tarefa="correcao")["roteiro_corrigido"]
@@ -166,11 +168,13 @@ def formatar_fontes(fontes):
 def escrever(topico: dict) -> dict:
     fontes_txt = formatar_fontes(topico["fontes"])
     log.info("Escrevendo roteiro: %s", topico["tema"])
+    progresso.atualizar(0.15, "Escrevendo o roteiro")
     r = chat([{"role": "user", "content": PROMPT_ROTEIRO.format(
         idioma=IDIOMA[topico["lang"]], tema=topico["tema"], fontes=fontes_txt)}],
         json_mode=True, temperature=0.8, tarefa="roteiro")
 
     log.info("Editando para retenção...")
+    progresso.atualizar(0.33, "Editando pra prender a atenção (gancho, ritmo, final)")
     e = chat([{"role": "user", "content": PROMPT_CRITICA.format(
         idioma=IDIOMA[topico["lang"]], roteiro=r["roteiro"])}],
         json_mode=True, temperature=0.6, tarefa="critica")
