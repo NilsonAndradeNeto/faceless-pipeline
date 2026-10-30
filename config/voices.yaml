@@ -12,7 +12,7 @@ es:
   principal: { nome: George, id: JBFqnCBsd6RMkjVDRZzb }
   alternativa: { nome: Brian, id: nPczCjzI2devNBz1zQrb }
 
-# Fallback local (CPU) quando a cota do ElevenLabs acabar
-xtts:
-  pt: { speaker: "Damien Black" }
-  es: { speaker: "Damien Black" }
+# Reserva grátis quando o ElevenLabs falhar ou a cota acabar (fala PT e ES com a mesma voz).
+# Outras vozes: Algenib (rouca), Enceladus (sussurrada), Orus (firme), Fenrir (intensa).
+gemini:
+  voz: Charon
