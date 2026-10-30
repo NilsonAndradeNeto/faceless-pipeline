@@ -64,8 +64,12 @@ def _provedores(perfil: str):
     ordem = [cfg["primario"], cfg["fallback"]]
     if perfil == "roteiro":
         ordem = [cfg["roteirista"], *ordem]
-    provs = [(p["provider"], p["model"], CHAMADAS[p["provider"]][1])
-             for p in ordem if os.getenv(CHAMADAS[p["provider"]][0])]
+    provs = []
+    for p in ordem:
+        if not os.getenv(CHAMADAS[p["provider"]][0]):
+            continue
+        modelos = p["model"] if isinstance(p["model"], list) else [p["model"]]
+        provs += [(p["provider"], m, CHAMADAS[p["provider"]][1]) for m in modelos]
     if not provs:
         raise RuntimeError("Nenhuma chave de LLM no .env (GEMINI_API_KEY, GROQ_API_KEY ou OPENAI_API_KEY).")
     return provs
@@ -98,7 +102,10 @@ def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", perfil="pad
     espera e tenta de novo.
     """
     ultimo_erro = None
-    for nome, model, fn in _provedores(perfil):
+    provedores = _provedores(perfil)
+    for i, (nome, model, fn) in enumerate(provedores):
+        # Se o próximo da lista é outro modelo do mesmo provedor (cota separada), troca em vez de esperar
+        tem_irmao = i + 1 < len(provedores) and provedores[i + 1][0] == nome
         falhas = limites = 0
         while falhas < tentativas:
             inicio = time.time()
@@ -113,6 +120,9 @@ def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", perfil="pad
             except Exception as e:
                 ultimo_erro = e
                 espera = _espera_limite(e)
+                if espera is not None and tem_irmao:
+                    log.info("%s/%s no limite, trocando para %s", nome, model, provedores[i + 1][1])
+                    break
                 if espera is not None and limites < esperas_limite:
                     limites += 1
                     log.info("%s: limite por minuto atingido, aguardando %.0fs (%d/%d)",
@@ -125,7 +135,8 @@ def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", perfil="pad
                 log.warning("%s falhou (tentativa %d/%d): %s", nome, falhas, tentativas, str(e)[:120])
                 if falhas < tentativas:
                     time.sleep(espera)
-        log.warning("Desistindo de %s, tentando próximo provedor", nome)
+        else:
+            log.warning("Desistindo de %s/%s, tentando o próximo", nome, model)
     raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
 
 
