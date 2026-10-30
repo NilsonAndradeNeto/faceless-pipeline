@@ -1,0 +1,9 @@
+# Contas de destino por idioma. Preencha conforme for criando os canais.
+pt:
+  youtube: { channel_id: "", token_file: credentials/youtube_pt.token.json }
+  tiktok: { username: "" }
+  instagram: { ig_user_id: "", token_env: IG_TOKEN_PT }
+es:
+  youtube: { channel_id: "", token_file: credentials/youtube_es.token.json }
+  tiktok: { username: "" }
+  instagram: { ig_user_id: "", token_env: IG_TOKEN_ES }

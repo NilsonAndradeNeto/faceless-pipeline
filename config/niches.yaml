@@ -1,0 +1,107 @@
+# Temas pré-aprovados. score sobe/desce com o desempenho (analyst.py).
+# usado: true quando já virou Short. banido: true pra nunca mais usar.
+# Regra: só fatos históricos/documentados. Lendas e boatos entram como "o que se sabe de verdade".
+
+pt:
+  - { tema: "O mistério da expedição perdida de Franklin no Ártico", score: 0 }
+  - { tema: "O que aconteceu com a colônia perdida de Roanoke", score: 0 }
+  - { tema: "O incidente do Passo Dyatlov: nove alpinistas mortos nos Urais", score: 0 }
+  - { tema: "O desaparecimento de Amelia Earhart sobre o Pacífico", score: 0 }
+  - { tema: "Mary Celeste: o navio encontrado intacto e sem ninguém a bordo", score: 0 }
+  - { tema: "O Manuscrito Voynich, o livro que ninguém consegue ler", score: 0 }
+  - { tema: "O Homem de Somerton e o bilhete 'Tamam Shud'", score: 0 }
+  - { tema: "O mecanismo de Anticítera, o 'computador' da Grécia antiga", score: 0 }
+  - { tema: "Por que as Linhas de Nazca só fazem sentido vistas do céu", score: 0 }
+  - { tema: "O sumiço do coronel Percy Fawcett na Amazônia brasileira", score: 0 }
+  - { tema: "O Voo 19 e a origem da fama do Triângulo das Bermudas", score: 0 }
+  - { tema: "A epidemia de dança de 1518 em Estrasburgo", score: 0 }
+  - { tema: "O túmulo perdido de Gengis Khan", score: 0 }
+  - { tema: "Como a Biblioteca de Alexandria foi realmente perdida", score: 0 }
+  - { tema: "Como os moais da Ilha de Páscoa foram movidos", score: 0 }
+  - { tema: "O poço do dinheiro de Oak Island", score: 0 }
+  - { tema: "D.B. Cooper: o sequestrador de avião que nunca foi encontrado", score: 0 }
+  - { tema: "O sinal 'Wow!' captado do espaço em 1977", score: 0 }
+  - { tema: "Por que ninguém abre o túmulo de Qin Shi Huang", score: 0 }
+  - { tema: "Os três faroleiros que sumiram das Ilhas Flannan", score: 0 }
+  - { tema: "Quem era o Homem da Máscara de Ferro", score: 0 }
+  - { tema: "Kaspar Hauser, o jovem que surgiu do nada em Nuremberg", score: 0 }
+  - { tema: "As crianças verdes de Woolpit", score: 0 }
+  - { tema: "O desaparecimento da Sala de Âmbar na Segunda Guerra", score: 0 }
+  - { tema: "Como Stonehenge foi construído há 5 mil anos", score: 0 }
+  - { tema: "O Evento de Tunguska: a explosão que derrubou 80 milhões de árvores", score: 0 }
+  - { tema: "O naufrágio do Batavia e o motim mais sangrento da história", score: 0 }
+  - { tema: "Göbekli Tepe, o templo mais antigo do mundo", score: 0 }
+  - { tema: "SS Baychimo, o navio fantasma que vagou 38 anos no Ártico", score: 0 }
+  - { tema: "A língua etrusca, que ainda ninguém entende direito", score: 0 }
+  - { tema: "Jack, o Estripador: o que a investigação realmente descobriu", score: 0 }
+  - { tema: "A 'maldição' de Tutancâmon: o que é verdade", score: 0 }
+  - { tema: "Ötzi, o homem do gelo assassinado há 5.300 anos", score: 0 }
+  - { tema: "De onde veio a lenda da Atlântida de Platão", score: 0 }
+  - { tema: "O Disco de Festo, a escrita que não tem tradução", score: 0 }
+  - { tema: "O caso de Hinterkaifeck, o crime sem solução da Baviera", score: 0 }
+  - { tema: "Rongorongo, a escrita perdida da Ilha de Páscoa", score: 0 }
+  - { tema: "A erosão da Esfinge de Gizé e a polêmica sobre sua idade", score: 0 }
+  - { tema: "O caso Varginha de 1996: o que os documentos mostram", score: 0 }
+  - { tema: "A Operação Prato: a investigação da FAB no Pará em 1977", score: 0 }
+  - { tema: "A Pedra do Ingá, o enigma gravado na Paraíba", score: 0 }
+  - { tema: "As inscrições da Pedra da Gávea no Rio de Janeiro", score: 0 }
+  - { tema: "O tesouro de Lima que sumiu no Pacífico", score: 0 }
+  - { tema: "O incidente de Roswell em 1947: a versão oficial e a real", score: 0 }
+  - { tema: "A Planície dos Jarros no Laos", score: 0 }
+  - { tema: "Por que a civilização maia clássica colapsou", score: 0 }
+  - { tema: "O fim dos Templários e o tesouro que nunca apareceu", score: 0 }
+  - { tema: "O Sudário de Turim: o que a ciência já descobriu", score: 0 }
+  - { tema: "A 'Bateria de Bagdá': pilha antiga ou mal-entendido?", score: 0 }
+  - { tema: "O desaparecimento do voo MH370", score: 0 }
+
+es:
+  - { tema: "El misterio de Ötzi, el hombre de los hielos", score: 0 }
+  - { tema: "La desaparición del vuelo Star Dust en los Andes (1947)", score: 0 }
+  - { tema: "Paititi, la ciudad perdida de los incas", score: 0 }
+  - { tema: "Por qué fue abandonada Machu Picchu", score: 0 }
+  - { tema: "Puma Punku y la precisión de sus piedras", score: 0 }
+  - { tema: "Quién construyó Teotihuacán", score: 0 }
+  - { tema: "El tesoro perdido de Moctezuma", score: 0 }
+  - { tema: "El galeón San José y su tesoro hundido", score: 0 }
+  - { tema: "El cenote sagrado de Chichén Itzá", score: 0 }
+  - { tema: "El Códice de Dresde y la astronomía maya", score: 0 }
+  - { tema: "Las líneas de Nazca: para qué servían", score: 0 }
+  - { tema: "La Zona del Silencio en México: mito y realidad", score: 0 }
+  - { tema: "Las calaveras de cristal: el fraude que engañó a museos", score: 0 }
+  - { tema: "La tragedia de los Andes de 1972", score: 0 }
+  - { tema: "El colapso de la civilización maya clásica", score: 0 }
+  - { tema: "El incidente del Paso Dyatlov", score: 0 }
+  - { tema: "La colonia perdida de Roanoke", score: 0 }
+  - { tema: "La desaparición de Amelia Earhart", score: 0 }
+  - { tema: "El Mary Celeste, el barco sin tripulación", score: 0 }
+  - { tema: "El Manuscrito Voynich", score: 0 }
+  - { tema: "El caso del Hombre de Somerton", score: 0 }
+  - { tema: "El mecanismo de Anticitera", score: 0 }
+  - { tema: "La expedición perdida de Franklin", score: 0 }
+  - { tema: "La epidemia de baile de 1518", score: 0 }
+  - { tema: "La tumba perdida de Gengis Kan", score: 0 }
+  - { tema: "La tumba sellada del primer emperador de China", score: 0 }
+  - { tema: "El Hombre de la Máscara de Hierro", score: 0 }
+  - { tema: "Kaspar Hauser, el joven que apareció de la nada", score: 0 }
+  - { tema: "Los niños verdes de Woolpit", score: 0 }
+  - { tema: "La Cámara de Ámbar desaparecida", score: 0 }
+  - { tema: "El evento de Tunguska", score: 0 }
+  - { tema: "Göbekli Tepe, el templo más antiguo del mundo", score: 0 }
+  - { tema: "El misterio de los moáis de la Isla de Pascua", score: 0 }
+  - { tema: "Rongorongo, la escritura perdida de Rapa Nui", score: 0 }
+  - { tema: "El fin de los templarios", score: 0 }
+  - { tema: "La 'maldición' de Tutankamón", score: 0 }
+  - { tema: "El origen del mito de la Atlántida", score: 0 }
+  - { tema: "El disco de Festo", score: 0 }
+  - { tema: "El caso de D.B. Cooper", score: 0 }
+  - { tema: "La señal Wow! de 1977", score: 0 }
+  - { tema: "Los fareros desaparecidos de las islas Flannan", score: 0 }
+  - { tema: "El naufragio del Batavia", score: 0 }
+  - { tema: "El SS Baychimo, el barco fantasma del Ártico", score: 0 }
+  - { tema: "La Biblioteca de Alejandría: cómo se perdió", score: 0 }
+  - { tema: "Cómo se construyó Stonehenge", score: 0 }
+  - { tema: "El tesoro de Lima", score: 0 }
+  - { tema: "El Vuelo 19 y el Triángulo de las Bermudas", score: 0 }
+  - { tema: "La Sábana Santa de Turín según la ciencia", score: 0 }
+  - { tema: "La Llanura de las Jarras en Laos", score: 0 }
+  - { tema: "La desaparición del vuelo MH370", score: 0 }

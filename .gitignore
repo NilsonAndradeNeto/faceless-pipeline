@@ -1,0 +1,19 @@
+# Segredos — nunca commitar
+.env
+credentials/
+*.token.json
+client_secret*.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Mídia gerada (pesada, não vai pro git)
+storage/**
+!storage/**/
+!storage/**/.gitkeep
+assets/music/*
+!assets/music/.gitkeep
+assets/fonts/*
+!assets/fonts/.gitkeep

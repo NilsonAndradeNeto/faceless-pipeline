@@ -1,0 +1,26 @@
+# Configurações gerais + limites pra proteger o PC (GTX 1060 3GB, Ryzen 5 5600GT)
+
+producao:
+  shorts_por_dia_por_idioma: 1      # começa leve; sobe pra 2 depois que estabilizar
+  idiomas: [pt, es]
+  duracao_alvo_seg: [45, 60]
+  resolucao: [1080, 1920]           # 9:16 vertical
+  fps: 30
+
+seguranca_pc:
+  um_video_por_vez: true            # nunca renderiza em paralelo
+  prioridade_processo: below_normal # você continua usando o PC normalmente
+  ffmpeg_threads: 4                 # de 12 disponíveis
+  encoder: h264_nvenc               # chip de vídeo da GPU (leve); cai pra libx264 se falhar
+  whisper_device: cpu               # GPU 3GB fica livre
+  xtts_device: cpu
+  docker_mem_limit: 4g              # por container
+
+limpeza:
+  apagar_publicados_apos_dias: 7
+  apagar_broll_cache_apos_dias: 30
+  espaco_minimo_livre_gb: 20        # pipeline pausa se o D: ficar abaixo disso
+
+llm:
+  primario: { provider: groq, model: llama-3.3-70b-versatile }
+  fallback: { provider: openai, model: gpt-4o-mini }

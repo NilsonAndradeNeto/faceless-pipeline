@@ -1,0 +1,18 @@
+[project]
+name = "faceless-pipeline"
+version = "0.1.0"
+description = "Pipeline automático de Shorts — História + Mistérios (PT/ES)"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "groq>=0.11",
+    "openai>=1.50",
+    "python-dotenv>=1.0",
+    "pyyaml>=6.0",
+    "requests>=2.32",
+    "pillow>=10.4",
+    "streamlit>=1.39",
+    "wikipedia-api>=0.7",
+]
+
+[tool.uv]
+package = false

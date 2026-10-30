@@ -1,0 +1,17 @@
+# Vozes ElevenLabs. O modelo eleven_multilingual_v2 faz qualquer voz falar PT ou ES.
+# Os IDs abaixo são vozes pré-prontas da biblioteca. Pra trocar: escolha uma voz em
+# https://elevenlabs.io/app/voice-library, copie o "Voice ID" e cole aqui.
+
+modelo: eleven_multilingual_v2
+
+pt:
+  principal: { nome: Adam, id: pNInz6obpgDQGcFmaJgB }   # masculina, grave — combina com mistério
+  alternativa: { nome: Bella, id: EXAVITQu4vr4xnSDxMaL }
+es:
+  principal: { nome: Adam, id: pNInz6obpgDQGcFmaJgB }
+  alternativa: { nome: Bella, id: EXAVITQu4vr4xnSDxMaL }
+
+# Fallback local (CPU) quando a cota do ElevenLabs acabar
+xtts:
+  pt: { speaker: "Damien Black" }
+  es: { speaker: "Damien Black" }
