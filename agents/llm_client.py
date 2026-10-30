@@ -47,11 +47,26 @@ def _provedores():
     return provs
 
 
-def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", tentativas=3):
-    """Envia mensagens ao LLM. Com json_mode=True devolve dict; senão, texto."""
+def _espera_limite(erro) -> float | None:
+    """Se for limite de taxa (429), devolve quantos segundos o provedor pede para esperar."""
+    resp = getattr(erro, "response", None)
+    if getattr(erro, "status_code", None) != 429 or resp is None:
+        return None
+    try:
+        return min(float(resp.headers.get("retry-after", 30)) + 2, 90)
+    except ValueError:
+        return 30
+
+
+def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", tentativas=3, esperas_limite=6):
+    """Envia mensagens ao LLM. Com json_mode=True devolve dict; senão, texto.
+
+    Limite de taxa (429) do plano grátis não conta como falha: espera o tempo pedido e tenta de novo.
+    """
     ultimo_erro = None
     for nome, model, fn in _provedores():
-        for tentativa in range(1, tentativas + 1):
+        falhas = limites = 0
+        while falhas < tentativas:
             inicio = time.time()
             try:
                 r = fn(messages, model, json_mode, temperature)
@@ -59,14 +74,21 @@ def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", tentativas=
                 _registrar(nome, model, tarefa, r.usage, time.time() - inicio)
                 return json.loads(texto) if json_mode else texto
             except json.JSONDecodeError as e:
-                ultimo_erro = e
-                log.warning("%s devolveu JSON inválido (tentativa %d)", nome, tentativa)
+                ultimo_erro, falhas = e, falhas + 1
+                log.warning("%s devolveu JSON inválido (tentativa %d)", nome, falhas)
             except Exception as e:
                 ultimo_erro = e
-                espera = 2 ** tentativa * 5
-                log.warning("%s falhou (tentativa %d/%d): %s — aguardando %ds",
-                            nome, tentativa, tentativas, str(e)[:120], espera)
-                if tentativa < tentativas:
+                espera = _espera_limite(e)
+                if espera is not None and limites < esperas_limite:
+                    limites += 1
+                    log.info("%s: limite por minuto atingido, aguardando %.0fs (%d/%d)",
+                             nome, espera, limites, esperas_limite)
+                    time.sleep(espera)
+                    continue
+                falhas += 1
+                espera = 2 ** falhas * 5
+                log.warning("%s falhou (tentativa %d/%d): %s", nome, falhas, tentativas, str(e)[:120])
+                if falhas < tentativas:
                     time.sleep(espera)
         log.warning("Desistindo de %s, tentando próximo provedor", nome)
     raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
