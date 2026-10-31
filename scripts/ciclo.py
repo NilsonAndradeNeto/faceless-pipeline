@@ -150,14 +150,11 @@ COTA_ESGOTADA = STORAGE / "cota_imagens_esgotada.txt"
 
 
 def _cota_renovou() -> bool:
-    """A cota do Cloudflare renova 00:00 UTC (21h Brasília). Depois disso, pode tentar de novo."""
+    """A cota do Cloudflare renova 00:00 UTC (21h Brasília), mas às vezes demora a liberar.
+    Testar não gasta nada, então tenta de novo a cada hora em vez de esperar o dia seguinte."""
     if not COTA_ESGOTADA.exists():
         return True
-    esgotou = datetime.fromtimestamp(COTA_ESGOTADA.stat().st_mtime)
-    renova = esgotou.replace(hour=21, minute=5, second=0, microsecond=0)
-    if esgotou >= renova:  # esgotou depois das 21h: só renova no dia seguinte
-        renova += timedelta(days=1)
-    if datetime.now() >= renova:
+    if datetime.now() - datetime.fromtimestamp(COTA_ESGOTADA.stat().st_mtime) >= timedelta(hours=1):
         COTA_ESGOTADA.unlink(missing_ok=True)
         return True
     return False
@@ -213,10 +210,23 @@ def publicar_no_horario(agora: datetime):
     _salvar_agenda(hoje, ag)
 
 
+def garantir_painel():
+    """Se o painel (porta 3200) caiu, sobe de novo pela tarefa agendada."""
+    import socket
+    import subprocess
+    with socket.socket() as s:
+        s.settimeout(2)
+        if s.connect_ex(("127.0.0.1", 3200)) == 0:
+            return
+    log.warning("Painel fora do ar — reiniciando")
+    subprocess.run(["schtasks", "/Run", "/TN", "Faceless - Painel"], capture_output=True,
+                   creationflags=0x08000000)
+
+
 def ciclo():
     agora = datetime.now()
     log.info("— ciclo %s —", agora.strftime("%d/%m %H:%M"))
-    for etapa in (lambda: gerar_roteiros(agora), lambda: definir_videos_do_dia(agora),
+    for etapa in (garantir_painel, lambda: gerar_roteiros(agora), lambda: definir_videos_do_dia(agora),
                   produzir_aprovados, lambda: publicar_no_horario(datetime.now())):
         try:
             etapa()
