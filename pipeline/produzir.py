@@ -79,7 +79,7 @@ def produzir(script_id: str, ate: str | None = None):
         except SemCotaIA as e:
             # Não é erro: o agendador retoma depois que a cota renova (narração já feita é reaproveitada)
             log.warning("%s", e)
-            status(script_id, "aguardando cota de imagens (renova às 21h)")
+            status(script_id, "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)")
             raise
         except CotaEsgotada as e:
             log.warning("%s", e)
@@ -90,7 +90,7 @@ def produzir(script_id: str, ate: str | None = None):
             status(script_id, "erro", f"{nome}: {str(e)[:300]}")
             raise
         if nome == ate:
-            status(script_id, "aguardando cota de imagens (renova às 21h)")
+            status(script_id, "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)")
             log.info("Adiantado até '%s': %s", ate, meta["titulo"])
             return
     status(script_id, "pronto", progresso=1.0)

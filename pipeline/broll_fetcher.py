@@ -141,7 +141,7 @@ def buscar(script_id: str, pasta_script=None, progresso=None) -> list[dict]:
         if not midia:
             salvar_json(arq_cenas, cenas)  # guarda o que já foi feito; o cache evita gerar de novo
             if {LUCID[0], KLEIN[0], SCHNELL[0]} <= esgotados:
-                raise SemCotaIA("Cota grátis diária de imagens acabou — renova às 21h (Brasília)")
+                raise SemCotaIA("Cota grátis diária de imagens acabou — testa de novo a cada hora")
             raise RuntimeError(f"Cena {c['n']} ficou sem visual")
         usados.add(midia.get("url") or midia["arquivo"])
         c["midia"] = midia
