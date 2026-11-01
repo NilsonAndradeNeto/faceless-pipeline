@@ -6,4 +6,4 @@ pt:
 en:
   youtube: { channel_id: "", token_file: credentials/youtube_en.token.json }
   tiktok: { username: "" }
-  instagram: { ig_user_id: "", token_env: IG_TOKEN_EN }
+  instagram: { ig_user_id: "17841465999982694", token_env: IG_TOKEN_EN }  # @unsolvedarchive_
