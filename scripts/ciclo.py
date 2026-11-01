@@ -151,10 +151,10 @@ COTA_ESGOTADA = STORAGE / "cota_imagens_esgotada.txt"
 
 def _cota_renovou() -> bool:
     """A cota do Cloudflare renova 00:00 UTC (21h Brasília), mas às vezes demora a liberar.
-    Testar não gasta nada, então tenta de novo a cada hora em vez de esperar o dia seguinte."""
+    Testar não gasta nada, então tenta de novo a cada 30 min em vez de esperar o dia seguinte."""
     if not COTA_ESGOTADA.exists():
         return True
-    if datetime.now() - datetime.fromtimestamp(COTA_ESGOTADA.stat().st_mtime) >= timedelta(hours=1):
+    if datetime.now() - datetime.fromtimestamp(COTA_ESGOTADA.stat().st_mtime) >= timedelta(minutes=30):
         COTA_ESGOTADA.unlink(missing_ok=True)
         return True
     return False
@@ -168,7 +168,7 @@ def produzir_aprovados():
         faltou = prod.produzir_fila()
         if faltou == "imagens":
             COTA_ESGOTADA.write_text(datetime.now().isoformat())
-            log.info("Cota de imagens acabou — narração/plano adiantados; imagens depois das 21h")
+            log.info("Cota de imagens acabou — narração/plano adiantados; tenta de novo em 30 min")
         elif faltou == "gemini":
             log.info("Gemini no limite — produção retoma no próximo ciclo")
     prod.com_trava(rodar)

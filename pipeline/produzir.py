@@ -98,12 +98,17 @@ def produzir(script_id: str, ate: str | None = None):
 
 
 def pendentes_de_producao() -> list[str]:
-    ids = []
+    """A cota grátis de imagens dá para poucos vídeos por dia: primeiro os que já têm dia de
+    postagem hoje ou adiante, depois os sem dia; os de dia que já passou ficam por último."""
+    hoje = time.strftime("%Y-%m-%d")
+    fila = []
     for m in sorted(APROVADOS.glob("*.meta.json")):
         meta = ler_json(m)
         if meta.get("producao", {}).get("etapa") not in ("pronto",):
-            ids.append(meta["id"])
-    return ids
+            dia = meta.get("data_post")
+            ordem = 0 if dia and dia >= hoje else (1 if not dia else 2)
+            fila.append((ordem, dia or "", meta["id"]))
+    return [sid for *_, sid in sorted(fila)]
 
 
 def produzir_fila() -> str | None:
