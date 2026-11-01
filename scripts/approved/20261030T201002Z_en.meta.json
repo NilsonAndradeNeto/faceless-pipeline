@@ -1,0 +1,51 @@
+{
+  "id": "20261030T201002Z_en",
+  "lang": "en",
+  "tema": "Franklin's lost expedition: 129 men who vanished in the Arctic",
+  "titulo": "The 129 Men Who Vanished in the Arctic",
+  "hook": "A crew of 129 men sailed into the freezing Arctic.",
+  "descricao": "The Franklin expedition had the best technology of 1845, yet everyone perished. What do you think was the main cause of their madness?",
+  "hashtags": [
+    "FranklinExpedition",
+    "ArcticHistory",
+    "UnsolvedMysteries",
+    "HMSErebus",
+    "HMSTerror",
+    "TrueHorror",
+    "HistoryMysteries"
+  ],
+  "palavras": 165,
+  "caracteres": 951,
+  "notas_editor_antes": {
+    "gancho": 6,
+    "ritmo": 7,
+    "viradas": 7,
+    "climax": 8,
+    "final": 6
+  },
+  "checagem": {
+    "sem_comprovacao": [],
+    "conferir": [],
+    "confianca": "alta"
+  },
+  "versoes": {
+    "rascunho": "One hundred twenty-nine men sailed into the white. None came back. What they did to survive in the dark is still being whispered today. In 1845, the Erebus and Terror were the most advanced ships on Earth. They carried three years of food and libraries of a thousand books. Sir John Franklin was sure he’d find the Northwest Passage. But then, the ice closed in near King William Island. For two years, they waited in total silence. The temperature dropped to fifty below. Their food was sealed in eight thousand tin cans. But the solder was made of lead. It slowly poisoned their minds as they starved. In 1848, the survivors finally abandoned the ships. They started walking south across the frozen wasteland. They dragged heavy sledges filled with silver spoons and silk towels. They were losing their grip on reality. Scientists later found human bones with clear knife marks on them. They were eating each other to stay alive in the wind. We found the ships, but the final moments of the crew remain a frozen ghost. If you were starving in the dark, how far would you go?",
+    "editado": "129 men walked into the freezing arctic, dragging heavy sledges of silver spoons while completely out of their minds. In 1845, Sir John Franklin led the most advanced ships on Earth to find the Northwest Passage. None of them ever came back. Trapped in the ice near King William Island at fifty below, the crew waited two years in total silence. But terror was already inside their supplies. Eight thousand tin cans of food were sealed with lead solder. As starvation set in, the lead slowly poisoned their minds. In 1848, the survivors abandoned the ships and headed south into the white wasteland. Completely losing their grip on reality, they dragged heavy sledges packed with silk towels and silver spoons through the snow. Then came the darkest turn. When scientists finally found their remains, they discovered human bones with clear knife marks on them. To stay alive in the freezing wind, they had eaten each other. We found the ships, but their final moments remain a frozen ghost. If you were starving in total darkness, at what point would you do the unthinkable?"
+  },
+  "fontes": [
+    {
+      "titulo": "Franklin's lost expedition",
+      "url": "https://en.wikipedia.org/wiki/Franklin%27s_lost_expedition"
+    }
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-10-31",
+  "producao": {
+    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 0.1,
+    "atualizado": "2026-11-01 17:17:30"
+  },
+  "voz": "elevenlabs"
+}

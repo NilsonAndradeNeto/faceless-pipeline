@@ -1,0 +1,192 @@
+[
+  {
+    "n": 1,
+    "texto": "A crew of 129 men sailed into the freezing Arctic.",
+    "inicio": 0.0,
+    "fim": 4.122,
+    "duracao": 4.122,
+    "visual": {
+      "real": {
+        "nome": "Franklin Expedition 1845 - HMS Terror - Erebus.jpg",
+        "descricao": "Departure of the \"Erebus\" and \"Terror\" on the Arctic Expedition.",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Franklin_Expedition_1845_-_HMS_Terror_-_Erebus.jpg/1280px-Franklin_Expedition_1845_-_HMS_Terror_-_Erebus.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Illustrated London News - Getty"
+      },
+      "ia": "Canadian Arctic, 1845-1848, Franklin's Royal Navy Expedition, period-accurate clothing and technology. A cinematic wide shot of two mid-19th century Royal Navy ships sailing through a sea of floating ice blocks under a cold, grey Arctic sky, vertical 9:16 composition., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "In 1845, Sir John Franklin led the most advanced ships on Earth to find the Northwest",
+    "inicio": 4.122,
+    "fim": 9.358,
+    "duracao": 5.236,
+    "visual": {
+      "real": {
+        "nome": "John Franklin 1845.JPG",
+        "descricao": "de:John Franklin",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/John_Franklin_1845.JPG/1280px-John_Franklin_1845.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Unknown authorUnknown author"
+      },
+      "ia": "Canadian Arctic, 1845-1848, Franklin's Royal Navy Expedition, period-accurate clothing and technology. A formal portrait of Sir John Franklin in his 1840s Royal Navy officer uniform, standing on the wooden deck of a ship, looking towards the horizon with a determined expression, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "Passage. None of them ever came back.",
+    "inicio": 9.358,
+    "fim": 12.283,
+    "duracao": 2.925,
+    "visual": {
+      "real": {
+        "nome": "Manproposesgoddisposes.jpg",
+        "descricao": "Allegedly a reference to Franklin's Lost Expedition",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Manproposesgoddisposes.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Edwin Landseer"
+      },
+      "ia": "Canadian Arctic, 1845-1848, Franklin's Royal Navy Expedition, period-accurate clothing and technology. A haunting painting style image of a tattered British flag frozen and stuck in the snow, a vast and empty white Arctic horizon in the background, symbolizing loss and failure, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "Trapped in the ice near King William Island, the crew waited for more than a year.",
+    "inicio": 12.283,
+    "fim": 17.02,
+    "duracao": 4.737,
+    "visual": {
+      "real": {
+        "nome": "Model of the HMS Erebus (1826) trapped in the ice, Nattilik Heritage Centre, Gjoa Haven, September 2019.jpg",
+        "descricao": "Model of the HMS Erebus (1826) trapped in the ice, Nattilik Heritage Centre, Gjoa Haven, September 2019",
+        "licenca": "CC BY 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Model_of_the_HMS_Erebus_%281826%29_trapped_in_the_ice%2C_Nattilik_Heritage_Centre%2C_Gjoa_Haven%2C_September_2019.jpg/1280px-Model_of_the_HMS_Erebus_%281826%29_trapped_in_the_ice%2C_Nattilik_Heritage_Centre%2C_Gjoa_Haven%2C_September_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Kerry Raymond"
+      },
+      "ia": "Canadian Arctic, 1845-1848, Franklin's Royal Navy Expedition, period-accurate clothing and technology. A massive wooden sailing ship trapped and tilted in jagged, crushing pack ice, the hull strained by the pressure, a dark and freezing polar night atmosphere, cinematic lighting, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "But terror was already inside their supplies.",
+    "inicio": 17.02,
+    "fim": 20.097,
+    "duracao": 3.077,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1845-1848, Franklin's Royal Navy Expedition, period-accurate clothing and technology. A dark, claustrophobic ship's storage room, wooden crates and barrels stacked high, frost covering the surfaces, a single lantern casting long, eerie shadows over the food supplies, 19th-century style., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "Eight thousand tin cans of food were sealed with lead solder.",
+    "inicio": 20.097,
+    "fim": 23.812,
+    "duracao": 3.715,
+    "visual": {
+      "real": {
+        "nome": "Franklin exp.jpg",
+        "descricao": "Fundstücke der Erebus und Terror der Franklin Expedition, 1857 gefunden von Leopold McClintock",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Franklin_exp.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "?"
+      },
+      "ia": "Canadian Arctic, 1845-1848, Franklin's Royal Navy Expedition, period-accurate clothing and technology. Extreme close-up of vintage 1840s tin food cans, showing thick, irregular lead solder seals around the edges, rusted metal textures, cold blue lighting, historical documentary style, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "As starvation set in, lead poisoning and disease slowly killed them.",
+    "inicio": 23.812,
+    "fim": 28.282,
+    "duracao": 4.47,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1845-1848, Franklin's Royal Navy Expedition, period-accurate clothing and technology. A weary, pale Victorian sailor sitting in a dark corner of a ship's cabin, his hands shaking as he holds a metal cup, frost on the wooden walls, atmosphere of sickness., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "In 1848, the survivors abandoned the ships and headed south into the white wasteland.",
+    "inicio": 28.282,
+    "fim": 33.924,
+    "duracao": 5.642,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1845-1848, Franklin's Royal Navy Expedition, period-accurate clothing and technology. A desperate line of men in heavy wool coats and furs, hauling a massive wooden boat on a sledge across a desolate, wind-swept ice field, a bleak white wasteland, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "They set out for the Canadian mainland, but disappeared into the frozen wilderness.",
+    "inicio": 33.924,
+    "fim": 38.951,
+    "duracao": 5.027,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1845-1848, Franklin's Royal Navy Expedition, period-accurate clothing and technology. A wide, lonely shot of a vast frozen tundra, a single discarded leather boot and a naval telescope half-buried in the snow, a blizzard obscuring the horizon, 9:16 composition., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "Then came the darkest turn. When scientists finally found their remains,",
+    "inicio": 38.951,
+    "fim": 43.189,
+    "duracao": 4.238,
+    "visual": {
+      "real": {
+        "nome": "Durand-brager-453.png",
+        "descricao": "Arthur Mangin, Voyages et Découvertes outre-mer au XIXe siècle, illustrations par Durand-Brager, 1863 ː Découverte du cairn de l'expédition Franklin.",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Durand-brager-453.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Jean-Baptiste Henri Durand-Brager"
+      },
+      "ia": "Canadian Arctic, 1845-1848, Franklin's Royal Navy Expedition, period-accurate clothing and technology. A group of 19th-century searchers in heavy winter gear discovering a stone cairn on a rocky, barren shore, grey skies, a sense of grim discovery and mystery, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "they discovered human bones with clear knife marks on them.",
+    "inicio": 43.189,
+    "fim": 46.335,
+    "duracao": 3.146,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1845-1848, Franklin's Royal Navy Expedition, period-accurate clothing and technology. Macro shot of weathered, white human bones resting on dark Arctic pebbles, subtle but distinct cut marks on the bone surface, cold natural lighting, historical evidence, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "To stay alive in the freezing wind, they had eaten each other.",
+    "inicio": 46.335,
+    "fim": 49.725,
+    "duracao": 3.39,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1845-1848, Franklin's Royal Navy Expedition, period-accurate clothing and technology. The interior of a tattered, wind-beaten canvas tent in the Arctic, shadows of men huddled together cast by a small, dying fire, a rusted cooking pot, atmosphere of extreme desperation., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "We found the ships, but their final moments remain a frozen ghost.",
+    "inicio": 49.725,
+    "fim": 54.114,
+    "duracao": 4.389,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1845-1848, Franklin's Royal Navy Expedition, period-accurate clothing and technology. An eerie, high-contrast underwater shot of a wooden shipwreck resting on the dark seabed, beams of light revealing the skeletal remains of the mast, ghostly and silent atmosphere, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "If you were starving in total darkness, at what point would you do the unthinkable?",
+    "inicio": 54.114,
+    "fim": 58.870000000000005,
+    "duracao": 4.756,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1845-1848, Franklin's Royal Navy Expedition, period-accurate clothing and technology. A close-up of a man's eyes reflecting a tiny, flickering candle flame in a pitch-black room, frost on his eyelashes, a look of haunting moral conflict and survival instinct, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  }
+]

@@ -1,0 +1,827 @@
+[
+  {
+    "palavra": "A",
+    "inicio": 0.035,
+    "fim": 0.093
+  },
+  {
+    "palavra": "crew",
+    "inicio": 0.163,
+    "fim": 0.36
+  },
+  {
+    "palavra": "of",
+    "inicio": 0.406,
+    "fim": 0.464
+  },
+  {
+    "palavra": "129",
+    "inicio": 0.58,
+    "fim": 1.416
+  },
+  {
+    "palavra": "men",
+    "inicio": 1.498,
+    "fim": 1.741
+  },
+  {
+    "palavra": "sailed",
+    "inicio": 1.858,
+    "fim": 2.241
+  },
+  {
+    "palavra": "into",
+    "inicio": 2.276,
+    "fim": 2.415
+  },
+  {
+    "palavra": "the",
+    "inicio": 2.473,
+    "fim": 2.543
+  },
+  {
+    "palavra": "freezing",
+    "inicio": 2.589,
+    "fim": 2.949
+  },
+  {
+    "palavra": "Arctic.",
+    "inicio": 3.03,
+    "fim": 3.704
+  },
+  {
+    "palavra": "In",
+    "inicio": 4.122,
+    "fim": 4.249
+  },
+  {
+    "palavra": "1845,",
+    "inicio": 4.284,
+    "fim": 5.306
+  },
+  {
+    "palavra": "Sir",
+    "inicio": 5.387,
+    "fim": 5.538
+  },
+  {
+    "palavra": "John",
+    "inicio": 5.584,
+    "fim": 5.77
+  },
+  {
+    "palavra": "Franklin",
+    "inicio": 5.851,
+    "fim": 6.281
+  },
+  {
+    "palavra": "led",
+    "inicio": 6.351,
+    "fim": 6.525
+  },
+  {
+    "palavra": "the",
+    "inicio": 6.56,
+    "fim": 6.629
+  },
+  {
+    "palavra": "most",
+    "inicio": 6.676,
+    "fim": 6.861
+  },
+  {
+    "palavra": "advanced",
+    "inicio": 6.908,
+    "fim": 7.372
+  },
+  {
+    "palavra": "ships",
+    "inicio": 7.419,
+    "fim": 7.709
+  },
+  {
+    "palavra": "on",
+    "inicio": 7.755,
+    "fim": 7.848
+  },
+  {
+    "palavra": "Earth",
+    "inicio": 7.918,
+    "fim": 8.139
+  },
+  {
+    "palavra": "to",
+    "inicio": 8.278,
+    "fim": 8.382
+  },
+  {
+    "palavra": "find",
+    "inicio": 8.452,
+    "fim": 8.661
+  },
+  {
+    "palavra": "the",
+    "inicio": 8.696,
+    "fim": 8.766
+  },
+  {
+    "palavra": "Northwest",
+    "inicio": 8.824,
+    "fim": 9.3
+  },
+  {
+    "palavra": "Passage.",
+    "inicio": 9.358,
+    "fim": 10.031
+  },
+  {
+    "palavra": "None",
+    "inicio": 10.344,
+    "fim": 10.553
+  },
+  {
+    "palavra": "of",
+    "inicio": 10.577,
+    "fim": 10.635
+  },
+  {
+    "palavra": "them",
+    "inicio": 10.67,
+    "fim": 10.786
+  },
+  {
+    "palavra": "ever",
+    "inicio": 10.867,
+    "fim": 11.064
+  },
+  {
+    "palavra": "came",
+    "inicio": 11.111,
+    "fim": 11.331
+  },
+  {
+    "palavra": "back.",
+    "inicio": 11.378,
+    "fim": 11.865
+  },
+  {
+    "palavra": "Trapped",
+    "inicio": 12.283,
+    "fim": 12.643
+  },
+  {
+    "palavra": "in",
+    "inicio": 12.678,
+    "fim": 12.736
+  },
+  {
+    "palavra": "the",
+    "inicio": 12.771,
+    "fim": 12.852
+  },
+  {
+    "palavra": "ice",
+    "inicio": 12.934,
+    "fim": 13.166
+  },
+  {
+    "palavra": "near",
+    "inicio": 13.212,
+    "fim": 13.363
+  },
+  {
+    "palavra": "King",
+    "inicio": 13.421,
+    "fim": 13.595
+  },
+  {
+    "palavra": "William",
+    "inicio": 13.642,
+    "fim": 13.92
+  },
+  {
+    "palavra": "Island,",
+    "inicio": 14.002,
+    "fim": 14.536
+  },
+  {
+    "palavra": "the",
+    "inicio": 14.652,
+    "fim": 14.745
+  },
+  {
+    "palavra": "crew",
+    "inicio": 14.791,
+    "fim": 14.977
+  },
+  {
+    "palavra": "waited",
+    "inicio": 15.023,
+    "fim": 15.314
+  },
+  {
+    "palavra": "for",
+    "inicio": 15.36,
+    "fim": 15.453
+  },
+  {
+    "palavra": "more",
+    "inicio": 15.499,
+    "fim": 15.65
+  },
+  {
+    "palavra": "than",
+    "inicio": 15.673,
+    "fim": 15.79
+  },
+  {
+    "palavra": "a",
+    "inicio": 15.824,
+    "fim": 15.859
+  },
+  {
+    "palavra": "year.",
+    "inicio": 15.94,
+    "fim": 16.44
+  },
+  {
+    "palavra": "But",
+    "inicio": 17.02,
+    "fim": 17.183
+  },
+  {
+    "palavra": "terror",
+    "inicio": 17.218,
+    "fim": 17.519
+  },
+  {
+    "palavra": "was",
+    "inicio": 17.566,
+    "fim": 17.67
+  },
+  {
+    "palavra": "already",
+    "inicio": 17.728,
+    "fim": 18.03
+  },
+  {
+    "palavra": "inside",
+    "inicio": 18.077,
+    "fim": 18.495
+  },
+  {
+    "palavra": "their",
+    "inicio": 18.518,
+    "fim": 18.669
+  },
+  {
+    "palavra": "supplies.",
+    "inicio": 18.704,
+    "fim": 19.435
+  },
+  {
+    "palavra": "Eight",
+    "inicio": 20.097,
+    "fim": 20.341
+  },
+  {
+    "palavra": "thousand",
+    "inicio": 20.375,
+    "fim": 20.782
+  },
+  {
+    "palavra": "tin",
+    "inicio": 20.84,
+    "fim": 21.037
+  },
+  {
+    "palavra": "cans",
+    "inicio": 21.107,
+    "fim": 21.397
+  },
+  {
+    "palavra": "of",
+    "inicio": 21.444,
+    "fim": 21.502
+  },
+  {
+    "palavra": "food",
+    "inicio": 21.56,
+    "fim": 21.827
+  },
+  {
+    "palavra": "were",
+    "inicio": 21.873,
+    "fim": 22.001
+  },
+  {
+    "palavra": "sealed",
+    "inicio": 22.036,
+    "fim": 22.338
+  },
+  {
+    "palavra": "with",
+    "inicio": 22.372,
+    "fim": 22.5
+  },
+  {
+    "palavra": "lead",
+    "inicio": 22.558,
+    "fim": 22.744
+  },
+  {
+    "palavra": "solder.",
+    "inicio": 22.814,
+    "fim": 23.452
+  },
+  {
+    "palavra": "As",
+    "inicio": 23.812,
+    "fim": 23.975
+  },
+  {
+    "palavra": "starvation",
+    "inicio": 24.033,
+    "fim": 24.59
+  },
+  {
+    "palavra": "set",
+    "inicio": 24.66,
+    "fim": 24.88
+  },
+  {
+    "palavra": "in,",
+    "inicio": 24.95,
+    "fim": 25.228
+  },
+  {
+    "palavra": "lead",
+    "inicio": 25.345,
+    "fim": 25.554
+  },
+  {
+    "palavra": "poisoning",
+    "inicio": 25.612,
+    "fim": 26.064
+  },
+  {
+    "palavra": "and",
+    "inicio": 26.111,
+    "fim": 26.18
+  },
+  {
+    "palavra": "disease",
+    "inicio": 26.238,
+    "fim": 26.656
+  },
+  {
+    "palavra": "slowly",
+    "inicio": 26.691,
+    "fim": 27.028
+  },
+  {
+    "palavra": "killed",
+    "inicio": 27.074,
+    "fim": 27.341
+  },
+  {
+    "palavra": "them.",
+    "inicio": 27.365,
+    "fim": 27.701
+  },
+  {
+    "palavra": "In",
+    "inicio": 28.282,
+    "fim": 28.421
+  },
+  {
+    "palavra": "1848,",
+    "inicio": 28.444,
+    "fim": 29.315
+  },
+  {
+    "palavra": "the",
+    "inicio": 29.385,
+    "fim": 29.489
+  },
+  {
+    "palavra": "survivors",
+    "inicio": 29.536,
+    "fim": 30.0
+  },
+  {
+    "palavra": "abandoned",
+    "inicio": 30.046,
+    "fim": 30.522
+  },
+  {
+    "palavra": "the",
+    "inicio": 30.546,
+    "fim": 30.615
+  },
+  {
+    "palavra": "ships",
+    "inicio": 30.662,
+    "fim": 30.987
+  },
+  {
+    "palavra": "and",
+    "inicio": 31.033,
+    "fim": 31.161
+  },
+  {
+    "palavra": "headed",
+    "inicio": 31.219,
+    "fim": 31.451
+  },
+  {
+    "palavra": "south",
+    "inicio": 31.509,
+    "fim": 31.823
+  },
+  {
+    "palavra": "into",
+    "inicio": 31.881,
+    "fim": 32.032
+  },
+  {
+    "palavra": "the",
+    "inicio": 32.09,
+    "fim": 32.159
+  },
+  {
+    "palavra": "white",
+    "inicio": 32.206,
+    "fim": 32.438
+  },
+  {
+    "palavra": "wasteland.",
+    "inicio": 32.485,
+    "fim": 33.262
+  },
+  {
+    "palavra": "They",
+    "inicio": 33.924,
+    "fim": 34.098
+  },
+  {
+    "palavra": "set",
+    "inicio": 34.156,
+    "fim": 34.354
+  },
+  {
+    "palavra": "out",
+    "inicio": 34.412,
+    "fim": 34.563
+  },
+  {
+    "palavra": "for",
+    "inicio": 34.609,
+    "fim": 34.702
+  },
+  {
+    "palavra": "the",
+    "inicio": 34.737,
+    "fim": 34.807
+  },
+  {
+    "palavra": "Canadian",
+    "inicio": 34.841,
+    "fim": 35.317
+  },
+  {
+    "palavra": "mainland,",
+    "inicio": 35.375,
+    "fim": 36.002
+  },
+  {
+    "palavra": "but",
+    "inicio": 36.095,
+    "fim": 36.246
+  },
+  {
+    "palavra": "disappeared",
+    "inicio": 36.281,
+    "fim": 36.815
+  },
+  {
+    "palavra": "into",
+    "inicio": 36.85,
+    "fim": 36.989
+  },
+  {
+    "palavra": "the",
+    "inicio": 37.047,
+    "fim": 37.117
+  },
+  {
+    "palavra": "frozen",
+    "inicio": 37.163,
+    "fim": 37.535
+  },
+  {
+    "palavra": "wilderness.",
+    "inicio": 37.593,
+    "fim": 38.29
+  },
+  {
+    "palavra": "Then",
+    "inicio": 38.951,
+    "fim": 39.183
+  },
+  {
+    "palavra": "came",
+    "inicio": 39.265,
+    "fim": 39.485
+  },
+  {
+    "palavra": "the",
+    "inicio": 39.52,
+    "fim": 39.59
+  },
+  {
+    "palavra": "darkest",
+    "inicio": 39.636,
+    "fim": 40.054
+  },
+  {
+    "palavra": "turn.",
+    "inicio": 40.089,
+    "fim": 40.588
+  },
+  {
+    "palavra": "When",
+    "inicio": 40.704,
+    "fim": 40.902
+  },
+  {
+    "palavra": "scientists",
+    "inicio": 40.96,
+    "fim": 41.564
+  },
+  {
+    "palavra": "finally",
+    "inicio": 41.622,
+    "fim": 41.993
+  },
+  {
+    "palavra": "found",
+    "inicio": 42.063,
+    "fim": 42.307
+  },
+  {
+    "palavra": "their",
+    "inicio": 42.353,
+    "fim": 42.492
+  },
+  {
+    "palavra": "remains,",
+    "inicio": 42.539,
+    "fim": 43.096
+  },
+  {
+    "palavra": "they",
+    "inicio": 43.189,
+    "fim": 43.328
+  },
+  {
+    "palavra": "discovered",
+    "inicio": 43.374,
+    "fim": 43.827
+  },
+  {
+    "palavra": "human",
+    "inicio": 43.885,
+    "fim": 44.176
+  },
+  {
+    "palavra": "bones",
+    "inicio": 44.245,
+    "fim": 44.582
+  },
+  {
+    "palavra": "with",
+    "inicio": 44.64,
+    "fim": 44.779
+  },
+  {
+    "palavra": "clear",
+    "inicio": 44.837,
+    "fim": 45.104
+  },
+  {
+    "palavra": "knife",
+    "inicio": 45.174,
+    "fim": 45.429
+  },
+  {
+    "palavra": "marks",
+    "inicio": 45.464,
+    "fim": 45.72
+  },
+  {
+    "palavra": "on",
+    "inicio": 45.766,
+    "fim": 45.859
+  },
+  {
+    "palavra": "them.",
+    "inicio": 45.905,
+    "fim": 46.196
+  },
+  {
+    "palavra": "To",
+    "inicio": 46.335,
+    "fim": 46.451
+  },
+  {
+    "palavra": "stay",
+    "inicio": 46.509,
+    "fim": 46.73
+  },
+  {
+    "palavra": "alive",
+    "inicio": 46.776,
+    "fim": 47.124
+  },
+  {
+    "palavra": "in",
+    "inicio": 47.159,
+    "fim": 47.217
+  },
+  {
+    "palavra": "the",
+    "inicio": 47.252,
+    "fim": 47.322
+  },
+  {
+    "palavra": "freezing",
+    "inicio": 47.38,
+    "fim": 47.751
+  },
+  {
+    "palavra": "wind,",
+    "inicio": 47.821,
+    "fim": 48.158
+  },
+  {
+    "palavra": "they",
+    "inicio": 48.204,
+    "fim": 48.344
+  },
+  {
+    "palavra": "had",
+    "inicio": 48.378,
+    "fim": 48.46
+  },
+  {
+    "palavra": "eaten",
+    "inicio": 48.518,
+    "fim": 48.773
+  },
+  {
+    "palavra": "each",
+    "inicio": 48.82,
+    "fim": 48.959
+  },
+  {
+    "palavra": "other.",
+    "inicio": 49.005,
+    "fim": 49.412
+  },
+  {
+    "palavra": "We",
+    "inicio": 49.725,
+    "fim": 49.864
+  },
+  {
+    "palavra": "found",
+    "inicio": 49.946,
+    "fim": 50.189
+  },
+  {
+    "palavra": "the",
+    "inicio": 50.236,
+    "fim": 50.306
+  },
+  {
+    "palavra": "ships,",
+    "inicio": 50.364,
+    "fim": 50.851
+  },
+  {
+    "palavra": "but",
+    "inicio": 50.967,
+    "fim": 51.107
+  },
+  {
+    "palavra": "their",
+    "inicio": 51.13,
+    "fim": 51.281
+  },
+  {
+    "palavra": "final",
+    "inicio": 51.339,
+    "fim": 51.641
+  },
+  {
+    "palavra": "moments",
+    "inicio": 51.71,
+    "fim": 52.035
+  },
+  {
+    "palavra": "remain",
+    "inicio": 52.094,
+    "fim": 52.419
+  },
+  {
+    "palavra": "a",
+    "inicio": 52.477,
+    "fim": 52.5
+  },
+  {
+    "palavra": "frozen",
+    "inicio": 52.558,
+    "fim": 52.906
+  },
+  {
+    "palavra": "ghost.",
+    "inicio": 52.976,
+    "fim": 53.533
+  },
+  {
+    "palavra": "If",
+    "inicio": 54.114,
+    "fim": 54.241
+  },
+  {
+    "palavra": "you",
+    "inicio": 54.288,
+    "fim": 54.357
+  },
+  {
+    "palavra": "were",
+    "inicio": 54.392,
+    "fim": 54.497
+  },
+  {
+    "palavra": "starving",
+    "inicio": 54.52,
+    "fim": 54.938
+  },
+  {
+    "palavra": "in",
+    "inicio": 54.996,
+    "fim": 55.066
+  },
+  {
+    "palavra": "total",
+    "inicio": 55.135,
+    "fim": 55.426
+  },
+  {
+    "palavra": "darkness,",
+    "inicio": 55.495,
+    "fim": 56.099
+  },
+  {
+    "palavra": "at",
+    "inicio": 56.215,
+    "fim": 56.366
+  },
+  {
+    "palavra": "what",
+    "inicio": 56.412,
+    "fim": 56.563
+  },
+  {
+    "palavra": "point",
+    "inicio": 56.633,
+    "fim": 56.877
+  },
+  {
+    "palavra": "would",
+    "inicio": 56.912,
+    "fim": 57.063
+  },
+  {
+    "palavra": "you",
+    "inicio": 57.097,
+    "fim": 57.167
+  },
+  {
+    "palavra": "do",
+    "inicio": 57.225,
+    "fim": 57.341
+  },
+  {
+    "palavra": "the",
+    "inicio": 57.411,
+    "fim": 57.492
+  },
+  {
+    "palavra": "unthinkable?",
+    "inicio": 57.55,
+    "fim": 58.27
+  }
+]

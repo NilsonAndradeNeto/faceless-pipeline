@@ -1,0 +1,295 @@
+[
+  {
+    "n": 1,
+    "texto": "O que faz pessoas cortarem a própria barraca por dentro com facas e correrem descalças na",
+    "inicio": 0.0,
+    "fim": 5.108,
+    "duracao": 5.108,
+    "visual": {
+      "real": {
+        "nome": "Dyatlov Pass incident 02.jpg",
+        "descricao": "A view of the tent as the rescuers found it on Feb. 26, 1959. The tent had been cut open from inside, and most of the skiers had fled in socks or barefoot. Phot",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Dyatlov_Pass_incident_02.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "AnonymousUnknown author / Soviet investigators"
+      },
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. Inside a dark canvas tent, a sharp knife blade slices through the heavy fabric from within, snow blowing through the slit, 1950s camping gear visible, cinematic lighting, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Dyatlov_Pass_incident_02.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\7ca1cf81ac179aa1.jpg",
+      "credito": "Dyatlov Pass incident 02.jpg — AnonymousUnknown author / Soviet investigators (Public domain)"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "escuridão a menos trinta graus?",
+    "inicio": 5.108,
+    "fim": 7.674,
+    "duracao": 2.566,
+    "visual": {
+      "real": null,
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. Bare footprints in deep, crystalline snow leading away from a dark camp under a moonlit sky, extreme winter conditions, Soviet Ural Mountains, 1959, grainy historical film style., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\b0a70e64112ccf2d.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "No meio da noite, algo aterrorizante aconteceu ali dentro.",
+    "inicio": 7.674,
+    "fim": 11.564,
+    "duracao": 3.89,
+    "visual": {
+      "real": null,
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. Shadowy figures inside a dimly lit canvas tent, silhouettes showing panic and frantic movement against the fabric, a flickering lantern, cold atmosphere, 1950s mountaineering style., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\948f20e48b8271c8.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "Elas não usaram a porta: rasgaram o tecido e fugiram em direção à morte,",
+    "inicio": 11.564,
+    "fim": 16.951,
+    "duracao": 5.387,
+    "visual": {
+      "real": null,
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. A wide shot of a tattered, abandoned canvas tent on a snowy slope, large vertical gashes in the side, wind whipping the fabric, dark mountain landscape, 1950s photography., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\4f6b81cfc5c97f04.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "mesmo sabendo que ninguém estava vestido para enfrentar aquele frio brutal.",
+    "inicio": 16.951,
+    "fim": 22.036,
+    "duracao": 5.085,
+    "visual": {
+      "real": null,
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. Discarded wool socks and a single felt boot lying in the deep snow near a tent, footprints leading into the dark forest, freezing mist, 1959 Soviet hiking equipment., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\de897e5270472833.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "Semanas depois, os primeiros corpos apareceram caídos perto de um pinheiro.",
+    "inicio": 22.036,
+    "fim": 27.074,
+    "duracao": 5.038,
+    "visual": {
+      "real": null,
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. A massive, ancient Siberian pine tree standing alone in a clearing, footprints ending at its base, shadows of abandoned objects under the branches, heavy snowfall, eerie atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\6f949991cbc82065.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "Eles estavam apenas de roupas íntimas e tinham as mãos inexplicavelmente queimadas.",
+    "inicio": 27.074,
+    "fim": 32.833,
+    "duracao": 5.759,
+    "visual": {
+      "real": null,
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. A small, dying campfire under a tree, charred wood, a pair of discarded thermal long johns in the snow, eerie atmosphere, Soviet era winter gear, grainy texture., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\206280cec08bb81a.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "Mas o mistério real desafiaria a lógica meses mais tarde,",
+    "inicio": 32.833,
+    "fim": 36.827,
+    "duracao": 3.994,
+    "visual": {
+      "real": {
+        "nome": "Фото членов тургруппы Игоря Дятлова.jpg",
+        "descricao": "The Mikhajlov Cemetry in Yekaterinburg. The tomb of the group who had died in mysterious circumstances in the northern Ural Mountains.",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%D0%A4%D0%BE%D1%82%D0%BE_%D1%87%D0%BB%D0%B5%D0%BD%D0%BE%D0%B2_%D1%82%D1%83%D1%80%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D1%8B_%D0%98%D0%B3%D0%BE%D1%80%D1%8F_%D0%94%D1%8F%D1%82%D0%BB%D0%BE%D0%B2%D0%B0.jpg/1280px-%D0%A4%D0%BE%D1%82%D0%BE_%D1%87%D0%BB%D0%B5%D0%BD%D0%BE%D0%B2_%D1%82%D1%83%D1%80%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D1%8B_%D0%98%D0%B3%D0%BE%D1%80%D1%8F_%D0%94%D1%8F%D1%82%D0%BB%D0%BE%D0%B2%D0%B0.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Дмитрий Никишин"
+      },
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. A group of Soviet investigators in heavy parkas and fur hats standing on a vast, desolate white landscape, probing the snow with long metal poles, 1959 documentary style., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/%D0%A4%D0%BE%D1%82%D0%BE_%D1%87%D0%BB%D0%B5%D0%BD%D0%BE%D0%B2_%D1%82%D1%83%D1%80%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D1%8B_%D0%98%D0%B3%D0%BE%D1%80%D1%8F_%D0%94%D1%8F%D1%82%D0%BB%D0%BE%D0%B2%D0%B0.jpg/1280px-%D0%A4%D0%BE%D1%82%D0%BE_%D1%87%D0%BB%D0%B5%D0%BD%D0%BE%D0%B2_%D1%82%D1%83%D1%80%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D1%8B_%D0%98%D0%B3%D0%BE%D1%80%D1%8F_%D0%94%D1%8F%D1%82%D0%BB%D0%BE%D0%B2%D0%B0.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\8eb6372ef3565f93.jpg",
+      "credito": "Фото членов тургруппы Игоря Дятлова.jpg — Дмитрий Никишин (Public domain)"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "enterrado sob quatro metros de neve.",
+    "inicio": 36.827,
+    "fim": 39.706,
+    "duracao": 2.879,
+    "visual": {
+      "real": null,
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. A cross-section of a deep snowbank showing layers of ice and packed snow, a dark shape visible deep beneath the surface, 1950s winter expedition setting, cinematic shadows., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\41346782ea3a137f.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "Foi só quatro meses depois que encontraram os últimos integrantes em uma ravina.",
+    "inicio": 39.706,
+    "fim": 44.965,
+    "duracao": 5.259,
+    "visual": {
+      "real": null,
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. Soviet rescuers looking down into a steep, icy ravine in the Ural Mountains, flashlights cutting through the gray twilight, heavy winter coats and ushankas, 1959 period accurate., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\f88140194b699699.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "Os corpos tinham costelas partidas e crânios esmagados por uma pressão extrema,",
+    "inicio": 44.965,
+    "fim": 50.12,
+    "duracao": 5.155,
+    "visual": {
+      "real": null,
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. Close-up of a vintage Soviet medical report on a wooden table, blurry black and white diagrams of a human skeleton, a heavy flashlight and snow-covered gloves nearby., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\4b56ea3a060eb525.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "idêntica ao impacto violento de um acidente de carro em alta velocidade.",
+    "inicio": 50.12,
+    "fim": 54.973,
+    "duracao": 4.853,
+    "visual": {
+      "real": null,
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. A vintage 1950s Soviet GAZ car mangled against a tree, used as a metaphor for internal injuries, black and white grainy photography style, snowy background, dramatic lighting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\3c66973b72806dd3.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "O detalhe mais perturbador: não existia nenhuma marca externa de luta ou pancada.",
+    "inicio": 54.973,
+    "fim": 60.812,
+    "duracao": 5.839,
+    "visual": {
+      "real": null,
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. A pair of pristine, unblemished winter jackets lying on a wooden floor, no tears or blood, next to a magnifying glass and official Soviet documents, forensic atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\fc0e6510213d3f4c.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "Para piorar, Lyudmila estava sem os olhos e sem a língua.",
+    "inicio": 60.812,
+    "fim": 64.969,
+    "duracao": 4.157,
+    "visual": {
+      "real": null,
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. A discarded, frozen wool scarf and a woman's hiking hat lying in a dark, icy stream bed, shadows masking the details, haunting and cold atmosphere, 1950s style., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\c2b16c45b364579b.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 15,
+    "texto": "O governo soviético culpou uma força natural esmagadora e encerrou o caso.",
+    "inicio": 64.969,
+    "fim": 70.321,
+    "duracao": 5.352,
+    "visual": {
+      "real": null,
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. A dark, official Soviet office, a heavy red folder with a 'Top Secret' stamp in Cyrillic, a window showing a blizzard outside in the Ural Mountains, 1950s aesthetic., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\bdab0451d82d02f5.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 16,
+    "texto": "O que faria você abandonar o abrigo e correr pelado para o gelo?",
+    "inicio": 70.321,
+    "fim": 74.833,
+    "duracao": 4.512,
+    "visual": {
+      "real": null,
+      "ia": "Ural Mountains, Soviet Union, 1959, winter expedition, period-accurate clothing and technology. A POV shot from inside a dark, warm tent looking out through a small opening into a terrifying, howling blizzard and pitch-black mountain night, cinematic and suspenseful., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  }
+]

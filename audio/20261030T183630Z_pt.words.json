@@ -1,0 +1,872 @@
+[
+  {
+    "palavra": "Esqueletos",
+    "inicio": 0.035,
+    "fim": 0.639
+  },
+  {
+    "palavra": "encontrados",
+    "inicio": 0.685,
+    "fim": 1.312
+  },
+  {
+    "palavra": "no",
+    "inicio": 1.37,
+    "fim": 1.451
+  },
+  {
+    "palavra": "gelo",
+    "inicio": 1.521,
+    "fim": 1.881
+  },
+  {
+    "palavra": "tinham",
+    "inicio": 1.997,
+    "fim": 2.31
+  },
+  {
+    "palavra": "marcas",
+    "inicio": 2.345,
+    "fim": 2.67
+  },
+  {
+    "palavra": "profundas",
+    "inicio": 2.728,
+    "fim": 3.309
+  },
+  {
+    "palavra": "de",
+    "inicio": 3.355,
+    "fim": 3.425
+  },
+  {
+    "palavra": "corte",
+    "inicio": 3.495,
+    "fim": 3.808
+  },
+  {
+    "palavra": "de",
+    "inicio": 3.866,
+    "fim": 3.936
+  },
+  {
+    "palavra": "faca",
+    "inicio": 4.017,
+    "fim": 4.331
+  },
+  {
+    "palavra": "nos",
+    "inicio": 4.377,
+    "fim": 4.516
+  },
+  {
+    "palavra": "ossos.",
+    "inicio": 4.632,
+    "fim": 5.213
+  },
+  {
+    "palavra": "Em",
+    "inicio": 5.573,
+    "fim": 5.735
+  },
+  {
+    "palavra": "maio",
+    "inicio": 5.782,
+    "fim": 6.049
+  },
+  {
+    "palavra": "de",
+    "inicio": 6.095,
+    "fim": 6.165
+  },
+  {
+    "palavra": "1845,",
+    "inicio": 6.223,
+    "fim": 7.825
+  },
+  {
+    "palavra": "cento",
+    "inicio": 8.022,
+    "fim": 8.359
+  },
+  {
+    "palavra": "e",
+    "inicio": 8.394,
+    "fim": 8.417
+  },
+  {
+    "palavra": "vinte",
+    "inicio": 8.475,
+    "fim": 8.754
+  },
+  {
+    "palavra": "e",
+    "inicio": 8.777,
+    "fim": 8.812
+  },
+  {
+    "palavra": "nove",
+    "inicio": 8.87,
+    "fim": 9.149
+  },
+  {
+    "palavra": "homens",
+    "inicio": 9.172,
+    "fim": 9.613
+  },
+  {
+    "palavra": "avançaram",
+    "inicio": 9.752,
+    "fim": 10.356
+  },
+  {
+    "palavra": "pelo",
+    "inicio": 10.403,
+    "fim": 10.6
+  },
+  {
+    "palavra": "Ártico",
+    "inicio": 10.681,
+    "fim": 11.122
+  },
+  {
+    "palavra": "na",
+    "inicio": 11.262,
+    "fim": 11.366
+  },
+  {
+    "palavra": "expedição",
+    "inicio": 11.413,
+    "fim": 11.981
+  },
+  {
+    "palavra": "de",
+    "inicio": 12.016,
+    "fim": 12.086
+  },
+  {
+    "palavra": "John",
+    "inicio": 12.144,
+    "fim": 12.295
+  },
+  {
+    "palavra": "Franklin.",
+    "inicio": 12.376,
+    "fim": 13.003
+  },
+  {
+    "palavra": "Eles",
+    "inicio": 13.491,
+    "fim": 13.769
+  },
+  {
+    "palavra": "levavam",
+    "inicio": 13.839,
+    "fim": 14.245
+  },
+  {
+    "palavra": "dois",
+    "inicio": 14.303,
+    "fim": 14.501
+  },
+  {
+    "palavra": "navios",
+    "inicio": 14.547,
+    "fim": 14.872
+  },
+  {
+    "palavra": "com",
+    "inicio": 14.93,
+    "fim": 15.058
+  },
+  {
+    "palavra": "motores,",
+    "inicio": 15.093,
+    "fim": 15.778
+  },
+  {
+    "palavra": "livros",
+    "inicio": 15.94,
+    "fim": 16.37
+  },
+  {
+    "palavra": "e",
+    "inicio": 16.416,
+    "fim": 16.44
+  },
+  {
+    "palavra": "comida",
+    "inicio": 16.486,
+    "fim": 16.835
+  },
+  {
+    "palavra": "enlatada",
+    "inicio": 16.904,
+    "fim": 17.601
+  },
+  {
+    "palavra": "para",
+    "inicio": 17.764,
+    "fim": 17.961
+  },
+  {
+    "palavra": "durar",
+    "inicio": 17.996,
+    "fim": 18.251
+  },
+  {
+    "palavra": "três",
+    "inicio": 18.309,
+    "fim": 18.565
+  },
+  {
+    "palavra": "anos.",
+    "inicio": 18.658,
+    "fim": 19.134
+  },
+  {
+    "palavra": "Mas",
+    "inicio": 19.493,
+    "fim": 19.668
+  },
+  {
+    "palavra": "o",
+    "inicio": 19.749,
+    "fim": 19.772
+  },
+  {
+    "palavra": "oceano",
+    "inicio": 19.819,
+    "fim": 20.271
+  },
+  {
+    "palavra": "congelou",
+    "inicio": 20.329,
+    "fim": 20.84
+  },
+  {
+    "palavra": "ao",
+    "inicio": 20.875,
+    "fim": 20.945
+  },
+  {
+    "palavra": "redor",
+    "inicio": 20.991,
+    "fim": 21.258
+  },
+  {
+    "palavra": "das",
+    "inicio": 21.328,
+    "fim": 21.432
+  },
+  {
+    "palavra": "embarcações,",
+    "inicio": 21.49,
+    "fim": 22.431
+  },
+  {
+    "palavra": "prendendo",
+    "inicio": 22.628,
+    "fim": 23.104
+  },
+  {
+    "palavra": "todos",
+    "inicio": 23.185,
+    "fim": 23.51
+  },
+  {
+    "palavra": "no",
+    "inicio": 23.569,
+    "fim": 23.65
+  },
+  {
+    "palavra": "Estreito",
+    "inicio": 23.696,
+    "fim": 24.103
+  },
+  {
+    "palavra": "de",
+    "inicio": 24.149,
+    "fim": 24.207
+  },
+  {
+    "palavra": "Vitória.",
+    "inicio": 24.254,
+    "fim": 24.939
+  },
+  {
+    "palavra": "Só",
+    "inicio": 25.519,
+    "fim": 25.693
+  },
+  {
+    "palavra": "que",
+    "inicio": 25.74,
+    "fim": 25.821
+  },
+  {
+    "palavra": "as",
+    "inicio": 25.856,
+    "fim": 25.925
+  },
+  {
+    "palavra": "latas",
+    "inicio": 25.995,
+    "fim": 26.308
+  },
+  {
+    "palavra": "tinham",
+    "inicio": 26.355,
+    "fim": 26.634
+  },
+  {
+    "palavra": "um",
+    "inicio": 26.75,
+    "fim": 26.843
+  },
+  {
+    "palavra": "defeito:",
+    "inicio": 26.901,
+    "fim": 27.62
+  },
+  {
+    "palavra": "a",
+    "inicio": 27.853,
+    "fim": 27.922
+  },
+  {
+    "palavra": "solda",
+    "inicio": 28.004,
+    "fim": 28.329
+  },
+  {
+    "palavra": "feita",
+    "inicio": 28.398,
+    "fim": 28.665
+  },
+  {
+    "palavra": "às",
+    "inicio": 28.689,
+    "fim": 28.747
+  },
+  {
+    "palavra": "pressas",
+    "inicio": 28.816,
+    "fim": 29.292
+  },
+  {
+    "palavra": "derramou",
+    "inicio": 29.49,
+    "fim": 29.919
+  },
+  {
+    "palavra": "chumbo",
+    "inicio": 29.977,
+    "fim": 30.291
+  },
+  {
+    "palavra": "no",
+    "inicio": 30.326,
+    "fim": 30.395
+  },
+  {
+    "palavra": "alimento.",
+    "inicio": 30.43,
+    "fim": 31.08
+  },
+  {
+    "palavra": "Sem",
+    "inicio": 31.347,
+    "fim": 31.545
+  },
+  {
+    "palavra": "saber,",
+    "inicio": 31.603,
+    "fim": 32.079
+  },
+  {
+    "palavra": "os",
+    "inicio": 32.172,
+    "fim": 32.299
+  },
+  {
+    "palavra": "marinheiros",
+    "inicio": 32.357,
+    "fim": 32.868
+  },
+  {
+    "palavra": "se",
+    "inicio": 32.891,
+    "fim": 32.972
+  },
+  {
+    "palavra": "envenenavam",
+    "inicio": 33.007,
+    "fim": 33.704
+  },
+  {
+    "palavra": "a",
+    "inicio": 33.773,
+    "fim": 33.797
+  },
+  {
+    "palavra": "cada",
+    "inicio": 33.855,
+    "fim": 34.098
+  },
+  {
+    "palavra": "refeição.",
+    "inicio": 34.156,
+    "fim": 34.911
+  },
+  {
+    "palavra": "O",
+    "inicio": 35.225,
+    "fim": 35.294
+  },
+  {
+    "palavra": "escorbuto",
+    "inicio": 35.364,
+    "fim": 36.002
+  },
+  {
+    "palavra": "e",
+    "inicio": 36.037,
+    "fim": 36.072
+  },
+  {
+    "palavra": "outras",
+    "inicio": 36.119,
+    "fim": 36.409
+  },
+  {
+    "palavra": "doenças",
+    "inicio": 36.455,
+    "fim": 36.978
+  },
+  {
+    "palavra": "tomaram",
+    "inicio": 37.117,
+    "fim": 37.512
+  },
+  {
+    "palavra": "conta",
+    "inicio": 37.593,
+    "fim": 37.883
+  },
+  {
+    "palavra": "do",
+    "inicio": 37.93,
+    "fim": 37.999
+  },
+  {
+    "palavra": "grupo.",
+    "inicio": 38.057,
+    "fim": 38.615
+  },
+  {
+    "palavra": "Em",
+    "inicio": 39.033,
+    "fim": 39.16
+  },
+  {
+    "palavra": "abril",
+    "inicio": 39.218,
+    "fim": 39.497
+  },
+  {
+    "palavra": "de",
+    "inicio": 39.543,
+    "fim": 39.602
+  },
+  {
+    "palavra": "1848,",
+    "inicio": 39.66,
+    "fim": 41.192
+  },
+  {
+    "palavra": "vinte",
+    "inicio": 41.355,
+    "fim": 41.668
+  },
+  {
+    "palavra": "e",
+    "inicio": 41.691,
+    "fim": 41.715
+  },
+  {
+    "palavra": "quatro",
+    "inicio": 41.773,
+    "fim": 42.132
+  },
+  {
+    "palavra": "homens",
+    "inicio": 42.156,
+    "fim": 42.458
+  },
+  {
+    "palavra": "haviam",
+    "inicio": 42.492,
+    "fim": 42.759
+  },
+  {
+    "palavra": "morrido.",
+    "inicio": 42.783,
+    "fim": 43.444
+  },
+  {
+    "palavra": "Os",
+    "inicio": 43.862,
+    "fim": 44.025
+  },
+  {
+    "palavra": "sobreviventes",
+    "inicio": 44.048,
+    "fim": 44.791
+  },
+  {
+    "palavra": "abandonaram",
+    "inicio": 44.849,
+    "fim": 45.476
+  },
+  {
+    "palavra": "os",
+    "inicio": 45.523,
+    "fim": 45.592
+  },
+  {
+    "palavra": "navios",
+    "inicio": 45.65,
+    "fim": 45.975
+  },
+  {
+    "palavra": "no",
+    "inicio": 46.045,
+    "fim": 46.126
+  },
+  {
+    "palavra": "gelo",
+    "inicio": 46.196,
+    "fim": 46.521
+  },
+  {
+    "palavra": "e",
+    "inicio": 46.614,
+    "fim": 46.73
+  },
+  {
+    "palavra": "partiram",
+    "inicio": 46.788,
+    "fim": 47.206
+  },
+  {
+    "palavra": "a",
+    "inicio": 47.276,
+    "fim": 47.299
+  },
+  {
+    "palavra": "pé",
+    "inicio": 47.369,
+    "fim": 47.589
+  },
+  {
+    "palavra": "em",
+    "inicio": 47.647,
+    "fim": 47.728
+  },
+  {
+    "palavra": "direção",
+    "inicio": 47.787,
+    "fim": 48.251
+  },
+  {
+    "palavra": "ao",
+    "inicio": 48.274,
+    "fim": 48.332
+  },
+  {
+    "palavra": "continente",
+    "inicio": 48.379,
+    "fim": 48.866
+  },
+  {
+    "palavra": "canadense.",
+    "inicio": 48.901,
+    "fim": 49.749
+  },
+  {
+    "palavra": "A",
+    "inicio": 50.167,
+    "fim": 50.236
+  },
+  {
+    "palavra": "hipotermia",
+    "inicio": 50.294,
+    "fim": 51.061
+  },
+  {
+    "palavra": "e",
+    "inicio": 51.095,
+    "fim": 51.177
+  },
+  {
+    "palavra": "a",
+    "inicio": 51.212,
+    "fim": 51.246
+  },
+  {
+    "palavra": "fome",
+    "inicio": 51.328,
+    "fim": 51.699
+  },
+  {
+    "palavra": "derrubavam",
+    "inicio": 51.838,
+    "fim": 52.5
+  },
+  {
+    "palavra": "um",
+    "inicio": 52.616,
+    "fim": 52.744
+  },
+  {
+    "palavra": "por",
+    "inicio": 52.802,
+    "fim": 52.976
+  },
+  {
+    "palavra": "um.",
+    "inicio": 53.058,
+    "fim": 53.336
+  },
+  {
+    "palavra": "Anos",
+    "inicio": 53.754,
+    "fim": 54.044
+  },
+  {
+    "palavra": "depois,",
+    "inicio": 54.091,
+    "fim": 54.636
+  },
+  {
+    "palavra": "pesquisadores",
+    "inicio": 54.706,
+    "fim": 55.438
+  },
+  {
+    "palavra": "acharam",
+    "inicio": 55.519,
+    "fim": 55.937
+  },
+  {
+    "palavra": "os",
+    "inicio": 55.983,
+    "fim": 56.053
+  },
+  {
+    "palavra": "esqueletos",
+    "inicio": 56.111,
+    "fim": 56.599
+  },
+  {
+    "palavra": "na",
+    "inicio": 56.645,
+    "fim": 56.738
+  },
+  {
+    "palavra": "ilha",
+    "inicio": 56.819,
+    "fim": 57.098
+  },
+  {
+    "palavra": "e",
+    "inicio": 57.237,
+    "fim": 57.353
+  },
+  {
+    "palavra": "descobriram",
+    "inicio": 57.411,
+    "fim": 58.061
+  },
+  {
+    "palavra": "a",
+    "inicio": 58.119,
+    "fim": 58.143
+  },
+  {
+    "palavra": "verdade:",
+    "inicio": 58.189,
+    "fim": 58.897
+  },
+  {
+    "palavra": "os",
+    "inicio": 59.315,
+    "fim": 59.443
+  },
+  {
+    "palavra": "homens",
+    "inicio": 59.524,
+    "fim": 59.838
+  },
+  {
+    "palavra": "se",
+    "inicio": 59.861,
+    "fim": 59.931
+  },
+  {
+    "palavra": "devoraram",
+    "inicio": 59.977,
+    "fim": 60.511
+  },
+  {
+    "palavra": "para",
+    "inicio": 60.569,
+    "fim": 60.743
+  },
+  {
+    "palavra": "adiar",
+    "inicio": 60.767,
+    "fim": 61.08
+  },
+  {
+    "palavra": "a",
+    "inicio": 61.126,
+    "fim": 61.15
+  },
+  {
+    "palavra": "morte.",
+    "inicio": 61.196,
+    "fim": 61.788
+  },
+  {
+    "palavra": "Nenhum",
+    "inicio": 62.206,
+    "fim": 62.578
+  },
+  {
+    "palavra": "voltou",
+    "inicio": 62.624,
+    "fim": 62.949
+  },
+  {
+    "palavra": "vivo",
+    "inicio": 63.03,
+    "fim": 63.39
+  },
+  {
+    "palavra": "e",
+    "inicio": 63.53,
+    "fim": 63.646
+  },
+  {
+    "palavra": "os",
+    "inicio": 63.692,
+    "fim": 63.774
+  },
+  {
+    "palavra": "destroços",
+    "inicio": 63.832,
+    "fim": 64.459
+  },
+  {
+    "palavra": "só",
+    "inicio": 64.482,
+    "fim": 64.587
+  },
+  {
+    "palavra": "foram",
+    "inicio": 64.656,
+    "fim": 64.889
+  },
+  {
+    "palavra": "achados",
+    "inicio": 64.947,
+    "fim": 65.423
+  },
+  {
+    "palavra": "em",
+    "inicio": 65.481,
+    "fim": 65.527
+  },
+  {
+    "palavra": "2014",
+    "inicio": 65.585,
+    "fim": 66.317
+  },
+  {
+    "palavra": "e",
+    "inicio": 66.549,
+    "fim": 66.665
+  },
+  {
+    "palavra": "2016.",
+    "inicio": 66.746,
+    "fim": 67.826
+  },
+  {
+    "palavra": "Por",
+    "inicio": 68.139,
+    "fim": 68.302
+  },
+  {
+    "palavra": "que",
+    "inicio": 68.36,
+    "fim": 68.464
+  },
+  {
+    "palavra": "homens",
+    "inicio": 68.488,
+    "fim": 68.813
+  },
+  {
+    "palavra": "enlouquecidos",
+    "inicio": 68.871,
+    "fim": 69.614
+  },
+  {
+    "palavra": "marchariam",
+    "inicio": 69.672,
+    "fim": 70.183
+  },
+  {
+    "palavra": "arrastando",
+    "inicio": 70.241,
+    "fim": 70.752
+  },
+  {
+    "palavra": "talheres",
+    "inicio": 70.798,
+    "fim": 71.216
+  },
+  {
+    "palavra": "no",
+    "inicio": 71.274,
+    "fim": 71.355
+  },
+  {
+    "palavra": "gelo?",
+    "inicio": 71.413,
+    "fim": 71.878
+  },
+  {
+    "palavra": "Me",
+    "inicio": 72.458,
+    "fim": 72.586
+  },
+  {
+    "palavra": "diga",
+    "inicio": 72.632,
+    "fim": 72.818
+  },
+  {
+    "palavra": "nos",
+    "inicio": 72.853,
+    "fim": 72.958
+  },
+  {
+    "palavra": "comentários.",
+    "inicio": 73.004,
+    "fim": 73.828
+  }
+]

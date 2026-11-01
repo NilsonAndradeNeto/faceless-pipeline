@@ -1,0 +1,49 @@
+{
+  "id": "20261030T194306Z_es",
+  "lang": "es",
+  "tema": "El misterio de Ötzi, el hombre de los hielos",
+  "titulo": "El guerrero que el hielo guardó por 5000 años",
+  "hook": "Este cuerpo congelado en los Alpes no murió en paz: ocultaba una cacería humana de hace cinco mil trescientos años.",
+  "descricao": "El misterioso final de Ötzi, el hombre de los hielos, sigue desconcertando a los arqueólogos. ¿Por qué sus asesinos no le robaron nada?",
+  "hashtags": [
+    "arqueologia",
+    "misterios",
+    "historia",
+    "otzi",
+    "alpes",
+    "momias",
+    "prehistoria"
+  ],
+  "palavras": 173,
+  "caracteres": 1003,
+  "notas_editor_antes": {
+    "gancho": 6,
+    "ritmo": 6,
+    "viradas": 7,
+    "climax": 7,
+    "final": 7
+  },
+  "checagem": {
+    "sem_comprovacao": [
+      "Ötzi hirió a dos enemigos, apuñaló a un tercero y cargó a un compañero ferido."
+    ],
+    "conferir": [
+      "Alguien le disparó por la espalda y luego le arrancó el astil de madera."
+    ],
+    "confianca": "baixa"
+  },
+  "versoes": {
+    "rascunho": "Un rostro humano asoma entre el hielo azul de los Alpes. Creyeron encontrar un cadáver reciente, pero la verdad es mucho más oscura. Helmut y Erika caminaban a tres mil metros de altura en mil novecientos noventa y uno. Vieron un cuerpo emergiendo del glaciar. Era Ötzi. Llevaba allí cinco mil trescientos años, preservado perfectamente por el frío. Tenía sesenta y un tatuajes en las articulaciones y un hacha de cobre puro. Parecía un hombre en paz, pero su cuerpo ocultaba una cacería humana. Una punta de flecha estaba clavada profundamente en su pulmón izquierdo. Alguien le disparó por la espalda y luego le arrancó el astil de madera. Antes de caer, Ötzi luchó por su vida durante días en la nieve. El análisis de ADN reveló algo que dejó mudos a los científicos. Su ropa y sus armas tenían sangre de cuatro personas distintas. Hirió a dos enemigos, apuñaló a un tercero y cargó a un compañero herido. Sus asesinos lo dejaron morir, pero no tocaron su valiosa hacha de cobre. ¿Por qué perseguir a un hombre hasta la muerte y dejar atrás su tesoro? Dime, ¿crees que fue una ejecución planeada o una simple traición?",
+    "editado": "Este cuerpo congelado en los Alpes no murió en paz: ocultaba una cacería humana de hace cinco mil trescientos años. Al principio creyeron encontrar un cadáver reciente emergiendo del glaciar a tres mil metros de altura. Era Ötzi, preservado perfectamente por el frío. Parecía descansar tranquilo, pero una punta de flecha estaba clavada profundamente en su pulmón izquierdo. Alguien le disparó por la espalda y luego le arrancó el astil de madera. Antes de caer, Ötzi luchó por su vida durante días enteros en la nieve. Pero fue el análisis de ADN lo que dejó mudos a los científicos: su ropa y sus armas tenían sangre de cuatro personas distintas. Ötzi hirió a dos enemigos, apuñaló a un tercero y cargó a un compañero herido. Sus asesinos lo dejaron morir allí, pero no tocaron su valiosa hacha de cobre puro. ¿Por qué perseguir a un hombre hasta la muerte y dejar atrás semejante tesoro? Dime en los comentarios: ¿crees que fue una ejecución planeada o una simple traición?"
+  },
+  "fontes": [
+    {
+      "titulo": "Ötzi",
+      "url": "https://en.wikipedia.org/wiki/%C3%96tzi"
+    },
+    {
+      "titulo": "Ötzi",
+      "url": "https://es.wikipedia.org/wiki/%C3%96tzi"
+    }
+  ]
+}

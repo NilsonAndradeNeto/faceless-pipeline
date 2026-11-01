@@ -1,0 +1,368 @@
+[
+  {
+    "n": 1,
+    "texto": "Cento e quinze pessoas sumiram da face da terra sem deixar um único pingo de sangue",
+    "inicio": 0.0,
+    "fim": 5.236,
+    "duracao": 5.236,
+    "visual": {
+      "real": null,
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. An abandoned 16th-century English settlement clearing in a dense forest, empty wooden cabins with open doors, overgrown grass, morning mist, no people, discarded household objects on the ground, cinematic wide shot, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\6c53ec5fc3e9fa79.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "ou um corpo sequer. O governador John White deixou sua família em uma ilha",
+    "inicio": 5.236,
+    "fim": 10.344,
+    "duracao": 5.108,
+    "visual": {
+      "real": {
+        "nome": "Baptism of Virginia Dare.jpeg",
+        "descricao": "Baptism of Virginia Dare",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Baptism_of_Virginia_Dare.jpeg/1280px-Baptism_of_Virginia_Dare.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "William Ludwell Sheppard"
+      },
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. A 16th-century English gentleman in a doublet and ruff standing on a sandy shore, looking back at a group of settlers including women and children near small wooden huts, overcast sky, Roanoke Island, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Baptism_of_Virginia_Dare.jpeg/1280px-Baptism_of_Virginia_Dare.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\e4b110176b9920b9.jpg",
+      "credito": "Baptism of Virginia Dare.jpeg — William Ludwell Sheppard (Public domain)"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "e partiu em busca de comida. Ele combinou um sinal desesperado:",
+    "inicio": 10.344,
+    "fim": 15.07,
+    "duracao": 4.726,
+    "visual": {
+      "real": {
+        "nome": "Building the Pinnace.jpg",
+        "descricao": "Building the Pinnace\nIdentifier: popularhistoryof00brya (find matches)\nTitle: A popular history of the United States : from the first discovery of the western h",
+        "licenca": "No restrictions",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Building_the_Pinnace.jpg/1280px-Building_the_Pinnace.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Alfred R. Waud Internet Archive Book Images"
+      },
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. 16th-century wooden sailing ships anchored near a rugged coastline, sailors loading heavy wooden barrels and crates into a small boat, Elizabethan era clothing, rough sea, cinematic lighting, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\bc1cf615e068f992.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "se fossem atacados, deveriam entalhar uma cruz na madeira.",
+    "inicio": 15.07,
+    "fim": 19.365,
+    "duracao": 4.295,
+    "visual": {
+      "real": null,
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. Close-up of a rough tree trunk in a dark forest, a sharp metal knife held by a hand about to carve a symbol, dramatic lighting, mossy bark, 16th-century atmosphere, high contrast, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\d1e73ffefcee1be4.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "Mas uma guerra o impediu de voltar por três longos anos.",
+    "inicio": 19.365,
+    "fim": 23.092,
+    "duracao": 3.727,
+    "visual": {
+      "real": {
+        "nome": "Spanish Armada fireships.jpg",
+        "descricao": "Contemporary Flemish interpretation of the launching of English fire-ships against the Spanish Armada, 7 August 1588",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Spanish_Armada_fireships.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "anonymous"
+      },
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. Massive 16th-century galleons engaged in a naval battle, cannons firing with thick smoke, fire-ships on the horizon, stormy dark sea, Spanish Armada era, chaotic and epic atmosphere, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\74a4f80f6074a0ba.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "Quando ele finalmente pisou na areia, o cenário era de arrepiar.",
+    "inicio": 23.092,
+    "fim": 27.237,
+    "duracao": 4.145,
+    "visual": {
+      "real": {
+        "nome": "Ruins of the English Settlement at Roanoke.jpg",
+        "descricao": "Engraving by John Parker Davis, depicting John White finding the ruins of the Roanoke colony in 1590. White's report described a tree marked \"CRO\" and a pallisa",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Ruins_of_the_English_Settlement_at_Roanoke.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Engraving by John Parker Davis"
+      },
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. A lone 16th-century explorer standing on a desolate beach, worn-out clothes, looking towards a dark treeline with a look of shock, footprints in the sand, sunset light, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Ruins_of_the_English_Settlement_at_Roanoke.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\e4c32a698432d5c8.jpg",
+      "credito": "Ruins of the English Settlement at Roanoke.jpg — Engraving by John Parker Davis (Public domain)"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "O silêncio era absoluto. O assentamento estava fortificado,",
+    "inicio": 27.237,
+    "fim": 31.626,
+    "duracao": 4.389,
+    "visual": {
+      "real": {
+        "nome": "Fort Raleigh (artist's reconstruction).jpg",
+        "descricao": "A 1962 illustration depicting the artist's reconstruction of the fort built by Ralph Lane for the 1585 Roanoke Colony. In modern times the fort has come to be k",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Fort_Raleigh_%28artist%27s_reconstruction%29.jpg/1280px-Fort_Raleigh_%28artist%27s_reconstruction%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Uncredited"
+      },
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. A wooden palisade wall of a 16th-century fort, tall pointed logs, overgrown vines and weeds, no guards on the ramparts, eerie silence, cinematic lighting, vertical composition, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Fort_Raleigh_%28artist%27s_reconstruction%29.jpg/1280px-Fort_Raleigh_%28artist%27s_reconstruction%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\4e46379e78c3c1b6.jpg",
+      "credito": "Fort Raleigh (artist's reconstruction).jpg — Uncredited (Public domain)"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "mas estava deserto. Não havia sinais de luta.",
+    "inicio": 31.626,
+    "fim": 35.26,
+    "duracao": 3.634,
+    "visual": {
+      "real": {
+        "nome": "Fort Raleigh National Historic Site earthworks 2 - Sarah Stierch.jpg",
+        "descricao": "Reconstructed earthworks from archeological records of Fort Raleigh in the 16th century.",
+        "licenca": "CC BY 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Fort_Raleigh_National_Historic_Site_earthworks_2_-_Sarah_Stierch.jpg/1280px-Fort_Raleigh_National_Historic_Site_earthworks_2_-_Sarah_Stierch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Sarah Stierch"
+      },
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. Interior of an abandoned colonial settlement, empty wooden frames of houses, a cold fire pit with gray ash, wind blowing through tall grass, no people, haunting atmosphere, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Fort_Raleigh_National_Historic_Site_earthworks_2_-_Sarah_Stierch.jpg/1280px-Fort_Raleigh_National_Historic_Site_earthworks_2_-_Sarah_Stierch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\f4e9318dc32dc6eb.jpg",
+      "credito": "Fort Raleigh National Historic Site earthworks 2 - Sarah Stierch.jpg — Sarah Stierch (CC BY 4.0)"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "Apenas uma única palavra cravada em um tronco: CROATOAN.",
+    "inicio": 35.26,
+    "fim": 39.996,
+    "duracao": 4.736,
+    "visual": {
+      "real": {
+        "nome": "William Ludwell Sheppard & William James Linton - CROATOAN, The Lost Colony (John White).jpg",
+        "descricao": "The Lost Colony, design by William Ludwell Sheppard, engraving by William James Linton.\nThis image depicts John White returning to the Roanoke Colony in 1590 to",
+        "licenca": "No restrictions",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/William_Ludwell_Sheppard_%26_William_James_Linton_-_CROATOAN%2C_The_Lost_Colony_%28John_White%29.jpg/1280px-William_Ludwell_Sheppard_%26_William_James_Linton_-_CROATOAN%2C_The_Lost_Colony_%28John_White%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Design by William Ludwell Sheppard, Engraving by William James Linton"
+      },
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. Extreme close-up of the word 'CROATOAN' deeply carved into a weathered wooden post, rough texture, 16th-century style lettering, dappled forest sunlight, mysterious and sharp focus, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\77f26ca27ffe9934.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "E o detalhe mais bizarro? Não havia nenhuma cruz.",
+    "inicio": 39.996,
+    "fim": 43.828,
+    "duracao": 3.832,
+    "visual": {
+      "real": {
+        "nome": "Lost Colony Tree - Fort Raleigh National Historic Site - Stierch.jpg",
+        "descricao": "\"CRO\" written on a tree, part of the Lost Colony performance at Fort Raleigh National Historic Site.",
+        "licenca": "CC BY 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Lost_Colony_Tree_-_Fort_Raleigh_National_Historic_Site_-_Stierch.jpg/1280px-Lost_Colony_Tree_-_Fort_Raleigh_National_Historic_Site_-_Stierch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Sarah Stierch"
+      },
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. A wide shot of a tree trunk with the word 'CROATOAN' but the area above it is smooth and empty, no cross symbol, mysterious atmosphere, deep 16th-century woods, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Lost_Colony_Tree_-_Fort_Raleigh_National_Historic_Site_-_Stierch.jpg/1280px-Lost_Colony_Tree_-_Fort_Raleigh_National_Historic_Site_-_Stierch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\415fc5ef3359f54b.jpg",
+      "credito": "Lost Colony Tree - Fort Raleigh National Historic Site - Stierch.jpg — Sarah Stierch (CC BY 4.0)"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "Eles não foram atacados, eles simplesmente evaporaram.",
+    "inicio": 43.828,
+    "fim": 47.729,
+    "duracao": 3.901,
+    "visual": {
+      "real": null,
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. Ghostly silhouettes of 16th-century settlers fading into a thick white fog in the middle of a forest, ethereal lighting, mystery, abandoned tools in the foreground, cinematic and haunting, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\fbb177d42255b5de.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "White tentou buscá-los em uma ilha vizinha, mas o mar revolto o expulsou para sempre.",
+    "inicio": 47.729,
+    "fim": 53.441,
+    "duracao": 5.712,
+    "visual": {
+      "real": {
+        "nome": "Roanoke map 1584.JPG",
+        "descricao": "Een kaart van het Roanoke-gebied, door John White",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Roanoke_map_1584.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "John White"
+      },
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. A small 16th-century wooden boat struggling against massive, violent waves near a rocky coastline, dark stormy sky, rain, desperate sailors, epic and dangerous sea, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\f308af3ceb9816cc.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "Anos depois, surgiram boatos de europeus vivendo em tribos,",
+    "inicio": 53.441,
+    "fim": 57.33,
+    "duracao": 3.889,
+    "visual": {
+      "real": {
+        "nome": "A chiefe Herowan.jpg",
+        "descricao": "A chiefe Herowan, watercolor by John White depicting the weroance (\"chief\") of a Native American community.  The identity of the man and his tribe are unknown, ",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/A_chiefe_Herowan.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "John White"
+      },
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. A 16th-century Native American village in the woods, a person with European features and light eyes wearing indigenous clothing and jewelry, sitting by a fire, cinematic and realistic, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\2008853a274e8c90.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "enquanto outros juram que foi um massacre silencioso.",
+    "inicio": 57.33,
+    "fim": 60.895,
+    "duracao": 3.565,
+    "visual": {
+      "real": {
+        "nome": "Burning of Aquascogoc 1585.jpg",
+        "descricao": "An engraved illustration of Secotans fleeing the burning of Aquascogoc in 1585.  English explorers visited several Secotan villages during Richard Grenville's e",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Burning_of_Aquascogoc_1585.jpg/1280px-Burning_of_Aquascogoc_1585.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Uncredited"
+      },
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. Shadows of figures moving through a dark forest at night, an abandoned English helmet lying in the mud, moonlight reflecting off a broken sword, no bodies, high tension, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Burning_of_Aquascogoc_1585.jpg/1280px-Burning_of_Aquascogoc_1585.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\5eaffb0b06e79b6a.jpg",
+      "credito": "Burning of Aquascogoc 1585.jpg — Uncredited (Public domain)"
+    }
+  },
+  {
+    "n": 15,
+    "texto": "O que você faria se voltasse para casa e encontrasse apenas um nome na parede?",
+    "inicio": 60.895,
+    "fim": 66.003,
+    "duracao": 5.108,
+    "visual": {
+      "real": {
+        "nome": "Our greater country; being a standard history of the United States from the discovery of the American continent to the present time (1901) (14784788945).jpg",
+        "descricao": "Identifier: ourgreatercountr00nort (find matches)\nTitle: Our greater country; being a standard history of the United States from the discovery of the American c",
+        "licenca": "No restrictions",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Our_greater_country%3B_being_a_standard_history_of_the_United_States_from_the_discovery_of_the_American_continent_to_the_present_time_%281901%29_%2814784788945%29.jpg/1280px-Our_greater_country%3B_being_a_standard_history_of_the_United_States_from_the_discovery_of_the_American_continent_to_the_present_time_%281901%29_%2814784788945%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Northrop, Henry Davenport, 1836-1909"
+      },
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. A first-person perspective looking at a wooden wall inside a dark, empty cabin, a name carved into the wood, a single candle flickering on a table, 16th-century interior, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\e3a1d6318d9c5f3c.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 16,
+    "texto": "Eles fugiram ou foram levados?",
+    "inicio": 66.003,
+    "fim": 68.484,
+    "duracao": 2.481,
+    "visual": {
+      "real": {
+        "nome": "The Englishmen's arrival in Virginia (1590).jpg",
+        "descricao": "Map showing the coast of Virginia with many islands just off the mainland, two Native territories, Secotan and Weapemeoc, and the Native community of Roanoak on",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/The_Englishmen%27s_arrival_in_Virginia_%281590%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "John White (artist)"
+      },
+      "ia": "Roanoke Island, 1587-1590, Elizabethan era English colony, period-accurate clothing and technology. A symbolic image: a path leading into the deep forest on one side and the vast, empty ocean on the other, 16th-century aesthetic, mystery, cinematic lighting, 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\f19998ff6e929ee1.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  }
+]

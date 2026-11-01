@@ -1,0 +1,53 @@
+{
+  "id": "20261030T192006Z_pt",
+  "lang": "pt",
+  "tema": "O incidente do Passo Dyatlov: nove alpinistas mortos nos Urais",
+  "titulo": "O mistério da Montanha dos Mortos no Passo Dyatlov",
+  "hook": "O que faz pessoas cortarem a própria barraca por dentro com facas e correrem descalças na escuridão a menos trinta graus? No meio da noite, algo aterrorizante aconteceu ali dentro.",
+  "descricao": "Em 1959, nove esquiadores experientes morreram de forma inexplicável nos Montes Urais. O que causou o pânico que os levou à morte? ",
+  "hashtags": [
+    "passodyatlov",
+    "misteriosreais",
+    "historia",
+    "casosinsolucionados",
+    "montesurais",
+    "urss"
+  ],
+  "palavras": 180,
+  "caracteres": 1098,
+  "notas_editor_antes": {
+    "gancho": 6,
+    "ritmo": 5,
+    "viradas": 7,
+    "climax": 6,
+    "final": 7
+  },
+  "checagem": {
+    "sem_comprovacao": [],
+    "conferir": [],
+    "confianca": "alta"
+  },
+  "versoes": {
+    "rascunho": "Eles rasgaram a própria barraca por dentro e fugiram para a morte. O que a neve escondeu por meses desafia a lógica até hoje. Igor Dyatlov liderava nove esquiadores experientes pelos gelados Montes Urais. Era o inverno de mil novecentos e cinquenta e nove. No meio da noite, algo aterrorizante aconteceu dentro da barraca. Eles não usaram a porta. Cortaram o tecido com facas e correram descalços para a escuridão. Fazia menos trinta graus e ninguém estava vestido para o frio. Semanas depois, os primeiros corpos apareceram perto de um pinheiro. Estavam apenas de roupas íntimas e com as mãos queimadas. Mas o mistério real estava enterrado sob quatro metros de neve. Quatro meses depois, encontraram os últimos integrantes em uma ravina. Eles tinham costelas partidas e crânios esmagados por uma pressão extrema. Era como o impacto de um acidente de carro em alta velocidade. Só que não havia nenhuma marca externa de luta ou pancada. Lyudmila estava sem os olhos e sem a língua. O governo soviético culpou uma força natural esmagadora e encerrou o caso. O que faria você abandonar o abrigo e correr pelado para o gelo?",
+    "editado": "O que faz pessoas cortarem a própria barraca por dentro com facas e correrem descalças na escuridão a menos trinta graus? No meio da noite, algo aterrorizante aconteceu ali dentro. Elas não usaram a porta: rasgaram o tecido e fugiram em direção à morte, mesmo sabendo que ninguém estava vestido para enfrentar aquele frio brutal. Semanas depois, os primeiros corpos apareceram caídos perto de um pinheiro. Eles estavam apenas de roupas íntimas e tinham as mãos inexplicavelmente queimadas. Mas o mistério real desafiaria a lógica meses mais tarde, enterrado sob quatro metros de neve. Foi só quatro meses depois que encontraram os últimos integrantes em uma ravina. Os corpos tinham costelas partidas e crânios esmagados por uma pressão extrema, idêntica ao impacto violento de um acidente de carro em alta velocidade. O detalhe mais perturbador: não existia nenhuma marca externa de luta ou pancada. Para piorar, Lyudmila estava sem os olhos e sem a língua. O governo soviético culpou uma força natural esmagadora e encerrou o caso. O que faria você abandonar o abrigo e correr pelado para o gelo?"
+  },
+  "fontes": [
+    {
+      "titulo": "Dyatlov Pass incident",
+      "url": "https://en.wikipedia.org/wiki/Dyatlov_Pass_incident"
+    },
+    {
+      "titulo": "Incidente do Passo Dyatlov",
+      "url": "https://pt.wikipedia.org/wiki/Incidente_do_Passo_Dyatlov"
+    }
+  ],
+  "editado_no_painel": false,
+  "producao": {
+    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 0.1,
+    "atualizado": "2026-11-01 17:17:30"
+  },
+  "voz": "elevenlabs"
+}

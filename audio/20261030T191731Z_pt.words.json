@@ -1,0 +1,827 @@
+[
+  {
+    "palavra": "Cento",
+    "inicio": 0.035,
+    "fim": 0.348
+  },
+  {
+    "palavra": "e",
+    "inicio": 0.372,
+    "fim": 0.395
+  },
+  {
+    "palavra": "quinze",
+    "inicio": 0.43,
+    "fim": 0.685
+  },
+  {
+    "palavra": "pessoas",
+    "inicio": 0.731,
+    "fim": 1.265
+  },
+  {
+    "palavra": "sumiram",
+    "inicio": 1.428,
+    "fim": 1.916
+  },
+  {
+    "palavra": "da",
+    "inicio": 1.95,
+    "fim": 2.032
+  },
+  {
+    "palavra": "face",
+    "inicio": 2.113,
+    "fim": 2.403
+  },
+  {
+    "palavra": "da",
+    "inicio": 2.45,
+    "fim": 2.543
+  },
+  {
+    "palavra": "terra",
+    "inicio": 2.612,
+    "fim": 2.984
+  },
+  {
+    "palavra": "sem",
+    "inicio": 3.181,
+    "fim": 3.367
+  },
+  {
+    "palavra": "deixar",
+    "inicio": 3.425,
+    "fim": 3.762
+  },
+  {
+    "palavra": "um",
+    "inicio": 3.82,
+    "fim": 3.878
+  },
+  {
+    "palavra": "único",
+    "inicio": 3.994,
+    "fim": 4.284
+  },
+  {
+    "palavra": "pingo",
+    "inicio": 4.342,
+    "fim": 4.598
+  },
+  {
+    "palavra": "de",
+    "inicio": 4.656,
+    "fim": 4.725
+  },
+  {
+    "palavra": "sangue",
+    "inicio": 4.795,
+    "fim": 5.143
+  },
+  {
+    "palavra": "ou",
+    "inicio": 5.236,
+    "fim": 5.317
+  },
+  {
+    "palavra": "um",
+    "inicio": 5.352,
+    "fim": 5.422
+  },
+  {
+    "palavra": "corpo",
+    "inicio": 5.515,
+    "fim": 5.863
+  },
+  {
+    "palavra": "sequer.",
+    "inicio": 5.921,
+    "fim": 6.525
+  },
+  {
+    "palavra": "O",
+    "inicio": 6.885,
+    "fim": 6.954
+  },
+  {
+    "palavra": "governador",
+    "inicio": 7.024,
+    "fim": 7.651
+  },
+  {
+    "palavra": "John",
+    "inicio": 7.732,
+    "fim": 7.906
+  },
+  {
+    "palavra": "White",
+    "inicio": 7.999,
+    "fim": 8.429
+  },
+  {
+    "palavra": "deixou",
+    "inicio": 8.545,
+    "fim": 8.94
+  },
+  {
+    "palavra": "sua",
+    "inicio": 8.986,
+    "fim": 9.125
+  },
+  {
+    "palavra": "família",
+    "inicio": 9.183,
+    "fim": 9.601
+  },
+  {
+    "palavra": "em",
+    "inicio": 9.625,
+    "fim": 9.683
+  },
+  {
+    "palavra": "uma",
+    "inicio": 9.764,
+    "fim": 9.927
+  },
+  {
+    "palavra": "ilha",
+    "inicio": 10.008,
+    "fim": 10.286
+  },
+  {
+    "palavra": "e",
+    "inicio": 10.344,
+    "fim": 10.403
+  },
+  {
+    "palavra": "partiu",
+    "inicio": 10.472,
+    "fim": 10.855
+  },
+  {
+    "palavra": "em",
+    "inicio": 10.913,
+    "fim": 10.971
+  },
+  {
+    "palavra": "busca",
+    "inicio": 11.029,
+    "fim": 11.331
+  },
+  {
+    "palavra": "de",
+    "inicio": 11.378,
+    "fim": 11.436
+  },
+  {
+    "palavra": "comida.",
+    "inicio": 11.482,
+    "fim": 12.098
+  },
+  {
+    "palavra": "Ele",
+    "inicio": 12.458,
+    "fim": 12.69
+  },
+  {
+    "palavra": "combinou",
+    "inicio": 12.736,
+    "fim": 13.212
+  },
+  {
+    "palavra": "um",
+    "inicio": 13.328,
+    "fim": 13.398
+  },
+  {
+    "palavra": "sinal",
+    "inicio": 13.456,
+    "fim": 13.769
+  },
+  {
+    "palavra": "desesperado:",
+    "inicio": 13.827,
+    "fim": 14.756
+  },
+  {
+    "palavra": "se",
+    "inicio": 15.07,
+    "fim": 15.174
+  },
+  {
+    "palavra": "fossem",
+    "inicio": 15.244,
+    "fim": 15.569
+  },
+  {
+    "palavra": "atacados,",
+    "inicio": 15.627,
+    "fim": 16.393
+  },
+  {
+    "palavra": "deveriam",
+    "inicio": 16.509,
+    "fim": 16.939
+  },
+  {
+    "palavra": "entalhar",
+    "inicio": 16.985,
+    "fim": 17.438
+  },
+  {
+    "palavra": "uma",
+    "inicio": 17.473,
+    "fim": 17.612
+  },
+  {
+    "palavra": "cruz",
+    "inicio": 17.67,
+    "fim": 17.914
+  },
+  {
+    "palavra": "na",
+    "inicio": 17.96,
+    "fim": 18.018
+  },
+  {
+    "palavra": "madeira.",
+    "inicio": 18.065,
+    "fim": 18.703
+  },
+  {
+    "palavra": "Mas",
+    "inicio": 19.365,
+    "fim": 19.516
+  },
+  {
+    "palavra": "uma",
+    "inicio": 19.586,
+    "fim": 19.714
+  },
+  {
+    "palavra": "guerra",
+    "inicio": 19.783,
+    "fim": 20.073
+  },
+  {
+    "palavra": "o",
+    "inicio": 20.108,
+    "fim": 20.143
+  },
+  {
+    "palavra": "impediu",
+    "inicio": 20.201,
+    "fim": 20.584
+  },
+  {
+    "palavra": "de",
+    "inicio": 20.631,
+    "fim": 20.677
+  },
+  {
+    "palavra": "voltar",
+    "inicio": 20.724,
+    "fim": 21.13
+  },
+  {
+    "palavra": "por",
+    "inicio": 21.2,
+    "fim": 21.339
+  },
+  {
+    "palavra": "três",
+    "inicio": 21.397,
+    "fim": 21.676
+  },
+  {
+    "palavra": "longos",
+    "inicio": 21.745,
+    "fim": 22.105
+  },
+  {
+    "palavra": "anos.",
+    "inicio": 22.186,
+    "fim": 22.674
+  },
+  {
+    "palavra": "Quando",
+    "inicio": 23.092,
+    "fim": 23.324
+  },
+  {
+    "palavra": "ele",
+    "inicio": 23.359,
+    "fim": 23.475
+  },
+  {
+    "palavra": "finalmente",
+    "inicio": 23.533,
+    "fim": 24.091
+  },
+  {
+    "palavra": "pisou",
+    "inicio": 24.137,
+    "fim": 24.45
+  },
+  {
+    "palavra": "na",
+    "inicio": 24.508,
+    "fim": 24.601
+  },
+  {
+    "palavra": "areia,",
+    "inicio": 24.625,
+    "fim": 25.135
+  },
+  {
+    "palavra": "o",
+    "inicio": 25.228,
+    "fim": 25.321
+  },
+  {
+    "palavra": "cenário",
+    "inicio": 25.356,
+    "fim": 25.809
+  },
+  {
+    "palavra": "era",
+    "inicio": 25.844,
+    "fim": 25.971
+  },
+  {
+    "palavra": "de",
+    "inicio": 26.018,
+    "fim": 26.087
+  },
+  {
+    "palavra": "arrepiar.",
+    "inicio": 26.111,
+    "fim": 26.819
+  },
+  {
+    "palavra": "O",
+    "inicio": 27.237,
+    "fim": 27.318
+  },
+  {
+    "palavra": "silêncio",
+    "inicio": 27.399,
+    "fim": 27.841
+  },
+  {
+    "palavra": "era",
+    "inicio": 27.864,
+    "fim": 27.98
+  },
+  {
+    "palavra": "absoluto.",
+    "inicio": 28.003,
+    "fim": 28.862
+  },
+  {
+    "palavra": "O",
+    "inicio": 29.35,
+    "fim": 29.419
+  },
+  {
+    "palavra": "assentamento",
+    "inicio": 29.501,
+    "fim": 30.174
+  },
+  {
+    "palavra": "estava",
+    "inicio": 30.209,
+    "fim": 30.499
+  },
+  {
+    "palavra": "fortificado,",
+    "inicio": 30.557,
+    "fim": 31.51
+  },
+  {
+    "palavra": "mas",
+    "inicio": 31.626,
+    "fim": 31.765
+  },
+  {
+    "palavra": "estava",
+    "inicio": 31.823,
+    "fim": 32.113
+  },
+  {
+    "palavra": "deserto.",
+    "inicio": 32.16,
+    "fim": 32.914
+  },
+  {
+    "palavra": "Não",
+    "inicio": 33.495,
+    "fim": 33.669
+  },
+  {
+    "palavra": "havia",
+    "inicio": 33.704,
+    "fim": 33.959
+  },
+  {
+    "palavra": "sinais",
+    "inicio": 34.006,
+    "fim": 34.342
+  },
+  {
+    "palavra": "de",
+    "inicio": 34.389,
+    "fim": 34.458
+  },
+  {
+    "palavra": "luta.",
+    "inicio": 34.516,
+    "fim": 35.062
+  },
+  {
+    "palavra": "Apenas",
+    "inicio": 35.26,
+    "fim": 35.666
+  },
+  {
+    "palavra": "uma",
+    "inicio": 35.736,
+    "fim": 35.863
+  },
+  {
+    "palavra": "única",
+    "inicio": 35.945,
+    "fim": 36.223
+  },
+  {
+    "palavra": "palavra",
+    "inicio": 36.27,
+    "fim": 36.711
+  },
+  {
+    "palavra": "cravada",
+    "inicio": 36.757,
+    "fim": 37.245
+  },
+  {
+    "palavra": "em",
+    "inicio": 37.268,
+    "fim": 37.326
+  },
+  {
+    "palavra": "um",
+    "inicio": 37.396,
+    "fim": 37.454
+  },
+  {
+    "palavra": "tronco:",
+    "inicio": 37.512,
+    "fim": 38.139
+  },
+  {
+    "palavra": "CROATOAN.",
+    "inicio": 38.336,
+    "fim": 39.416
+  },
+  {
+    "palavra": "E",
+    "inicio": 39.996,
+    "fim": 40.089
+  },
+  {
+    "palavra": "o",
+    "inicio": 40.147,
+    "fim": 40.171
+  },
+  {
+    "palavra": "detalhe",
+    "inicio": 40.217,
+    "fim": 40.6
+  },
+  {
+    "palavra": "mais",
+    "inicio": 40.647,
+    "fim": 40.809
+  },
+  {
+    "palavra": "bizarro?",
+    "inicio": 40.856,
+    "fim": 41.552
+  },
+  {
+    "palavra": "Não",
+    "inicio": 41.97,
+    "fim": 42.144
+  },
+  {
+    "palavra": "havia",
+    "inicio": 42.167,
+    "fim": 42.411
+  },
+  {
+    "palavra": "nenhuma",
+    "inicio": 42.458,
+    "fim": 42.794
+  },
+  {
+    "palavra": "cruz.",
+    "inicio": 42.841,
+    "fim": 43.41
+  },
+  {
+    "palavra": "Eles",
+    "inicio": 43.828,
+    "fim": 44.06
+  },
+  {
+    "palavra": "não",
+    "inicio": 44.106,
+    "fim": 44.199
+  },
+  {
+    "palavra": "foram",
+    "inicio": 44.246,
+    "fim": 44.478
+  },
+  {
+    "palavra": "atacados,",
+    "inicio": 44.536,
+    "fim": 45.372
+  },
+  {
+    "palavra": "eles",
+    "inicio": 45.488,
+    "fim": 45.708
+  },
+  {
+    "palavra": "simplesmente",
+    "inicio": 45.743,
+    "fim": 46.44
+  },
+  {
+    "palavra": "evaporaram.",
+    "inicio": 46.463,
+    "fim": 47.311
+  },
+  {
+    "palavra": "White",
+    "inicio": 47.729,
+    "fim": 48.089
+  },
+  {
+    "palavra": "tentou",
+    "inicio": 48.135,
+    "fim": 48.426
+  },
+  {
+    "palavra": "buscá-los",
+    "inicio": 48.472,
+    "fim": 49.006
+  },
+  {
+    "palavra": "em",
+    "inicio": 49.064,
+    "fim": 49.111
+  },
+  {
+    "palavra": "uma",
+    "inicio": 49.18,
+    "fim": 49.319
+  },
+  {
+    "palavra": "ilha",
+    "inicio": 49.389,
+    "fim": 49.563
+  },
+  {
+    "palavra": "vizinha,",
+    "inicio": 49.598,
+    "fim": 50.272
+  },
+  {
+    "palavra": "mas",
+    "inicio": 50.364,
+    "fim": 50.515
+  },
+  {
+    "palavra": "o",
+    "inicio": 50.585,
+    "fim": 50.608
+  },
+  {
+    "palavra": "mar",
+    "inicio": 50.655,
+    "fim": 50.84
+  },
+  {
+    "palavra": "revolto",
+    "inicio": 50.91,
+    "fim": 51.433
+  },
+  {
+    "palavra": "o",
+    "inicio": 51.525,
+    "fim": 51.641
+  },
+  {
+    "palavra": "expulsou",
+    "inicio": 51.676,
+    "fim": 52.141
+  },
+  {
+    "palavra": "para",
+    "inicio": 52.187,
+    "fim": 52.373
+  },
+  {
+    "palavra": "sempre.",
+    "inicio": 52.431,
+    "fim": 53.023
+  },
+  {
+    "palavra": "Anos",
+    "inicio": 53.441,
+    "fim": 53.72
+  },
+  {
+    "palavra": "depois,",
+    "inicio": 53.766,
+    "fim": 54.277
+  },
+  {
+    "palavra": "surgiram",
+    "inicio": 54.37,
+    "fim": 54.811
+  },
+  {
+    "palavra": "boatos",
+    "inicio": 54.857,
+    "fim": 55.264
+  },
+  {
+    "palavra": "de",
+    "inicio": 55.31,
+    "fim": 55.38
+  },
+  {
+    "palavra": "europeus",
+    "inicio": 55.415,
+    "fim": 55.937
+  },
+  {
+    "palavra": "vivendo",
+    "inicio": 55.995,
+    "fim": 56.32
+  },
+  {
+    "palavra": "em",
+    "inicio": 56.367,
+    "fim": 56.413
+  },
+  {
+    "palavra": "tribos,",
+    "inicio": 56.471,
+    "fim": 57.133
+  },
+  {
+    "palavra": "enquanto",
+    "inicio": 57.33,
+    "fim": 57.737
+  },
+  {
+    "palavra": "outros",
+    "inicio": 57.83,
+    "fim": 58.213
+  },
+  {
+    "palavra": "juram",
+    "inicio": 58.352,
+    "fim": 58.642
+  },
+  {
+    "palavra": "que",
+    "inicio": 58.689,
+    "fim": 58.758
+  },
+  {
+    "palavra": "foi",
+    "inicio": 58.816,
+    "fim": 58.967
+  },
+  {
+    "palavra": "um",
+    "inicio": 59.002,
+    "fim": 59.072
+  },
+  {
+    "palavra": "massacre",
+    "inicio": 59.095,
+    "fim": 59.594
+  },
+  {
+    "palavra": "silencioso.",
+    "inicio": 59.641,
+    "fim": 60.535
+  },
+  {
+    "palavra": "O",
+    "inicio": 60.895,
+    "fim": 60.964
+  },
+  {
+    "palavra": "que",
+    "inicio": 61.034,
+    "fim": 61.104
+  },
+  {
+    "palavra": "você",
+    "inicio": 61.15,
+    "fim": 61.347
+  },
+  {
+    "palavra": "faria",
+    "inicio": 61.44,
+    "fim": 61.789
+  },
+  {
+    "palavra": "se",
+    "inicio": 61.835,
+    "fim": 61.916
+  },
+  {
+    "palavra": "voltasse",
+    "inicio": 61.963,
+    "fim": 62.392
+  },
+  {
+    "palavra": "para",
+    "inicio": 62.439,
+    "fim": 62.624
+  },
+  {
+    "palavra": "casa",
+    "inicio": 62.694,
+    "fim": 63.1
+  },
+  {
+    "palavra": "e",
+    "inicio": 63.24,
+    "fim": 63.379
+  },
+  {
+    "palavra": "encontrasse",
+    "inicio": 63.402,
+    "fim": 64.018
+  },
+  {
+    "palavra": "apenas",
+    "inicio": 64.052,
+    "fim": 64.389
+  },
+  {
+    "palavra": "um",
+    "inicio": 64.505,
+    "fim": 64.563
+  },
+  {
+    "palavra": "nome",
+    "inicio": 64.633,
+    "fim": 64.877
+  },
+  {
+    "palavra": "na",
+    "inicio": 64.912,
+    "fim": 64.981
+  },
+  {
+    "palavra": "parede?",
+    "inicio": 65.028,
+    "fim": 65.585
+  },
+  {
+    "palavra": "Eles",
+    "inicio": 66.003,
+    "fim": 66.27
+  },
+  {
+    "palavra": "fugiram",
+    "inicio": 66.328,
+    "fim": 66.792
+  },
+  {
+    "palavra": "ou",
+    "inicio": 66.862,
+    "fim": 66.909
+  },
+  {
+    "palavra": "foram",
+    "inicio": 66.967,
+    "fim": 67.187
+  },
+  {
+    "palavra": "levados?",
+    "inicio": 67.234,
+    "fim": 67.884
+  }
+]

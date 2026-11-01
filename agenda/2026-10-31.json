@@ -1,0 +1,35 @@
+{
+  "data": "2026-10-31",
+  "pt": {
+    "script": "20261030T183630Z_pt",
+    "titulo": "O segredo sombrio da Expedição Franklin no Ártico",
+    "aprovacao": "voce",
+    "posts": {
+      "youtube": {
+        "estado": "conta não conectada"
+      },
+      "instagram": {
+        "estado": "conta não conectada"
+      },
+      "tiktok": {
+        "estado": "conta não conectada"
+      }
+    }
+  },
+  "en": {
+    "script": "20261030T201002Z_en",
+    "titulo": "The 129 Men Who Vanished in the Arctic",
+    "aprovacao": "automatica",
+    "posts": {
+      "youtube": {
+        "estado": "vídeo ainda não ficou pronto"
+      },
+      "instagram": {
+        "estado": "vídeo ainda não ficou pronto"
+      },
+      "tiktok": {
+        "estado": "vídeo ainda não ficou pronto"
+      }
+    }
+  }
+}

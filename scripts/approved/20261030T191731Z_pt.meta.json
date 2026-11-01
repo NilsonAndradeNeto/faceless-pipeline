@@ -1,0 +1,69 @@
+{
+  "id": "20261030T191731Z_pt",
+  "lang": "pt",
+  "tema": "O que aconteceu com a colônia perdida de Roanoke",
+  "titulo": "O mistério da colônia que sumiu em Roanoke",
+  "hook": "Cento e quinze pessoas sumiram da face da terra sem deixar um único pingo de sangue ou um corpo sequer.",
+  "descricao": "Em 1590, uma colônia inteira desapareceu na América sem deixar corpos, restando apenas uma palavra entalhada em madeira. O que você acredita que aconteceu com os colonos de Roanoke?",
+  "hashtags": [
+    "historia",
+    "misteriosreais",
+    "roanoke",
+    "curiosidadeshistoricas",
+    "fatosreais",
+    "misterio"
+  ],
+  "palavras": 165,
+  "caracteres": 981,
+  "notas_editor_antes": {
+    "gancho": 7,
+    "ritmo": 5,
+    "viradas": 6,
+    "climax": 6,
+    "final": 5
+  },
+  "checagem": {
+    "sem_comprovacao": [
+      "Não havia sinais de luta, apenas o esqueleto de um dos habitantes."
+    ],
+    "conferir": [
+      "Cento e quinze pessoas sumiram da face da terra sem deixar um único pingo de sangue ou um corpo sequer."
+    ],
+    "confianca": "baixa"
+  },
+  "versoes": {
+    "rascunho": "Cento e quinze pessoas desapareceram de uma ilha sem deixar corpos. O homem que voltou para resgatá-los encontrou apenas um enigma na madeira. Em 1587, o governador John White deixou sua família na colônia de Roanoke. Sua neta, Virginia Dare, era o primeiro bebê inglês nascido no continente. Mas a comida acabou depressa. White precisou velejar de volta à Inglaterra por mantimentos urgentes. Antes de partir, combinou um sinal: se fossem atacados, entalhariam uma cruz. Só que uma guerra com a Espanha reteve seus navios por três anos. Em 1590, ele finalmente pisou na praia. O silêncio era total. As casas haviam sido desmontadas. Nenhum sinal de confronto. Nenhum corpo enterrado na areia. Na paliçada, estava gravada uma única palavra: CROATOAN. E nenhuma cruz. White tentou seguir até a ilha vizinha. Mas o mar revolto e uma âncora perdida forçaram o navio a recuar. Ele nunca mais viu sua neta. Anos depois, colonos ouviram relatos de pessoas europeias acolhidas em aldeias. Mas outros acreditavam em massacre. Para onde você acha que eles foram?",
+    "editado": "Cento e quinze pessoas sumiram da face da terra sem deixar um único pingo de sangue ou um corpo sequer. O governador John White deixou sua família em uma ilha e partiu em busca de comida. Ele combinou um sinal desesperado: se fossem atacados, deveriam entalhar uma cruz na madeira. Mas uma guerra o impediu de voltar por três longos anos. Quando ele finalmente pisou na areia, o cenário era de arrepiar. O silêncio era absoluto. As casas não estavam destruídas, elas tinham sido completamente desmontadas, como se nunca tivessem existido. Não havia sinais de luta, nem túmulos, nem ossos. Apenas uma única palavra cravada em um tronco: CROATOAN. E o detalhe mais bizarro? Não havia nenhuma cruz. Eles não foram atacados, eles simplesmente evaporaram. White tentou buscá-los em uma ilha vizinha, mas o mar revolto o expulsou para sempre. Anos depois, surgiram boatos de europeus vivendo em tribos, enquanto outros juram que foi um massacre silencioso. O que você faria se voltasse para casa e encontrasse apenas um nome na parede? Eles fugiram ou foram levados?"
+  },
+  "fontes": [
+    {
+      "titulo": "Roanoke Colony",
+      "url": "https://en.wikipedia.org/wiki/Roanoke_Colony"
+    },
+    {
+      "titulo": "Colônia de Roanoke",
+      "url": "https://pt.wikipedia.org/wiki/Col%C3%B4nia_de_Roanoke"
+    }
+  ],
+  "editado_no_painel": false,
+  "producao": {
+    "etapa": "pronto",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 1.0,
+    "atualizado": "2026-10-31 17:18:29"
+  },
+  "voz": "elevenlabs",
+  "creditos_imagens": [
+    "Baptism of Virginia Dare.jpeg — William Ludwell Sheppard (Public domain)",
+    "Burning of Aquascogoc 1585.jpg — Uncredited (Public domain)",
+    "Fort Raleigh (artist's reconstruction).jpg — Uncredited (Public domain)",
+    "Fort Raleigh National Historic Site earthworks 2 - Sarah Stierch.jpg — Sarah Stierch (CC BY 4.0)",
+    "Lost Colony Tree - Fort Raleigh National Historic Site - Stierch.jpg — Sarah Stierch (CC BY 4.0)",
+    "Ruins of the English Settlement at Roanoke.jpg — Engraving by John Parker Davis (Public domain)"
+  ],
+  "imagens_ia": 10,
+  "video": "D:\\faceless-pipeline\\storage\\shorts\\ready\\20261030T191731Z_pt.mp4",
+  "duracao_seg": 68.5,
+  "data_post": "2026-11-01"
+}

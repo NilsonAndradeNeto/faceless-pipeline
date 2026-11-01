@@ -1,0 +1,7 @@
+﻿# Pesado ou temporário: imagens e vídeos ficam no cache do Actions
+broll/
+shorts/
+work/
+jobs/
+*.lock
+logs/painel_processos.log

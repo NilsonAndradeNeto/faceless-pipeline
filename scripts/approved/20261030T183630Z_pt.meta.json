@@ -1,0 +1,68 @@
+{
+  "id": "20261030T183630Z_pt",
+  "lang": "pt",
+  "tema": "O mistério da expedição perdida de Franklin no Ártico",
+  "titulo": "O segredo sombrio da Expedição Franklin no Ártico",
+  "hook": "Esqueletos encontrados no gelo tinham marcas profundas de corte de faca nos ossos.",
+  "descricao": "Em 1845, 129 marinheiros desapareceram sem deixar vestígios no gelo do Ártico. O que você faria para sobreviver em uma situação limite como essa?",
+  "hashtags": [
+    "historia",
+    "misterio",
+    "expedicaofranklin",
+    "curiosidades",
+    "fatosreais",
+    "casossemresposta"
+  ],
+  "palavras": 181,
+  "caracteres": 1095,
+  "notas_editor_antes": {
+    "gancho": 5,
+    "ritmo": 5,
+    "viradas": 6,
+    "climax": 6,
+    "final": 4
+  },
+  "checagem": {
+    "sem_comprovacao": [
+      "Os sobreviventes abandonaram os navios no gelo e tentaram marchar centenas de quilômetros pelo deserto branco."
+    ],
+    "conferir": [
+      "Em maio de 1845, cento e vinte e nove homens avançaram pelo Ártico na expedição de John Franklin.",
+      "Sem saber, os marinheiros se envenenavam a cada refeição.",
+      "O escorbuto e outras doenças tomaram conta do grupo.",
+      "A hipotermia e a fome derrubavam um por um.",
+      "Nenhum voltou vivo e os destroços só foram achados em 2014 e 2016."
+    ],
+    "confianca": "baixa"
+  },
+  "versoes": {
+    "rascunho": "Cento e vinte e nove homens entraram no gelo. Nenhum deles voltou vivo. E o que as buscas encontraram depois é perturbador. Em maio de 1845, dois navios avançaram pelo Ártico. A expedição de John Franklin levava motores e livros. Eles tinham comida enlatada para durar três anos. Mas o oceano congelou ao redor dos navios. Eles ficaram totalmente presos no Estreito de Vitória. Só que as latas de comida tinham um defeito. A solda feita às pressas derramou chumbo no alimento. Sem saber, os marinheiros se envenenavam a cada refeição. A demência e o escorbuto tomaram conta do grupo. Em abril de 1848, vinte e quatro homens haviam morrido. Os sobreviventes abandonaram as embarcações no gelo. Eles tentaram marchar centenas de quilômetros no deserto branco. Arrastavam botes pesados carregando talheres e botões. A hipotermia e a fome derrubaram um por um. Anos depois, pesquisadores encontraram os esqueletos na ilha. Havia marcas de corte de faca nos ossos. Os homens se devoraram para tentar adiar a morte. Os destroços dos navios só foram achados em 2014. Por que eles marcharam em direção ao nada?",
+    "editado": "Esqueletos encontrados no gelo tinham marcas profundas de corte de faca nos ossos. Em maio de 1845, cento e vinte e nove homens avançaram pelo Ártico na expedição de John Franklin. Eles levavam dois navios com motores, livros e comida enlatada para durar três anos. Mas o oceano congelou ao redor das embarcações, prendendo todos no Estreito de Vitória. Só que as latas tinham um defeito: a solda feita às pressas derramou chumbo no alimento. Sem saber, os marinheiros se envenenavam a cada refeição. A demência e o escorbuto tomaram conta do grupo. Em abril de 1848, vinte e quatro homens haviam morrido. Os sobreviventes abandonaram os navios no gelo e tentaram marchar centenas de quilômetros pelo deserto branco. Arrastavam botes pesados carregando talheres e botões, enquanto a hipotermia e a fome derrubavam um por um. Anos depois, pesquisadores acharam os esqueletos na ilha e descobriram a verdade: os homens se devoraram para adiar a morte. Nenhum voltou vivo e os destroços só foram achados em 2014. Por que homens enlouquecidos marchariam arrastando talheres no gelo? Me diga nos comentários."
+  },
+  "fontes": [
+    {
+      "titulo": "Franklin's lost expedition",
+      "url": "https://en.wikipedia.org/wiki/Franklin%27s_lost_expedition"
+    },
+    {
+      "titulo": "Expedição de John Franklin",
+      "url": "https://pt.wikipedia.org/wiki/Expedi%C3%A7%C3%A3o_de_John_Franklin"
+    }
+  ],
+  "creditos_imagens": [
+    "2018-09-30 01 Franklin Camp grave images, Nunavut Canada 2015-09-11.jpg — Gordon Leggett (CC BY-SA 4.0)",
+    "Franklin Expedition 1845 - HMS Terror - Erebus.jpg — Illustrated London News - Getty (Public domain)",
+    "Model of the HMS Erebus (1826) trapped in the ice, Nattilik Heritage Centre, Gjoa Haven, September 2019.jpg — Kerry Raymond (CC BY 4.0)"
+  ],
+  "imagens_ia": 13,
+  "video": "D:\\faceless-pipeline\\storage\\shorts\\ready\\20261030T183630Z_pt.mp4",
+  "duracao_seg": 74.4,
+  "producao": {
+    "etapa": "pronto",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 1.0,
+    "atualizado": "2026-10-31 17:02:18"
+  },
+  "data_post": "2026-10-31"
+}

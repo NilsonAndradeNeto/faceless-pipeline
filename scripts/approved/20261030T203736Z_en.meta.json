@@ -1,0 +1,50 @@
+{
+  "id": "20261030T203736Z_en",
+  "lang": "en",
+  "tema": "The Dyatlov Pass incident: nine hikers dead in the Ural Mountains",
+  "titulo": "The Dyatlov Pass: Missing Eyes, Unanswered Questions",
+  "hook": "Imagine a campsite ripped open from the inside, the canvas shredded as if something clawed its way out.",
+  "descricao": "A chilling trek turned deadly on Kholat Syakhl, leaving bodies without eyes or tongues. What do you think caused the hikers to flee into the night?",
+  "hashtags": [
+    "dyatlovpass",
+    "mystery",
+    "history",
+    "truecrime",
+    "russianmystery",
+    "coldcase"
+  ],
+  "palavras": 178,
+  "caracteres": 1047,
+  "notas_editor_antes": {
+    "gancho": 7,
+    "ritmo": 6,
+    "viradas": 6,
+    "climax": 7,
+    "final": 7
+  },
+  "checagem": {
+    "sem_comprovacao": [],
+    "conferir": [],
+    "confianca": "alta"
+  },
+  "versoes": {
+    "rascunho": "Nine hikers vanished on a frozen Urals ridge, only a torn tent. What they discovered afterward turned curiosity into dread. In late January 1959, Igor Dyatlov led ten university students into the north. One dropped out with a knee injury, leaving nine to press on. They set camp on the eastern slope of Kholat Syakhl on February 1. A blizzard rolled in, the wind howling like a dying animal. When morning came, the tent was slashed open from inside. Footprints showed the hikers fled in socks, some barefoot, into -40°C darkness. They left behind boots, radios, and a half‑eaten meal. Searchers later found five bodies near a pine, shivering in underwear. Three more lay farther down the slope, arms outstretched as if reaching. The final four were uncovered in May, buried under four meters of snow. Lyudmila Dubinina wore a companion’s torn trousers, shin wrapped in jacket. Two victims had no eyes, another lacked a tongue, and one’s eyebrows were gone. The hikers were found without eyes, tongues, or eyebrows. The dread was real, and we don't know why they fled. What force could have driven them into the night?",
+    "editado": "Imagine a campsite ripped open from the inside, the canvas shredded as if something clawed its way out. In late January 1959, Igor Dyatlov led a group of ten university students into the Ural wilderness. One dropped out with a knee injury, so nine pressed on, setting up on the eastern slope of Kholat Syakhl on February 1. A fierce blizzard roared through, wind screaming like a dying animal. When dawn broke, the tent’s fabric was torn, the flap yawning wide. Footprints showed the hikers fled in socks, some barefoot, into a night that hovered at minus 40 °F. They abandoned boots, radios, even a half‑eaten meal. Search teams later uncovered five bodies near a pine, shivering in only underwear. Three more lie farther down, arms stretched toward the sky. The final four, buried under four meters of snow, revealed the most chilling detail: two were missing eyes, another had no tongue, and one’s eyebrows had vanished. What unseen force could drive people to abandon warmth and run into a frozen death? The mystery still haunts the mountains."
+  },
+  "fontes": [
+    {
+      "titulo": "Dyatlov Pass incident",
+      "url": "https://en.wikipedia.org/wiki/Dyatlov_Pass_incident"
+    }
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-01",
+  "producao": {
+    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 0.205,
+    "atualizado": "2026-11-01 17:17:30"
+  },
+  "voz": "elevenlabs"
+}

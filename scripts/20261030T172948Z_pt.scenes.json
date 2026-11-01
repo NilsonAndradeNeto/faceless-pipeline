@@ -1,0 +1,359 @@
+[
+  {
+    "n": 1,
+    "texto": "Em 1845, o HMS Erebus e o HMS Terror desapareceram",
+    "inicio": 0.0,
+    "fim": 5.735,
+    "duracao": 5.735,
+    "busca": {
+      "wikimedia": "HMS Erebus 1845 Franklin",
+      "pixabay": "arctic ice",
+      "ia": "Cinematic dark 19th century style illustration of HMS Erebus and HMS Terror trapped in Arctic ice, dramatic lighting, no text"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Franklin_Expedition_1845_-_HMS_Terror_-_Erebus.jpg/1280px-Franklin_Expedition_1845_-_HMS_Terror_-_Erebus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\f65d452d07780230.jpg",
+      "credito": "Franklin Expedition 1845 - HMS Terror - Erebus.jpg — Illustrated London News - Getty (Public domain)"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "no gelo do Ártico, levando 129 homens ao desconhecido.",
+    "inicio": 5.735,
+    "fim": 10.414,
+    "duracao": 4.679,
+    "busca": {
+      "wikimedia": null,
+      "pixabay": "frozen sea",
+      "ia": "Atmospheric 19th century style depiction of a convoy of men marching across endless Arctic ice, cinematic, dark"
+    },
+    "midia": {
+      "tipo": "video",
+      "fonte": "pixabay",
+      "url": "https://cdn.pixabay.com/video/2020/10/31/53906-476396223_large.mp4",
+      "id": 53906,
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\68c1da1ae338dcf2.mp4",
+      "credito": "Pixabay #53906"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "O gelo aprisionou a frota no estreito de Victoria; um ano depois,",
+    "inicio": 10.414,
+    "fim": 14.675,
+    "duracao": 4.261,
+    "busca": {
+      "wikimedia": "Victoria Strait map",
+      "pixabay": "iceberg drift",
+      "ia": "Cinematic illustration of ice crushing ships in Victoria Strait, 19th century, moody"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Admiralty_Chart_No_1695b_Bass_Strait._Western_sheet%2C_Published_1868.jpg/1280px-Admiralty_Chart_No_1695b_Bass_Strait._Western_sheet%2C_Published_1868.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\2b15652db1fe32ab.jpg",
+      "credito": "Admiralty Chart No 1695b Bass Strait. Western sheet, Published 1868.jpg — United Kingdom Hydrographic Office (Public domain)"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "a tripulação abandonou os navios, liderada por Francis Crozier.",
+    "inicio": 14.675,
+    "fim": 19.319,
+    "duracao": 4.644,
+    "busca": {
+      "wikimedia": "Francis Crozier portrait",
+      "pixabay": "snowstorm",
+      "ia": "Dark 19th century style image of Francis Crozier leading crew abandoning ship in Arctic storm"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Franciscrozierdagsothebys.jpg/1280px-Franciscrozierdagsothebys.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\df8b0d209ffe77e8.jpg",
+      "credito": "Franciscrozierdagsothebys.jpg — FabTet (CC BY-SA 4.0)"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "A tempestade os afastou e a escuridão os engoliu.",
+    "inicio": 19.319,
+    "fim": 22.872,
+    "duracao": 3.553,
+    "busca": {
+      "wikimedia": null,
+      "pixabay": "dark storm",
+      "ia": "Cinematic portrayal of a violent Arctic storm engulfing silhouettes of men, 19th century style"
+    },
+    "midia": {
+      "tipo": "video",
+      "fonte": "pixabay",
+      "url": "https://cdn.pixabay.com/video/2018/05/11/16160-269534741_large.mp4",
+      "id": 16160,
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\0f6779805e876ff6.mp4",
+      "credito": "Pixabay #16160"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "O frio cortava a pele como lâmina, e a esperança diminuía a cada passo sobre o gelo",
+    "inicio": 22.872,
+    "fim": 28.085,
+    "duracao": 5.213,
+    "busca": {
+      "wikimedia": null,
+      "pixabay": "cold wind",
+      "ia": "Illustration of icy wind slicing through a lone explorer's coat on Arctic tundra, cinematic, dark"
+    },
+    "midia": {
+      "tipo": "video",
+      "fonte": "pixabay",
+      "url": "https://cdn.pixabay.com/video/2026/04/07/345020_large.mp4",
+      "id": 345020,
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\ce78e3d4ded196e0.mp4",
+      "credito": "Pixabay #345020"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "traiçoeiro. Enquanto Jane Franklin pressionava o Almirantado a buscar seu marido,",
+    "inicio": 28.085,
+    "fim": 33.611,
+    "duracao": 5.526,
+    "busca": {
+      "wikimedia": "Jane Franklin portrait",
+      "pixabay": "vintage office",
+      "ia": "Cinematic scene of Jane Franklin petitioning Admiralty in a dim Victorian office, 19th century style"
+    },
+    "midia": {
+      "tipo": "video",
+      "fonte": "pixabay",
+      "url": "https://cdn.pixabay.com/video/2022/09/11/130878-748595919_large.mp4",
+      "id": 130878,
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\a7e8a8a2cb5a7bd3.mp4",
+      "credito": "Pixabay #130878"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "relatos inuítes chegavam ao explorador John Rae:",
+    "inicio": 33.611,
+    "fim": 37.385,
+    "duracao": 3.774,
+    "busca": {
+      "wikimedia": "John Rae portrait",
+      "pixabay": "inuits camp",
+      "ia": "Atmospheric illustration of Inuit hunters delivering reports to explorer John Rae near a snow-covered camp, cinematic"
+    },
+    "midia": {
+      "tipo": "video",
+      "fonte": "pixabay",
+      "url": "https://cdn.pixabay.com/video/2020/01/25/31569-387675206_large.mp4",
+      "id": 31569,
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\c64e7bbba1632162.mp4",
+      "credito": "Pixabay #31569"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "ossos marcados por cortes precisos, sinal de canibalismo entre os famintos.",
+    "inicio": 37.385,
+    "fim": 42.923,
+    "duracao": 5.538,
+    "busca": {
+      "wikimedia": null,
+      "pixabay": "bone fragments",
+      "ia": "Dark 19th century style close-up of human bones with precise cut marks on icy ground, cinematic"
+    },
+    "midia": {
+      "tipo": "video",
+      "fonte": "pixabay",
+      "url": "https://cdn.pixabay.com/video/2023/02/07/149711-796873496_large.mp4",
+      "id": 149711,
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\17a367ccc71a7082.mp4",
+      "credito": "Pixabay #149711"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "A doença, a fome e o medo corroíam cada dia.",
+    "inicio": 42.923,
+    "fim": 46.905,
+    "duracao": 3.982,
+    "busca": {
+      "wikimedia": null,
+      "pixabay": "sick crew",
+      "ia": "Cinematic depiction of emaciated, sick crew huddling in a bleak Arctic shelter, 19th century style"
+    },
+    "midia": {
+      "tipo": "video",
+      "fonte": "pixabay",
+      "url": "https://cdn.pixabay.com/video/2021/01/28/63241-505964153_large.mp4",
+      "id": 63241,
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\6181a899cc9842f3.mp4",
+      "credito": "Pixabay #63241"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "Quatro séculos depois, os destroços ressurgiram:",
+    "inicio": 46.905,
+    "fim": 50.62,
+    "duracao": 3.715,
+    "busca": {
+      "wikimedia": null,
+      "pixabay": "underwater wreck",
+      "ia": "Illustration of ancient shipwreck emerging from Arctic waters, cinematic, dark, 19th century aesthetic"
+    },
+    "midia": {
+      "tipo": "video",
+      "fonte": "pixabay",
+      "url": "https://cdn.pixabay.com/video/2015/10/08/908-141851680_medium.mp4",
+      "id": 908,
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\6a048910965735b5.mp4",
+      "credito": "Pixabay #908"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "em 2014 o casco do Erebus foi encontrado no Golfo Queen Maud e,",
+    "inicio": 50.62,
+    "fim": 55.45,
+    "duracao": 4.83,
+    "busca": {
+      "wikimedia": "Erebus hull Queen Maud Gulf 2014",
+      "pixabay": "underwater discovery",
+      "ia": "Cinematic rendering of the HMS Erebus hull lying on the seafloor of Queen Maud Gulf, illuminated by submersible lights, 19th century style"
+    },
+    "midia": {
+      "tipo": "video",
+      "fonte": "pixabay",
+      "url": "https://cdn.pixabay.com/video/2026/04/17/347326_large.mp4",
+      "id": 347326,
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\9e6f4010a518df62.mp4",
+      "credito": "Pixabay #347326"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "em 2016, o Terror emergiu na Baía do Terror.",
+    "inicio": 55.45,
+    "fim": 59.282,
+    "duracao": 3.832,
+    "busca": {
+      "wikimedia": "HMS Terror Terror Bay 2016",
+      "pixabay": "deep sea",
+      "ia": "Illustration of HMS Terror rising from the depths of Terror Bay, dramatic lighting, cinematic, 19th century style"
+    },
+    "midia": {
+      "tipo": "video",
+      "fonte": "pixabay",
+      "url": "https://cdn.pixabay.com/video/2020/04/30/37712-414754673_large.mp4",
+      "id": 37712,
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\9a025269ee0414f3.mp4",
+      "credito": "Pixabay #37712"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "Os restos humanos ainda carregam as marcas cruéis das lâminas,",
+    "inicio": 59.282,
+    "fim": 63.287,
+    "duracao": 4.005,
+    "busca": {
+      "wikimedia": null,
+      "pixabay": "human remains",
+      "ia": "Dark close-up of human skeletal remains with blade cut marks on Arctic ice, cinematic, 19th century style"
+    },
+    "midia": {
+      "tipo": "video",
+      "fonte": "pixabay",
+      "url": "https://cdn.pixabay.com/video/2023/12/03/191856-891315505_large.mp4",
+      "id": 191856,
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\0db9656f8077a59a.mp4",
+      "credito": "Pixabay #191856"
+    }
+  },
+  {
+    "n": 15,
+    "texto": "confirmando que, na luta pela sobrevivência, alguns homens se tornaram assassinos.",
+    "inicio": 63.287,
+    "fim": 68.488,
+    "duracao": 5.201,
+    "busca": {
+      "wikimedia": null,
+      "pixabay": "blood ice",
+      "ia": "Cinematic scene of blood staining Arctic ice near a makeshift camp, 19th century style"
+    },
+    "midia": {
+      "tipo": "video",
+      "fonte": "pixabay",
+      "url": "https://cdn.pixabay.com/video/2019/02/23/21617-319452308_large.mp4",
+      "id": 21617,
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\d613996809e341f1.mp4",
+      "credito": "Pixabay #21617"
+    }
+  },
+  {
+    "n": 16,
+    "texto": "A lâmina que cortou os ossos ainda ecoa nos relatos,",
+    "inicio": 68.488,
+    "fim": 71.855,
+    "duracao": 3.367,
+    "busca": {
+      "wikimedia": null,
+      "pixabay": "sharp blade",
+      "ia": "Illustration of a glinting blade lying half-buried in snow, cinematic, dark, 19th century"
+    },
+    "midia": {
+      "tipo": "video",
+      "fonte": "pixabay",
+      "url": "https://cdn.pixabay.com/video/2024/10/27/238392_large.mp4",
+      "id": 238392,
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\c81f992bfaaac450.mp4",
+      "credito": "Pixabay #238392"
+    }
+  },
+  {
+    "n": 17,
+    "texto": "lembrando que a linha entre vítima e agressor desapareceu.",
+    "inicio": 71.855,
+    "fim": 75.802,
+    "duracao": 3.947,
+    "busca": {
+      "wikimedia": null,
+      "pixabay": "shadow figures",
+      "ia": "Cinematic depiction of indistinct shadowy figures on ice, representing blurred lines between victim and aggressor, 19th century style"
+    },
+    "midia": {
+      "tipo": "video",
+      "fonte": "pixabay",
+      "url": "https://cdn.pixabay.com/video/2015/11/27/1405-147169806_medium.mp4",
+      "id": 1405,
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\617a6cf8c2e4c248.mp4",
+      "credito": "Pixabay #1405"
+    }
+  },
+  {
+    "n": 18,
+    "texto": "Se a fome forçou a faca, quem a empunhou na noite mais negra do Ártico?",
+    "inicio": 75.802,
+    "fim": 80.73299999999999,
+    "duracao": 4.931,
+    "busca": {
+      "wikimedia": null,
+      "pixabay": "arctic night",
+      "ia": "Atmospheric illustration of a lone hand clutching a knife under the black Arctic night sky, cinematic, 19th century"
+    },
+    "midia": {
+      "tipo": "video",
+      "fonte": "pixabay",
+      "url": "https://cdn.pixabay.com/video/2024/05/23/213425_large.mp4",
+      "id": 213425,
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\c516f22487d38b6b.mp4",
+      "credito": "Pixabay #213425"
+    }
+  }
+]

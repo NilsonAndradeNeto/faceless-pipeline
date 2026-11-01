@@ -1,0 +1,338 @@
+[
+  {
+    "n": 1,
+    "texto": "Esqueletos encontrados no gelo tinham marcas profundas de corte de faca nos ossos.",
+    "inicio": 0.0,
+    "fim": 5.573,
+    "duracao": 5.573,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. A frozen Arctic landscape with partially exposed human skeletons lying in snow, bone fragments showing deep knife incisions, faint blood traces, fur-lined coats and wooden sleds in the background, overcast sky., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\f4baa43d37d3bda5.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "Em maio de 1845, cento e vinte e nove homens avançaram pelo",
+    "inicio": 5.573,
+    "fim": 10.681,
+    "duracao": 5.108,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. A line of 129 Royal Navy sailors in 1840s navy uniforms marching across sea ice in May 1845, carrying muskets, canvas sleds, maps, under a pale Arctic sunrise, with distant icebergs., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\bf10011faca9d0cf.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "Ártico na expedição de John Franklin.",
+    "inicio": 10.681,
+    "fim": 13.491,
+    "duracao": 2.81,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. A panoramic view of the Canadian Arctic in the 1840s, showing icy seas, towering ice cliffs, the silhouettes of HMS Erebus and HMS Terror anchored, with explorers in woolen greatcoats surveying the horizon., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\ed5475cc0aacd075.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "Eles levavam dois navios com motores, livros e comida enlatada para durar três",
+    "inicio": 13.491,
+    "fim": 18.658,
+    "duracao": 5.167,
+    "visual": {
+      "real": {
+        "nome": "Franklin Expedition 1845 - HMS Terror - Erebus.jpg",
+        "descricao": "Departure of the \"Erebus\" and \"Terror\" on the Arctic Expedition.",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Franklin_Expedition_1845_-_HMS_Terror_-_Erebus.jpg/1280px-Franklin_Expedition_1845_-_HMS_Terror_-_Erebus.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Illustrated London News - Getty"
+      },
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. The wooden hulls of HMS Erebus and HMS Terror docked at a 19th‑century port, steam engines visible, stacked crates of canned provisions, leather‑bound navigation books, and sailors loading supplies onto the decks., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Franklin_Expedition_1845_-_HMS_Terror_-_Erebus.jpg/1280px-Franklin_Expedition_1845_-_HMS_Terror_-_Erebus.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\9f8f230d748b52c8.jpg",
+      "credito": "Franklin Expedition 1845 - HMS Terror - Erebus.jpg — Illustrated London News - Getty (Public domain)"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "anos. Mas o oceano congelou ao redor das embarcações,",
+    "inicio": 18.658,
+    "fim": 22.628,
+    "duracao": 3.97,
+    "visual": {
+      "real": {
+        "nome": "Model of the HMS Erebus (1826) trapped in the ice, Nattilik Heritage Centre, Gjoa Haven, September 2019.jpg",
+        "descricao": "Model of the HMS Erebus (1826) trapped in the ice, Nattilik Heritage Centre, Gjoa Haven, September 2019",
+        "licenca": "CC BY 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Model_of_the_HMS_Erebus_%281826%29_trapped_in_the_ice%2C_Nattilik_Heritage_Centre%2C_Gjoa_Haven%2C_September_2019.jpg/1280px-Model_of_the_HMS_Erebus_%281826%29_trapped_in_the_ice%2C_Nattilik_Heritage_Centre%2C_Gjoa_Haven%2C_September_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Kerry Raymond"
+      },
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. The two ships encased in thick, glittering sea ice, hulls barely visible, with snow‑covered rigging, a cold blue twilight, and distant polar bears on the ice floes., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Model_of_the_HMS_Erebus_%281826%29_trapped_in_the_ice%2C_Nattilik_Heritage_Centre%2C_Gjoa_Haven%2C_September_2019.jpg/1280px-Model_of_the_HMS_Erebus_%281826%29_trapped_in_the_ice%2C_Nattilik_Heritage_Centre%2C_Gjoa_Haven%2C_September_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\a2600954239a8c02.jpg",
+      "credito": "Model of the HMS Erebus (1826) trapped in the ice, Nattilik Heritage Centre, Gjoa Haven, September 2019.jpg — Kerry Raymond (CC BY 4.0)"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "prendendo todos no Estreito de Vitória.",
+    "inicio": 22.628,
+    "fim": 25.519,
+    "duracao": 2.891,
+    "visual": {
+      "real": {
+        "nome": "Franklin's lost expedition map.png",
+        "descricao": "Map of the probable routes taken by Erebus and Terror during Franklin's lost expedition.\n  Disko Bay (5) to Beechey Island, in 1845\n  Around Cornwallis Island (",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Franklin%27s_lost_expedition_map.png?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Finetooth, Kennonv, U.S. Central Intelligence Agency"
+      },
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. A detailed 19th‑century map illustration highlighting Victoria Strait, with red shading indicating ice blockage, routes of Erebus and Terror marked, and annotations in period handwriting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\182cb0077055d21f.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "Só que as latas tinham um defeito: a solda feita às pressas derramou chumbo no alimento.",
+    "inicio": 25.519,
+    "fim": 31.347,
+    "duracao": 5.828,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. Close‑up of 19th‑century tin cans stacked in a wooden crate, rusted seams and imperfect solder joints, a faint metallic sheen suggesting lead contamination, with a candle‑lit cabin interior in the background., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\195d6df89a1a31b9.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "Sem saber, os marinheiros se envenenavam a cada refeição.",
+    "inicio": 31.347,
+    "fim": 35.225,
+    "duracao": 3.878,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. A cramped ship galley with sailors eating from tin plates, steam rising from pots, a subtle greenish tint on the food, and a shadowed hand holding a spoon, evoking unseen poison., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\d4ce56d01e170714.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "O escorbuto e outras doenças tomaram conta do grupo.",
+    "inicio": 35.225,
+    "fim": 39.033,
+    "duracao": 3.808,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. A sick crew gathered on the deck of a frozen ship, pale faces, swollen gums, men wrapped in wool blankets, a doctor examining a patient with a wooden cane, icy wind blowing., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\0749a7a265671ccf.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "Em abril de 1848, vinte e quatro homens haviam morrido.",
+    "inicio": 39.033,
+    "fim": 43.862,
+    "duracao": 4.829,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. A solemn scene of a snow‑covered gravesite on Arctic ice, twelve simple wooden crosses marking the loss of twenty‑four men, with a lone figure placing a wreath, under a grey sky., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\852ad297c79446f8.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "Os sobreviventes abandonaram os navios no gelo e partiram a pé em direção ao continente",
+    "inicio": 43.862,
+    "fim": 48.901,
+    "duracao": 5.039,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. A group of emaciated explorers pulling sleds across endless ice, leaving behind the hulks of Erebus and Terror, heading toward a faint outline of the Canadian tundra coastline., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\160ab07ac8c5a7e1.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "canadense. A hipotermia e a fome derrubavam um por um.",
+    "inicio": 48.901,
+    "fim": 53.754,
+    "duracao": 4.853,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. Individual figures collapsing on the ice, breath visible, clutching empty stomachs, frost‑bitten hands, with distant silhouettes of others moving forward, aurora faintly glowing overhead in the cold night., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\e11601ff35c4ac6a.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "Anos depois, pesquisadores acharam os esqueletos na ilha e descobriram a verdade:",
+    "inicio": 53.754,
+    "fim": 59.315,
+    "duracao": 5.561,
+    "visual": {
+      "real": {
+        "nome": "2018-09-30 01 Franklin Camp grave images, Nunavut Canada 2015-09-11.jpg",
+        "descricao": "This image was taken at Franklin Camp on Beechey Island, Nunavut, Canada on September 11, 2015. Three graves (L-R) commemorate John Torrington, William Braine a",
+        "licenca": "CC BY-SA 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/2018-09-30_01_Franklin_Camp_grave_images%2C_Nunavut_Canada_2015-09-11.jpg/1280px-2018-09-30_01_Franklin_Camp_grave_images%2C_Nunavut_Canada_2015-09-11.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Gordon Leggett"
+      },
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. Modern archaeologists in cold‑weather gear excavating a remote Arctic island, uncovering buried human bones beside a weathered cairn, with scientific equipment and a sunrise illuminating the site., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/2018-09-30_01_Franklin_Camp_grave_images%2C_Nunavut_Canada_2015-09-11.jpg/1280px-2018-09-30_01_Franklin_Camp_grave_images%2C_Nunavut_Canada_2015-09-11.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\bc942dfe9242f759.jpg",
+      "credito": "2018-09-30 01 Franklin Camp grave images, Nunavut Canada 2015-09-11.jpg — Gordon Leggett (CC BY-SA 4.0)"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "os homens se devoraram para adiar a morte.",
+    "inicio": 59.315,
+    "fim": 62.206,
+    "duracao": 2.891,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. A stark, symbolic scene of a frozen campfire with scattered broken bones and a partially eaten piece of meat on a wooden plate, shadows suggesting desperate survivors, set against a bleak white landscape., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\fff8ca50a1b737ae.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 15,
+    "texto": "Nenhum voltou vivo e os destroços só foram achados em 2014 e 2016.",
+    "inicio": 62.206,
+    "fim": 68.139,
+    "duracao": 5.933,
+    "visual": {
+      "real": {
+        "nome": "Model of the HMS Erebus (1826) trapped in the ice, Nattilik Heritage Centre, Gjoa Haven, September 2019.jpg",
+        "descricao": "Model of the HMS Erebus (1826) trapped in the ice, Nattilik Heritage Centre, Gjoa Haven, September 2019",
+        "licenca": "CC BY 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Model_of_the_HMS_Erebus_%281826%29_trapped_in_the_ice%2C_Nattilik_Heritage_Centre%2C_Gjoa_Haven%2C_September_2019.jpg/1280px-Model_of_the_HMS_Erebus_%281826%29_trapped_in_the_ice%2C_Nattilik_Heritage_Centre%2C_Gjoa_Haven%2C_September_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Kerry Raymond"
+      },
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. Underwater view of the wreck of HMS Erebus resting on the seafloor, encrusted with ice and marine life, a modern sonar overlay indicating discovery year 2014, with a diver's silhouette nearby., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Model_of_the_HMS_Erebus_%281826%29_trapped_in_the_ice%2C_Nattilik_Heritage_Centre%2C_Gjoa_Haven%2C_September_2019.jpg/1280px-Model_of_the_HMS_Erebus_%281826%29_trapped_in_the_ice%2C_Nattilik_Heritage_Centre%2C_Gjoa_Haven%2C_September_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\a2600954239a8c02.jpg",
+      "credito": "Model of the HMS Erebus (1826) trapped in the ice, Nattilik Heritage Centre, Gjoa Haven, September 2019.jpg — Kerry Raymond (CC BY 4.0)"
+    }
+  },
+  {
+    "n": 16,
+    "texto": "Por que homens enlouquecidos marchariam arrastando talheres no gelo?",
+    "inicio": 68.139,
+    "fim": 72.458,
+    "duracao": 4.319,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. A surreal image of a line of ghostly figures in period coats dragging long silver spoons and forks across cracked ice, the sky filled with swirling aurora, evoking eerie determination., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\7e899f8bfcba5a97.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 17,
+    "texto": "Me diga nos comentários.",
+    "inicio": 72.458,
+    "fim": 74.428,
+    "duracao": 1.97,
+    "visual": {
+      "real": null,
+      "ia": "Canadian Arctic, 1840s, Royal Navy expedition, period-accurate clothing and technology. A simple, stylized text overlay on a muted Arctic background reading 'What do you think? Share your thoughts in the comments', with subtle snowflakes drifting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\f45d0128c7644ce1.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  }
+]
