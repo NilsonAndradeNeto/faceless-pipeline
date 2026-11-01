@@ -150,34 +150,16 @@ def definir_videos_do_dia(agora: datetime):
 
 # ---------- 3. produzir ----------
 
-COTA_ESGOTADA = STORAGE / "cota_imagens_esgotada.txt"
-
-
-def _cota_renovou() -> bool:
-    """A cota do Cloudflare renova 00:00 UTC (21h Brasília), mas às vezes demora a liberar.
-    Testar não gasta nada, então tenta de novo a cada 30 min em vez de esperar o dia seguinte."""
-    if not COTA_ESGOTADA.exists():
-        return True
-    # A hora vai dentro do arquivo: na nuvem a data de modificação muda a cada checkout
-    try:
-        esgotou = datetime.fromisoformat(COTA_ESGOTADA.read_text().strip())
-    except ValueError:
-        esgotou = datetime.min
-    if datetime.now() - esgotou >= timedelta(minutes=30):
-        COTA_ESGOTADA.unlink(missing_ok=True)
-        return True
-    return False
-
-
 def produzir_aprovados():
-    if not prod.pendentes_de_producao() or not _cota_renovou():
+    """Todo ciclo tenta: vídeo com as imagens já prontas monta mesmo sem cota, e testar a cota
+    do Cloudflare quando ela acabou custa só uma chamada recusada."""
+    if not prod.pendentes_de_producao():
         return
 
     def rodar():
         faltou = prod.produzir_fila()
         if faltou == "imagens":
-            COTA_ESGOTADA.write_text(datetime.now().isoformat())
-            log.info("Cota de imagens acabou — narração/plano adiantados; tenta de novo em 30 min")
+            log.info("Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo")
         elif faltou == "gemini":
             log.info("Gemini no limite — produção retoma no próximo ciclo")
     prod.com_trava(rodar)
