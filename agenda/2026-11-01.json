@@ -14,6 +14,9 @@
       },
       "instagram": {
         "estado": "vídeo ainda não ficou pronto"
+      },
+      "tiktok": {
+        "estado": "vídeo ainda não ficou pronto"
       }
     }
   },
@@ -21,6 +24,13 @@
     "script": "20261030T203736Z_en",
     "titulo": "The Dyatlov Pass: Missing Eyes, Unanswered Questions",
     "aprovacao": "automatica",
-    "posts": {}
+    "posts": {
+      "instagram": {
+        "estado": "publicado",
+        "quando": "19:50",
+        "id": "18129560359855004",
+        "url": "https://www.instagram.com/reel/DfN2HLlNXSs/"
+      }
+    }
   }
 }
