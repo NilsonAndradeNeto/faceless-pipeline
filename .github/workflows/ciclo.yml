@@ -45,16 +45,16 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/ffmpeg
-          key: ffmpeg-static-7
+          key: ffmpeg-btbn-1
 
       - name: Baixar ffmpeg
         if: steps.ffmpeg.outputs.cache-hit != 'true'
         run: |
           mkdir -p ~/ffmpeg
-          curl -sL https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz \
+          curl -fsSL https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz \
             | tar -xJ --strip-components=1 -C ~/ffmpeg
 
-      - run: echo "$HOME/ffmpeg" >> "$GITHUB_PATH"
+      - run: echo "$HOME/ffmpeg/bin" >> "$GITHUB_PATH"
 
       - uses: astral-sh/setup-uv@v6
         with:
