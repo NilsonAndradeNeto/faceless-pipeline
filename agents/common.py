@@ -16,7 +16,10 @@ load_dotenv(ROOT / ".env")
 STORAGE = Path(os.getenv("FACELESS_STORAGE") or ROOT / "storage")
 CONFIG = ROOT / "config"
 NUVEM = os.getenv("GITHUB_ACTIONS") == "true"
-(STORAGE / "logs").mkdir(parents=True, exist_ok=True)
+# O git não guarda pasta vazia: na nuvem elas precisam ser criadas a cada ciclo
+for _pasta in ("logs", "agenda", "audio", "broll", "jobs", "shorts/ready", "shorts/published", "topics/pending",
+               "topics/done", "scripts/pending", "scripts/approved", "scripts/rejected"):
+    (STORAGE / _pasta).mkdir(parents=True, exist_ok=True)
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
