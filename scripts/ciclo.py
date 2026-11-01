@@ -180,7 +180,9 @@ def publicar_no_horario(agora: datetime):
         video = STORAGE / "shorts" / "ready" / f"{item['script']}.mp4"
         meta_arq = APROVADOS / f"{item['script']}.meta.json"
         for plataforma in PLATAFORMAS:
-            if agora < _hora(horarios[lang][plataforma], hoje):
+            # POSTAR_AGORA="instagram:en" antecipa o horário (botão "Run workflow" do GitHub)
+            antecipar = f"{plataforma}:{lang}" in os.getenv("POSTAR_AGORA", "")
+            if agora < _hora(horarios[lang][plataforma], hoje) and not antecipar:
                 continue
             feito = item["posts"].get(plataforma, {})
             if feito.get("estado") == "publicado":

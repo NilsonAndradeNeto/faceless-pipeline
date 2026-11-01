@@ -7,6 +7,11 @@ on:
   schedule:
     - cron: "5 10-23,0-2 * * *"   # UTC → 07:05 a 23:05 em Brasília
   workflow_dispatch:
+    inputs:
+      postar_agora:
+        description: "Postar já, sem esperar o horário (ex.: instagram:en youtube:pt)"
+        required: false
+        default: ""
 
 concurrency:
   group: ciclo
@@ -78,6 +83,8 @@ jobs:
           EOF
 
       - name: Ciclo
+        env:
+          POSTAR_AGORA: ${{ inputs.postar_agora }}
         run: uv run python -m scripts.ciclo
 
       - name: Guardar imagens e vídeos
