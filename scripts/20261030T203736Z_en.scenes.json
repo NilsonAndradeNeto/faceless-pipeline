@@ -19,7 +19,7 @@
       "tipo": "imagem",
       "fonte": "wikimedia",
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Dyatlov_Pass_incident_02.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "arquivo": "D:\\faceless-pipeline\\storage\\broll\\7ca1cf81ac179aa1.jpg",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/7ca1cf81ac179aa1.jpg",
       "credito": "Dyatlov Pass incident 02.jpg — AnonymousUnknown author / Soviet investigators (Public domain)"
     }
   },
@@ -32,6 +32,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. Vintage Soviet calendar page from January 1959 lying on rough wooden desk beside brass compass and leather map folder, dimly lit warm room interior, historical documentary photography style., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/e88ce1c545808083.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -43,6 +50,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. Group of 1950s Soviet university hikers carrying heavy canvas backpacks and wooden skis, walking in single file through deep snow into dense Ural mountain forest, back view, muted colors., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/a4687f961f98807d.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -54,6 +68,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. Close-up of heavy leather vintage ski boots resting in deep snow beside wooden skis stuck upright, one hiker sitting on log bandaging injured knee, period Soviet winter equipment., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/69528c82fb4d42c5.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -65,6 +86,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. Single canvas tent pitched on barren wind-swept slope of Kholat Syakhl mountain at twilight, Soviet 1950s expedition, icy desolate mountain ridge backdrop under stormy darkening skies., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/d13cb978e59a20b8.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -76,6 +104,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. Fierce snow blizzard roaring violently over jagged icy rocks of Ural mountain peak, dense swirling whiteout snowstorm, howling freezing wind, extreme apocalyptic winter environment., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/84ab357194e54f31.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -87,6 +122,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. Early dawn light illuminating torn canvas tent fabric flapping open on frozen ridge, deep snowdrifts engulfing base, empty desolate mountain landscape, haunting cold atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/b1970a5a129be313.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -98,6 +140,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. Macro shot of human footprints pressed into frozen snow leading downhill toward dark pine forest, impressions of wool socks and bare feet, cold icy blue dawn light., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/85ba69397ae2d1a2.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -109,6 +158,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. Frosted vintage thermometer plunged into deep snow showing extreme freezing sub-zero temperature, night sky over desolate snow-covered Ural mountain range, silent cold winter darkness., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/2de97372ead0081f.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -120,6 +176,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. Interior of torn canvas tent filled with drifted snow, scattered abandoned items including leather boots, vintage portable radio, and tin plate with frozen bread, cold morning light., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/5c9dbe676e504d12.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -131,6 +194,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. 1950s Soviet search rescuers in heavy padded winter jackets probing deep snow with long wooden poles near massive lone pine tree, foggy winter forest setting, ominous atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/597c6b884e18231b.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -142,6 +212,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. Subtle distant shot of searchers in thick coats standing near snow-covered ravine, soft blue twilight mist hanging between icy trees, solemn tragic historical setting without explicit gore., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/038a6fbd81b4b222.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -153,6 +230,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. Dense snowpack under giant cedar tree, abandoned worn wool jacket lying partially buried in ice, distant search lanterns glowing through cold misty woods at dusk, atmospheric mystery., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/d657ec45b84fb186.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -164,6 +248,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. Deep snow trench excavated four meters down into ice layer, rescue shovel standing upright in packed snow walls, dark frozen ravine shadows in Ural wilderness., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/ad13deb515bb6029.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -175,6 +266,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. Forensic investigator leather diary resting open on snow, Russian handwritten notes and technical diagrams, vintage camera lying nearby, soft snowflakes falling, mysterious clinical detail., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/7058a68b2185c812.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -186,6 +284,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. Mysterious faintly glowing orange spheres floating over icy mountain peaks of Ural range at night, light reflecting on vast snowfields, eerie unexplained phenomenon, dark thriller mood., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/8544fa0057ba502f.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -197,6 +302,13 @@
     "visual": {
       "real": null,
       "ia": "Ural Mountains, Soviet Union, 1959, period-accurate clothing and technology. Solitary wooden cross memorial standing on icy windswept mountain peak under overcast gray sky, snow swirling around base, panoramic view of remote frozen mountain range., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/b0b9f40e66534f04.jpg",
+      "credito": "imagem gerada por IA"
     }
   }
 ]
