@@ -460,6 +460,51 @@ const CENARIOS = {
     for (let i = 0; i < 5; i++) caixa(0.4, 0.4, 0.02, ["#fff3b0", "#ffd6e7", "#c3fae8"][i % 3], 3.6 + (i % 3) * 0.6, 3.9 - Math.floor(i / 3) * 0.6, -4.2, g);
     return g;
   },
+  campo() {  // fazenda ao pôr do sol: plantação, celeiro, cerca e árvores
+    const g = grupo();
+    g.userData.fundo = ceuGradiente("#3d5a99", "#ffb48a");
+    g.userData.neblina = ["#f2b38f", 25, 90];
+    luzes(g, { amb: "#ffd9b0", chao: "#4a6a2a", forca: 1.4, sol: "#ffcf8a", solForca: 2.8, solPos: [-8, 7, 6], contorno: "#ff8a5c" });
+    caixa(200, 0.2, 200, "#5c9e3a", 0, -0.1, -40, g);
+    const r = semente(31);
+    for (let fila = 0; fila < 9; fila++) for (let k = 0; k < 16; k++)          // plantação em fileiras
+      caixa(0.5, 0.35 + r() * 0.25, 0.5, r() > 0.15 ? "#8bc34a" : "#ffd23f", -16 + k * 1.1, 0.2, -7 - fila * 1.4, g).castShadow = false;
+    for (let x = -12; x <= 12; x += 1.3) caixa(0.14, 0.7, 0.14, "#8d6e63", x, 0.35, 2.6, g);   // cerca
+    caixa(26, 0.1, 0.08, "#8d6e63", 0, 0.55, 2.6, g);
+    caixa(5, 3.4, 4, "#c0392b", 7.5, 1.7, -14, g);                               // celeiro
+    const telhado = caixa(5.6, 0.4, 3.2, "#5d4037", 7.5, 3.7, -15.2, g); telhado.rotation.x = 0.55;
+    const telhado2 = caixa(5.6, 0.4, 3.2, "#5d4037", 7.5, 3.7, -12.8, g); telhado2.rotation.x = -0.55;
+    caixa(1.4, 2, 0.1, "#f4ead2", 7.5, 1.0, -11.95, g);
+    for (const [x, z, s] of [[-6, -9, 1.3], [-9, -16, 1.6], [12, -8, 1.2], [-3.5, -22, 1.8], [3, -26, 1.5]]) {
+      caixa(0.4 * s, 1.4 * s, 0.4 * s, "#6b4423", x, 0.7 * s, z, g);
+      caixa(1.6 * s, 1.2 * s, 1.6 * s, "#2f9e44", x, 1.9 * s, z, g);
+    }
+    const sol = lowpoly(5, "#ffd27a", 2, 0.03, 4); sol.material = luz("#ffcf6a", 1.4); sol.position.set(-22, 9, -80); g.add(sol);
+    return g;
+  },
+
+  oceano() {  // ilhota de areia no mar, coqueiro e barco ao longe
+    const g = grupo();
+    g.userData.fundo = ceuGradiente("#2b6cb0", "#a7e0ff");
+    g.userData.neblina = ["#9fd3f0", 30, 110];
+    luzes(g, { amb: "#cfe9ff", chao: "#1c5d8a", forca: 1.5, sol: "#fff4d6", solForca: 2.8, solPos: [8, 12, 6], contorno: "#ffffff" });
+    const mar = new THREE.Mesh(new THREE.PlaneGeometry(300, 300), mat("#1e7fc2", { roughness: 0.35, metalness: 0.1 }));
+    mar.rotation.x = -Math.PI / 2; mar.position.y = -0.35; mar.receiveShadow = true; g.add(mar);
+    caixa(7, 0.6, 5, "#f2d49b", -0.3, -0.25, 0, g);                              // ilhota
+    caixa(0.35, 3.2, 0.35, "#8d6e63", -2.6, 1.6, -1.2, g).rotation.z = 0.12;      // coqueiro
+    for (let i = 0; i < 5; i++) {
+      const folha = caixa(2.2, 0.12, 0.6, "#2f9e44", -2.4, 3.2, -1.2, g);
+      folha.rotation.y = i * 1.25; folha.rotation.z = -0.35; folha.translateX(0.9);
+    }
+    const r = semente(9);
+    g.userData.ondas = [];
+    for (let i = 0; i < 40; i++) {
+      const o = caixa(0.6 + r() * 1.2, 0.08, 0.2, "#e3f6ff", (r() - 0.5) * 50, -0.3, -4 - r() * 50, g);
+      o.castShadow = false; g.userData.ondas.push([o, r() * 6]);
+    }
+    caixa(3, 0.8, 1.2, "#f4f4f4", 14, 0.1, -40, g); caixa(1.4, 0.8, 1, "#e63946", 14, 0.9, -40, g);   // barco
+    return g;
+  },
 };
 
 // ---------- câmeras ----------
@@ -569,11 +614,12 @@ window.preparar = async (storyboard) => {
   CENAS = SB.cenas.map((c, i) => {
     const obj = c.objeto && OBJETOS[c.objeto] ? OBJETOS[c.objeto]() : null;
     if (obj) {
-      const grande = ["terra", "lua", "sol"].includes(c.objeto) && c.cenario === "espaco";
-      obj.position.set(grande ? 1.25 : 1.35, grande ? 4.7 : 0, grande ? -3 : 0.6);
+      const esfera = ["terra", "lua", "sol", "meteoro"].includes(c.objeto);
+      const grande = esfera && c.cenario === "espaco";
+      obj.position.set(grande ? 1.25 : 1.35, grande ? 4.7 : (esfera ? 2.3 : 0), grande ? -3 : 0.6);
       obj.userData.y0 = obj.position.y;
       obj.userData.plano = ["relogio", "celular", "dinheiro", "pergunta", "predio"].includes(c.objeto);
-      obj.userData.escala = grande ? 1.25 : 0.85;
+      obj.userData.escala = grande ? 1.25 : (esfera ? 0.7 : 0.85);
       obj.visible = false; scene.add(obj);
     }
     return { ...c, n: i, grupo: cenarios[c.cenario], obj };
@@ -592,6 +638,7 @@ window.quadro = (t) => {
   const nb = cena.grupo.userData.neblina;
   scene.fog = nb ? new THREE.Fog(nb[0], nb[1], nb[2]) : null;
   if (cena.grupo.userData.planeta) cena.grupo.userData.planeta.rotation.y = t * 0.03;
+  for (const [o, fase] of cena.grupo.userData.ondas || []) o.position.y = -0.3 + Math.sin(t * 1.6 + fase) * 0.06;
 
   // explorador sempre em cena; Bit aparece quando não há objeto no lugar dele
   const ex = ATORES.explorador, bit = ATORES.bit;

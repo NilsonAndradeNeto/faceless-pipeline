@@ -110,6 +110,8 @@ def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", perfil="pad
     espera e tenta de novo. No perfil "roteiro" a qualidade vem primeiro: se todos os modelos
     Gemini estiverem no limite, espera a cota liberar antes de cair para um modelo mais fraco.
     """
+    if perfil == "flex":  # Gemini primeiro; no limite, passa direto pro Groq sem esperar (formatos em volume)
+        return _chat(messages, json_mode, temperature, tarefa, _provedores("roteiro"), 2, 1)
     if perfil != "roteiro":
         return _chat(messages, json_mode, temperature, tarefa, _provedores(perfil), tentativas, esperas_limite)
     provs = _provedores(perfil)
