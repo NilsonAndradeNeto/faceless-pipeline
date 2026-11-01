@@ -192,7 +192,10 @@ def publicar_no_horario(agora: datetime):
             if agora < _hora(horarios[lang][plataforma], hoje):
                 continue
             feito = item["posts"].get(plataforma, {})
-            if feito.get("estado") in ("publicado", "conta não conectada"):
+            if feito.get("estado") == "publicado":
+                continue
+            # Conta que você conectar depois do horário ainda posta no mesmo dia; erro tenta até 3x
+            if feito.get("estado") == "erro" and feito.get("tentativas", 1) >= 3:
                 continue
             if not video.exists():
                 item["posts"][plataforma] = {"estado": "vídeo ainda não ficou pronto"}
@@ -205,7 +208,8 @@ def publicar_no_horario(agora: datetime):
                 item["posts"][plataforma] = {"estado": "conta não conectada"}
                 log.info("%s", e)
             except Exception as e:
-                item["posts"][plataforma] = {"estado": "erro", "erro": str(e)[:300]}
+                item["posts"][plataforma] = {"estado": "erro", "erro": str(e)[:300],
+                                             "tentativas": feito.get("tentativas", 0) + 1}
                 log.exception("Falha ao publicar %s %s", lang, plataforma)
     _salvar_agenda(hoje, ag)
 
