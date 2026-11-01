@@ -1,18 +1,22 @@
 """Utilidades compartilhadas: caminhos, config e logs."""
 import json
 import logging
+import os
 import sys
 from datetime import datetime, timezone
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 
 import yaml
 from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
-STORAGE = ROOT / "storage"
-CONFIG = ROOT / "config"
-
 load_dotenv(ROOT / ".env")
+
+# Na nuvem (GitHub Actions) o estado fica num checkout separado (ramo "estado")
+STORAGE = Path(os.getenv("FACELESS_STORAGE") or ROOT / "storage")
+CONFIG = ROOT / "config"
+NUVEM = os.getenv("GITHUB_ACTIONS") == "true"
+(STORAGE / "logs").mkdir(parents=True, exist_ok=True)
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -51,6 +55,12 @@ def ler_json(path: Path) -> dict:
 def salvar_json(path: Path, dados) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(dados, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def arquivo_local(caminho: str, pasta: str = "broll") -> Path:
+    """Caminho salvo em outro computador (PC ↔ nuvem): procura o mesmo arquivo na pasta de storage."""
+    p = Path(caminho)
+    return p if p.exists() else STORAGE / pasta / PureWindowsPath(caminho).name
 
 
 def anexar_jsonl(path: Path, dados: dict) -> None:

@@ -13,7 +13,4 @@ __pycache__/
 storage/**
 !storage/**/
 !storage/**/.gitkeep
-assets/music/*
-!assets/music/.gitkeep
-assets/fonts/*
-!assets/fonts/.gitkeep
+# Músicas (sintetizadas por nós) e fonte (licença OFL) vão pro git: a nuvem precisa delas

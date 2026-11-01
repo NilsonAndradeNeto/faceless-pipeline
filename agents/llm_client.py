@@ -10,7 +10,7 @@ import os
 import time
 
 from agents import progresso
-from agents.common import STORAGE, anexar_jsonl, config
+from agents.common import NUVEM, STORAGE, anexar_jsonl, config
 
 log = logging.getLogger("llm")
 
@@ -115,14 +115,16 @@ def chat(messages, json_mode=False, temperature=0.7, tarefa="geral", perfil="pad
     provs = _provedores(perfil)
     melhores = [p for p in provs if p[0] == "gemini"]
     reservas = [p for p in provs if p[0] != "gemini"]
-    rodadas = RODADAS_QUALIDADE if reserva else 1
+    # Na nuvem cada minuto parado custa: em vez de esperar a cota, desiste e o próximo ciclo tenta de novo
+    espera_cota = reserva and not NUVEM
+    rodadas = RODADAS_QUALIDADE if espera_cota else 1
     for rodada in range(1, rodadas + 1):
         if not melhores:
             break
         try:
             return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
         except RuntimeError:
-            if not reserva:
+            if not espera_cota:
                 raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
             if rodada < RODADAS_QUALIDADE:
                 log.info("Todos os modelos Gemini no limite — esperando %ds pela cota (prioridade: qualidade, %d/%d)",

@@ -14,7 +14,7 @@ from pathlib import Path
 
 import requests
 
-from agents.common import STORAGE, ler_json, salvar_json
+from agents.common import STORAGE, arquivo_local, ler_json, salvar_json
 
 log = logging.getLogger("broll")
 
@@ -47,7 +47,7 @@ def baixar(url: str, ext: str, tentativas: int = 5):
     for t in range(1, tentativas + 1):
         r = requests.get(url, headers=HEADERS, timeout=120)
         if r.status_code == 429 and t < tentativas:
-            espera = int(r.headers.get("retry-after", 0) or 0) or 8 * t
+            espera = min(int(r.headers.get("retry-after", 0) or 0) or 8 * t, 60)  # na nuvem cada minuto conta
             log.info("Limite de download, aguardando %ds", espera)
             time.sleep(espera)
             continue
@@ -122,7 +122,7 @@ def buscar(script_id: str, pasta_script=None, progresso=None) -> list[dict]:
             progresso(i / len(cenas), f"Gerando imagens: cena {c['n']} de {len(cenas)}")
         # Retomada: cena que já tem imagem boa (IA ou real do artigo) não é refeita
         feita = c.get("midia")
-        if feita and feita["fonte"] in ("ia", "wikimedia") and Path(feita["arquivo"]).exists():
+        if feita and feita["fonte"] in ("ia", "wikimedia") and arquivo_local(feita["arquivo"]).exists():
             usados.add(feita.get("url") or feita["arquivo"])
             continue
         v, midia = c["visual"], None

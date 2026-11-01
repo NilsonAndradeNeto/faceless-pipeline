@@ -14,13 +14,14 @@ import sys
 
 from PIL import Image, ImageFilter, ImageEnhance
 
-from agents.common import ROOT, STORAGE, config, ler_json, salvar_json
+from agents.common import ROOT, STORAGE, arquivo_local, config, ler_json, salvar_json
 
 log = logging.getLogger("video_builder")
 
 W, H, FPS = 1080, 1920, 30
 SEG = config("settings")["seguranca_pc"]
 PRIORIDADE_BAIXA = 0x00004000 if sys.platform == "win32" else 0  # BELOW_NORMAL_PRIORITY_CLASS
+FONTES = (ROOT / "assets" / "fonts").as_posix().replace(":", "\\\\:")  # Archivo Black (OFL), igual no PC e na nuvem
 COR = "eq=saturation=0.8:contrast=1.06:brightness=-0.03,vignette=PI/5"  # clima sombrio de mistério
 
 _encoder = None
@@ -70,7 +71,7 @@ def compor_imagem(origem, destino):
 
 def cena_imagem(midia, duracao, saida, n):
     composta = saida.with_suffix(".jpg")
-    compor_imagem(midia["arquivo"], composta)
+    compor_imagem(arquivo_local(midia["arquivo"]), composta)
     frames = int(duracao * FPS) + 1
     # Ken Burns alternando: zoom in / zoom out, com leve deriva
     if n % 2:
@@ -85,7 +86,7 @@ def cena_imagem(midia, duracao, saida, n):
 
 
 def cena_video(midia, duracao, saida):
-    ffmpeg(["-stream_loop", "-1", "-i", midia["arquivo"], "-t", f"{duracao:.3f}",
+    ffmpeg(["-stream_loop", "-1", "-i", str(arquivo_local(midia["arquivo"])), "-t", f"{duracao:.3f}",
             "-vf", f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},{COR},setsar=1",
             "-an", *encoder_args(), str(saida)])
 
@@ -108,8 +109,8 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Legenda,Arial Black,92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,1,0,0,0,100,100,0,0,1,7,4,2,60,60,560,1
-Style: Titulo,Arial Black,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,1,0,0,0,100,100,0,0,3,18,0,8,70,70,260,1
+Style: Legenda,Archivo Black,92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,1,0,0,0,100,100,0,0,1,7,4,2,60,60,560,1
+Style: Titulo,Archivo Black,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,1,0,0,0,100,100,0,0,3,18,0,8,70,70,260,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -186,7 +187,7 @@ def montar(script_id: str, pasta_script=None, progresso=None) -> dict:
         audio = "[1:a]apad[a]"
 
     destino = STORAGE / "shorts" / "ready" / f"{script_id}.mp4"
-    ffmpeg([*entradas, "-filter_complex", f"[0:v]subtitles=legenda.ass[v];{audio}",
+    ffmpeg([*entradas, "-filter_complex", f"[0:v]subtitles=legenda.ass:fontsdir={FONTES}[v];{audio}",
             "-map", "[v]", "-map", "[a]", "-t", f"{duracao:.3f}", *encoder_args(),
             "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(destino)], cwd=trab)
 

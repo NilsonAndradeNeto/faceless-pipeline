@@ -1,0 +1,102 @@
+# Ciclo automático na nuvem: roda de hora em hora (07h–23h de Brasília) e faz o que estiver na hora.
+# Estado (roteiros, agenda, áudios) fica no ramo "estado"; imagens e vídeos ficam no cache do Actions.
+# Segredos: todos os do repositório viram .env; YOUTUBE_<LANG>_TOKEN viram credentials/youtube_<lang>.token.json
+name: Ciclo
+
+on:
+  schedule:
+    - cron: "5 10-23,0-2 * * *"   # UTC → 07:05 a 23:05 em Brasília
+  workflow_dispatch:
+
+concurrency:
+  group: ciclo
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  ciclo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    env:
+      TZ: America/Sao_Paulo
+      FACELESS_STORAGE: ${{ github.workspace }}/estado
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Estado
+        uses: actions/checkout@v4
+        with:
+          ref: estado
+          path: estado
+
+      - name: Imagens e vídeos (cache)
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            estado/broll
+            estado/shorts
+          key: midia-${{ github.run_id }}
+          restore-keys: midia-
+
+      - name: ffmpeg (cache)
+        id: ffmpeg
+        uses: actions/cache@v4
+        with:
+          path: ~/ffmpeg
+          key: ffmpeg-static-7
+
+      - name: Baixar ffmpeg
+        if: steps.ffmpeg.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p ~/ffmpeg
+          curl -sL https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz \
+            | tar -xJ --strip-components=1 -C ~/ffmpeg
+
+      - run: echo "$HOME/ffmpeg" >> "$GITHUB_PATH"
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Segredos
+        env:
+          SEGREDOS: ${{ toJSON(secrets) }}
+        run: |
+          mkdir -p credentials
+          python3 - <<'EOF'
+          import json, os
+          segredos = json.loads(os.environ["SEGREDOS"])
+          with open(".env", "w") as env:
+              for nome, valor in segredos.items():
+                  if nome.startswith("YOUTUBE_") and nome.endswith("_TOKEN"):
+                      lang = nome.split("_")[1].lower()
+                      open(f"credentials/youtube_{lang}.token.json", "w").write(valor)
+                  elif nome != "github_token" and "\n" not in valor:
+                      env.write(f"{nome}={valor}\n")
+          EOF
+
+      - name: Ciclo
+        run: uv run python -m scripts.ciclo
+
+      - name: Guardar imagens e vídeos
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            estado/broll
+            estado/shorts
+          key: midia-${{ github.run_id }}
+
+      - name: Guardar estado
+        if: always()
+        working-directory: estado
+        run: |
+          # Log enxuto: só as últimas linhas
+          if [ -f logs/pipeline.log ]; then tail -n 4000 logs/pipeline.log > /tmp/log && mv /tmp/log logs/pipeline.log; fi
+          git config user.name "ciclo"
+          git config user.email "ciclo@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -qm "ciclo $(date '+%d/%m %H:%M')"
+          git push -q

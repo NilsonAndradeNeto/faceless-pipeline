@@ -1,8 +1,9 @@
-"""Ciclo automático — roda a cada 15 min (Agendador do Windows) e faz o que estiver na hora.
+"""Ciclo automático — faz o que estiver na hora. Roda de hora em hora no GitHub Actions
+(.github/workflows/ciclo.yml) ou a cada 15 min no Agendador do Windows.
 
 Rotina (config/settings.yaml → agenda):
   22:30            gera os roteiros do dia seguinte (1 por idioma), se a fila do idioma estiver vazia
-  até 12:00        você valida no painel
+  até 12:00        você valida no Telegram (ou no painel, no PC)
   12:00            o que não foi validado é aprovado sozinho (roteiro com frase sem base é refeito;
                    se continuar com problema, o vídeo daquele idioma é pulado no dia)
   depois           produz os vídeos do dia
@@ -11,14 +12,15 @@ Rotina (config/settings.yaml → agenda):
 Se o PC estava desligado, recupera o atraso no mesmo dia. Estado do dia: storage/agenda/AAAA-MM-DD.json
 Uso: uv run python -m scripts.ciclo
 """
+import html
 import logging
 import os
 import shutil
 import time
 from datetime import date, datetime, timedelta
 
-from agents import progresso
-from agents.common import STORAGE, config, idiomas, ler_json, salvar_json
+from agents import progresso, telegram
+from agents.common import BANDEIRA, NUVEM, STORAGE, config, idiomas, ler_json, salvar_json
 from pipeline import produzir as prod
 from pipeline.publicar import PLATAFORMAS, ContaNaoConectada, publicar
 
@@ -74,8 +76,10 @@ def gerar_roteiros(agora: datetime):
         log.info("Fila %s vazia — gerando roteiro", lang.upper())
         progresso.iniciar(f"roteiro_auto_{lang}_{int(time.time())}", f"Roteiro automático ({lang.upper()})")
         try:
-            topico = pesquisar(lang)
-            processar_pendentes(topico["id"])
+            # Tema já pesquisado numa tentativa que parou (ex.: Gemini no limite) é reaproveitado
+            pesquisados = sorted((STORAGE / "topics" / "pending").glob(f"*_{lang}.json"))
+            topico_id = pesquisados[0].stem if pesquisados else pesquisar(lang)["id"]
+            processar_pendentes(topico_id)
             progresso.finalizar()
         except Exception as e:
             log.exception("Falha ao gerar roteiro %s", lang)
@@ -154,7 +158,12 @@ def _cota_renovou() -> bool:
     Testar não gasta nada, então tenta de novo a cada 30 min em vez de esperar o dia seguinte."""
     if not COTA_ESGOTADA.exists():
         return True
-    if datetime.now() - datetime.fromtimestamp(COTA_ESGOTADA.stat().st_mtime) >= timedelta(minutes=30):
+    # A hora vai dentro do arquivo: na nuvem a data de modificação muda a cada checkout
+    try:
+        esgotou = datetime.fromisoformat(COTA_ESGOTADA.read_text().strip())
+    except ValueError:
+        esgotou = datetime.min
+    if datetime.now() - esgotou >= timedelta(minutes=30):
         COTA_ESGOTADA.unlink(missing_ok=True)
         return True
     return False
@@ -204,6 +213,9 @@ def publicar_no_horario(agora: datetime):
                 r = publicar(plataforma, ler_json(meta_arq), video)
                 item["posts"][plataforma] = {"estado": "publicado", "quando": agora.strftime("%H:%M"), **r}
                 log.info("✅ Publicado %s %s: %s", lang.upper(), plataforma, r.get("url"))
+                privado = "\n🔒 Entrou como privado: mude para público no app." if r.get("privacidade") == "private" else ""
+                telegram.enviar(f"✅ <b>Postado no {plataforma.title()}</b> {BANDEIRA[lang]}\n"
+                                f"{html.escape(item['titulo'])}\n{r.get('url', '')}{privado}")
             except ContaNaoConectada as e:
                 item["posts"][plataforma] = {"estado": "conta não conectada"}
                 log.info("%s", e)
@@ -211,11 +223,87 @@ def publicar_no_horario(agora: datetime):
                 item["posts"][plataforma] = {"estado": "erro", "erro": str(e)[:300],
                                              "tentativas": feito.get("tentativas", 0) + 1}
                 log.exception("Falha ao publicar %s %s", lang, plataforma)
+                telegram.enviar(f"❌ <b>Falhou ao postar no {plataforma.title()}</b> {BANDEIRA[lang]} "
+                                f"(tentativa {item['posts'][plataforma]['tentativas']}/3)\n{html.escape(str(e)[:300])}")
     _salvar_agenda(hoje, ag)
+
+
+# ---------- Telegram (aprovação pelo celular) ----------
+
+def mover(sid: str, origem, destino):
+    for ext in (".md", ".meta.json"):
+        shutil.move(origem / f"{sid}{ext}", destino / f"{sid}{ext}")
+
+
+def respostas_telegram():
+    """Aplica os botões que você apertou no Telegram desde o último ciclo."""
+    for acao, sid in telegram.ler_respostas():
+        if acao in ("ap", "rf", "rj"):
+            if not (PENDENTES / f"{sid}.meta.json").exists():
+                telegram.enviar("ℹ️ Esse roteiro já tinha sido decidido (aprovado no prazo ou refeito).")
+                continue
+            meta = ler_json(PENDENTES / f"{sid}.meta.json")
+        if acao == "ap":
+            meta["aprovacao"] = "voce"
+            salvar_json(PENDENTES / f"{sid}.meta.json", meta)
+            mover(sid, PENDENTES, APROVADOS)
+            telegram.enviar(f"✅ Aprovado: <b>{html.escape(meta['titulo'])}</b>. Te mando o vídeo quando ficar pronto.")
+        elif acao == "rj":
+            mover(sid, PENDENTES, REJEITADOS)
+            telegram.enviar(f"❌ Rejeitado: {html.escape(meta['titulo'])}. Outro tema entra na fila.")
+        elif acao == "rf":
+            mover(sid, PENDENTES, REJEITADOS)
+            telegram.enviar(f"🔁 Reescrevendo: {html.escape(meta['titulo'])}…")
+            try:
+                refazer(meta)  # o novo roteiro vai pros pendentes e é avisado no fim do ciclo
+            except Exception as e:
+                log.exception("Falha ao refazer %s", sid)
+                telegram.enviar(f"❌ Não consegui reescrever agora ({html.escape(str(e)[:200])}). "
+                                "Um tema novo entra no próximo ciclo.")
+        elif acao in ("status", "start"):
+            telegram.enviar(resumo())
+
+
+def resumo() -> str:
+    hoje = date.today()
+    linhas = [f"📅 <b>Hoje ({hoje.strftime('%d/%m')})</b>"]
+    ag = _agenda(hoje)
+    for lang in IDIOMAS:
+        item = ag.get(lang)
+        if not item or not item.get("script"):
+            linhas.append(f"{BANDEIRA[lang]} a definir")
+            continue
+        posts = " · ".join(f"{p}: {v.get('estado')}" for p, v in item["posts"].items()) or "ainda não postado"
+        linhas.append(f"{BANDEIRA[lang]} {html.escape(item['titulo'])}\n   {posts}")
+    linhas.append(f"\n📝 Roteiros esperando você: {len(list(PENDENTES.glob('*.meta.json')))}")
+    return "\n".join(linhas)
+
+
+def avisos_telegram():
+    """Manda o que ainda não foi avisado: roteiros novos e vídeos que ficaram prontos."""
+    for arq in sorted(PENDENTES.glob("*.meta.json")):
+        meta = ler_json(arq)
+        if not meta.get("avisado_telegram") and telegram.ativo():
+            telegram.avisar_roteiro(meta, (PENDENTES / f"{meta['id']}.md").read_text(encoding="utf-8").strip())
+            meta["avisado_telegram"] = True
+            salvar_json(arq, meta)
+    for arq in sorted(APROVADOS.glob("*.meta.json")):
+        meta = ler_json(arq)
+        video = STORAGE / "shorts" / "ready" / f"{meta['id']}.mp4"
+        if meta.get("producao", {}).get("etapa") == "pronto" and not meta.get("video_enviado") and video.exists() \
+                and telegram.ativo():
+            dia = meta.get("data_post")
+            quando = f"Posta em {date.fromisoformat(dia).strftime('%d/%m')}" if dia else "Ainda sem dia de postagem"
+            telegram.enviar_video(video, f"🎬 <b>Vídeo pronto</b> {BANDEIRA[meta['lang']]}\n"
+                                         f"{html.escape(meta['titulo'])}\n{quando}.")
+            meta["video_enviado"] = True
+            salvar_json(arq, meta)
 
 
 def garantir_painel():
     """Se o painel (porta 3200) caiu, sobe de novo pela tarefa agendada."""
+    if NUVEM:
+        return  # na nuvem o painel é o Telegram
     import socket
     import subprocess
     with socket.socket() as s:
@@ -230,8 +318,9 @@ def garantir_painel():
 def ciclo():
     agora = datetime.now()
     log.info("— ciclo %s —", agora.strftime("%d/%m %H:%M"))
-    for etapa in (garantir_painel, lambda: gerar_roteiros(agora), lambda: definir_videos_do_dia(agora),
-                  produzir_aprovados, lambda: publicar_no_horario(datetime.now())):
+    for etapa in (garantir_painel, respostas_telegram, lambda: gerar_roteiros(agora),
+                  lambda: definir_videos_do_dia(agora), avisos_telegram, produzir_aprovados, avisos_telegram,
+                  lambda: publicar_no_horario(datetime.now())):
         try:
             etapa()
         except Exception:
