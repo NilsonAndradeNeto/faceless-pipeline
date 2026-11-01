@@ -40,15 +40,17 @@
   "aprovacao": "automatica",
   "data_post": "2026-11-01",
   "producao": {
-    "etapa": "erro",
-    "erro": "montagem: ffmpeg falhou: [out#0/mp4 @ 0x55ddaeb68640] Error opening output /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T203736Z_en.mp4: No such file or directory\nError opening output file /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T2",
+    "etapa": "pronto",
+    "erro": null,
     "detalhe": "",
-    "progresso": 0.9,
-    "atualizado": "2026-11-01 18:05:51"
+    "progresso": 1.0,
+    "atualizado": "2026-11-01 18:19:20"
   },
   "voz": "elevenlabs",
   "creditos_imagens": [
     "Dyatlov Pass incident 02.jpg — AnonymousUnknown author / Soviet investigators (Public domain)"
   ],
-  "imagens_ia": 16
+  "imagens_ia": 16,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T203736Z_en.mp4",
+  "duracao_seg": 68.7
 }

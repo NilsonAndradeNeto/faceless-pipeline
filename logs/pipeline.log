@@ -144,3 +144,52 @@ Error opening output files: No such file or directory
 18:11:56 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
 18:11:56 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo em 30 min
 18:12:54 [ciclo] INFO: — ciclo 01/11 18:12 —
+18:14:05 [ciclo] INFO: — ciclo 01/11 18:14 —
+18:14:05 [produzir] INFO: ▶ Produzindo: The Dyatlov Pass: Missing Eyes, Unanswered Questions
+18:14:06 [video_builder] INFO: Cena 1/17 (imagem, 5.2s)
+18:14:07 [video_builder] INFO: Encoder: x264
+18:14:21 [video_builder] INFO: Cena 2/17 (imagem, 3.6s)
+18:14:30 [video_builder] INFO: Cena 3/17 (imagem, 5.4s)
+18:14:43 [video_builder] INFO: Cena 4/17 (imagem, 3.3s)
+18:14:51 [video_builder] INFO: Cena 5/17 (imagem, 4.4s)
+18:15:02 [video_builder] INFO: Cena 6/17 (imagem, 4.4s)
+18:15:13 [video_builder] INFO: Cena 7/17 (imagem, 4.5s)
+18:15:24 [video_builder] INFO: Cena 8/17 (imagem, 3.5s)
+18:15:32 [video_builder] INFO: Cena 9/17 (imagem, 3.2s)
+18:15:40 [video_builder] INFO: Cena 10/17 (imagem, 3.8s)
+18:15:49 [video_builder] INFO: Cena 11/17 (imagem, 3.3s)
+18:15:58 [video_builder] INFO: Cena 12/17 (imagem, 3.8s)
+18:16:07 [video_builder] INFO: Cena 13/17 (imagem, 3.1s)
+18:16:15 [video_builder] INFO: Cena 14/17 (imagem, 4.3s)
+18:16:26 [video_builder] INFO: Cena 15/17 (imagem, 4.9s)
+18:16:38 [video_builder] INFO: Cena 16/17 (imagem, 5.3s)
+18:16:51 [video_builder] INFO: Cena 17/17 (imagem, 2.7s)
+18:16:58 [video_builder] INFO: Música: trilha_01.mp3
+18:19:20 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T203736Z_en.mp4 (68.7s)
+18:19:20 [produzir] INFO: ✅ Pronto: The Dyatlov Pass: Missing Eyes, Unanswered Questions
+18:19:20 [produzir] INFO: ▶ Produzindo: O mistério da Montanha dos Mortos no Passo Dyatlov
+18:19:20 [video_builder] INFO: Cena 1/16 (imagem, 5.1s)
+18:19:32 [video_builder] INFO: Cena 2/16 (imagem, 2.6s)
+18:19:38 [video_builder] INFO: Cena 3/16 (imagem, 3.9s)
+18:19:46 [video_builder] INFO: Cena 4/16 (imagem, 5.4s)
+18:19:59 [video_builder] INFO: Cena 5/16 (imagem, 5.1s)
+18:20:12 [video_builder] INFO: Cena 6/16 (imagem, 5.0s)
+18:20:24 [video_builder] INFO: Cena 7/16 (imagem, 5.8s)
+18:20:38 [video_builder] INFO: Cena 8/16 (imagem, 4.0s)
+18:20:48 [video_builder] INFO: Cena 9/16 (imagem, 2.9s)
+18:20:56 [video_builder] INFO: Cena 10/16 (imagem, 5.3s)
+18:21:08 [video_builder] INFO: Cena 11/16 (imagem, 5.2s)
+18:21:20 [video_builder] INFO: Cena 12/16 (imagem, 4.9s)
+18:21:32 [video_builder] INFO: Cena 13/16 (imagem, 5.8s)
+18:21:46 [video_builder] INFO: Cena 14/16 (imagem, 4.2s)
+18:21:56 [video_builder] INFO: Cena 15/16 (imagem, 5.4s)
+18:22:08 [video_builder] INFO: Cena 16/16 (imagem, 4.5s)
+18:22:20 [video_builder] INFO: Música: trilha_01.mp3
+18:24:52 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T192006Z_pt.mp4 (74.8s)
+18:24:52 [produzir] INFO: ✅ Pronto: O mistério da Montanha dos Mortos no Passo Dyatlov
+18:24:52 [produzir] INFO: ▶ Produzindo: The 129 Men Who Vanished in the Arctic
+18:24:53 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+18:24:54 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+18:24:54 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+18:24:54 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+18:24:54 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
