@@ -66,20 +66,36 @@ jobs:
           enable-cache: true
 
       - name: Segredos
+        # Lista explícita: o GitHub bloqueia como "malicioso" o workflow que despeja todos os segredos
         env:
-          SEGREDOS: ${{ toJSON(secrets) }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          IG_TOKEN_PT: ${{ secrets.IG_TOKEN_PT }}
+          IG_TOKEN_EN: ${{ secrets.IG_TOKEN_EN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          YOUTUBE_PT_TOKEN: ${{ secrets.YOUTUBE_PT_TOKEN }}
+          YOUTUBE_EN_TOKEN: ${{ secrets.YOUTUBE_EN_TOKEN }}
         run: |
           mkdir -p credentials
           python3 - <<'EOF'
-          import json, os
-          segredos = json.loads(os.environ["SEGREDOS"])
+          import os
+          NOMES = ["CLOUDFLARE_ACCOUNT_ID", "CLOUDFLARE_API_TOKEN", "ELEVENLABS_API_KEY", "GEMINI_API_KEY",
+                   "GROQ_API_KEY", "PIXABAY_API_KEY", "IG_TOKEN_PT", "IG_TOKEN_EN",
+                   "TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID"]
           with open(".env", "w") as env:
-              for nome, valor in segredos.items():
-                  if nome.startswith("YOUTUBE_") and nome.endswith("_TOKEN"):
-                      lang = nome.split("_")[1].lower()
-                      open(f"credentials/youtube_{lang}.token.json", "w").write(valor)
-                  elif nome != "github_token" and "\n" not in valor:
+              for nome in NOMES:
+                  valor = os.environ.get(nome, "")
+                  if valor and "\n" not in valor:
                       env.write(f"{nome}={valor}\n")
+          for lang in ("pt", "en"):
+              valor = os.environ.get(f"YOUTUBE_{lang.upper()}_TOKEN", "")
+              if valor:
+                  open(f"credentials/youtube_{lang}.token.json", "w").write(valor)
           EOF
 
       - name: Ciclo
