@@ -41,11 +41,21 @@
   "aprovacao": "automatica",
   "data_post": "2026-10-31",
   "producao": {
-    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "etapa": "pronto",
     "erro": null,
     "detalhe": "",
-    "progresso": 0.3,
-    "atualizado": "2026-11-01 19:50:47"
+    "progresso": 1.0,
+    "atualizado": "2026-11-03 07:42:15"
   },
-  "voz": "elevenlabs"
+  "voz": "elevenlabs",
+  "creditos_imagens": [
+    "Durand-brager-453.png — Jean-Baptiste Henri Durand-Brager (Public domain)",
+    "Franklin Expedition 1845 - HMS Terror - Erebus.jpg — Illustrated London News - Getty (Public domain)",
+    "John Franklin 1845.JPG — Unknown authorUnknown author (Public domain)",
+    "Manproposesgoddisposes.jpg — Edwin Landseer (Public domain)",
+    "Model of the HMS Erebus (1826) trapped in the ice, Nattilik Heritage Centre, Gjoa Haven, September 2019.jpg — Kerry Raymond (CC BY 4.0)"
+  ],
+  "imagens_ia": 9,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T201002Z_en.mp4",
+  "duracao_seg": 58.9
 }
