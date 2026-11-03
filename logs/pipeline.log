@@ -284,3 +284,5 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 07:41:26 [video_builder] INFO: Música: trilha_06.mp3
 07:42:15 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T201002Z_en.mp4 (58.9s)
 07:42:15 [produzir] INFO: ✅ Pronto: The 129 Men Who Vanished in the Arctic
+14:39:19 [ciclo] INFO: — ciclo 03/11 14:39 —
+14:39:19 [ciclo] WARNING: Sem vídeo EN hoje
