@@ -82,3 +82,11 @@
 {"ts": "2026-11-03T07:32:59", "provedor": "groq", "modelo": "openai/gpt-oss-120b", "tarefa": "termos_busca", "tokens_entrada": 164, "tokens_saida": 333, "custo_usd": 0.0, "segundos": 1.3}
 {"ts": "2026-11-03T07:33:38", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "roteiro", "tokens_entrada": 2848, "tokens_saida": 321, "custo_usd": 0.0, "segundos": 18.1}
 {"ts": "2026-11-03T07:34:19", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "critica", "tokens_entrada": 475, "tokens_saida": 283, "custo_usd": 0.0, "segundos": 6.8}
+{"ts": "2026-11-03T23:59:00", "provedor": "groq", "modelo": "openai/gpt-oss-120b", "tarefa": "termos_busca", "tokens_entrada": 162, "tokens_saida": 90, "custo_usd": 0.0, "segundos": 1.2}
+{"ts": "2026-11-03T23:59:31", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "roteiro", "tokens_entrada": 5504, "tokens_saida": 392, "custo_usd": 0.0, "segundos": 30.3}
+{"ts": "2026-11-04T00:00:02", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "critica", "tokens_entrada": 502, "tokens_saida": 329, "custo_usd": 0.0, "segundos": 31.1}
+{"ts": "2026-11-04T00:00:22", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "provas", "tokens_entrada": 5396, "tokens_saida": 892, "custo_usd": 0.0, "segundos": 19.6}
+{"ts": "2026-11-04T00:00:53", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "roteiro", "tokens_entrada": 2848, "tokens_saida": 369, "custo_usd": 0.0, "segundos": 31.0}
+{"ts": "2026-11-04T00:01:04", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "critica", "tokens_entrada": 490, "tokens_saida": 297, "custo_usd": 0.0, "segundos": 6.8}
+{"ts": "2026-11-04T00:01:15", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "provas", "tokens_entrada": 2700, "tokens_saida": 883, "custo_usd": 0.0, "segundos": 9.1}
+{"ts": "2026-11-04T00:01:35", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "correcao", "tokens_entrada": 2684, "tokens_saida": 199, "custo_usd": 0.0, "segundos": 19.9}
