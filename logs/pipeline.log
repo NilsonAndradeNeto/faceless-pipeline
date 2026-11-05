@@ -443,3 +443,39 @@ AttributeError: 'list' object has no attribute 'get'
 03:02:36 [llm] INFO: gemini/gemini-3.5-flash [provas] 2667→764 tokens, US$0.0000, 17.1s
 03:02:36 [scriptwriter] INFO: Checagem 2: 15 frases, 0 com problema, 0 para conferir
 03:02:36 [scriptwriter] INFO: Roteiro salvo: 161 palavras, 971 caracteres, confiança alta
+14:55:45 [ciclo] INFO: — ciclo 05/11 14:55 —
+14:55:45 [ciclo] WARNING: Sem vídeo PT hoje
+14:55:45 [ciclo] INFO: Aprovado automaticamente: The chilling truth behind the word CROATOAN
+14:55:45 [ciclo] INFO: Vídeo EN de hoje: The chilling truth behind the word CROATOAN
+14:55:45 [produzir] INFO: ▶ Produzindo: The chilling truth behind the word CROATOAN
+14:55:46 [tts] INFO: ElevenLabs: voz George, 971 caracteres (restam 3776)
+14:55:52 [tts] INFO: Narração pronta (elevenlabs): 60.8s, 161 palavras
+14:55:53 [visual_planner] INFO: 25 imagens reais disponíveis nos artigos-fonte
+14:55:56 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+14:55:56 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+14:56:09 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+14:56:09 [llm] INFO: gemini/gemini-3-flash-preview [visual] 2003→1270 tokens, US$0.0000, 13.3s
+14:56:09 [produzir] ERROR: Falhou na etapa plano visual
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 78, in produzir
+    fn()
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 70, in <lambda>
+    else planejar(script_id)),
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/visual_planner.py", line 132, in planejar
+    por_n = {c["n"]: c for c in r.get("cenas", [])}
+                                ^^^^^
+AttributeError: 'list' object has no attribute 'get'
+14:56:09 [produzir] ERROR: Falha ao produzir 20261103T103300Z_en (segue para o próximo)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 119, in produzir_fila
+    produzir(sid, ate="plano visual" if sem_imagens else None)
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 78, in produzir
+    fn()
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 70, in <lambda>
+    else planejar(script_id)),
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/visual_planner.py", line 132, in planejar
+    por_n = {c["n"]: c for c in r.get("cenas", [])}
+                                ^^^^^
+AttributeError: 'list' object has no attribute 'get'

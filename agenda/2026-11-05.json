@@ -1,3 +1,14 @@
 {
-  "data": "2026-11-05"
+  "data": "2026-11-05",
+  "pt": {
+    "script": null,
+    "motivo": "nenhum roteiro válido na fila",
+    "posts": {}
+  },
+  "en": {
+    "script": "20261103T103300Z_en",
+    "titulo": "The chilling truth behind the word CROATOAN",
+    "aprovacao": "automatica",
+    "posts": {}
+  }
 }

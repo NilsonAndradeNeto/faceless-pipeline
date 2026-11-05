@@ -37,5 +37,15 @@
       "titulo": "Roanoke Colony",
       "url": "https://en.wikipedia.org/wiki/Roanoke_Colony"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-05",
+  "producao": {
+    "etapa": "erro",
+    "erro": "plano visual: 'list' object has no attribute 'get'",
+    "detalhe": "",
+    "progresso": 0.1,
+    "atualizado": "2026-11-05 14:56:09"
+  },
+  "voz": "elevenlabs"
 }
