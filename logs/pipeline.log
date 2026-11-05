@@ -393,3 +393,53 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 14:52:44 [ciclo] WARNING: Sem vídeo PT hoje
 14:52:44 [ciclo] WARNING: Sem vídeo EN hoje
 20:27:38 [ciclo] INFO: — ciclo 04/11 20:27 —
+02:59:27 [ciclo] INFO: — ciclo 05/11 02:59 —
+02:59:27 [ciclo] INFO: Fila PT vazia — gerando roteiro
+02:59:27 [scriptwriter] INFO: Escrevendo roteiro: O desaparecimento de Amelia Earhart sobre o Pacífico
+03:00:05 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:00:05 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 5504→412 tokens, US$0.0000, 38.3s
+03:00:05 [scriptwriter] INFO: Editando para retenção...
+03:00:15 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+03:00:15 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+03:00:42 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:00:42 [llm] INFO: gemini/gemini-3-flash-preview [critica] 513→328 tokens, US$0.0000, 27.1s
+03:00:42 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 7, 'viradas': 6, 'climax': 7, 'final': 7}
+03:00:42 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+03:00:49 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+03:00:49 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+03:00:59 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:00:59 [llm] INFO: gemini/gemini-3-flash-preview [provas] 5395→895 tokens, US$0.0000, 10.7s
+03:00:59 [scriptwriter] ERROR: Falha ao escrever roteiro de 20261104T025901Z_pt.json (tópico fica pendente)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 216, in processar_pendentes
+    escrever(ler_json(arq))
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 186, in escrever
+    roteiro, pendentes, atencao = checar_fatos(editado, fontes_txt, topico["lang"])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 149, in checar_fatos
+    frases = p.get("frases", [])
+             ^^^^^
+AttributeError: 'list' object has no attribute 'get'
+03:00:59 [ciclo] INFO: Fila EN vazia — gerando roteiro
+03:00:59 [scriptwriter] INFO: Escrevendo roteiro: The Lost Colony of Roanoke and the word CROATOAN
+03:01:15 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:01:15 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 2848→349 tokens, US$0.0000, 15.4s
+03:01:15 [scriptwriter] INFO: Editando para retenção...
+03:01:37 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:01:37 [llm] INFO: gemini/gemini-3.5-flash [critica] 479→287 tokens, US$0.0000, 22.4s
+03:01:37 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 7, 'ritmo': 6, 'viradas': 7, 'climax': 6, 'final': 6}
+03:01:37 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+03:02:01 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:02:01 [llm] INFO: gemini/gemini-3.5-flash [provas] 2690→799 tokens, US$0.0000, 23.3s
+03:02:01 [scriptwriter] INFO: Checagem 1: 16 frases, 4 com problema, 0 para conferir
+03:02:01 [scriptwriter] INFO: Corrigindo:
+- "In August of 1590, John White stepped onto a dark beach, desperate to find his baby granddaughter." → sem_base: A fonte menciona o ano de 1590 e a neta Virginia Dare, mas não especifica o mês de agosto.
+- "Three years earlier, he had left his daughter, baby Virginia Dare, and 115 English settlers on Roanoke Island." → sem_base: A fonte menciona a expedição de 1587 e a neta Virginia Dare, mas não menciona o número de 115 colonos.
+- "One hundred fifteen people had simply ceased to exist." → sem_base: O número de 115 pessoas não consta nas fontes fornecidas.
+- "There were no bodies, no graves, and not a single burned building." → sem_base: As fontes não mencionam detalhes sobre ausência de corpos, sepulturas ou edifícios queimados.
+03:02:18 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:02:18 [llm] INFO: gemini/gemini-3.5-flash [correcao] 2712→213 tokens, US$0.0000, 17.9s
+03:02:36 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:02:36 [llm] INFO: gemini/gemini-3.5-flash [provas] 2667→764 tokens, US$0.0000, 17.1s
+03:02:36 [scriptwriter] INFO: Checagem 2: 15 frases, 0 com problema, 0 para conferir
+03:02:36 [scriptwriter] INFO: Roteiro salvo: 161 palavras, 971 caracteres, confiança alta
