@@ -41,11 +41,24 @@
   "aprovacao": "automatica",
   "data_post": "2026-11-05",
   "producao": {
-    "etapa": "erro",
-    "erro": "plano visual: 'list' object has no attribute 'get'",
+    "etapa": "pronto",
+    "erro": null,
     "detalhe": "",
-    "progresso": 0.1,
-    "atualizado": "2026-11-05 14:56:09"
+    "progresso": 1.0,
+    "atualizado": "2026-11-05 20:34:27"
   },
-  "voz": "elevenlabs"
+  "voz": "elevenlabs",
+  "creditos_imagens": [
+    "A chiefe Herowan.jpg — John White (Public domain)",
+    "Baptism of Virginia Dare.jpeg — William Ludwell Sheppard (Public domain)",
+    "Fort Raleigh (artist's reconstruction).jpg — Uncredited (Public domain)",
+    "Fort Raleigh National Historic Site earthworks 2 - Sarah Stierch.jpg — Sarah Stierch (CC BY 4.0)",
+    "Lost Colony Tree - Fort Raleigh National Historic Site - Stierch.jpg — Sarah Stierch (CC BY 4.0)",
+    "Ruins of the English Settlement at Roanoke.jpg — Engraving by John Parker Davis (Public domain)",
+    "Spanish Armada fireships.jpg — anonymous (Public domain)",
+    "The-Lost-Colony 0.jpg — John White (Public domain)"
+  ],
+  "imagens_ia": 9,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261103T103300Z_en.mp4",
+  "duracao_seg": 61.4
 }

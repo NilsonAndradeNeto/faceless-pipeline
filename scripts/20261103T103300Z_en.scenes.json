@@ -1,0 +1,362 @@
+[
+  {
+    "n": 1,
+    "texto": "In 1590, John White stepped onto a dark beach,",
+    "inicio": 0.0,
+    "fim": 3.518,
+    "duracao": 3.518,
+    "visual": {
+      "real": {
+        "nome": "William Ludwell Sheppard & William James Linton - CROATOAN, The Lost Colony (John White).jpg",
+        "descricao": "The Lost Colony, design by William Ludwell Sheppard, engraving by William James Linton.\nThis image depicts John White returning to the Roanoke Colony in 1590 to",
+        "licenca": "No restrictions",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/William_Ludwell_Sheppard_%26_William_James_Linton_-_CROATOAN%2C_The_Lost_Colony_%28John_White%29.jpg/1280px-William_Ludwell_Sheppard_%26_William_James_Linton_-_CROATOAN%2C_The_Lost_Colony_%28John_White%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Design by William Ludwell Sheppard, Engraving by William James Linton"
+      },
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. A 16th-century English explorer standing on a dark, foggy beach at twilight, wearing a doublet and leather boots, looking towards a dense, mysterious forest. Cinematic lighting, dramatic shadows, 9:16 aspect ratio, historical atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/d38a0ba94c03502b.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "desperate to find his baby granddaughter.",
+    "inicio": 3.518,
+    "fim": 6.026,
+    "duracao": 2.508,
+    "visual": {
+      "real": null,
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. A close-up of a man's weathered hands holding a small, worn 16th-century wooden toy or a baby's bonnet. Dim lantern light, atmosphere of grief and urgency, historical textures, soft focus on the background., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/8247488c7182e380.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "Three years earlier, he had left his daughter, baby Virginia Dare,",
+    "inicio": 6.026,
+    "fim": 9.636,
+    "duracao": 3.61,
+    "visual": {
+      "real": {
+        "nome": "Baptism of Virginia Dare.jpeg",
+        "descricao": "Baptism of Virginia Dare",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Baptism_of_Virginia_Dare.jpeg/1280px-Baptism_of_Virginia_Dare.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "William Ludwell Sheppard"
+      },
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. A historical scene of a 16th-century English woman holding a swaddled infant on a wooden pier. Large wooden ships in the background, soft daylight, Elizabethan era clothing, emotional parting, cinematic style., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Baptism_of_Virginia_Dare.jpeg/1280px-Baptism_of_Virginia_Dare.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/e4b110176b9920b9.jpg",
+      "credito": "Baptism of Virginia Dare.jpeg — William Ludwell Sheppard (Public domain)"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "and English settlers on Roanoke Island.",
+    "inicio": 9.636,
+    "fim": 12.307,
+    "duracao": 2.671,
+    "visual": {
+      "real": {
+        "nome": "Fort Raleigh (artist's reconstruction).jpg",
+        "descricao": "A 1962 illustration depicting the artist's reconstruction of the fort built by Ralph Lane for the 1585 Roanoke Colony. In modern times the fort has come to be k",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Fort_Raleigh_%28artist%27s_reconstruction%29.jpg/1280px-Fort_Raleigh_%28artist%27s_reconstruction%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Uncredited"
+      },
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. A group of Elizabethan settlers, men and women in period attire, working near a wooden palisade on a coastal island. Tall pine trees, humid atmosphere, colonial settlement under construction, 1580s aesthetic., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Fort_Raleigh_%28artist%27s_reconstruction%29.jpg/1280px-Fort_Raleigh_%28artist%27s_reconstruction%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/4e46379e78c3c1b6.jpg",
+      "credito": "Fort Raleigh (artist's reconstruction).jpg — Uncredited (Public domain)"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "He promised to return quickly with supplies, but a sudden war trapped him in England for three grueling",
+    "inicio": 12.307,
+    "fim": 17.682,
+    "duracao": 5.375,
+    "visual": {
+      "real": {
+        "nome": "Spanish Armada fireships.jpg",
+        "descricao": "Contemporary Flemish interpretation of the launching of English fire-ships against the Spanish Armada, 7 August 1588",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Spanish_Armada_fireships.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "anonymous"
+      },
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. A massive naval battle in the English Channel, 1588. Huge galleons with billowing sails, fire-ships glowing orange against a dark, stormy sea, smoke and chaos, 16th-century maritime warfare, dramatic wide shot., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Spanish_Armada_fireships.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/76312dcd13492d4b.jpg",
+      "credito": "Spanish Armada fireships.jpg — anonymous (Public domain)"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "years. Now, night was falling as his boat finally touched the sand.",
+    "inicio": 17.682,
+    "fim": 22.674,
+    "duracao": 4.992,
+    "visual": {
+      "real": null,
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. A small wooden rowboat grinding against a sandy shoreline at dusk. Dark waves, silhouettes of tall trees in the background, a single lantern flickering in the boat, moody atmosphere, wet sand textures., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/6a7e9b53f1574a93.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "He called into the pitch-black trees. Nothing.",
+    "inicio": 22.674,
+    "fim": 26.099,
+    "duracao": 3.425,
+    "visual": {
+      "real": null,
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. A POV shot from the edge of a dark, dense forest at night. Ancient gnarled trees, thick undergrowth, a faint mist creeping between trunks, eerie silence, cinematic lighting, 9:16 vertical composition., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/85143d7d4e86bbbd.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "Silence. The entire fortified settlement was completely empty.",
+    "inicio": 26.099,
+    "fim": 30.477,
+    "duracao": 4.378,
+    "visual": {
+      "real": {
+        "nome": "Ruins of the English Settlement at Roanoke.jpg",
+        "descricao": "Engraving by John Parker Davis, depicting John White finding the ruins of the Roanoke colony in 1590. White's report described a tree marked \"CRO\" and a pallisa",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Ruins_of_the_English_Settlement_at_Roanoke.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Engraving by John Parker Davis"
+      },
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. A wide shot of an abandoned 16th-century wooden fort. Empty log cabins, overgrown grass, a broken wooden gate swinging in the wind, no people, desolate and haunting atmosphere, twilight lighting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Ruins_of_the_English_Settlement_at_Roanoke.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/e4c32a698432d5c8.jpg",
+      "credito": "Ruins of the English Settlement at Roanoke.jpg — Engraving by John Parker Davis (Public domain)"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "The settlers had simply ceased to exist.",
+    "inicio": 30.477,
+    "fim": 32.95,
+    "duracao": 2.473,
+    "visual": {
+      "real": null,
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. A discarded 16th-century pewter plate and a rusted tool half-buried in the dirt. Overgrown weeds, the feeling of a place suddenly abandoned, soft focus on the surrounding empty settlement, historical debris., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/af8e7810180d9e7e.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "A fully built, heavily protected village had vanished without a trace.",
+    "inicio": 32.95,
+    "fim": 37.141,
+    "duracao": 4.191,
+    "visual": {
+      "real": {
+        "nome": "Fort Raleigh National Historic Site earthworks 2 - Sarah Stierch.jpg",
+        "descricao": "Reconstructed earthworks from archeological records of Fort Raleigh in the 16th century.",
+        "licenca": "CC BY 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Fort_Raleigh_National_Historic_Site_earthworks_2_-_Sarah_Stierch.jpg/1280px-Fort_Raleigh_National_Historic_Site_earthworks_2_-_Sarah_Stierch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Sarah Stierch"
+      },
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. An empty clearing where a village once stood, only low earthworks and post-holes remaining. Fog rolling over the landscape, 16th-century architectural ruins, melancholy and mysterious lighting, cinematic historical reconstruction., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Fort_Raleigh_National_Historic_Site_earthworks_2_-_Sarah_Stierch.jpg/1280px-Fort_Raleigh_National_Historic_Site_earthworks_2_-_Sarah_Stierch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/f4e9318dc32dc6eb.jpg",
+      "credito": "Fort Raleigh National Historic Site earthworks 2 - Sarah Stierch.jpg — Sarah Stierch (CC BY 4.0)"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "As White searched the abandoned fort, he found only one chilling clue.",
+    "inicio": 37.141,
+    "fim": 41.518,
+    "duracao": 4.377,
+    "visual": {
+      "real": {
+        "nome": "Lost Colony Tree - Fort Raleigh National Historic Site - Stierch.jpg",
+        "descricao": "\"CRO\" written on a tree, part of the Lost Colony performance at Fort Raleigh National Historic Site.",
+        "licenca": "CC BY 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Lost_Colony_Tree_-_Fort_Raleigh_National_Historic_Site_-_Stierch.jpg/1280px-Lost_Colony_Tree_-_Fort_Raleigh_National_Historic_Site_-_Stierch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Sarah Stierch"
+      },
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. A man in 16th-century explorer's gear holding a lantern up to a thick wooden post. The lantern light casts long shadows against the rough timber, focused on the textures of the wood, mysterious mood., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Lost_Colony_Tree_-_Fort_Raleigh_National_Historic_Site_-_Stierch.jpg/1280px-Lost_Colony_Tree_-_Fort_Raleigh_National_Historic_Site_-_Stierch.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/415fc5ef3359f54b.jpg",
+      "credito": "Lost Colony Tree - Fort Raleigh National Historic Site - Stierch.jpg — Sarah Stierch (CC BY 4.0)"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "Carved deep into a wooden post was a single mysterious word:",
+    "inicio": 41.518,
+    "fim": 45.442,
+    "duracao": 3.924,
+    "visual": {
+      "real": null,
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. Extreme close-up of the word 'CROATOAN' roughly carved into weathered grey wood. Chipped bark, deep grooves, dimly lit by a flickering torch, historical mystery aesthetic, high detail on the carving., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/5a20dabad8940dd5.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "CROATOAN. Before he could search the nearby island,",
+    "inicio": 45.442,
+    "fim": 48.925,
+    "duracao": 3.483,
+    "visual": {
+      "real": {
+        "nome": "The-Lost-Colony 0.jpg",
+        "descricao": "Painting by Englishman John White. Sir Walter Raleghi's 1590 Expedition to Roanoke Island to find the Lost Colony uncovered 'Croatoan' carved on a tree. This ma",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/The-Lost-Colony_0.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "John White"
+      },
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. A wide shot of the abandoned fort at night, a single figure standing by the carved post. In the distance, dark clouds are gathering over the ocean, ominous weather approaching, cinematic 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/The-Lost-Colony_0.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/742d687f3fd2d715.jpg",
+      "credito": "The-Lost-Colony 0.jpg — John White (Public domain)"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "violent storms snapped his anchors and blew his ships out to sea,",
+    "inicio": 48.925,
+    "fim": 52.791,
+    "duracao": 3.866,
+    "visual": {
+      "real": null,
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. A 16th-century English galleon tossing violently in a massive storm. Huge dark waves crashing over the deck, lightning illuminating the tattered sails, anchors snapping under the pressure of the sea, dramatic action., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/4402a7aeada6ee26.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 15,
+    "texto": "ensuring he would never see his family again.",
+    "inicio": 52.791,
+    "fim": 55.508,
+    "duracao": 2.717,
+    "visual": {
+      "real": null,
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. A lonely man standing on the deck of a ship, looking back at a receding coastline. Rain-streaked face, Elizabethan clothing, the island disappearing into the mist and darkness, a sense of permanent loss., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/e5de714edcbc7138.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 16,
+    "texto": "Did they integrate with local tribes, or were they wiped out?",
+    "inicio": 55.508,
+    "fim": 59.443,
+    "duracao": 3.935,
+    "visual": {
+      "real": {
+        "nome": "A chiefe Herowan.jpg",
+        "descricao": "A chiefe Herowan, watercolor by John White depicting the weroance (\"chief\") of a Native American community.  The identity of the man and his tribe are unknown, ",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/A_chiefe_Herowan.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "John White"
+      },
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. A symbolic split image: on one side, 16th-century English items mixed with Native American pottery; on the other, a deserted, decaying wooden structure being reclaimed by the forest, mystery theme., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/A_chiefe_Herowan.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/db89a445d092bec2.jpg",
+      "credito": "A chiefe Herowan.jpg — John White (Public domain)"
+    }
+  },
+  {
+    "n": 17,
+    "texto": "Drop your theory below.",
+    "inicio": 59.443,
+    "fim": 61.39,
+    "duracao": 1.947,
+    "visual": {
+      "real": null,
+      "ia": "Roanoke Island and England, 1585-1590, Elizabethan era colonial expedition, period-accurate clothing and technology. A close-up of an old, yellowed 16th-century map on a wooden table. A quill pen rests beside it, lit by a single candle, inviting the viewer to solve the historical puzzle, warm lighting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/43e0c1ff9582754a.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  }
+]

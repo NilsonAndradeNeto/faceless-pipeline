@@ -9,6 +9,12 @@
     "script": "20261103T103300Z_en",
     "titulo": "The chilling truth behind the word CROATOAN",
     "aprovacao": "automatica",
-    "posts": {}
+    "posts": {
+      "youtube": {
+        "estado": "erro",
+        "erro": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+        "tentativas": 1
+      }
+    }
   }
 }
