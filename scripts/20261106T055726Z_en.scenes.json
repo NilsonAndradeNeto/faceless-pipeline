@@ -1,0 +1,272 @@
+[
+  {
+    "n": 1,
+    "texto": "Why would an experienced captain lower his baby daughter into the dark ocean when his ship",
+    "inicio": 0.0,
+    "fim": 5.12,
+    "duracao": 5.12,
+    "visual": {
+      "real": null,
+      "ia": "North Atlantic Ocean, 1872, Victorian maritime era, period-accurate clothing and technology. A 19th-century sea captain in a heavy wool coat lowering a small bundle into a wooden lifeboat on a dark, turbulent Atlantic night, dramatic shadows, cinematic lighting, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/43bb813e1702f404.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "was completely safe? In December 1872,",
+    "inicio": 5.12,
+    "fim": 8.638,
+    "duracao": 3.518,
+    "visual": {
+      "real": null,
+      "ia": "North Atlantic Ocean, 1872, Victorian maritime era, period-accurate clothing and technology. A vintage 1872 calendar page resting on a dark wooden desk next to a flickering candle and a brass compass, soft historical atmosphere, moody lighting, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/f6dd916fb6cb2dfa.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "Captain Morehouse spotted the Mary Celeste drifting near the Azores.",
+    "inicio": 8.638,
+    "fim": 12.957,
+    "duracao": 4.319,
+    "visual": {
+      "real": {
+        "nome": "Mary Celeste as Amazon in 1861 (cropped).jpg",
+        "descricao": "",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Mary_Celeste_as_Amazon_in_1861_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Unconfirmed, possibly Honore Pellegrin (1800–c.1870). This speculative attributi"
+      },
+      "ia": "North Atlantic Ocean, 1872, Victorian maritime era, period-accurate clothing and technology. A lone 19th-century brigantine with tattered sails drifting aimlessly on a vast, misty gray ocean, seen from the wooden railing of another ship, haunting maritime atmosphere, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Mary_Celeste_as_Amazon_in_1861_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/3a2c0d7df1d9cde5.jpg",
+      "credito": "Mary Celeste as Amazon in 1861 (cropped).jpg — Unconfirmed, possibly Honore Pellegrin (1800–c.1870). This speculative attributi (Public domain)"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "In command was Benjamin Briggs, a devout, veteran sailor who was traveling with his wife and their",
+    "inicio": 12.957,
+    "fim": 18.031,
+    "duracao": 5.074,
+    "visual": {
+      "real": {
+        "nome": "Lap desk of Captain Benjamin Briggs from the Mary Celeste (PEM M6557) 02.jpg",
+        "descricao": "Lap desk of Captain Benjamin Briggs, recovered from the Mary Celeste in 1872. Some of the personal items are reproductions. (Peabody Essex Museum, Salem, inv. M",
+        "licenca": "CC0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_%28PEM_M6557%29_02.jpg/1280px-Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_%28PEM_M6557%29_02.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Crawdad Blues"
+      },
+      "ia": "North Atlantic Ocean, 1872, Victorian maritime era, period-accurate clothing and technology. Interior of a Victorian captain's cabin, a small wooden rocking horse and a woman's shawl on a velvet chair, warm lamp light, empty and silent, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_%28PEM_M6557%29_02.jpg/1280px-Lap_desk_of_Captain_Benjamin_Briggs_from_the_Mary_Celeste_%28PEM_M6557%29_02.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/e64022b0b47aaee3.jpg",
+      "credito": "Lap desk of Captain Benjamin Briggs from the Mary Celeste (PEM M6557) 02.jpg — Crawdad Blues (CC0)"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "two-year-old daughter, Sophia. When the boarding party stepped onto the deck,",
+    "inicio": 18.031,
+    "fim": 22.617,
+    "duracao": 4.586,
+    "visual": {
+      "real": null,
+      "ia": "North Atlantic Ocean, 1872, Victorian maritime era, period-accurate clothing and technology. First-person view of leather boots stepping onto the weathered wooden deck of an abandoned 1870s ship, tangled ropes and pulleys, eerie morning fog, cinematic historical detail, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/4d15b65db3980b52.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "they heard nothing but the wind. The crew hadn't just left--they had vanished into thin air.",
+    "inicio": 22.617,
+    "fim": 28.619,
+    "duracao": 6.002,
+    "visual": {
+      "real": null,
+      "ia": "North Atlantic Ocean, 1872, Victorian maritime era, period-accurate clothing and technology. The deserted wooden deck of a 19th-century sailing ship, sails hanging limp, thick Atlantic mist, no people visible, haunting and lonely atmosphere, vertical cinematic shot, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/79f61db7d816c813.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "Below deck, the ship was disheveled.",
+    "inicio": 28.619,
+    "fim": 30.999,
+    "duracao": 2.38,
+    "visual": {
+      "real": null,
+      "ia": "North Atlantic Ocean, 1872, Victorian maritime era, period-accurate clothing and technology. The disheveled interior of a ship's cabin in 1872, an overturned wooden chair, papers scattered across the floor, a swinging lantern, dark and moody lighting, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/36fd08279f7b1d49.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "The crew's personal belongings were left undisturbed.",
+    "inicio": 30.999,
+    "fim": 34.273,
+    "duracao": 3.274,
+    "visual": {
+      "real": null,
+      "ia": "North Atlantic Ocean, 1872, Victorian maritime era, period-accurate clothing and technology. Close-up of a sailor's wooden bunk, a clay pipe and a half-written letter resting on a rough wool blanket, personal belongings left behind in haste, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/9f56a038f077653b.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "There were seventeen hundred and one barrels of alcohol in the hold.",
+    "inicio": 34.273,
+    "fim": 38.011,
+    "duracao": 3.738,
+    "visual": {
+      "real": null,
+      "ia": "North Atlantic Ocean, 1872, Victorian maritime era, period-accurate clothing and technology. Deep inside the dark cargo hold of a wooden vessel, hundreds of stacked oak barrels of industrial alcohol, damp wood textures, faint light filtering through the hatch, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/f2d6bfdf21193f0a.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "The last log entry was dated ten days earlier, but the ship was still dry and completely seaworthy.",
+    "inicio": 38.011,
+    "fim": 44.06,
+    "duracao": 6.049,
+    "visual": {
+      "real": {
+        "nome": "Mary Celeste NYTimes 1873February26.png",
+        "descricao": "\"A Brig's Officers Believed to Have Been Murdered at Sea.\", New York Times, Wednesday, February 26, 1873, page 2, citing the Boston Post of February 24, 1873. R",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Mary_Celeste_NYTimes_1873February26.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Boston Post"
+      },
+      "ia": "North Atlantic Ocean, 1872, Victorian maritime era, period-accurate clothing and technology. An open leather-bound ship's logbook on a wooden table, a quill pen and ink pot nearby, sunlight hitting the dry pages, Victorian maritime office setting, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Mary_Celeste_NYTimes_1873February26.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/d2e18b7998a9dc78.jpg",
+      "credito": "Mary Celeste NYTimes 1873February26.png — Boston Post (Public domain)"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "The only thing missing was the single lifeboat.",
+    "inicio": 44.06,
+    "fim": 46.846,
+    "duracao": 2.786,
+    "visual": {
+      "real": null,
+      "ia": "North Atlantic Ocean, 1872, Victorian maritime era, period-accurate clothing and technology. Empty iron davits on the side of an 1870s ship, frayed ropes dangling into the dark sea, showing where the lifeboat was recently launched, misty horizon, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/31b9d1c34d216411.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "What kind of horror forces a veteran captain to lower his baby into the dark Atlantic when",
+    "inicio": 46.846,
+    "fim": 52.013,
+    "duracao": 5.167,
+    "visual": {
+      "real": null,
+      "ia": "North Atlantic Ocean, 1872, Victorian maritime era, period-accurate clothing and technology. A massive, dark waterspout towering in the distance over a turbulent 19th-century sea, the silhouette of a small ship nearby, terrifying natural phenomenon, cinematic, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/f37744634e8ebe45.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "his ship is perfectly safe? They were never seen again.",
+    "inicio": 52.013,
+    "fim": 56.1,
+    "duracao": 4.087,
+    "visual": {
+      "real": null,
+      "ia": "North Atlantic Ocean, 1872, Victorian maritime era, period-accurate clothing and technology. A small, empty wooden lifeboat floating alone in the middle of the vast, dark Atlantic Ocean at twilight, thick fog swallowing the horizon, haunting silence, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/483131a798ddbcff.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "What do you think scared them enough to jump?",
+    "inicio": 56.1,
+    "fim": 58.616,
+    "duracao": 2.516,
+    "visual": {
+      "real": null,
+      "ia": "North Atlantic Ocean, 1872, Victorian maritime era, period-accurate clothing and technology. A mysterious shadow of a man cast across a weathered wooden deck, a discarded captain's hat in the foreground, dark ocean waves, eerie and inquisitive atmosphere, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/74a7323910c2b884.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  }
+]

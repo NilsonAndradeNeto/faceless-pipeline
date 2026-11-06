@@ -610,3 +610,48 @@ AttributeError: 'list' object has no attribute 'get'
 02:59:04 [llm] INFO: gemini/gemini-3.5-flash [provas] 2826→720 tokens, US$0.0000, 8.3s
 02:59:04 [scriptwriter] INFO: Checagem 2: 13 frases, 0 com problema, 1 para conferir
 02:59:04 [scriptwriter] INFO: Roteiro salvo: 163 palavras, 968 caracteres, confiança media
+14:16:57 [ciclo] INFO: — ciclo 06/11 14:16 —
+14:16:57 [ciclo] WARNING: Sem vídeo PT hoje
+14:16:58 [ciclo] INFO: Aprovado automaticamente: The Ghost Ship Found Perfectly Intact
+14:16:58 [ciclo] INFO: Vídeo EN de hoje: The Ghost Ship Found Perfectly Intact
+14:16:58 [produzir] INFO: ▶ Produzindo: The Ghost Ship Found Perfectly Intact
+14:16:58 [tts] INFO: ElevenLabs: voz George, 968 caracteres (restam 2805)
+14:17:04 [tts] INFO: Narração pronta (elevenlabs): 58.0s, 163 palavras
+14:17:04 [visual_planner] INFO: 8 imagens reais disponíveis nos artigos-fonte
+14:17:09 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+14:17:09 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+14:17:40 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+14:17:40 [llm] INFO: gemini/gemini-3-flash-preview [visual] 1056→1001 tokens, US$0.0000, 30.7s
+14:17:40 [visual_planner] INFO: 14 cenas (média 4.2s): 3 com imagem real, 11 com IA
+14:17:44 [broll] INFO: Cena  1 (5.1s): ia        Why would an experienced captain lower his baby daughter int
+14:17:48 [broll] INFO: Cena  2 (3.5s): ia        was completely safe? In December 1872,
+14:17:49 [broll] INFO: Cena  3 (4.3s): wikimedia Captain Morehouse spotted the Mary Celeste drifting near the
+14:17:51 [broll] INFO: Cena  4 (5.1s): wikimedia In command was Benjamin Briggs, a devout, veteran sailor who
+14:18:02 [broll] INFO: Cena  5 (4.6s): ia        two-year-old daughter, Sophia. When the boarding party stepp
+14:18:13 [broll] INFO: Cena  6 (6.0s): ia        they heard nothing but the wind. The crew hadn't just left--
+14:18:22 [broll] INFO: Cena  7 (2.4s): ia        Below deck, the ship was disheveled.
+14:18:39 [broll] INFO: Cena  8 (3.3s): ia        The crew's personal belongings were left undisturbed.
+14:18:50 [broll] INFO: Cena  9 (3.7s): ia        There were seventeen hundred and one barrels of alcohol in t
+14:18:52 [broll] INFO: Cena 10 (6.0s): wikimedia The last log entry was dated ten days earlier, but the ship 
+14:19:03 [broll] INFO: Cena 11 (2.8s): ia        The only thing missing was the single lifeboat.
+14:19:17 [broll] INFO: Cena 12 (5.2s): ia        What kind of horror forces a veteran captain to lower his ba
+14:19:30 [broll] INFO: Cena 13 (4.1s): ia        his ship is perfectly safe? They were never seen again.
+14:19:41 [broll] INFO: Cena 14 (2.5s): ia        What do you think scared them enough to jump?
+14:19:41 [video_builder] INFO: Cena 1/14 (imagem, 5.1s)
+14:19:42 [video_builder] INFO: Encoder: x264
+14:19:46 [video_builder] INFO: Cena 2/14 (imagem, 3.5s)
+14:19:49 [video_builder] INFO: Cena 3/14 (imagem, 4.3s)
+14:19:52 [video_builder] INFO: Cena 4/14 (imagem, 5.1s)
+14:19:56 [video_builder] INFO: Cena 5/14 (imagem, 4.6s)
+14:20:00 [video_builder] INFO: Cena 6/14 (imagem, 6.0s)
+14:20:05 [video_builder] INFO: Cena 7/14 (imagem, 2.4s)
+14:20:08 [video_builder] INFO: Cena 8/14 (imagem, 3.3s)
+14:20:11 [video_builder] INFO: Cena 9/14 (imagem, 3.7s)
+14:20:14 [video_builder] INFO: Cena 10/14 (imagem, 6.0s)
+14:20:20 [video_builder] INFO: Cena 11/14 (imagem, 2.8s)
+14:20:22 [video_builder] INFO: Cena 12/14 (imagem, 5.2s)
+14:20:27 [video_builder] INFO: Cena 13/14 (imagem, 4.1s)
+14:20:30 [video_builder] INFO: Cena 14/14 (imagem, 2.5s)
+14:20:33 [video_builder] INFO: Música: trilha_02.mp3
+14:21:08 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261106T055726Z_en.mp4 (58.6s)
+14:21:08 [produzir] INFO: ✅ Pronto: The Ghost Ship Found Perfectly Intact

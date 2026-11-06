@@ -39,5 +39,23 @@
       "titulo": "Mary Celeste",
       "url": "https://en.wikipedia.org/wiki/Mary_Celeste"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-06",
+  "producao": {
+    "etapa": "pronto",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 1.0,
+    "atualizado": "2026-11-06 14:21:08"
+  },
+  "voz": "elevenlabs",
+  "creditos_imagens": [
+    "Lap desk of Captain Benjamin Briggs from the Mary Celeste (PEM M6557) 02.jpg — Crawdad Blues (CC0)",
+    "Mary Celeste NYTimes 1873February26.png — Boston Post (Public domain)",
+    "Mary Celeste as Amazon in 1861 (cropped).jpg — Unconfirmed, possibly Honore Pellegrin (1800–c.1870). This speculative attributi (Public domain)"
+  ],
+  "imagens_ia": 11,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261106T055726Z_en.mp4",
+  "duracao_seg": 58.6
 }
