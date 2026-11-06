@@ -100,3 +100,12 @@
 {"ts": "2026-11-05T03:02:36", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "provas", "tokens_entrada": 2667, "tokens_saida": 764, "custo_usd": 0.0, "segundos": 17.1}
 {"ts": "2026-11-05T14:56:09", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "visual", "tokens_entrada": 2003, "tokens_saida": 1270, "custo_usd": 0.0, "segundos": 13.3}
 {"ts": "2026-11-05T20:29:32", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "visual", "tokens_entrada": 2003, "tokens_saida": 1283, "custo_usd": 0.0, "segundos": 13.1}
+{"ts": "2026-11-06T02:56:33", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "roteiro", "tokens_entrada": 5504, "tokens_saida": 399, "custo_usd": 0.0, "segundos": 16.6}
+{"ts": "2026-11-06T02:57:06", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "critica", "tokens_entrada": 534, "tokens_saida": 341, "custo_usd": 0.0, "segundos": 28.2}
+{"ts": "2026-11-06T02:57:25", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "provas", "tokens_entrada": 5408, "tokens_saida": 1012, "custo_usd": 0.0, "segundos": 12.1}
+{"ts": "2026-11-06T02:57:26", "provedor": "groq", "modelo": "openai/gpt-oss-120b", "tarefa": "termos_busca", "tokens_entrada": 164, "tokens_saida": 286, "custo_usd": 0.0, "segundos": 1.1}
+{"ts": "2026-11-06T02:58:05", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "roteiro", "tokens_entrada": 3005, "tokens_saida": 343, "custo_usd": 0.0, "segundos": 36.7}
+{"ts": "2026-11-06T02:58:22", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "critica", "tokens_entrada": 481, "tokens_saida": 275, "custo_usd": 0.0, "segundos": 16.1}
+{"ts": "2026-11-06T02:58:44", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "provas", "tokens_entrada": 2834, "tokens_saida": 919, "custo_usd": 0.0, "segundos": 22.4}
+{"ts": "2026-11-06T02:58:56", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "correcao", "tokens_entrada": 2877, "tokens_saida": 211, "custo_usd": 0.0, "segundos": 12.1}
+{"ts": "2026-11-06T02:59:04", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "provas", "tokens_entrada": 2826, "tokens_saida": 720, "custo_usd": 0.0, "segundos": 8.3}
