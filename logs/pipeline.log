@@ -655,3 +655,4 @@ AttributeError: 'list' object has no attribute 'get'
 14:20:33 [video_builder] INFO: Música: trilha_02.mp3
 14:21:08 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261106T055726Z_en.mp4 (58.6s)
 14:21:08 [produzir] INFO: ✅ Pronto: The Ghost Ship Found Perfectly Intact
+19:55:32 [ciclo] INFO: — ciclo 06/11 19:55 —
