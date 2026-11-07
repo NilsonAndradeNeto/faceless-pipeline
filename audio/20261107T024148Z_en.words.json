@@ -1,0 +1,947 @@
+[
+  {
+    "palavra": "Imagine",
+    "inicio": 0.046,
+    "fim": 0.453
+  },
+  {
+    "palavra": "finding",
+    "inicio": 0.511,
+    "fim": 0.813
+  },
+  {
+    "palavra": "a",
+    "inicio": 0.859,
+    "fim": 0.882
+  },
+  {
+    "palavra": "man",
+    "inicio": 0.929,
+    "fim": 1.149
+  },
+  {
+    "palavra": "dead",
+    "inicio": 1.231,
+    "fim": 1.451
+  },
+  {
+    "palavra": "on",
+    "inicio": 1.498,
+    "fim": 1.567
+  },
+  {
+    "palavra": "a",
+    "inicio": 1.614,
+    "fim": 1.637
+  },
+  {
+    "palavra": "beach,",
+    "inicio": 1.707,
+    "fim": 2.09
+  },
+  {
+    "palavra": "dressed",
+    "inicio": 2.159,
+    "fim": 2.473
+  },
+  {
+    "palavra": "in",
+    "inicio": 2.508,
+    "fim": 2.577
+  },
+  {
+    "palavra": "a",
+    "inicio": 2.624,
+    "fim": 2.647
+  },
+  {
+    "palavra": "suit,",
+    "inicio": 2.717,
+    "fim": 3.1
+  },
+  {
+    "palavra": "with",
+    "inicio": 3.262,
+    "fim": 3.425
+  },
+  {
+    "palavra": "every",
+    "inicio": 3.483,
+    "fim": 3.704
+  },
+  {
+    "palavra": "single",
+    "inicio": 3.75,
+    "fim": 4.087
+  },
+  {
+    "palavra": "clothing",
+    "inicio": 4.122,
+    "fim": 4.505
+  },
+  {
+    "palavra": "tag",
+    "inicio": 4.574,
+    "fim": 4.83
+  },
+  {
+    "palavra": "surgically",
+    "inicio": 4.899,
+    "fim": 5.41
+  },
+  {
+    "palavra": "cut",
+    "inicio": 5.457,
+    "fim": 5.619
+  },
+  {
+    "palavra": "away.",
+    "inicio": 5.666,
+    "fim": 6.153
+  },
+  {
+    "palavra": "No",
+    "inicio": 6.571,
+    "fim": 6.745
+  },
+  {
+    "palavra": "wallet.",
+    "inicio": 6.827,
+    "fim": 7.326
+  },
+  {
+    "palavra": "No",
+    "inicio": 7.558,
+    "fim": 7.697
+  },
+  {
+    "palavra": "ID.",
+    "inicio": 7.79,
+    "fim": 8.429
+  },
+  {
+    "palavra": "Just",
+    "inicio": 8.789,
+    "fim": 9.021
+  },
+  {
+    "palavra": "a",
+    "inicio": 9.067,
+    "fim": 9.091
+  },
+  {
+    "palavra": "half-smoked",
+    "inicio": 9.172,
+    "fim": 9.764
+  },
+  {
+    "palavra": "cigarette",
+    "inicio": 9.81,
+    "fim": 10.24
+  },
+  {
+    "palavra": "on",
+    "inicio": 10.275,
+    "fim": 10.356
+  },
+  {
+    "palavra": "his",
+    "inicio": 10.403,
+    "fim": 10.495
+  },
+  {
+    "palavra": "collar",
+    "inicio": 10.565,
+    "fim": 10.902
+  },
+  {
+    "palavra": "and",
+    "inicio": 11.041,
+    "fim": 11.238
+  },
+  {
+    "palavra": "a",
+    "inicio": 11.297,
+    "fim": 11.32
+  },
+  {
+    "palavra": "mystery",
+    "inicio": 11.378,
+    "fim": 11.703
+  },
+  {
+    "palavra": "that",
+    "inicio": 11.738,
+    "fim": 11.831
+  },
+  {
+    "palavra": "would",
+    "inicio": 11.854,
+    "fim": 11.993
+  },
+  {
+    "palavra": "baffle",
+    "inicio": 12.04,
+    "fim": 12.365
+  },
+  {
+    "palavra": "the",
+    "inicio": 12.399,
+    "fim": 12.469
+  },
+  {
+    "palavra": "world",
+    "inicio": 12.516,
+    "fim": 12.794
+  },
+  {
+    "palavra": "for",
+    "inicio": 12.841,
+    "fim": 12.957
+  },
+  {
+    "palavra": "70",
+    "inicio": 13.003,
+    "fim": 13.34
+  },
+  {
+    "palavra": "years.",
+    "inicio": 13.421,
+    "fim": 13.966
+  },
+  {
+    "palavra": "This",
+    "inicio": 14.384,
+    "fim": 14.605
+  },
+  {
+    "palavra": "was",
+    "inicio": 14.675,
+    "fim": 14.791
+  },
+  {
+    "palavra": "the",
+    "inicio": 14.837,
+    "fim": 14.907
+  },
+  {
+    "palavra": "Somerton",
+    "inicio": 14.965,
+    "fim": 15.371
+  },
+  {
+    "palavra": "Man.",
+    "inicio": 15.441,
+    "fim": 15.894
+  },
+  {
+    "palavra": "When",
+    "inicio": 16.253,
+    "fim": 16.451
+  },
+  {
+    "palavra": "detectives",
+    "inicio": 16.509,
+    "fim": 17.008
+  },
+  {
+    "palavra": "performed",
+    "inicio": 17.066,
+    "fim": 17.461
+  },
+  {
+    "palavra": "the",
+    "inicio": 17.484,
+    "fim": 17.565
+  },
+  {
+    "palavra": "autopsy,",
+    "inicio": 17.612,
+    "fim": 18.274
+  },
+  {
+    "palavra": "things",
+    "inicio": 18.367,
+    "fim": 18.657
+  },
+  {
+    "palavra": "got",
+    "inicio": 18.703,
+    "fim": 18.866
+  },
+  {
+    "palavra": "terrifying.",
+    "inicio": 18.901,
+    "fim": 19.713
+  },
+  {
+    "palavra": "His",
+    "inicio": 20.073,
+    "fim": 20.247
+  },
+  {
+    "palavra": "spleen",
+    "inicio": 20.294,
+    "fim": 20.642
+  },
+  {
+    "palavra": "was",
+    "inicio": 20.712,
+    "fim": 20.816
+  },
+  {
+    "palavra": "three",
+    "inicio": 20.874,
+    "fim": 21.106
+  },
+  {
+    "palavra": "times",
+    "inicio": 21.153,
+    "fim": 21.478
+  },
+  {
+    "palavra": "its",
+    "inicio": 21.524,
+    "fim": 21.652
+  },
+  {
+    "palavra": "normal",
+    "inicio": 21.71,
+    "fim": 21.989
+  },
+  {
+    "palavra": "size,",
+    "inicio": 22.058,
+    "fim": 22.523
+  },
+  {
+    "palavra": "and",
+    "inicio": 22.662,
+    "fim": 22.813
+  },
+  {
+    "palavra": "his",
+    "inicio": 22.871,
+    "fim": 22.964
+  },
+  {
+    "palavra": "stomach",
+    "inicio": 22.999,
+    "fim": 23.336
+  },
+  {
+    "palavra": "was",
+    "inicio": 23.382,
+    "fim": 23.475
+  },
+  {
+    "palavra": "filled",
+    "inicio": 23.545,
+    "fim": 23.823
+  },
+  {
+    "palavra": "with",
+    "inicio": 23.858,
+    "fim": 23.997
+  },
+  {
+    "palavra": "blood.",
+    "inicio": 24.044,
+    "fim": 24.543
+  },
+  {
+    "palavra": "It",
+    "inicio": 25.031,
+    "fim": 25.147
+  },
+  {
+    "palavra": "looked",
+    "inicio": 25.182,
+    "fim": 25.367
+  },
+  {
+    "palavra": "like",
+    "inicio": 25.391,
+    "fim": 25.53
+  },
+  {
+    "palavra": "a",
+    "inicio": 25.565,
+    "fim": 25.588
+  },
+  {
+    "palavra": "brutal",
+    "inicio": 25.646,
+    "fim": 25.971
+  },
+  {
+    "palavra": "poisoning,",
+    "inicio": 26.029,
+    "fim": 26.598
+  },
+  {
+    "palavra": "yet",
+    "inicio": 26.714,
+    "fim": 26.877
+  },
+  {
+    "palavra": "scientists",
+    "inicio": 26.923,
+    "fim": 27.527
+  },
+  {
+    "palavra": "found",
+    "inicio": 27.585,
+    "fim": 27.817
+  },
+  {
+    "palavra": "zero",
+    "inicio": 27.898,
+    "fim": 28.212
+  },
+  {
+    "palavra": "trace",
+    "inicio": 28.281,
+    "fim": 28.618
+  },
+  {
+    "palavra": "of",
+    "inicio": 28.653,
+    "fim": 28.723
+  },
+  {
+    "palavra": "any",
+    "inicio": 28.792,
+    "fim": 29.013
+  },
+  {
+    "palavra": "known",
+    "inicio": 29.071,
+    "fim": 29.291
+  },
+  {
+    "palavra": "toxin.",
+    "inicio": 29.35,
+    "fim": 30.035
+  },
+  {
+    "palavra": "It",
+    "inicio": 30.452,
+    "fim": 30.592
+  },
+  {
+    "palavra": "was",
+    "inicio": 30.638,
+    "fim": 30.743
+  },
+  {
+    "palavra": "the",
+    "inicio": 30.789,
+    "fim": 30.859
+  },
+  {
+    "palavra": "perfect,",
+    "inicio": 30.917,
+    "fim": 31.381
+  },
+  {
+    "palavra": "invisible",
+    "inicio": 31.416,
+    "fim": 31.962
+  },
+  {
+    "palavra": "murder.",
+    "inicio": 31.997,
+    "fim": 32.6
+  },
+  {
+    "palavra": "Police",
+    "inicio": 33.018,
+    "fim": 33.355
+  },
+  {
+    "palavra": "eventually",
+    "inicio": 33.401,
+    "fim": 33.831
+  },
+  {
+    "palavra": "found",
+    "inicio": 33.889,
+    "fim": 34.121
+  },
+  {
+    "palavra": "his",
+    "inicio": 34.179,
+    "fim": 34.272
+  },
+  {
+    "palavra": "suitcase",
+    "inicio": 34.307,
+    "fim": 34.806
+  },
+  {
+    "palavra": "at",
+    "inicio": 34.853,
+    "fim": 34.946
+  },
+  {
+    "palavra": "a",
+    "inicio": 34.992,
+    "fim": 35.027
+  },
+  {
+    "palavra": "train",
+    "inicio": 35.073,
+    "fim": 35.317
+  },
+  {
+    "palavra": "station,",
+    "inicio": 35.387,
+    "fim": 35.99
+  },
+  {
+    "palavra": "containing",
+    "inicio": 36.107,
+    "fim": 36.617
+  },
+  {
+    "palavra": "rare",
+    "inicio": 36.699,
+    "fim": 36.954
+  },
+  {
+    "palavra": "orange",
+    "inicio": 37.024,
+    "fim": 37.384
+  },
+  {
+    "palavra": "thread",
+    "inicio": 37.43,
+    "fim": 37.79
+  },
+  {
+    "palavra": "that",
+    "inicio": 37.953,
+    "fim": 38.127
+  },
+  {
+    "palavra": "matched",
+    "inicio": 38.173,
+    "fim": 38.452
+  },
+  {
+    "palavra": "a",
+    "inicio": 38.498,
+    "fim": 38.521
+  },
+  {
+    "palavra": "repair",
+    "inicio": 38.591,
+    "fim": 38.963
+  },
+  {
+    "palavra": "on",
+    "inicio": 39.032,
+    "fim": 39.114
+  },
+  {
+    "palavra": "his",
+    "inicio": 39.16,
+    "fim": 39.253
+  },
+  {
+    "palavra": "pants,",
+    "inicio": 39.311,
+    "fim": 39.857
+  },
+  {
+    "palavra": "but",
+    "inicio": 40.089,
+    "fim": 40.24
+  },
+  {
+    "palavra": "the",
+    "inicio": 40.274,
+    "fim": 40.344
+  },
+  {
+    "palavra": "real",
+    "inicio": 40.414,
+    "fim": 40.634
+  },
+  {
+    "palavra": "bombshell",
+    "inicio": 40.692,
+    "fim": 41.203
+  },
+  {
+    "palavra": "was",
+    "inicio": 41.273,
+    "fim": 41.412
+  },
+  {
+    "palavra": "hidden",
+    "inicio": 41.459,
+    "fim": 41.691
+  },
+  {
+    "palavra": "in",
+    "inicio": 41.749,
+    "fim": 41.807
+  },
+  {
+    "palavra": "a",
+    "inicio": 41.854,
+    "fim": 41.888
+  },
+  {
+    "palavra": "secret",
+    "inicio": 41.947,
+    "fim": 42.283
+  },
+  {
+    "palavra": "pocket.",
+    "inicio": 42.33,
+    "fim": 42.887
+  },
+  {
+    "palavra": "A",
+    "inicio": 43.549,
+    "fim": 43.63
+  },
+  {
+    "palavra": "tiny",
+    "inicio": 43.7,
+    "fim": 43.978
+  },
+  {
+    "palavra": "scrap",
+    "inicio": 44.025,
+    "fim": 44.292
+  },
+  {
+    "palavra": "of",
+    "inicio": 44.338,
+    "fim": 44.408
+  },
+  {
+    "palavra": "paper",
+    "inicio": 44.466,
+    "fim": 44.779
+  },
+  {
+    "palavra": "with",
+    "inicio": 44.826,
+    "fim": 44.965
+  },
+  {
+    "palavra": "two",
+    "inicio": 45.012,
+    "fim": 45.197
+  },
+  {
+    "palavra": "words:",
+    "inicio": 45.279,
+    "fim": 45.836
+  },
+  {
+    "palavra": "'Tamám",
+    "inicio": 46.033,
+    "fim": 46.556
+  },
+  {
+    "palavra": "Shud.'",
+    "inicio": 46.649,
+    "fim": 47.194
+  },
+  {
+    "palavra": "It",
+    "inicio": 47.554,
+    "fim": 47.682
+  },
+  {
+    "palavra": "means",
+    "inicio": 47.74,
+    "fim": 48.053
+  },
+  {
+    "palavra": "'It",
+    "inicio": 48.135,
+    "fim": 48.32
+  },
+  {
+    "palavra": "is",
+    "inicio": 48.367,
+    "fim": 48.448
+  },
+  {
+    "palavra": "finished.'",
+    "inicio": 48.506,
+    "fim": 49.133
+  },
+  {
+    "palavra": "It",
+    "inicio": 49.493,
+    "fim": 49.609
+  },
+  {
+    "palavra": "was",
+    "inicio": 49.644,
+    "fim": 49.737
+  },
+  {
+    "palavra": "torn",
+    "inicio": 49.795,
+    "fim": 50.027
+  },
+  {
+    "palavra": "from",
+    "inicio": 50.074,
+    "fim": 50.213
+  },
+  {
+    "palavra": "a",
+    "inicio": 50.259,
+    "fim": 50.283
+  },
+  {
+    "palavra": "book",
+    "inicio": 50.341,
+    "fim": 50.561
+  },
+  {
+    "palavra": "containing",
+    "inicio": 50.654,
+    "fim": 51.153
+  },
+  {
+    "palavra": "an",
+    "inicio": 51.2,
+    "fim": 51.258
+  },
+  {
+    "palavra": "uncrackable",
+    "inicio": 51.316,
+    "fim": 51.943
+  },
+  {
+    "palavra": "secret",
+    "inicio": 51.989,
+    "fim": 52.326
+  },
+  {
+    "palavra": "code.",
+    "inicio": 52.396,
+    "fim": 52.848
+  },
+  {
+    "palavra": "DNA",
+    "inicio": 53.266,
+    "fim": 53.754
+  },
+  {
+    "palavra": "recently",
+    "inicio": 53.847,
+    "fim": 54.265
+  },
+  {
+    "palavra": "linked",
+    "inicio": 54.323,
+    "fim": 54.578
+  },
+  {
+    "palavra": "him",
+    "inicio": 54.613,
+    "fim": 54.729
+  },
+  {
+    "palavra": "to",
+    "inicio": 54.787,
+    "fim": 54.868
+  },
+  {
+    "palavra": "Carl",
+    "inicio": 54.938,
+    "fim": 55.194
+  },
+  {
+    "palavra": "Webb,",
+    "inicio": 55.275,
+    "fim": 55.716
+  },
+  {
+    "palavra": "an",
+    "inicio": 55.878,
+    "fim": 56.006
+  },
+  {
+    "palavra": "electrical",
+    "inicio": 56.064,
+    "fim": 56.517
+  },
+  {
+    "palavra": "engineer--but",
+    "inicio": 56.587,
+    "fim": 57.643
+  },
+  {
+    "palavra": "that",
+    "inicio": 57.678,
+    "fim": 57.817
+  },
+  {
+    "palavra": "only",
+    "inicio": 57.863,
+    "fim": 58.014
+  },
+  {
+    "palavra": "makes",
+    "inicio": 58.061,
+    "fim": 58.27
+  },
+  {
+    "palavra": "it",
+    "inicio": 58.316,
+    "fim": 58.386
+  },
+  {
+    "palavra": "weirder.",
+    "inicio": 58.444,
+    "fim": 59.013
+  },
+  {
+    "palavra": "Why",
+    "inicio": 59.373,
+    "fim": 59.593
+  },
+  {
+    "palavra": "would",
+    "inicio": 59.651,
+    "fim": 59.802
+  },
+  {
+    "palavra": "a",
+    "inicio": 59.837,
+    "fim": 59.86
+  },
+  {
+    "palavra": "simple",
+    "inicio": 59.907,
+    "fim": 60.209
+  },
+  {
+    "palavra": "engineer",
+    "inicio": 60.255,
+    "fim": 60.812
+  },
+  {
+    "palavra": "erase",
+    "inicio": 61.01,
+    "fim": 61.381
+  },
+  {
+    "palavra": "his",
+    "inicio": 61.416,
+    "fim": 61.521
+  },
+  {
+    "palavra": "identity",
+    "inicio": 61.579,
+    "fim": 62.078
+  },
+  {
+    "palavra": "and",
+    "inicio": 62.147,
+    "fim": 62.252
+  },
+  {
+    "palavra": "die",
+    "inicio": 62.322,
+    "fim": 62.542
+  },
+  {
+    "palavra": "with",
+    "inicio": 62.577,
+    "fim": 62.705
+  },
+  {
+    "palavra": "a",
+    "inicio": 62.74,
+    "fim": 62.774
+  },
+  {
+    "palavra": "cipher?",
+    "inicio": 62.821,
+    "fim": 63.39
+  },
+  {
+    "palavra": "Was",
+    "inicio": 63.75,
+    "fim": 63.924
+  },
+  {
+    "palavra": "he",
+    "inicio": 63.982,
+    "fim": 64.052
+  },
+  {
+    "palavra": "a",
+    "inicio": 64.11,
+    "fim": 64.133
+  },
+  {
+    "palavra": "broken",
+    "inicio": 64.191,
+    "fim": 64.528
+  },
+  {
+    "palavra": "man,",
+    "inicio": 64.586,
+    "fim": 65.004
+  },
+  {
+    "palavra": "or",
+    "inicio": 65.12,
+    "fim": 65.247
+  },
+  {
+    "palavra": "a",
+    "inicio": 65.305,
+    "fim": 65.329
+  },
+  {
+    "palavra": "Cold",
+    "inicio": 65.398,
+    "fim": 65.677
+  },
+  {
+    "palavra": "War",
+    "inicio": 65.735,
+    "fim": 65.944
+  },
+  {
+    "palavra": "spy?",
+    "inicio": 66.025,
+    "fim": 66.652
+  },
+  {
+    "palavra": "Tell",
+    "inicio": 67.07,
+    "fim": 67.256
+  },
+  {
+    "palavra": "me",
+    "inicio": 67.302,
+    "fim": 67.36
+  },
+  {
+    "palavra": "your",
+    "inicio": 67.407,
+    "fim": 67.523
+  },
+  {
+    "palavra": "theory.",
+    "inicio": 67.569,
+    "fim": 68.057
+  }
+]

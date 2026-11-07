@@ -755,3 +755,59 @@ Traceback (most recent call last):
 json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
 23:44:02 [ciclo] INFO: ✅ Publicado EN instagram: https://www.instagram.com/reel/DfbIrd9hSGS/
 23:44:02 [ciclo] INFO: Conta tiktok (EN) ainda não conectada
+13:12:59 [ciclo] INFO: — ciclo 07/11 13:12 —
+13:12:59 [ciclo] WARNING: Sem vídeo PT hoje
+13:12:59 [ciclo] INFO: Aprovado automaticamente: The Secret Code Found on a Dead Man's Body
+13:12:59 [ciclo] INFO: Vídeo EN de hoje: The Secret Code Found on a Dead Man's Body
+13:12:59 [produzir] INFO: ▶ Produzindo: The Secret Code Found on a Dead Man's Body
+13:12:59 [tts] INFO: ElevenLabs: voz George, 1066 caracteres (restam 1837)
+13:13:06 [tts] INFO: Narração pronta (elevenlabs): 68.1s, 189 palavras
+13:13:06 [visual_planner] INFO: 3 imagens reais disponíveis nos artigos-fonte
+13:13:15 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+13:13:15 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+13:13:27 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+13:13:27 [llm] INFO: gemini/gemini-3-flash-preview [visual] 908→1258 tokens, US$0.0000, 12.5s
+13:13:27 [visual_planner] INFO: 17 cenas (média 4.0s): 3 com imagem real, 14 com IA
+13:13:29 [broll] INFO: Cena  1 (3.3s): wikimedia Imagine finding a man dead on a beach, dressed in a suit,
+13:13:33 [broll] INFO: Cena  2 (3.3s): ia        with every single clothing tag surgically cut away.
+13:13:36 [broll] INFO: Cena  3 (5.2s): ia        No wallet. No ID. Just a half-smoked cigarette on his collar
+13:13:48 [broll] INFO: Cena  4 (2.6s): ia        that would baffle the world for 70 years.
+13:14:00 [broll] INFO: Cena  5 (4.0s): ia        This was the Somerton Man. When detectives performed the aut
+13:14:12 [broll] INFO: Cena  6 (4.3s): ia        things got terrifying. His spleen was three times its normal
+13:14:25 [broll] INFO: Cena  7 (4.1s): ia        and his stomach was filled with blood. It looked like a brut
+13:14:34 [broll] INFO: Cena  8 (3.7s): ia        yet scientists found zero trace of any known toxin.
+13:14:42 [broll] INFO: Cena  9 (2.6s): ia        It was the perfect, invisible murder.
+13:14:53 [broll] INFO: Cena 10 (5.2s): ia        Police eventually found his suitcase at a train station, con
+13:15:05 [broll] INFO: Cena 11 (5.4s): ia        matched a repair on his pants, but the real bombshell was hi
+13:15:14 [broll] INFO: Cena 12 (5.9s): ia        A tiny scrap of paper with two words: 'Tamám Shud.' It means
+13:15:16 [broll] INFO: Cena 13 (3.8s): wikimedia It was torn from a book containing an uncrackable secret cod
+13:15:28 [broll] INFO: Cena 14 (5.0s): ia        DNA recently linked him to Carl Webb, an electrical engineer
+13:15:42 [broll] INFO: Cena 15 (5.4s): ia        it weirder. Why would a simple engineer erase his identity a
+13:15:42 [broll] INFO: Limite de download, aguardando 10s
+13:15:52 [broll] INFO: Limite de download, aguardando 10s
+13:16:02 [broll] INFO: Limite de download, aguardando 10s
+13:16:12 [broll] INFO: Limite de download, aguardando 10s
+13:16:22 [broll] WARNING: Cena 16: erro numa fonte (429 Client Error: Too Many Requests (015d12c) for url: https://upload.wikimedia.org/wikipedia/commons/0/0b/SomertonManBu), tentando a próxima
+13:16:33 [broll] INFO: Cena 16 (3.3s): ia        Was he a broken man, or a Cold War spy?
+13:16:46 [broll] INFO: Cena 17 (1.6s): ia        Tell me your theory.
+13:16:46 [video_builder] INFO: Cena 1/17 (imagem, 3.3s)
+13:16:46 [video_builder] INFO: Encoder: x264
+13:16:51 [video_builder] INFO: Cena 2/17 (imagem, 3.3s)
+13:16:56 [video_builder] INFO: Cena 3/17 (imagem, 5.2s)
+13:17:02 [video_builder] INFO: Cena 4/17 (imagem, 2.6s)
+13:17:06 [video_builder] INFO: Cena 5/17 (imagem, 4.0s)
+13:17:12 [video_builder] INFO: Cena 6/17 (imagem, 4.3s)
+13:17:18 [video_builder] INFO: Cena 7/17 (imagem, 4.1s)
+13:17:24 [video_builder] INFO: Cena 8/17 (imagem, 3.7s)
+13:17:29 [video_builder] INFO: Cena 9/17 (imagem, 2.6s)
+13:17:33 [video_builder] INFO: Cena 10/17 (imagem, 5.2s)
+13:17:40 [video_builder] INFO: Cena 11/17 (imagem, 5.4s)
+13:17:47 [video_builder] INFO: Cena 12/17 (imagem, 5.9s)
+13:17:56 [video_builder] INFO: Cena 13/17 (imagem, 3.8s)
+13:18:01 [video_builder] INFO: Cena 14/17 (imagem, 5.0s)
+13:18:08 [video_builder] INFO: Cena 15/17 (imagem, 5.4s)
+13:18:15 [video_builder] INFO: Cena 16/17 (imagem, 3.3s)
+13:18:20 [video_builder] INFO: Cena 17/17 (imagem, 1.6s)
+13:18:23 [video_builder] INFO: Música: trilha_02.mp3
+13:19:34 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261107T024148Z_en.mp4 (68.7s)
+13:19:34 [produzir] INFO: ✅ Pronto: The Secret Code Found on a Dead Man's Body

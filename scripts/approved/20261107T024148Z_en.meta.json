@@ -36,5 +36,22 @@
       "titulo": "Somerton Man",
       "url": "https://en.wikipedia.org/wiki/Somerton_Man"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-07",
+  "producao": {
+    "etapa": "pronto",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 1.0,
+    "atualizado": "2026-11-07 13:19:34"
+  },
+  "voz": "elevenlabs",
+  "creditos_imagens": [
+    "SomertonManCode.jpg — Australian police. File originally uploaded on English Wikipedia in January 11,  (Public domain)",
+    "SomertonManDeathSite.jpg — Australian police. File originally uploaded on English Wikipedia in November 30, (Public domain)"
+  ],
+  "imagens_ia": 15,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261107T024148Z_en.mp4",
+  "duracao_seg": 68.7
 }
