@@ -811,3 +811,4 @@ json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): lin
 13:18:23 [video_builder] INFO: Música: trilha_02.mp3
 13:19:34 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261107T024148Z_en.mp4 (68.7s)
 13:19:34 [produzir] INFO: ✅ Pronto: The Secret Code Found on a Dead Man's Body
+17:44:11 [ciclo] INFO: — ciclo 07/11 17:44 —
