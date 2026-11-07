@@ -9,6 +9,21 @@
     "script": "20261106T055726Z_en",
     "titulo": "The Ghost Ship Found Perfectly Intact",
     "aprovacao": "automatica",
-    "posts": {}
+    "posts": {
+      "youtube": {
+        "estado": "erro",
+        "erro": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+        "tentativas": 1
+      },
+      "instagram": {
+        "estado": "publicado",
+        "quando": "23:43",
+        "id": "18035695700890351",
+        "url": "https://www.instagram.com/reel/DfbIrd9hSGS/"
+      },
+      "tiktok": {
+        "estado": "conta não conectada"
+      }
+    }
   }
 }

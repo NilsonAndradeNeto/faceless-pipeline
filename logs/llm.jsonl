@@ -110,3 +110,10 @@
 {"ts": "2026-11-06T02:58:56", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "correcao", "tokens_entrada": 2877, "tokens_saida": 211, "custo_usd": 0.0, "segundos": 12.1}
 {"ts": "2026-11-06T02:59:04", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "provas", "tokens_entrada": 2826, "tokens_saida": 720, "custo_usd": 0.0, "segundos": 8.3}
 {"ts": "2026-11-06T14:17:40", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "visual", "tokens_entrada": 1056, "tokens_saida": 1001, "custo_usd": 0.0, "segundos": 30.7}
+{"ts": "2026-11-06T23:39:01", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "roteiro", "tokens_entrada": 5504, "tokens_saida": 388, "custo_usd": 0.0, "segundos": 50.7}
+{"ts": "2026-11-06T23:39:22", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "critica", "tokens_entrada": 506, "tokens_saida": 334, "custo_usd": 0.0, "segundos": 13.0}
+{"ts": "2026-11-06T23:39:34", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "provas", "tokens_entrada": 5401, "tokens_saida": 1046, "custo_usd": 0.0, "segundos": 10.3}
+{"ts": "2026-11-06T23:41:48", "provedor": "groq", "modelo": "openai/gpt-oss-120b", "tarefa": "termos_busca", "tokens_entrada": 162, "tokens_saida": 202, "custo_usd": 0.0, "segundos": 0.8}
+{"ts": "2026-11-06T23:42:21", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "roteiro", "tokens_entrada": 2865, "tokens_saida": 361, "custo_usd": 0.0, "segundos": 32.9}
+{"ts": "2026-11-06T23:42:55", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "critica", "tokens_entrada": 487, "tokens_saida": 297, "custo_usd": 0.0, "segundos": 18.3}
+{"ts": "2026-11-06T23:43:10", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "provas", "tokens_entrada": 2717, "tokens_saida": 940, "custo_usd": 0.0, "segundos": 10.8}

@@ -656,3 +656,102 @@ AttributeError: 'list' object has no attribute 'get'
 14:21:08 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261106T055726Z_en.mp4 (58.6s)
 14:21:08 [produzir] INFO: ✅ Pronto: The Ghost Ship Found Perfectly Intact
 19:55:32 [ciclo] INFO: — ciclo 06/11 19:55 —
+23:38:10 [ciclo] INFO: — ciclo 06/11 23:38 —
+23:38:10 [ciclo] INFO: Fila PT vazia — gerando roteiro
+23:38:10 [scriptwriter] INFO: Escrevendo roteiro: O desaparecimento de Amelia Earhart sobre o Pacífico
+23:39:01 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:39:01 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 5504→388 tokens, US$0.0000, 50.7s
+23:39:01 [scriptwriter] INFO: Editando para retenção...
+23:39:09 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+23:39:09 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+23:39:22 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:39:22 [llm] INFO: gemini/gemini-3-flash-preview [critica] 506→334 tokens, US$0.0000, 13.0s
+23:39:22 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 7, 'viradas': 6, 'climax': 7, 'final': 6}
+23:39:22 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+23:39:23 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+23:39:23 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+23:39:34 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:39:34 [llm] INFO: gemini/gemini-3-flash-preview [provas] 5401→1046 tokens, US$0.0000, 10.3s
+23:39:34 [scriptwriter] INFO: Checagem 1: 12 frases, 4 com problema, 1 para conferir
+23:39:34 [scriptwriter] INFO: Corrigindo:
+- "O problema? O combustível estava secando e as transmissões de rádio começaram a falhar de forma desesperadora." → sem_base: As fontes fornecidas não mencionam detalhes sobre o nível de combustível ou falhas técnicas específicas no rádio durante o voo final.
+- "Amelia avisou que não conseguia enxergar nada além de água." → sem_base: As fontes não trazem transcrições ou relatos das últimas mensagens de rádio de Amelia sobre o que ela via.
+- "De repente, o sinal cortou." → sem_base: Não há menção nas fontes sobre o momento exato ou a natureza da interrupção do sinal de rádio.
+- "Nenhuma peça, nenhum rastro, absolutamente nada foi encontrado naquela busca frenética." → sem_base: Embora as fontes confirmem o desaparecimento, elas não afirmam categoricamente que nenhum rastro ou peça jamais foi encontrado, nem descrevem a busca.
+23:39:49 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+23:39:49 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+23:41:19 [llm] INFO: gemini/gemini-3-flash-preview travou, trocando para gemini-3.8-flash
+23:41:42 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+23:41:42 [llm] INFO: gemini/gemini-3.8-flash no limite, trocando para gemini-3.7-flash
+23:41:47 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+23:41:47 [llm] WARNING: gemini falhou (tentativa 1/1): Error code: 503
+23:41:47 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
+23:41:47 [scriptwriter] ERROR: Falha ao escrever roteiro de 20261104T025901Z_pt.json (tópico fica pendente)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 127, in chat
+    return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 178, in _chat
+    raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
+RuntimeError: Todos os provedores de LLM falharam: Error code: 503
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 216, in processar_pendentes
+    escrever(ler_json(arq))
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 186, in escrever
+    roteiro, pendentes, atencao = checar_fatos(editado, fontes_txt, topico["lang"])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 159, in checar_fatos
+    roteiro = chat([{"role": "user", "content": PROMPT_CORRECAO.format(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
+    raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
+agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
+23:41:47 [ciclo] INFO: Fila EN vazia — gerando roteiro
+23:41:47 [researcher] INFO: Tema escolhido (en): The Somerton Man and the Tamam Shud code
+23:41:48 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+23:41:48 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 162→202 tokens, US$0.0000, 0.8s
+23:41:48 [researcher] INFO: Fontes: Somerton Man (en)
+23:41:48 [scriptwriter] INFO: Escrevendo roteiro: The Somerton Man and the Tamam Shud code
+23:42:21 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:42:21 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 2865→361 tokens, US$0.0000, 32.9s
+23:42:21 [scriptwriter] INFO: Editando para retenção...
+23:42:36 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+23:42:36 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+23:42:55 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:42:55 [llm] INFO: gemini/gemini-3-flash-preview [critica] 487→297 tokens, US$0.0000, 18.3s
+23:42:55 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 7, 'viradas': 7, 'climax': 6, 'final': 7}
+23:42:55 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+23:43:00 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+23:43:00 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+23:43:10 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:43:10 [llm] INFO: gemini/gemini-3-flash-preview [provas] 2717→940 tokens, US$0.0000, 10.8s
+23:43:10 [scriptwriter] INFO: Checagem 1: 16 frases, 0 com problema, 0 para conferir
+23:43:10 [scriptwriter] INFO: Roteiro salvo: 189 palavras, 1066 caracteres, confiança alta
+23:43:11 [ciclo] ERROR: Falha ao publicar en youtube
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 197, in publicar_no_horario
+    r = publicar(plataforma, ler_json(meta_arq), video)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 166, in publicar
+    return publicar_youtube(meta, Path(video))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 52, in publicar_youtube
+    yt = youtube_cliente(meta["lang"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 42, in youtube_cliente
+    cred = Credentials.from_authorized_user_file(str(arq), ESCOPOS_YT)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/.venv/lib/python3.11/site-packages/google/oauth2/credentials.py", line 544, in from_authorized_user_file
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
+    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
+json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+23:44:02 [ciclo] INFO: ✅ Publicado EN instagram: https://www.instagram.com/reel/DfbIrd9hSGS/
+23:44:02 [ciclo] INFO: Conta tiktok (EN) ainda não conectada
