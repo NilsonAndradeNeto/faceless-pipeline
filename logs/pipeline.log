@@ -837,3 +837,55 @@ Traceback (most recent call last):
     raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
 json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
 21:19:11 [ciclo] INFO: ✅ Publicado EN instagram: https://www.instagram.com/reel/Dfdc5dSuGKD/
+04:03:09 [ciclo] INFO: — ciclo 08/11 04:03 —
+04:03:09 [ciclo] INFO: Fila PT vazia — gerando roteiro
+04:03:09 [scriptwriter] INFO: Escrevendo roteiro: O desaparecimento de Amelia Earhart sobre o Pacífico
+04:03:28 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:03:28 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 5504→433 tokens, US$0.0000, 19.5s
+04:03:28 [scriptwriter] INFO: Editando para retenção...
+04:04:07 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:04:07 [llm] INFO: gemini/gemini-3.5-flash [critica] 523→332 tokens, US$0.0000, 38.7s
+04:04:07 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 5, 'ritmo': 6, 'viradas': 5, 'climax': 4, 'final': 6}
+04:04:07 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+04:04:12 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+04:04:12 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+04:04:21 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:04:21 [llm] INFO: gemini/gemini-3-flash-preview [provas] 5399→990 tokens, US$0.0000, 9.0s
+04:04:21 [scriptwriter] INFO: Checagem 1: 14 frases, 1 com problema, 1 para conferir
+04:04:21 [scriptwriter] INFO: Corrigindo:
+- "Só que o combustível acabou e o sinal de rádio silenciou." → sem_base: As fontes fornecidas mencionam o desaparecimento, mas não trazem detalhes técnicos sobre o fim do combustível ou o silêncio do rádio.
+04:04:30 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:04:30 [llm] INFO: gemini/gemini-3.5-flash [correcao] 5265→261 tokens, US$0.0000, 8.9s
+04:04:51 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:04:51 [llm] INFO: gemini/gemini-3.5-flash [provas] 5384→863 tokens, US$0.0000, 20.3s
+04:04:51 [scriptwriter] INFO: Checagem 2: 13 frases, 0 com problema, 1 para conferir
+04:04:51 [scriptwriter] INFO: Roteiro salvo: 162 palavras, 937 caracteres, confiança media
+04:04:51 [ciclo] INFO: Fila EN vazia — gerando roteiro
+04:04:51 [researcher] INFO: Tema escolhido (en): The Voynich Manuscript, the book no one can read
+04:04:52 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+04:04:52 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 163→223 tokens, US$0.0000, 1.0s
+04:04:52 [researcher] INFO: Fontes: Voynich manuscript (en)
+04:04:52 [scriptwriter] INFO: Escrevendo roteiro: The Voynich Manuscript, the book no one can read
+04:05:09 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:05:09 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 2945→359 tokens, US$0.0000, 17.0s
+04:05:09 [scriptwriter] INFO: Editando para retenção...
+04:05:19 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+04:05:19 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+04:05:31 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:05:31 [llm] INFO: gemini/gemini-3-flash-preview [critica] 480→302 tokens, US$0.0000, 11.3s
+04:05:31 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 7, 'viradas': 7, 'climax': 6, 'final': 7}
+04:05:31 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+04:05:33 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+04:05:33 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+04:05:43 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:05:43 [llm] INFO: gemini/gemini-3-flash-preview [provas] 2802→896 tokens, US$0.0000, 9.7s
+04:05:43 [scriptwriter] INFO: Checagem 1: 11 frases, 2 com problema, 0 para conferir
+04:05:43 [scriptwriter] INFO: Corrigindo:
+- "There are two hundred forty pages of smooth iron gall ink with zero corrections, zero hesitations, and absolutely no punctuation." → contradiz: A fonte afirma que não há pontuação óbvia e que a escrita flui sem atrasos, mas contradiz a ideia de 'zero correções' ao mencionar que partes do texto e desenhos foram modificados/retocados com tinta mais escura sobre uma escrita anterior.
+- "In the 1600s, a Prague alchemist dedicated his life to solving it and failed." → sem_base: A fonte confirma que Georg Baresch era um alquimista de Praga do século XVII e o primeiro proprietário confirmado, mas não afirma que ele 'dedicou a vida' a resolvê-lo.
+04:05:53 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:05:53 [llm] INFO: gemini/gemini-3.5-flash [correcao] 2784→254 tokens, US$0.0000, 10.3s
+04:06:15 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:06:15 [llm] INFO: gemini/gemini-3.5-flash [provas] 2810→775 tokens, US$0.0000, 22.0s
+04:06:15 [scriptwriter] INFO: Checagem 2: 12 frases, 0 com problema, 0 para conferir
+04:06:15 [scriptwriter] INFO: Roteiro salvo: 191 palavras, 1155 caracteres, confiança alta
