@@ -9,6 +9,18 @@
     "script": "20261107T024148Z_en",
     "titulo": "The Secret Code Found on a Dead Man's Body",
     "aprovacao": "automatica",
-    "posts": {}
+    "posts": {
+      "youtube": {
+        "estado": "erro",
+        "erro": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+        "tentativas": 1
+      },
+      "instagram": {
+        "estado": "publicado",
+        "quando": "21:18",
+        "id": "18416954758094811",
+        "url": "https://www.instagram.com/reel/Dfdc5dSuGKD/"
+      }
+    }
   }
 }
