@@ -4,7 +4,16 @@
     "script": "20261104T025901Z_pt",
     "titulo": "O mistério do avião de Amelia Earhart no Pacífico",
     "aprovacao": "automatica",
-    "posts": {}
+    "posts": {
+      "youtube": {
+        "estado": "erro",
+        "erro": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+        "tentativas": 1
+      },
+      "instagram": {
+        "estado": "conta não conectada"
+      }
+    }
   },
   "en": {
     "script": "20261108T070452Z_en",
