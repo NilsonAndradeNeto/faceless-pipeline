@@ -1,0 +1,338 @@
+[
+  {
+    "n": 1,
+    "texto": "Ela pilotava um avião com um tubo de drenagem preso ao próprio rosto por causa de infecções graves e dores intensas.",
+    "inicio": 0.0,
+    "fim": 2.983,
+    "duracao": 2.983,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. A 1920s female aviator seen from behind in a vintage airplane cockpit, leather flight cap, glass drainage tube subtly near face, intense dark lighting, dramatic vertical shot., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/852e5f79c3c3817d.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "Nada parava essa mulher. Quando era criança, Amelia Earhart despencou do telhado numa caixa de",
+    "inicio": 2.983,
+    "fim": 8.483,
+    "duracao": 5.5,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. A young girl in a 1900s dress falling off a low wooden shed roof inside a homemade crate, kicked up dust, sunny vintage Kansas farm yard, dynamic action scene., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/0f46461700a3eef6.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "madeira. Levantou com o",
+    "inicio": 8.483,
+    "fim": 13.546,
+    "duracao": 5.063,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. Close-up shot of a shattered wooden crate on green lawn grass, small hands pushing up, scraped knees, vintage 1900s child clothing, afternoon sunbeams, dramatic focus., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/6751ea9827ebdcfa.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "lábio sangrando, o vestido",
+    "inicio": 13.546,
+    "fim": 18.609,
+    "duracao": 5.063,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. Low angle shot of a brave young girl standing up in a torn 1900s cotton dress, slight smudge on chin, determined posture, rural backdrop, warm light., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/8360aeee9099ffa7.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "rasgado e sorriu.",
+    "inicio": 18.609,
+    "fim": 22.406,
+    "duracao": 3.797,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. Medium shot from behind of a young girl looking up at the vast blue sky, wind blowing her hair, torn hem on cotton dress, wide open prairie horizon., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/b235db8023dbab78.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "Disse que parecia voar.",
+    "inicio": 22.406,
+    "fim": 27.469,
+    "duracao": 5.063,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. View looking up from ground level as a silhouette of an early 1920s biplane soars low through soft sunlight clouds, capturing the feeling of effortless flight., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/a69f5ebad67ba6ee.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "Anos depois, quando um avião vermelho mergulhou direto na direção",
+    "inicio": 27.469,
+    "fim": 32.66,
+    "duracao": 5.191,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. A bright red 1920s biplane swooping down low over an open grassy airfield, casting a sharp shadow, dramatic vintage aviation scene under a clouded sky., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/0f416e4396f3750c.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "dela, ela não correu. Ela sentiu que a aeronave falava com ela.",
+    "inicio": 32.66,
+    "fim": 38.22,
+    "duracao": 5.56,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. Silhouette of a young woman standing calm on a grassy runway as a low-flying vintage airplane passes overhead, strong backlighting, wind rustling her clothing., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/3bc8d8985ebcf36e.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "Em 1937, essa determinação a levou a subir no bimotor Lockheed",
+    "inicio": 38.22,
+    "fim": 43.36,
+    "duracao": 5.14,
+    "visual": {
+      "real": {
+        "nome": "Earhart-electra 10.jpg",
+        "descricao": "Amelia Earhart's Lockheed Model 10 Electra, at Oakland, CA on March 20, 1937. Scanned from Lockheed Aircraft since 1913, by René Francillon. Photo credit USAF.",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Earhart-electra_10.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Originally uploaded by w:User:Logawi"
+      },
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. A sleek silver 1930s twin-engine Lockheed Electra standing on a sunny tarmac runway, polished metal hull reflecting sunlight, airfield hangers visible in background., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Earhart-electra_10.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/0741865f01a22c7f.jpg",
+      "credito": "Earhart-electra 10.jpg — Originally uploaded by w:User:Logawi (Public domain)"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "Modelo 10 Electra ao lado do navegador Fred Noonan.",
+    "inicio": 43.36,
+    "fim": 47.62,
+    "duracao": 4.26,
+    "visual": {
+      "real": {
+        "nome": "Amelia Earhart and Fred Noonan (cropped).jpg",
+        "descricao": "Catalog #: BIOE00099\nLast Name: Earhart \nFirst Name: Amelia \nNotes: Alone, w/ Planes and Portraits   \n\nRepository: San Diego Air and Space Museum Archive",
+        "licenca": "No restrictions",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Amelia_Earhart_and_Fred_Noonan_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "SDASM Archives"
+      },
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. A male flight navigator and female pilot standing near the wing of a vintage 1930s aircraft, reviewing paper navigational maps under bright midday sky., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/1a2567ef411eb6b8.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "O objetivo era dar a volta ao mundo.",
+    "inicio": 47.62,
+    "fim": 50.7,
+    "duracao": 3.08,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. Hands wearing 1930s leather flight gloves tracing a round globe route, brass navigational compass and nautical charts resting on a dark wooden table., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/ef47ec74a6552b75.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "Voaram em direção à ilha Howland, um ponto minúsculo cercado por milhas de oceano",
+    "inicio": 50.7,
+    "fim": 55.8,
+    "duracao": 5.1,
+    "visual": {
+      "real": {
+        "nome": "Earhart locations.png",
+        "descricao": "A map of the Pacific showing en:Amelia Earhart's final flight, her destination of en:Howland Island that she did not reach (as well as Honolulu, her goal afterw",
+        "licenca": "CC BY 4.0",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Earhart_locations.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "User:SnowFire"
+      },
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. High aerial view of a tiny isolated coral atoll island in the vast blue Pacific ocean, morning light reflecting off surrounding waves, cloud shadows below., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/734237022cf5534a.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "escuro. Em dois de julho de 1937,",
+    "inicio": 55.8,
+    "fim": 59.82,
+    "duracao": 4.02,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. A twin-engine 1930s silver aircraft flying into dark storm clouds over a turbulent sea, rain streaming down fuselage, dramatic low key lighting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/bfc60051a532401c.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "o avião evaporou e sumiu no mar sem deixar um único rastro,",
+    "inicio": 59.82,
+    "fim": 64.56,
+    "duracao": 4.74,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. Wide ocean vista showing dark ocean waves under heavily clouded sky, thick ocean mist over water, complete absence of any aircraft or debris., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/bc4594287424e6a5.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 15,
+    "texto": "escondendo um mistério sem saída nos seus últimos minutos.",
+    "inicio": 64.56,
+    "fim": 68.08,
+    "duracao": 3.52,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. Vintage 1930s shortwave radio equipment sitting idle on a dark wooden table, glowing dial lights, unused headphones resting beside, shadowed room, mysterious atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/d447983009e40d65.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 16,
+    "texto": "Amelia foi declarada morta em 1939.",
+    "inicio": 68.08,
+    "fim": 71.82,
+    "duracao": 3.74,
+    "visual": {
+      "real": {
+        "nome": "Earhart.jpg",
+        "descricao": "Portrait of American aviation pioneer Amelia Earhart.",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Earhart.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Copyright by Underwood and Underwood (not renewed)"
+      },
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. A framed vintage black and white photograph of an early female pilot resting on a polished wooden surface, lit by soft candle light., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Earhart.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/13d5a58557142438.jpg",
+      "credito": "Earhart.jpg — Copyright by Underwood and Underwood (not renewed) (Public domain)"
+    }
+  },
+  {
+    "n": 17,
+    "texto": "Na sua opinião, eles caíram no Oceano Pacífico ou alcançaram uma terra isolada?",
+    "inicio": 71.82,
+    "fim": 77.94,
+    "duracao": 6.12,
+    "visual": {
+      "real": {
+        "nome": "Nikumaroro Atoll 2014.jpg",
+        "descricao": "It is one of the most famous patches of coral outside of the Great Barrier Reef. Stretching a mere 7.5 kilometers (4.7 miles) by 2.5 kilometers (1.6 miles) and ",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Nikumaroro_Atoll_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "NASA Earth Observatory image by Joshua Stevens, using Landsat data from the U.S."
+      },
+      "ia": "Pacific Ocean and USA, 1920s-1930s, vintage aviation era, period-accurate clothing and technology. Overhead shot of a remote tropical island beach shore, weathered metal wreckage half buried in sand near dense palm foliage, mysterious dramatic mood., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Nikumaroro_Atoll_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/d75f2cfde5f7618f.jpg",
+      "credito": "Nikumaroro Atoll 2014.jpg — NASA Earth Observatory image by Joshua Stevens, using Landsat data from the U.S. (Public domain)"
+    }
+  }
+]

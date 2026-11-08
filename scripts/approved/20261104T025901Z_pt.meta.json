@@ -43,5 +43,23 @@
       "titulo": "Amelia Earhart",
       "url": "https://pt.wikipedia.org/wiki/Amelia_Earhart"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-08",
+  "producao": {
+    "etapa": "pronto",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 1.0,
+    "atualizado": "2026-11-08 13:40:33"
+  },
+  "voz": "gemini",
+  "creditos_imagens": [
+    "Earhart-electra 10.jpg — Originally uploaded by w:User:Logawi (Public domain)",
+    "Earhart.jpg — Copyright by Underwood and Underwood (not renewed) (Public domain)",
+    "Nikumaroro Atoll 2014.jpg — NASA Earth Observatory image by Joshua Stevens, using Landsat data from the U.S. (Public domain)"
+  ],
+  "imagens_ia": 14,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261104T025901Z_pt.mp4",
+  "duracao_seg": 77.9
 }

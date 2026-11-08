@@ -1,0 +1,957 @@
+[
+  {
+    "palavra": "The",
+    "inicio": 0.15,
+    "fim": 0.27
+  },
+  {
+    "palavra": "greatest",
+    "inicio": 0.27,
+    "fim": 0.61
+  },
+  {
+    "palavra": "codebreakers",
+    "inicio": 0.61,
+    "fim": 1.31
+  },
+  {
+    "palavra": "of",
+    "inicio": 1.31,
+    "fim": 1.47
+  },
+  {
+    "palavra": "World",
+    "inicio": 1.47,
+    "fim": 1.69
+  },
+  {
+    "palavra": "War",
+    "inicio": 1.69,
+    "fim": 1.87
+  },
+  {
+    "palavra": "Two",
+    "inicio": 1.87,
+    "fim": 2.09
+  },
+  {
+    "palavra": "cracked",
+    "inicio": 2.09,
+    "fim": 2.55
+  },
+  {
+    "palavra": "the",
+    "inicio": 2.55,
+    "fim": 2.71
+  },
+  {
+    "palavra": "most",
+    "inicio": 2.71,
+    "fim": 2.87
+  },
+  {
+    "palavra": "complex",
+    "inicio": 2.87,
+    "fim": 3.45
+  },
+  {
+    "palavra": "military",
+    "inicio": 3.45,
+    "fim": 3.95
+  },
+  {
+    "palavra": "ciphers",
+    "inicio": 3.95,
+    "fim": 4.61
+  },
+  {
+    "palavra": "in",
+    "inicio": 4.61,
+    "fim": 4.77
+  },
+  {
+    "palavra": "history,",
+    "inicio": 4.77,
+    "fim": 5.21
+  },
+  {
+    "palavra": "but",
+    "inicio": 5.73,
+    "fim": 5.89
+  },
+  {
+    "palavra": "they",
+    "inicio": 5.89,
+    "fim": 6.01
+  },
+  {
+    "palavra": "couldn't",
+    "inicio": 6.01,
+    "fim": 6.25
+  },
+  {
+    "palavra": "translate",
+    "inicio": 6.25,
+    "fim": 6.63
+  },
+  {
+    "palavra": "a",
+    "inicio": 6.63,
+    "fim": 6.97
+  },
+  {
+    "palavra": "single",
+    "inicio": 6.97,
+    "fim": 7.35
+  },
+  {
+    "palavra": "word",
+    "inicio": 7.35,
+    "fim": 7.69
+  },
+  {
+    "palavra": "of",
+    "inicio": 7.69,
+    "fim": 7.87
+  },
+  {
+    "palavra": "this",
+    "inicio": 7.87,
+    "fim": 8.01
+  },
+  {
+    "palavra": "book.",
+    "inicio": 8.01,
+    "fim": 8.29
+  },
+  {
+    "palavra": "For",
+    "inicio": 9.19,
+    "fim": 9.35
+  },
+  {
+    "palavra": "six",
+    "inicio": 9.35,
+    "fim": 9.53
+  },
+  {
+    "palavra": "hundred",
+    "inicio": 9.53,
+    "fim": 9.71
+  },
+  {
+    "palavra": "years,",
+    "inicio": 9.71,
+    "fim": 10.43
+  },
+  {
+    "palavra": "the",
+    "inicio": 10.43,
+    "fim": 10.77
+  },
+  {
+    "palavra": "Voynich",
+    "inicio": 10.77,
+    "fim": 11.17
+  },
+  {
+    "palavra": "Manuscript",
+    "inicio": 11.17,
+    "fim": 11.61
+  },
+  {
+    "palavra": "has",
+    "inicio": 11.61,
+    "fim": 12.07
+  },
+  {
+    "palavra": "remained",
+    "inicio": 12.07,
+    "fim": 12.39
+  },
+  {
+    "palavra": "the",
+    "inicio": 12.39,
+    "fim": 12.59
+  },
+  {
+    "palavra": "world’s",
+    "inicio": 12.59,
+    "fim": 12.95
+  },
+  {
+    "palavra": "most",
+    "inicio": 12.95,
+    "fim": 13.15
+  },
+  {
+    "palavra": "frustrating",
+    "inicio": 13.15,
+    "fim": 13.67
+  },
+  {
+    "palavra": "mystery.",
+    "inicio": 13.67,
+    "fim": 14.33
+  },
+  {
+    "palavra": "Carbon",
+    "inicio": 14.95,
+    "fim": 15.23
+  },
+  {
+    "palavra": "dating",
+    "inicio": 15.23,
+    "fim": 15.47
+  },
+  {
+    "palavra": "places",
+    "inicio": 15.47,
+    "fim": 15.91
+  },
+  {
+    "palavra": "these",
+    "inicio": 15.91,
+    "fim": 16.21
+  },
+  {
+    "palavra": "calfskin",
+    "inicio": 16.21,
+    "fim": 16.67
+  },
+  {
+    "palavra": "pages",
+    "inicio": 16.67,
+    "fim": 17.01
+  },
+  {
+    "palavra": "in",
+    "inicio": 17.01,
+    "fim": 17.25
+  },
+  {
+    "palavra": "the",
+    "inicio": 17.25,
+    "fim": 17.31
+  },
+  {
+    "palavra": "early",
+    "inicio": 17.31,
+    "fim": 17.63
+  },
+  {
+    "palavra": "1400s,",
+    "inicio": 17.63,
+    "fim": 18.57
+  },
+  {
+    "palavra": "yet",
+    "inicio": 18.81,
+    "fim": 19.01
+  },
+  {
+    "palavra": "the",
+    "inicio": 19.01,
+    "fim": 19.19
+  },
+  {
+    "palavra": "script",
+    "inicio": 19.19,
+    "fim": 19.43
+  },
+  {
+    "palavra": "is",
+    "inicio": 19.43,
+    "fim": 19.69
+  },
+  {
+    "palavra": "written",
+    "inicio": 19.69,
+    "fim": 19.89
+  },
+  {
+    "palavra": "in",
+    "inicio": 19.89,
+    "fim": 20.13
+  },
+  {
+    "palavra": "a",
+    "inicio": 20.13,
+    "fim": 20.23
+  },
+  {
+    "palavra": "language",
+    "inicio": 20.23,
+    "fim": 20.57
+  },
+  {
+    "palavra": "that",
+    "inicio": 20.57,
+    "fim": 20.89
+  },
+  {
+    "palavra": "shouldn't",
+    "inicio": 20.89,
+    "fim": 21.29
+  },
+  {
+    "palavra": "exist.",
+    "inicio": 21.29,
+    "fim": 21.57
+  },
+  {
+    "palavra": "There",
+    "inicio": 22.67,
+    "fim": 22.79
+  },
+  {
+    "palavra": "are",
+    "inicio": 22.79,
+    "fim": 22.93
+  },
+  {
+    "palavra": "around",
+    "inicio": 22.93,
+    "fim": 23.31
+  },
+  {
+    "palavra": "two",
+    "inicio": 23.31,
+    "fim": 23.477
+  },
+  {
+    "palavra": "hundred",
+    "inicio": 23.477,
+    "fim": 23.643
+  },
+  {
+    "palavra": "forty",
+    "inicio": 23.643,
+    "fim": 23.81
+  },
+  {
+    "palavra": "pages",
+    "inicio": 23.81,
+    "fim": 24.59
+  },
+  {
+    "palavra": "of",
+    "inicio": 24.59,
+    "fim": 24.89
+  },
+  {
+    "palavra": "smooth",
+    "inicio": 24.89,
+    "fim": 25.27
+  },
+  {
+    "palavra": "iron",
+    "inicio": 25.27,
+    "fim": 25.75
+  },
+  {
+    "palavra": "gall",
+    "inicio": 25.75,
+    "fim": 26.03
+  },
+  {
+    "palavra": "ink",
+    "inicio": 26.03,
+    "fim": 26.35
+  },
+  {
+    "palavra": "written",
+    "inicio": 26.35,
+    "fim": 26.91
+  },
+  {
+    "palavra": "without",
+    "inicio": 26.91,
+    "fim": 27.23
+  },
+  {
+    "palavra": "delay",
+    "inicio": 27.23,
+    "fim": 27.55
+  },
+  {
+    "palavra": "and",
+    "inicio": 27.55,
+    "fim": 28.15
+  },
+  {
+    "palavra": "with",
+    "inicio": 28.15,
+    "fim": 28.31
+  },
+  {
+    "palavra": "no",
+    "inicio": 28.31,
+    "fim": 28.53
+  },
+  {
+    "palavra": "obvious",
+    "inicio": 28.53,
+    "fim": 28.87
+  },
+  {
+    "palavra": "punctuation,",
+    "inicio": 28.87,
+    "fim": 29.71
+  },
+  {
+    "palavra": "though",
+    "inicio": 30.01,
+    "fim": 30.15
+  },
+  {
+    "palavra": "some",
+    "inicio": 30.15,
+    "fim": 30.61
+  },
+  {
+    "palavra": "parts",
+    "inicio": 30.61,
+    "fim": 30.81
+  },
+  {
+    "palavra": "were",
+    "inicio": 30.81,
+    "fim": 30.97
+  },
+  {
+    "palavra": "later",
+    "inicio": 30.97,
+    "fim": 31.19
+  },
+  {
+    "palavra": "retouched.",
+    "inicio": 31.19,
+    "fim": 31.67
+  },
+  {
+    "palavra": "It",
+    "inicio": 32.37,
+    "fim": 32.69
+  },
+  {
+    "palavra": "is",
+    "inicio": 32.69,
+    "fim": 32.81
+  },
+  {
+    "palavra": "written",
+    "inicio": 32.81,
+    "fim": 32.99
+  },
+  {
+    "palavra": "with",
+    "inicio": 32.99,
+    "fim": 33.31
+  },
+  {
+    "palavra": "a",
+    "inicio": 33.31,
+    "fim": 33.41
+  },
+  {
+    "palavra": "confidence",
+    "inicio": 33.41,
+    "fim": 33.81
+  },
+  {
+    "palavra": "that",
+    "inicio": 33.81,
+    "fim": 34.17
+  },
+  {
+    "palavra": "suggests",
+    "inicio": 34.17,
+    "fim": 34.61
+  },
+  {
+    "palavra": "the",
+    "inicio": 34.61,
+    "fim": 34.77
+  },
+  {
+    "palavra": "author",
+    "inicio": 34.77,
+    "fim": 35.07
+  },
+  {
+    "palavra": "knew",
+    "inicio": 35.07,
+    "fim": 35.39
+  },
+  {
+    "palavra": "exactly",
+    "inicio": 35.39,
+    "fim": 35.81
+  },
+  {
+    "palavra": "what",
+    "inicio": 35.81,
+    "fim": 36.03
+  },
+  {
+    "palavra": "they",
+    "inicio": 36.03,
+    "fim": 36.13
+  },
+  {
+    "palavra": "were",
+    "inicio": 36.13,
+    "fim": 36.25
+  },
+  {
+    "palavra": "saying.",
+    "inicio": 36.25,
+    "fim": 36.53
+  },
+  {
+    "palavra": "You’ll",
+    "inicio": 37.21,
+    "fim": 37.45
+  },
+  {
+    "palavra": "see",
+    "inicio": 37.45,
+    "fim": 37.57
+  },
+  {
+    "palavra": "drawings",
+    "inicio": 37.57,
+    "fim": 37.95
+  },
+  {
+    "palavra": "of",
+    "inicio": 37.95,
+    "fim": 38.19
+  },
+  {
+    "palavra": "unidentified",
+    "inicio": 38.19,
+    "fim": 38.93
+  },
+  {
+    "palavra": "plants",
+    "inicio": 38.93,
+    "fim": 39.49
+  },
+  {
+    "palavra": "and",
+    "inicio": 39.49,
+    "fim": 39.75
+  },
+  {
+    "palavra": "symbols",
+    "inicio": 39.75,
+    "fim": 40.11
+  },
+  {
+    "palavra": "that",
+    "inicio": 40.11,
+    "fim": 40.41
+  },
+  {
+    "palavra": "match",
+    "inicio": 40.41,
+    "fim": 40.67
+  },
+  {
+    "palavra": "no",
+    "inicio": 40.67,
+    "fim": 40.97
+  },
+  {
+    "palavra": "known",
+    "inicio": 40.97,
+    "fim": 41.23
+  },
+  {
+    "palavra": "alphabet.",
+    "inicio": 41.23,
+    "fim": 41.57
+  },
+  {
+    "palavra": "In",
+    "inicio": 41.11,
+    "fim": 42.99
+  },
+  {
+    "palavra": "the",
+    "inicio": 42.99,
+    "fim": 43.09
+  },
+  {
+    "palavra": "1600s,",
+    "inicio": 43.09,
+    "fim": 43.85
+  },
+  {
+    "palavra": "a",
+    "inicio": 43.85,
+    "fim": 44.15
+  },
+  {
+    "palavra": "Prague",
+    "inicio": 44.15,
+    "fim": 44.43
+  },
+  {
+    "palavra": "alchemist",
+    "inicio": 44.43,
+    "fim": 45.09
+  },
+  {
+    "palavra": "owned",
+    "inicio": 45.09,
+    "fim": 45.35
+  },
+  {
+    "palavra": "the",
+    "inicio": 45.35,
+    "fim": 45.49
+  },
+  {
+    "palavra": "manuscript,",
+    "inicio": 45.49,
+    "fim": 45.87
+  },
+  {
+    "palavra": "but",
+    "inicio": 45.87,
+    "fim": 46.49
+  },
+  {
+    "palavra": "he",
+    "inicio": 46.49,
+    "fim": 46.73
+  },
+  {
+    "palavra": "couldn't",
+    "inicio": 46.73,
+    "fim": 46.91
+  },
+  {
+    "palavra": "crack",
+    "inicio": 46.91,
+    "fim": 47.09
+  },
+  {
+    "palavra": "it.",
+    "inicio": 47.09,
+    "fim": 47.27
+  },
+  {
+    "palavra": "Centuries",
+    "inicio": 48.09,
+    "fim": 48.43
+  },
+  {
+    "palavra": "later,",
+    "inicio": 48.43,
+    "fim": 48.89
+  },
+  {
+    "palavra": "experts",
+    "inicio": 48.89,
+    "fim": 49.47
+  },
+  {
+    "palavra": "digitized",
+    "inicio": 49.47,
+    "fim": 50.23
+  },
+  {
+    "palavra": "every",
+    "inicio": 50.23,
+    "fim": 50.55
+  },
+  {
+    "palavra": "character",
+    "inicio": 50.55,
+    "fim": 51.03
+  },
+  {
+    "palavra": "onto",
+    "inicio": 51.03,
+    "fim": 51.35
+  },
+  {
+    "palavra": "punch",
+    "inicio": 51.35,
+    "fim": 51.63
+  },
+  {
+    "palavra": "cards,",
+    "inicio": 51.63,
+    "fim": 52.05
+  },
+  {
+    "palavra": "and",
+    "inicio": 52.05,
+    "fim": 52.45
+  },
+  {
+    "palavra": "still,",
+    "inicio": 52.45,
+    "fim": 52.89
+  },
+  {
+    "palavra": "they",
+    "inicio": 52.89,
+    "fim": 53.41
+  },
+  {
+    "palavra": "found",
+    "inicio": 53.41,
+    "fim": 53.61
+  },
+  {
+    "palavra": "nothing.",
+    "inicio": 53.61,
+    "fim": 54.13
+  },
+  {
+    "palavra": "The",
+    "inicio": 54.93,
+    "fim": 55.07
+  },
+  {
+    "palavra": "most",
+    "inicio": 55.07,
+    "fim": 55.25
+  },
+  {
+    "palavra": "chilling",
+    "inicio": 55.25,
+    "fim": 55.49
+  },
+  {
+    "palavra": "part?",
+    "inicio": 55.49,
+    "fim": 55.91
+  },
+  {
+    "palavra": "On",
+    "inicio": 55.91,
+    "fim": 56.55
+  },
+  {
+    "palavra": "the",
+    "inicio": 56.55,
+    "fim": 56.65
+  },
+  {
+    "palavra": "very",
+    "inicio": 56.65,
+    "fim": 56.83
+  },
+  {
+    "palavra": "last",
+    "inicio": 56.83,
+    "fim": 57.19
+  },
+  {
+    "palavra": "page,",
+    "inicio": 57.19,
+    "fim": 57.77
+  },
+  {
+    "palavra": "there",
+    "inicio": 57.77,
+    "fim": 58.03
+  },
+  {
+    "palavra": "are",
+    "inicio": 58.03,
+    "fim": 58.13
+  },
+  {
+    "palavra": "four",
+    "inicio": 58.13,
+    "fim": 58.47
+  },
+  {
+    "palavra": "distorted",
+    "inicio": 58.47,
+    "fim": 59.01
+  },
+  {
+    "palavra": "lines",
+    "inicio": 59.01,
+    "fim": 59.65
+  },
+  {
+    "palavra": "in",
+    "inicio": 59.65,
+    "fim": 59.97
+  },
+  {
+    "palavra": "Latin",
+    "inicio": 59.97,
+    "fim": 60.21
+  },
+  {
+    "palavra": "script,",
+    "inicio": 60.21,
+    "fim": 60.77
+  },
+  {
+    "palavra": "but",
+    "inicio": 60.33,
+    "fim": 61.33
+  },
+  {
+    "palavra": "even",
+    "inicio": 61.33,
+    "fim": 61.45
+  },
+  {
+    "palavra": "those",
+    "inicio": 61.45,
+    "fim": 61.81
+  },
+  {
+    "palavra": "make",
+    "inicio": 61.81,
+    "fim": 62.05
+  },
+  {
+    "palavra": "no",
+    "inicio": 62.05,
+    "fim": 62.29
+  },
+  {
+    "palavra": "sense",
+    "inicio": 62.29,
+    "fim": 62.61
+  },
+  {
+    "palavra": "in",
+    "inicio": 62.61,
+    "fim": 62.79
+  },
+  {
+    "palavra": "any",
+    "inicio": 62.79,
+    "fim": 62.97
+  },
+  {
+    "palavra": "known",
+    "inicio": 62.97,
+    "fim": 63.23
+  },
+  {
+    "palavra": "language.",
+    "inicio": 63.23,
+    "fim": 63.85
+  },
+  {
+    "palavra": "Is",
+    "inicio": 64.27,
+    "fim": 64.77
+  },
+  {
+    "palavra": "this",
+    "inicio": 64.77,
+    "fim": 64.95
+  },
+  {
+    "palavra": "a",
+    "inicio": 64.95,
+    "fim": 65.07
+  },
+  {
+    "palavra": "brilliant",
+    "inicio": 65.07,
+    "fim": 65.49
+  },
+  {
+    "palavra": "medieval",
+    "inicio": 65.49,
+    "fim": 65.89
+  },
+  {
+    "palavra": "hoax,",
+    "inicio": 65.89,
+    "fim": 66.37
+  },
+  {
+    "palavra": "or",
+    "inicio": 66.37,
+    "fim": 66.81
+  },
+  {
+    "palavra": "a",
+    "inicio": 66.81,
+    "fim": 66.99
+  },
+  {
+    "palavra": "message",
+    "inicio": 66.99,
+    "fim": 67.37
+  },
+  {
+    "palavra": "we",
+    "inicio": 67.37,
+    "fim": 67.59
+  },
+  {
+    "palavra": "aren't",
+    "inicio": 67.59,
+    "fim": 67.81
+  },
+  {
+    "palavra": "meant",
+    "inicio": 67.81,
+    "fim": 67.99
+  },
+  {
+    "palavra": "to",
+    "inicio": 67.99,
+    "fim": 68.13
+  },
+  {
+    "palavra": "understand?",
+    "inicio": 68.13,
+    "fim": 68.89
+  },
+  {
+    "palavra": "Tell",
+    "inicio": 69.29,
+    "fim": 69.67
+  },
+  {
+    "palavra": "me",
+    "inicio": 69.67,
+    "fim": 69.79
+  },
+  {
+    "palavra": "your",
+    "inicio": 69.79,
+    "fim": 69.91
+  },
+  {
+    "palavra": "theory",
+    "inicio": 69.91,
+    "fim": 70.11
+  },
+  {
+    "palavra": "in",
+    "inicio": 70.11,
+    "fim": 70.25
+  },
+  {
+    "palavra": "the",
+    "inicio": 70.25,
+    "fim": 70.31
+  },
+  {
+    "palavra": "comments.",
+    "inicio": 70.31,
+    "fim": 70.81
+  }
+]

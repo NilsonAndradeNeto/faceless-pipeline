@@ -36,5 +36,15 @@
       "titulo": "Voynich manuscript",
       "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-08",
+  "producao": {
+    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 0.18,
+    "atualizado": "2026-11-08 13:41:22"
+  },
+  "voz": "gemini"
 }

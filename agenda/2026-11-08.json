@@ -1,3 +1,15 @@
 {
-  "data": "2026-11-08"
+  "data": "2026-11-08",
+  "pt": {
+    "script": "20261104T025901Z_pt",
+    "titulo": "O mistério do avião de Amelia Earhart no Pacífico",
+    "aprovacao": "automatica",
+    "posts": {}
+  },
+  "en": {
+    "script": "20261108T070452Z_en",
+    "titulo": "The 600-Year-Old Book That No One Can Read",
+    "aprovacao": "automatica",
+    "posts": {}
+  }
 }
