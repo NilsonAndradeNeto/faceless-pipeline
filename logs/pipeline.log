@@ -1026,3 +1026,69 @@ Traceback (most recent call last):
 json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
 21:41:36 [ciclo] INFO: Instagram (PT) não conectado — falta IG_TOKEN_PT no .env
 21:41:36 [ciclo] INFO: Conta tiktok (PT) ainda não conectada
+04:48:02 [ciclo] INFO: — ciclo 09/11 04:48 —
+04:48:02 [ciclo] INFO: Fila PT vazia — gerando roteiro
+04:48:02 [researcher] INFO: Tema escolhido (pt): Mary Celeste: o navio encontrado intacto e sem ninguém a bordo
+04:48:03 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+04:48:03 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 166→176 tokens, US$0.0000, 1.2s
+04:48:04 [researcher] INFO: Fontes: Mary Celeste (en), Mary Celeste (pt)
+04:48:04 [scriptwriter] INFO: Escrevendo roteiro: Mary Celeste: o navio encontrado intacto e sem ninguém a bordo
+04:48:31 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:48:31 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 4800→422 tokens, US$0.0000, 27.1s
+04:48:31 [scriptwriter] INFO: Editando para retenção...
+04:48:59 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:48:59 [llm] INFO: gemini/gemini-3.5-flash [critica] 525→346 tokens, US$0.0000, 27.2s
+04:48:59 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 7, 'viradas': 7, 'climax': 7, 'final': 8}
+04:48:59 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+04:49:28 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:49:28 [llm] INFO: gemini/gemini-3.5-flash [provas] 4705→1181 tokens, US$0.0000, 29.2s
+04:49:28 [scriptwriter] INFO: Checagem 1: 17 frases, 3 com problema, 0 para conferir
+04:49:28 [scriptwriter] INFO: Corrigindo:
+- "Ao subirem a bordo, os marinheiros esperavam encontrar um massacre terrível." → sem_base: As fontes não mencionam o que a tripulação do Dei Gratia esperava encontrar antes de abordar o navio.
+- "As roupas da tripulação estavam dobradas nos armários." → sem_base: As fontes afirmam apenas que os pertences pessoais não foram mexidos, sem especificar que as roupas estavam dobradas em armários.
+- "O que faria um capitão arremessar a própria bebê no oceano e abandonar um barco perfeitamente intacto?" → sem_base: As fontes não contêm qualquer menção ou teoria de que o capitão tenha jogado a própria filha no oceano.
+04:49:41 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:49:41 [llm] INFO: gemini/gemini-3.5-flash [correcao] 4674→267 tokens, US$0.0000, 13.5s
+04:50:02 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:50:02 [llm] INFO: gemini/gemini-3.5-flash [provas] 4682→948 tokens, US$0.0000, 20.5s
+04:50:02 [scriptwriter] INFO: Checagem 2: 16 frases, 1 com problema, 2 para conferir
+04:50:02 [scriptwriter] INFO: Corrigindo:
+- "Nenhum pedido de socorro foi escrito e nenhum corpo jamais foi encontrado." → sem_base: Embora as fontes confirmem que ninguém jamais foi visto de novo, elas não mencionam se houve ou não a escrita de um pedido de socorro.
+04:50:11 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:50:11 [llm] INFO: gemini/gemini-3.5-flash [correcao] 4549→264 tokens, US$0.0000, 9.4s
+04:50:11 [scriptwriter] INFO: Roteiro salvo: 165 palavras, 968 caracteres, confiança baixa
+04:50:11 [ciclo] INFO: Fila EN vazia — gerando roteiro
+04:50:11 [researcher] INFO: Tema escolhido (en): The Zodiac Killer's unsolved ciphers
+04:50:12 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+04:50:12 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 159→295 tokens, US$0.0000, 0.8s
+04:50:13 [researcher] INFO: Fontes: Zodiac Killer (en)
+04:50:13 [scriptwriter] INFO: Escrevendo roteiro: The Zodiac Killer's unsolved ciphers
+04:50:30 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:50:30 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 3204→344 tokens, US$0.0000, 17.9s
+04:50:30 [scriptwriter] INFO: Editando para retenção...
+04:50:55 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:50:55 [llm] INFO: gemini/gemini-3.5-flash [critica] 481→288 tokens, US$0.0000, 24.7s
+04:50:55 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 6, 'viradas': 6, 'climax': 6, 'final': 7}
+04:50:55 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+04:51:24 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:51:24 [llm] INFO: gemini/gemini-3.5-flash [provas] 3048→1142 tokens, US$0.0000, 28.3s
+04:51:24 [scriptwriter] INFO: Checagem 1: 14 frases, 4 com problema, 0 para conferir
+04:51:24 [scriptwriter] INFO: Corrigindo:
+- "To prove who he was, a killer mailed newspapers a blood-soaked piece of a victim's shirt." → sem_base: A fonte menciona o envio de um retalho da camisa de Paul Stine ('Swatch of Paul Stine's shirt'), mas não afirma que estava 'encharcado de sangue' (blood-soaked) nem que o objetivo expresso era provar quem ele era.
+- "Darlene Ferrin died at the hospital, but Michael Mageau survived four gunshots." → contradiz: A fonte indica que Mageau foi atingido por 3 tiros no total (1 tiro inicial no braço e mais 2 tiros depois), e não 4 tiros.
+- "Minutes later, a payphone rang two blocks from police headquarters." → contradiz: O orelhão não tocou; a polícia recebeu uma ligação feita a partir de um orelhão localizado a dois quarteirões da sede.
+- "The killer called police himself, claiming credit for her death and two Christmas murders." → sem_base: Na ligação telefônica citada na fonte, o assassino disse ter matado 'aquelas crianças no ano passado' ('those kids last year'), sem usar a expressão 'assassinatos de Natal'.
+04:51:27 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+04:51:27 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+04:51:38 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:51:38 [llm] INFO: gemini/gemini-3-flash-preview [correcao] 3130→241 tokens, US$0.0000, 11.1s
+04:51:54 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+04:51:54 [llm] INFO: gemini/gemini-3.5-flash [provas] 3053→1040 tokens, US$0.0000, 16.4s
+04:51:54 [scriptwriter] INFO: Checagem 2: 14 frases, 0 com problema, 1 para conferir
+04:51:54 [scriptwriter] INFO: Roteiro salvo: 174 palavras, 1041 caracteres, confiança media
+04:51:54 [produzir] INFO: ▶ Produzindo: The 600-Year-Old Book That No One Can Read
+04:51:55 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+04:51:55 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+04:51:55 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+04:51:55 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+04:51:55 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
