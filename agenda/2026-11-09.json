@@ -1,3 +1,21 @@
 {
-  "data": "2026-11-09"
+  "data": "2026-11-09",
+  "pt": {
+    "script": "20261109T074804Z_pt",
+    "titulo": "O mistério do navio encontrado sem ninguém a bordo",
+    "aprovacao": "automatica",
+    "posts": {
+      "youtube": {
+        "estado": "erro",
+        "erro": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+        "tentativas": 1
+      }
+    }
+  },
+  "en": {
+    "script": "20261109T075013Z_en",
+    "titulo": "The Unbroken Code of the Zodiac Killer",
+    "aprovacao": "automatica",
+    "posts": {}
+  }
 }

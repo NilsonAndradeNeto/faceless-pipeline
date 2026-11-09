@@ -38,5 +38,27 @@
       "titulo": "Zodiac Killer",
       "url": "https://en.wikipedia.org/wiki/Zodiac_Killer"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-09",
+  "producao": {
+    "etapa": "pronto",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 1.0,
+    "atualizado": "2026-11-09 17:44:05"
+  },
+  "voz": "gemini",
+  "creditos_imagens": [
+    "4abc - San Francisco Chronicle Dripping Pen Card November 8 1969 340 Cipher COLOR.jpg — Zodiac Killer (Public domain)",
+    "June 26 1970 Zodiac letter.jpg — The Zodiac Killer (Public domain)",
+    "My Name Is....Zodiac Cipher (cropped).jpg — Dragallas (CC BY-SA 4.0)",
+    "Oct 1969 Zodiac wanted poster.png — San Francisco Police Department (Public domain)",
+    "SF From Marin Highlands3.jpg — en:User:Paul.h (Public domain)",
+    "Zodiac-Colour-SFC-Cipher-Black-Clean.png — Zodiac killer (Public domain)",
+    "ZodiacsPoem.jpg — Möjligen Zodiac killer (Public domain)"
+  ],
+  "imagens_ia": 7,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261109T075013Z_en.mp4",
+  "duracao_seg": 68.0
 }

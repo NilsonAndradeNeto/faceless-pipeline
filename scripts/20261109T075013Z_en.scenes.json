@@ -1,0 +1,296 @@
+[
+  {
+    "n": 1,
+    "texto": "To claim credit for a murder, a killer mailed newspapers a piece of a victim's shirt.",
+    "inicio": 0.0,
+    "fim": 5.93,
+    "duracao": 5.93,
+    "visual": {
+      "real": null,
+      "ia": "Northern California, 1960s-1970s, San Francisco Bay Area, period-accurate clothing and technology. Close-up of a 1960s newsroom desk, a vintage envelope opened to reveal a small piece of blood-stained plaid fabric resting on a typewriter. Dim, moody lighting, 1969 aesthetic, grainy film texture., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/26fd306268a719b7.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "In July 1969, a stranger walked up to a parked car in Vallejo.",
+    "inicio": 5.93,
+    "fim": 11.11,
+    "duracao": 5.18,
+    "visual": {
+      "real": null,
+      "ia": "Northern California, 1960s-1970s, San Francisco Bay Area, period-accurate clothing and technology. Night scene in a desolate Vallejo parking lot, 1969. A silhouette of a man in a dark jacket approaching a vintage 1960s sedan. Headlights from another car casting long, eerie shadows on the pavement., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/926ca634f77080b4.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "He flashed a light, then opened fire with a nine-millimeter pistol.",
+    "inicio": 11.11,
+    "fim": 15.93,
+    "duracao": 4.82,
+    "visual": {
+      "real": null,
+      "ia": "Northern California, 1960s-1970s, San Francisco Bay Area, period-accurate clothing and technology. POV from inside a dark car, a bright flashlight beam blinding the camera from outside the window. A gloved hand holding a vintage 9mm pistol is visible in the harsh light. Cinematic, high contrast., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/5fc13dc7c36a0c70.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "Darlene Ferrin died at the hospital, but Michael Mageau survived three gunshots.",
+    "inicio": 15.93,
+    "fim": 21.69,
+    "duracao": 5.76,
+    "visual": {
+      "real": null,
+      "ia": "Northern California, 1960s-1970s, San Francisco Bay Area, period-accurate clothing and technology. A 1960s hospital hallway at night, flickering fluorescent lights, a gurney being pushed quickly into the distance. A discarded, blood-stained bandage on the linoleum floor. Cold, sterile atmosphere, cinematic depth of field., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/056237ed86f70900.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "Minutes later, a call was placed from a payphone two blocks from police headquarters.",
+    "inicio": 21.69,
+    "fim": 26.85,
+    "duracao": 5.16,
+    "visual": {
+      "real": null,
+      "ia": "Northern California, 1960s-1970s, San Francisco Bay Area, period-accurate clothing and technology. A vintage black rotary payphone in a dimly lit outdoor booth on a rainy San Francisco street corner, 1969. The receiver is hanging by its cord, swinging slightly. City lights blurred in the background., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/907bc0141bb65f8a.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "The killer called police himself, claiming credit for her death and the murders from the year before.",
+    "inicio": 26.85,
+    "fim": 33.05,
+    "duracao": 6.2,
+    "visual": {
+      "real": null,
+      "ia": "Northern California, 1960s-1970s, San Francisco Bay Area, period-accurate clothing and technology. Interior of a 1960s police dispatch room, vintage radio equipment, a reel-to-reel tape recorder spinning slowly. A silhouette of a dispatcher wearing headphones, back to the camera, illuminated by desk lamps., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/2365666716d11345.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "Then came the letters. Signed with a crosshairs symbol, he demanded newspapers print his",
+    "inicio": 33.05,
+    "fim": 38.13,
+    "duracao": 5.08,
+    "visual": {
+      "real": {
+        "nome": "4abc - San Francisco Chronicle Dripping Pen Card November 8 1969 340 Cipher COLOR.jpg",
+        "descricao": "Letter from Zodiac Killer",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/4abc_-_San_Francisco_Chronicle_Dripping_Pen_Card_November_8_1969_340_Cipher_COLOR.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Zodiac Killer"
+      },
+      "ia": "Northern California, 1960s-1970s, San Francisco Bay Area, period-accurate clothing and technology. A stack of handwritten letters on a wooden desk, the top page featuring a hand-drawn crosshairs symbol in black ink. A vintage fountain pen lies nearby. Moody, noir lighting, late 1960s style., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/4abc_-_San_Francisco_Chronicle_Dripping_Pen_Card_November_8_1969_340_Cipher_COLOR.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/0ff817f43c874bcb.jpg",
+      "credito": "4abc - San Francisco Chronicle Dripping Pen Card November 8 1969 340 Cipher COLOR.jpg — Zodiac Killer (Public domain)"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "encrypted messages. Police investigated for years,",
+    "inicio": 38.13,
+    "fim": 41.99,
+    "duracao": 3.86,
+    "visual": {
+      "real": {
+        "nome": "Zodiac-Colour-SFC-Cipher-Black-Clean.png",
+        "descricao": "Cipher from Zodiac letter",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Zodiac-Colour-SFC-Cipher-Black-Clean.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Zodiac killer"
+      },
+      "ia": "Northern California, 1960s-1970s, San Francisco Bay Area, period-accurate clothing and technology. A messy 1970s detective's office, walls covered in crime scene photos, maps of San Francisco, and complex cryptograms pinned to a corkboard. A magnifying glass resting on a sheet of strange symbols., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Zodiac-Colour-SFC-Cipher-Black-Clean.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/b7a8946800a34115.jpg",
+      "credito": "Zodiac-Colour-SFC-Cipher-Black-Clean.png — Zodiac killer (Public domain)"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "naming former schoolteacher Arthur Leigh Allen as their main suspect,",
+    "inicio": 41.99,
+    "fim": 45.81,
+    "duracao": 3.82,
+    "visual": {
+      "real": {
+        "nome": "Oct 1969 Zodiac wanted poster.png",
+        "descricao": "This is a wanted poster created by the San Francisco Police Department in October 1969, giving information on the Zodiac Killer and featuring two sketches of hi",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Oct_1969_Zodiac_wanted_poster.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "San Francisco Police Department"
+      },
+      "ia": "Northern California, 1960s-1970s, San Francisco Bay Area, period-accurate clothing and technology. A grainy, black and white 1960s police file folder labeled 'SUSPECT' on a metal desk. Inside, a blurry photo of a man's silhouette and a pair of vintage eyeglasses. Smoke from a cigarette rising., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Oct_1969_Zodiac_wanted_poster.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/0f42cc0c2512ce01.jpg",
+      "credito": "Oct 1969 Zodiac wanted poster.png — San Francisco Police Department (Public domain)"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "yet never had enough evidence to charge him. But his most taunting move was still to come.",
+    "inicio": 45.81,
+    "fim": 51.23,
+    "duracao": 5.42,
+    "visual": {
+      "real": null,
+      "ia": "Northern California, 1960s-1970s, San Francisco Bay Area, period-accurate clothing and technology. A heavy metal evidence locker door with a rusty padlock, 1970s style. The room is dark and dusty. A single lightbulb flickers above, casting shadows of filing cabinets against the concrete wall., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/473a4a07b1069a1b.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "In 1970, the killer mailed a cipher beginning with the words,",
+    "inicio": 51.23,
+    "fim": 54.51,
+    "duracao": 3.28,
+    "visual": {
+      "real": {
+        "nome": "June 26 1970 Zodiac letter.jpg",
+        "descricao": "This is the letter from the Zodiac Killer postmarked June 26, 1970, containing a cypher and map.",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/June_26_1970_Zodiac_letter.jpg/1280px-June_26_1970_Zodiac_letter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "The Zodiac Killer"
+      },
+      "ia": "Northern California, 1960s-1970s, San Francisco Bay Area, period-accurate clothing and technology. Close-up of a 1970s postmarked envelope with a San Francisco stamp. A hand in a dark glove is pulling out a piece of yellowed paper with handwritten code and a hand-drawn map., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/June_26_1970_Zodiac_letter.jpg/1280px-June_26_1970_Zodiac_letter.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/7ed7dd94bff0d8df.jpg",
+      "credito": "June 26 1970 Zodiac letter.jpg — The Zodiac Killer (Public domain)"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "\"My name is...\" That code remains completely unsolved.",
+    "inicio": 54.51,
+    "fim": 59.13,
+    "duracao": 4.62,
+    "visual": {
+      "real": {
+        "nome": "My Name Is....Zodiac Cipher (cropped).jpg",
+        "descricao": "photo",
+        "licenca": "CC BY-SA 4.0",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/My_Name_Is....Zodiac_Cipher_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Dragallas"
+      },
+      "ia": "Northern California, 1960s-1970s, San Francisco Bay Area, period-accurate clothing and technology. Extreme close-up of the words 'My name is' followed by a string of bizarre geometric symbols and letters written in black felt-tip pen on aged, lined paper. High detail on the ink texture., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/My_Name_Is....Zodiac_Cipher_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/f1d2252b71738343.jpg",
+      "credito": "My Name Is....Zodiac Cipher (cropped).jpg — Dragallas (CC BY-SA 4.0)"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "Two of his ciphers are still unbroken, hiding his secret identity forever.",
+    "inicio": 59.13,
+    "fim": 63.27,
+    "duracao": 4.14,
+    "visual": {
+      "real": {
+        "nome": "ZodiacsPoem.jpg",
+        "descricao": "A possible writing by the Zodiac",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/ZodiacsPoem.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Möjligen Zodiac killer"
+      },
+      "ia": "Northern California, 1960s-1970s, San Francisco Bay Area, period-accurate clothing and technology. A montage of complex, unsolved cryptograms overlapping each other. In the center, a dark, hooded silhouette with no face, standing in the San Francisco fog at night. Mysterious and haunting atmosphere, noir style., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/ZodiacsPoem.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/ef8b6aec9fa1921e.jpg",
+      "credito": "ZodiacsPoem.jpg — Möjligen Zodiac killer (Public domain)"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "Do you think the Zodiac was a genius, or did police just fail?",
+    "inicio": 63.27,
+    "fim": 68.00999999999999,
+    "duracao": 4.74,
+    "visual": {
+      "real": {
+        "nome": "SF From Marin Highlands3.jpg",
+        "descricao": "San Francisco from en:Marin Headlands",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/SF_From_Marin_Highlands3.jpg/1280px-SF_From_Marin_Highlands3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "en:User:Paul.h"
+      },
+      "ia": "Northern California, 1960s-1970s, San Francisco Bay Area, period-accurate clothing and technology. A wide shot of the Golden Gate Bridge shrouded in thick evening fog, 1970s era. The lights of San Francisco glimmering faintly through the mist. A sense of an enduring, unsolved mystery., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/SF_From_Marin_Highlands3.jpg/1280px-SF_From_Marin_Highlands3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/f428b6b345547d9c.jpg",
+      "credito": "SF From Marin Highlands3.jpg — en:User:Paul.h (Public domain)"
+    }
+  }
+]

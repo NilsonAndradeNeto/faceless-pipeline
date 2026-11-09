@@ -1092,3 +1092,173 @@ json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): lin
 04:51:55 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
 04:51:55 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
 04:51:55 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+17:33:45 [ciclo] INFO: — ciclo 09/11 17:33 —
+17:33:45 [ciclo] WARNING: 'O mistério do Mary Celeste e a tripulação fantasma' tem frase sem base na fonte — reescrevendo (1/2)
+17:33:45 [scriptwriter] INFO: Escrevendo roteiro: Mary Celeste: o navio encontrado intacto e sem ninguém a bordo
+17:34:24 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:34:24 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 4800→397 tokens, US$0.0000, 39.3s
+17:34:24 [scriptwriter] INFO: Editando para retenção...
+17:34:31 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+17:34:31 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+17:34:50 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:34:50 [llm] INFO: gemini/gemini-3-flash-preview [critica] 510→346 tokens, US$0.0000, 19.5s
+17:34:50 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 7, 'viradas': 7, 'climax': 8, 'final': 7}
+17:34:50 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+17:34:54 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+17:34:54 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+17:35:03 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:35:03 [llm] INFO: gemini/gemini-3-flash-preview [provas] 4704→923 tokens, US$0.0000, 8.8s
+17:35:03 [scriptwriter] INFO: Checagem 1: 12 frases, 0 com problema, 0 para conferir
+17:35:03 [scriptwriter] INFO: Roteiro salvo: 187 palavras, 1089 caracteres, confiança alta
+17:35:03 [ciclo] INFO: Aprovado automaticamente: O mistério do navio encontrado sem ninguém a bordo
+17:35:03 [ciclo] INFO: Vídeo PT de hoje: O mistério do navio encontrado sem ninguém a bordo
+17:35:03 [ciclo] INFO: Aprovado automaticamente: The Unbroken Code of the Zodiac Killer
+17:35:03 [ciclo] INFO: Vídeo EN de hoje: The Unbroken Code of the Zodiac Killer
+17:35:03 [produzir] INFO: ▶ Produzindo: O mistério do navio encontrado sem ninguém a bordo
+17:35:04 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1089 caracteres, restam só 771) — usando a voz do Gemini
+17:35:23 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 80.2s
+17:35:27 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+17:35:27 [tts] INFO: Legenda alinhada: 181 de 187 palavras batem com o Whisper
+17:35:27 [tts] WARNING: Cortando 5.7s de fala extra no início do áudio do Gemini
+17:35:28 [tts] INFO: Narração pronta (gemini): 74.3s, 187 palavras
+17:35:29 [visual_planner] INFO: 9 imagens reais disponíveis nos artigos-fonte
+17:35:35 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+17:35:35 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+17:36:00 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:36:00 [llm] INFO: gemini/gemini-3-flash-preview [visual] 1193→1276 tokens, US$0.0000, 25.8s
+17:36:00 [visual_planner] INFO: 18 cenas (média 4.2s): 7 com imagem real, 11 com IA
+17:36:00 [broll] INFO: Cena  1 (4.4s): wikimedia O Mary Celeste foi encontrado à deriva no meio do Atlântico,
+17:36:04 [broll] INFO: Cena  2 (5.1s): ia        mas o que a tripulação do Dei Gratia viu lá dentro desafia a
+17:36:06 [broll] INFO: Cena  3 (4.2s): wikimedia Em 1872, o capitão Briggs zarpou com sua esposa,
+17:36:18 [broll] INFO: Cena  4 (3.1s): ia        sua filha de dois anos e sete marinheiros.
+17:36:30 [broll] INFO: Cena  5 (3.3s): ia        Semanas depois, o navio foi avistado perto dos Açores,
+17:36:42 [broll] INFO: Cena  6 (3.5s): ia        navegando como um fantasma. Ao subirem a bordo,
+17:36:53 [broll] INFO: Cena  7 (5.2s): ia        o choque foi imediato: a estrutura estava impecável e as vel
+17:37:06 [broll] INFO: Cena  8 (1.7s): ia        Não havia sinal de luta ou pirataria.
+17:37:06 [broll] INFO: Cena  9 (5.5s): wikimedia Os mantimentos eram abundantes para meses e os pertences pes
+17:37:16 [broll] INFO: Cena 10 (5.0s): ia        organizados nas cabines. Até a carga de mil setecentos e um 
+17:37:18 [broll] INFO: Cena 11 (5.3s): wikimedia estava intacta no porão. O mistério atinge o ápice no diário
+17:37:18 [broll] INFO: Cena 12 (3.4s): wikimedia o último registro foi feito dez dias antes.
+17:37:19 [broll] INFO: Cena 13 (4.4s): wikimedia Dez pessoas simplesmente evaporaram sem deixar um único rast
+17:37:32 [broll] INFO: Cena 14 (5.1s): ia        exceto por um detalhe bizarro: o bote salva-vidas sumiu e um
+17:37:43 [broll] INFO: Cena 15 (5.2s): ia        totalmente desmontada. Por que uma família abandonaria um ab
+17:37:57 [broll] INFO: Cena 16 (3.8s): ia        comida farta para se arriscar no oceano impiedoso?
+17:37:59 [broll] INFO: Cena 17 (3.5s): wikimedia Se o navio não estava afundando, o que causou esse pânico?
+17:38:13 [broll] INFO: Cena 18 (3.3s): ia        O que você faria se encontrasse esse navio hoje?
+17:38:13 [video_builder] INFO: Cena 1/18 (imagem, 4.4s)
+17:38:14 [video_builder] INFO: Encoder: x264
+17:38:18 [video_builder] INFO: Cena 2/18 (imagem, 5.1s)
+17:38:23 [video_builder] INFO: Cena 3/18 (imagem, 4.2s)
+17:38:27 [video_builder] INFO: Cena 4/18 (imagem, 3.1s)
+17:38:30 [video_builder] INFO: Cena 5/18 (imagem, 3.3s)
+17:38:33 [video_builder] INFO: Cena 6/18 (imagem, 3.5s)
+17:38:37 [video_builder] INFO: Cena 7/18 (imagem, 5.2s)
+17:38:41 [video_builder] INFO: Cena 8/18 (imagem, 1.7s)
+17:38:44 [video_builder] INFO: Cena 9/18 (imagem, 5.5s)
+17:38:48 [video_builder] INFO: Cena 10/18 (imagem, 5.0s)
+17:38:53 [video_builder] INFO: Cena 11/18 (imagem, 5.3s)
+17:38:58 [video_builder] INFO: Cena 12/18 (imagem, 3.4s)
+17:39:01 [video_builder] INFO: Cena 13/18 (imagem, 4.4s)
+17:39:06 [video_builder] INFO: Cena 14/18 (imagem, 5.1s)
+17:39:10 [video_builder] INFO: Cena 15/18 (imagem, 5.2s)
+17:39:15 [video_builder] INFO: Cena 16/18 (imagem, 3.8s)
+17:39:19 [video_builder] INFO: Cena 17/18 (imagem, 3.5s)
+17:39:22 [video_builder] INFO: Cena 18/18 (imagem, 3.3s)
+17:39:26 [video_builder] INFO: Música: trilha_07.mp3
+17:40:14 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261109T074804Z_pt.mp4 (74.9s)
+17:40:14 [produzir] INFO: ✅ Pronto: O mistério do navio encontrado sem ninguém a bordo
+17:40:14 [produzir] INFO: ▶ Produzindo: The Unbroken Code of the Zodiac Killer
+17:40:15 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1041 caracteres, restam só 771) — usando a voz do Gemini
+17:40:32 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 73.9s
+17:40:34 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+17:40:34 [tts] INFO: Legenda alinhada: 169 de 174 palavras batem com o Whisper
+17:40:34 [tts] WARNING: Cortando 6.1s de fala extra no início do áudio do Gemini
+17:40:34 [tts] INFO: Narração pronta (gemini): 67.4s, 174 palavras
+17:40:34 [visual_planner] INFO: 16 imagens reais disponíveis nos artigos-fonte
+17:40:59 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+17:40:59 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+17:41:19 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:41:19 [llm] INFO: gemini/gemini-3-flash-preview [visual] 1283→1073 tokens, US$0.0000, 20.4s
+17:41:19 [visual_planner] INFO: 14 cenas (média 4.9s): 7 com imagem real, 7 com IA
+17:41:23 [broll] INFO: Cena  1 (5.9s): ia        To claim credit for a murder, a killer mailed newspapers a p
+17:41:27 [broll] INFO: Cena  2 (5.2s): ia        In July 1969, a stranger walked up to a parked car in Vallej
+17:41:31 [broll] INFO: Cena  3 (4.8s): ia        He flashed a light, then opened fire with a nine-millimeter 
+17:41:40 [broll] INFO: Cena  4 (5.8s): ia        Darlene Ferrin died at the hospital, but Michael Mageau surv
+17:41:53 [broll] INFO: Cena  5 (5.2s): ia        Minutes later, a call was placed from a payphone two blocks 
+17:42:01 [broll] INFO: Cena  6 (6.2s): ia        The killer called police himself, claiming credit for her de
+17:42:03 [broll] INFO: Cena  7 (5.1s): wikimedia Then came the letters. Signed with a crosshairs symbol, he d
+17:42:05 [broll] INFO: Cena  8 (3.9s): wikimedia encrypted messages. Police investigated for years,
+17:42:06 [broll] INFO: Cena  9 (3.8s): wikimedia naming former schoolteacher Arthur Leigh Allen as their main
+17:42:19 [broll] INFO: Cena 10 (5.4s): ia        yet never had enough evidence to charge him. But his most ta
+17:42:21 [broll] INFO: Cena 11 (3.3s): wikimedia In 1970, the killer mailed a cipher beginning with the words
+17:42:22 [broll] INFO: Cena 12 (4.6s): wikimedia "My name is..." That code remains completely unsolved.
+17:42:24 [broll] INFO: Cena 13 (4.1s): wikimedia Two of his ciphers are still unbroken, hiding his secret ide
+17:42:25 [broll] INFO: Cena 14 (4.7s): wikimedia Do you think the Zodiac was a genius, or did police just fai
+17:42:25 [video_builder] INFO: Cena 1/14 (imagem, 5.9s)
+17:42:30 [video_builder] INFO: Cena 2/14 (imagem, 5.2s)
+17:42:34 [video_builder] INFO: Cena 3/14 (imagem, 4.8s)
+17:42:38 [video_builder] INFO: Cena 4/14 (imagem, 5.8s)
+17:42:43 [video_builder] INFO: Cena 5/14 (imagem, 5.2s)
+17:42:47 [video_builder] INFO: Cena 6/14 (imagem, 6.2s)
+17:42:53 [video_builder] INFO: Cena 7/14 (imagem, 5.1s)
+17:42:57 [video_builder] INFO: Cena 8/14 (imagem, 3.9s)
+17:43:01 [video_builder] INFO: Cena 9/14 (imagem, 3.8s)
+17:43:04 [video_builder] INFO: Cena 10/14 (imagem, 5.4s)
+17:43:09 [video_builder] INFO: Cena 11/14 (imagem, 3.3s)
+17:43:12 [video_builder] INFO: Cena 12/14 (imagem, 4.6s)
+17:43:16 [video_builder] INFO: Cena 13/14 (imagem, 4.1s)
+17:43:20 [video_builder] INFO: Cena 14/14 (imagem, 4.7s)
+17:43:24 [video_builder] INFO: Música: trilha_01.mp3
+17:44:05 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261109T075013Z_en.mp4 (68.0s)
+17:44:05 [produzir] INFO: ✅ Pronto: The Unbroken Code of the Zodiac Killer
+17:44:05 [produzir] INFO: ▶ Produzindo: The 600-Year-Old Book That No One Can Read
+17:44:09 [broll] INFO: Cena  1 (5.7s): ia        The greatest codebreakers of World War Two cracked the most 
+17:44:09 [broll] INFO: Limite de download, aguardando 10s
+17:44:19 [broll] INFO: Limite de download, aguardando 10s
+17:44:29 [broll] INFO: Limite de download, aguardando 10s
+17:44:39 [broll] INFO: Limite de download, aguardando 10s
+17:44:49 [broll] WARNING: Cena 2: erro numa fonte (429 Client Error: Too Many Requests (015d12c) for url: https://upload.wikimedia.org/wikipedia/commons/e/e7/Voynich_Manus), tentando a próxima
+17:44:53 [broll] INFO: Cena  2 (3.5s): ia        but they couldn't translate a single word of this book.
+17:44:53 [broll] INFO: Limite de download, aguardando 10s
+17:45:03 [broll] INFO: Limite de download, aguardando 10s
+17:45:13 [broll] INFO: Limite de download, aguardando 10s
+17:45:23 [broll] INFO: Limite de download, aguardando 10s
+17:45:33 [broll] WARNING: Cena 3: erro numa fonte (429 Client Error: Too Many Requests (015d12c) for url: https://upload.wikimedia.org/wikipedia/commons/3/37/Voynich_Manus), tentando a próxima
+17:45:37 [broll] INFO: Cena  3 (5.8s): ia        For six hundred years, the Voynich Manuscript has remained t
+17:45:39 [broll] INFO: Cena  4 (3.9s): wikimedia Carbon dating places these calfskin pages in the early 1400s
+17:45:40 [broll] INFO: Cena  5 (3.9s): wikimedia yet the script is written in a language that shouldn't exist
+17:45:42 [broll] INFO: Cena  6 (5.5s): wikimedia There are around two hundred forty pages of smooth iron gall
+17:45:44 [broll] INFO: Cena  7 (4.2s): wikimedia with no obvious punctuation, though some parts were later re
+17:45:44 [broll] INFO: Limite de download, aguardando 60s
+17:46:44 [broll] INFO: Limite de download, aguardando 60s
+17:47:44 [broll] INFO: Limite de download, aguardando 60s
+17:48:44 [broll] INFO: Limite de download, aguardando 60s
+17:49:44 [broll] WARNING: Cena 8: erro numa fonte (429 Client Error: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead ), tentando a próxima
+17:49:44 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+17:49:44 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+17:49:45 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+17:49:45 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+17:49:45 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+17:49:45 [ciclo] ERROR: Falha ao publicar pt youtube
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 197, in publicar_no_horario
+    r = publicar(plataforma, ler_json(meta_arq), video)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 166, in publicar
+    return publicar_youtube(meta, Path(video))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 52, in publicar_youtube
+    yt = youtube_cliente(meta["lang"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 42, in youtube_cliente
+    cred = Credentials.from_authorized_user_file(str(arq), ESCOPOS_YT)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/.venv/lib/python3.11/site-packages/google/oauth2/credentials.py", line 544, in from_authorized_user_file
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
+    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
+json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)

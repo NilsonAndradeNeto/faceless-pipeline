@@ -1,0 +1,66 @@
+{
+  "id": "20261109T074804Z_pt",
+  "lang": "pt",
+  "tema": "Mary Celeste: o navio encontrado intacto e sem ninguém a bordo",
+  "titulo": "O mistério do navio encontrado sem ninguém a bordo",
+  "hook": "O Mary Celeste foi encontrado à deriva no meio do Atlântico, mas o que a tripulação do Dei Gratia viu lá dentro desafia a lógica humana.",
+  "descricao": "Em 1872, o Mary Celeste foi encontrado intacto e navegando no Atlântico, mas completamente deserto. Qual é a sua teoria sobre o paradeiro da tripulação?",
+  "hashtags": [
+    "maryceleste",
+    "misteriosreais",
+    "historia",
+    "naviofantasma",
+    "fatoscuriosos",
+    "casossemsolucao"
+  ],
+  "palavras": 187,
+  "caracteres": 1089,
+  "notas_editor_antes": {
+    "gancho": 6,
+    "ritmo": 7,
+    "viradas": 7,
+    "climax": 8,
+    "final": 7
+  },
+  "checagem": {
+    "sem_comprovacao": [],
+    "conferir": [],
+    "confianca": "alta"
+  },
+  "versoes": {
+    "rascunho": "Um navio navegava no Atlântico, mas o leme estava totalmente vazio. E o que a tripulação do Dei Gratia encontrou lá dentro desafia a razão. Em novembro de 1872, o capitão Benjamin Briggs zarpou de Nova Iorque. Ele levava a esposa Sarah, a filha de dois anos e sete marinheiros. No porão, o navio carregava mil setecentos e um barris de álcool. Só que, semanas depois, a embarcação foi vista à deriva perto dos Açores. Os marinheiros canadenses subiram a bordo esperando ver sinais de pirataria. Mas a estrutura da embarcação estava em perfeitas condições de navegação. Havia mantimentos para muitos meses e os pertences pessoais continuavam nas cabines. A carga de álcool estava intacta, com velas parcialmente içadas. O último registro no diário de bordo fora feito dez dias antes. Dez pessoas simplesmente evaporaram no mar sem deixar um único rastro. Apenas o bote salva-vidas sumira e uma bomba d'água fora desmontada. Por que abandonar um abrigo seguro e comida abundante para se arriscar no oceano? Na sua opinião, o que fez essa tripulação evacuar o Mary Celeste?",
+    "editado": "O Mary Celeste foi encontrado à deriva no meio do Atlântico, mas o que a tripulação do Dei Gratia viu lá dentro desafia a lógica humana. Em 1872, o capitão Briggs zarpou com sua esposa, sua filha de dois anos e sete marinheiros. Semanas depois, o navio foi avistado perto dos Açores, navegando como um fantasma. Ao subirem a bordo, o choque foi imediato: a estrutura estava impecável e as velas içadas. Não havia sinal de luta ou pirataria. Os mantimentos eram abundantes para meses e os pertences pessoais continuavam organizados nas cabines. Até a carga de mil setecentos e um barris de álcool estava intacta no porão. O mistério atinge o ápice no diário de bordo: o último registro foi feito dez dias antes. Dez pessoas simplesmente evaporaram sem deixar um único rastro, exceto por um detalhe bizarro: o bote salva-vidas sumiu e uma bomba d'água estava totalmente desmontada. Por que uma família abandonaria um abrigo seguro e comida farta para se arriscar no oceano impiedoso? Se o navio não estava afundando, o que causou esse pânico? O que você faria se encontrasse esse navio hoje?"
+  },
+  "fontes": [
+    {
+      "titulo": "Mary Celeste",
+      "url": "https://en.wikipedia.org/wiki/Mary_Celeste"
+    },
+    {
+      "titulo": "Mary Celeste",
+      "url": "https://pt.wikipedia.org/wiki/Mary_Celeste"
+    }
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-09",
+  "producao": {
+    "etapa": "pronto",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 1.0,
+    "atualizado": "2026-11-09 17:40:14"
+  },
+  "voz": "gemini",
+  "creditos_imagens": [
+    "Arthur Conan Doyle by Herbert Rose Barraud 1893.jpg — Herbert Rose Barraud (1845 - c1896) (Public domain)",
+    "Lap desk of Captain Benjamin Briggs from the Mary Celeste (PEM M6557) 02.jpg — Crawdad Blues (CC0)",
+    "Mary Celeste NYTimes 1873February26.png — Boston Post (Public domain)",
+    "Mary Celeste as Amazon in 1861 (cropped).jpg — Unconfirmed, possibly Honore Pellegrin (1800–c.1870). This speculative attributi (Public domain)",
+    "Sir James Cochrane 1841-1877.jpg — Unknown authorUnknown author (Public domain)",
+    "Trombe.jpg — Dr. Joseph Golden, NOAA (Public domain)",
+    "Villageview.jpg — Dan Conlin (CC BY-SA 3.0)"
+  ],
+  "imagens_ia": 11,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261109T074804Z_pt.mp4",
+  "duracao_seg": 74.9
+}

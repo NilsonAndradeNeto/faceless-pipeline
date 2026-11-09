@@ -1,0 +1,872 @@
+[
+  {
+    "palavra": "To",
+    "inicio": 0.15,
+    "fim": 0.29
+  },
+  {
+    "palavra": "claim",
+    "inicio": 0.29,
+    "fim": 0.55
+  },
+  {
+    "palavra": "credit",
+    "inicio": 0.55,
+    "fim": 0.85
+  },
+  {
+    "palavra": "for",
+    "inicio": 0.85,
+    "fim": 1.11
+  },
+  {
+    "palavra": "a",
+    "inicio": 1.11,
+    "fim": 1.23
+  },
+  {
+    "palavra": "murder,",
+    "inicio": 1.23,
+    "fim": 1.97
+  },
+  {
+    "palavra": "a",
+    "inicio": 1.97,
+    "fim": 2.11
+  },
+  {
+    "palavra": "killer",
+    "inicio": 2.11,
+    "fim": 2.37
+  },
+  {
+    "palavra": "mailed",
+    "inicio": 2.37,
+    "fim": 2.75
+  },
+  {
+    "palavra": "newspapers",
+    "inicio": 2.75,
+    "fim": 3.31
+  },
+  {
+    "palavra": "a",
+    "inicio": 3.31,
+    "fim": 3.61
+  },
+  {
+    "palavra": "piece",
+    "inicio": 3.61,
+    "fim": 3.87
+  },
+  {
+    "palavra": "of",
+    "inicio": 3.87,
+    "fim": 4.11
+  },
+  {
+    "palavra": "a",
+    "inicio": 4.11,
+    "fim": 4.19
+  },
+  {
+    "palavra": "victim's",
+    "inicio": 4.19,
+    "fim": 4.59
+  },
+  {
+    "palavra": "shirt.",
+    "inicio": 4.59,
+    "fim": 4.93
+  },
+  {
+    "palavra": "In",
+    "inicio": 5.93,
+    "fim": 6.09
+  },
+  {
+    "palavra": "July",
+    "inicio": 6.09,
+    "fim": 6.41
+  },
+  {
+    "palavra": "1969,",
+    "inicio": 6.41,
+    "fim": 7.57
+  },
+  {
+    "palavra": "a",
+    "inicio": 7.57,
+    "fim": 8.07
+  },
+  {
+    "palavra": "stranger",
+    "inicio": 8.07,
+    "fim": 8.43
+  },
+  {
+    "palavra": "walked",
+    "inicio": 8.43,
+    "fim": 8.87
+  },
+  {
+    "palavra": "up",
+    "inicio": 8.87,
+    "fim": 9.03
+  },
+  {
+    "palavra": "to",
+    "inicio": 9.03,
+    "fim": 9.15
+  },
+  {
+    "palavra": "a",
+    "inicio": 9.15,
+    "fim": 9.27
+  },
+  {
+    "palavra": "parked",
+    "inicio": 9.27,
+    "fim": 9.49
+  },
+  {
+    "palavra": "car",
+    "inicio": 9.49,
+    "fim": 9.83
+  },
+  {
+    "palavra": "in",
+    "inicio": 9.83,
+    "fim": 9.99
+  },
+  {
+    "palavra": "Vallejo.",
+    "inicio": 9.99,
+    "fim": 10.39
+  },
+  {
+    "palavra": "He",
+    "inicio": 11.11,
+    "fim": 11.31
+  },
+  {
+    "palavra": "flashed",
+    "inicio": 11.31,
+    "fim": 11.73
+  },
+  {
+    "palavra": "a",
+    "inicio": 11.73,
+    "fim": 11.83
+  },
+  {
+    "palavra": "light,",
+    "inicio": 11.83,
+    "fim": 12.09
+  },
+  {
+    "palavra": "then",
+    "inicio": 12.09,
+    "fim": 12.81
+  },
+  {
+    "palavra": "opened",
+    "inicio": 12.81,
+    "fim": 13.09
+  },
+  {
+    "palavra": "fire",
+    "inicio": 13.09,
+    "fim": 13.47
+  },
+  {
+    "palavra": "with",
+    "inicio": 13.47,
+    "fim": 13.69
+  },
+  {
+    "palavra": "a",
+    "inicio": 13.69,
+    "fim": 13.81
+  },
+  {
+    "palavra": "nine-millimeter",
+    "inicio": 13.81,
+    "fim": 14.29
+  },
+  {
+    "palavra": "pistol.",
+    "inicio": 14.29,
+    "fim": 14.75
+  },
+  {
+    "palavra": "Darlene",
+    "inicio": 15.93,
+    "fim": 16.29
+  },
+  {
+    "palavra": "Ferrin",
+    "inicio": 16.29,
+    "fim": 16.65
+  },
+  {
+    "palavra": "died",
+    "inicio": 16.65,
+    "fim": 16.91
+  },
+  {
+    "palavra": "at",
+    "inicio": 16.91,
+    "fim": 17.09
+  },
+  {
+    "palavra": "the",
+    "inicio": 17.09,
+    "fim": 17.17
+  },
+  {
+    "palavra": "hospital,",
+    "inicio": 17.17,
+    "fim": 17.55
+  },
+  {
+    "palavra": "but",
+    "inicio": 17.55,
+    "fim": 18.29
+  },
+  {
+    "palavra": "Michael",
+    "inicio": 18.29,
+    "fim": 18.59
+  },
+  {
+    "palavra": "Mageau",
+    "inicio": 18.59,
+    "fim": 18.89
+  },
+  {
+    "palavra": "survived",
+    "inicio": 18.89,
+    "fim": 19.39
+  },
+  {
+    "palavra": "three",
+    "inicio": 19.39,
+    "fim": 19.81
+  },
+  {
+    "palavra": "gunshots.",
+    "inicio": 19.81,
+    "fim": 20.39
+  },
+  {
+    "palavra": "Minutes",
+    "inicio": 21.69,
+    "fim": 21.97
+  },
+  {
+    "palavra": "later,",
+    "inicio": 21.97,
+    "fim": 22.63
+  },
+  {
+    "palavra": "a",
+    "inicio": 22.63,
+    "fim": 22.99
+  },
+  {
+    "palavra": "call",
+    "inicio": 22.99,
+    "fim": 23.17
+  },
+  {
+    "palavra": "was",
+    "inicio": 23.17,
+    "fim": 23.35
+  },
+  {
+    "palavra": "placed",
+    "inicio": 23.35,
+    "fim": 23.59
+  },
+  {
+    "palavra": "from",
+    "inicio": 23.59,
+    "fim": 23.81
+  },
+  {
+    "palavra": "a",
+    "inicio": 23.81,
+    "fim": 23.95
+  },
+  {
+    "palavra": "payphone",
+    "inicio": 23.95,
+    "fim": 24.33
+  },
+  {
+    "palavra": "two",
+    "inicio": 24.33,
+    "fim": 24.67
+  },
+  {
+    "palavra": "blocks",
+    "inicio": 24.67,
+    "fim": 24.99
+  },
+  {
+    "palavra": "from",
+    "inicio": 24.99,
+    "fim": 25.25
+  },
+  {
+    "palavra": "police",
+    "inicio": 25.25,
+    "fim": 25.51
+  },
+  {
+    "palavra": "headquarters.",
+    "inicio": 25.51,
+    "fim": 25.97
+  },
+  {
+    "palavra": "The",
+    "inicio": 26.85,
+    "fim": 27.03
+  },
+  {
+    "palavra": "killer",
+    "inicio": 27.03,
+    "fim": 27.19
+  },
+  {
+    "palavra": "called",
+    "inicio": 27.19,
+    "fim": 27.51
+  },
+  {
+    "palavra": "police",
+    "inicio": 27.51,
+    "fim": 27.83
+  },
+  {
+    "palavra": "himself,",
+    "inicio": 27.83,
+    "fim": 28.47
+  },
+  {
+    "palavra": "claiming",
+    "inicio": 28.47,
+    "fim": 28.99
+  },
+  {
+    "palavra": "credit",
+    "inicio": 28.99,
+    "fim": 29.31
+  },
+  {
+    "palavra": "for",
+    "inicio": 29.31,
+    "fim": 29.51
+  },
+  {
+    "palavra": "her",
+    "inicio": 29.51,
+    "fim": 29.67
+  },
+  {
+    "palavra": "death",
+    "inicio": 29.67,
+    "fim": 30.01
+  },
+  {
+    "palavra": "and",
+    "inicio": 30.01,
+    "fim": 30.47
+  },
+  {
+    "palavra": "the",
+    "inicio": 30.47,
+    "fim": 30.59
+  },
+  {
+    "palavra": "murders",
+    "inicio": 30.59,
+    "fim": 30.89
+  },
+  {
+    "palavra": "from",
+    "inicio": 30.89,
+    "fim": 31.11
+  },
+  {
+    "palavra": "the",
+    "inicio": 31.11,
+    "fim": 31.25
+  },
+  {
+    "palavra": "year",
+    "inicio": 31.25,
+    "fim": 31.35
+  },
+  {
+    "palavra": "before.",
+    "inicio": 31.35,
+    "fim": 31.63
+  },
+  {
+    "palavra": "Then",
+    "inicio": 33.05,
+    "fim": 33.25
+  },
+  {
+    "palavra": "came",
+    "inicio": 33.25,
+    "fim": 33.51
+  },
+  {
+    "palavra": "the",
+    "inicio": 33.51,
+    "fim": 33.69
+  },
+  {
+    "palavra": "letters.",
+    "inicio": 33.69,
+    "fim": 33.93
+  },
+  {
+    "palavra": "Signed",
+    "inicio": 34.87,
+    "fim": 35.11
+  },
+  {
+    "palavra": "with",
+    "inicio": 35.11,
+    "fim": 35.23
+  },
+  {
+    "palavra": "a",
+    "inicio": 35.23,
+    "fim": 35.33
+  },
+  {
+    "palavra": "crosshairs",
+    "inicio": 35.33,
+    "fim": 35.71
+  },
+  {
+    "palavra": "symbol,",
+    "inicio": 35.71,
+    "fim": 36.03
+  },
+  {
+    "palavra": "he",
+    "inicio": 36.03,
+    "fim": 36.81
+  },
+  {
+    "palavra": "demanded",
+    "inicio": 36.81,
+    "fim": 37.15
+  },
+  {
+    "palavra": "newspapers",
+    "inicio": 37.15,
+    "fim": 37.65
+  },
+  {
+    "palavra": "print",
+    "inicio": 37.65,
+    "fim": 37.93
+  },
+  {
+    "palavra": "his",
+    "inicio": 37.93,
+    "fim": 38.13
+  },
+  {
+    "palavra": "encrypted",
+    "inicio": 38.13,
+    "fim": 38.41
+  },
+  {
+    "palavra": "messages.",
+    "inicio": 38.41,
+    "fim": 38.89
+  },
+  {
+    "palavra": "Police",
+    "inicio": 39.99,
+    "fim": 40.23
+  },
+  {
+    "palavra": "investigated",
+    "inicio": 40.23,
+    "fim": 40.69
+  },
+  {
+    "palavra": "for",
+    "inicio": 40.69,
+    "fim": 41.01
+  },
+  {
+    "palavra": "years,",
+    "inicio": 41.01,
+    "fim": 41.99
+  },
+  {
+    "palavra": "naming",
+    "inicio": 41.99,
+    "fim": 42.15
+  },
+  {
+    "palavra": "former",
+    "inicio": 42.15,
+    "fim": 42.49
+  },
+  {
+    "palavra": "schoolteacher",
+    "inicio": 42.49,
+    "fim": 43.03
+  },
+  {
+    "palavra": "Arthur",
+    "inicio": 43.03,
+    "fim": 43.43
+  },
+  {
+    "palavra": "Leigh",
+    "inicio": 43.43,
+    "fim": 43.67
+  },
+  {
+    "palavra": "Allen",
+    "inicio": 43.67,
+    "fim": 43.95
+  },
+  {
+    "palavra": "as",
+    "inicio": 43.95,
+    "fim": 44.25
+  },
+  {
+    "palavra": "their",
+    "inicio": 44.25,
+    "fim": 44.37
+  },
+  {
+    "palavra": "main",
+    "inicio": 44.37,
+    "fim": 44.59
+  },
+  {
+    "palavra": "suspect,",
+    "inicio": 44.59,
+    "fim": 45.35
+  },
+  {
+    "palavra": "yet",
+    "inicio": 45.81,
+    "fim": 45.97
+  },
+  {
+    "palavra": "never",
+    "inicio": 45.97,
+    "fim": 46.19
+  },
+  {
+    "palavra": "had",
+    "inicio": 46.19,
+    "fim": 46.35
+  },
+  {
+    "palavra": "enough",
+    "inicio": 46.35,
+    "fim": 46.53
+  },
+  {
+    "palavra": "evidence",
+    "inicio": 46.53,
+    "fim": 46.87
+  },
+  {
+    "palavra": "to",
+    "inicio": 46.87,
+    "fim": 47.07
+  },
+  {
+    "palavra": "charge",
+    "inicio": 47.07,
+    "fim": 47.29
+  },
+  {
+    "palavra": "him.",
+    "inicio": 47.29,
+    "fim": 47.49
+  },
+  {
+    "palavra": "But",
+    "inicio": 48.23,
+    "fim": 48.49
+  },
+  {
+    "palavra": "his",
+    "inicio": 48.49,
+    "fim": 48.61
+  },
+  {
+    "palavra": "most",
+    "inicio": 48.61,
+    "fim": 48.77
+  },
+  {
+    "palavra": "taunting",
+    "inicio": 48.77,
+    "fim": 49.11
+  },
+  {
+    "palavra": "move",
+    "inicio": 49.11,
+    "fim": 49.43
+  },
+  {
+    "palavra": "was",
+    "inicio": 49.43,
+    "fim": 49.67
+  },
+  {
+    "palavra": "still",
+    "inicio": 49.67,
+    "fim": 49.83
+  },
+  {
+    "palavra": "to",
+    "inicio": 49.83,
+    "fim": 49.97
+  },
+  {
+    "palavra": "come.",
+    "inicio": 49.97,
+    "fim": 50.25
+  },
+  {
+    "palavra": "In",
+    "inicio": 51.23,
+    "fim": 51.37
+  },
+  {
+    "palavra": "1970,",
+    "inicio": 51.37,
+    "fim": 52.65
+  },
+  {
+    "palavra": "the",
+    "inicio": 52.65,
+    "fim": 52.71
+  },
+  {
+    "palavra": "killer",
+    "inicio": 52.71,
+    "fim": 52.89
+  },
+  {
+    "palavra": "mailed",
+    "inicio": 52.89,
+    "fim": 53.17
+  },
+  {
+    "palavra": "a",
+    "inicio": 53.17,
+    "fim": 53.45
+  },
+  {
+    "palavra": "cipher",
+    "inicio": 53.45,
+    "fim": 53.61
+  },
+  {
+    "palavra": "beginning",
+    "inicio": 53.61,
+    "fim": 53.99
+  },
+  {
+    "palavra": "with",
+    "inicio": 53.99,
+    "fim": 54.21
+  },
+  {
+    "palavra": "the",
+    "inicio": 54.21,
+    "fim": 54.31
+  },
+  {
+    "palavra": "words,",
+    "inicio": 54.31,
+    "fim": 54.73
+  },
+  {
+    "palavra": "\"My",
+    "inicio": 54.51,
+    "fim": 55.29
+  },
+  {
+    "palavra": "name",
+    "inicio": 55.29,
+    "fim": 55.55
+  },
+  {
+    "palavra": "is...\"",
+    "inicio": 55.55,
+    "fim": 56.11
+  },
+  {
+    "palavra": "That",
+    "inicio": 56.23,
+    "fim": 56.87
+  },
+  {
+    "palavra": "code",
+    "inicio": 56.87,
+    "fim": 57.13
+  },
+  {
+    "palavra": "remains",
+    "inicio": 57.13,
+    "fim": 57.45
+  },
+  {
+    "palavra": "completely",
+    "inicio": 57.45,
+    "fim": 58.03
+  },
+  {
+    "palavra": "unsolved.",
+    "inicio": 58.03,
+    "fim": 58.99
+  },
+  {
+    "palavra": "Two",
+    "inicio": 59.13,
+    "fim": 59.73
+  },
+  {
+    "palavra": "of",
+    "inicio": 59.73,
+    "fim": 59.87
+  },
+  {
+    "palavra": "his",
+    "inicio": 59.87,
+    "fim": 59.97
+  },
+  {
+    "palavra": "ciphers",
+    "inicio": 59.97,
+    "fim": 60.19
+  },
+  {
+    "palavra": "are",
+    "inicio": 60.19,
+    "fim": 60.31
+  },
+  {
+    "palavra": "still",
+    "inicio": 60.31,
+    "fim": 60.47
+  },
+  {
+    "palavra": "unbroken,",
+    "inicio": 60.47,
+    "fim": 61.03
+  },
+  {
+    "palavra": "hiding",
+    "inicio": 60.79,
+    "fim": 61.55
+  },
+  {
+    "palavra": "his",
+    "inicio": 61.55,
+    "fim": 61.73
+  },
+  {
+    "palavra": "secret",
+    "inicio": 61.73,
+    "fim": 62.05
+  },
+  {
+    "palavra": "identity",
+    "inicio": 62.05,
+    "fim": 62.45
+  },
+  {
+    "palavra": "forever.",
+    "inicio": 62.45,
+    "fim": 63.05
+  },
+  {
+    "palavra": "Do",
+    "inicio": 63.27,
+    "fim": 63.87
+  },
+  {
+    "palavra": "you",
+    "inicio": 63.87,
+    "fim": 63.97
+  },
+  {
+    "palavra": "think",
+    "inicio": 63.97,
+    "fim": 64.17
+  },
+  {
+    "palavra": "the",
+    "inicio": 64.17,
+    "fim": 64.29
+  },
+  {
+    "palavra": "Zodiac",
+    "inicio": 64.29,
+    "fim": 64.57
+  },
+  {
+    "palavra": "was",
+    "inicio": 64.57,
+    "fim": 64.75
+  },
+  {
+    "palavra": "a",
+    "inicio": 64.75,
+    "fim": 64.89
+  },
+  {
+    "palavra": "genius,",
+    "inicio": 64.89,
+    "fim": 65.39
+  },
+  {
+    "palavra": "or",
+    "inicio": 65.47,
+    "fim": 66.05
+  },
+  {
+    "palavra": "did",
+    "inicio": 66.05,
+    "fim": 66.19
+  },
+  {
+    "palavra": "police",
+    "inicio": 66.19,
+    "fim": 66.55
+  },
+  {
+    "palavra": "just",
+    "inicio": 66.55,
+    "fim": 66.83
+  },
+  {
+    "palavra": "fail?",
+    "inicio": 66.83,
+    "fim": 67.41
+  }
+]

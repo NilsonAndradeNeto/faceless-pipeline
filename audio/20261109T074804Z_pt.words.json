@@ -1,0 +1,937 @@
+[
+  {
+    "palavra": "O",
+    "inicio": 0.15,
+    "fim": 0.35
+  },
+  {
+    "palavra": "Mary",
+    "inicio": 0.35,
+    "fim": 0.65
+  },
+  {
+    "palavra": "Celeste",
+    "inicio": 0.65,
+    "fim": 1.19
+  },
+  {
+    "palavra": "foi",
+    "inicio": 1.19,
+    "fim": 1.51
+  },
+  {
+    "palavra": "encontrado",
+    "inicio": 1.51,
+    "fim": 2.07
+  },
+  {
+    "palavra": "à",
+    "inicio": 2.07,
+    "fim": 2.25
+  },
+  {
+    "palavra": "deriva",
+    "inicio": 2.25,
+    "fim": 2.61
+  },
+  {
+    "palavra": "no",
+    "inicio": 2.61,
+    "fim": 2.85
+  },
+  {
+    "palavra": "meio",
+    "inicio": 2.85,
+    "fim": 3.07
+  },
+  {
+    "palavra": "do",
+    "inicio": 3.07,
+    "fim": 3.31
+  },
+  {
+    "palavra": "Atlântico,",
+    "inicio": 3.31,
+    "fim": 3.97
+  },
+  {
+    "palavra": "mas",
+    "inicio": 4.39,
+    "fim": 4.53
+  },
+  {
+    "palavra": "o",
+    "inicio": 4.53,
+    "fim": 4.69
+  },
+  {
+    "palavra": "que",
+    "inicio": 4.69,
+    "fim": 4.73
+  },
+  {
+    "palavra": "a",
+    "inicio": 4.73,
+    "fim": 4.85
+  },
+  {
+    "palavra": "tripulação",
+    "inicio": 4.85,
+    "fim": 5.39
+  },
+  {
+    "palavra": "do",
+    "inicio": 5.39,
+    "fim": 5.55
+  },
+  {
+    "palavra": "Dei",
+    "inicio": 5.55,
+    "fim": 5.84
+  },
+  {
+    "palavra": "Gratia",
+    "inicio": 5.84,
+    "fim": 6.13
+  },
+  {
+    "palavra": "viu",
+    "inicio": 6.13,
+    "fim": 6.43
+  },
+  {
+    "palavra": "lá",
+    "inicio": 6.43,
+    "fim": 6.61
+  },
+  {
+    "palavra": "dentro",
+    "inicio": 6.61,
+    "fim": 6.91
+  },
+  {
+    "palavra": "desafia",
+    "inicio": 6.91,
+    "fim": 7.65
+  },
+  {
+    "palavra": "a",
+    "inicio": 7.65,
+    "fim": 7.79
+  },
+  {
+    "palavra": "lógica",
+    "inicio": 7.79,
+    "fim": 8.17
+  },
+  {
+    "palavra": "humana.",
+    "inicio": 8.17,
+    "fim": 8.63
+  },
+  {
+    "palavra": "Em",
+    "inicio": 9.53,
+    "fim": 9.69
+  },
+  {
+    "palavra": "1872,",
+    "inicio": 9.69,
+    "fim": 11.49
+  },
+  {
+    "palavra": "o",
+    "inicio": 11.49,
+    "fim": 11.59
+  },
+  {
+    "palavra": "capitão",
+    "inicio": 11.59,
+    "fim": 11.87
+  },
+  {
+    "palavra": "Briggs",
+    "inicio": 11.87,
+    "fim": 12.21
+  },
+  {
+    "palavra": "zarpou",
+    "inicio": 12.21,
+    "fim": 12.67
+  },
+  {
+    "palavra": "com",
+    "inicio": 12.67,
+    "fim": 12.83
+  },
+  {
+    "palavra": "sua",
+    "inicio": 12.83,
+    "fim": 12.99
+  },
+  {
+    "palavra": "esposa,",
+    "inicio": 12.99,
+    "fim": 13.73
+  },
+  {
+    "palavra": "sua",
+    "inicio": 13.73,
+    "fim": 13.81
+  },
+  {
+    "palavra": "filha",
+    "inicio": 13.81,
+    "fim": 14.11
+  },
+  {
+    "palavra": "de",
+    "inicio": 14.11,
+    "fim": 14.25
+  },
+  {
+    "palavra": "dois",
+    "inicio": 14.25,
+    "fim": 14.49
+  },
+  {
+    "palavra": "anos",
+    "inicio": 14.49,
+    "fim": 14.77
+  },
+  {
+    "palavra": "e",
+    "inicio": 14.77,
+    "fim": 15.09
+  },
+  {
+    "palavra": "sete",
+    "inicio": 15.09,
+    "fim": 15.39
+  },
+  {
+    "palavra": "marinheiros.",
+    "inicio": 15.39,
+    "fim": 15.95
+  },
+  {
+    "palavra": "Semanas",
+    "inicio": 16.79,
+    "fim": 17.11
+  },
+  {
+    "palavra": "depois,",
+    "inicio": 17.11,
+    "fim": 17.65
+  },
+  {
+    "palavra": "o",
+    "inicio": 17.65,
+    "fim": 17.93
+  },
+  {
+    "palavra": "navio",
+    "inicio": 17.93,
+    "fim": 18.19
+  },
+  {
+    "palavra": "foi",
+    "inicio": 18.19,
+    "fim": 18.39
+  },
+  {
+    "palavra": "avistado",
+    "inicio": 18.39,
+    "fim": 18.83
+  },
+  {
+    "palavra": "perto",
+    "inicio": 18.83,
+    "fim": 19.13
+  },
+  {
+    "palavra": "dos",
+    "inicio": 19.13,
+    "fim": 19.35
+  },
+  {
+    "palavra": "Açores,",
+    "inicio": 19.35,
+    "fim": 20.05
+  },
+  {
+    "palavra": "navegando",
+    "inicio": 20.05,
+    "fim": 20.41
+  },
+  {
+    "palavra": "como",
+    "inicio": 20.41,
+    "fim": 20.71
+  },
+  {
+    "palavra": "um",
+    "inicio": 20.71,
+    "fim": 20.93
+  },
+  {
+    "palavra": "fantasma.",
+    "inicio": 20.93,
+    "fim": 21.63
+  },
+  {
+    "palavra": "Ao",
+    "inicio": 22.45,
+    "fim": 22.61
+  },
+  {
+    "palavra": "subirem",
+    "inicio": 22.61,
+    "fim": 22.93
+  },
+  {
+    "palavra": "a",
+    "inicio": 22.93,
+    "fim": 23.09
+  },
+  {
+    "palavra": "bordo,",
+    "inicio": 23.09,
+    "fim": 23.53
+  },
+  {
+    "palavra": "o",
+    "inicio": 23.53,
+    "fim": 23.63
+  },
+  {
+    "palavra": "choque",
+    "inicio": 23.63,
+    "fim": 23.93
+  },
+  {
+    "palavra": "foi",
+    "inicio": 23.93,
+    "fim": 24.17
+  },
+  {
+    "palavra": "imediato:",
+    "inicio": 24.17,
+    "fim": 24.99
+  },
+  {
+    "palavra": "a",
+    "inicio": 25.19,
+    "fim": 25.37
+  },
+  {
+    "palavra": "estrutura",
+    "inicio": 25.37,
+    "fim": 25.85
+  },
+  {
+    "palavra": "estava",
+    "inicio": 25.85,
+    "fim": 26.13
+  },
+  {
+    "palavra": "impecável",
+    "inicio": 26.13,
+    "fim": 26.83
+  },
+  {
+    "palavra": "e",
+    "inicio": 26.83,
+    "fim": 27.23
+  },
+  {
+    "palavra": "as",
+    "inicio": 27.23,
+    "fim": 27.39
+  },
+  {
+    "palavra": "velas",
+    "inicio": 27.39,
+    "fim": 27.65
+  },
+  {
+    "palavra": "içadas.",
+    "inicio": 27.65,
+    "fim": 28.09
+  },
+  {
+    "palavra": "Não",
+    "inicio": 28.69,
+    "fim": 28.85
+  },
+  {
+    "palavra": "havia",
+    "inicio": 28.85,
+    "fim": 29.03
+  },
+  {
+    "palavra": "sinal",
+    "inicio": 29.03,
+    "fim": 29.29
+  },
+  {
+    "palavra": "de",
+    "inicio": 29.29,
+    "fim": 29.53
+  },
+  {
+    "palavra": "luta",
+    "inicio": 29.53,
+    "fim": 29.91
+  },
+  {
+    "palavra": "ou",
+    "inicio": 29.91,
+    "fim": 30.27
+  },
+  {
+    "palavra": "pirataria.",
+    "inicio": 30.27,
+    "fim": 31.03
+  },
+  {
+    "palavra": "Os",
+    "inicio": 30.37,
+    "fim": 31.55
+  },
+  {
+    "palavra": "mantimentos",
+    "inicio": 31.55,
+    "fim": 31.99
+  },
+  {
+    "palavra": "eram",
+    "inicio": 31.99,
+    "fim": 32.37
+  },
+  {
+    "palavra": "abundantes",
+    "inicio": 32.37,
+    "fim": 33.01
+  },
+  {
+    "palavra": "para",
+    "inicio": 33.01,
+    "fim": 33.27
+  },
+  {
+    "palavra": "meses",
+    "inicio": 33.27,
+    "fim": 33.67
+  },
+  {
+    "palavra": "e",
+    "inicio": 33.67,
+    "fim": 34.27
+  },
+  {
+    "palavra": "os",
+    "inicio": 34.27,
+    "fim": 34.45
+  },
+  {
+    "palavra": "pertences",
+    "inicio": 34.45,
+    "fim": 34.81
+  },
+  {
+    "palavra": "pessoais",
+    "inicio": 34.81,
+    "fim": 35.25
+  },
+  {
+    "palavra": "continuavam",
+    "inicio": 35.25,
+    "fim": 35.87
+  },
+  {
+    "palavra": "organizados",
+    "inicio": 35.87,
+    "fim": 36.57
+  },
+  {
+    "palavra": "nas",
+    "inicio": 36.57,
+    "fim": 36.83
+  },
+  {
+    "palavra": "cabines.",
+    "inicio": 36.83,
+    "fim": 37.39
+  },
+  {
+    "palavra": "Até",
+    "inicio": 37.93,
+    "fim": 38.23
+  },
+  {
+    "palavra": "a",
+    "inicio": 38.23,
+    "fim": 38.39
+  },
+  {
+    "palavra": "carga",
+    "inicio": 38.39,
+    "fim": 38.71
+  },
+  {
+    "palavra": "de",
+    "inicio": 38.71,
+    "fim": 38.89
+  },
+  {
+    "palavra": "mil",
+    "inicio": 38.89,
+    "fim": 39.165
+  },
+  {
+    "palavra": "setecentos",
+    "inicio": 39.165,
+    "fim": 39.44
+  },
+  {
+    "palavra": "e",
+    "inicio": 39.44,
+    "fim": 39.715
+  },
+  {
+    "palavra": "um",
+    "inicio": 39.715,
+    "fim": 39.99
+  },
+  {
+    "palavra": "barris",
+    "inicio": 39.99,
+    "fim": 40.35
+  },
+  {
+    "palavra": "de",
+    "inicio": 40.35,
+    "fim": 40.55
+  },
+  {
+    "palavra": "álcool",
+    "inicio": 40.55,
+    "fim": 40.89
+  },
+  {
+    "palavra": "estava",
+    "inicio": 40.89,
+    "fim": 41.29
+  },
+  {
+    "palavra": "intacta",
+    "inicio": 41.29,
+    "fim": 41.87
+  },
+  {
+    "palavra": "no",
+    "inicio": 41.87,
+    "fim": 42.01
+  },
+  {
+    "palavra": "porão.",
+    "inicio": 42.01,
+    "fim": 42.41
+  },
+  {
+    "palavra": "O",
+    "inicio": 43.01,
+    "fim": 43.15
+  },
+  {
+    "palavra": "mistério",
+    "inicio": 43.15,
+    "fim": 43.65
+  },
+  {
+    "palavra": "atinge",
+    "inicio": 43.65,
+    "fim": 44.09
+  },
+  {
+    "palavra": "o",
+    "inicio": 44.09,
+    "fim": 44.25
+  },
+  {
+    "palavra": "ápice",
+    "inicio": 44.25,
+    "fim": 44.53
+  },
+  {
+    "palavra": "no",
+    "inicio": 44.53,
+    "fim": 44.77
+  },
+  {
+    "palavra": "diário",
+    "inicio": 44.77,
+    "fim": 45.13
+  },
+  {
+    "palavra": "de",
+    "inicio": 45.13,
+    "fim": 45.27
+  },
+  {
+    "palavra": "bordo:",
+    "inicio": 45.27,
+    "fim": 45.75
+  },
+  {
+    "palavra": "o",
+    "inicio": 46.23,
+    "fim": 46.41
+  },
+  {
+    "palavra": "último",
+    "inicio": 46.41,
+    "fim": 46.65
+  },
+  {
+    "palavra": "registro",
+    "inicio": 46.65,
+    "fim": 47.17
+  },
+  {
+    "palavra": "foi",
+    "inicio": 47.17,
+    "fim": 47.33
+  },
+  {
+    "palavra": "feito",
+    "inicio": 47.33,
+    "fim": 47.65
+  },
+  {
+    "palavra": "dez",
+    "inicio": 47.65,
+    "fim": 48.07
+  },
+  {
+    "palavra": "dias",
+    "inicio": 48.07,
+    "fim": 48.49
+  },
+  {
+    "palavra": "antes.",
+    "inicio": 48.49,
+    "fim": 49.37
+  },
+  {
+    "palavra": "Dez",
+    "inicio": 49.65,
+    "fim": 49.91
+  },
+  {
+    "palavra": "pessoas",
+    "inicio": 49.91,
+    "fim": 50.31
+  },
+  {
+    "palavra": "simplesmente",
+    "inicio": 50.31,
+    "fim": 50.93
+  },
+  {
+    "palavra": "evaporaram",
+    "inicio": 50.93,
+    "fim": 51.79
+  },
+  {
+    "palavra": "sem",
+    "inicio": 51.79,
+    "fim": 52.05
+  },
+  {
+    "palavra": "deixar",
+    "inicio": 52.05,
+    "fim": 52.35
+  },
+  {
+    "palavra": "um",
+    "inicio": 52.35,
+    "fim": 52.59
+  },
+  {
+    "palavra": "único",
+    "inicio": 52.59,
+    "fim": 52.89
+  },
+  {
+    "palavra": "rastro,",
+    "inicio": 52.89,
+    "fim": 53.53
+  },
+  {
+    "palavra": "exceto",
+    "inicio": 54.03,
+    "fim": 54.43
+  },
+  {
+    "palavra": "por",
+    "inicio": 54.43,
+    "fim": 54.65
+  },
+  {
+    "palavra": "um",
+    "inicio": 54.65,
+    "fim": 54.75
+  },
+  {
+    "palavra": "detalhe",
+    "inicio": 54.75,
+    "fim": 55.03
+  },
+  {
+    "palavra": "bizarro:",
+    "inicio": 55.03,
+    "fim": 55.47
+  },
+  {
+    "palavra": "o",
+    "inicio": 55.93,
+    "fim": 56.15
+  },
+  {
+    "palavra": "bote",
+    "inicio": 56.15,
+    "fim": 56.39
+  },
+  {
+    "palavra": "salva-vidas",
+    "inicio": 56.39,
+    "fim": 57.01
+  },
+  {
+    "palavra": "sumiu",
+    "inicio": 57.01,
+    "fim": 57.51
+  },
+  {
+    "palavra": "e",
+    "inicio": 57.51,
+    "fim": 58.01
+  },
+  {
+    "palavra": "uma",
+    "inicio": 58.01,
+    "fim": 58.21
+  },
+  {
+    "palavra": "bomba",
+    "inicio": 58.21,
+    "fim": 58.51
+  },
+  {
+    "palavra": "d'água",
+    "inicio": 58.51,
+    "fim": 58.81
+  },
+  {
+    "palavra": "estava",
+    "inicio": 58.81,
+    "fim": 59.11
+  },
+  {
+    "palavra": "totalmente",
+    "inicio": 59.11,
+    "fim": 59.75
+  },
+  {
+    "palavra": "desmontada.",
+    "inicio": 59.75,
+    "fim": 60.63
+  },
+  {
+    "palavra": "Por",
+    "inicio": 61.33,
+    "fim": 61.59
+  },
+  {
+    "palavra": "que",
+    "inicio": 61.59,
+    "fim": 61.69
+  },
+  {
+    "palavra": "uma",
+    "inicio": 61.69,
+    "fim": 62.03
+  },
+  {
+    "palavra": "família",
+    "inicio": 62.03,
+    "fim": 62.31
+  },
+  {
+    "palavra": "abandonaria",
+    "inicio": 62.31,
+    "fim": 62.93
+  },
+  {
+    "palavra": "um",
+    "inicio": 62.93,
+    "fim": 63.15
+  },
+  {
+    "palavra": "abrigo",
+    "inicio": 63.15,
+    "fim": 63.47
+  },
+  {
+    "palavra": "seguro",
+    "inicio": 63.47,
+    "fim": 63.89
+  },
+  {
+    "palavra": "e",
+    "inicio": 63.89,
+    "fim": 64.33
+  },
+  {
+    "palavra": "comida",
+    "inicio": 64.33,
+    "fim": 64.63
+  },
+  {
+    "palavra": "farta",
+    "inicio": 64.63,
+    "fim": 65.09
+  },
+  {
+    "palavra": "para",
+    "inicio": 64.73,
+    "fim": 65.53
+  },
+  {
+    "palavra": "se",
+    "inicio": 65.53,
+    "fim": 65.69
+  },
+  {
+    "palavra": "arriscar",
+    "inicio": 65.69,
+    "fim": 66.11
+  },
+  {
+    "palavra": "no",
+    "inicio": 66.11,
+    "fim": 66.25
+  },
+  {
+    "palavra": "oceano",
+    "inicio": 66.25,
+    "fim": 66.67
+  },
+  {
+    "palavra": "impiedoso?",
+    "inicio": 66.67,
+    "fim": 67.35
+  },
+  {
+    "palavra": "Se",
+    "inicio": 68.11,
+    "fim": 68.29
+  },
+  {
+    "palavra": "o",
+    "inicio": 68.29,
+    "fim": 68.35
+  },
+  {
+    "palavra": "navio",
+    "inicio": 68.35,
+    "fim": 68.55
+  },
+  {
+    "palavra": "não",
+    "inicio": 68.55,
+    "fim": 68.79
+  },
+  {
+    "palavra": "estava",
+    "inicio": 68.79,
+    "fim": 69.09
+  },
+  {
+    "palavra": "afundando,",
+    "inicio": 69.09,
+    "fim": 69.75
+  },
+  {
+    "palavra": "o",
+    "inicio": 69.75,
+    "fim": 69.89
+  },
+  {
+    "palavra": "que",
+    "inicio": 69.89,
+    "fim": 69.99
+  },
+  {
+    "palavra": "causou",
+    "inicio": 69.99,
+    "fim": 70.41
+  },
+  {
+    "palavra": "esse",
+    "inicio": 70.41,
+    "fim": 70.63
+  },
+  {
+    "palavra": "pânico?",
+    "inicio": 70.63,
+    "fim": 71.13
+  },
+  {
+    "palavra": "O",
+    "inicio": 71.61,
+    "fim": 71.75
+  },
+  {
+    "palavra": "que",
+    "inicio": 71.75,
+    "fim": 71.87
+  },
+  {
+    "palavra": "você",
+    "inicio": 71.87,
+    "fim": 72.15
+  },
+  {
+    "palavra": "faria",
+    "inicio": 72.15,
+    "fim": 72.61
+  },
+  {
+    "palavra": "se",
+    "inicio": 72.61,
+    "fim": 72.79
+  },
+  {
+    "palavra": "encontrasse",
+    "inicio": 72.79,
+    "fim": 73.33
+  },
+  {
+    "palavra": "esse",
+    "inicio": 73.33,
+    "fim": 73.49
+  },
+  {
+    "palavra": "navio",
+    "inicio": 73.49,
+    "fim": 73.75
+  },
+  {
+    "palavra": "hoje?",
+    "inicio": 73.75,
+    "fim": 74.27
+  }
+]
