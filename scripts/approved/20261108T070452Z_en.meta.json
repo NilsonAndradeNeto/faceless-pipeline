@@ -40,11 +40,24 @@
   "aprovacao": "automatica",
   "data_post": "2026-11-08",
   "producao": {
-    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "etapa": "pronto",
     "erro": null,
     "detalhe": "",
-    "progresso": 0.452,
-    "atualizado": "2026-11-10 14:37:19"
+    "progresso": 1.0,
+    "atualizado": "2026-11-10 20:06:06"
   },
-  "voz": "gemini"
+  "voz": "gemini",
+  "creditos_imagens": [
+    "Jan Marcus Marci 00.jpg — Johann Balzer (Public domain)",
+    "Michał Wojnicz wśród książek w swoim antykwariacie na Soho Square.jpg — Unknown authorUnknown author (Public domain)",
+    "Voynich Manuscript (131) f72v3 detail ((retouching)).jpg — Unknown authorUnknown author (Public domain)",
+    "Voynich Manuscript (135).jpg — Unknown authorUnknown author (Public domain)",
+    "Voynich Manuscript (158).jpg — Unknown authorUnknown author (Public domain)",
+    "Voynich Manuscript (167).jpg — Unknown authorUnknown author (Public domain)",
+    "Voynich Manuscript (32).jpg — Unknown authorUnknown author (Public domain)",
+    "Voynich Manuscript (33).jpg — Unknown authorUnknown author (Public domain)"
+  ],
+  "imagens_ia": 9,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261108T070452Z_en.mp4",
+  "duracao_seg": 71.4
 }

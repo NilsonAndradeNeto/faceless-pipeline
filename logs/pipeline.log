@@ -1383,3 +1383,37 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 14:37:19 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
 14:37:19 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
 14:37:19 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+20:02:43 [ciclo] INFO: — ciclo 10/11 20:02 —
+20:02:43 [produzir] INFO: ▶ Produzindo: The 600-Year-Old Book That No One Can Read
+20:02:54 [broll] INFO: Cena 12 (3.2s): ia        experts digitized every character onto punch cards,
+20:03:07 [broll] INFO: Cena 13 (2.9s): ia        and still, they found nothing.
+20:03:07 [broll] INFO: Limite de download, aguardando 10s
+20:03:17 [broll] INFO: Limite de download, aguardando 10s
+20:03:27 [broll] INFO: Limite de download, aguardando 10s
+20:03:37 [broll] INFO: Limite de download, aguardando 10s
+20:03:47 [broll] WARNING: Cena 14: erro numa fonte (429 Client Error: Too Many Requests (015d12c) for url: https://upload.wikimedia.org/wikipedia/commons/8/83/Voynich_Manus), tentando a próxima
+20:03:57 [broll] INFO: Cena 14 (5.0s): ia        The most chilling part? On the very last page, there are fou
+20:04:08 [broll] INFO: Cena 15 (4.3s): ia        Latin script, but even those make no sense in any known lang
+20:04:18 [broll] INFO: Cena 16 (5.0s): ia        Is this a brilliant medieval hoax, or a message we aren't me
+20:04:26 [broll] INFO: Cena 17 (2.1s): ia        Tell me your theory in the comments.
+20:04:26 [video_builder] INFO: Cena 1/17 (imagem, 5.7s)
+20:04:27 [video_builder] INFO: Encoder: x264
+20:04:30 [video_builder] INFO: Cena 2/17 (imagem, 3.5s)
+20:04:33 [video_builder] INFO: Cena 3/17 (imagem, 5.8s)
+20:04:37 [video_builder] INFO: Cena 4/17 (imagem, 3.9s)
+20:04:41 [video_builder] INFO: Cena 5/17 (imagem, 3.9s)
+20:04:44 [video_builder] INFO: Cena 6/17 (imagem, 5.5s)
+20:04:49 [video_builder] INFO: Cena 7/17 (imagem, 4.2s)
+20:04:53 [video_builder] INFO: Cena 8/17 (imagem, 4.8s)
+20:04:57 [video_builder] INFO: Cena 9/17 (imagem, 3.9s)
+20:05:00 [video_builder] INFO: Cena 10/17 (imagem, 4.8s)
+20:05:04 [video_builder] INFO: Cena 11/17 (imagem, 3.0s)
+20:05:07 [video_builder] INFO: Cena 12/17 (imagem, 3.2s)
+20:05:09 [video_builder] INFO: Cena 13/17 (imagem, 2.9s)
+20:05:12 [video_builder] INFO: Cena 14/17 (imagem, 5.0s)
+20:05:16 [video_builder] INFO: Cena 15/17 (imagem, 4.3s)
+20:05:19 [video_builder] INFO: Cena 16/17 (imagem, 5.0s)
+20:05:23 [video_builder] INFO: Cena 17/17 (imagem, 2.1s)
+20:05:26 [video_builder] INFO: Música: trilha_03.mp3
+20:06:06 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261108T070452Z_en.mp4 (71.4s)
+20:06:06 [produzir] INFO: ✅ Pronto: The 600-Year-Old Book That No One Can Read

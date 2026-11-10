@@ -266,6 +266,13 @@
     "visual": {
       "real": null,
       "ia": "15th–17th Century Europe & 20th Century Cryptography, period-accurate clothing and technology. 1960s computer laboratory with mainframes, vintage punch cards being processed through card readers, stacks of paper punch cards printed with mysterious code sequences under bright fluorescent lights., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/313fe1cb5ca9b1d0.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -277,6 +284,13 @@
     "visual": {
       "real": null,
       "ia": "15th–17th Century Europe & 20th Century Cryptography, period-accurate clothing and technology. A solitary researcher standing in a dark 1970s computer lab room filled with magnetic tape reels, looking down at stacks of blank printout papers under a pale neon glare., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/f4cc342c3ec2e0d3.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -294,6 +308,13 @@
         "autor": "Unknown authorUnknown author"
       },
       "ia": "15th–17th Century Europe & 20th Century Cryptography, period-accurate clothing and technology. Close up on the weathered final folio page of an ancient manuscript, showing four faint, distorted handwritten lines of text isolated at the top edge of dark worn parchment., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/933ee1e9c72218a1.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -305,6 +326,13 @@
     "visual": {
       "real": null,
       "ia": "15th–17th Century Europe & 20th Century Cryptography, period-accurate clothing and technology. Extreme macro view of faded, distorted Latin lettering written in a medieval hand on rough vellum, mixed with odd symbols, illuminated by dramatic candlelight and heavy shadows., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/ac4b0b896c1cc487.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -316,6 +344,13 @@
     "visual": {
       "real": null,
       "ia": "15th–17th Century Europe & 20th Century Cryptography, period-accurate clothing and technology. Atmospheric scene of a medieval scribe's desk with secret compartments, ink bottles, and an elaborate circular astronomical chart from the manuscript illuminated by soft candlelight in a dusty scriptorium., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/6978fba2c837797b.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -327,6 +362,13 @@
     "visual": {
       "real": null,
       "ia": "15th–17th Century Europe & 20th Century Cryptography, period-accurate clothing and technology. A mysterious ancient book resting on a dark velvet surface, gently closing while golden glowing manuscript glyphs drift into dark surrounding shadows, dramatic cinematic lighting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/df5bbd18ca1d01e0.jpg",
+      "credito": "imagem gerada por IA"
     }
   }
 ]
