@@ -1262,3 +1262,115 @@ Traceback (most recent call last):
   File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
     raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
 json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+00:19:58 [ciclo] INFO: — ciclo 10/11 00:19 —
+00:19:58 [ciclo] INFO: Fila PT vazia — gerando roteiro
+00:19:58 [researcher] INFO: Tema escolhido (pt): O Manuscrito Voynich, o livro que ninguém consegue ler
+00:19:59 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+00:19:59 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 163→89 tokens, US$0.0000, 1.0s
+00:20:00 [researcher] INFO: Fontes: Voynich manuscript (en), Manuscrito Voynich (pt)
+00:20:00 [scriptwriter] INFO: Escrevendo roteiro: O Manuscrito Voynich, o livro que ninguém consegue ler
+00:20:07 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+00:20:07 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+00:20:19 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:20:19 [llm] INFO: gemini/gemini-3-flash-preview [roteiro] 5420→411 tokens, US$0.0000, 12.1s
+00:20:19 [scriptwriter] INFO: Editando para retenção...
+00:20:22 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+00:20:22 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+00:20:47 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:20:47 [llm] INFO: gemini/gemini-3-flash-preview [critica] 519→338 tokens, US$0.0000, 25.2s
+00:20:47 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 7, 'ritmo': 6, 'viradas': 7, 'climax': 5, 'final': 7}
+00:20:47 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+00:20:51 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+00:20:51 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+00:22:21 [llm] INFO: gemini/gemini-3-flash-preview travou, trocando para gemini-3.8-flash
+00:23:52 [llm] INFO: gemini/gemini-3.8-flash travou, trocando para gemini-3.7-flash
+00:25:22 [llm] WARNING: gemini falhou (tentativa 1/1): Request timed out.
+00:25:22 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
+00:25:22 [scriptwriter] ERROR: Falha ao escrever roteiro de 20261110T032000Z_pt.json (tópico fica pendente)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 127, in chat
+    return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 178, in _chat
+    raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
+RuntimeError: Todos os provedores de LLM falharam: Request timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 216, in processar_pendentes
+    escrever(ler_json(arq))
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 186, in escrever
+    roteiro, pendentes, atencao = checar_fatos(editado, fontes_txt, topico["lang"])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 147, in checar_fatos
+    p = chat([{"role": "user", "content": PROMPT_PROVAS.format(fontes=fontes_txt, roteiro=roteiro)}],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
+    raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
+agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
+00:25:22 [ciclo] INFO: Fila EN vazia — gerando roteiro
+00:25:22 [researcher] INFO: Tema escolhido (en): D.B. Cooper: the hijacker who jumped and was never found
+00:25:22 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+00:25:22 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 165→188 tokens, US$0.0000, 0.8s
+00:25:23 [researcher] INFO: Fontes: D. B. Cooper (en)
+00:25:23 [scriptwriter] INFO: Escrevendo roteiro: D.B. Cooper: the hijacker who jumped and was never found
+00:25:41 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:25:41 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 2893→345 tokens, US$0.0000, 18.1s
+00:25:41 [scriptwriter] INFO: Editando para retenção...
+00:26:01 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:26:01 [llm] INFO: gemini/gemini-3.5-flash [critica] 471→291 tokens, US$0.0000, 19.7s
+00:26:01 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 6, 'viradas': 7, 'climax': 6, 'final': 7}
+00:26:01 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+00:26:22 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:26:22 [llm] INFO: gemini/gemini-3.5-flash [provas] 2735→1123 tokens, US$0.0000, 21.4s
+00:26:22 [scriptwriter] INFO: Checagem 1: 14 frases, 2 com problema, 0 para conferir
+00:26:22 [scriptwriter] INFO: Corrigindo:
+- "In Seattle, he traded thirty-six passengers for the money, then ordered the plane south into the storm." → contradiz: A fonte afirma que havia 36 passageiros a bordo incluindo Cooper, o que significa que havia 35 passageiros para serem libertados, não 36.
+- "Nine years later, a boy found six thousand rotting dollars by a river." → sem_base: As fontes confirmam a descoberta de US$ 6.000 em 1980 (9 anos depois) na margem de um rio, mas não mencionam que a descoberta foi feita por um menino.
+00:26:26 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+00:26:26 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+00:26:31 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:26:31 [llm] INFO: gemini/gemini-3-flash-preview [correcao] 2688→238 tokens, US$0.0000, 5.5s
+00:26:34 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+00:26:34 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+00:28:04 [llm] INFO: gemini/gemini-3-flash-preview travou, trocando para gemini-3.8-flash
+00:29:34 [llm] INFO: gemini/gemini-3.8-flash travou, trocando para gemini-3.7-flash
+00:29:42 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+00:29:42 [llm] WARNING: gemini falhou (tentativa 1/1): Error code: 503
+00:29:42 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
+00:29:42 [scriptwriter] ERROR: Falha ao escrever roteiro de 20261110T032523Z_en.json (tópico fica pendente)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 127, in chat
+    return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 178, in _chat
+    raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
+RuntimeError: Todos os provedores de LLM falharam: Error code: 503
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 216, in processar_pendentes
+    escrever(ler_json(arq))
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 186, in escrever
+    roteiro, pendentes, atencao = checar_fatos(editado, fontes_txt, topico["lang"])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 147, in checar_fatos
+    p = chat([{"role": "user", "content": PROMPT_PROVAS.format(fontes=fontes_txt, roteiro=roteiro)}],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
+    raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
+agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
+00:29:42 [produzir] INFO: ▶ Produzindo: The 600-Year-Old Book That No One Can Read
+00:29:42 [broll] INFO: Limite de download, aguardando 10s
+00:29:54 [broll] INFO: Cena  8 (4.8s): wikimedia It is written with a confidence that suggests the author kne
+00:29:56 [broll] INFO: Cena  9 (3.9s): wikimedia You’ll see drawings of unidentified plants and symbols that 
+00:29:56 [broll] INFO: Limite de download, aguardando 10s
+00:30:07 [broll] INFO: Cena 10 (4.8s): wikimedia In the 1600s, a Prague alchemist owned the manuscript,
+00:30:09 [broll] INFO: Cena 11 (3.0s): wikimedia but he couldn't crack it. Centuries later,
+00:30:09 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+00:30:10 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+00:30:10 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+00:30:10 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+00:30:10 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo

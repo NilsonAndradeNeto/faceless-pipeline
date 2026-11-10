@@ -149,3 +149,11 @@
 {"ts": "2026-11-09T17:35:03", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "provas", "tokens_entrada": 4704, "tokens_saida": 923, "custo_usd": 0.0, "segundos": 8.8}
 {"ts": "2026-11-09T17:36:00", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "visual", "tokens_entrada": 1193, "tokens_saida": 1276, "custo_usd": 0.0, "segundos": 25.8}
 {"ts": "2026-11-09T17:41:19", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "visual", "tokens_entrada": 1283, "tokens_saida": 1073, "custo_usd": 0.0, "segundos": 20.4}
+{"ts": "2026-11-10T00:19:59", "provedor": "groq", "modelo": "openai/gpt-oss-120b", "tarefa": "termos_busca", "tokens_entrada": 163, "tokens_saida": 89, "custo_usd": 0.0, "segundos": 1.0}
+{"ts": "2026-11-10T00:20:19", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "roteiro", "tokens_entrada": 5420, "tokens_saida": 411, "custo_usd": 0.0, "segundos": 12.1}
+{"ts": "2026-11-10T00:20:47", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "critica", "tokens_entrada": 519, "tokens_saida": 338, "custo_usd": 0.0, "segundos": 25.2}
+{"ts": "2026-11-10T00:25:22", "provedor": "groq", "modelo": "openai/gpt-oss-120b", "tarefa": "termos_busca", "tokens_entrada": 165, "tokens_saida": 188, "custo_usd": 0.0, "segundos": 0.8}
+{"ts": "2026-11-10T00:25:41", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "roteiro", "tokens_entrada": 2893, "tokens_saida": 345, "custo_usd": 0.0, "segundos": 18.1}
+{"ts": "2026-11-10T00:26:01", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "critica", "tokens_entrada": 471, "tokens_saida": 291, "custo_usd": 0.0, "segundos": 19.7}
+{"ts": "2026-11-10T00:26:22", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "provas", "tokens_entrada": 2735, "tokens_saida": 1123, "custo_usd": 0.0, "segundos": 21.4}
+{"ts": "2026-11-10T00:26:31", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "correcao", "tokens_entrada": 2688, "tokens_saida": 238, "custo_usd": 0.0, "segundos": 5.5}
