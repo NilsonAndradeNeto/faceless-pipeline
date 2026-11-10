@@ -1374,3 +1374,12 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 00:30:10 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
 00:30:10 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
 00:30:10 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+14:37:19 [ciclo] INFO: — ciclo 10/11 14:37 —
+14:37:19 [ciclo] WARNING: Sem vídeo PT hoje
+14:37:19 [ciclo] WARNING: Sem vídeo EN hoje
+14:37:19 [produzir] INFO: ▶ Produzindo: The 600-Year-Old Book That No One Can Read
+14:37:19 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+14:37:19 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+14:37:19 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+14:37:19 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+14:37:19 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
