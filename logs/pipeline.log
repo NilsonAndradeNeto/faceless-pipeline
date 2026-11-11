@@ -1417,3 +1417,61 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 20:05:26 [video_builder] INFO: Música: trilha_03.mp3
 20:06:06 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261108T070452Z_en.mp4 (71.4s)
 20:06:06 [produzir] INFO: ✅ Pronto: The 600-Year-Old Book That No One Can Read
+23:41:44 [ciclo] INFO: — ciclo 10/11 23:41 —
+23:41:44 [ciclo] INFO: Fila PT vazia — gerando roteiro
+23:41:44 [scriptwriter] INFO: Escrevendo roteiro: O Manuscrito Voynich, o livro que ninguém consegue ler
+23:42:06 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+23:42:06 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+23:42:20 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:42:20 [llm] INFO: gemini/gemini-3-flash-preview [roteiro] 5420→380 tokens, US$0.0000, 13.6s
+23:42:20 [scriptwriter] INFO: Editando para retenção...
+23:42:57 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:42:57 [llm] INFO: gemini/gemini-3.5-flash [critica] 506→317 tokens, US$0.0000, 37.7s
+23:42:57 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 5, 'ritmo': 6, 'viradas': 6, 'climax': 5, 'final': 6}
+23:42:57 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+23:43:30 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:43:30 [llm] INFO: gemini/gemini-3.5-flash [provas] 5297→1001 tokens, US$0.0000, 32.9s
+23:43:30 [scriptwriter] INFO: Checagem 1: 11 frases, 4 com problema, 0 para conferir
+23:43:30 [scriptwriter] INFO: Corrigindo:
+- "A pele de quinze bezerros foi usada para criar o pergaminho de um livro escrito em uma língua que não existe na Terra." → sem_base: As fontes confirmam o uso da pele de 14 ou 15 bezerros, mas afirmam que o idioma é 'não identificado' e que há várias hipóteses (como língua natural, cifra ou fraude), sem atestar que a língua não existe na Terra.
+- "Existem desenhos de plantas que nunca brotaram em nenhum solo conhecido e mulheres nuas mergulhando em tanques verdes estranhos, conectados por tubos orgânicos." → sem_base: As fontes citam apenas 'plantas não identificadas', 'pessoas' e um 'desenho de um homem nu', sem mencionar mulheres nuas mergulhando em tanques verdes ou tubos orgânicos.
+- "É a escrita de alguém que falava essa língua com naturalidade." → sem_base: A origem e o propósito do texto continuam em debate (podendo ser cifra, mistificação ou língua construída), não havendo comprovação de que o autor falava o idioma com naturalidade.
+- "Se for uma farsa, por que gastar uma fortuna em materiais raros da Idade Média?" → contradiz: As fontes afirmam expressamente que 'Os pigmentos empregados foram considerados de baixo custo', que o pergaminho é de 'qualidade mediana' e que faltam ornamentos luxuosos como folha de ouro.
+23:43:43 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:43:43 [llm] INFO: gemini/gemini-3.5-flash [correcao] 5430→233 tokens, US$0.0000, 12.9s
+23:43:45 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+23:43:45 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+23:43:55 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:43:55 [llm] INFO: gemini/gemini-3-flash-preview [provas] 5265→738 tokens, US$0.0000, 10.1s
+23:43:55 [scriptwriter] INFO: Checagem 2: 10 frases, 0 com problema, 0 para conferir
+23:43:55 [scriptwriter] INFO: Roteiro salvo: 148 palavras, 907 caracteres, confiança alta
+23:43:55 [ciclo] INFO: Fila EN vazia — gerando roteiro
+23:43:55 [scriptwriter] INFO: Escrevendo roteiro: D.B. Cooper: the hijacker who jumped and was never found
+23:43:58 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+23:43:58 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+23:44:11 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:44:11 [llm] INFO: gemini/gemini-3-flash-preview [roteiro] 2893→332 tokens, US$0.0000, 12.2s
+23:44:11 [scriptwriter] INFO: Editando para retenção...
+23:44:21 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+23:44:21 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+23:44:33 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:44:33 [llm] INFO: gemini/gemini-3-flash-preview [critica] 485→315 tokens, US$0.0000, 11.6s
+23:44:33 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 7, 'viradas': 8, 'climax': 7, 'final': 6}
+23:44:33 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+23:44:36 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+23:44:36 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+23:44:47 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:44:47 [llm] INFO: gemini/gemini-3-flash-preview [provas] 2759→1137 tokens, US$0.0000, 11.1s
+23:44:47 [scriptwriter] INFO: Checagem 1: 18 frases, 3 com problema, 2 para conferir
+23:44:47 [scriptwriter] INFO: Corrigindo:
+- "Cooper orders the pilot back into the sky, flying low into a freezing, pitch-black storm." → sem_base: A fonte menciona o segundo voo, mas não cita que o avião voava baixo ou que havia uma tempestade (storm) no momento.
+- "He lowers the rear stairs and vanishes into the freezing rain." → sem_base: A fonte confirma que ele abriu a escada traseira e saltou, mas não menciona chuva congelante (freezing rain).
+- "They found no body, no parachute, and no trace of the man—just a single clip-on tie left on his seat." → sem_base: A fonte diz que a identidade e o destino permanecem desconhecidos, mas não menciona a descoberta de uma gravata (clip-on tie) no assento.
+23:45:01 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:45:01 [llm] INFO: gemini/gemini-3.5-flash [correcao] 2753→239 tokens, US$0.0000, 13.5s
+23:45:02 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+23:45:02 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+23:45:12 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:45:12 [llm] INFO: gemini/gemini-3-flash-preview [provas] 2739→1051 tokens, US$0.0000, 9.1s
+23:45:12 [scriptwriter] INFO: Checagem 2: 18 frases, 0 com problema, 1 para conferir
+23:45:12 [scriptwriter] INFO: Roteiro salvo: 172 palavras, 994 caracteres, confiança media

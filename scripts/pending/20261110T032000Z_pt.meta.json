@@ -1,0 +1,45 @@
+{
+  "id": "20261110T032000Z_pt",
+  "lang": "pt",
+  "tema": "O Manuscrito Voynich, o livro que ninguém consegue ler",
+  "titulo": "O segredo do livro que ninguém consegue ler",
+  "hook": "A pele de quinze bezerros foi usada para criar o pergaminho de um livro escrito em um idioma não identificado.",
+  "descricao": "Conheça o mistério do Manuscrito Voynich, o livro medieval que desafia cientistas e criptógrafos há séculos. Você acredita que ele esconde um segredo real ou é apenas uma farsa genial?",
+  "hashtags": [
+    "historia",
+    "misterio",
+    "manuscritovoynich",
+    "curiosidades",
+    "enigmas",
+    "idademedia",
+    "ciencia"
+  ],
+  "palavras": 148,
+  "caracteres": 907,
+  "notas_editor_antes": {
+    "gancho": 5,
+    "ritmo": 6,
+    "viradas": 6,
+    "climax": 5,
+    "final": 6
+  },
+  "checagem": {
+    "sem_comprovacao": [],
+    "conferir": [],
+    "confianca": "alta"
+  },
+  "versoes": {
+    "rascunho": "Imagine um livro escrito em uma língua que não existe na Terra. Há seiscentos anos, ele zomba das mentes mais brilhantes da nossa história. Em mil novecentos e doze, um livreiro encontrou esse volume em um colégio italiano. O pergaminho foi feito com a pele de quinze bezerros. A datação por carbono é exata: início do século quinze. Mas o que está lá dentro desafia a biologia. Existem desenhos de plantas que nunca brotaram em nenhum solo conhecido. Mulheres nuas mergulham em tanques verdes estranhos, conectados por tubos orgânicos. Os maiores decifradores das duas Guerras Mundiais tentaram ler essas páginas. Eles dedicaram décadas e falharam miseravelmente. O texto flui de forma suave, da esquerda para a direita. Não há rasuras, nem hesitações típicas de quem escreve um código secreto. A escrita é de alguém que falava essa língua com naturalidade. Hoje o manuscrito Voynich está trancado em um cofre na Universidade Yale. Se for uma farsa, por que gastar uma fortuna em materiais raros da Idade Média? Para você, isso é um mapa perdido ou o diário de um louco?",
+    "editado": "A pele de quinze bezerros foi usada para criar o pergaminho de um livro escrito em uma língua que não existe na Terra. Há seiscentos anos, ele zomba das mentes mais brilhantes da história. Encontrado em mil novecentos e doze por um livreiro em um colégio italiano, o manuscrito desafia a biologia. Existem desenhos de plantas que nunca brotaram em nenhum solo conhecido e mulheres nuas mergulhando em tanques verdes estranhos, conectados por tubos orgânicos. O texto flui suavemente, da esquerda para a direita, sem rasuras nem hesitações típicas de quem escreve um código secreto. É a escrita de alguém que falava essa língua com naturalidade. Os maiores decifradores das duas Guerras Mundiais dedicaram décadas para ler essas páginas e falharam miseravelmente. A datação por carbono é exata: início do século quinze. Hoje, o manuscrito Voynich está trancado em um cofre na Universidade Yale. Se for uma farsa, por que gastar uma fortuna em materiais raros da Idade Média? Para você, isso é um mapa perdido ou o diário de um louco?"
+  },
+  "fontes": [
+    {
+      "titulo": "Voynich manuscript",
+      "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+    },
+    {
+      "titulo": "Manuscrito Voynich",
+      "url": "https://pt.wikipedia.org/wiki/Manuscrito_Voynich"
+    }
+  ]
+}
