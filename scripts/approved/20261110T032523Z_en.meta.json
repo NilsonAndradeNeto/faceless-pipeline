@@ -38,5 +38,25 @@
       "titulo": "D. B. Cooper",
       "url": "https://en.wikipedia.org/wiki/D._B._Cooper"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-11",
+  "producao": {
+    "etapa": "pronto",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 1.0,
+    "atualizado": "2026-11-11 14:56:57"
+  },
+  "voz": "gemini",
+  "creditos_imagens": [
+    "CompositeB-FBI-1973.jpg — Roy Rose (Public domain)",
+    "Crew of Northwest Airlines Flight 305 after D. B. Cooper hijacking 2.jpg — Hearst Newspapers LLC/Seattle P-I.com (Public domain)",
+    "July 2016 D.B. Cooper Plane Ticket (28379315406).jpg — Federal Bureau of Investigation (FBI) (Public domain)",
+    "Money stolen by D. B. Cooper.jpg — FBI (Public domain)",
+    "Northwest Boeing 727 airstair (1975).jpg — Robert Rynerson from Denver, U.S.A. (CC BY 2.5)"
+  ],
+  "imagens_ia": 14,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261110T032523Z_en.mp4",
+  "duracao_seg": 81.9
 }

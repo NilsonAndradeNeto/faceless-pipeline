@@ -1,0 +1,380 @@
+[
+  {
+    "n": 1,
+    "texto": "He ordered a bourbon, handed a note to the flight attendant,",
+    "inicio": 0.0,
+    "fim": 4.28,
+    "duracao": 4.28,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. Close-up of a middle-aged man's hands in a dark vintage suit placing a handwritten note and cash beside a glass of bourbon on a 1970s airplane tray table, vertical frame., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/1c411b3f552b97c4.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "and then became the only ghost in aviation history.",
+    "inicio": 4.28,
+    "fim": 9.14,
+    "duracao": 4.86,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A dark shadowy silhouette of a man dissolving into thick misty clouds high above a dark forest, atmospheric retro cinematic lighting, mystery aviation concept, vertical 9:16 format., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/5937991dd209a231.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "It’s Thanksgiving Eve, 1971.",
+    "inicio": 9.14,
+    "fim": 12.86,
+    "duracao": 3.72,
+    "visual": {
+      "real": {
+        "nome": "July 2016 D.B. Cooper Plane Ticket (28379315406).jpg",
+        "descricao": "On November 24, 1971, a man calling himself Dan Cooper approached the counter of Northwest Orient Airlines in Portland, Oregon and used cash to buy a one-way ti",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/July_2016_D.B._Cooper_Plane_Ticket_%2828379315406%29.jpg/1280px-July_2016_D.B._Cooper_Plane_Ticket_%2828379315406%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Federal Bureau of Investigation (FBI)"
+      },
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A crowded 1971 airport terminal filled with passengers carrying vintage suitcases on Thanksgiving Eve, retro Northwest Orient airline signage in background, warm nostalgic lighting, vertical shot., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/July_2016_D.B._Cooper_Plane_Ticket_%2828379315406%29.jpg/1280px-July_2016_D.B._Cooper_Plane_Ticket_%2828379315406%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/b627fac977ca967d.jpg",
+      "credito": "July 2016 D.B. Cooper Plane Ticket (28379315406).jpg — Federal Bureau of Investigation (FBI) (Public domain)"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "Seat 18-E. A man known as Dan Cooper claims he has a",
+    "inicio": 12.86,
+    "fim": 17.92,
+    "duracao": 5.06,
+    "visual": {
+      "real": {
+        "nome": "CompositeB-FBI-1973.jpg",
+        "descricao": "Composite Sketch created by the FBI of the unknown hijacker (alias Dan Cooper or D.B. Cooper) of Northwest Orient Flight 305",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/CompositeB-FBI-1973.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Roy Rose"
+      },
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A mysterious man wearing dark sunglasses, dark tie, and suit sitting calmly in airplane seat 18E, opening a dark briefcase revealing red wires and cylinders, vertical frame., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/CompositeB-FBI-1973.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/0aa7216954c346d9.jpg",
+      "credito": "CompositeB-FBI-1973.jpg — Roy Rose (Public domain)"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "bomb. His demands? Two hundred thousand dollars in cash and",
+    "inicio": 17.92,
+    "fim": 22.94,
+    "duracao": 5.02,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. Stacks of vintage twenty dollar bills tied with rubber bands placed next to four dark military parachutes on a table, high contrast dim room lighting, vertical view., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/e4b7c0289e21607d.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "four parachutes. The plane touches down in Seattle,",
+    "inicio": 22.94,
+    "fim": 27.06,
+    "duracao": 4.12,
+    "visual": {
+      "real": {
+        "nome": "Northwest Airlines Boeing 727-51 N467US.jpg",
+        "descricao": "Taken at Miami - Int. (MIA) December 29, 1972",
+        "licenca": "GFDL 1.2",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Northwest_Airlines_Boeing_727-51_N467US.jpg/1280px-Northwest_Airlines_Boeing_727-51_N467US.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Clint Groves"
+      },
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A retro Boeing 727 airliner landing on a rain-soaked Seattle tarmac at night, glowing runway lights reflecting on wet asphalt under dark stormy skies, vertical composition., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/78a389a8423c9ed9.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "the money is handed over, and the passengers are released.",
+    "inicio": 27.06,
+    "fim": 30.8,
+    "duracao": 3.74,
+    "visual": {
+      "real": {
+        "nome": "Crew of Northwest Airlines Flight 305 after D. B. Cooper hijacking 2.jpg",
+        "descricao": "The crew of Northwest Airlines Flight 305 in Reno International Airport after the flight was hijacked by D. B. Cooper. From left to right: Captain William Scott",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Crew_of_Northwest_Airlines_Flight_305_after_D._B._Cooper_hijacking_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Hearst Newspapers LLC/Seattle P-I.com"
+      },
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. Airline passengers in 1970s coats disembarking from a passenger jet onto a wet airport tarmac under bright emergency searchlights and police cars, night vertical shot., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Crew_of_Northwest_Airlines_Flight_305_after_D._B._Cooper_hijacking_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/15b18e86952fecf6.jpg",
+      "credito": "Crew of Northwest Airlines Flight 305 after D. B. Cooper hijacking 2.jpg — Hearst Newspapers LLC/Seattle P-I.com (Public domain)"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "But the nightmare isn't over. Cooper orders the pilot back into the sky,",
+    "inicio": 30.8,
+    "fim": 36.06,
+    "duracao": 5.26,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A commercial Boeing 727 airplane climbing sharply into a dark stormy night sky over Seattle, flashing red navigation lights against heavy dark rain clouds, vertical view., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/b435ecfd8a2bfea9.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "bound for Mexico City. Somewhere over the Washington woods,",
+    "inicio": 36.06,
+    "fim": 40.4,
+    "duracao": 4.34,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. Aerial view looking down at vast, dense pine forests of Washington State shrouded in thick mist and rain during a pitch-black cold winter night, vertical perspective., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/49916b693544c31b.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "he does the impossible. He deploys the airstair and parachutes into",
+    "inicio": 40.4,
+    "fim": 45.54,
+    "duracao": 5.14,
+    "visual": {
+      "real": {
+        "nome": "Northwest Boeing 727 airstair (1975).jpg",
+        "descricao": "BOZEMAN - airport was actually ten miles west of downtown at Belgrade, MT. Northwest 727 flight from Portland landed in Spokane, Helena, Bozeman and terminated ",
+        "licenca": "CC BY 2.5",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Northwest_Boeing_727_airstair_%281975%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Robert Rynerson from Denver, U.S.A."
+      },
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. Wide angle view looking out the open ventral rear airstair door of a Boeing 727 mid-flight into dark cold rain, empty cabin behind, extreme wind blowing, vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Northwest_Boeing_727_airstair_%281975%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/ca4dc449c2b67ede.jpg",
+      "credito": "Northwest Boeing 727 airstair (1975).jpg — Robert Rynerson from Denver, U.S.A. (CC BY 2.5)"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "an uncertain fate. For forty-five years,",
+    "inicio": 45.54,
+    "fim": 49.6,
+    "duracao": 4.06,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A lone skydiver dressed in a black suit plunging down into dark pitch-black stormy night air far above deep forest canopy, cold drizzle, cinematic vertical photo., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/3d3e5fc13ed2e7e2.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "the FBI hunted him. They reached no definitive conclusions about his identity or",
+    "inicio": 49.6,
+    "fim": 54.9,
+    "duracao": 5.3,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. FBI agents in early 1970s trench coats examining maps of Washington state and suspect case files pinned to a large office board under dim light, vertical perspective., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/614ac0ef8b3d0372.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "fate. Then, nine years later,",
+    "inicio": 54.9,
+    "fim": 58.6,
+    "duracao": 3.7,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A wall calendar with pages rapidly flipping through decades in a dusty office illuminated by dim window blinds light, dramatic mystery atmosphere, 1970s to 1980s, vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/358d52349a0f3f9c.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "a boy digging in river mud uncovers six thousand dollars in rotting bills.",
+    "inicio": 58.6,
+    "fim": 64.38,
+    "duracao": 5.78,
+    "visual": {
+      "real": {
+        "nome": "Money stolen by D. B. Cooper.jpg",
+        "descricao": "Some of the D. B. Cooper's stolen $20 bills found by a young boy in 1980.",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Money_stolen_by_D._B._Cooper.jpg/1280px-Money_stolen_by_D._B._Cooper.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "FBI"
+      },
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A young boy digging along a muddy riverbank in 1980, uncovering rubber-banded stacks of waterlogged, decaying paper banknotes in damp sand, detailed vertical close-up., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Money_stolen_by_D._B._Cooper.jpg/1280px-Money_stolen_by_D._B._Cooper.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/856d4274ac223e3b.jpg",
+      "credito": "Money stolen by D. B. Cooper.jpg — FBI (Public domain)"
+    }
+  },
+  {
+    "n": 15,
+    "texto": "The rest of the fortune? Never found.",
+    "inicio": 64.38,
+    "fim": 67.58,
+    "duracao": 3.2,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. Dark murky river water flowing over deep mud, partially submerged vintage leather bag leaking a few green dollar bills into swirling dark current, mystery night lighting, vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/5b4645d6d730933a.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 16,
+    "texto": "In 2016, the FBI officially gave up.",
+    "inicio": 67.58,
+    "fim": 71.52,
+    "duracao": 3.94,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. An aged paper file folder with a bold red stamp reading CASE CLOSED lying on a vintage mahogany desk beside an old typewriter, subtle shadow lighting, vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/8b6d9aec1d90d6d1.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 17,
+    "texto": "No name, no body, no answers.",
+    "inicio": 71.52,
+    "fim": 75.1,
+    "duracao": 3.58,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. An overgrown dense forest in the Pacific Northwest with thick moss covering tall pine trees, fog rolling across ground, eerie silence and no human signs, vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/245cd67bba797aa4.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 18,
+    "texto": "Did Cooper perish in those woods, or did he pull off the perfect crime?",
+    "inicio": 75.1,
+    "fim": 79.84,
+    "duracao": 4.74,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. An old shredded military parachute tangled in high pine branches deep inside a dark wet forest, autumn pine needles falling, moody realistic mystery landscape, vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/9f207e787e305aee.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 19,
+    "texto": "Drop your theory below.",
+    "inicio": 79.84,
+    "fim": 81.88,
+    "duracao": 2.04,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A mysterious silhouetted figure in a long coat carrying a briefcase walking into misty city streetlights at night, dark noir atmosphere, cinematic thriller shot, vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/9a76828136108d7f.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  }
+]

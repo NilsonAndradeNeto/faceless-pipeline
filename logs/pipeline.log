@@ -1475,3 +1475,103 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 23:45:12 [llm] INFO: gemini/gemini-3-flash-preview [provas] 2739→1051 tokens, US$0.0000, 9.1s
 23:45:12 [scriptwriter] INFO: Checagem 2: 18 frases, 0 com problema, 1 para conferir
 23:45:12 [scriptwriter] INFO: Roteiro salvo: 172 palavras, 994 caracteres, confiança media
+14:47:36 [ciclo] INFO: — ciclo 11/11 14:47 —
+14:47:36 [ciclo] INFO: Aprovado automaticamente: O segredo do livro que ninguém consegue ler
+14:47:37 [ciclo] INFO: Vídeo PT de hoje: O segredo do livro que ninguém consegue ler
+14:47:37 [ciclo] INFO: Aprovado automaticamente: The Only Ghost in Aviation History
+14:47:37 [ciclo] INFO: Vídeo EN de hoje: The Only Ghost in Aviation History
+14:47:37 [produzir] INFO: ▶ Produzindo: O segredo do livro que ninguém consegue ler
+14:47:38 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 907 caracteres, restam só 771) — usando a voz do Gemini
+14:47:55 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 72.8s
+14:47:59 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+14:47:59 [tts] INFO: Legenda alinhada: 95 de 148 palavras batem com o Whisper
+14:47:59 [tts] INFO: Narração pronta (gemini): 72.5s, 148 palavras
+14:48:00 [visual_planner] INFO: 25 imagens reais disponíveis nos artigos-fonte
+14:48:05 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+14:48:05 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+14:48:16 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+14:48:16 [llm] INFO: gemini/gemini-3-flash-preview [visual] 1552→924 tokens, US$0.0000, 10.9s
+14:48:16 [visual_planner] INFO: 12 cenas (média 6.1s): 9 com imagem real, 3 com IA
+14:48:16 [broll] INFO: Cena  1 (11.2s): wikimedia A pele de quinze bezerros foi usada para criar o pergaminho 
+14:48:16 [broll] INFO: Cena  2 (9.4s): wikimedia não
+14:48:16 [broll] INFO: Cena  3 (9.4s): wikimedia identificadas,
+14:48:16 [broll] INFO: Cena  4 (3.8s): wikimedia símbolos astrológicos e ilustrações fantásticas.
+14:48:17 [broll] INFO: Cena  5 (3.9s): wikimedia O texto flui suavemente, da esquerda para a direita,
+14:48:19 [broll] INFO: Cena  6 (5.3s): wikimedia sem rasuras nem hesitações típicas de quem escreve um código
+14:48:30 [broll] INFO: Cena  7 (5.1s): ia        Os maiores decifradores das duas Guerras Mundiais dedicaram 
+14:48:30 [broll] INFO: Cena  8 (3.7s): wikimedia páginas e falharam miseravelmente.
+14:48:42 [broll] INFO: Cena  9 (4.8s): ia        A datação por carbono é exata: início do século quinze.
+14:48:52 [broll] INFO: Cena 10 (5.3s): ia        Hoje, o manuscrito Voynich está trancado em um cofre na Univ
+14:48:54 [broll] INFO: Cena 11 (5.8s): wikimedia Se for uma farsa, por que usar materiais comuns e pigmentos 
+14:48:55 [broll] INFO: Cena 12 (5.5s): wikimedia Para você, isso é um mapa perdido ou o diário de um louco?
+14:48:55 [video_builder] INFO: Cena 1/12 (imagem, 11.2s)
+14:48:56 [video_builder] INFO: Encoder: x264
+14:49:06 [video_builder] INFO: Cena 2/12 (imagem, 9.4s)
+14:49:16 [video_builder] INFO: Cena 3/12 (imagem, 9.4s)
+14:49:26 [video_builder] INFO: Cena 4/12 (imagem, 3.8s)
+14:49:31 [video_builder] INFO: Cena 5/12 (imagem, 3.9s)
+14:49:35 [video_builder] INFO: Cena 6/12 (imagem, 5.3s)
+14:49:41 [video_builder] INFO: Cena 7/12 (imagem, 5.1s)
+14:49:47 [video_builder] INFO: Cena 8/12 (imagem, 3.7s)
+14:49:51 [video_builder] INFO: Cena 9/12 (imagem, 4.8s)
+14:49:57 [video_builder] INFO: Cena 10/12 (imagem, 5.3s)
+14:50:03 [video_builder] INFO: Cena 11/12 (imagem, 5.8s)
+14:50:10 [video_builder] INFO: Cena 12/12 (imagem, 5.5s)
+14:50:16 [video_builder] INFO: Música: trilha_08.mp3
+14:51:15 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261110T032000Z_pt.mp4 (73.1s)
+14:51:15 [produzir] INFO: ✅ Pronto: O segredo do livro que ninguém consegue ler
+14:51:15 [produzir] INFO: ▶ Produzindo: The Only Ghost in Aviation History
+14:51:15 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 994 caracteres, restam só 771) — usando a voz do Gemini
+14:51:16 [tts] WARNING: Gemini TTS falhou — gemini-3.8-flash-tts: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+14:51:47 [tts] INFO: Gemini TTS: gemini-3.1-flash-tts-preview, voz Charon, 81.6s
+14:51:51 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+14:51:51 [tts] INFO: Legenda alinhada: 161 de 172 palavras batem com o Whisper
+14:51:51 [tts] INFO: Narração pronta (gemini): 81.3s, 172 palavras
+14:51:51 [visual_planner] INFO: 12 imagens reais disponíveis nos artigos-fonte
+14:52:14 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+14:52:14 [llm] INFO: gemini/gemini-3.5-flash [visual] 1314→1207 tokens, US$0.0000, 23.0s
+14:52:14 [visual_planner] INFO: 19 cenas (média 4.3s): 6 com imagem real, 13 com IA
+14:52:18 [broll] INFO: Cena  1 (4.3s): ia        He ordered a bourbon, handed a note to the flight attendant,
+14:52:21 [broll] INFO: Cena  2 (4.9s): ia        and then became the only ghost in aviation history.
+14:52:23 [broll] INFO: Cena  3 (3.7s): wikimedia It’s Thanksgiving Eve, 1971.
+14:52:25 [broll] INFO: Cena  4 (5.1s): wikimedia Seat 18-E. A man known as Dan Cooper claims he has a
+14:52:34 [broll] INFO: Cena  5 (5.0s): ia        bomb. His demands? Two hundred thousand dollars in cash and
+14:52:43 [broll] INFO: Cena  6 (4.1s): ia        four parachutes. The plane touches down in Seattle,
+14:52:45 [broll] INFO: Cena  7 (3.7s): wikimedia the money is handed over, and the passengers are released.
+14:52:52 [broll] INFO: Cena  8 (5.3s): ia        But the nightmare isn't over. Cooper orders the pilot back i
+14:52:59 [broll] INFO: Cena  9 (4.3s): ia        bound for Mexico City. Somewhere over the Washington woods,
+14:53:01 [broll] INFO: Cena 10 (5.1s): wikimedia he does the impossible. He deploys the airstair and parachut
+14:53:09 [broll] INFO: Cena 11 (4.1s): ia        an uncertain fate. For forty-five years,
+14:53:18 [broll] INFO: Cena 12 (5.3s): ia        the FBI hunted him. They reached no definitive conclusions a
+14:53:28 [broll] INFO: Cena 13 (3.7s): ia        fate. Then, nine years later,
+14:53:30 [broll] INFO: Cena 14 (5.8s): wikimedia a boy digging in river mud uncovers six thousand dollars in 
+14:53:40 [broll] INFO: Cena 15 (3.2s): ia        The rest of the fortune? Never found.
+14:53:48 [broll] INFO: Cena 16 (3.9s): ia        In 2016, the FBI officially gave up.
+14:53:57 [broll] INFO: Cena 17 (3.6s): ia        No name, no body, no answers.
+14:54:06 [broll] INFO: Cena 18 (4.7s): ia        Did Cooper perish in those woods, or did he pull off the per
+14:54:14 [broll] INFO: Cena 19 (2.0s): ia        Drop your theory below.
+14:54:14 [video_builder] INFO: Cena 1/19 (imagem, 4.3s)
+14:54:19 [video_builder] INFO: Cena 2/19 (imagem, 4.9s)
+14:54:24 [video_builder] INFO: Cena 3/19 (imagem, 3.7s)
+14:54:29 [video_builder] INFO: Cena 4/19 (imagem, 5.1s)
+14:54:35 [video_builder] INFO: Cena 5/19 (imagem, 5.0s)
+14:54:40 [video_builder] INFO: Cena 6/19 (imagem, 4.1s)
+14:54:45 [video_builder] INFO: Cena 7/19 (imagem, 3.7s)
+14:54:49 [video_builder] INFO: Cena 8/19 (imagem, 5.3s)
+14:54:55 [video_builder] INFO: Cena 9/19 (imagem, 4.3s)
+14:55:00 [video_builder] INFO: Cena 10/19 (imagem, 5.1s)
+14:55:06 [video_builder] INFO: Cena 11/19 (imagem, 4.1s)
+14:55:11 [video_builder] INFO: Cena 12/19 (imagem, 5.3s)
+14:55:17 [video_builder] INFO: Cena 13/19 (imagem, 3.7s)
+14:55:22 [video_builder] INFO: Cena 14/19 (imagem, 5.8s)
+14:55:28 [video_builder] INFO: Cena 15/19 (imagem, 3.2s)
+14:55:32 [video_builder] INFO: Cena 16/19 (imagem, 3.9s)
+14:55:37 [video_builder] INFO: Cena 17/19 (imagem, 3.6s)
+14:55:42 [video_builder] INFO: Cena 18/19 (imagem, 4.7s)
+14:55:47 [video_builder] INFO: Cena 19/19 (imagem, 2.0s)
+14:55:51 [video_builder] INFO: Música: trilha_04.mp3
+14:56:57 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261110T032523Z_en.mp4 (81.9s)
+14:56:57 [produzir] INFO: ✅ Pronto: The Only Ghost in Aviation History

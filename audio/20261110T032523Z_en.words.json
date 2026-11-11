@@ -1,0 +1,862 @@
+[
+  {
+    "palavra": "He",
+    "inicio": 0.32,
+    "fim": 0.44
+  },
+  {
+    "palavra": "ordered",
+    "inicio": 0.44,
+    "fim": 0.86
+  },
+  {
+    "palavra": "a",
+    "inicio": 0.86,
+    "fim": 1.1
+  },
+  {
+    "palavra": "bourbon,",
+    "inicio": 1.1,
+    "fim": 2.12
+  },
+  {
+    "palavra": "handed",
+    "inicio": 2.12,
+    "fim": 2.4
+  },
+  {
+    "palavra": "a",
+    "inicio": 2.4,
+    "fim": 2.64
+  },
+  {
+    "palavra": "note",
+    "inicio": 2.64,
+    "fim": 2.92
+  },
+  {
+    "palavra": "to",
+    "inicio": 2.92,
+    "fim": 3.22
+  },
+  {
+    "palavra": "the",
+    "inicio": 3.22,
+    "fim": 3.34
+  },
+  {
+    "palavra": "flight",
+    "inicio": 3.34,
+    "fim": 3.6
+  },
+  {
+    "palavra": "attendant,",
+    "inicio": 3.6,
+    "fim": 4.28
+  },
+  {
+    "palavra": "and",
+    "inicio": 4.28,
+    "fim": 4.74
+  },
+  {
+    "palavra": "then",
+    "inicio": 4.74,
+    "fim": 4.96
+  },
+  {
+    "palavra": "became",
+    "inicio": 4.96,
+    "fim": 5.44
+  },
+  {
+    "palavra": "the",
+    "inicio": 5.44,
+    "fim": 5.72
+  },
+  {
+    "palavra": "only",
+    "inicio": 5.72,
+    "fim": 6.28
+  },
+  {
+    "palavra": "ghost",
+    "inicio": 6.28,
+    "fim": 6.8
+  },
+  {
+    "palavra": "in",
+    "inicio": 6.8,
+    "fim": 7.1
+  },
+  {
+    "palavra": "aviation",
+    "inicio": 7.1,
+    "fim": 7.54
+  },
+  {
+    "palavra": "history.",
+    "inicio": 7.54,
+    "fim": 8.26
+  },
+  {
+    "palavra": "It’s",
+    "inicio": 9.14,
+    "fim": 9.36
+  },
+  {
+    "palavra": "Thanksgiving",
+    "inicio": 9.36,
+    "fim": 9.88
+  },
+  {
+    "palavra": "Eve,",
+    "inicio": 9.88,
+    "fim": 10.78
+  },
+  {
+    "palavra": "1971.",
+    "inicio": 10.78,
+    "fim": 12.86
+  },
+  {
+    "palavra": "Seat",
+    "inicio": 12.86,
+    "fim": 13.2
+  },
+  {
+    "palavra": "18-E.",
+    "inicio": 13.2,
+    "fim": 14.2
+  },
+  {
+    "palavra": "A",
+    "inicio": 14.58,
+    "fim": 15.12
+  },
+  {
+    "palavra": "man",
+    "inicio": 15.12,
+    "fim": 15.46
+  },
+  {
+    "palavra": "known",
+    "inicio": 15.46,
+    "fim": 15.66
+  },
+  {
+    "palavra": "as",
+    "inicio": 15.66,
+    "fim": 15.9
+  },
+  {
+    "palavra": "Dan",
+    "inicio": 15.9,
+    "fim": 16.32
+  },
+  {
+    "palavra": "Cooper",
+    "inicio": 16.32,
+    "fim": 16.76
+  },
+  {
+    "palavra": "claims",
+    "inicio": 16.76,
+    "fim": 17.36
+  },
+  {
+    "palavra": "he",
+    "inicio": 17.36,
+    "fim": 17.6
+  },
+  {
+    "palavra": "has",
+    "inicio": 17.6,
+    "fim": 17.76
+  },
+  {
+    "palavra": "a",
+    "inicio": 17.76,
+    "fim": 17.92
+  },
+  {
+    "palavra": "bomb.",
+    "inicio": 17.92,
+    "fim": 18.32
+  },
+  {
+    "palavra": "His",
+    "inicio": 18.96,
+    "fim": 19.1
+  },
+  {
+    "palavra": "demands?",
+    "inicio": 19.1,
+    "fim": 19.564
+  },
+  {
+    "palavra": "Two",
+    "inicio": 19.564,
+    "fim": 20.028
+  },
+  {
+    "palavra": "hundred",
+    "inicio": 20.028,
+    "fim": 20.492
+  },
+  {
+    "palavra": "thousand",
+    "inicio": 20.492,
+    "fim": 20.956
+  },
+  {
+    "palavra": "dollars",
+    "inicio": 20.956,
+    "fim": 21.42
+  },
+  {
+    "palavra": "in",
+    "inicio": 21.42,
+    "fim": 22.04
+  },
+  {
+    "palavra": "cash",
+    "inicio": 22.04,
+    "fim": 22.56
+  },
+  {
+    "palavra": "and",
+    "inicio": 22.56,
+    "fim": 22.94
+  },
+  {
+    "palavra": "four",
+    "inicio": 22.94,
+    "fim": 23.36
+  },
+  {
+    "palavra": "parachutes.",
+    "inicio": 23.36,
+    "fim": 24.06
+  },
+  {
+    "palavra": "The",
+    "inicio": 24.86,
+    "fim": 25.04
+  },
+  {
+    "palavra": "plane",
+    "inicio": 25.04,
+    "fim": 25.34
+  },
+  {
+    "palavra": "touches",
+    "inicio": 25.34,
+    "fim": 25.7
+  },
+  {
+    "palavra": "down",
+    "inicio": 25.7,
+    "fim": 26.02
+  },
+  {
+    "palavra": "in",
+    "inicio": 26.02,
+    "fim": 26.2
+  },
+  {
+    "palavra": "Seattle,",
+    "inicio": 26.2,
+    "fim": 26.54
+  },
+  {
+    "palavra": "the",
+    "inicio": 27.06,
+    "fim": 27.24
+  },
+  {
+    "palavra": "money",
+    "inicio": 27.24,
+    "fim": 27.48
+  },
+  {
+    "palavra": "is",
+    "inicio": 27.48,
+    "fim": 27.72
+  },
+  {
+    "palavra": "handed",
+    "inicio": 27.72,
+    "fim": 27.96
+  },
+  {
+    "palavra": "over,",
+    "inicio": 27.96,
+    "fim": 28.4
+  },
+  {
+    "palavra": "and",
+    "inicio": 28.4,
+    "fim": 28.8
+  },
+  {
+    "palavra": "the",
+    "inicio": 28.8,
+    "fim": 28.92
+  },
+  {
+    "palavra": "passengers",
+    "inicio": 28.92,
+    "fim": 29.32
+  },
+  {
+    "palavra": "are",
+    "inicio": 29.32,
+    "fim": 29.64
+  },
+  {
+    "palavra": "released.",
+    "inicio": 29.64,
+    "fim": 30.08
+  },
+  {
+    "palavra": "But",
+    "inicio": 30.8,
+    "fim": 31.08
+  },
+  {
+    "palavra": "the",
+    "inicio": 31.08,
+    "fim": 31.22
+  },
+  {
+    "palavra": "nightmare",
+    "inicio": 31.22,
+    "fim": 31.64
+  },
+  {
+    "palavra": "isn't",
+    "inicio": 31.64,
+    "fim": 32.22
+  },
+  {
+    "palavra": "over.",
+    "inicio": 32.22,
+    "fim": 32.56
+  },
+  {
+    "palavra": "Cooper",
+    "inicio": 33.38,
+    "fim": 33.68
+  },
+  {
+    "palavra": "orders",
+    "inicio": 33.68,
+    "fim": 34.18
+  },
+  {
+    "palavra": "the",
+    "inicio": 34.18,
+    "fim": 34.4
+  },
+  {
+    "palavra": "pilot",
+    "inicio": 34.4,
+    "fim": 34.72
+  },
+  {
+    "palavra": "back",
+    "inicio": 34.72,
+    "fim": 35.08
+  },
+  {
+    "palavra": "into",
+    "inicio": 35.08,
+    "fim": 35.3
+  },
+  {
+    "palavra": "the",
+    "inicio": 35.3,
+    "fim": 35.44
+  },
+  {
+    "palavra": "sky,",
+    "inicio": 35.44,
+    "fim": 36.06
+  },
+  {
+    "palavra": "bound",
+    "inicio": 36.06,
+    "fim": 36.48
+  },
+  {
+    "palavra": "for",
+    "inicio": 36.48,
+    "fim": 36.74
+  },
+  {
+    "palavra": "Mexico",
+    "inicio": 36.74,
+    "fim": 37.1
+  },
+  {
+    "palavra": "City.",
+    "inicio": 37.1,
+    "fim": 37.58
+  },
+  {
+    "palavra": "Somewhere",
+    "inicio": 38.68,
+    "fim": 38.96
+  },
+  {
+    "palavra": "over",
+    "inicio": 38.96,
+    "fim": 39.32
+  },
+  {
+    "palavra": "the",
+    "inicio": 39.32,
+    "fim": 39.48
+  },
+  {
+    "palavra": "Washington",
+    "inicio": 39.48,
+    "fim": 39.92
+  },
+  {
+    "palavra": "woods,",
+    "inicio": 39.92,
+    "fim": 40.4
+  },
+  {
+    "palavra": "he",
+    "inicio": 40.4,
+    "fim": 40.96
+  },
+  {
+    "palavra": "does",
+    "inicio": 40.96,
+    "fim": 41.28
+  },
+  {
+    "palavra": "the",
+    "inicio": 41.28,
+    "fim": 41.5
+  },
+  {
+    "palavra": "impossible.",
+    "inicio": 41.5,
+    "fim": 42.02
+  },
+  {
+    "palavra": "He",
+    "inicio": 42.7,
+    "fim": 42.92
+  },
+  {
+    "palavra": "deploys",
+    "inicio": 42.92,
+    "fim": 43.36
+  },
+  {
+    "palavra": "the",
+    "inicio": 43.36,
+    "fim": 43.64
+  },
+  {
+    "palavra": "airstair",
+    "inicio": 43.64,
+    "fim": 44.12
+  },
+  {
+    "palavra": "and",
+    "inicio": 44.12,
+    "fim": 44.44
+  },
+  {
+    "palavra": "parachutes",
+    "inicio": 44.44,
+    "fim": 45.14
+  },
+  {
+    "palavra": "into",
+    "inicio": 45.14,
+    "fim": 45.54
+  },
+  {
+    "palavra": "an",
+    "inicio": 45.54,
+    "fim": 45.72
+  },
+  {
+    "palavra": "uncertain",
+    "inicio": 45.72,
+    "fim": 46.36
+  },
+  {
+    "palavra": "fate.",
+    "inicio": 46.36,
+    "fim": 46.78
+  },
+  {
+    "palavra": "For",
+    "inicio": 47.86,
+    "fim": 48.04
+  },
+  {
+    "palavra": "forty-five",
+    "inicio": 48.04,
+    "fim": 48.66
+  },
+  {
+    "palavra": "years,",
+    "inicio": 48.66,
+    "fim": 49.6
+  },
+  {
+    "palavra": "the",
+    "inicio": 49.6,
+    "fim": 49.72
+  },
+  {
+    "palavra": "FBI",
+    "inicio": 49.72,
+    "fim": 50.2
+  },
+  {
+    "palavra": "hunted",
+    "inicio": 50.2,
+    "fim": 50.66
+  },
+  {
+    "palavra": "him.",
+    "inicio": 50.66,
+    "fim": 50.92
+  },
+  {
+    "palavra": "They",
+    "inicio": 51.56,
+    "fim": 51.66
+  },
+  {
+    "palavra": "reached",
+    "inicio": 51.66,
+    "fim": 52.04
+  },
+  {
+    "palavra": "no",
+    "inicio": 52.04,
+    "fim": 52.38
+  },
+  {
+    "palavra": "definitive",
+    "inicio": 52.38,
+    "fim": 52.86
+  },
+  {
+    "palavra": "conclusions",
+    "inicio": 52.86,
+    "fim": 53.44
+  },
+  {
+    "palavra": "about",
+    "inicio": 53.44,
+    "fim": 53.82
+  },
+  {
+    "palavra": "his",
+    "inicio": 53.82,
+    "fim": 54.02
+  },
+  {
+    "palavra": "identity",
+    "inicio": 54.02,
+    "fim": 54.42
+  },
+  {
+    "palavra": "or",
+    "inicio": 54.42,
+    "fim": 54.9
+  },
+  {
+    "palavra": "fate.",
+    "inicio": 54.9,
+    "fim": 55.48
+  },
+  {
+    "palavra": "Then,",
+    "inicio": 56.34,
+    "fim": 57.26
+  },
+  {
+    "palavra": "nine",
+    "inicio": 57.26,
+    "fim": 57.48
+  },
+  {
+    "palavra": "years",
+    "inicio": 57.48,
+    "fim": 57.9
+  },
+  {
+    "palavra": "later,",
+    "inicio": 57.9,
+    "fim": 58.6
+  },
+  {
+    "palavra": "a",
+    "inicio": 58.6,
+    "fim": 58.94
+  },
+  {
+    "palavra": "boy",
+    "inicio": 58.94,
+    "fim": 59.32
+  },
+  {
+    "palavra": "digging",
+    "inicio": 59.32,
+    "fim": 59.68
+  },
+  {
+    "palavra": "in",
+    "inicio": 59.68,
+    "fim": 59.88
+  },
+  {
+    "palavra": "river",
+    "inicio": 59.88,
+    "fim": 60.18
+  },
+  {
+    "palavra": "mud",
+    "inicio": 60.18,
+    "fim": 60.42
+  },
+  {
+    "palavra": "uncovers",
+    "inicio": 60.42,
+    "fim": 60.835
+  },
+  {
+    "palavra": "six",
+    "inicio": 60.835,
+    "fim": 61.25
+  },
+  {
+    "palavra": "thousand",
+    "inicio": 61.25,
+    "fim": 61.665
+  },
+  {
+    "palavra": "dollars",
+    "inicio": 61.665,
+    "fim": 62.08
+  },
+  {
+    "palavra": "in",
+    "inicio": 62.08,
+    "fim": 62.66
+  },
+  {
+    "palavra": "rotting",
+    "inicio": 62.66,
+    "fim": 63.06
+  },
+  {
+    "palavra": "bills.",
+    "inicio": 63.06,
+    "fim": 63.44
+  },
+  {
+    "palavra": "The",
+    "inicio": 64.38,
+    "fim": 64.56
+  },
+  {
+    "palavra": "rest",
+    "inicio": 64.56,
+    "fim": 64.78
+  },
+  {
+    "palavra": "of",
+    "inicio": 64.78,
+    "fim": 64.9
+  },
+  {
+    "palavra": "the",
+    "inicio": 64.9,
+    "fim": 64.98
+  },
+  {
+    "palavra": "fortune?",
+    "inicio": 64.98,
+    "fim": 65.32
+  },
+  {
+    "palavra": "Never",
+    "inicio": 65.32,
+    "fim": 66.2
+  },
+  {
+    "palavra": "found.",
+    "inicio": 66.2,
+    "fim": 66.88
+  },
+  {
+    "palavra": "In",
+    "inicio": 67.58,
+    "fim": 67.72
+  },
+  {
+    "palavra": "2016,",
+    "inicio": 67.72,
+    "fim": 68.98
+  },
+  {
+    "palavra": "the",
+    "inicio": 68.98,
+    "fim": 69.1
+  },
+  {
+    "palavra": "FBI",
+    "inicio": 69.1,
+    "fim": 69.6
+  },
+  {
+    "palavra": "officially",
+    "inicio": 69.6,
+    "fim": 70.24
+  },
+  {
+    "palavra": "gave",
+    "inicio": 70.24,
+    "fim": 70.66
+  },
+  {
+    "palavra": "up.",
+    "inicio": 70.66,
+    "fim": 71.08
+  },
+  {
+    "palavra": "No",
+    "inicio": 71.52,
+    "fim": 71.7
+  },
+  {
+    "palavra": "name,",
+    "inicio": 71.7,
+    "fim": 72.4
+  },
+  {
+    "palavra": "no",
+    "inicio": 72.4,
+    "fim": 72.66
+  },
+  {
+    "palavra": "body,",
+    "inicio": 72.66,
+    "fim": 73.58
+  },
+  {
+    "palavra": "no",
+    "inicio": 73.58,
+    "fim": 73.72
+  },
+  {
+    "palavra": "answers.",
+    "inicio": 73.72,
+    "fim": 74.68
+  },
+  {
+    "palavra": "Did",
+    "inicio": 75.1,
+    "fim": 75.26
+  },
+  {
+    "palavra": "Cooper",
+    "inicio": 75.26,
+    "fim": 75.58
+  },
+  {
+    "palavra": "perish",
+    "inicio": 75.58,
+    "fim": 76.02
+  },
+  {
+    "palavra": "in",
+    "inicio": 76.02,
+    "fim": 76.24
+  },
+  {
+    "palavra": "those",
+    "inicio": 76.24,
+    "fim": 76.4
+  },
+  {
+    "palavra": "woods,",
+    "inicio": 76.4,
+    "fim": 76.72
+  },
+  {
+    "palavra": "or",
+    "inicio": 76.72,
+    "fim": 77.28
+  },
+  {
+    "palavra": "did",
+    "inicio": 77.28,
+    "fim": 77.44
+  },
+  {
+    "palavra": "he",
+    "inicio": 77.44,
+    "fim": 77.58
+  },
+  {
+    "palavra": "pull",
+    "inicio": 77.58,
+    "fim": 77.9
+  },
+  {
+    "palavra": "off",
+    "inicio": 77.9,
+    "fim": 78.12
+  },
+  {
+    "palavra": "the",
+    "inicio": 78.12,
+    "fim": 78.3
+  },
+  {
+    "palavra": "perfect",
+    "inicio": 78.3,
+    "fim": 78.62
+  },
+  {
+    "palavra": "crime?",
+    "inicio": 78.62,
+    "fim": 79.14
+  },
+  {
+    "palavra": "Drop",
+    "inicio": 79.84,
+    "fim": 80
+  },
+  {
+    "palavra": "your",
+    "inicio": 80,
+    "fim": 80.3
+  },
+  {
+    "palavra": "theory",
+    "inicio": 80.3,
+    "fim": 80.72
+  },
+  {
+    "palavra": "below.",
+    "inicio": 80.72,
+    "fim": 81.28
+  }
+]

@@ -1,0 +1,742 @@
+[
+  {
+    "palavra": "A",
+    "inicio": 0.0,
+    "fim": 0.35
+  },
+  {
+    "palavra": "pele",
+    "inicio": 0.0,
+    "fim": 0.35
+  },
+  {
+    "palavra": "de",
+    "inicio": 0.0,
+    "fim": 0.35
+  },
+  {
+    "palavra": "quinze",
+    "inicio": 0.0,
+    "fim": 0.35
+  },
+  {
+    "palavra": "bezerros",
+    "inicio": 0.0,
+    "fim": 0.35
+  },
+  {
+    "palavra": "foi",
+    "inicio": 0.0,
+    "fim": 0.35
+  },
+  {
+    "palavra": "usada",
+    "inicio": 0.0,
+    "fim": 0.35
+  },
+  {
+    "palavra": "para",
+    "inicio": 0.0,
+    "fim": 0.35
+  },
+  {
+    "palavra": "criar",
+    "inicio": 0.0,
+    "fim": 0.35
+  },
+  {
+    "palavra": "o",
+    "inicio": 0.0,
+    "fim": 0.35
+  },
+  {
+    "palavra": "pergaminho",
+    "inicio": 0.0,
+    "fim": 0.35
+  },
+  {
+    "palavra": "de",
+    "inicio": 0.0,
+    "fim": 0.35
+  },
+  {
+    "palavra": "um",
+    "inicio": 0.0,
+    "fim": 0.35
+  },
+  {
+    "palavra": "livro",
+    "inicio": 0.0,
+    "fim": 0.35
+  },
+  {
+    "palavra": "escrito",
+    "inicio": 0.09,
+    "fim": 0.44
+  },
+  {
+    "palavra": "em",
+    "inicio": 0.44,
+    "fim": 0.64
+  },
+  {
+    "palavra": "um",
+    "inicio": 0.64,
+    "fim": 0.82
+  },
+  {
+    "palavra": "idioma",
+    "inicio": 0.82,
+    "fim": 0.837
+  },
+  {
+    "palavra": "não",
+    "inicio": 0.837,
+    "fim": 0.854
+  },
+  {
+    "palavra": "identificado.",
+    "inicio": 0.854,
+    "fim": 0.871
+  },
+  {
+    "palavra": "Há",
+    "inicio": 0.871,
+    "fim": 0.888
+  },
+  {
+    "palavra": "seiscentos",
+    "inicio": 0.888,
+    "fim": 0.905
+  },
+  {
+    "palavra": "anos,",
+    "inicio": 0.905,
+    "fim": 0.922
+  },
+  {
+    "palavra": "ele",
+    "inicio": 0.922,
+    "fim": 0.939
+  },
+  {
+    "palavra": "zomba",
+    "inicio": 0.939,
+    "fim": 0.956
+  },
+  {
+    "palavra": "das",
+    "inicio": 0.956,
+    "fim": 0.974
+  },
+  {
+    "palavra": "mentes",
+    "inicio": 0.974,
+    "fim": 0.991
+  },
+  {
+    "palavra": "mais",
+    "inicio": 0.991,
+    "fim": 1.008
+  },
+  {
+    "palavra": "brilhantes",
+    "inicio": 1.008,
+    "fim": 1.025
+  },
+  {
+    "palavra": "da",
+    "inicio": 1.025,
+    "fim": 1.042
+  },
+  {
+    "palavra": "história.",
+    "inicio": 1.042,
+    "fim": 1.059
+  },
+  {
+    "palavra": "Encontrado",
+    "inicio": 1.059,
+    "fim": 1.076
+  },
+  {
+    "palavra": "em",
+    "inicio": 1.076,
+    "fim": 1.093
+  },
+  {
+    "palavra": "mil",
+    "inicio": 1.093,
+    "fim": 1.11
+  },
+  {
+    "palavra": "novecentos",
+    "inicio": 1.11,
+    "fim": 1.127
+  },
+  {
+    "palavra": "e",
+    "inicio": 1.127,
+    "fim": 1.144
+  },
+  {
+    "palavra": "doze",
+    "inicio": 1.144,
+    "fim": 1.161
+  },
+  {
+    "palavra": "por",
+    "inicio": 1.161,
+    "fim": 1.178
+  },
+  {
+    "palavra": "um",
+    "inicio": 1.178,
+    "fim": 1.195
+  },
+  {
+    "palavra": "livreiro",
+    "inicio": 1.195,
+    "fim": 1.212
+  },
+  {
+    "palavra": "em",
+    "inicio": 1.212,
+    "fim": 1.229
+  },
+  {
+    "palavra": "um",
+    "inicio": 1.229,
+    "fim": 1.246
+  },
+  {
+    "palavra": "colégio",
+    "inicio": 1.246,
+    "fim": 1.264
+  },
+  {
+    "palavra": "italiano,",
+    "inicio": 1.264,
+    "fim": 1.281
+  },
+  {
+    "palavra": "o",
+    "inicio": 1.281,
+    "fim": 1.298
+  },
+  {
+    "palavra": "manuscrito",
+    "inicio": 1.298,
+    "fim": 1.315
+  },
+  {
+    "palavra": "desafia",
+    "inicio": 1.315,
+    "fim": 1.332
+  },
+  {
+    "palavra": "a",
+    "inicio": 1.332,
+    "fim": 1.349
+  },
+  {
+    "palavra": "biologia.",
+    "inicio": 1.349,
+    "fim": 1.366
+  },
+  {
+    "palavra": "Existem",
+    "inicio": 1.366,
+    "fim": 1.383
+  },
+  {
+    "palavra": "desenhos",
+    "inicio": 1.383,
+    "fim": 1.4
+  },
+  {
+    "palavra": "de",
+    "inicio": 1.4,
+    "fim": 1.78
+  },
+  {
+    "palavra": "plantas",
+    "inicio": 1.78,
+    "fim": 11.187
+  },
+  {
+    "palavra": "não",
+    "inicio": 11.187,
+    "fim": 20.593
+  },
+  {
+    "palavra": "identificadas,",
+    "inicio": 20.593,
+    "fim": 30.0
+  },
+  {
+    "palavra": "símbolos",
+    "inicio": 30,
+    "fim": 30.44
+  },
+  {
+    "palavra": "astrológicos",
+    "inicio": 30.44,
+    "fim": 31.24
+  },
+  {
+    "palavra": "e",
+    "inicio": 31.24,
+    "fim": 31.7
+  },
+  {
+    "palavra": "ilustrações",
+    "inicio": 31.7,
+    "fim": 32.3
+  },
+  {
+    "palavra": "fantásticas.",
+    "inicio": 32.3,
+    "fim": 33.34
+  },
+  {
+    "palavra": "O",
+    "inicio": 33.84,
+    "fim": 34.12
+  },
+  {
+    "palavra": "texto",
+    "inicio": 34.12,
+    "fim": 34.38
+  },
+  {
+    "palavra": "flui",
+    "inicio": 34.38,
+    "fim": 34.76
+  },
+  {
+    "palavra": "suavemente,",
+    "inicio": 34.76,
+    "fim": 35.72
+  },
+  {
+    "palavra": "da",
+    "inicio": 35.72,
+    "fim": 36.08
+  },
+  {
+    "palavra": "esquerda",
+    "inicio": 36.08,
+    "fim": 36.56
+  },
+  {
+    "palavra": "para",
+    "inicio": 36.56,
+    "fim": 36.8
+  },
+  {
+    "palavra": "a",
+    "inicio": 36.8,
+    "fim": 36.9
+  },
+  {
+    "palavra": "direita,",
+    "inicio": 36.9,
+    "fim": 37.38
+  },
+  {
+    "palavra": "sem",
+    "inicio": 37.7,
+    "fim": 37.88
+  },
+  {
+    "palavra": "rasuras",
+    "inicio": 37.88,
+    "fim": 38.4
+  },
+  {
+    "palavra": "nem",
+    "inicio": 38.4,
+    "fim": 38.8
+  },
+  {
+    "palavra": "hesitações",
+    "inicio": 38.8,
+    "fim": 39.4
+  },
+  {
+    "palavra": "típicas",
+    "inicio": 39.4,
+    "fim": 39.9
+  },
+  {
+    "palavra": "de",
+    "inicio": 39.9,
+    "fim": 40.08
+  },
+  {
+    "palavra": "quem",
+    "inicio": 40.08,
+    "fim": 40.26
+  },
+  {
+    "palavra": "escreve",
+    "inicio": 40.26,
+    "fim": 40.76
+  },
+  {
+    "palavra": "um",
+    "inicio": 40.76,
+    "fim": 40.92
+  },
+  {
+    "palavra": "código",
+    "inicio": 40.92,
+    "fim": 41.18
+  },
+  {
+    "palavra": "secreto.",
+    "inicio": 41.18,
+    "fim": 41.8
+  },
+  {
+    "palavra": "Os",
+    "inicio": 43,
+    "fim": 43.2
+  },
+  {
+    "palavra": "maiores",
+    "inicio": 43.2,
+    "fim": 43.8
+  },
+  {
+    "palavra": "decifradores",
+    "inicio": 43.8,
+    "fim": 44.6
+  },
+  {
+    "palavra": "das",
+    "inicio": 44.6,
+    "fim": 44.84
+  },
+  {
+    "palavra": "duas",
+    "inicio": 44.84,
+    "fim": 45.24
+  },
+  {
+    "palavra": "Guerras",
+    "inicio": 45.24,
+    "fim": 45.56
+  },
+  {
+    "palavra": "Mundiais",
+    "inicio": 45.56,
+    "fim": 46.14
+  },
+  {
+    "palavra": "dedicaram",
+    "inicio": 46.52,
+    "fim": 46.94
+  },
+  {
+    "palavra": "décadas",
+    "inicio": 46.94,
+    "fim": 47.4
+  },
+  {
+    "palavra": "para",
+    "inicio": 47.4,
+    "fim": 47.7
+  },
+  {
+    "palavra": "ler",
+    "inicio": 47.7,
+    "fim": 47.86
+  },
+  {
+    "palavra": "essas",
+    "inicio": 47.86,
+    "fim": 48.1
+  },
+  {
+    "palavra": "páginas",
+    "inicio": 48.1,
+    "fim": 48.58
+  },
+  {
+    "palavra": "e",
+    "inicio": 48.58,
+    "fim": 49.08
+  },
+  {
+    "palavra": "falharam",
+    "inicio": 49.08,
+    "fim": 49.68
+  },
+  {
+    "palavra": "miseravelmente.",
+    "inicio": 49.68,
+    "fim": 50.64
+  },
+  {
+    "palavra": "A",
+    "inicio": 51.76,
+    "fim": 51.88
+  },
+  {
+    "palavra": "datação",
+    "inicio": 51.88,
+    "fim": 52.26
+  },
+  {
+    "palavra": "por",
+    "inicio": 52.26,
+    "fim": 52.44
+  },
+  {
+    "palavra": "carbono",
+    "inicio": 52.44,
+    "fim": 52.78
+  },
+  {
+    "palavra": "é",
+    "inicio": 52.78,
+    "fim": 53.08
+  },
+  {
+    "palavra": "exata:",
+    "inicio": 53.08,
+    "fim": 54.1
+  },
+  {
+    "palavra": "início",
+    "inicio": 54.1,
+    "fim": 54.48
+  },
+  {
+    "palavra": "do",
+    "inicio": 54.48,
+    "fim": 54.74
+  },
+  {
+    "palavra": "século",
+    "inicio": 54.74,
+    "fim": 55.08
+  },
+  {
+    "palavra": "quinze.",
+    "inicio": 55.08,
+    "fim": 56.52
+  },
+  {
+    "palavra": "Hoje,",
+    "inicio": 56.52,
+    "fim": 57
+  },
+  {
+    "palavra": "o",
+    "inicio": 57,
+    "fim": 57.42
+  },
+  {
+    "palavra": "manuscrito",
+    "inicio": 57.42,
+    "fim": 57.88
+  },
+  {
+    "palavra": "Voynich",
+    "inicio": 57.88,
+    "fim": 58.36
+  },
+  {
+    "palavra": "está",
+    "inicio": 58.36,
+    "fim": 58.64
+  },
+  {
+    "palavra": "trancado",
+    "inicio": 58.64,
+    "fim": 59.06
+  },
+  {
+    "palavra": "em",
+    "inicio": 59.06,
+    "fim": 59.24
+  },
+  {
+    "palavra": "um",
+    "inicio": 59.24,
+    "fim": 59.34
+  },
+  {
+    "palavra": "cofre",
+    "inicio": 59.34,
+    "fim": 59.72
+  },
+  {
+    "palavra": "na",
+    "inicio": 59.72,
+    "fim": 59.86
+  },
+  {
+    "palavra": "Universidade",
+    "inicio": 59.86,
+    "fim": 60.48
+  },
+  {
+    "palavra": "Yale.",
+    "inicio": 60.48,
+    "fim": 61.22
+  },
+  {
+    "palavra": "Se",
+    "inicio": 61.86,
+    "fim": 62.08
+  },
+  {
+    "palavra": "for",
+    "inicio": 62.08,
+    "fim": 62.24
+  },
+  {
+    "palavra": "uma",
+    "inicio": 62.24,
+    "fim": 62.38
+  },
+  {
+    "palavra": "farsa,",
+    "inicio": 62.38,
+    "fim": 63.48
+  },
+  {
+    "palavra": "por",
+    "inicio": 63.48,
+    "fim": 63.52
+  },
+  {
+    "palavra": "que",
+    "inicio": 63.52,
+    "fim": 63.56
+  },
+  {
+    "palavra": "usar",
+    "inicio": 63.56,
+    "fim": 63.84
+  },
+  {
+    "palavra": "materiais",
+    "inicio": 63.84,
+    "fim": 64.32
+  },
+  {
+    "palavra": "comuns",
+    "inicio": 64.32,
+    "fim": 64.8
+  },
+  {
+    "palavra": "e",
+    "inicio": 64.8,
+    "fim": 64.92
+  },
+  {
+    "palavra": "pigmentos",
+    "inicio": 64.92,
+    "fim": 65.48
+  },
+  {
+    "palavra": "de",
+    "inicio": 65.48,
+    "fim": 65.6
+  },
+  {
+    "palavra": "baixo",
+    "inicio": 65.6,
+    "fim": 65.84
+  },
+  {
+    "palavra": "custo",
+    "inicio": 65.84,
+    "fim": 66.26
+  },
+  {
+    "palavra": "da",
+    "inicio": 66.26,
+    "fim": 66.42
+  },
+  {
+    "palavra": "Idade",
+    "inicio": 66.42,
+    "fim": 66.66
+  },
+  {
+    "palavra": "Média?",
+    "inicio": 66.66,
+    "fim": 66.98
+  },
+  {
+    "palavra": "Para",
+    "inicio": 67.66,
+    "fim": 67.86
+  },
+  {
+    "palavra": "você,",
+    "inicio": 67.86,
+    "fim": 68.42
+  },
+  {
+    "palavra": "isso",
+    "inicio": 68.42,
+    "fim": 69.1
+  },
+  {
+    "palavra": "é",
+    "inicio": 69.1,
+    "fim": 69.2
+  },
+  {
+    "palavra": "um",
+    "inicio": 69.2,
+    "fim": 69.34
+  },
+  {
+    "palavra": "mapa",
+    "inicio": 69.34,
+    "fim": 69.7
+  },
+  {
+    "palavra": "perdido",
+    "inicio": 69.7,
+    "fim": 70.4
+  },
+  {
+    "palavra": "ou",
+    "inicio": 70.4,
+    "fim": 71.08
+  },
+  {
+    "palavra": "o",
+    "inicio": 71.08,
+    "fim": 71.38
+  },
+  {
+    "palavra": "diário",
+    "inicio": 71.38,
+    "fim": 71.8
+  },
+  {
+    "palavra": "de",
+    "inicio": 71.8,
+    "fim": 71.96
+  },
+  {
+    "palavra": "um",
+    "inicio": 71.96,
+    "fim": 72.08
+  },
+  {
+    "palavra": "louco?",
+    "inicio": 72.08,
+    "fim": 72.54
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "n": 1,
+    "texto": "A pele de quinze bezerros foi usada para criar o pergaminho de um livro escrito em um idioma não identificado. Há seiscentos anos, ele zomba das mentes mais brilhantes da história. Encontrado em mil novecentos e doze por um livreiro em um colégio italiano, o manuscrito desafia a biologia. Existem desenhos de plantas",
+    "inicio": 0.0,
+    "fim": 11.187,
+    "duracao": 11.187,
+    "visual": {
+      "real": {
+        "nome": "Michał Wojnicz wśród książek w swoim antykwariacie na Soho Square.jpg",
+        "descricao": "Mr. Voynich among his books in Soho Square",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Micha%C5%82_Wojnicz_w%C5%9Br%C3%B3d_ksi%C4%85%C5%BCek_w_swoim_antykwariacie_na_Soho_Square.jpg/1280px-Micha%C5%82_Wojnicz_w%C5%9Br%C3%B3d_ksi%C4%85%C5%BCek_w_swoim_antykwariacie_na_Soho_Square.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Unknown authorUnknown author"
+      },
+      "ia": "15th Century Europe and early 20th Century Italy, period-accurate clothing and technology. A dusty 1912 Italian library interior, a man with glasses and a suit holding a thick vellum manuscript, sunlight filtering through tall windows onto stacks of ancient books, cinematic lighting, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Micha%C5%82_Wojnicz_w%C5%9Br%C3%B3d_ksi%C4%85%C5%BCek_w_swoim_antykwariacie_na_Soho_Square.jpg/1280px-Micha%C5%82_Wojnicz_w%C5%9Br%C3%B3d_ksi%C4%85%C5%BCek_w_swoim_antykwariacie_na_Soho_Square.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/8065a288dded0c12.jpg",
+      "credito": "Michał Wojnicz wśród książek w swoim antykwariacie na Soho Square.jpg — Unknown authorUnknown author (Public domain)"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "não",
+    "inicio": 11.187,
+    "fim": 20.593,
+    "duracao": 9.406,
+    "visual": {
+      "real": {
+        "nome": "Voynich Manuscript (32).jpg",
+        "descricao": "A page from the mysterious Voynich manuscript, which is undeciphered to this day.",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Voynich_Manuscript_%2832%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Unknown authorUnknown author"
+      },
+      "ia": "15th Century Europe and early 20th Century Italy, period-accurate clothing and technology. Close-up of a medieval parchment page showing a bizarre, non-existent plant with blue roots and jagged leaves, hand-drawn with faded ink, textured vellum background, soft candlelight, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Voynich_Manuscript_%2832%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/a0128f5d920d0c81.jpg",
+      "credito": "Voynich Manuscript (32).jpg — Unknown authorUnknown author (Public domain)"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "identificadas,",
+    "inicio": 20.593,
+    "fim": 30,
+    "duracao": 9.407,
+    "visual": {
+      "real": {
+        "nome": "Voynich Manuscript (33).jpg",
+        "descricao": "A page from the mysterious Voynich manuscript, which is undeciphered to this day.",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Voynich_Manuscript_%2833%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Unknown authorUnknown author"
+      },
+      "ia": "15th Century Europe and early 20th Century Italy, period-accurate clothing and technology. Macro shot of a strange botanical illustration in an ancient book, showing impossible flowers and complex root systems, aged yellowed parchment, medieval artistic style, mysterious atmosphere, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Voynich_Manuscript_%2833%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/dec75231e6ae1276.jpg",
+      "credito": "Voynich Manuscript (33).jpg — Unknown authorUnknown author (Public domain)"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "símbolos astrológicos e ilustrações fantásticas.",
+    "inicio": 30,
+    "fim": 33.84,
+    "duracao": 3.84,
+    "visual": {
+      "real": {
+        "nome": "Voynich Manuscript (131) f72v3 detail ((retouching)).jpg",
+        "descricao": "Detail of Voynich Manuscript, page 131, f72v3, showing retouching of drawing",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Voynich_Manuscript_%28131%29_f72v3_detail_%28%28retouching%29%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Unknown authorUnknown author"
+      },
+      "ia": "15th Century Europe and early 20th Century Italy, period-accurate clothing and technology. A medieval manuscript page featuring a circular zodiac-like diagram with strange stars and tiny nude figures, hand-painted with faded blues and greens, mystical and esoteric aesthetic, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Voynich_Manuscript_%28131%29_f72v3_detail_%28%28retouching%29%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/60f37c84ceca60a3.jpg",
+      "credito": "Voynich Manuscript (131) f72v3 detail ((retouching)).jpg — Unknown authorUnknown author (Public domain)"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "O texto flui suavemente, da esquerda para a direita,",
+    "inicio": 33.84,
+    "fim": 37.7,
+    "duracao": 3.86,
+    "visual": {
+      "real": {
+        "nome": "Voynich Manuscript (3).jpg",
+        "descricao": "A page from the mysterious Voynich manuscript, which is undeciphered to this day.",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Voynich_Manuscript_%283%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Unknown authorUnknown author"
+      },
+      "ia": "15th Century Europe and early 20th Century Italy, period-accurate clothing and technology. Close-up of elegant unknown script written on old vellum, the ink is brownish, the writing is continuous and fluid without corrections, historical calligraphy, cinematic macro shot, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Voynich_Manuscript_%283%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/cc7728015f0ae14b.jpg",
+      "credito": "Voynich Manuscript (3).jpg — Unknown authorUnknown author (Public domain)"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "sem rasuras nem hesitações típicas de quem escreve um código secreto.",
+    "inicio": 37.7,
+    "fim": 43,
+    "duracao": 5.3,
+    "visual": {
+      "real": {
+        "nome": "Voynich Manuscript (206).jpg",
+        "descricao": "A page from the mysterious Voynich manuscript, which is undeciphered to this day.",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Voynich_Manuscript_%28206%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Unknown authorUnknown author"
+      },
+      "ia": "15th Century Europe and early 20th Century Italy, period-accurate clothing and technology. A top-down view of a medieval scribe's desk, a quill resting next to a page of perfect, uncorrected alien script, flickering candlelight, ink pot and old wooden surface, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Voynich_Manuscript_%28206%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/bb9617c4492e6828.jpg",
+      "credito": "Voynich Manuscript (206).jpg — Unknown authorUnknown author (Public domain)"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "Os maiores decifradores das duas Guerras Mundiais dedicaram décadas para ler essas",
+    "inicio": 43,
+    "fim": 48.1,
+    "duracao": 5.1,
+    "visual": {
+      "real": null,
+      "ia": "15th Century Europe and early 20th Century Italy, period-accurate clothing and technology. A 1940s office with a desk covered in black and white photos of the Voynich manuscript, a magnifying glass, a typewriter, and a military cap, smoke rising from a pipe, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/28b728c169615103.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "páginas e falharam miseravelmente.",
+    "inicio": 48.1,
+    "fim": 51.76,
+    "duracao": 3.66,
+    "visual": {
+      "real": {
+        "nome": "Voynich Manuscript (167).jpg",
+        "descricao": "A page from the mysterious Voynich manuscript, which is undeciphered to this day.",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Voynich_Manuscript_%28167%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Unknown authorUnknown author"
+      },
+      "ia": "15th Century Europe and early 20th Century Italy, period-accurate clothing and technology. A frustrated scholar's hands covering his face in a dimly lit room, surrounded by scattered notes, diagrams, and open pages of the mysterious manuscript, 15th-century style drawings visible, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Voynich_Manuscript_%28167%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/747732372b3f615d.jpg",
+      "credito": "Voynich Manuscript (167).jpg — Unknown authorUnknown author (Public domain)"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "A datação por carbono é exata: início do século quinze.",
+    "inicio": 51.76,
+    "fim": 56.52,
+    "duracao": 4.76,
+    "visual": {
+      "real": null,
+      "ia": "15th Century Europe and early 20th Century Italy, period-accurate clothing and technology. A modern laboratory setting, a small piece of ancient parchment being analyzed under a high-tech microscope, digital displays showing 1404-1438 dates, contrast between old vellum and new tech, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/10a916bd932c703f.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "Hoje, o manuscrito Voynich está trancado em um cofre na Universidade Yale.",
+    "inicio": 56.52,
+    "fim": 61.86,
+    "duracao": 5.34,
+    "visual": {
+      "real": null,
+      "ia": "15th Century Europe and early 20th Century Italy, period-accurate clothing and technology. A heavy, modern steel vault door in a dark university basement, a small brass plaque saying 'Beinecke Library', cold blue lighting, security cameras, sense of high security and mystery, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/5fe0f2b4da96919f.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "Se for uma farsa, por que usar materiais comuns e pigmentos de baixo custo da Idade Média?",
+    "inicio": 61.86,
+    "fim": 67.66,
+    "duracao": 5.8,
+    "visual": {
+      "real": {
+        "nome": "Voynich Manuscript (175).jpg",
+        "descricao": "A page from the mysterious Voynich manuscript, which is undeciphered to this day.",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Voynich_Manuscript_%28175%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Unknown authorUnknown author"
+      },
+      "ia": "15th Century Europe and early 20th Century Italy, period-accurate clothing and technology. A medieval workshop with bowls of raw earth pigments, a piece of calfskin parchment, and a simple quill, humble tools of a 15th-century artist, soft natural light from a small window, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Voynich_Manuscript_%28175%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/08684fb0b7dc4bf2.jpg",
+      "credito": "Voynich Manuscript (175).jpg — Unknown authorUnknown author (Public domain)"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "Para você, isso é um mapa perdido ou o diário de um louco?",
+    "inicio": 67.66,
+    "fim": 73.14,
+    "duracao": 5.48,
+    "visual": {
+      "real": {
+        "nome": "Voynich manuscript bathtub2 example 78r cropped.jpg",
+        "descricao": "",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Voynich_manuscript_bathtub2_example_78r_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "?"
+      },
+      "ia": "15th Century Europe and early 20th Century Italy, period-accurate clothing and technology. A split composition: one side showing a mysterious hand-drawn map of unknown lands, the other side showing chaotic, swirling script and surreal figures, cinematic mystery lighting, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Voynich_manuscript_bathtub2_example_78r_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/b38871dfb114534a.jpg",
+      "credito": "Voynich manuscript bathtub2 example 78r cropped.jpg — ? (Public domain)"
+    }
+  }
+]

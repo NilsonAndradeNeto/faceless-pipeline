@@ -41,5 +41,29 @@
       "titulo": "Manuscrito Voynich",
       "url": "https://pt.wikipedia.org/wiki/Manuscrito_Voynich"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-11",
+  "producao": {
+    "etapa": "pronto",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 1.0,
+    "atualizado": "2026-11-11 14:51:15"
+  },
+  "voz": "gemini",
+  "creditos_imagens": [
+    "Michał Wojnicz wśród książek w swoim antykwariacie na Soho Square.jpg — Unknown authorUnknown author (Public domain)",
+    "Voynich Manuscript (131) f72v3 detail ((retouching)).jpg — Unknown authorUnknown author (Public domain)",
+    "Voynich Manuscript (167).jpg — Unknown authorUnknown author (Public domain)",
+    "Voynich Manuscript (175).jpg — Unknown authorUnknown author (Public domain)",
+    "Voynich Manuscript (206).jpg — Unknown authorUnknown author (Public domain)",
+    "Voynich Manuscript (3).jpg — Unknown authorUnknown author (Public domain)",
+    "Voynich Manuscript (32).jpg — Unknown authorUnknown author (Public domain)",
+    "Voynich Manuscript (33).jpg — Unknown authorUnknown author (Public domain)",
+    "Voynich manuscript bathtub2 example 78r cropped.jpg — ? (Public domain)"
+  ],
+  "imagens_ia": 3,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261110T032000Z_pt.mp4",
+  "duracao_seg": 73.1
 }
