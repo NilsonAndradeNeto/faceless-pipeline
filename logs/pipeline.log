@@ -1575,3 +1575,53 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 14:55:51 [video_builder] INFO: Música: trilha_04.mp3
 14:56:57 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261110T032523Z_en.mp4 (81.9s)
 14:56:57 [produzir] INFO: ✅ Pronto: The Only Ghost in Aviation History
+21:20:28 [ciclo] INFO: — ciclo 11/11 21:20 —
+21:20:28 [ciclo] ERROR: Falha ao publicar pt youtube
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 197, in publicar_no_horario
+    r = publicar(plataforma, ler_json(meta_arq), video)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 166, in publicar
+    return publicar_youtube(meta, Path(video))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 52, in publicar_youtube
+    yt = youtube_cliente(meta["lang"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 42, in youtube_cliente
+    cred = Credentials.from_authorized_user_file(str(arq), ESCOPOS_YT)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/.venv/lib/python3.11/site-packages/google/oauth2/credentials.py", line 544, in from_authorized_user_file
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
+    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
+json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+21:20:28 [ciclo] INFO: Instagram (PT) não conectado — falta IG_TOKEN_PT no .env
+21:20:28 [ciclo] INFO: Conta tiktok (PT) ainda não conectada
+21:20:28 [ciclo] ERROR: Falha ao publicar en youtube
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 197, in publicar_no_horario
+    r = publicar(plataforma, ler_json(meta_arq), video)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 166, in publicar
+    return publicar_youtube(meta, Path(video))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 52, in publicar_youtube
+    yt = youtube_cliente(meta["lang"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 42, in youtube_cliente
+    cred = Credentials.from_authorized_user_file(str(arq), ESCOPOS_YT)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/.venv/lib/python3.11/site-packages/google/oauth2/credentials.py", line 544, in from_authorized_user_file
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
+    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
+json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+21:21:18 [ciclo] INFO: ✅ Publicado EN instagram: https://www.instagram.com/reel/DfnwUqkxTAr/
