@@ -1,3 +1,14 @@
 {
-  "data": "2026-11-12"
+  "data": "2026-11-12",
+  "pt": {
+    "script": "20261112T080523Z_pt",
+    "titulo": "O Homem de Somerton e o Código Tamám Shud",
+    "aprovacao": "automatica",
+    "posts": {}
+  },
+  "en": {
+    "script": null,
+    "motivo": "nenhum roteiro válido na fila",
+    "posts": {}
+  }
 }

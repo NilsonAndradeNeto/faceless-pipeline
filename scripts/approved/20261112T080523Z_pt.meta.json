@@ -40,5 +40,14 @@
       "titulo": "Caso Taman Shud",
       "url": "https://pt.wikipedia.org/wiki/Caso_Taman_Shud"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-12",
+  "producao": {
+    "etapa": "erro",
+    "erro": "narração: 'content'",
+    "detalhe": "",
+    "progresso": 0.0,
+    "atualizado": "2026-11-12 15:02:29"
+  }
 }

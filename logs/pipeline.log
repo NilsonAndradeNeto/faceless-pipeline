@@ -1694,3 +1694,61 @@ Traceback (most recent call last):
   File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
     raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
 agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
+15:02:02 [ciclo] INFO: — ciclo 12/11 15:02 —
+15:02:02 [ciclo] INFO: Aprovado automaticamente: O Homem de Somerton e o Código Tamám Shud
+15:02:02 [ciclo] INFO: Vídeo PT de hoje: O Homem de Somerton e o Código Tamám Shud
+15:02:02 [ciclo] WARNING: Sem vídeo EN hoje
+15:02:02 [produzir] INFO: ▶ Produzindo: O Homem de Somerton e o Código Tamám Shud
+15:02:02 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1013 caracteres, restam só 771) — usando a voz do Gemini
+15:02:03 [tts] WARNING: Gemini TTS falhou — gemini-3.8-flash-tts: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
+15:02:29 [produzir] ERROR: Falhou na etapa narração
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 190, in narrar
+    audio, alinhamento = elevenlabs(texto, meta["lang"])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 44, in elevenlabs
+    raise CotaEsgotada(f"ElevenLabs: faltam {len(texto)} caracteres, restam só {restantes}")
+pipeline.tts.CotaEsgotada: ElevenLabs: faltam 1013 caracteres, restam só 771
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 78, in produzir
+    fn()
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 68, in <lambda>
+    etapas = [("narração", lambda: None if ja_narrado else narrar(script_id)),
+                                                           ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 199, in narrar
+    gemini_tts(texto, meta["lang"], bruto)
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 95, in gemini_tts
+    pcm = base64.b64decode(r.json()["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'content'
+15:02:29 [produzir] ERROR: Falha ao produzir 20261112T080523Z_pt (segue para o próximo)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 190, in narrar
+    audio, alinhamento = elevenlabs(texto, meta["lang"])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 44, in elevenlabs
+    raise CotaEsgotada(f"ElevenLabs: faltam {len(texto)} caracteres, restam só {restantes}")
+pipeline.tts.CotaEsgotada: ElevenLabs: faltam 1013 caracteres, restam só 771
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 119, in produzir_fila
+    produzir(sid, ate="plano visual" if sem_imagens else None)
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 78, in produzir
+    fn()
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 68, in <lambda>
+    etapas = [("narração", lambda: None if ja_narrado else narrar(script_id)),
+                                                           ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 199, in narrar
+    gemini_tts(texto, meta["lang"], bruto)
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 95, in gemini_tts
+    pcm = base64.b64decode(r.json()["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'content'
