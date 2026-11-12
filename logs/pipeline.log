@@ -1625,3 +1625,72 @@ Traceback (most recent call last):
     raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
 json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
 21:21:18 [ciclo] INFO: ✅ Publicado EN instagram: https://www.instagram.com/reel/DfnwUqkxTAr/
+05:05:21 [ciclo] INFO: — ciclo 12/11 05:05 —
+05:05:21 [ciclo] INFO: Fila PT vazia — gerando roteiro
+05:05:21 [researcher] INFO: Tema escolhido (pt): O Homem de Somerton e o bilhete 'Tamam Shud'
+05:05:22 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+05:05:22 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 165→126 tokens, US$0.0000, 1.0s
+05:05:23 [researcher] INFO: Fontes: Somerton Man (en), Caso Taman Shud (pt)
+05:05:23 [scriptwriter] INFO: Escrevendo roteiro: O Homem de Somerton e o bilhete 'Tamam Shud'
+05:05:42 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+05:05:42 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 5258→385 tokens, US$0.0000, 19.5s
+05:05:42 [scriptwriter] INFO: Editando para retenção...
+05:06:08 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+05:06:08 [llm] INFO: gemini/gemini-3.5-flash [critica] 503→315 tokens, US$0.0000, 25.5s
+05:06:08 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 7, 'viradas': 7, 'climax': 6, 'final': 5}
+05:06:08 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+05:06:25 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+05:06:25 [llm] INFO: gemini/gemini-3.5-flash [provas] 5130→745 tokens, US$0.0000, 17.1s
+05:06:25 [scriptwriter] INFO: Checagem 1: 11 frases, 0 com problema, 0 para conferir
+05:06:25 [scriptwriter] INFO: Roteiro salvo: 168 palavras, 1013 caracteres, confiança alta
+05:06:25 [ciclo] INFO: Fila EN vazia — gerando roteiro
+05:06:25 [researcher] INFO: Tema escolhido (en): Amelia Earhart's last flight over the Pacific
+05:06:26 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+05:06:26 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 161→419 tokens, US$0.0000, 1.0s
+05:06:26 [researcher] INFO: Fontes: Speculation on the disappearance of Amelia Earhart and Fred Noonan (en)
+05:06:26 [scriptwriter] INFO: Escrevendo roteiro: Amelia Earhart's last flight over the Pacific
+05:07:56 [llm] INFO: gemini/gemini-3.5-flash travou, trocando para gemini-3-flash-preview
+05:08:46 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+05:08:46 [llm] INFO: gemini/gemini-3-flash-preview [roteiro] 2989→342 tokens, US$0.0000, 50.0s
+05:08:46 [scriptwriter] INFO: Editando para retenção...
+05:09:13 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+05:09:13 [llm] INFO: gemini/gemini-3.5-flash [critica] 491→286 tokens, US$0.0000, 26.4s
+05:09:13 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 4, 'ritmo': 5, 'viradas': 6, 'climax': 5, 'final': 6}
+05:09:13 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+05:09:33 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+05:09:33 [llm] INFO: gemini/gemini-3.5-flash [provas] 2831→938 tokens, US$0.0000, 19.9s
+05:09:33 [scriptwriter] INFO: Checagem 1: 14 frases, 2 com problema, 0 para conferir
+05:09:33 [scriptwriter] INFO: Corrigindo:
+- "In a quiet house in Florida, a teenager named Betty tuned her radio and heard a desperate, sobbing woman’s voice: “The water is already knee-deep.”" → contradiz: Nas fontes, quem disse que a água estava na altura do joelho foi o homem, não a mulher. Além disso, a localização em Flórida não é mencionada.
+- "They even recovered a human skull tucked under a tree." → contradiz: O crânio foi descoberto anteriormente em abril de 1940 e enterrado; o que foi encontrado sob a árvore posteriormente foram outros ossos, uma garrafa, um sapato e a caixa do sextante.
+05:09:35 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+05:09:35 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+05:11:05 [llm] INFO: gemini/gemini-3-flash-preview travou, trocando para gemini-3.8-flash
+05:11:06 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+05:11:06 [llm] INFO: gemini/gemini-3.8-flash no limite, trocando para gemini-3.7-flash
+05:11:40 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+05:11:40 [llm] WARNING: gemini falhou (tentativa 1/1): Error code: 503
+05:11:40 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
+05:11:40 [scriptwriter] ERROR: Falha ao escrever roteiro de 20261112T080626Z_en.json (tópico fica pendente)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 127, in chat
+    return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 178, in _chat
+    raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
+RuntimeError: Todos os provedores de LLM falharam: Error code: 503
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 216, in processar_pendentes
+    escrever(ler_json(arq))
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 186, in escrever
+    roteiro, pendentes, atencao = checar_fatos(editado, fontes_txt, topico["lang"])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 159, in checar_fatos
+    roteiro = chat([{"role": "user", "content": PROMPT_CORRECAO.format(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
+    raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
+agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar

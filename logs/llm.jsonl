@@ -169,3 +169,11 @@
 {"ts": "2026-11-10T23:45:12", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "provas", "tokens_entrada": 2739, "tokens_saida": 1051, "custo_usd": 0.0, "segundos": 9.1}
 {"ts": "2026-11-11T14:48:16", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "visual", "tokens_entrada": 1552, "tokens_saida": 924, "custo_usd": 0.0, "segundos": 10.9}
 {"ts": "2026-11-11T14:52:14", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "visual", "tokens_entrada": 1314, "tokens_saida": 1207, "custo_usd": 0.0, "segundos": 23.0}
+{"ts": "2026-11-12T05:05:22", "provedor": "groq", "modelo": "openai/gpt-oss-120b", "tarefa": "termos_busca", "tokens_entrada": 165, "tokens_saida": 126, "custo_usd": 0.0, "segundos": 1.0}
+{"ts": "2026-11-12T05:05:42", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "roteiro", "tokens_entrada": 5258, "tokens_saida": 385, "custo_usd": 0.0, "segundos": 19.5}
+{"ts": "2026-11-12T05:06:08", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "critica", "tokens_entrada": 503, "tokens_saida": 315, "custo_usd": 0.0, "segundos": 25.5}
+{"ts": "2026-11-12T05:06:25", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "provas", "tokens_entrada": 5130, "tokens_saida": 745, "custo_usd": 0.0, "segundos": 17.1}
+{"ts": "2026-11-12T05:06:26", "provedor": "groq", "modelo": "openai/gpt-oss-120b", "tarefa": "termos_busca", "tokens_entrada": 161, "tokens_saida": 419, "custo_usd": 0.0, "segundos": 1.0}
+{"ts": "2026-11-12T05:08:46", "provedor": "gemini", "modelo": "gemini-3-flash-preview", "tarefa": "roteiro", "tokens_entrada": 2989, "tokens_saida": 342, "custo_usd": 0.0, "segundos": 50.0}
+{"ts": "2026-11-12T05:09:13", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "critica", "tokens_entrada": 491, "tokens_saida": 286, "custo_usd": 0.0, "segundos": 26.4}
+{"ts": "2026-11-12T05:09:33", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "provas", "tokens_entrada": 2831, "tokens_saida": 938, "custo_usd": 0.0, "segundos": 19.9}
