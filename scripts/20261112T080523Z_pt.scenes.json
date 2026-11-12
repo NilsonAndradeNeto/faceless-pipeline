@@ -1,0 +1,326 @@
+[
+  {
+    "n": 1,
+    "texto": "Alguém apagou metodicamente a identidade deste homem e desafia a inteligência",
+    "inicio": 0.0,
+    "fim": 5.69,
+    "duracao": 5.69,
+    "visual": {
+      "real": null,
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. A mysterious silhouette of a man in a 1940s fedora and trench coat, standing in thick fog, holding a passport with the face meticulously cut out, noir atmosphere, cinematic lighting, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/5abc791fe6954908.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "mundial até hoje. Em 1948,",
+    "inicio": 5.69,
+    "fim": 10.59,
+    "duracao": 4.9,
+    "visual": {
+      "real": null,
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. A vintage 1948 desk calendar sitting on a dark oak table, a classic fountain pen and a half-empty glass of water nearby, soft morning light through a window, 1940s aesthetic, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/01d7f3a691322199.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "um corpo extremamente bem vestido surgiu na areia de Somerton Park,",
+    "inicio": 10.59,
+    "fim": 15.05,
+    "duracao": 4.46,
+    "visual": {
+      "real": {
+        "nome": "SomertonManDeathSite.jpg",
+        "descricao": "Location on Somerton beach where the corpse of The Somerton Man was found, marked by an 'X'.",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/SomertonManDeathSite.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Australian police. File originally uploaded on English Wikipedia in November 30,"
+      },
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. A pair of polished 1940s leather shoes resting on the sand at dawn, gentle waves lapping nearby on Somerton beach, moody atmosphere, early morning blue hour, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/SomertonManDeathSite.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/e84606b108ae0b9d.jpg",
+      "credito": "SomertonManDeathSite.jpg — Australian police. File originally uploaded on English Wikipedia in November 30, (Public domain)"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "na Austrália. Sua fisionomia era impecável,",
+    "inicio": 15.05,
+    "fim": 18.85,
+    "duracao": 3.8,
+    "visual": {
+      "real": null,
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. A sharp, perfectly pressed 1940s wool suit jacket and tie laid out on a wooden surface, classic Australian fashion of the late 1940s, impeccable tailoring, high contrast lighting, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/97fbe2769cbd0564.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "ele tinha um cigarro no colarinho e nenhum documento.",
+    "inicio": 18.85,
+    "fim": 22.83,
+    "duracao": 3.98,
+    "visual": {
+      "real": null,
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. Close-up of a man's suit collar with an unlit vintage cigarette tucked into the fold, an empty leather wallet lying open on a table in the background, 1940s style, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/7c62b13e8fa1301a.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "O detalhe mais bizarro? Todas as etiquetas de suas roupas foram cortadas.",
+    "inicio": 22.83,
+    "fim": 28.65,
+    "duracao": 5.82,
+    "visual": {
+      "real": null,
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. A pair of vintage metal scissors cutting a fabric label off the inside of a wool suit jacket, loose threads falling, close-up on hands, 1940s detective aesthetic, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/e5297ccbee156e21.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "A autópsia revelou um fígado destruído e o baço três vezes maior que o normal,",
+    "inicio": 28.65,
+    "fim": 34.37,
+    "duracao": 5.72,
+    "visual": {
+      "real": null,
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. A 1940s medical tray with stainless steel surgical tools, a glass jar, and a blurred medical report on a metal table under a dim, flickering morgue lamp, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/8ad41aa031766f69.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "causados por um veneno indetectável que não deixou rastros.",
+    "inicio": 34.37,
+    "fim": 37.39,
+    "duracao": 3.02,
+    "visual": {
+      "real": null,
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. A small, mysterious glass vial with a single drop of clear liquid falling from the rim, dark moody lighting, 1940s laboratory setting with blurred chemistry equipment, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/a85b918c0383aec4.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "Na estação de trem, acharam sua mala com ferramentas afiadas e",
+    "inicio": 37.39,
+    "fim": 42.45,
+    "duracao": 5.06,
+    "visual": {
+      "real": null,
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. A brown vintage leather suitcase open on a wooden bench at a 1940s train station, showing sharp metal tools and personal items, steam train smoke in the background, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/fabfbe59d17b1f44.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "uma linha laranja rara, idêntica à usada no remendo da sua calça.",
+    "inicio": 42.45,
+    "fim": 48.09,
+    "duracao": 5.64,
+    "visual": {
+      "real": null,
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. Close-up of a spool of rare orange Barbour brand thread next to a needle and a professional repair patch on dark wool trousers, 1940s tailoring details, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/87376fc19fada75f.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "Mas o mistério real estava escondido num bolso secreto.",
+    "inicio": 48.09,
+    "fim": 52.87,
+    "duracao": 4.78,
+    "visual": {
+      "real": null,
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. A man's hand reaching into a hidden, secret stitched pocket inside the waistband of vintage 1940s trousers, mysterious and clandestine atmosphere, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/ac4fb693ee498ceb.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "Havia ali um pedaço de papel rasgado com duas palavras:",
+    "inicio": 52.87,
+    "fim": 56.49,
+    "duracao": 3.62,
+    "visual": {
+      "real": null,
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. A small, jagged scrap of aged paper held between fingers, showing the words 'Tamám Shud' printed in elegant black Persian script, textured paper, 1940s style, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/4af26ea17db92250.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "Tamám Shud, que significa acabou.",
+    "inicio": 56.49,
+    "fim": 60.89,
+    "duracao": 4.4,
+    "visual": {
+      "real": null,
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. An old copy of the Rubaiyat of Omar Khayyam book lying open on the sand at night, the final page visibly torn out, moonlight reflecting on the ocean, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/5b0588dede6c6ba1.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "Esse pedaço veio de um livro que escondia um código secreto totalmente indecifrável.",
+    "inicio": 60.89,
+    "fim": 66.79,
+    "duracao": 5.9,
+    "visual": {
+      "real": {
+        "nome": "SomertonManCode.jpg",
+        "descricao": "This is a police scan of the handwritten code found in the back of a copy of The Rubaiyat of Omar Khayyam, believed to belong to the dead man, found in the back",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/SomertonManCode.jpg/1280px-SomertonManCode.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Australian police. File originally uploaded on English Wikipedia in January 11, "
+      },
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. A detective's hand pointing at a cryptic handwritten code in the back of an old book, grainy 1940s police office setting, dim lamp light, magnifying glass nearby, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/SomertonManCode.jpg/1280px-SomertonManCode.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/1bb37ce535b1f1d8.jpg",
+      "credito": "SomertonManCode.jpg — Australian police. File originally uploaded on English Wikipedia in January 11,  (Public domain)"
+    }
+  },
+  {
+    "n": 15,
+    "texto": "Análises recentes sugerem que ele se chamava Carl Webb.",
+    "inicio": 66.79,
+    "fim": 70.89,
+    "duracao": 4.1,
+    "visual": {
+      "real": null,
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. A grainy, black and white 1940s style identification card with the name 'Carl Webb' typed on it, partially obscured by shadows and dust, vintage document aesthetic, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/67aa2657489843f5.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 16,
+    "texto": "Mas se era apenas um homem comum, por que apagar sua identidade com um veneno invisível",
+    "inicio": 70.89,
+    "fim": 75.97,
+    "duracao": 5.08,
+    "visual": {
+      "real": null,
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. A man's shadow cast against a cold brick wall in a dark alley, he is walking away into the fog, wearing a 1940s trench coat, mysterious and lonely, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/eae09625b4aa224c.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 17,
+    "texto": "e um código sem resposta?",
+    "inicio": 75.97,
+    "fim": 78.33,
+    "duracao": 2.36,
+    "visual": {
+      "real": {
+        "nome": "SomertonManBurial.jpg",
+        "descricao": "Burial of the Somerton Man on 14 June 1949. By his grave site is Salvation Army Captain Em Webb, leading the prayers, attended by reporters and police. From lef",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/SomertonManBurial.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Australian police. Originally uploaded to en.wikipedia by Bletchley in January 2"
+      },
+      "ia": "Adelaide, Australia, 1948-1949, post-WWII era, period-accurate clothing and technology. A lonely grave in a 1949 cemetery, a simple headstone with no name, rainy day, a silhouette of a person standing in the distance with an umbrella, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/SomertonManBurial.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/e4739a3653f2d67c.jpg",
+      "credito": "SomertonManBurial.jpg — Australian police. Originally uploaded to en.wikipedia by Bletchley in January 2 (Public domain)"
+    }
+  }
+]

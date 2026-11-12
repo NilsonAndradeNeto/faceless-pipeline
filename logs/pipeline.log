@@ -1752,3 +1752,83 @@ Traceback (most recent call last):
     pcm = base64.b64decode(r.json()["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
                            ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
 KeyError: 'content'
+20:28:57 [ciclo] INFO: — ciclo 12/11 20:28 —
+20:28:57 [produzir] INFO: ▶ Produzindo: O Homem de Somerton e o Código Tamám Shud
+20:28:57 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1013 caracteres, restam só 771) — usando a voz do Gemini
+20:29:18 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 85.3s
+20:29:21 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+20:29:21 [tts] INFO: Legenda alinhada: 153 de 168 palavras batem com o Whisper
+20:29:21 [tts] WARNING: Cortando 6.9s de fala extra no início do áudio do Gemini
+20:29:21 [tts] INFO: Narração pronta (gemini): 77.7s, 168 palavras
+20:29:22 [visual_planner] INFO: 6 imagens reais disponíveis nos artigos-fonte
+20:30:52 [llm] INFO: gemini/gemini-3.5-flash travou, trocando para gemini-3-flash-preview
+20:31:04 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+20:31:04 [llm] INFO: gemini/gemini-3-flash-preview [visual] 1064→1275 tokens, US$0.0000, 11.3s
+20:31:04 [visual_planner] INFO: 17 cenas (média 4.6s): 3 com imagem real, 14 com IA
+20:31:08 [broll] INFO: Cena  1 (5.7s): ia        Alguém apagou metodicamente a identidade deste homem e desaf
+20:31:12 [broll] INFO: Cena  2 (4.9s): ia        mundial até hoje. Em 1948,
+20:31:12 [broll] INFO: Cena  3 (4.5s): wikimedia um corpo extremamente bem vestido surgiu na areia de Somerto
+20:31:22 [broll] INFO: Cena  4 (3.8s): ia        na Austrália. Sua fisionomia era impecável,
+20:31:34 [broll] INFO: Cena  5 (4.0s): ia        ele tinha um cigarro no colarinho e nenhum documento.
+20:31:49 [broll] INFO: Cena  6 (5.8s): ia        O detalhe mais bizarro? Todas as etiquetas de suas roupas fo
+20:32:06 [broll] INFO: Cena  7 (5.7s): ia        A autópsia revelou um fígado destruído e o baço três vezes m
+20:32:16 [broll] INFO: Cena  8 (3.0s): ia        causados por um veneno indetectável que não deixou rastros.
+20:32:29 [broll] INFO: Cena  9 (5.1s): ia        Na estação de trem, acharam sua mala com ferramentas afiadas
+20:32:40 [broll] INFO: Cena 10 (5.6s): ia        uma linha laranja rara, idêntica à usada no remendo da sua c
+20:32:50 [broll] INFO: Cena 11 (4.8s): ia        Mas o mistério real estava escondido num bolso secreto.
+20:33:00 [broll] INFO: Cena 12 (3.6s): ia        Havia ali um pedaço de papel rasgado com duas palavras:
+20:33:11 [broll] INFO: Cena 13 (4.4s): ia        Tamám Shud, que significa acabou.
+20:33:11 [broll] INFO: Cena 14 (5.9s): wikimedia Esse pedaço veio de um livro que escondia um código secreto 
+20:33:20 [broll] INFO: Cena 15 (4.1s): ia        Análises recentes sugerem que ele se chamava Carl Webb.
+20:33:30 [broll] INFO: Cena 16 (5.1s): ia        Mas se era apenas um homem comum, por que apagar sua identid
+20:33:30 [broll] INFO: Limite de download, aguardando 10s
+20:33:41 [broll] INFO: Limite de download, aguardando 10s
+20:33:51 [broll] INFO: Limite de download, aguardando 10s
+20:34:01 [broll] INFO: Limite de download, aguardando 10s
+20:34:12 [broll] INFO: Cena 17 (2.4s): wikimedia e um código sem resposta?
+20:34:12 [video_builder] INFO: Cena 1/17 (imagem, 5.7s)
+20:34:13 [video_builder] INFO: Encoder: x264
+20:34:19 [video_builder] INFO: Cena 2/17 (imagem, 4.9s)
+20:34:25 [video_builder] INFO: Cena 3/17 (imagem, 4.5s)
+20:34:30 [video_builder] INFO: Cena 4/17 (imagem, 3.8s)
+20:34:35 [video_builder] INFO: Cena 5/17 (imagem, 4.0s)
+20:34:39 [video_builder] INFO: Cena 6/17 (imagem, 5.8s)
+20:34:46 [video_builder] INFO: Cena 7/17 (imagem, 5.7s)
+20:34:52 [video_builder] INFO: Cena 8/17 (imagem, 3.0s)
+20:34:56 [video_builder] INFO: Cena 9/17 (imagem, 5.1s)
+20:35:02 [video_builder] INFO: Cena 10/17 (imagem, 5.6s)
+20:35:08 [video_builder] INFO: Cena 11/17 (imagem, 4.8s)
+20:35:13 [video_builder] INFO: Cena 12/17 (imagem, 3.6s)
+20:35:18 [video_builder] INFO: Cena 13/17 (imagem, 4.4s)
+20:35:23 [video_builder] INFO: Cena 14/17 (imagem, 5.9s)
+20:35:29 [video_builder] INFO: Cena 15/17 (imagem, 4.1s)
+20:35:34 [video_builder] INFO: Cena 16/17 (imagem, 5.1s)
+20:35:40 [video_builder] INFO: Cena 17/17 (imagem, 2.4s)
+20:35:43 [video_builder] INFO: Música: trilha_02.mp3
+20:36:47 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261112T080523Z_pt.mp4 (78.3s)
+20:36:47 [produzir] INFO: ✅ Pronto: O Homem de Somerton e o Código Tamám Shud
+20:36:47 [ciclo] ERROR: Falha ao publicar pt youtube
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 197, in publicar_no_horario
+    r = publicar(plataforma, ler_json(meta_arq), video)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 166, in publicar
+    return publicar_youtube(meta, Path(video))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 52, in publicar_youtube
+    yt = youtube_cliente(meta["lang"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 42, in youtube_cliente
+    cred = Credentials.from_authorized_user_file(str(arq), ESCOPOS_YT)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/.venv/lib/python3.11/site-packages/google/oauth2/credentials.py", line 544, in from_authorized_user_file
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
+    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
+json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+20:36:47 [ciclo] INFO: Instagram (PT) não conectado — falta IG_TOKEN_PT no .env
+20:36:47 [ciclo] INFO: Conta tiktok (PT) ainda não conectada

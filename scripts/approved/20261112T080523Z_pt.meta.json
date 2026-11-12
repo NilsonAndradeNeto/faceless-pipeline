@@ -44,10 +44,19 @@
   "aprovacao": "automatica",
   "data_post": "2026-11-12",
   "producao": {
-    "etapa": "erro",
-    "erro": "narração: 'content'",
+    "etapa": "pronto",
+    "erro": null,
     "detalhe": "",
-    "progresso": 0.0,
-    "atualizado": "2026-11-12 15:02:29"
-  }
+    "progresso": 1.0,
+    "atualizado": "2026-11-12 20:36:47"
+  },
+  "voz": "gemini",
+  "creditos_imagens": [
+    "SomertonManBurial.jpg — Australian police. Originally uploaded to en.wikipedia by Bletchley in January 2 (Public domain)",
+    "SomertonManCode.jpg — Australian police. File originally uploaded on English Wikipedia in January 11,  (Public domain)",
+    "SomertonManDeathSite.jpg — Australian police. File originally uploaded on English Wikipedia in November 30, (Public domain)"
+  ],
+  "imagens_ia": 14,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261112T080523Z_pt.mp4",
+  "duracao_seg": 78.3
 }
