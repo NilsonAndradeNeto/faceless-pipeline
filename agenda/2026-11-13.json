@@ -9,6 +9,12 @@
     "script": "20261112T080626Z_en",
     "titulo": "The Distressing Radio Calls of Amelia Earhart",
     "aprovacao": "automatica",
-    "posts": {}
+    "posts": {
+      "youtube": {
+        "estado": "erro",
+        "erro": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+        "tentativas": 1
+      }
+    }
   }
 }

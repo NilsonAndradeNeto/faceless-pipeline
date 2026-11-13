@@ -1980,3 +1980,27 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 14:42:57 [video_builder] INFO: Música: trilha_05.mp3
 14:44:02 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261112T080626Z_en.mp4 (61.6s)
 14:44:02 [produzir] INFO: ✅ Pronto: The Distressing Radio Calls of Amelia Earhart
+20:25:29 [ciclo] INFO: — ciclo 13/11 20:25 —
+20:25:30 [ciclo] ERROR: Falha ao publicar en youtube
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 197, in publicar_no_horario
+    r = publicar(plataforma, ler_json(meta_arq), video)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 166, in publicar
+    return publicar_youtube(meta, Path(video))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 52, in publicar_youtube
+    yt = youtube_cliente(meta["lang"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 42, in youtube_cliente
+    cred = Credentials.from_authorized_user_file(str(arq), ESCOPOS_YT)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/.venv/lib/python3.11/site-packages/google/oauth2/credentials.py", line 544, in from_authorized_user_file
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
+    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
+json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
