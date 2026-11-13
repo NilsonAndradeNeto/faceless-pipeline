@@ -1,0 +1,266 @@
+[
+  {
+    "n": 1,
+    "texto": "In July 1937, a radio listener heard a terrifying broadcast:",
+    "inicio": 0.0,
+    "fim": 5.53,
+    "duracao": 5.53,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean, 1937, aviation mystery, period-accurate clothing and technology. A vintage 1930s tabletop radio sitting on a wooden desk in a dimly lit living room, warm orange light glowing from vacuum tubes, 9:16 vertical aesthetic, historical atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/50db2f9a73eccfbd.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "a distressed woman beside an injured man yelling, 'Water's knee deep – let me out!' When",
+    "inicio": 5.53,
+    "fim": 11.21,
+    "duracao": 5.68,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean, 1937, aviation mystery, period-accurate clothing and technology. Submerged Lockheed Electra plane cockpit filling with seawater in tropical night storm, ocean waves crashing, dramatic shadows, glowing radio dashboard, high suspense, vintage 1930s aviation., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/dfbc26b67e36f669.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "Amelia Earhart vanished over the Pacific Ocean, the Navy believed her plane ran out of fuel and",
+    "inicio": 11.21,
+    "fim": 16.35,
+    "duracao": 5.14,
+    "visual": {
+      "real": {
+        "nome": "Amelia Earhart and Fred Noonan.jpg",
+        "descricao": "Catalog #: BIOE00099\nLast Name: Earhart \nFirst Name: Amelia \nNotes: Alone, w/ Planes and Portraits   \n\nRepository: San Diego Air and Space Museum Archive",
+        "licenca": "No restrictions",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Amelia_Earhart_and_Fred_Noonan.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "SDASM Archives"
+      },
+      "ia": "Pacific Ocean, 1937, aviation mystery, period-accurate clothing and technology. Silhouetted 1930s twin-engine Lockheed Electra airplane flying into massive dark Pacific storm clouds at dusk, deep ocean water below, realistic dramatic atmosphere, vertical shot., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/3f7291899a57098e.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "sank. But for days, home radios picked up frantic distress calls no",
+    "inicio": 16.35,
+    "fim": 21.41,
+    "duracao": 5.06,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean, 1937, aviation mystery, period-accurate clothing and technology. Close-up of a 1937 floor-standing console radio in a cozy living room, glowing dial numbers in the dark room, ambient cozy mood, mysterious historical detail., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/10b85b51b5c66a8b.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "one was supposed to hear. Betty Klenck listened in horror.",
+    "inicio": 21.41,
+    "fim": 26.01,
+    "duracao": 4.6,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean, 1937, aviation mystery, period-accurate clothing and technology. A young teenage girl in 1937 clothing sitting attentively beside a vintage wooden radio receiver, pencil and notebook in hand, shocked facial shadow expression, soft vintage lighting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/e6b7b83acbc9408b.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "She heard a distressed woman crying beside an injured man.",
+    "inicio": 26.01,
+    "fim": 29.55,
+    "duracao": 3.54,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean, 1937, aviation mystery, period-accurate clothing and technology. Over-the-shoulder view of two figures resting against shipwreck debris on a desolate sandy tropical beach at twilight, silhouettes, emotional distress tone, no clear faces., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/75ef081291c3197d.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "Then the woman repeated a strange instruction: 'George,",
+    "inicio": 29.55,
+    "fim": 33.55,
+    "duracao": 4.0,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean, 1937, aviation mystery, period-accurate clothing and technology. A vintage 1930s leather suitcase sitting inside a dark wooden bedroom closet, soft ambient sunlight filtering through louvers, retro nostalgic atmosphere, mystery focus., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/d7e64d554eb6ef02.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "get the suitcase in my closet.' Years before,",
+    "inicio": 33.55,
+    "fim": 36.91,
+    "duracao": 3.36,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean, 1937, aviation mystery, period-accurate clothing and technology. Close-up of a weathered 1930s brass luggage latch opening on a leather trunk inside a sunlit vintage wardrobe, detailed texture, historic mood., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/973fce5944391458.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "Amelia asked her mother to destroy a suitcase in her closet.",
+    "inicio": 36.91,
+    "fim": 40.53,
+    "duracao": 3.62,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean, 1937, aviation mystery, period-accurate clothing and technology. An old woman standing beside a crackling brick fireplace, tossing old paper documents and vintage photographs into glowing embers, 1930s interior setting, dark dramatic atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/f701b64696153681.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "Later, searchers on a desolate island found a woman's shoe heel.",
+    "inicio": 40.53,
+    "fim": 44.71,
+    "duracao": 4.18,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean, 1937, aviation mystery, period-accurate clothing and technology. Close-up of a weathered 1930s leather woman's shoe heel half-buried in coarse sand and coral debris on a desolate Pacific beach, harsh tropical sunlight., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/591022d9b983ed28.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "Under a tree, they found human bones. A doctor measured the skeleton and claimed it belonged",
+    "inicio": 44.71,
+    "fim": 49.79,
+    "duracao": 5.08,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean, 1937, aviation mystery, period-accurate clothing and technology. Desolate tropical Pisonia tree on a remote coral island, weathered sunbleached debris and faint scattered skeletal remains half-covered by dry fallen leaves in background shade., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/f62e1618a46e9524.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "to a male. Then, the bones vanished forever.",
+    "inicio": 49.79,
+    "fim": 54.15,
+    "duracao": 4.36,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean, 1937, aviation mystery, period-accurate clothing and technology. A vintage 1940s medical wooden crate in a dusty storage archive room, mysterious shadows, soft light ray hitting empty velvet lining inside open box., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/8ad1f242c84ec395.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "Were those radio signals Amelia Earhart's final distress cries on that distant reef?",
+    "inicio": 54.15,
+    "fim": 59.01,
+    "duracao": 4.86,
+    "visual": {
+      "real": {
+        "nome": "Nikumaroro Atoll 2014.jpg",
+        "descricao": "It is one of the most famous patches of coral outside of the Great Barrier Reef. Stretching a mere 7.5 kilometers (4.7 miles) by 2.5 kilometers (1.6 miles) and ",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Nikumaroro_Atoll_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "NASA Earth Observatory image by Joshua Stevens, using Landsat data from the U.S."
+      },
+      "ia": "Pacific Ocean, 1937, aviation mystery, period-accurate clothing and technology. High aerial view of a remote Pacific coral reef atoll encircled by deep blue ocean and crashing white surf, eerie solitary tropical paradise, cinematic vertical shot., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Nikumaroro_Atoll_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/d75f2cfde5f7618f.jpg",
+      "credito": "Nikumaroro Atoll 2014.jpg — NASA Earth Observatory image by Joshua Stevens, using Landsat data from the U.S. (Public domain)"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "What do you believe actually happened to her?",
+    "inicio": 59.01,
+    "fim": 61.57,
+    "duracao": 2.56,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Ocean, 1937, aviation mystery, period-accurate clothing and technology. A lonely vintage navigational map of the Pacific Ocean laid out on a dark wooden table, vintage compass and brass dividers, subtle question mark aesthetic., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/1b966f830a349f3a.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  }
+]

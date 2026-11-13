@@ -1,0 +1,56 @@
+{
+  "id": "20261112T080626Z_en",
+  "lang": "en",
+  "tema": "Amelia Earhart's last flight over the Pacific",
+  "titulo": "The Distressing Radio Calls of Amelia Earhart",
+  "hook": "In July 1937, a radio listener heard a terrifying broadcast: a distressed woman beside an injured man yelling, 'Water's knee deep – let me out!' When Amelia Earhart vanished over the Pacific Ocean, the Navy believed her plane ran out of fuel and sank.",
+  "descricao": "Days after Amelia Earhart vanished in 1937, people across America picked up horrifying radio signals. Were these real distress calls from castaways on a reef? What do you believe happened?",
+  "hashtags": [
+    "ameliaearhart",
+    "historymysteries",
+    "unsolvedmysteries",
+    "pacificocean",
+    "gardnerisland",
+    "truehistory"
+  ],
+  "palavras": 158,
+  "caracteres": 928,
+  "notas_editor_antes": {
+    "gancho": 5,
+    "ritmo": 6,
+    "viradas": 6,
+    "climax": 5,
+    "final": 6
+  },
+  "checagem": {
+    "sem_comprovacao": [],
+    "conferir": [],
+    "confianca": "alta"
+  },
+  "versoes": {
+    "rascunho": "A teenager turned on her radio and heard a woman screaming. It was Amelia Earhart, broadcasting messages no one was supposed to hear. In July 1937, Earhart vanished over the Pacific Ocean. The Navy believed her plane ran out of fuel and sank. But for days, home radios picked up frantic distress calls. A girl named Betty Klenck listened in horror from California. She heard a distressed woman crying beside an injured man. The man yelled, \"Water is knee deep, let me out.\" Then the woman repeated a strange instruction. She said, \"George, get the suitcase in my closet.\" Years before, Amelia asked her husband George to destroy a suitcase in her closet. Later, searchers on a desolate island found a woman's shoe heel. Under a tree, they found human bones. A doctor measured the skeleton and claimed it belonged to a male. Then, the bones vanished forever. Were those radio signals Amelia Earhart's final cries on that reef? What do you believe happened to her?",
+    "editado": "In July 1937, a teenage girl turned on her radio and heard a terrifying broadcast: a woman screaming beside an injured man yelling, 'Water is knee deep, let me out!' When Amelia Earhart vanished over the Pacific Ocean, the Navy believed her plane ran out of fuel and sank. But for days, home radios picked up frantic distress calls no one was supposed to hear. A girl named Betty Klenck listened in horror from California. She heard a distressed woman crying beside an injured man. Then the woman repeated a strange instruction: 'George, get the suitcase in my closet.' Years before, Amelia asked her husband George to destroy a suitcase in her closet. Later, searchers on a desolate island found a woman's shoe heel. Under a tree, they found human bones. A doctor measured the skeleton and claimed it belonged to a male. Then, the bones vanished forever. Were those radio signals Amelia Earhart's final distress cries on that distant reef? What do you believe actually happened to her?"
+  },
+  "fontes": [
+    {
+      "titulo": "Speculation on the disappearance of Amelia Earhart and Fred Noonan",
+      "url": "https://en.wikipedia.org/wiki/Speculation_on_the_disappearance_of_Amelia_Earhart_and_Fred_Noonan"
+    }
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-13",
+  "producao": {
+    "etapa": "pronto",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 1.0,
+    "atualizado": "2026-11-13 14:44:02"
+  },
+  "voz": "gemini",
+  "creditos_imagens": [
+    "Nikumaroro Atoll 2014.jpg — NASA Earth Observatory image by Joshua Stevens, using Landsat data from the U.S. (Public domain)"
+  ],
+  "imagens_ia": 13,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261112T080626Z_en.mp4",
+  "duracao_seg": 61.6
+}

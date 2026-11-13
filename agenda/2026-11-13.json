@@ -1,3 +1,14 @@
 {
-  "data": "2026-11-13"
+  "data": "2026-11-13",
+  "pt": {
+    "script": null,
+    "motivo": "nenhum roteiro válido na fila",
+    "posts": {}
+  },
+  "en": {
+    "script": "20261112T080626Z_en",
+    "titulo": "The Distressing Radio Calls of Amelia Earhart",
+    "aprovacao": "automatica",
+    "posts": {}
+  }
 }

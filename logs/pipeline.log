@@ -1911,3 +1911,72 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 03:06:26 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
 03:06:26 [llm] INFO: gemini/gemini-3.5-flash [correcao] 2709→229 tokens, US$0.0000, 11.8s
 03:06:26 [scriptwriter] INFO: Roteiro salvo: 177 palavras, 1035 caracteres, confiança baixa
+14:36:17 [ciclo] INFO: — ciclo 13/11 14:36 —
+14:36:17 [ciclo] WARNING: Sem vídeo PT hoje
+14:36:17 [ciclo] WARNING: 'The Haunting Radio Calls of Amelia Earhart' tem frase sem base na fonte — reescrevendo (1/2)
+14:36:17 [scriptwriter] INFO: Escrevendo roteiro: Amelia Earhart's last flight over the Pacific
+14:36:49 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+14:36:49 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 2989→334 tokens, US$0.0000, 31.4s
+14:36:49 [scriptwriter] INFO: Editando para retenção...
+14:37:33 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+14:37:33 [llm] INFO: gemini/gemini-3.5-flash [critica] 462→275 tokens, US$0.0000, 44.2s
+14:37:33 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 5, 'ritmo': 6, 'viradas': 6, 'climax': 5, 'final': 6}
+14:37:33 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+14:37:57 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+14:37:57 [llm] INFO: gemini/gemini-3.5-flash [provas] 2820→1005 tokens, US$0.0000, 24.4s
+14:37:57 [scriptwriter] INFO: Checagem 1: 13 frases, 3 com problema, 0 para conferir
+14:37:57 [scriptwriter] INFO: Corrigindo:
+- "In July 1937, a teenage girl turned on her radio and heard a terrifying broadcast: a woman screaming beside an injured man yelling, 'Water is knee deep, let me out!'" → sem_base: A fonte traz a frase 'Water's knee deep – let me out', mas não menciona que quem ouviu era uma adolescente (teenage girl).
+- "A girl named Betty Klenck listened in horror from California." → sem_base: A fonte cita que Betty Klenck ouviu a transmissão, mas não especifica que ela era uma garota nem que estava na Califórnia (a menção à Califórnia na fonte refere-se ao local do armário de Earhart).
+- "Years before, Amelia asked her husband George to destroy a suitcase in her closet." → contradiz: O roteiro diz que Amelia pediu ao seu marido George para destruir a mala, mas a fonte afirma que ela fez esse pedido em uma carta enviada à sua mãe.
+14:38:22 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+14:38:22 [llm] INFO: gemini/gemini-3.5-flash [correcao] 2849→209 tokens, US$0.0000, 24.7s
+14:38:49 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+14:38:49 [llm] INFO: gemini/gemini-3.5-flash [provas] 2810→941 tokens, US$0.0000, 26.7s
+14:38:49 [scriptwriter] INFO: Checagem 2: 13 frases, 0 com problema, 0 para conferir
+14:38:49 [scriptwriter] INFO: Roteiro salvo: 158 palavras, 928 caracteres, confiança alta
+14:38:49 [ciclo] INFO: Aprovado automaticamente: The Distressing Radio Calls of Amelia Earhart
+14:38:49 [ciclo] INFO: Vídeo EN de hoje: The Distressing Radio Calls of Amelia Earhart
+14:38:49 [produzir] INFO: ▶ Produzindo: The Distressing Radio Calls of Amelia Earhart
+14:38:49 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 928 caracteres, restam só 771) — usando a voz do Gemini
+14:39:06 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 67.6s
+14:39:09 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+14:39:09 [tts] INFO: Legenda alinhada: 156 de 158 palavras batem com o Whisper
+14:39:09 [tts] WARNING: Cortando 6.1s de fala extra no início do áudio do Gemini
+14:39:10 [tts] INFO: Narração pronta (gemini): 61.0s, 158 palavras
+14:39:10 [visual_planner] INFO: 2 imagens reais disponíveis nos artigos-fonte
+14:39:38 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+14:39:38 [llm] INFO: gemini/gemini-3.5-flash [visual] 829→899 tokens, US$0.0000, 28.2s
+14:39:38 [visual_planner] INFO: 14 cenas (média 4.4s): 2 com imagem real, 12 com IA
+14:39:42 [broll] INFO: Cena  1 (5.5s): ia        In July 1937, a radio listener heard a terrifying broadcast:
+14:39:46 [broll] INFO: Cena  2 (5.7s): ia        a distressed woman beside an injured man yelling, 'Water's k
+14:39:50 [broll] INFO: Cena  3 (5.1s): ia        Amelia Earhart vanished over the Pacific Ocean, the Navy bel
+14:39:59 [broll] INFO: Cena  4 (5.1s): ia        sank. But for days, home radios picked up frantic distress c
+14:40:09 [broll] INFO: Cena  5 (4.6s): ia        one was supposed to hear. Betty Klenck listened in horror.
+14:40:19 [broll] INFO: Cena  6 (3.5s): ia        She heard a distressed woman crying beside an injured man.
+14:40:28 [broll] INFO: Cena  7 (4.0s): ia        Then the woman repeated a strange instruction: 'George,
+14:40:36 [broll] INFO: Cena  8 (3.4s): ia        get the suitcase in my closet.' Years before,
+14:40:48 [broll] INFO: Cena  9 (3.6s): ia        Amelia asked her mother to destroy a suitcase in her closet.
+14:40:57 [broll] INFO: Cena 10 (4.2s): ia        Later, searchers on a desolate island found a woman's shoe h
+14:41:07 [broll] INFO: Cena 11 (5.1s): ia        Under a tree, they found human bones. A doctor measured the 
+14:41:17 [broll] INFO: Cena 12 (4.4s): ia        to a male. Then, the bones vanished forever.
+14:41:17 [broll] INFO: Cena 13 (4.9s): wikimedia Were those radio signals Amelia Earhart's final distress cri
+14:41:27 [broll] INFO: Cena 14 (2.6s): ia        What do you believe actually happened to her?
+14:41:27 [video_builder] INFO: Cena 1/14 (imagem, 5.5s)
+14:41:28 [video_builder] INFO: Encoder: x264
+14:41:35 [video_builder] INFO: Cena 2/14 (imagem, 5.7s)
+14:41:44 [video_builder] INFO: Cena 3/14 (imagem, 5.1s)
+14:41:51 [video_builder] INFO: Cena 4/14 (imagem, 5.1s)
+14:41:58 [video_builder] INFO: Cena 5/14 (imagem, 4.6s)
+14:42:04 [video_builder] INFO: Cena 6/14 (imagem, 3.5s)
+14:42:10 [video_builder] INFO: Cena 7/14 (imagem, 4.0s)
+14:42:15 [video_builder] INFO: Cena 8/14 (imagem, 3.4s)
+14:42:20 [video_builder] INFO: Cena 9/14 (imagem, 3.6s)
+14:42:26 [video_builder] INFO: Cena 10/14 (imagem, 4.2s)
+14:42:32 [video_builder] INFO: Cena 11/14 (imagem, 5.1s)
+14:42:39 [video_builder] INFO: Cena 12/14 (imagem, 4.4s)
+14:42:46 [video_builder] INFO: Cena 13/14 (imagem, 4.9s)
+14:42:53 [video_builder] INFO: Cena 14/14 (imagem, 2.6s)
+14:42:57 [video_builder] INFO: Música: trilha_05.mp3
+14:44:02 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261112T080626Z_en.mp4 (61.6s)
+14:44:02 [produzir] INFO: ✅ Pronto: The Distressing Radio Calls of Amelia Earhart

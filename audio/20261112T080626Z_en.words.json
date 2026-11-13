@@ -1,0 +1,792 @@
+[
+  {
+    "palavra": "In",
+    "inicio": 0.15,
+    "fim": 0.27
+  },
+  {
+    "palavra": "July",
+    "inicio": 0.27,
+    "fim": 0.63
+  },
+  {
+    "palavra": "1937,",
+    "inicio": 0.63,
+    "fim": 2.13
+  },
+  {
+    "palavra": "a",
+    "inicio": 2.13,
+    "fim": 2.49
+  },
+  {
+    "palavra": "radio",
+    "inicio": 2.49,
+    "fim": 2.83
+  },
+  {
+    "palavra": "listener",
+    "inicio": 2.83,
+    "fim": 3.19
+  },
+  {
+    "palavra": "heard",
+    "inicio": 3.19,
+    "fim": 3.61
+  },
+  {
+    "palavra": "a",
+    "inicio": 3.61,
+    "fim": 3.77
+  },
+  {
+    "palavra": "terrifying",
+    "inicio": 3.77,
+    "fim": 4.23
+  },
+  {
+    "palavra": "broadcast:",
+    "inicio": 4.23,
+    "fim": 4.77
+  },
+  {
+    "palavra": "a",
+    "inicio": 5.53,
+    "fim": 5.67
+  },
+  {
+    "palavra": "distressed",
+    "inicio": 5.67,
+    "fim": 6.09
+  },
+  {
+    "palavra": "woman",
+    "inicio": 6.09,
+    "fim": 6.45
+  },
+  {
+    "palavra": "beside",
+    "inicio": 6.45,
+    "fim": 6.81
+  },
+  {
+    "palavra": "an",
+    "inicio": 6.81,
+    "fim": 6.99
+  },
+  {
+    "palavra": "injured",
+    "inicio": 6.99,
+    "fim": 7.23
+  },
+  {
+    "palavra": "man",
+    "inicio": 7.23,
+    "fim": 7.61
+  },
+  {
+    "palavra": "yelling,",
+    "inicio": 7.61,
+    "fim": 8.09
+  },
+  {
+    "palavra": "'Water's",
+    "inicio": 8.41,
+    "fim": 8.83
+  },
+  {
+    "palavra": "knee",
+    "inicio": 8.83,
+    "fim": 9.03
+  },
+  {
+    "palavra": "deep",
+    "inicio": 9.03,
+    "fim": 9.59
+  },
+  {
+    "palavra": "–",
+    "inicio": 9.59,
+    "fim": 9.59
+  },
+  {
+    "palavra": "let",
+    "inicio": 9.59,
+    "fim": 9.69
+  },
+  {
+    "palavra": "me",
+    "inicio": 9.69,
+    "fim": 9.83
+  },
+  {
+    "palavra": "out!'",
+    "inicio": 9.83,
+    "fim": 10.09
+  },
+  {
+    "palavra": "When",
+    "inicio": 10.99,
+    "fim": 11.21
+  },
+  {
+    "palavra": "Amelia",
+    "inicio": 11.21,
+    "fim": 11.55
+  },
+  {
+    "palavra": "Earhart",
+    "inicio": 11.55,
+    "fim": 12.03
+  },
+  {
+    "palavra": "vanished",
+    "inicio": 12.03,
+    "fim": 12.39
+  },
+  {
+    "palavra": "over",
+    "inicio": 12.39,
+    "fim": 12.77
+  },
+  {
+    "palavra": "the",
+    "inicio": 12.77,
+    "fim": 12.89
+  },
+  {
+    "palavra": "Pacific",
+    "inicio": 12.89,
+    "fim": 13.09
+  },
+  {
+    "palavra": "Ocean,",
+    "inicio": 13.09,
+    "fim": 13.69
+  },
+  {
+    "palavra": "the",
+    "inicio": 14.09,
+    "fim": 14.25
+  },
+  {
+    "palavra": "Navy",
+    "inicio": 14.25,
+    "fim": 14.39
+  },
+  {
+    "palavra": "believed",
+    "inicio": 14.39,
+    "fim": 14.89
+  },
+  {
+    "palavra": "her",
+    "inicio": 14.89,
+    "fim": 15.07
+  },
+  {
+    "palavra": "plane",
+    "inicio": 15.07,
+    "fim": 15.39
+  },
+  {
+    "palavra": "ran",
+    "inicio": 15.39,
+    "fim": 15.57
+  },
+  {
+    "palavra": "out",
+    "inicio": 15.57,
+    "fim": 15.69
+  },
+  {
+    "palavra": "of",
+    "inicio": 15.69,
+    "fim": 15.81
+  },
+  {
+    "palavra": "fuel",
+    "inicio": 15.81,
+    "fim": 16.05
+  },
+  {
+    "palavra": "and",
+    "inicio": 16.05,
+    "fim": 16.35
+  },
+  {
+    "palavra": "sank.",
+    "inicio": 16.35,
+    "fim": 16.83
+  },
+  {
+    "palavra": "But",
+    "inicio": 17.39,
+    "fim": 17.55
+  },
+  {
+    "palavra": "for",
+    "inicio": 17.55,
+    "fim": 17.67
+  },
+  {
+    "palavra": "days,",
+    "inicio": 17.67,
+    "fim": 18.29
+  },
+  {
+    "palavra": "home",
+    "inicio": 18.29,
+    "fim": 18.83
+  },
+  {
+    "palavra": "radios",
+    "inicio": 18.83,
+    "fim": 19.25
+  },
+  {
+    "palavra": "picked",
+    "inicio": 19.25,
+    "fim": 19.55
+  },
+  {
+    "palavra": "up",
+    "inicio": 19.55,
+    "fim": 19.73
+  },
+  {
+    "palavra": "frantic",
+    "inicio": 19.73,
+    "fim": 20.19
+  },
+  {
+    "palavra": "distress",
+    "inicio": 20.19,
+    "fim": 20.63
+  },
+  {
+    "palavra": "calls",
+    "inicio": 20.63,
+    "fim": 21.03
+  },
+  {
+    "palavra": "no",
+    "inicio": 21.03,
+    "fim": 21.41
+  },
+  {
+    "palavra": "one",
+    "inicio": 21.41,
+    "fim": 21.55
+  },
+  {
+    "palavra": "was",
+    "inicio": 21.55,
+    "fim": 21.77
+  },
+  {
+    "palavra": "supposed",
+    "inicio": 21.77,
+    "fim": 21.99
+  },
+  {
+    "palavra": "to",
+    "inicio": 21.99,
+    "fim": 22.21
+  },
+  {
+    "palavra": "hear.",
+    "inicio": 22.21,
+    "fim": 22.91
+  },
+  {
+    "palavra": "Betty",
+    "inicio": 23.71,
+    "fim": 23.91
+  },
+  {
+    "palavra": "Klenck",
+    "inicio": 23.91,
+    "fim": 24.27
+  },
+  {
+    "palavra": "listened",
+    "inicio": 24.27,
+    "fim": 24.67
+  },
+  {
+    "palavra": "in",
+    "inicio": 24.67,
+    "fim": 24.91
+  },
+  {
+    "palavra": "horror.",
+    "inicio": 24.91,
+    "fim": 25.35
+  },
+  {
+    "palavra": "She",
+    "inicio": 26.01,
+    "fim": 26.21
+  },
+  {
+    "palavra": "heard",
+    "inicio": 26.21,
+    "fim": 26.39
+  },
+  {
+    "palavra": "a",
+    "inicio": 26.39,
+    "fim": 26.53
+  },
+  {
+    "palavra": "distressed",
+    "inicio": 26.53,
+    "fim": 26.91
+  },
+  {
+    "palavra": "woman",
+    "inicio": 26.91,
+    "fim": 27.21
+  },
+  {
+    "palavra": "crying",
+    "inicio": 27.21,
+    "fim": 27.57
+  },
+  {
+    "palavra": "beside",
+    "inicio": 27.57,
+    "fim": 27.95
+  },
+  {
+    "palavra": "an",
+    "inicio": 27.95,
+    "fim": 28.15
+  },
+  {
+    "palavra": "injured",
+    "inicio": 28.15,
+    "fim": 28.37
+  },
+  {
+    "palavra": "man.",
+    "inicio": 28.37,
+    "fim": 28.77
+  },
+  {
+    "palavra": "Then",
+    "inicio": 29.55,
+    "fim": 29.79
+  },
+  {
+    "palavra": "the",
+    "inicio": 29.79,
+    "fim": 30.33
+  },
+  {
+    "palavra": "woman",
+    "inicio": 30.33,
+    "fim": 30.51
+  },
+  {
+    "palavra": "repeated",
+    "inicio": 30.51,
+    "fim": 30.87
+  },
+  {
+    "palavra": "a",
+    "inicio": 30.87,
+    "fim": 31.11
+  },
+  {
+    "palavra": "strange",
+    "inicio": 31.11,
+    "fim": 31.47
+  },
+  {
+    "palavra": "instruction:",
+    "inicio": 31.47,
+    "fim": 31.91
+  },
+  {
+    "palavra": "'George,",
+    "inicio": 32.79,
+    "fim": 33.55
+  },
+  {
+    "palavra": "get",
+    "inicio": 33.55,
+    "fim": 33.81
+  },
+  {
+    "palavra": "the",
+    "inicio": 33.81,
+    "fim": 33.97
+  },
+  {
+    "palavra": "suitcase",
+    "inicio": 33.97,
+    "fim": 34.23
+  },
+  {
+    "palavra": "in",
+    "inicio": 34.23,
+    "fim": 34.59
+  },
+  {
+    "palavra": "my",
+    "inicio": 34.59,
+    "fim": 34.73
+  },
+  {
+    "palavra": "closet.'",
+    "inicio": 34.73,
+    "fim": 35.11
+  },
+  {
+    "palavra": "Years",
+    "inicio": 35.91,
+    "fim": 36.09
+  },
+  {
+    "palavra": "before,",
+    "inicio": 36.09,
+    "fim": 36.91
+  },
+  {
+    "palavra": "Amelia",
+    "inicio": 36.91,
+    "fim": 37.27
+  },
+  {
+    "palavra": "asked",
+    "inicio": 37.27,
+    "fim": 37.65
+  },
+  {
+    "palavra": "her",
+    "inicio": 37.65,
+    "fim": 37.79
+  },
+  {
+    "palavra": "mother",
+    "inicio": 37.79,
+    "fim": 37.97
+  },
+  {
+    "palavra": "to",
+    "inicio": 37.97,
+    "fim": 38.13
+  },
+  {
+    "palavra": "destroy",
+    "inicio": 38.13,
+    "fim": 38.47
+  },
+  {
+    "palavra": "a",
+    "inicio": 38.47,
+    "fim": 38.67
+  },
+  {
+    "palavra": "suitcase",
+    "inicio": 38.67,
+    "fim": 38.89
+  },
+  {
+    "palavra": "in",
+    "inicio": 38.89,
+    "fim": 39.19
+  },
+  {
+    "palavra": "her",
+    "inicio": 39.19,
+    "fim": 39.29
+  },
+  {
+    "palavra": "closet.",
+    "inicio": 39.29,
+    "fim": 39.61
+  },
+  {
+    "palavra": "Later,",
+    "inicio": 40.53,
+    "fim": 41.33
+  },
+  {
+    "palavra": "searchers",
+    "inicio": 41.33,
+    "fim": 41.69
+  },
+  {
+    "palavra": "on",
+    "inicio": 41.69,
+    "fim": 41.83
+  },
+  {
+    "palavra": "a",
+    "inicio": 41.83,
+    "fim": 41.93
+  },
+  {
+    "palavra": "desolate",
+    "inicio": 41.93,
+    "fim": 42.29
+  },
+  {
+    "palavra": "island",
+    "inicio": 42.29,
+    "fim": 42.61
+  },
+  {
+    "palavra": "found",
+    "inicio": 42.61,
+    "fim": 42.97
+  },
+  {
+    "palavra": "a",
+    "inicio": 42.97,
+    "fim": 43.11
+  },
+  {
+    "palavra": "woman's",
+    "inicio": 43.11,
+    "fim": 43.47
+  },
+  {
+    "palavra": "shoe",
+    "inicio": 43.47,
+    "fim": 43.73
+  },
+  {
+    "palavra": "heel.",
+    "inicio": 43.73,
+    "fim": 43.95
+  },
+  {
+    "palavra": "Under",
+    "inicio": 44.71,
+    "fim": 44.91
+  },
+  {
+    "palavra": "a",
+    "inicio": 44.91,
+    "fim": 45.01
+  },
+  {
+    "palavra": "tree,",
+    "inicio": 45.01,
+    "fim": 45.45
+  },
+  {
+    "palavra": "they",
+    "inicio": 45.45,
+    "fim": 45.73
+  },
+  {
+    "palavra": "found",
+    "inicio": 45.73,
+    "fim": 45.99
+  },
+  {
+    "palavra": "human",
+    "inicio": 45.99,
+    "fim": 46.33
+  },
+  {
+    "palavra": "bones.",
+    "inicio": 46.33,
+    "fim": 46.67
+  },
+  {
+    "palavra": "A",
+    "inicio": 47.47,
+    "fim": 47.65
+  },
+  {
+    "palavra": "doctor",
+    "inicio": 47.65,
+    "fim": 47.93
+  },
+  {
+    "palavra": "measured",
+    "inicio": 47.93,
+    "fim": 48.27
+  },
+  {
+    "palavra": "the",
+    "inicio": 48.27,
+    "fim": 48.45
+  },
+  {
+    "palavra": "skeleton",
+    "inicio": 48.45,
+    "fim": 48.73
+  },
+  {
+    "palavra": "and",
+    "inicio": 48.73,
+    "fim": 49.03
+  },
+  {
+    "palavra": "claimed",
+    "inicio": 49.03,
+    "fim": 49.33
+  },
+  {
+    "palavra": "it",
+    "inicio": 49.33,
+    "fim": 49.53
+  },
+  {
+    "palavra": "belonged",
+    "inicio": 49.53,
+    "fim": 49.79
+  },
+  {
+    "palavra": "to",
+    "inicio": 49.79,
+    "fim": 50.07
+  },
+  {
+    "palavra": "a",
+    "inicio": 50.07,
+    "fim": 50.23
+  },
+  {
+    "palavra": "male.",
+    "inicio": 50.23,
+    "fim": 50.45
+  },
+  {
+    "palavra": "Then,",
+    "inicio": 51.25,
+    "fim": 51.63
+  },
+  {
+    "palavra": "the",
+    "inicio": 51.63,
+    "fim": 52.11
+  },
+  {
+    "palavra": "bones",
+    "inicio": 52.11,
+    "fim": 52.33
+  },
+  {
+    "palavra": "vanished",
+    "inicio": 52.33,
+    "fim": 52.65
+  },
+  {
+    "palavra": "forever.",
+    "inicio": 52.65,
+    "fim": 53.15
+  },
+  {
+    "palavra": "Were",
+    "inicio": 54.15,
+    "fim": 54.31
+  },
+  {
+    "palavra": "those",
+    "inicio": 54.31,
+    "fim": 54.53
+  },
+  {
+    "palavra": "radio",
+    "inicio": 54.53,
+    "fim": 54.83
+  },
+  {
+    "palavra": "signals",
+    "inicio": 54.83,
+    "fim": 55.27
+  },
+  {
+    "palavra": "Amelia",
+    "inicio": 55.27,
+    "fim": 55.67
+  },
+  {
+    "palavra": "Earhart's",
+    "inicio": 55.67,
+    "fim": 56.21
+  },
+  {
+    "palavra": "final",
+    "inicio": 56.21,
+    "fim": 56.57
+  },
+  {
+    "palavra": "distress",
+    "inicio": 56.57,
+    "fim": 56.93
+  },
+  {
+    "palavra": "cries",
+    "inicio": 56.93,
+    "fim": 57.29
+  },
+  {
+    "palavra": "on",
+    "inicio": 57.29,
+    "fim": 57.47
+  },
+  {
+    "palavra": "that",
+    "inicio": 57.47,
+    "fim": 57.59
+  },
+  {
+    "palavra": "distant",
+    "inicio": 57.59,
+    "fim": 57.91
+  },
+  {
+    "palavra": "reef?",
+    "inicio": 57.91,
+    "fim": 58.33
+  },
+  {
+    "palavra": "What",
+    "inicio": 59.01,
+    "fim": 59.21
+  },
+  {
+    "palavra": "do",
+    "inicio": 59.21,
+    "fim": 59.35
+  },
+  {
+    "palavra": "you",
+    "inicio": 59.35,
+    "fim": 59.45
+  },
+  {
+    "palavra": "believe",
+    "inicio": 59.45,
+    "fim": 59.75
+  },
+  {
+    "palavra": "actually",
+    "inicio": 59.75,
+    "fim": 60.23
+  },
+  {
+    "palavra": "happened",
+    "inicio": 60.23,
+    "fim": 60.65
+  },
+  {
+    "palavra": "to",
+    "inicio": 60.65,
+    "fim": 60.83
+  },
+  {
+    "palavra": "her?",
+    "inicio": 60.83,
+    "fim": 60.97
+  }
+]
