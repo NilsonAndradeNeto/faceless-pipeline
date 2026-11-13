@@ -1832,3 +1832,82 @@ Traceback (most recent call last):
 json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
 20:36:47 [ciclo] INFO: Instagram (PT) não conectado — falta IG_TOKEN_PT no .env
 20:36:47 [ciclo] INFO: Conta tiktok (PT) ainda não conectada
+02:58:11 [ciclo] INFO: — ciclo 13/11 02:58 —
+02:58:11 [ciclo] INFO: Fila PT vazia — gerando roteiro
+02:58:11 [researcher] INFO: Tema escolhido (pt): O mecanismo de Anticítera, o 'computador' da Grécia antiga
+02:58:12 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+02:58:12 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 167→170 tokens, US$0.0000, 1.2s
+02:58:13 [researcher] INFO: Fontes: Antikythera mechanism (en), Máquina de Anticítera (pt)
+02:58:13 [scriptwriter] INFO: Escrevendo roteiro: O mecanismo de Anticítera, o 'computador' da Grécia antiga
+02:59:13 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+02:59:13 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 5398→408 tokens, US$0.0000, 60.5s
+02:59:13 [scriptwriter] INFO: Editando para retenção...
+02:59:49 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+02:59:49 [llm] INFO: gemini/gemini-3.5-flash [critica] 530→346 tokens, US$0.0000, 35.9s
+02:59:49 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 5, 'ritmo': 6, 'viradas': 7, 'climax': 6, 'final': 7}
+02:59:49 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+03:01:19 [llm] INFO: gemini/gemini-3.5-flash travou, trocando para gemini-3-flash-preview
+03:02:49 [llm] INFO: gemini/gemini-3-flash-preview travou, trocando para gemini-3.8-flash
+03:02:51 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+03:02:51 [llm] INFO: gemini/gemini-3.8-flash no limite, trocando para gemini-3.7-flash
+03:02:51 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+03:02:51 [llm] WARNING: gemini falhou (tentativa 1/1): Error code: 503
+03:02:51 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
+03:02:51 [scriptwriter] ERROR: Falha ao escrever roteiro de 20261113T055813Z_pt.json (tópico fica pendente)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 127, in chat
+    return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 178, in _chat
+    raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
+RuntimeError: Todos os provedores de LLM falharam: Error code: 503
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 216, in processar_pendentes
+    escrever(ler_json(arq))
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 186, in escrever
+    roteiro, pendentes, atencao = checar_fatos(editado, fontes_txt, topico["lang"])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 147, in checar_fatos
+    p = chat([{"role": "user", "content": PROMPT_PROVAS.format(fontes=fontes_txt, roteiro=roteiro)}],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
+    raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
+agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
+03:02:51 [ciclo] INFO: Fila EN vazia — gerando roteiro
+03:02:51 [scriptwriter] INFO: Escrevendo roteiro: Amelia Earhart's last flight over the Pacific
+03:03:28 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+03:03:28 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+03:03:35 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:03:35 [llm] INFO: gemini/gemini-3-flash-preview [roteiro] 2989→342 tokens, US$0.0000, 7.1s
+03:03:35 [scriptwriter] INFO: Editando para retenção...
+03:05:05 [llm] INFO: gemini/gemini-3.5-flash travou, trocando para gemini-3-flash-preview
+03:05:15 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:05:15 [llm] INFO: gemini/gemini-3-flash-preview [critica] 487→303 tokens, US$0.0000, 9.4s
+03:05:15 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 4, 'ritmo': 6, 'viradas': 7, 'climax': 6, 'final': 7}
+03:05:15 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+03:05:36 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:05:36 [llm] INFO: gemini/gemini-3.5-flash [provas] 2849→1388 tokens, US$0.0000, 21.1s
+03:05:36 [scriptwriter] INFO: Checagem 1: 14 frases, 9 com problema, 0 para conferir
+03:05:36 [scriptwriter] INFO: Corrigindo:
+- ""Destroy the papers in my closet."" → contradiz: A transmissão ouvida por Klenck dizia apenas para pegar a mala no armário ("get the suitcase in my closet"). A instrução sobre destruir os papéis estava em uma carta escrita à mãe quatro anos antes.
+- "In Florida, a teenager heard a woman sobbing through the static, saying the water was knee-deep and her navigator was dying." → contradiz: Quem falou que a água estava na altura do joelho foi o homem, não a mulher. Além disso, a fonte menciona que Noonan estava "gravemente ferido" ("seriously injured"), não que estava morrendo, e não menciona a Flórida.
+- "Then came the chilling request: Earhart told her husband to find a secret suitcase in their California home and burn the documents inside." → contradiz: A fonte indica que ela pediu ao marido no rádio apenas para pegar a mala no armário. O pedido para destruir os papéis contidos na mala estava em uma carta deixada à mãe quatro anos antes.
+- "Months earlier, she’d given her mother the exact same command." → contradiz: A fonte afirma que a carta para a mãe foi enviada quatro anos antes ("Four years earlier"), e não alguns meses antes ("Months earlier").
+- "Searchers found a woman’s shoe, freckle cream, and a skeleton resting under a tree." → contradiz: Debaixo da árvore foram encontrados ossos, uma garrafa, um sapato e uma caixa de sextante. O pomada/creme para sardas ("freckle ointment") é um item mencionado em outro contexto de teorias da TIGHAR, não junto ao esqueleto sob a árvore.
+- "A local doctor claimed the bones were a man’s, then—conveniently—he lost them." → contradiz: A fonte afirma que os ossos foram extraviados/perdidos em Fiji de maneira geral, e não que o médico os perdeu intencionalmente ou "convenientemente".
+- "They’ve been missing for eighty years." → sem_base: As fontes mencionam o extravio dos ossos examinados em 1941 em Fiji, mas não afirmam nem calculam que estão desaparecidos há 80 anos.
+- "But recent analysis proves those measurements were a perfect match for Amelia herself." → contradiz: A fonte diz apenas que pesquisadores contestaram as conclusões de que era homem, mas as medições do médico indicavam 166,4 cm, enquanto Amelia media 173 cm. A fonte não diz que houve prova de um "encaixe perfeito".
+- "She didn’t crash and sink." → sem_base: A fonte aponta a teoria do queda e afundamento no mar ("crash and sink theory") como a explicação mais aceita entre historiadores. Afirmar categoricamente que ela não caiu e afundou não tem base na fonte.
+03:05:54 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:05:54 [llm] INFO: gemini/gemini-3.5-flash [correcao] 3292→228 tokens, US$0.0000, 18.6s
+03:06:15 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:06:15 [llm] INFO: gemini/gemini-3.5-flash [provas] 2830→902 tokens, US$0.0000, 20.2s
+03:06:15 [scriptwriter] INFO: Checagem 2: 12 frases, 1 com problema, 0 para conferir
+03:06:15 [scriptwriter] INFO: Corrigindo:
+- "If the bones were hers, why did the doctor make them disappear?" → contradiz: A fonte afirma que os ossos foram extraviados em Fiji e presumidos perdidos ('misplaced in Fiji and presumed lost'), e não que o médico os fez desaparecer intencionalmente.
+03:06:26 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:06:26 [llm] INFO: gemini/gemini-3.5-flash [correcao] 2709→229 tokens, US$0.0000, 11.8s
+03:06:26 [scriptwriter] INFO: Roteiro salvo: 177 palavras, 1035 caracteres, confiança baixa
