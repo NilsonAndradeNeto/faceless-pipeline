@@ -1,0 +1,46 @@
+{
+  "id": "20261113T055813Z_pt",
+  "lang": "pt",
+  "tema": "O mecanismo de Anticítera, o 'computador' da Grécia antiga",
+  "titulo": "O computador secreto construído antes de Cristo",
+  "hook": "Um museu na Grécia deixou jogada num canto o que parecia ser apenas uma pedra verde inútil resgatada do fundo do mar.",
+  "descricao": "Resgatado de um naufrágio na Grécia antiga, o mecanismo de Anticítera previa eclipses e órbitas séculos antes da era moderna. Se o metal era constantemente derretido na Antiguidade, quantas máquinas iguais a essa sumiram para sempre?",
+  "hashtags": [
+    "historia",
+    "misterios",
+    "anticitera",
+    "greciaantiga",
+    "arqueologia",
+    "tecnologiaantiga"
+  ],
+  "palavras": 178,
+  "caracteres": 1090,
+  "notas_editor_antes": {
+    "gancho": 5,
+    "ritmo": 5,
+    "viradas": 6,
+    "climax": 6,
+    "final": 6
+  },
+  "checagem": {
+    "sem_comprovacao": [],
+    "conferir": [
+      "Era um mecanismo com mais de trinta engrenagens de bronze, e a maior roda tinha duzentos e vinte e três dentes cortados à mão."
+    ],
+    "confianca": "media"
+  },
+  "versoes": {
+    "rascunho": "Mergulhadores tiraram uma pedra esverdeada do fundo do mar da Grécia. Eles deixaram o bloco corroído e verde esquecido num museu por dois anos. Mas ele escondia algo impossível. Em mil novecentos e um, mergulhadores acharam um naufrágio na ilha de Anticítera. A quarenta e cinco metros de profundidade, resgataram estátuas de mármore e metal corroído. Em maio de mil novecentos e dois, o arqueólogo Valerios Stais olhou de perto. A crosta do objeto tinha rachado. Lá dentro, ele viu uma roda denteada. Não era uma simples pedra. Era um mecanismo com mais de trinta engrenagens de bronze. A maior roda tinha duzentos e vinte e três dentes cortados à mão. O aparelho previa eclipses, a velocidade irregular da Lua e os Jogos Olímpicos. Era um computador analógico construído no século dois antes de Cristo. Máquinas com essa mesma complexidade só reapareceram mil e quinhentos anos depois. Toda essa tecnologia desapareceu da História sem deixar nenhum rastro. Se o bronze antigo era sempre reciclado, quantos outros computadores antigos acabaram derretidos?",
+    "editado": "Um museu na Grécia deixou jogada num canto o que parecia ser apenas uma pedra verde inútil resgatada do fundo do mar. Esse bloco de metal corroído ficou esquecido por dois anos inteiros. Mas em maio de mil novecentos e dois, a crosta daquele objeto rachou e o arqueólogo Valerios Stais viu algo que parecia impossível: uma roda denteada. Tudo começou em mil novecentos e um, quando mergulhadores acharam um naufrágio a quarenta e cinco metros de profundidade na ilha de Anticítera. Junto com estátuas de mármore, resgataram esse metal corroído. Não era uma pedra. Era um mecanismo com mais de trinta engrenagens de bronze, e a maior roda tinha duzentos e vinte e três dentes cortados à mão. O aparelho previa eclipses, a velocidade irregular da Lua e até os Jogos Olímpicos. Era um computador analógico construído no século dois antes de Cristo! Máquinas com essa mesma complexidade só reapareceram mil e quinhentos anos depois. Toda essa tecnologia desapareceu da História sem deixar rastro. Se o bronze antigo era sempre reciclado, quantos outros computadores antigos acabaram derretidos?"
+  },
+  "fontes": [
+    {
+      "titulo": "Antikythera mechanism",
+      "url": "https://en.wikipedia.org/wiki/Antikythera_mechanism"
+    },
+    {
+      "titulo": "Máquina de Anticítera",
+      "url": "https://pt.wikipedia.org/wiki/M%C3%A1quina_de_Antic%C3%ADtera"
+    }
+  ]
+}

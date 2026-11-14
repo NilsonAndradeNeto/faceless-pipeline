@@ -2004,3 +2004,34 @@ Traceback (most recent call last):
   File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
     raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
 json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+02:47:45 [ciclo] INFO: — ciclo 14/11 02:47 —
+02:47:45 [ciclo] INFO: Fila PT vazia — gerando roteiro
+02:47:45 [scriptwriter] INFO: Escrevendo roteiro: O mecanismo de Anticítera, o 'computador' da Grécia antiga
+02:48:38 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+02:48:38 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 5398→404 tokens, US$0.0000, 53.2s
+02:48:38 [scriptwriter] INFO: Editando para retenção...
+02:49:47 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+02:49:47 [llm] INFO: gemini/gemini-3.5-flash [critica] 508→333 tokens, US$0.0000, 69.1s
+02:49:47 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 5, 'ritmo': 5, 'viradas': 6, 'climax': 6, 'final': 6}
+02:49:47 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+02:50:26 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+02:50:26 [llm] INFO: gemini/gemini-3.5-flash [provas] 5288→829 tokens, US$0.0000, 39.2s
+02:50:26 [scriptwriter] INFO: Checagem 1: 12 frases, 0 com problema, 1 para conferir
+02:50:26 [scriptwriter] INFO: Roteiro salvo: 178 palavras, 1090 caracteres, confiança media
+02:50:26 [ciclo] INFO: Fila EN vazia — gerando roteiro
+02:50:26 [researcher] INFO: Tema escolhido (en): The Flannan Isles lighthouse keepers who disappeared
+02:50:27 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+02:50:27 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 160→243 tokens, US$0.0000, 1.0s
+02:50:28 [researcher] INFO: Fontes: Flannan Isles Lighthouse (en)
+02:50:28 [scriptwriter] INFO: Escrevendo roteiro: The Flannan Isles lighthouse keepers who disappeared
+02:50:46 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+02:50:46 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 2947→346 tokens, US$0.0000, 18.5s
+02:50:46 [scriptwriter] INFO: Editando para retenção...
+02:51:40 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+02:51:40 [llm] INFO: gemini/gemini-3.5-flash [critica] 475→291 tokens, US$0.0000, 53.8s
+02:51:40 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 7, 'viradas': 7, 'climax': 7, 'final': 7}
+02:51:40 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+02:51:57 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+02:51:57 [llm] INFO: gemini/gemini-3.5-flash [provas] 2796→1035 tokens, US$0.0000, 17.4s
+02:51:57 [scriptwriter] INFO: Checagem 1: 15 frases, 0 com problema, 1 para conferir
+02:51:57 [scriptwriter] INFO: Roteiro salvo: 188 palavras, 1082 caracteres, confiança media
