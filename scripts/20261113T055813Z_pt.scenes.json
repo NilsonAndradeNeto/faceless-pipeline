@@ -8,6 +8,13 @@
     "visual": {
       "real": null,
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. A dusty corner of a 1900s Greek museum, dimly lit by sunlight through high windows, showing wooden crates containing heavily encrusted, calcified green sea-corroded rock fragments on a workbench., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/602d299a9d2829f2.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -25,6 +32,13 @@
         "autor": "O autor não foi fornecido de forma legível por computadores. Presume-se que seja"
       },
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. Close-up on a desk in 1902 Athens, dusty room with books and parchment, showing a heavy green-corroded calcified bronze artifact resting under a magnifying glass, dramatic side lighting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/d3db9ed3325fffeb.jpg",
+      "credito": "NAMA Machine d'Anticythère 1.jpg — O autor não foi fornecido de forma legível por computadores. Presume-se que seja (CC BY 2.5)"
     }
   },
   {
@@ -36,6 +50,13 @@
     "visual": {
       "real": null,
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. Macro shot of a heavily corroded ancient green bronze block cracking open, revealing tiny intricate metallic gear teeth emerging from inside the mineral crust, dramatic lighting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/b90353c2089b3125.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -47,6 +68,13 @@
     "visual": {
       "real": null,
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. An early 20th-century Greek archaeologist in formal 1900s suit, seen from behind over the shoulder, leaning over a desk examining a broken mineral lump under a brass magnifying lamp., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/740392c31a775d85.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -58,6 +86,13 @@
     "visual": {
       "real": null,
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. Macro view of hands in cloth gloves holding brass calipers over exposed ancient bronze gears, revealing precise mechanical teeth inside oxidized calcified rock, warm candlelight glow., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/7193f787a188c59a.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -75,6 +110,13 @@
         "autor": "O autor não foi fornecido de forma legível por computadores. Presume-se que seja"
       },
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. Extreme macro detail of a hand-cut ancient bronze gear wheel with precise triangular teeth, embedded in oxidized green corrosion, dramatic macro lighting, historical mystery vibe., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/NAMA_Machine_d%27Anticyth%C3%A8re_4.jpg/1280px-NAMA_Machine_d%27Anticyth%C3%A8re_4.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/fb74431fd2715c4e.jpg",
+      "credito": "NAMA Machine d'Anticythère 4.jpg — O autor não foi fornecido de forma legível por computadores. Presume-se que seja (CC BY 2.5)"
     }
   },
   {
@@ -86,6 +128,13 @@
     "visual": {
       "real": null,
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. Early 1900s sponge divers in heavy copper diving helmets and vintage canvas suits descending into dark deep blue Aegean waters, exploring a shadowy ancient wooden shipwreck., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/3376e1050a6bf539.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -97,6 +146,13 @@
     "visual": {
       "real": null,
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. Underwater shot of the rocky seabed off Antikythera island at forty-five meters depth, sunbeams piercing dark blue water onto scattered ancient Greek amphorae and sunken debris., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/a212d97026ab1fcd.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -108,6 +164,13 @@
     "visual": {
       "real": null,
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. Wooden deck of a 1901 Greek salvage boat, divers pulling up marble classical statues covered in sea growth alongside green oxidized metallic lumps, bright Mediterranean sun., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/3bfba4f751a230da.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -125,6 +188,13 @@
         "autor": "Denexeitelos"
       },
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. Detailed view of an ancient Greek bronze astrolabe mechanism with multiple interlocking gear wheels and engraved Greek inscriptions, resting on an ancient wooden table., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/c4f51c5b1359b68a.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -142,6 +212,13 @@
         "autor": "SkoreKeep"
       },
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. Macro view of an ancient craftsman in 150 BC cutting tiny precise teeth into a large central bronze gear using hand chisels, bronze shavings around, candlelight., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/AntikytheraMechanismSchematic-Freeth12.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/735dfd4a6f96a46c.jpg",
+      "credito": "AntikytheraMechanismSchematic-Freeth12.png — SkoreKeep (CC BY-SA 3.0)"
     }
   },
   {
@@ -159,6 +236,13 @@
         "autor": "Xmoussas"
       },
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. Ancient Greek astronomical instrument displaying pointer hands aligned with carved lunar phases, constellation symbols, and Olympic flame motifs on dark engraved bronze dials., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Manual2021-X_MOUSSAS_SAROS.jpg/1280px-Manual2021-X_MOUSSAS_SAROS.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/b0ec8121def9bb6c.jpg",
+      "credito": "Manual2021-X MOUSSAS SAROS.jpg — Xmoussas (CC BY-SA 4.0)"
     }
   },
   {
@@ -176,6 +260,13 @@
         "autor": "Mogi Vicentini"
       },
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. Cinematic medium shot of an ancient Hellenistic scientist in linen chiton adjusting a complex bronze gear clockwork device in a sunlit 2nd-century BC Alexandrian study., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Antikythera_model_front_panel_Mogi_Vicentini_2007.JPG/1280px-Antikythera_model_front_panel_Mogi_Vicentini_2007.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/ee986fc78f7d67d8.jpg",
+      "credito": "Antikythera model front panel Mogi Vicentini 2007.JPG — Mogi Vicentini (CC BY 2.5)"
     }
   },
   {
@@ -193,6 +284,13 @@
         "autor": "Su Song"
       },
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. A medieval European workshop in the 14th century, showing complex iron astronomical clockwork gears, pendulum parts, and schematics illuminated by candlelight on an oak table., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/a8c90ac4f547fa84.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -204,6 +302,13 @@
     "visual": {
       "real": null,
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. An abandoned ancient Greek workshop filled with windblown dust, scattered papyrus scrolls, broken ceramic molds, and empty wooden workbenches, forgotten in time, warm sunset light., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/b559b907a0fed557.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -215,6 +320,13 @@
     "visual": {
       "real": null,
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. Ancient foundry furnace glowing with intense orange heat, silhouettes of metalworkers pouring molten bronze into ingot molds, smoke and sparks rising, historic setting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/1b05e43dc98ced65.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -226,6 +338,13 @@
     "visual": {
       "real": null,
       "ia": "Greece, 150 BC to early 1900s AD, ancient maritime technology and museum discovery, period-accurate clothing and technology. Close-up of molten glowing orange bronze liquid overflowing a stone crucible, casting fierce heat light onto discarded broken ancient bronze gears melting away into liquid., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/8f67cdce15679b9a.jpg",
+      "credito": "imagem gerada por IA"
     }
   }
 ]

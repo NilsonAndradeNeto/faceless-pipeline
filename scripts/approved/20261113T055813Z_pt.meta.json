@@ -46,11 +46,21 @@
   "aprovacao": "automatica",
   "data_post": "2026-11-14",
   "producao": {
-    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "etapa": "pronto",
     "erro": null,
     "detalhe": "",
-    "progresso": 0.18,
-    "atualizado": "2026-11-14 13:30:17"
+    "progresso": 1.0,
+    "atualizado": "2026-11-14 18:20:44"
   },
-  "voz": "gemini"
+  "voz": "gemini",
+  "creditos_imagens": [
+    "Antikythera model front panel Mogi Vicentini 2007.JPG — Mogi Vicentini (CC BY 2.5)",
+    "AntikytheraMechanismSchematic-Freeth12.png — SkoreKeep (CC BY-SA 3.0)",
+    "Manual2021-X MOUSSAS SAROS.jpg — Xmoussas (CC BY-SA 4.0)",
+    "NAMA Machine d'Anticythère 1.jpg — O autor não foi fornecido de forma legível por computadores. Presume-se que seja (CC BY 2.5)",
+    "NAMA Machine d'Anticythère 4.jpg — O autor não foi fornecido de forma legível por computadores. Presume-se que seja (CC BY 2.5)"
+  ],
+  "imagens_ia": 12,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261113T055813Z_pt.mp4",
+  "duracao_seg": 77.7
 }

@@ -42,11 +42,20 @@
   "aprovacao": "automatica",
   "data_post": "2026-11-14",
   "producao": {
-    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "etapa": "pronto",
     "erro": null,
     "detalhe": "",
-    "progresso": 0.1,
-    "atualizado": "2026-11-14 13:31:02"
+    "progresso": 1.0,
+    "atualizado": "2026-11-14 18:26:29"
   },
-  "voz": "gemini"
+  "voz": "gemini",
+  "creditos_imagens": [
+    "Flannan Isles southwest from the lighthouse - Geograph-3204860-by-Chris-Downer.jpg — Chris Downer (CC BY-SA 2.0)",
+    "FlannanIsles band.jpg — BobSchrage (CC BY 4.0)",
+    "St. Flannan's Cell and Flannan Isles Lighthouse - geograph.org.uk - 623920.jpg — JJM (CC BY-SA 2.0)",
+    "The lighthouse on Eilean Mor.jpg — Marc Calhoun (CC BY-SA 2.0)"
+  ],
+  "imagens_ia": 13,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261114T055028Z_en.mp4",
+  "duracao_seg": 69.5
 }

@@ -2070,3 +2070,120 @@ json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): lin
 13:31:02 [visual_planner] INFO: 17 cenas (média 4.1s): 5 com imagem real, 12 com IA
 13:31:02 [produzir] INFO: Adiantado até 'plano visual': The Vanishing of the Flannan Isles Keepers
 13:31:02 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+18:14:06 [ciclo] INFO: — ciclo 14/11 18:14 —
+18:14:06 [produzir] INFO: ▶ Produzindo: O computador secreto construído antes de Cristo
+18:14:09 [broll] INFO: Cena  1 (2.4s): ia        Um museu na Grécia deixou jogada num canto o que parecia ser
+18:14:11 [broll] INFO: Cena  2 (5.4s): wikimedia Esse bloco de metal corroído ficou esquecido por dois anos i
+18:14:15 [broll] INFO: Cena  3 (6.0s): ia        a crosta daquele objeto rachou
+18:14:25 [broll] INFO: Cena  4 (6.0s): ia        e o arqueólogo Valerios Stais
+18:14:37 [broll] INFO: Cena  5 (6.0s): ia        viu algo que parecia impossível:
+18:14:39 [broll] INFO: Cena  6 (3.6s): wikimedia uma roda denteada.
+18:14:50 [broll] INFO: Cena  7 (5.4s): ia        Tudo começou em mil novecentos e um, quando mergulhadores ac
+18:15:00 [broll] INFO: Cena  8 (3.0s): ia        de profundidade na ilha de Anticítera.
+18:15:10 [broll] INFO: Cena  9 (4.2s): ia        Junto com estátuas de mármore, resgataram esse metal corroíd
+18:15:10 [broll] INFO: Limite de download, aguardando 10s
+18:15:20 [broll] INFO: Limite de download, aguardando 10s
+18:15:30 [broll] INFO: Limite de download, aguardando 10s
+18:15:41 [broll] INFO: Limite de download, aguardando 10s
+18:15:51 [broll] WARNING: Cena 10: erro numa fonte (429 Client Error: Too Many Requests (015d12c) for url: https://upload.wikimedia.org/wikipedia/commons/d/da/Mechanism_of_), tentando a próxima
+18:15:58 [broll] INFO: Cena 10 (3.9s): ia        Não era uma pedra. Era um mecanismo com mais de trinta engre
+18:15:59 [broll] INFO: Cena 11 (5.4s): wikimedia e a maior roda tinha duzentos e vinte e três dentes cortados
+18:16:01 [broll] INFO: Cena 12 (5.7s): wikimedia O aparelho previa eclipses, a velocidade irregular da Lua e 
+18:16:03 [broll] INFO: Cena 13 (5.2s): wikimedia Era um computador analógico construído no século dois antes 
+18:16:03 [broll] INFO: Limite de download, aguardando 10s
+18:16:13 [broll] INFO: Limite de download, aguardando 10s
+18:16:23 [broll] INFO: Limite de download, aguardando 10s
+18:16:33 [broll] INFO: Limite de download, aguardando 10s
+18:16:43 [broll] WARNING: Cena 14: erro numa fonte (429 Client Error: Too Many Requests (015d12c) for url: https://upload.wikimedia.org/wikipedia/commons/4/46/Clock_Tower_f), tentando a próxima
+18:16:57 [broll] INFO: Cena 14 (5.1s): ia        Máquinas com essa mesma complexidade só reapareceram mil e q
+18:17:06 [broll] INFO: Cena 15 (4.0s): ia        Toda essa tecnologia desapareceu da História sem deixar rast
+18:17:18 [broll] INFO: Cena 16 (5.0s): ia        Se o bronze antigo era sempre reciclado, quantos outros comp
+18:17:28 [broll] INFO: Cena 17 (1.2s): ia        derretidos?
+18:17:28 [video_builder] INFO: Cena 1/17 (imagem, 2.4s)
+18:17:28 [video_builder] INFO: Encoder: x264
+18:17:32 [video_builder] INFO: Cena 2/17 (imagem, 5.4s)
+18:17:40 [video_builder] INFO: Cena 3/17 (imagem, 6.0s)
+18:17:48 [video_builder] INFO: Cena 4/17 (imagem, 6.0s)
+18:17:56 [video_builder] INFO: Cena 5/17 (imagem, 6.0s)
+18:18:04 [video_builder] INFO: Cena 6/17 (imagem, 3.6s)
+18:18:10 [video_builder] INFO: Cena 7/17 (imagem, 5.4s)
+18:18:18 [video_builder] INFO: Cena 8/17 (imagem, 3.0s)
+18:18:23 [video_builder] INFO: Cena 9/17 (imagem, 4.2s)
+18:18:29 [video_builder] INFO: Cena 10/17 (imagem, 3.9s)
+18:18:35 [video_builder] INFO: Cena 11/17 (imagem, 5.4s)
+18:18:43 [video_builder] INFO: Cena 12/17 (imagem, 5.7s)
+18:18:51 [video_builder] INFO: Cena 13/17 (imagem, 5.2s)
+18:18:59 [video_builder] INFO: Cena 14/17 (imagem, 5.1s)
+18:19:06 [video_builder] INFO: Cena 15/17 (imagem, 4.0s)
+18:19:13 [video_builder] INFO: Cena 16/17 (imagem, 5.0s)
+18:19:20 [video_builder] INFO: Cena 17/17 (imagem, 1.2s)
+18:19:23 [video_builder] INFO: Música: trilha_06.mp3
+18:20:44 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261113T055813Z_pt.mp4 (77.7s)
+18:20:44 [produzir] INFO: ✅ Pronto: O computador secreto construído antes de Cristo
+18:20:44 [produzir] INFO: ▶ Produzindo: The Vanishing of the Flannan Isles Keepers
+18:20:48 [broll] INFO: Cena  1 (5.6s): ia        One lighthouse keeper ran straight into a freezing winter st
+18:20:51 [broll] INFO: Cena  2 (3.1s): ia        breaking every single rule he had.
+18:20:53 [broll] INFO: Cena  3 (5.1s): wikimedia On December 26, 1900, three men completely vanished from the
+18:20:54 [broll] INFO: Cena  4 (2.7s): wikimedia Scottish island of Eilean Mòr.
+18:21:06 [broll] INFO: Cena  5 (5.3s): ia        The light had gone dark eleven days earlier, bringing relief
+18:21:08 [broll] INFO: Cena  6 (4.3s): wikimedia rock alone. He climbed the cliff path and opened the door.
+18:21:18 [broll] INFO: Cena  7 (3.4s): ia        Inside, the kitchen was clean, but the clock had stopped.
+18:21:30 [broll] INFO: Cena  8 (3.8s): ia        Then came the chilling part. Two sets of raincoats were miss
+18:21:39 [broll] INFO: Cena  9 (3.4s): ia        yet the third set of oilskins still hung on the wall.
+18:21:50 [broll] INFO: Cena 10 (5.1s): ia        An experienced keeper had abandoned the light and charged in
+18:21:52 [broll] INFO: Cena 11 (5.1s): wikimedia coat. Searchers rushed across the island looking for signs o
+18:21:52 [broll] INFO: Limite de download, aguardando 10s
+18:22:02 [broll] INFO: Limite de download, aguardando 10s
+18:22:12 [broll] INFO: Limite de download, aguardando 10s
+18:22:22 [broll] INFO: Limite de download, aguardando 10s
+18:22:32 [broll] WARNING: Cena 12: erro numa fonte (429 Client Error: Too Many Requests (015d12c) for url: https://upload.wikimedia.org/wikipedia/commons/f/ff/Eilean_a%27_G), tentando a próxima
+18:22:41 [broll] INFO: Cena 12 (3.6s): ia        the western landing, over a hundred feet above the sea.
+18:22:53 [broll] INFO: Cena 13 (4.4s): ia        Iron railings were bent. A rock weighing over a ton was move
+18:23:02 [broll] INFO: Cena 14 (5.2s): ia        Rope boxes were smashed to pieces. A giant wave had climbed 
+18:23:10 [broll] INFO: Cena 15 (3.3s): ia        all three away, leaving no bodies behind.
+18:23:22 [broll] INFO: Cena 16 (4.7s): ia        Why would a trained keeper run into that storm without coat 
+18:23:33 [broll] INFO: Cena 17 (1.4s): ia        What do you think happened?
+18:23:33 [video_builder] INFO: Cena 1/17 (imagem, 5.6s)
+18:23:41 [video_builder] INFO: Cena 2/17 (imagem, 3.1s)
+18:23:45 [video_builder] INFO: Cena 3/17 (imagem, 5.1s)
+18:23:55 [video_builder] INFO: Cena 4/17 (imagem, 2.7s)
+18:23:59 [video_builder] INFO: Cena 5/17 (imagem, 5.3s)
+18:24:06 [video_builder] INFO: Cena 6/17 (imagem, 4.3s)
+18:24:12 [video_builder] INFO: Cena 7/17 (imagem, 3.4s)
+18:24:18 [video_builder] INFO: Cena 8/17 (imagem, 3.8s)
+18:24:24 [video_builder] INFO: Cena 9/17 (imagem, 3.4s)
+18:24:29 [video_builder] INFO: Cena 10/17 (imagem, 5.1s)
+18:24:36 [video_builder] INFO: Cena 11/17 (imagem, 5.1s)
+18:24:44 [video_builder] INFO: Cena 12/17 (imagem, 3.6s)
+18:24:49 [video_builder] INFO: Cena 13/17 (imagem, 4.4s)
+18:24:55 [video_builder] INFO: Cena 14/17 (imagem, 5.2s)
+18:25:03 [video_builder] INFO: Cena 15/17 (imagem, 3.3s)
+18:25:08 [video_builder] INFO: Cena 16/17 (imagem, 4.7s)
+18:25:14 [video_builder] INFO: Cena 17/17 (imagem, 1.4s)
+18:25:18 [video_builder] INFO: Música: trilha_04.mp3
+18:26:29 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261114T055028Z_en.mp4 (69.5s)
+18:26:29 [produzir] INFO: ✅ Pronto: The Vanishing of the Flannan Isles Keepers
+18:26:29 [ciclo] ERROR: Falha ao publicar pt youtube
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 197, in publicar_no_horario
+    r = publicar(plataforma, ler_json(meta_arq), video)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 166, in publicar
+    return publicar_youtube(meta, Path(video))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 52, in publicar_youtube
+    yt = youtube_cliente(meta["lang"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 42, in youtube_cliente
+    cred = Credentials.from_authorized_user_file(str(arq), ESCOPOS_YT)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/.venv/lib/python3.11/site-packages/google/oauth2/credentials.py", line 544, in from_authorized_user_file
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
+    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
+json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+18:26:29 [ciclo] INFO: Instagram (PT) não conectado — falta IG_TOKEN_PT no .env
