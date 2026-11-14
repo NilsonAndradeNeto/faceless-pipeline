@@ -42,5 +42,15 @@
       "titulo": "Máquina de Anticítera",
       "url": "https://pt.wikipedia.org/wiki/M%C3%A1quina_de_Antic%C3%ADtera"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-14",
+  "producao": {
+    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 0.18,
+    "atualizado": "2026-11-14 13:30:17"
+  },
+  "voz": "gemini"
 }

@@ -1,3 +1,15 @@
 {
-  "data": "2026-11-14"
+  "data": "2026-11-14",
+  "pt": {
+    "script": "20261113T055813Z_pt",
+    "titulo": "O computador secreto construído antes de Cristo",
+    "aprovacao": "automatica",
+    "posts": {}
+  },
+  "en": {
+    "script": "20261114T055028Z_en",
+    "titulo": "The Vanishing of the Flannan Isles Keepers",
+    "aprovacao": "automatica",
+    "posts": {}
+  }
 }

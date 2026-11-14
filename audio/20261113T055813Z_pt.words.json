@@ -1,0 +1,892 @@
+[
+  {
+    "palavra": "Um",
+    "inicio": 0.15,
+    "fim": 0.39
+  },
+  {
+    "palavra": "museu",
+    "inicio": 0.39,
+    "fim": 0.486
+  },
+  {
+    "palavra": "na",
+    "inicio": 0.486,
+    "fim": 0.583
+  },
+  {
+    "palavra": "Grécia",
+    "inicio": 0.583,
+    "fim": 0.679
+  },
+  {
+    "palavra": "deixou",
+    "inicio": 0.679,
+    "fim": 0.776
+  },
+  {
+    "palavra": "jogada",
+    "inicio": 0.776,
+    "fim": 0.872
+  },
+  {
+    "palavra": "num",
+    "inicio": 0.872,
+    "fim": 0.969
+  },
+  {
+    "palavra": "canto",
+    "inicio": 0.969,
+    "fim": 1.065
+  },
+  {
+    "palavra": "o",
+    "inicio": 1.065,
+    "fim": 1.162
+  },
+  {
+    "palavra": "que",
+    "inicio": 1.162,
+    "fim": 1.258
+  },
+  {
+    "palavra": "parecia",
+    "inicio": 1.258,
+    "fim": 1.355
+  },
+  {
+    "palavra": "ser",
+    "inicio": 1.355,
+    "fim": 1.451
+  },
+  {
+    "palavra": "apenas",
+    "inicio": 1.451,
+    "fim": 1.548
+  },
+  {
+    "palavra": "uma",
+    "inicio": 1.548,
+    "fim": 1.644
+  },
+  {
+    "palavra": "pedra",
+    "inicio": 1.644,
+    "fim": 1.741
+  },
+  {
+    "palavra": "verde",
+    "inicio": 1.741,
+    "fim": 1.837
+  },
+  {
+    "palavra": "inútil",
+    "inicio": 1.837,
+    "fim": 1.934
+  },
+  {
+    "palavra": "resgatada",
+    "inicio": 1.934,
+    "fim": 2.03
+  },
+  {
+    "palavra": "do",
+    "inicio": 2.03,
+    "fim": 2.05
+  },
+  {
+    "palavra": "fundo",
+    "inicio": 2.05,
+    "fim": 2.17
+  },
+  {
+    "palavra": "do",
+    "inicio": 2.17,
+    "fim": 2.29
+  },
+  {
+    "palavra": "mar.",
+    "inicio": 2.29,
+    "fim": 2.41
+  },
+  {
+    "palavra": "Esse",
+    "inicio": 2.41,
+    "fim": 2.53
+  },
+  {
+    "palavra": "bloco",
+    "inicio": 2.53,
+    "fim": 2.65
+  },
+  {
+    "palavra": "de",
+    "inicio": 2.65,
+    "fim": 2.91
+  },
+  {
+    "palavra": "metal",
+    "inicio": 2.91,
+    "fim": 2.912
+  },
+  {
+    "palavra": "corroído",
+    "inicio": 2.912,
+    "fim": 2.914
+  },
+  {
+    "palavra": "ficou",
+    "inicio": 2.914,
+    "fim": 2.915
+  },
+  {
+    "palavra": "esquecido",
+    "inicio": 2.915,
+    "fim": 2.917
+  },
+  {
+    "palavra": "por",
+    "inicio": 2.917,
+    "fim": 2.919
+  },
+  {
+    "palavra": "dois",
+    "inicio": 2.919,
+    "fim": 2.921
+  },
+  {
+    "palavra": "anos",
+    "inicio": 2.921,
+    "fim": 2.923
+  },
+  {
+    "palavra": "inteiros.",
+    "inicio": 2.923,
+    "fim": 2.925
+  },
+  {
+    "palavra": "Mas",
+    "inicio": 2.925,
+    "fim": 2.926
+  },
+  {
+    "palavra": "em",
+    "inicio": 2.926,
+    "fim": 2.928
+  },
+  {
+    "palavra": "maio",
+    "inicio": 2.928,
+    "fim": 2.93
+  },
+  {
+    "palavra": "de",
+    "inicio": 2.93,
+    "fim": 2.95
+  },
+  {
+    "palavra": "mil",
+    "inicio": 2.95,
+    "fim": 4.156
+  },
+  {
+    "palavra": "novecentos",
+    "inicio": 4.156,
+    "fim": 5.363
+  },
+  {
+    "palavra": "e",
+    "inicio": 5.363,
+    "fim": 6.569
+  },
+  {
+    "palavra": "dois,",
+    "inicio": 6.569,
+    "fim": 7.775
+  },
+  {
+    "palavra": "a",
+    "inicio": 7.775,
+    "fim": 8.982
+  },
+  {
+    "palavra": "crosta",
+    "inicio": 8.982,
+    "fim": 10.188
+  },
+  {
+    "palavra": "daquele",
+    "inicio": 10.188,
+    "fim": 11.395
+  },
+  {
+    "palavra": "objeto",
+    "inicio": 11.395,
+    "fim": 12.601
+  },
+  {
+    "palavra": "rachou",
+    "inicio": 12.601,
+    "fim": 13.807
+  },
+  {
+    "palavra": "e",
+    "inicio": 13.807,
+    "fim": 15.014
+  },
+  {
+    "palavra": "o",
+    "inicio": 15.014,
+    "fim": 16.22
+  },
+  {
+    "palavra": "arqueólogo",
+    "inicio": 16.22,
+    "fim": 17.426
+  },
+  {
+    "palavra": "Valerios",
+    "inicio": 17.426,
+    "fim": 18.633
+  },
+  {
+    "palavra": "Stais",
+    "inicio": 18.633,
+    "fim": 19.839
+  },
+  {
+    "palavra": "viu",
+    "inicio": 19.839,
+    "fim": 21.045
+  },
+  {
+    "palavra": "algo",
+    "inicio": 21.045,
+    "fim": 22.252
+  },
+  {
+    "palavra": "que",
+    "inicio": 22.252,
+    "fim": 23.458
+  },
+  {
+    "palavra": "parecia",
+    "inicio": 23.458,
+    "fim": 24.665
+  },
+  {
+    "palavra": "impossível:",
+    "inicio": 24.665,
+    "fim": 25.871
+  },
+  {
+    "palavra": "uma",
+    "inicio": 25.871,
+    "fim": 27.077
+  },
+  {
+    "palavra": "roda",
+    "inicio": 27.077,
+    "fim": 28.284
+  },
+  {
+    "palavra": "denteada.",
+    "inicio": 28.284,
+    "fim": 29.49
+  },
+  {
+    "palavra": "Tudo",
+    "inicio": 29.49,
+    "fim": 29.61
+  },
+  {
+    "palavra": "começou",
+    "inicio": 29.61,
+    "fim": 30.01
+  },
+  {
+    "palavra": "em",
+    "inicio": 30.01,
+    "fim": 30.23
+  },
+  {
+    "palavra": "mil",
+    "inicio": 30.23,
+    "fim": 30.485
+  },
+  {
+    "palavra": "novecentos",
+    "inicio": 30.485,
+    "fim": 30.74
+  },
+  {
+    "palavra": "e",
+    "inicio": 30.74,
+    "fim": 30.995
+  },
+  {
+    "palavra": "um,",
+    "inicio": 30.995,
+    "fim": 31.25
+  },
+  {
+    "palavra": "quando",
+    "inicio": 31.25,
+    "fim": 31.71
+  },
+  {
+    "palavra": "mergulhadores",
+    "inicio": 31.71,
+    "fim": 32.27
+  },
+  {
+    "palavra": "acharam",
+    "inicio": 32.27,
+    "fim": 32.79
+  },
+  {
+    "palavra": "um",
+    "inicio": 32.79,
+    "fim": 32.93
+  },
+  {
+    "palavra": "naufrágio",
+    "inicio": 32.93,
+    "fim": 33.57
+  },
+  {
+    "palavra": "a",
+    "inicio": 33.57,
+    "fim": 33.69
+  },
+  {
+    "palavra": "quarenta",
+    "inicio": 33.69,
+    "fim": 33.857
+  },
+  {
+    "palavra": "e",
+    "inicio": 33.857,
+    "fim": 34.023
+  },
+  {
+    "palavra": "cinco",
+    "inicio": 34.023,
+    "fim": 34.19
+  },
+  {
+    "palavra": "metros",
+    "inicio": 34.19,
+    "fim": 34.89
+  },
+  {
+    "palavra": "de",
+    "inicio": 34.89,
+    "fim": 35.07
+  },
+  {
+    "palavra": "profundidade",
+    "inicio": 35.07,
+    "fim": 35.75
+  },
+  {
+    "palavra": "na",
+    "inicio": 35.75,
+    "fim": 36.03
+  },
+  {
+    "palavra": "ilha",
+    "inicio": 36.03,
+    "fim": 36.27
+  },
+  {
+    "palavra": "de",
+    "inicio": 36.27,
+    "fim": 36.49
+  },
+  {
+    "palavra": "Anticítera.",
+    "inicio": 36.49,
+    "fim": 37.21
+  },
+  {
+    "palavra": "Junto",
+    "inicio": 37.89,
+    "fim": 38.21
+  },
+  {
+    "palavra": "com",
+    "inicio": 38.21,
+    "fim": 38.33
+  },
+  {
+    "palavra": "estátuas",
+    "inicio": 38.33,
+    "fim": 38.93
+  },
+  {
+    "palavra": "de",
+    "inicio": 38.93,
+    "fim": 39.07
+  },
+  {
+    "palavra": "mármore,",
+    "inicio": 39.07,
+    "fim": 39.87
+  },
+  {
+    "palavra": "resgataram",
+    "inicio": 39.87,
+    "fim": 40.37
+  },
+  {
+    "palavra": "esse",
+    "inicio": 40.37,
+    "fim": 40.55
+  },
+  {
+    "palavra": "metal",
+    "inicio": 40.55,
+    "fim": 40.79
+  },
+  {
+    "palavra": "corroído.",
+    "inicio": 40.79,
+    "fim": 41.37
+  },
+  {
+    "palavra": "Não",
+    "inicio": 42.09,
+    "fim": 42.31
+  },
+  {
+    "palavra": "era",
+    "inicio": 42.31,
+    "fim": 42.57
+  },
+  {
+    "palavra": "uma",
+    "inicio": 42.57,
+    "fim": 42.71
+  },
+  {
+    "palavra": "pedra.",
+    "inicio": 42.71,
+    "fim": 43.03
+  },
+  {
+    "palavra": "Era",
+    "inicio": 43.59,
+    "fim": 43.75
+  },
+  {
+    "palavra": "um",
+    "inicio": 43.75,
+    "fim": 43.83
+  },
+  {
+    "palavra": "mecanismo",
+    "inicio": 43.83,
+    "fim": 44.35
+  },
+  {
+    "palavra": "com",
+    "inicio": 44.35,
+    "fim": 44.53
+  },
+  {
+    "palavra": "mais",
+    "inicio": 44.53,
+    "fim": 44.73
+  },
+  {
+    "palavra": "de",
+    "inicio": 44.73,
+    "fim": 44.93
+  },
+  {
+    "palavra": "trinta",
+    "inicio": 44.93,
+    "fim": 45.25
+  },
+  {
+    "palavra": "engrenagens",
+    "inicio": 45.25,
+    "fim": 46.01
+  },
+  {
+    "palavra": "de",
+    "inicio": 46.01,
+    "fim": 46.17
+  },
+  {
+    "palavra": "bronze,",
+    "inicio": 46.17,
+    "fim": 46.67
+  },
+  {
+    "palavra": "e",
+    "inicio": 45.99,
+    "fim": 47.05
+  },
+  {
+    "palavra": "a",
+    "inicio": 47.05,
+    "fim": 47.11
+  },
+  {
+    "palavra": "maior",
+    "inicio": 47.11,
+    "fim": 47.37
+  },
+  {
+    "palavra": "roda",
+    "inicio": 47.37,
+    "fim": 47.69
+  },
+  {
+    "palavra": "tinha",
+    "inicio": 47.69,
+    "fim": 47.95
+  },
+  {
+    "palavra": "duzentos",
+    "inicio": 47.95,
+    "fim": 48.178
+  },
+  {
+    "palavra": "e",
+    "inicio": 48.178,
+    "fim": 48.406
+  },
+  {
+    "palavra": "vinte",
+    "inicio": 48.406,
+    "fim": 48.634
+  },
+  {
+    "palavra": "e",
+    "inicio": 48.634,
+    "fim": 48.862
+  },
+  {
+    "palavra": "três",
+    "inicio": 48.862,
+    "fim": 49.09
+  },
+  {
+    "palavra": "dentes",
+    "inicio": 49.09,
+    "fim": 49.59
+  },
+  {
+    "palavra": "cortados",
+    "inicio": 49.59,
+    "fim": 50.19
+  },
+  {
+    "palavra": "à",
+    "inicio": 50.19,
+    "fim": 50.37
+  },
+  {
+    "palavra": "mão.",
+    "inicio": 50.37,
+    "fim": 50.61
+  },
+  {
+    "palavra": "O",
+    "inicio": 51.39,
+    "fim": 51.55
+  },
+  {
+    "palavra": "aparelho",
+    "inicio": 51.55,
+    "fim": 51.91
+  },
+  {
+    "palavra": "previa",
+    "inicio": 51.91,
+    "fim": 52.23
+  },
+  {
+    "palavra": "eclipses,",
+    "inicio": 52.23,
+    "fim": 53.19
+  },
+  {
+    "palavra": "a",
+    "inicio": 53.19,
+    "fim": 53.31
+  },
+  {
+    "palavra": "velocidade",
+    "inicio": 53.31,
+    "fim": 53.71
+  },
+  {
+    "palavra": "irregular",
+    "inicio": 53.71,
+    "fim": 54.27
+  },
+  {
+    "palavra": "da",
+    "inicio": 54.27,
+    "fim": 54.63
+  },
+  {
+    "palavra": "Lua",
+    "inicio": 54.63,
+    "fim": 54.87
+  },
+  {
+    "palavra": "e",
+    "inicio": 54.87,
+    "fim": 55.17
+  },
+  {
+    "palavra": "até",
+    "inicio": 55.17,
+    "fim": 55.31
+  },
+  {
+    "palavra": "os",
+    "inicio": 55.31,
+    "fim": 55.55
+  },
+  {
+    "palavra": "Jogos",
+    "inicio": 55.55,
+    "fim": 55.89
+  },
+  {
+    "palavra": "Olímpicos.",
+    "inicio": 55.89,
+    "fim": 56.69
+  },
+  {
+    "palavra": "Era",
+    "inicio": 57.09,
+    "fim": 57.25
+  },
+  {
+    "palavra": "um",
+    "inicio": 57.25,
+    "fim": 57.31
+  },
+  {
+    "palavra": "computador",
+    "inicio": 57.31,
+    "fim": 57.87
+  },
+  {
+    "palavra": "analógico",
+    "inicio": 57.87,
+    "fim": 58.59
+  },
+  {
+    "palavra": "construído",
+    "inicio": 58.59,
+    "fim": 59.13
+  },
+  {
+    "palavra": "no",
+    "inicio": 59.13,
+    "fim": 59.33
+  },
+  {
+    "palavra": "século",
+    "inicio": 59.33,
+    "fim": 59.65
+  },
+  {
+    "palavra": "dois",
+    "inicio": 59.65,
+    "fim": 60.315
+  },
+  {
+    "palavra": "antes",
+    "inicio": 60.315,
+    "fim": 60.98
+  },
+  {
+    "palavra": "de",
+    "inicio": 60.98,
+    "fim": 61.645
+  },
+  {
+    "palavra": "Cristo!",
+    "inicio": 61.645,
+    "fim": 62.31
+  },
+  {
+    "palavra": "Máquinas",
+    "inicio": 62.31,
+    "fim": 62.69
+  },
+  {
+    "palavra": "com",
+    "inicio": 62.69,
+    "fim": 62.85
+  },
+  {
+    "palavra": "essa",
+    "inicio": 62.85,
+    "fim": 62.99
+  },
+  {
+    "palavra": "mesma",
+    "inicio": 62.99,
+    "fim": 63.31
+  },
+  {
+    "palavra": "complexidade",
+    "inicio": 63.31,
+    "fim": 64.03
+  },
+  {
+    "palavra": "só",
+    "inicio": 64.03,
+    "fim": 64.45
+  },
+  {
+    "palavra": "reapareceram",
+    "inicio": 64.45,
+    "fim": 65.07
+  },
+  {
+    "palavra": "mil",
+    "inicio": 65.07,
+    "fim": 65.237
+  },
+  {
+    "palavra": "e",
+    "inicio": 65.237,
+    "fim": 65.403
+  },
+  {
+    "palavra": "quinhentos",
+    "inicio": 65.403,
+    "fim": 65.57
+  },
+  {
+    "palavra": "anos",
+    "inicio": 65.57,
+    "fim": 66.21
+  },
+  {
+    "palavra": "depois.",
+    "inicio": 66.21,
+    "fim": 66.49
+  },
+  {
+    "palavra": "Toda",
+    "inicio": 67.45,
+    "fim": 67.73
+  },
+  {
+    "palavra": "essa",
+    "inicio": 67.73,
+    "fim": 67.87
+  },
+  {
+    "palavra": "tecnologia",
+    "inicio": 67.87,
+    "fim": 68.41
+  },
+  {
+    "palavra": "desapareceu",
+    "inicio": 68.41,
+    "fim": 69.21
+  },
+  {
+    "palavra": "da",
+    "inicio": 69.21,
+    "fim": 69.33
+  },
+  {
+    "palavra": "História",
+    "inicio": 69.33,
+    "fim": 69.57
+  },
+  {
+    "palavra": "sem",
+    "inicio": 69.57,
+    "fim": 69.87
+  },
+  {
+    "palavra": "deixar",
+    "inicio": 69.87,
+    "fim": 70.17
+  },
+  {
+    "palavra": "rastro.",
+    "inicio": 70.17,
+    "fim": 70.81
+  },
+  {
+    "palavra": "Se",
+    "inicio": 71.43,
+    "fim": 71.59
+  },
+  {
+    "palavra": "o",
+    "inicio": 71.59,
+    "fim": 71.71
+  },
+  {
+    "palavra": "bronze",
+    "inicio": 71.71,
+    "fim": 71.89
+  },
+  {
+    "palavra": "antigo",
+    "inicio": 71.89,
+    "fim": 72.37
+  },
+  {
+    "palavra": "era",
+    "inicio": 72.37,
+    "fim": 72.53
+  },
+  {
+    "palavra": "sempre",
+    "inicio": 72.53,
+    "fim": 72.91
+  },
+  {
+    "palavra": "reciclado,",
+    "inicio": 72.91,
+    "fim": 73.83
+  },
+  {
+    "palavra": "quantos",
+    "inicio": 74.07,
+    "fim": 74.49
+  },
+  {
+    "palavra": "outros",
+    "inicio": 74.49,
+    "fim": 74.81
+  },
+  {
+    "palavra": "computadores",
+    "inicio": 74.81,
+    "fim": 75.43
+  },
+  {
+    "palavra": "antigos",
+    "inicio": 75.43,
+    "fim": 75.91
+  },
+  {
+    "palavra": "acabaram",
+    "inicio": 75.91,
+    "fim": 76.43
+  },
+  {
+    "palavra": "derretidos?",
+    "inicio": 76.43,
+    "fim": 77.07
+  }
+]

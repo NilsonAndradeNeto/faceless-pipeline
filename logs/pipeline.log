@@ -2035,3 +2035,38 @@ json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): lin
 02:51:57 [llm] INFO: gemini/gemini-3.5-flash [provas] 2796→1035 tokens, US$0.0000, 17.4s
 02:51:57 [scriptwriter] INFO: Checagem 1: 15 frases, 0 com problema, 1 para conferir
 02:51:57 [scriptwriter] INFO: Roteiro salvo: 188 palavras, 1082 caracteres, confiança media
+13:28:39 [ciclo] INFO: — ciclo 14/11 13:28 —
+13:28:39 [ciclo] INFO: Aprovado automaticamente: O computador secreto construído antes de Cristo
+13:28:39 [ciclo] INFO: Vídeo PT de hoje: O computador secreto construído antes de Cristo
+13:28:39 [ciclo] INFO: Aprovado automaticamente: The Vanishing of the Flannan Isles Keepers
+13:28:39 [ciclo] INFO: Vídeo EN de hoje: The Vanishing of the Flannan Isles Keepers
+13:28:39 [produzir] INFO: ▶ Produzindo: O computador secreto construído antes de Cristo
+13:28:40 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1090 caracteres, restam só 771) — usando a voz do Gemini
+13:28:59 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 78.3s
+13:29:03 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+13:29:03 [tts] INFO: Legenda alinhada: 103 de 178 palavras batem com o Whisper
+13:29:03 [tts] WARNING: Cortando 0.5s de fala extra no início do áudio do Gemini
+13:29:04 [tts] INFO: Narração pronta (gemini): 77.1s, 178 palavras
+13:29:05 [visual_planner] INFO: 21 imagens reais disponíveis nos artigos-fonte
+13:30:17 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+13:30:17 [llm] INFO: gemini/gemini-3.5-flash [visual] 1674→1090 tokens, US$0.0000, 72.1s
+13:30:17 [visual_planner] INFO: 17 cenas (média 4.6s): 7 com imagem real, 10 com IA
+13:30:17 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+13:30:17 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+13:30:17 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+13:30:17 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+13:30:17 [produzir] INFO: ▶ Produzindo: The Vanishing of the Flannan Isles Keepers
+13:30:18 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1082 caracteres, restam só 771) — usando a voz do Gemini
+13:30:36 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 76.2s
+13:30:40 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+13:30:40 [tts] INFO: Legenda alinhada: 184 de 188 palavras batem com o Whisper
+13:30:40 [tts] WARNING: Cortando 6.6s de fala extra no início do áudio do Gemini
+13:30:40 [tts] INFO: Narração pronta (gemini): 68.9s, 188 palavras
+13:30:40 [visual_planner] INFO: 5 imagens reais disponíveis nos artigos-fonte
+13:30:43 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+13:30:43 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+13:31:02 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+13:31:02 [llm] INFO: gemini/gemini-3-flash-preview [visual] 969→1152 tokens, US$0.0000, 19.0s
+13:31:02 [visual_planner] INFO: 17 cenas (média 4.1s): 5 com imagem real, 12 com IA
+13:31:02 [produzir] INFO: Adiantado até 'plano visual': The Vanishing of the Flannan Isles Keepers
+13:31:02 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo

@@ -38,5 +38,15 @@
       "titulo": "Flannan Isles Lighthouse",
       "url": "https://en.wikipedia.org/wiki/Flannan_Isles_Lighthouse"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-14",
+  "producao": {
+    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 0.1,
+    "atualizado": "2026-11-14 13:31:02"
+  },
+  "voz": "gemini"
 }
