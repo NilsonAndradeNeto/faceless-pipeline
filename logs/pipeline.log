@@ -2360,3 +2360,79 @@ json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): lin
 13:54:34 [visual_planner] INFO: 19 cenas (média 4.0s): 1 com imagem real, 18 com IA
 13:54:34 [produzir] INFO: Adiantado até 'plano visual': The 1518 Epidemic That Forced People to Dance to Death
 13:54:34 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+18:35:37 [ciclo] INFO: — ciclo 15/11 18:35 —
+18:35:37 [produzir] INFO: ▶ Produzindo: O mistério das figuras gigantes invisíveis de Nazca
+18:35:42 [broll] INFO: Cena  1 (5.2s): ia        Desenhos gigantescos de até trezentos e setenta metros foram
+18:35:46 [broll] INFO: Cena  2 (3.4s): ia        no chão do Peru há mais de dois mil anos...
+18:35:50 [broll] INFO: Cena  3 (4.6s): ia        por pessoas que jamais puderam voar para ver a própria obra!
+18:36:02 [broll] INFO: Cena  4 (5.0s): ia        Em mil novecentos e vinte e sete, o arqueólogo Toribio as av
+18:36:10 [broll] INFO: Cena  5 (5.8s): ia        pelo sopé. Na verdade, eram valas rasas de quinze centímetro
+18:36:18 [broll] INFO: Cena  6 (5.1s): ia        onde antigos habitantes removeram pedras escurecidas por óxi
+18:36:26 [broll] INFO: Cena  7 (5.1s): ia        o solo claro. Mas anos depois, pilotos sobrevoando a quinhen
+18:36:33 [broll] INFO: Cena  8 (4.1s): ia        de altitude finalmente viram a imagem completa:
+18:36:35 [broll] INFO: Cena  9 (6.1s): wikimedia animais perfeitamente desenhados, feitos com uma única linha
+18:36:46 [broll] INFO: Cena 10 (5.9s): ia        E em dois mil e vinte e quatro, a inteligência artificial re
+18:36:56 [broll] INFO: Cena 11 (4.1s): ia        Escondidos na terra, surgiram centenas de novos desenhos,
+18:37:06 [broll] INFO: Cena 12 (3.6s): ia        entre eles, várias cabeças decepadas.
+18:37:15 [broll] INFO: Cena 13 (5.3s): ia        Estudiosos dizem que eram rituais de água ou constelações es
+18:37:29 [broll] INFO: Cena 14 (5.1s): ia        Mas comente aqui: se nenhum humano daquela época podia subir
+18:37:38 [broll] INFO: Cena 15 (2.6s): ia        para quem eles faziam esses sinais?
+18:37:38 [video_builder] INFO: Cena 1/15 (imagem, 5.2s)
+18:37:39 [video_builder] INFO: Encoder: x264
+18:37:44 [video_builder] INFO: Cena 2/15 (imagem, 3.4s)
+18:37:48 [video_builder] INFO: Cena 3/15 (imagem, 4.6s)
+18:37:54 [video_builder] INFO: Cena 4/15 (imagem, 5.0s)
+18:37:59 [video_builder] INFO: Cena 5/15 (imagem, 5.8s)
+18:38:05 [video_builder] INFO: Cena 6/15 (imagem, 5.1s)
+18:38:10 [video_builder] INFO: Cena 7/15 (imagem, 5.1s)
+18:38:15 [video_builder] INFO: Cena 8/15 (imagem, 4.1s)
+18:38:19 [video_builder] INFO: Cena 9/15 (imagem, 6.1s)
+18:38:26 [video_builder] INFO: Cena 10/15 (imagem, 5.9s)
+18:38:32 [video_builder] INFO: Cena 11/15 (imagem, 4.1s)
+18:38:37 [video_builder] INFO: Cena 12/15 (imagem, 3.6s)
+18:38:41 [video_builder] INFO: Cena 13/15 (imagem, 5.3s)
+18:38:46 [video_builder] INFO: Cena 14/15 (imagem, 5.1s)
+18:38:51 [video_builder] INFO: Cena 15/15 (imagem, 2.6s)
+18:38:55 [video_builder] INFO: Música: trilha_01.mp3
+18:39:54 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261115T013845Z_pt.mp4 (70.8s)
+18:39:54 [produzir] INFO: ✅ Pronto: O mistério das figuras gigantes invisíveis de Nazca
+18:39:54 [produzir] INFO: ▶ Produzindo: The 1518 Epidemic That Forced People to Dance to Death
+18:39:58 [broll] INFO: Cena  1 (5.5s): ia        In 1518, city leaders tried to cure a mysterious outbreak by
+18:40:00 [broll] INFO: Cena  2 (3.9s): wikimedia hundreds of people to dance themselves free of it.
+18:40:04 [broll] INFO: Cena  3 (5.0s): ia        It all started on a narrow cobbled street in Strasbourg when
+18:40:13 [broll] INFO: Cena  4 (3.4s): ia        outside in complete silence. There was no music,
+18:40:21 [broll] INFO: Cena  5 (5.5s): ia        yet her body convulsed frantically, eyes vacant and expressi
+18:40:31 [broll] INFO: Cena  6 (3.0s): ia        Within days, over thirty people joined her,
+18:40:44 [broll] INFO: Cena  7 (5.5s): ia        thrashing their arms. Panicked doctors believed their blood 
+18:40:54 [broll] INFO: Cena  8 (3.5s): ia        dancing as the cure. So the council hired musicians,
+18:41:04 [broll] INFO: Cena  9 (2.9s): ia        forcing the victims to keep moving.
+18:41:15 [broll] INFO: Cena 10 (5.3s): ia        It backfired horribly. Soon, up to four hundred people were 
+18:41:15 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+18:41:15 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+18:41:16 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+18:41:16 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+18:41:16 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+18:41:16 [ciclo] ERROR: Falha ao publicar pt youtube
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 197, in publicar_no_horario
+    r = publicar(plataforma, ler_json(meta_arq), video)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 166, in publicar
+    return publicar_youtube(meta, Path(video))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 52, in publicar_youtube
+    yt = youtube_cliente(meta["lang"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 42, in youtube_cliente
+    cred = Credentials.from_authorized_user_file(str(arq), ESCOPOS_YT)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/.venv/lib/python3.11/site-packages/google/oauth2/credentials.py", line 544, in from_authorized_user_file
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
+    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
+json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+18:41:16 [ciclo] INFO: Instagram (PT) não conectado — falta IG_TOKEN_PT no .env

@@ -44,11 +44,17 @@
   "aprovacao": "automatica",
   "data_post": "2026-11-15",
   "producao": {
-    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "etapa": "pronto",
     "erro": null,
     "detalhe": "",
-    "progresso": 0.18,
-    "atualizado": "2026-11-15 13:53:51"
+    "progresso": 1.0,
+    "atualizado": "2026-11-15 18:39:54"
   },
-  "voz": "gemini"
+  "voz": "gemini",
+  "creditos_imagens": [
+    "Líneas de Nazca, Nazca, Perú, 2015-07-29, DD 54.JPG — Diego Delso (CC BY-SA 4.0)"
+  ],
+  "imagens_ia": 14,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261115T013845Z_pt.mp4",
+  "duracao_seg": 70.8
 }

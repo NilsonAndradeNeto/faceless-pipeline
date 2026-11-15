@@ -4,7 +4,16 @@
     "script": "20261115T013845Z_pt",
     "titulo": "O mistério das figuras gigantes invisíveis de Nazca",
     "aprovacao": "automatica",
-    "posts": {}
+    "posts": {
+      "youtube": {
+        "estado": "erro",
+        "erro": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+        "tentativas": 1
+      },
+      "instagram": {
+        "estado": "conta não conectada"
+      }
+    }
   },
   "en": {
     "script": "20261115T014433Z_en",
