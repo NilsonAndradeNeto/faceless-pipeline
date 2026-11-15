@@ -2306,3 +2306,24 @@ Traceback (most recent call last):
 json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
 22:47:26 [ciclo] INFO: ✅ Publicado EN instagram: https://www.instagram.com/reel/Dfvoj4Iv5_0/
 22:47:26 [ciclo] INFO: Conta tiktok (EN) ainda não conectada
+06:00:36 [ciclo] INFO: — ciclo 15/11 06:00 —
+06:00:36 [ciclo] INFO: Fila PT vazia — gerando roteiro
+06:00:36 [scriptwriter] INFO: Escrevendo roteiro: Por que as Linhas de Nazca só fazem sentido vistas do céu
+06:00:47 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+06:00:47 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 5493→393 tokens, US$0.0000, 11.3s
+06:00:47 [scriptwriter] INFO: Editando para retenção...
+06:01:02 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+06:01:02 [llm] INFO: gemini/gemini-3.5-flash [critica] 511→324 tokens, US$0.0000, 14.9s
+06:01:02 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 5.5, 'ritmo': 6.0, 'viradas': 6.5, 'climax': 6.0, 'final': 7.0}
+06:01:02 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+06:01:19 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+06:01:19 [llm] INFO: gemini/gemini-3.5-flash [provas] 5366→815 tokens, US$0.0000, 17.3s
+06:01:19 [scriptwriter] INFO: Checagem 1: 8 frases, 1 com problema, 0 para conferir
+06:01:19 [scriptwriter] INFO: Corrigindo:
+- "Em mil novecentos e vinte e sete, um homem chamado Toribio caminhava sozinho pelas colinas secas do deserto achando que via apenas trilhas velhas." → sem_base: A fonte relata que Toribio Mejía Xesspe avistou as linhas em 1927 ao caminhar pelo sopé, mas não menciona que ele estava sozinho nem que achava tratar-se de trilhas velhas (a descrição de 'marcadores de trilhas' foi feita por Pedro Cieza de León em 1553).
+06:01:26 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+06:01:26 [llm] INFO: gemini/gemini-3.5-flash [correcao] 5300→252 tokens, US$0.0000, 6.8s
+06:01:43 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+06:01:43 [llm] INFO: gemini/gemini-3.5-flash [provas] 5356→693 tokens, US$0.0000, 17.1s
+06:01:43 [scriptwriter] INFO: Checagem 2: 8 frases, 0 com problema, 0 para conferir
+06:01:43 [scriptwriter] INFO: Roteiro salvo: 158 palavras, 991 caracteres, confiança alta
