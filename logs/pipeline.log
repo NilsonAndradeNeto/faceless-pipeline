@@ -2327,3 +2327,36 @@ json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): lin
 06:01:43 [llm] INFO: gemini/gemini-3.5-flash [provas] 5356→693 tokens, US$0.0000, 17.1s
 06:01:43 [scriptwriter] INFO: Checagem 2: 8 frases, 0 com problema, 0 para conferir
 06:01:43 [scriptwriter] INFO: Roteiro salvo: 158 palavras, 991 caracteres, confiança alta
+13:53:10 [ciclo] INFO: — ciclo 15/11 13:53 —
+13:53:10 [ciclo] INFO: Aprovado automaticamente: O mistério das figuras gigantes invisíveis de Nazca
+13:53:10 [ciclo] INFO: Vídeo PT de hoje: O mistério das figuras gigantes invisíveis de Nazca
+13:53:10 [ciclo] INFO: Aprovado automaticamente: The 1518 Epidemic That Forced People to Dance to Death
+13:53:10 [ciclo] INFO: Vídeo EN de hoje: The 1518 Epidemic That Forced People to Dance to Death
+13:53:10 [produzir] INFO: ▶ Produzindo: O mistério das figuras gigantes invisíveis de Nazca
+13:53:10 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 991 caracteres, restam só 771) — usando a voz do Gemini
+13:53:30 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 77.6s
+13:53:33 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+13:53:33 [tts] INFO: Legenda alinhada: 139 de 158 palavras batem com o Whisper
+13:53:33 [tts] WARNING: Cortando 7.0s de fala extra no início do áudio do Gemini
+13:53:33 [tts] INFO: Narração pronta (gemini): 70.2s, 158 palavras
+13:53:34 [visual_planner] INFO: 25 imagens reais disponíveis nos artigos-fonte
+13:53:51 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+13:53:51 [llm] INFO: gemini/gemini-3.5-flash [visual] 2171→1053 tokens, US$0.0000, 16.8s
+13:53:51 [visual_planner] INFO: 15 cenas (média 4.7s): 1 com imagem real, 14 com IA
+13:53:51 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+13:53:51 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+13:53:51 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+13:53:51 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+13:53:51 [produzir] INFO: ▶ Produzindo: The 1518 Epidemic That Forced People to Dance to Death
+13:53:52 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1118 caracteres, restam só 771) — usando a voz do Gemini
+13:54:13 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 82.2s
+13:54:15 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+13:54:15 [tts] INFO: Legenda alinhada: 169 de 176 palavras batem com o Whisper
+13:54:15 [tts] WARNING: Cortando 6.4s de fala extra no início do áudio do Gemini
+13:54:16 [tts] INFO: Narração pronta (gemini): 75.6s, 176 palavras
+13:54:16 [visual_planner] INFO: 1 imagens reais disponíveis nos artigos-fonte
+13:54:34 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+13:54:34 [llm] INFO: gemini/gemini-3.5-flash [visual] 825→1191 tokens, US$0.0000, 17.6s
+13:54:34 [visual_planner] INFO: 19 cenas (média 4.0s): 1 com imagem real, 18 com IA
+13:54:34 [produzir] INFO: Adiantado até 'plano visual': The 1518 Epidemic That Forced People to Dance to Death
+13:54:34 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo

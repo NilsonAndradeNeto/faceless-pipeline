@@ -40,5 +40,15 @@
       "titulo": "Linhas de Nasca",
       "url": "https://pt.wikipedia.org/wiki/Linhas_de_Nasca"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-15",
+  "producao": {
+    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 0.18,
+    "atualizado": "2026-11-15 13:53:51"
+  },
+  "voz": "gemini"
 }
