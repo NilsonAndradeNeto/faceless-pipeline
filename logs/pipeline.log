@@ -2511,3 +2511,23 @@ Traceback (most recent call last):
 json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
 22:46:43 [ciclo] INFO: Instagram (PT) não conectado — falta IG_TOKEN_PT no .env
 22:46:43 [ciclo] INFO: Conta tiktok (PT) ainda não conectada
+06:18:02 [ciclo] INFO: — ciclo 16/11 06:18 —
+06:18:02 [ciclo] INFO: Fila EN vazia — gerando roteiro
+06:18:02 [scriptwriter] INFO: Escrevendo roteiro: The Antikythera mechanism, an ancient Greek computer
+06:18:46 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+06:18:46 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 2950→349 tokens, US$0.0000, 43.8s
+06:18:46 [scriptwriter] INFO: Editando para retenção...
+06:18:57 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+06:18:57 [llm] INFO: gemini/gemini-3.5-flash [critica] 464→273 tokens, US$0.0000, 10.9s
+06:18:57 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 5, 'ritmo': 6, 'viradas': 6, 'climax': 6, 'final': 6}
+06:18:57 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+06:19:15 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+06:19:15 [llm] INFO: gemini/gemini-3.5-flash [provas] 2778→1048 tokens, US$0.0000, 17.9s
+06:19:15 [scriptwriter] INFO: Checagem 1: 14 frases, 0 com problema, 0 para conferir
+06:19:15 [scriptwriter] INFO: Roteiro salvo: 166 palavras, 1093 caracteres, confiança alta
+06:19:15 [produzir] INFO: ▶ Produzindo: The 1518 Epidemic That Forced People to Dance to Death
+06:19:15 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+06:19:15 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+06:19:15 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+06:19:15 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+06:19:15 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
