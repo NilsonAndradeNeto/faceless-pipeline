@@ -2531,3 +2531,37 @@ json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): lin
 06:19:15 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
 06:19:15 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
 06:19:15 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+17:10:27 [ciclo] INFO: — ciclo 16/11 17:10 —
+17:10:27 [ciclo] INFO: Aprovado automaticamente: O mistério do coronel que sumiu na Amazônia
+17:10:27 [ciclo] INFO: Vídeo PT de hoje: O mistério do coronel que sumiu na Amazônia
+17:10:27 [ciclo] INFO: Aprovado automaticamente: The 2,000-Year-Old Greek Computer That Shouldn't Exist
+17:10:27 [ciclo] INFO: Vídeo EN de hoje: The 2,000-Year-Old Greek Computer That Shouldn't Exist
+17:10:27 [produzir] INFO: ▶ Produzindo: O mistério do coronel que sumiu na Amazônia
+17:10:28 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 948 caracteres, restam só 771) — usando a voz do Gemini
+17:10:46 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 74.1s
+17:10:50 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+17:10:50 [tts] INFO: Legenda alinhada: 163 de 167 palavras batem com o Whisper
+17:10:50 [tts] WARNING: Cortando 5.6s de fala extra no início do áudio do Gemini
+17:10:50 [tts] INFO: Narração pronta (gemini): 67.9s, 167 palavras
+17:10:50 [visual_planner] INFO: 4 imagens reais disponíveis nos artigos-fonte
+17:11:35 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:11:35 [llm] INFO: gemini/gemini-3.5-flash [visual] 843→997 tokens, US$0.0000, 44.9s
+17:11:35 [visual_planner] INFO: 16 cenas (média 4.3s): 3 com imagem real, 13 com IA
+17:11:35 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+17:11:36 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+17:11:36 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+17:11:36 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+17:11:36 [produzir] INFO: ▶ Produzindo: The 2,000-Year-Old Greek Computer That Shouldn't Exist
+17:11:36 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1093 caracteres, restam só 771) — usando a voz do Gemini
+17:11:54 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 75.8s
+17:11:58 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+17:11:58 [tts] INFO: Legenda alinhada: 151 de 166 palavras batem com o Whisper
+17:11:58 [tts] INFO: Narração pronta (gemini): 75.1s, 166 palavras
+17:11:58 [visual_planner] INFO: 14 imagens reais disponíveis nos artigos-fonte
+17:13:19 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:13:19 [llm] INFO: gemini/gemini-3.5-flash [visual] 1338→1136 tokens, US$0.0000, 81.1s
+17:13:19 [visual_planner] INFO: 17 cenas (média 4.5s): 2 com imagem real, 15 com IA
+17:13:19 [produzir] INFO: Adiantado até 'plano visual': The 2,000-Year-Old Greek Computer That Shouldn't Exist
+17:13:19 [produzir] INFO: ▶ Produzindo: The 1518 Epidemic That Forced People to Dance to Death
+17:13:19 [produzir] INFO: Adiantado até 'plano visual': The 1518 Epidemic That Forced People to Dance to Death
+17:13:19 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo

@@ -36,5 +36,15 @@
       "titulo": "Antikythera mechanism",
       "url": "https://en.wikipedia.org/wiki/Antikythera_mechanism"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-16",
+  "producao": {
+    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 0.1,
+    "atualizado": "2026-11-16 17:13:19"
+  },
+  "voz": "gemini"
 }

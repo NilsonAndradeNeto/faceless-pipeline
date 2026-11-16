@@ -1,0 +1,837 @@
+[
+  {
+    "palavra": "Cerca",
+    "inicio": 0.15,
+    "fim": 0.53
+  },
+  {
+    "palavra": "de",
+    "inicio": 0.53,
+    "fim": 0.69
+  },
+  {
+    "palavra": "cem",
+    "inicio": 0.69,
+    "fim": 0.95
+  },
+  {
+    "palavra": "pessoas",
+    "inicio": 0.95,
+    "fim": 1.51
+  },
+  {
+    "palavra": "morreram",
+    "inicio": 1.51,
+    "fim": 2.07
+  },
+  {
+    "palavra": "tentando",
+    "inicio": 2.07,
+    "fim": 2.55
+  },
+  {
+    "palavra": "encontrar",
+    "inicio": 2.55,
+    "fim": 3.01
+  },
+  {
+    "palavra": "um",
+    "inicio": 3.01,
+    "fim": 3.37
+  },
+  {
+    "palavra": "único",
+    "inicio": 3.37,
+    "fim": 3.69
+  },
+  {
+    "palavra": "homem",
+    "inicio": 3.69,
+    "fim": 4.27
+  },
+  {
+    "palavra": "que",
+    "inicio": 4.27,
+    "fim": 4.49
+  },
+  {
+    "palavra": "deixou",
+    "inicio": 4.49,
+    "fim": 4.83
+  },
+  {
+    "palavra": "um",
+    "inicio": 4.83,
+    "fim": 4.97
+  },
+  {
+    "palavra": "aviso",
+    "inicio": 4.97,
+    "fim": 5.31
+  },
+  {
+    "palavra": "claro:",
+    "inicio": 5.31,
+    "fim": 5.79
+  },
+  {
+    "palavra": "jamais",
+    "inicio": 6.23,
+    "fim": 6.81
+  },
+  {
+    "palavra": "venham",
+    "inicio": 6.81,
+    "fim": 7.39
+  },
+  {
+    "palavra": "me",
+    "inicio": 7.39,
+    "fim": 7.57
+  },
+  {
+    "palavra": "procurar.",
+    "inicio": 7.57,
+    "fim": 8.19
+  },
+  {
+    "palavra": "Em",
+    "inicio": 8.79,
+    "fim": 9.01
+  },
+  {
+    "palavra": "maio",
+    "inicio": 9.01,
+    "fim": 9.25
+  },
+  {
+    "palavra": "de",
+    "inicio": 9.25,
+    "fim": 9.39
+  },
+  {
+    "palavra": "1925,",
+    "inicio": 9.39,
+    "fim": 10.97
+  },
+  {
+    "palavra": "o",
+    "inicio": 10.97,
+    "fim": 11.09
+  },
+  {
+    "palavra": "coronel",
+    "inicio": 11.09,
+    "fim": 11.49
+  },
+  {
+    "palavra": "Percy",
+    "inicio": 11.49,
+    "fim": 11.87
+  },
+  {
+    "palavra": "Fawcett",
+    "inicio": 11.87,
+    "fim": 12.43
+  },
+  {
+    "palavra": "pisou",
+    "inicio": 12.43,
+    "fim": 12.87
+  },
+  {
+    "palavra": "no",
+    "inicio": 12.87,
+    "fim": 12.99
+  },
+  {
+    "palavra": "Alto",
+    "inicio": 12.99,
+    "fim": 13.27
+  },
+  {
+    "palavra": "Xingu",
+    "inicio": 13.27,
+    "fim": 13.61
+  },
+  {
+    "palavra": "com",
+    "inicio": 13.61,
+    "fim": 13.89
+  },
+  {
+    "palavra": "seu",
+    "inicio": 13.89,
+    "fim": 14.11
+  },
+  {
+    "palavra": "filho",
+    "inicio": 14.11,
+    "fim": 14.33
+  },
+  {
+    "palavra": "Jack",
+    "inicio": 14.33,
+    "fim": 14.71
+  },
+  {
+    "palavra": "e",
+    "inicio": 14.71,
+    "fim": 14.93
+  },
+  {
+    "palavra": "o",
+    "inicio": 14.93,
+    "fim": 15.05
+  },
+  {
+    "palavra": "jovem",
+    "inicio": 15.05,
+    "fim": 15.31
+  },
+  {
+    "palavra": "Raleigh",
+    "inicio": 15.31,
+    "fim": 15.81
+  },
+  {
+    "palavra": "Rimmel.",
+    "inicio": 15.81,
+    "fim": 16.37
+  },
+  {
+    "palavra": "O",
+    "inicio": 16.81,
+    "fim": 17.01
+  },
+  {
+    "palavra": "objetivo",
+    "inicio": 17.01,
+    "fim": 17.29
+  },
+  {
+    "palavra": "era",
+    "inicio": 17.29,
+    "fim": 17.77
+  },
+  {
+    "palavra": "encontrar",
+    "inicio": 17.77,
+    "fim": 18.23
+  },
+  {
+    "palavra": "Z,",
+    "inicio": 18.23,
+    "fim": 18.73
+  },
+  {
+    "palavra": "uma",
+    "inicio": 18.73,
+    "fim": 19.21
+  },
+  {
+    "palavra": "cidade",
+    "inicio": 19.21,
+    "fim": 19.51
+  },
+  {
+    "palavra": "antiga",
+    "inicio": 19.51,
+    "fim": 20.13
+  },
+  {
+    "palavra": "perdida",
+    "inicio": 20.13,
+    "fim": 20.81
+  },
+  {
+    "palavra": "no",
+    "inicio": 20.81,
+    "fim": 20.95
+  },
+  {
+    "palavra": "Mato",
+    "inicio": 20.95,
+    "fim": 21.17
+  },
+  {
+    "palavra": "Grosso.",
+    "inicio": 21.17,
+    "fim": 21.65
+  },
+  {
+    "palavra": "No",
+    "inicio": 22.25,
+    "fim": 22.35
+  },
+  {
+    "palavra": "dia",
+    "inicio": 22.35,
+    "fim": 22.49
+  },
+  {
+    "palavra": "vinte",
+    "inicio": 22.49,
+    "fim": 22.637
+  },
+  {
+    "palavra": "e",
+    "inicio": 22.637,
+    "fim": 22.783
+  },
+  {
+    "palavra": "nove",
+    "inicio": 22.783,
+    "fim": 22.93
+  },
+  {
+    "palavra": "de",
+    "inicio": 22.93,
+    "fim": 23.13
+  },
+  {
+    "palavra": "maio,",
+    "inicio": 23.13,
+    "fim": 23.69
+  },
+  {
+    "palavra": "vindo",
+    "inicio": 23.69,
+    "fim": 23.89
+  },
+  {
+    "palavra": "do",
+    "inicio": 23.89,
+    "fim": 24.01
+  },
+  {
+    "palavra": "Acampamento",
+    "inicio": 24.01,
+    "fim": 24.61
+  },
+  {
+    "palavra": "do",
+    "inicio": 24.61,
+    "fim": 24.83
+  },
+  {
+    "palavra": "Cavalo",
+    "inicio": 24.83,
+    "fim": 25.17
+  },
+  {
+    "palavra": "Morto,",
+    "inicio": 25.17,
+    "fim": 25.89
+  },
+  {
+    "palavra": "Fawcett",
+    "inicio": 25.89,
+    "fim": 26.33
+  },
+  {
+    "palavra": "enviou",
+    "inicio": 26.33,
+    "fim": 26.79
+  },
+  {
+    "palavra": "a",
+    "inicio": 26.79,
+    "fim": 26.91
+  },
+  {
+    "palavra": "última",
+    "inicio": 26.91,
+    "fim": 27.21
+  },
+  {
+    "palavra": "carta.",
+    "inicio": 27.21,
+    "fim": 28.17
+  },
+  {
+    "palavra": "Depois",
+    "inicio": 28.21,
+    "fim": 28.47
+  },
+  {
+    "palavra": "disso,",
+    "inicio": 28.47,
+    "fim": 29.17
+  },
+  {
+    "palavra": "os",
+    "inicio": 29.17,
+    "fim": 29.31
+  },
+  {
+    "palavra": "três",
+    "inicio": 29.31,
+    "fim": 29.49
+  },
+  {
+    "palavra": "nunca",
+    "inicio": 29.49,
+    "fim": 29.97
+  },
+  {
+    "palavra": "mais",
+    "inicio": 29.97,
+    "fim": 30.33
+  },
+  {
+    "palavra": "foram",
+    "inicio": 30.33,
+    "fim": 30.59
+  },
+  {
+    "palavra": "vistos.",
+    "inicio": 30.59,
+    "fim": 31.29
+  },
+  {
+    "palavra": "Só",
+    "inicio": 31.75,
+    "fim": 31.91
+  },
+  {
+    "palavra": "que",
+    "inicio": 31.91,
+    "fim": 32.01
+  },
+  {
+    "palavra": "o",
+    "inicio": 32.01,
+    "fim": 32.11
+  },
+  {
+    "palavra": "mundo",
+    "inicio": 32.11,
+    "fim": 32.31
+  },
+  {
+    "palavra": "ignorou",
+    "inicio": 32.31,
+    "fim": 32.83
+  },
+  {
+    "palavra": "esse",
+    "inicio": 32.83,
+    "fim": 33.05
+  },
+  {
+    "palavra": "alerta",
+    "inicio": 33.05,
+    "fim": 33.41
+  },
+  {
+    "palavra": "final.",
+    "inicio": 33.41,
+    "fim": 33.65
+  },
+  {
+    "palavra": "Dezenas",
+    "inicio": 34.31,
+    "fim": 34.83
+  },
+  {
+    "palavra": "de",
+    "inicio": 34.83,
+    "fim": 34.99
+  },
+  {
+    "palavra": "expedições",
+    "inicio": 34.99,
+    "fim": 35.47
+  },
+  {
+    "palavra": "partiram",
+    "inicio": 35.47,
+    "fim": 36.13
+  },
+  {
+    "palavra": "para",
+    "inicio": 36.13,
+    "fim": 36.27
+  },
+  {
+    "palavra": "a",
+    "inicio": 36.27,
+    "fim": 36.35
+  },
+  {
+    "palavra": "floresta",
+    "inicio": 36.35,
+    "fim": 36.81
+  },
+  {
+    "palavra": "atrás",
+    "inicio": 36.81,
+    "fim": 37.13
+  },
+  {
+    "palavra": "de",
+    "inicio": 37.13,
+    "fim": 37.33
+  },
+  {
+    "palavra": "respostas.",
+    "inicio": 37.33,
+    "fim": 38.19
+  },
+  {
+    "palavra": "O",
+    "inicio": 38.53,
+    "fim": 38.71
+  },
+  {
+    "palavra": "resultado?",
+    "inicio": 38.71,
+    "fim": 38.97
+  },
+  {
+    "palavra": "Três",
+    "inicio": 39.87,
+    "fim": 40.17
+  },
+  {
+    "palavra": "missões",
+    "inicio": 40.17,
+    "fim": 40.55
+  },
+  {
+    "palavra": "de",
+    "inicio": 40.55,
+    "fim": 40.71
+  },
+  {
+    "palavra": "resgate",
+    "inicio": 40.71,
+    "fim": 41.09
+  },
+  {
+    "palavra": "inteiras",
+    "inicio": 41.09,
+    "fim": 41.85
+  },
+  {
+    "palavra": "sumiram",
+    "inicio": 41.85,
+    "fim": 42.55
+  },
+  {
+    "palavra": "sem",
+    "inicio": 42.55,
+    "fim": 42.89
+  },
+  {
+    "palavra": "deixar",
+    "inicio": 42.89,
+    "fim": 43.25
+  },
+  {
+    "palavra": "sinal.",
+    "inicio": 43.25,
+    "fim": 43.61
+  },
+  {
+    "palavra": "Em",
+    "inicio": 44.47,
+    "fim": 44.61
+  },
+  {
+    "palavra": "1952,",
+    "inicio": 44.61,
+    "fim": 46.33
+  },
+  {
+    "palavra": "ossos",
+    "inicio": 46.33,
+    "fim": 46.71
+  },
+  {
+    "palavra": "e",
+    "inicio": 46.71,
+    "fim": 46.87
+  },
+  {
+    "palavra": "objetos",
+    "inicio": 46.87,
+    "fim": 47.23
+  },
+  {
+    "palavra": "metálicos",
+    "inicio": 47.23,
+    "fim": 47.89
+  },
+  {
+    "palavra": "foram",
+    "inicio": 47.89,
+    "fim": 48.21
+  },
+  {
+    "palavra": "achados",
+    "inicio": 48.21,
+    "fim": 48.77
+  },
+  {
+    "palavra": "rente",
+    "inicio": 48.77,
+    "fim": 49.15
+  },
+  {
+    "palavra": "a",
+    "inicio": 49.15,
+    "fim": 49.25
+  },
+  {
+    "palavra": "uma",
+    "inicio": 49.25,
+    "fim": 49.37
+  },
+  {
+    "palavra": "árvore.",
+    "inicio": 49.37,
+    "fim": 49.85
+  },
+  {
+    "palavra": "A",
+    "inicio": 50.31,
+    "fim": 50.43
+  },
+  {
+    "palavra": "verdade",
+    "inicio": 50.43,
+    "fim": 50.79
+  },
+  {
+    "palavra": "parecia",
+    "inicio": 50.79,
+    "fim": 51.25
+  },
+  {
+    "palavra": "perto,",
+    "inicio": 51.25,
+    "fim": 51.85
+  },
+  {
+    "palavra": "até",
+    "inicio": 51.85,
+    "fim": 52.37
+  },
+  {
+    "palavra": "vir",
+    "inicio": 52.37,
+    "fim": 52.61
+  },
+  {
+    "palavra": "o",
+    "inicio": 52.61,
+    "fim": 52.71
+  },
+  {
+    "palavra": "golpe:",
+    "inicio": 52.71,
+    "fim": 53.19
+  },
+  {
+    "palavra": "a",
+    "inicio": 53.47,
+    "fim": 53.63
+  },
+  {
+    "palavra": "própria",
+    "inicio": 53.63,
+    "fim": 53.99
+  },
+  {
+    "palavra": "família",
+    "inicio": 53.99,
+    "fim": 54.37
+  },
+  {
+    "palavra": "de",
+    "inicio": 54.37,
+    "fim": 54.59
+  },
+  {
+    "palavra": "Fawcett",
+    "inicio": 54.59,
+    "fim": 54.97
+  },
+  {
+    "palavra": "se",
+    "inicio": 54.97,
+    "fim": 55.25
+  },
+  {
+    "palavra": "recusa",
+    "inicio": 55.25,
+    "fim": 55.75
+  },
+  {
+    "palavra": "a",
+    "inicio": 55.75,
+    "fim": 55.87
+  },
+  {
+    "palavra": "fazer",
+    "inicio": 55.87,
+    "fim": 56.07
+  },
+  {
+    "palavra": "o",
+    "inicio": 56.07,
+    "fim": 56.25
+  },
+  {
+    "palavra": "teste",
+    "inicio": 56.25,
+    "fim": 56.49
+  },
+  {
+    "palavra": "de",
+    "inicio": 56.49,
+    "fim": 56.67
+  },
+  {
+    "palavra": "DNA",
+    "inicio": 56.67,
+    "fim": 57.01
+  },
+  {
+    "palavra": "até",
+    "inicio": 57.01,
+    "fim": 57.47
+  },
+  {
+    "palavra": "hoje.",
+    "inicio": 57.47,
+    "fim": 57.99
+  },
+  {
+    "palavra": "Sem",
+    "inicio": 58.33,
+    "fim": 58.55
+  },
+  {
+    "palavra": "essa",
+    "inicio": 58.55,
+    "fim": 58.75
+  },
+  {
+    "palavra": "resposta,",
+    "inicio": 58.75,
+    "fim": 59.49
+  },
+  {
+    "palavra": "o",
+    "inicio": 59.49,
+    "fim": 59.57
+  },
+  {
+    "palavra": "destino",
+    "inicio": 59.57,
+    "fim": 60.03
+  },
+  {
+    "palavra": "do",
+    "inicio": 60.03,
+    "fim": 60.19
+  },
+  {
+    "palavra": "explorador",
+    "inicio": 60.19,
+    "fim": 60.71
+  },
+  {
+    "palavra": "permanece",
+    "inicio": 60.71,
+    "fim": 61.39
+  },
+  {
+    "palavra": "um",
+    "inicio": 61.39,
+    "fim": 61.55
+  },
+  {
+    "palavra": "mistério",
+    "inicio": 61.55,
+    "fim": 62.19
+  },
+  {
+    "palavra": "sem",
+    "inicio": 62.19,
+    "fim": 62.51
+  },
+  {
+    "palavra": "solução.",
+    "inicio": 62.51,
+    "fim": 63.05
+  },
+  {
+    "palavra": "E",
+    "inicio": 63.81,
+    "fim": 63.91
+  },
+  {
+    "palavra": "você,",
+    "inicio": 63.91,
+    "fim": 64.19
+  },
+  {
+    "palavra": "acha",
+    "inicio": 64.19,
+    "fim": 64.91
+  },
+  {
+    "palavra": "que",
+    "inicio": 64.91,
+    "fim": 65.03
+  },
+  {
+    "palavra": "ele",
+    "inicio": 65.03,
+    "fim": 65.13
+  },
+  {
+    "palavra": "foi",
+    "inicio": 65.13,
+    "fim": 65.31
+  },
+  {
+    "palavra": "engolido",
+    "inicio": 65.31,
+    "fim": 65.85
+  },
+  {
+    "palavra": "pela",
+    "inicio": 65.85,
+    "fim": 66.13
+  },
+  {
+    "palavra": "selva",
+    "inicio": 66.13,
+    "fim": 66.51
+  },
+  {
+    "palavra": "ou",
+    "inicio": 66.51,
+    "fim": 66.93
+  },
+  {
+    "palavra": "encontrou",
+    "inicio": 66.93,
+    "fim": 67.49
+  },
+  {
+    "palavra": "a",
+    "inicio": 67.49,
+    "fim": 67.65
+  },
+  {
+    "palavra": "cidade?",
+    "inicio": 67.65,
+    "fim": 67.87
+  }
+]
