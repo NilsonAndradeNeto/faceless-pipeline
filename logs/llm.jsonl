@@ -218,3 +218,11 @@
 {"ts": "2026-11-15T06:01:43", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "provas", "tokens_entrada": 5356, "tokens_saida": 693, "custo_usd": 0.0, "segundos": 17.1}
 {"ts": "2026-11-15T13:53:51", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "visual", "tokens_entrada": 2171, "tokens_saida": 1053, "custo_usd": 0.0, "segundos": 16.8}
 {"ts": "2026-11-15T13:54:34", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "visual", "tokens_entrada": 825, "tokens_saida": 1191, "custo_usd": 0.0, "segundos": 17.6}
+{"ts": "2026-11-15T22:43:30", "provedor": "groq", "modelo": "openai/gpt-oss-120b", "tarefa": "termos_busca", "tokens_entrada": 165, "tokens_saida": 390, "custo_usd": 0.0, "segundos": 1.7}
+{"ts": "2026-11-15T22:44:03", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "roteiro", "tokens_entrada": 4796, "tokens_saida": 386, "custo_usd": 0.0, "segundos": 32.1}
+{"ts": "2026-11-15T22:44:42", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "critica", "tokens_entrada": 493, "tokens_saida": 302, "custo_usd": 0.0, "segundos": 38.8}
+{"ts": "2026-11-15T22:45:19", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "provas", "tokens_entrada": 4658, "tokens_saida": 754, "custo_usd": 0.0, "segundos": 37.8}
+{"ts": "2026-11-15T22:45:20", "provedor": "groq", "modelo": "openai/gpt-oss-120b", "tarefa": "termos_busca", "tokens_entrada": 162, "tokens_saida": 108, "custo_usd": 0.0, "segundos": 0.5}
+{"ts": "2026-11-15T22:46:09", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "roteiro", "tokens_entrada": 2950, "tokens_saida": 354, "custo_usd": 0.0, "segundos": 48.8}
+{"ts": "2026-11-15T22:46:28", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "critica", "tokens_entrada": 470, "tokens_saida": 292, "custo_usd": 0.0, "segundos": 18.9}
+{"ts": "2026-11-15T22:46:42", "provedor": "gemini", "modelo": "gemini-3.5-flash", "tarefa": "provas", "tokens_entrada": 2797, "tokens_saida": 1072, "custo_usd": 0.0, "segundos": 14.0}
