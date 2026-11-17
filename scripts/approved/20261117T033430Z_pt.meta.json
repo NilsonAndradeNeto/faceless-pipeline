@@ -40,5 +40,15 @@
       "titulo": "Voo 19",
       "url": "https://pt.wikipedia.org/wiki/Voo_19"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-17",
+  "producao": {
+    "etapa": "aguardando cota do Gemini (qualidade em primeiro — retoma sozinho)",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 0.1,
+    "atualizado": "2026-11-17 16:04:42"
+  },
+  "voz": "gemini"
 }

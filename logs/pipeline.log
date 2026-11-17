@@ -2730,3 +2730,66 @@ json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): lin
 01:04:06 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
 01:04:06 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
 01:04:06 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+16:00:39 [ciclo] INFO: — ciclo 17/11 16:00 —
+16:00:39 [ciclo] INFO: Aprovado automaticamente: O mistério dos aviões sem relógio no Atlântico
+16:00:39 [ciclo] INFO: Vídeo PT de hoje: O mistério dos aviões sem relógio no Atlântico
+16:00:39 [ciclo] WARNING: 'The 1908 Explosion That Destroyed 80 Million Trees' tem frase sem base na fonte — reescrevendo (1/2)
+16:00:39 [scriptwriter] INFO: Escrevendo roteiro: The Tunguska event: the explosion that flattened 80 million trees
+16:00:41 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+16:00:41 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+16:00:41 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+16:00:41 [llm] INFO: gemini/gemini-3-flash-preview no limite, trocando para gemini-3.8-flash
+16:00:44 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+16:00:44 [llm] INFO: gemini/gemini-3.8-flash no limite, trocando para gemini-3.7-flash
+16:01:00 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+16:01:00 [llm] WARNING: gemini falhou (tentativa 1/1): Error code: 503
+16:01:00 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
+16:01:00 [ciclo] ERROR: Erro numa etapa do ciclo (as outras continuam)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 127, in chat
+    return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 178, in _chat
+    raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
+RuntimeError: Todos os provedores de LLM falharam: Error code: 503
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 309, in ciclo
+    etapa()
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 306, in <lambda>
+    lambda: definir_videos_do_dia(agora), avisos_telegram, produzir_aprovados, avisos_telegram,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 135, in definir_videos_do_dia
+    if situacao == "pendente" and not aprovar_automatico(arq, meta):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 110, in aprovar_automatico
+    meta = refazer(meta)
+           ^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 94, in refazer
+    return escrever(ler_json(topico))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 173, in escrever
+    r = chat([{"role": "user", "content": PROMPT_ROTEIRO.format(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
+    raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
+agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
+16:01:00 [produzir] INFO: ▶ Produzindo: O mistério dos aviões sem relógio no Atlântico
+16:01:00 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1006 caracteres, restam só 771) — usando a voz do Gemini
+16:01:40 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 69.8s
+16:01:44 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+16:01:44 [tts] INFO: Legenda alinhada: 158 de 173 palavras batem com o Whisper
+16:01:44 [tts] INFO: Narração pronta (gemini): 69.4s, 173 palavras
+16:01:44 [visual_planner] INFO: 7 imagens reais disponíveis nos artigos-fonte
+16:01:45 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+16:01:45 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+16:02:36 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+16:02:36 [llm] INFO: gemini/gemini-3-flash-preview no limite, trocando para gemini-3.8-flash
+16:04:06 [llm] INFO: gemini/gemini-3.8-flash travou, trocando para gemini-3.7-flash
+16:04:42 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+16:04:42 [llm] WARNING: gemini falhou (tentativa 1/1): Error code: 503
+16:04:42 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
+16:04:42 [produzir] WARNING: Cota do Gemini no limite — retoma quando liberar
+16:04:42 [ciclo] INFO: Gemini no limite — produção retoma no próximo ciclo
