@@ -2565,3 +2565,168 @@ json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): lin
 17:13:19 [produzir] INFO: ▶ Produzindo: The 1518 Epidemic That Forced People to Dance to Death
 17:13:19 [produzir] INFO: Adiantado até 'plano visual': The 1518 Epidemic That Forced People to Dance to Death
 17:13:19 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+00:34:29 [ciclo] INFO: — ciclo 17/11 00:34 —
+00:34:29 [ciclo] INFO: Fila PT vazia — gerando roteiro
+00:34:29 [researcher] INFO: Tema escolhido (pt): O Voo 19 e a origem da fama do Triângulo das Bermudas
+00:34:30 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+00:34:30 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 168→138 tokens, US$0.0000, 1.0s
+00:34:30 [researcher] INFO: Fontes: Flight 19 (en), Voo 19 (pt)
+00:34:30 [scriptwriter] INFO: Escrevendo roteiro: O Voo 19 e a origem da fama do Triângulo das Bermudas
+00:35:06 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:35:06 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 4049→418 tokens, US$0.0000, 35.6s
+00:35:06 [scriptwriter] INFO: Editando para retenção...
+00:35:45 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:35:45 [llm] INFO: gemini/gemini-3.5-flash [critica] 520→340 tokens, US$0.0000, 38.9s
+00:35:45 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 7, 'viradas': 7, 'climax': 7, 'final': 7.5}
+00:35:45 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+00:36:15 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:36:15 [llm] INFO: gemini/gemini-3.5-flash [provas] 3942→1116 tokens, US$0.0000, 30.1s
+00:36:15 [scriptwriter] INFO: Checagem 1: 13 frases, 2 com problema, 0 para conferir
+00:36:15 [scriptwriter] INFO: Corrigindo:
+- "Às seis da tarde, o combustível acabou." → sem_base: As fontes indicam que mensagens de rádio ainda eram transmitidas às 18:04 e 18:20 (ou até 19:04), nas quais o líder orientava sobre o procedimento para quando o combustível atingisse o nível crítico (10 galões), não afirmando que acabou exatamente às 18:00.
+- "Nenhuma mancha de óleo, corpo ou destroço dos seis aviões jamais foi achado." → contradiz: A fonte relata que o capitão do navio petroleiro buscou por sobreviventes em meio a uma poça/mancha de óleo e gasolina de aviação no mar.
+00:36:30 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:36:30 [llm] INFO: gemini/gemini-3.5-flash [correcao] 3913→282 tokens, US$0.0000, 15.2s
+00:37:16 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:37:16 [llm] INFO: gemini/gemini-3.5-flash [provas] 3942→929 tokens, US$0.0000, 45.5s
+00:37:16 [scriptwriter] INFO: Checagem 2: 13 frases, 0 com problema, 0 para conferir
+00:37:16 [scriptwriter] INFO: Roteiro salvo: 173 palavras, 1006 caracteres, confiança alta
+00:37:16 [ciclo] INFO: Fila EN vazia — gerando roteiro
+00:37:16 [researcher] INFO: Tema escolhido (en): The Tunguska event: the explosion that flattened 80 million trees
+00:37:17 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+00:37:17 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 165→147 tokens, US$0.0000, 1.5s
+00:37:17 [researcher] INFO: Fontes: Tunguska event (en)
+00:37:17 [scriptwriter] INFO: Escrevendo roteiro: The Tunguska event: the explosion that flattened 80 million trees
+00:38:06 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:38:06 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 2934→329 tokens, US$0.0000, 48.8s
+00:38:06 [scriptwriter] INFO: Editando para retenção...
+00:38:58 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:38:58 [llm] INFO: gemini/gemini-3.5-flash [critica] 460→269 tokens, US$0.0000, 51.4s
+00:38:58 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 6, 'viradas': 6, 'climax': 7, 'final': 7}
+00:38:58 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+00:39:43 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:39:43 [llm] INFO: gemini/gemini-3.5-flash [provas] 2755→880 tokens, US$0.0000, 45.3s
+00:39:43 [scriptwriter] INFO: Checagem 1: 10 frases, 4 com problema, 0 para conferir
+00:39:43 [scriptwriter] INFO: Corrigindo:
+- "Thousands of miles away, seismographs in Germany violently shook, while atmospheric waves traveled twice around the entire globe." → sem_base: A fonte menciona que ondas atmosféricas foram detectadas ao redor do mundo, mas não informa que elas viajaram 'duas vezes ao redor do globo'.
+- "Yet because the site was hidden deep inside the remote Siberian taiga, no expedition arrived for nineteen long years." → contradiz: A fonte indica que a primeira expedição científica foi organizada em 1921 (13 anos depois), enquanto o epicentro foi alcançado em 1927 (19 anos depois). Dizer que nenhuma expedição chegou por 19 anos contradiz a expedição de 1921.
+- "Forty miles away in Vanavara, a man felt heat radiating before the blast threw him." → sem_base: A fonte menciona Vanavara (a 60 km do epicentro) e relata que o calor e a onda de choque derrubaram pessoas, mas não descreve a história desse homem específico em Vanavara sentindo o calor antes do impacto.
+- "The shockwave flattened eighty million trees, crushing eight hundred square miles of forest in seconds." → sem_base: A fonte fala em 'vários milhões de árvores' ('several million trees'), não em oitenta milhões ('eighty million').
+00:40:02 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:40:02 [llm] INFO: gemini/gemini-3.5-flash [correcao] 2865→214 tokens, US$0.0000, 19.6s
+00:40:56 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+00:40:56 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+00:40:58 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+00:40:58 [llm] INFO: gemini/gemini-3-flash-preview no limite, trocando para gemini-3.8-flash
+00:40:59 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+00:40:59 [llm] INFO: gemini/gemini-3.8-flash no limite, trocando para gemini-3.7-flash
+00:41:26 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:41:26 [llm] INFO: gemini/gemini-3.7-flash [provas] 2756→946 tokens, US$0.0000, 26.8s
+00:41:26 [scriptwriter] INFO: Checagem 2: 10 frases, 1 com problema, 0 para conferir
+00:41:26 [scriptwriter] INFO: Corrigindo:
+- "But when explorer Leonid Kulik finally reached the site expecting a massive impact crater, the real mystery began." → sem_base: A fonte relata que Leonid Kulik organizou uma expedição em 1921 e alcançou o epicentro em 1927, mas não afirma que ele esperava encontrar uma cratera de impacto.
+00:41:39 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+00:41:39 [llm] INFO: gemini/gemini-3.5-flash [correcao] 2651→214 tokens, US$0.0000, 13.0s
+00:41:39 [scriptwriter] INFO: Roteiro salvo: 164 palavras, 1018 caracteres, confiança baixa
+00:41:39 [produzir] INFO: ▶ Produzindo: The 1518 Epidemic That Forced People to Dance to Death
+00:41:48 [broll] INFO: Cena 11 (5.1s): ia        with up to fifteen dancers collapsing dead every single day 
+00:41:54 [broll] INFO: Cena 12 (4.0s): ia        sheer exhaustion. Victims often cried out for help.
+00:42:03 [broll] INFO: Cena 13 (2.6s): ia        Dancers were eventually led to Saint Vitus's shrine,
+00:42:12 [broll] INFO: Cena 14 (4.3s): ia        wearing red shoes sprinkled with holy water to pray for abso
+00:42:20 [broll] INFO: Cena 15 (2.9s): ia        By September, the plague vanished.
+00:42:30 [broll] INFO: Cena 16 (5.0s): ia        Scientists suspect moldy rye bread, while historians argue m
+00:42:40 [broll] INFO: Cena 17 (2.6s): ia        but neither theory fully explains it.
+00:42:49 [broll] INFO: Cena 18 (4.2s): ia        If your body suddenly turned against you, would you blame po
+00:42:59 [broll] INFO: Cena 19 (2.1s): ia        or a curse?
+00:42:59 [video_builder] INFO: Cena 1/19 (imagem, 5.5s)
+00:43:00 [video_builder] INFO: Encoder: x264
+00:43:04 [video_builder] INFO: Cena 2/19 (imagem, 3.9s)
+00:43:09 [video_builder] INFO: Cena 3/19 (imagem, 5.0s)
+00:43:14 [video_builder] INFO: Cena 4/19 (imagem, 3.4s)
+00:43:18 [video_builder] INFO: Cena 5/19 (imagem, 5.5s)
+00:43:23 [video_builder] INFO: Cena 6/19 (imagem, 3.0s)
+00:43:26 [video_builder] INFO: Cena 7/19 (imagem, 5.5s)
+00:43:32 [video_builder] INFO: Cena 8/19 (imagem, 3.5s)
+00:43:35 [video_builder] INFO: Cena 9/19 (imagem, 2.9s)
+00:43:38 [video_builder] INFO: Cena 10/19 (imagem, 5.3s)
+00:43:43 [video_builder] INFO: Cena 11/19 (imagem, 5.1s)
+00:43:48 [video_builder] INFO: Cena 12/19 (imagem, 4.0s)
+00:43:52 [video_builder] INFO: Cena 13/19 (imagem, 2.6s)
+00:43:55 [video_builder] INFO: Cena 14/19 (imagem, 4.3s)
+00:43:59 [video_builder] INFO: Cena 15/19 (imagem, 2.9s)
+00:44:03 [video_builder] INFO: Cena 16/19 (imagem, 5.0s)
+00:44:08 [video_builder] INFO: Cena 17/19 (imagem, 2.6s)
+00:44:11 [video_builder] INFO: Cena 18/19 (imagem, 4.2s)
+00:44:15 [video_builder] INFO: Cena 19/19 (imagem, 2.1s)
+00:44:18 [video_builder] INFO: Música: trilha_01.mp3
+00:45:16 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261115T014433Z_en.mp4 (76.2s)
+00:45:16 [produzir] INFO: ✅ Pronto: The 1518 Epidemic That Forced People to Dance to Death
+00:45:16 [produzir] INFO: ▶ Produzindo: O mistério do coronel que sumiu na Amazônia
+00:45:19 [broll] INFO: Cena  1 (5.3s): ia        Cerca de cem pessoas morreram tentando encontrar um único ho
+00:45:27 [broll] INFO: Cena  2 (3.5s): ia        claro: jamais venham me procurar.
+00:45:29 [broll] INFO: Cena  3 (5.1s): wikimedia Em maio de 1925, o coronel Percy Fawcett pisou no Alto Xingu
+00:45:39 [broll] INFO: Cena  4 (2.9s): ia        seu filho Jack e o jovem Raleigh Rimmel.
+00:45:39 [broll] INFO: Limite de download, aguardando 60s
+00:46:39 [broll] INFO: Limite de download, aguardando 60s
+00:47:39 [broll] INFO: Limite de download, aguardando 60s
+00:48:39 [broll] INFO: Limite de download, aguardando 60s
+00:49:39 [broll] WARNING: Cena 5: erro numa fonte (429 Client Error: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this messag), tentando a próxima
+00:49:51 [broll] INFO: Cena  5 (5.4s): ia        O objetivo era encontrar Z, uma cidade antiga perdida no Mat
+00:50:07 [broll] INFO: Cena  6 (3.6s): ia        No dia vinte e nove de maio, vindo do Acampamento do Cavalo 
+00:50:18 [broll] INFO: Cena  7 (2.3s): ia        Fawcett enviou a última carta.
+00:50:29 [broll] INFO: Cena  8 (3.5s): ia        Depois disso, os três nunca mais foram vistos.
+00:50:41 [broll] INFO: Cena  9 (5.1s): ia        Só que o mundo ignorou esse alerta final. Dezenas de expediç
+00:50:52 [broll] INFO: Cena 10 (3.1s): ia        atrás de respostas. O resultado?
+00:51:03 [broll] INFO: Cena 11 (4.6s): ia        Três missões de resgate inteiras sumiram sem deixar sinal.
+00:51:03 [broll] INFO: Limite de download, aguardando 60s
+00:52:03 [broll] INFO: Limite de download, aguardando 60s
+00:53:03 [broll] INFO: Limite de download, aguardando 60s
+00:54:03 [broll] INFO: Limite de download, aguardando 60s
+00:55:03 [broll] WARNING: Cena 12: erro numa fonte (429 Client Error: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this messag), tentando a próxima
+00:55:14 [broll] INFO: Cena 12 (5.8s): ia        Em 1952, ossos e objetos metálicos foram achados rente a uma
+00:55:26 [broll] INFO: Cena 13 (5.4s): ia        A verdade parecia perto, até vir o golpe: a própria família 
+00:55:37 [broll] INFO: Cena 14 (2.6s): ia        a fazer o teste de DNA até hoje.
+00:55:48 [broll] INFO: Cena 15 (5.5s): ia        Sem essa resposta, o destino do explorador permanece um mist
+00:55:59 [broll] INFO: Cena 16 (4.7s): ia        E você, acha que ele foi engolido pela selva ou encontrou a 
+00:55:59 [video_builder] INFO: Cena 1/16 (imagem, 5.3s)
+00:56:05 [video_builder] INFO: Cena 2/16 (imagem, 3.5s)
+00:56:08 [video_builder] INFO: Cena 3/16 (imagem, 5.1s)
+00:56:13 [video_builder] INFO: Cena 4/16 (imagem, 2.9s)
+00:56:17 [video_builder] INFO: Cena 5/16 (imagem, 5.4s)
+00:56:22 [video_builder] INFO: Cena 6/16 (imagem, 3.6s)
+00:56:26 [video_builder] INFO: Cena 7/16 (imagem, 2.3s)
+00:56:29 [video_builder] INFO: Cena 8/16 (imagem, 3.5s)
+00:56:33 [video_builder] INFO: Cena 9/16 (imagem, 5.1s)
+00:56:38 [video_builder] INFO: Cena 10/16 (imagem, 3.1s)
+00:56:41 [video_builder] INFO: Cena 11/16 (imagem, 4.6s)
+00:56:46 [video_builder] INFO: Cena 12/16 (imagem, 5.8s)
+00:56:52 [video_builder] INFO: Cena 13/16 (imagem, 5.4s)
+00:56:58 [video_builder] INFO: Cena 14/16 (imagem, 2.6s)
+00:57:01 [video_builder] INFO: Cena 15/16 (imagem, 5.5s)
+00:57:06 [video_builder] INFO: Cena 16/16 (imagem, 4.7s)
+00:57:11 [video_builder] INFO: Música: trilha_02.mp3
+00:58:06 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261116T014331Z_pt.mp4 (68.5s)
+00:58:06 [produzir] INFO: ✅ Pronto: O mistério do coronel que sumiu na Amazônia
+00:58:06 [produzir] INFO: ▶ Produzindo: The 2,000-Year-Old Greek Computer That Shouldn't Exist
+00:58:29 [broll] INFO: Cena  1 (5.8s): ia        In nineteen hundred,
+00:58:36 [broll] INFO: Cena  2 (5.6s): ia        divers pulled a corroded lump from a shipwreck forty-five me
+00:58:49 [broll] INFO: Cena  3 (4.3s): ia        unaware they were holding a functional computer from two hun
+00:58:58 [broll] INFO: Cena  4 (4.5s): ia        For two full years, it sat forgotten on a museum shelf.
+00:59:10 [broll] INFO: Cena  5 (5.1s): ia        Then, on May seventeenth, nineteen two, the crust cracked op
+00:59:20 [broll] INFO: Cena  6 (4.3s): ia        Archaeologist Valerios Stais looked closer and froze.
+00:59:28 [broll] INFO: Cena  7 (3.3s): ia        Embedded in the rock was a precision gear wheel.
+00:59:38 [broll] INFO: Cena  8 (5.1s): ia        For decades, scholars insisted it was impossible, claiming a
+00:59:48 [broll] INFO: Cena  9 (5.2s): ia        complex mechanics. But then, scientists ran the fragments th
+00:59:48 [broll] INFO: Cena 10 (4.7s): wikimedia scans. What they discovered inside changed history forever.
+00:59:56 [broll] INFO: Cena 11 (4.5s): ia        Hidden in the corroded rock were thirty meshing bronze gears
+01:00:06 [broll] INFO: Cena 12 (5.9s): ia        This device could predict eclipses decades in advance and ca
+01:00:06 [broll] INFO: Limite de download, aguardando 60s
+01:01:06 [broll] INFO: Limite de download, aguardando 60s
+01:02:06 [broll] INFO: Limite de download, aguardando 60s
+01:03:06 [broll] INFO: Limite de download, aguardando 60s
+01:04:06 [broll] WARNING: Cena 13: erro numa fonte (429 Client Error: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this messag), tentando a próxima
+01:04:06 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+01:04:06 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+01:04:06 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+01:04:06 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+01:04:06 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo

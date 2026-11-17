@@ -46,11 +46,17 @@
   "aprovacao": "automatica",
   "data_post": "2026-11-16",
   "producao": {
-    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "etapa": "pronto",
     "erro": null,
     "detalhe": "",
-    "progresso": 0.18,
-    "atualizado": "2026-11-16 17:11:36"
+    "progresso": 1.0,
+    "atualizado": "2026-11-17 00:58:06"
   },
-  "voz": "gemini"
+  "voz": "gemini",
+  "creditos_imagens": [
+    "PercyFawcett.jpg — ? (Public domain)"
+  ],
+  "imagens_ia": 15,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261116T014331Z_pt.mp4",
+  "duracao_seg": 68.5
 }
