@@ -40,11 +40,17 @@
   "aprovacao": "automatica",
   "data_post": "2026-11-16",
   "producao": {
-    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "etapa": "pronto",
     "erro": null,
     "detalhe": "",
-    "progresso": 0.1,
-    "atualizado": "2026-11-17 22:42:08"
+    "progresso": 1.0,
+    "atualizado": "2026-11-18 07:05:13"
   },
-  "voz": "gemini"
+  "voz": "gemini",
+  "creditos_imagens": [
+    "AntikytheraMechanismSchematic-Freeth12.png — SkoreKeep (CC BY-SA 3.0)"
+  ],
+  "imagens_ia": 16,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261116T014520Z_en.mp4",
+  "duracao_seg": 75.7
 }

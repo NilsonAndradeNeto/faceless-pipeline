@@ -236,6 +236,13 @@
         "autor": "Denexeitelos"
       },
       "ia": "Aegean Sea and Athens, 200 BC to early 1900s, period-accurate clothing and technology. Dramatic cinematic shot of a fully restored ancient Greek analogue computer made of polished brass and bronze, glowing engraved zodiac dials and wooden casing, dark atmospheric background., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/8796ea19aefd4474.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -247,6 +254,13 @@
     "visual": {
       "real": null,
       "ia": "Aegean Sea and Athens, 200 BC to early 1900s, period-accurate clothing and technology. Overgrown ancient Greek temple ruins at dusk, moss covering broken marble pillars, fallen bronze gears half-buried in earth, moody fog rolling through desolate historic landscape, sunset light., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/f26c82b47f0fb304.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -258,6 +272,13 @@
     "visual": {
       "real": null,
       "ia": "Aegean Sea and Athens, 200 BC to early 1900s, period-accurate clothing and technology. Fourteenth-century European medieval clock tower interior, massive iron clockwork mechanism with hand-forged gears and pendulum illuminated by stained glass window light, medieval craftsman adjusting cogs., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/a700186f8054680b.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -269,6 +290,13 @@
     "visual": {
       "real": null,
       "ia": "Aegean Sea and Athens, 200 BC to early 1900s, period-accurate clothing and technology. Silhouette of an ancient Greek philosopher drafting gear schematics on parchment in a candlelit library, bronze compasses and astrolabes on wooden table, sea view through stone archway., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/51debe8568abdd0f.jpg",
+      "credito": "imagem gerada por IA"
     }
   },
   {
@@ -280,6 +308,13 @@
     "visual": {
       "real": null,
       "ia": "Aegean Sea and Athens, 200 BC to early 1900s, period-accurate clothing and technology. Close-up of an ancient bronze gear resting on aged parchment, glowing golden question mark light shadow cast across weathered desk, dark mystery cinematic lighting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/d5593fc9f2bc461e.jpg",
+      "credito": "imagem gerada por IA"
     }
   }
 ]

@@ -2924,3 +2924,90 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 22:42:08 [produzir] INFO: ▶ Produzindo: The 2,000-Year-Old Greek Computer That Shouldn't Exist
 22:42:08 [produzir] INFO: Adiantado até 'plano visual': The 2,000-Year-Old Greek Computer That Shouldn't Exist
 22:42:08 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+06:56:28 [ciclo] INFO: — ciclo 18/11 06:56 —
+06:56:28 [ciclo] INFO: Fila PT vazia — gerando roteiro
+06:56:28 [scriptwriter] INFO: Escrevendo roteiro: A epidemia de dança de 1518 em Estrasburgo
+06:57:10 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+06:57:10 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 4224→416 tokens, US$0.0000, 41.8s
+06:57:10 [scriptwriter] INFO: Editando para retenção...
+06:58:01 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+06:58:01 [llm] INFO: gemini/gemini-3.5-flash [critica] 527→332 tokens, US$0.0000, 50.6s
+06:58:01 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 5, 'ritmo': 6, 'viradas': 7, 'climax': 6, 'final': 7}
+06:58:01 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+06:58:04 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+06:58:04 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+06:58:12 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+06:58:12 [llm] INFO: gemini/gemini-3-flash-preview [provas] 4113→985 tokens, US$0.0000, 8.5s
+06:58:12 [scriptwriter] INFO: Checagem 1: 14 frases, 0 com problema, 1 para conferir
+06:58:12 [scriptwriter] INFO: Roteiro salvo: 165 palavras, 1069 caracteres, confiança media
+06:58:12 [produzir] INFO: ▶ Produzindo: The 2,000-Year-Old Greek Computer That Shouldn't Exist
+06:58:12 [broll] INFO: Limite de download, aguardando 60s
+06:59:12 [broll] INFO: Limite de download, aguardando 60s
+07:00:12 [broll] INFO: Limite de download, aguardando 60s
+07:01:12 [broll] INFO: Limite de download, aguardando 60s
+07:02:12 [broll] WARNING: Cena 13: erro numa fonte (429 Client Error: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this messag), tentando a próxima
+07:02:23 [broll] INFO: Cena 13 (2.4s): ia        It was an analogue computer.
+07:02:32 [broll] INFO: Cena 14 (4.0s): ia        Technology of this complexity vanished from Earth for fiftee
+07:02:42 [broll] INFO: Cena 15 (4.0s): ia        with nothing like it appearing again until fourteenth-centur
+07:02:51 [broll] INFO: Cena 16 (5.6s): ia        Who designed a computer two millennia before its time, and h
+07:02:58 [broll] INFO: Cena 17 (1.4s): ia        Drop your theories below.
+07:02:58 [video_builder] INFO: Cena 1/17 (imagem, 5.8s)
+07:02:59 [video_builder] INFO: Encoder: x264
+07:03:04 [video_builder] INFO: Cena 2/17 (imagem, 5.6s)
+07:03:11 [video_builder] INFO: Cena 3/17 (imagem, 4.3s)
+07:03:15 [video_builder] INFO: Cena 4/17 (imagem, 4.5s)
+07:03:19 [video_builder] INFO: Cena 5/17 (imagem, 5.1s)
+07:03:24 [video_builder] INFO: Cena 6/17 (imagem, 4.3s)
+07:03:28 [video_builder] INFO: Cena 7/17 (imagem, 3.3s)
+07:03:32 [video_builder] INFO: Cena 8/17 (imagem, 5.1s)
+07:03:37 [video_builder] INFO: Cena 9/17 (imagem, 5.2s)
+07:03:42 [video_builder] INFO: Cena 10/17 (imagem, 4.7s)
+07:03:47 [video_builder] INFO: Cena 11/17 (imagem, 4.5s)
+07:03:51 [video_builder] INFO: Cena 12/17 (imagem, 5.9s)
+07:03:57 [video_builder] INFO: Cena 13/17 (imagem, 2.4s)
+07:04:00 [video_builder] INFO: Cena 14/17 (imagem, 4.0s)
+07:04:04 [video_builder] INFO: Cena 15/17 (imagem, 4.0s)
+07:04:08 [video_builder] INFO: Cena 16/17 (imagem, 5.6s)
+07:04:13 [video_builder] INFO: Cena 17/17 (imagem, 1.4s)
+07:04:16 [video_builder] INFO: Música: trilha_07.mp3
+07:05:13 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261116T014520Z_en.mp4 (75.7s)
+07:05:13 [produzir] INFO: ✅ Pronto: The 2,000-Year-Old Greek Computer That Shouldn't Exist
+07:05:13 [produzir] INFO: ▶ Produzindo: O mistério dos aviões sem relógio no Atlântico
+07:05:17 [broll] INFO: Cena  1 (6.2s): ia        A ordem
+07:05:20 [broll] INFO: Cena  2 (4.9s): ia        final no rádio assusta até hoje: quando o primeiro caísse no
+07:05:22 [broll] INFO: Cena  3 (4.2s): wikimedia todos pousariam juntos. Em mil novecentos e quarenta e cinco
+07:05:33 [broll] INFO: Cena  4 (3.8s): ia        catorze homens decolaram da Flórida em cinco aviões da Marin
+07:05:42 [broll] INFO: Cena  5 (4.8s): ia        Tudo parecia um treino comum, até que as bússolas do comanda
+07:05:44 [broll] INFO: Cena  6 (4.5s): wikimedia Ele achou que estava no Golfo do México, mas voava cego para
+07:05:54 [broll] INFO: Cena  7 (3.2s): ia        A noite caiu e uma tempestade brutal começou.
+07:06:04 [broll] INFO: Cena  8 (3.4s): ia        Em pânico, um cadete gritou no rádio: "Se voarmos para o oes
+07:06:12 [broll] INFO: Cena  9 (5.8s): ia        voltamos pra casa!" Mas a disciplina militar os forçou a seg
+07:06:20 [broll] INFO: Cena 10 (2.3s): ia        Com o combustível no fim, eles teriam que pousar no mar.
+07:06:20 [broll] INFO: Limite de download, aguardando 60s
+07:07:20 [broll] INFO: Limite de download, aguardando 60s
+07:08:20 [broll] INFO: Limite de download, aguardando 60s
+07:09:20 [broll] INFO: Limite de download, aguardando 60s
+07:10:20 [broll] WARNING: Cena 11: erro numa fonte (429 Client Error: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this messag), tentando a próxima
+07:10:28 [broll] INFO: Cena 11 (5.5s): ia        Um hidroavião com treze homens decolou às pressas para salvá
+07:10:37 [broll] INFO: Cena 12 (5.4s): ia        Minutos depois, um navio petroleiro viu uma explosão colossa
+07:10:39 [broll] INFO: Cena 13 (5.2s): wikimedia o resgate explodiu no ar. Buscas gigantescas varreram mais d
+07:10:47 [broll] INFO: Cena 14 (6.2s): ia        quadrados de oceano. Nenhum corpo ou destroço dos seis aviõe
+07:10:57 [broll] INFO: Cena 15 (4.6s): ia        O que você acha que engoliu vinte e sete homens sem deixar u
+07:10:57 [video_builder] INFO: Cena 1/15 (imagem, 6.2s)
+07:11:03 [video_builder] INFO: Cena 2/15 (imagem, 4.9s)
+07:11:07 [video_builder] INFO: Cena 3/15 (imagem, 4.2s)
+07:11:12 [video_builder] INFO: Cena 4/15 (imagem, 3.8s)
+07:11:16 [video_builder] INFO: Cena 5/15 (imagem, 4.8s)
+07:11:20 [video_builder] INFO: Cena 6/15 (imagem, 4.5s)
+07:11:25 [video_builder] INFO: Cena 7/15 (imagem, 3.2s)
+07:11:29 [video_builder] INFO: Cena 8/15 (imagem, 3.4s)
+07:11:32 [video_builder] INFO: Cena 9/15 (imagem, 5.8s)
+07:11:38 [video_builder] INFO: Cena 10/15 (imagem, 2.3s)
+07:11:41 [video_builder] INFO: Cena 11/15 (imagem, 5.5s)
+07:11:46 [video_builder] INFO: Cena 12/15 (imagem, 5.4s)
+07:11:51 [video_builder] INFO: Cena 13/15 (imagem, 5.2s)
+07:11:56 [video_builder] INFO: Cena 14/15 (imagem, 6.2s)
+07:12:03 [video_builder] INFO: Cena 15/15 (imagem, 4.6s)
+07:12:08 [video_builder] INFO: Música: trilha_06.mp3
+07:13:01 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261117T033430Z_pt.mp4 (70.0s)
+07:13:01 [produzir] INFO: ✅ Pronto: O mistério dos aviões sem relógio no Atlântico

@@ -44,11 +44,19 @@
   "aprovacao": "automatica",
   "data_post": "2026-11-17",
   "producao": {
-    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "etapa": "pronto",
     "erro": null,
     "detalhe": "",
-    "progresso": 0.18,
-    "atualizado": "2026-11-17 22:42:08"
+    "progresso": 1.0,
+    "atualizado": "2026-11-18 07:13:01"
   },
-  "voz": "gemini"
+  "voz": "gemini",
+  "creditos_imagens": [
+    "Flt19map.png — User:Moriori (original author was User:Anynobody) (CC BY 2.5)",
+    "Grumman TBF-1 Avengers of VGS-29 in flight over Norfolk, Virginia (USA), on 1 September 1942 (80-G-427475).jpg — Lt. Comdr. Horace Bristol, U.S. Navy photo 80-G-427475 (Public domain)",
+    "PBM-3 Mariner in flight 1942-43.jpg — U.S. Navy (Public domain)"
+  ],
+  "imagens_ia": 12,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261117T033430Z_pt.mp4",
+  "duracao_seg": 70.0
 }
