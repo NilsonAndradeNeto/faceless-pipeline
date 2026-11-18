@@ -2793,3 +2793,134 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 16:04:42 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
 16:04:42 [produzir] WARNING: Cota do Gemini no limite — retoma quando liberar
 16:04:42 [ciclo] INFO: Gemini no limite — produção retoma no próximo ciclo
+22:33:44 [ciclo] INFO: — ciclo 17/11 22:33 —
+22:33:44 [ciclo] INFO: Fila PT vazia — gerando roteiro
+22:33:44 [researcher] INFO: Tema escolhido (pt): A epidemia de dança de 1518 em Estrasburgo
+22:33:45 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+22:33:45 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 165→285 tokens, US$0.0000, 1.3s
+22:33:46 [researcher] INFO: Fontes: Dancing plague of 1518 (en), Epidemia de dança de 1518 (pt)
+22:33:46 [scriptwriter] INFO: Escrevendo roteiro: A epidemia de dança de 1518 em Estrasburgo
+22:34:23 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+22:34:23 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 4224→437 tokens, US$0.0000, 36.1s
+22:34:23 [scriptwriter] INFO: Editando para retenção...
+22:35:16 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+22:35:16 [llm] INFO: gemini/gemini-3.5-flash [critica] 549→332 tokens, US$0.0000, 53.5s
+22:35:16 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 7, 'viradas': 7, 'climax': 7, 'final': 8}
+22:35:16 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+22:35:36 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+22:35:36 [llm] INFO: gemini/gemini-3.5-flash [provas] 4113→861 tokens, US$0.0000, 20.4s
+22:35:36 [scriptwriter] INFO: Checagem 1: 10 frases, 2 com problema, 0 para conferir
+22:35:36 [scriptwriter] INFO: Corrigindo:
+- "Em julho de 1518, Frau Troffea começou a se sacudir sozinha nas ruas estreitas de Estrasburgo, sem nenhuma música e sem dormir." → contradiz: A fonte informa que Frau Troffea parava para dormir ('only stopping to sleep'), contradizendo a afirmação de que ela dançou 'sem dormir'.
+- "Em agosto, mais de quatrocentas pessoas já estavam dominadas por esse transe em pânico, achando que era uma maldição de São Vito." → contradiz: A fonte afirma que o surto afetou entre 50 e 400 pessoas ('between 50 and 400 people'), enquanto o roteiro diz que foram 'mais de quatrocentas'.
+22:35:49 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+22:35:49 [llm] INFO: gemini/gemini-3.5-flash [correcao] 4086→283 tokens, US$0.0000, 12.9s
+22:37:19 [llm] INFO: gemini/gemini-3.5-flash travou, trocando para gemini-3-flash-preview
+22:38:50 [llm] INFO: gemini/gemini-3-flash-preview travou, trocando para gemini-3.8-flash
+22:38:53 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+22:38:53 [llm] INFO: gemini/gemini-3.8-flash no limite, trocando para gemini-3.7-flash
+22:38:58 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+22:38:58 [llm] WARNING: gemini falhou (tentativa 1/1): Error code: 503
+22:38:58 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
+22:38:58 [scriptwriter] ERROR: Falha ao escrever roteiro de 20261118T013346Z_pt.json (tópico fica pendente)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 127, in chat
+    return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 178, in _chat
+    raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
+RuntimeError: Todos os provedores de LLM falharam: Error code: 503
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 216, in processar_pendentes
+    escrever(ler_json(arq))
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 186, in escrever
+    roteiro, pendentes, atencao = checar_fatos(editado, fontes_txt, topico["lang"])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 147, in checar_fatos
+    p = chat([{"role": "user", "content": PROMPT_PROVAS.format(fontes=fontes_txt, roteiro=roteiro)}],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
+    raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
+agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
+22:38:58 [ciclo] WARNING: Sem vídeo PT hoje
+22:38:58 [ciclo] WARNING: 'The 1908 Explosion That Destroyed 80 Million Trees' tem frase sem base na fonte — reescrevendo (1/2)
+22:38:58 [scriptwriter] INFO: Escrevendo roteiro: The Tunguska event: the explosion that flattened 80 million trees
+22:39:24 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+22:39:24 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+22:39:40 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+22:39:40 [llm] INFO: gemini/gemini-3-flash-preview [roteiro] 2934→334 tokens, US$0.0000, 16.9s
+22:39:40 [scriptwriter] INFO: Editando para retenção...
+22:39:41 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+22:39:41 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+22:39:50 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+22:39:50 [llm] INFO: gemini/gemini-3-flash-preview [critica] 485→294 tokens, US$0.0000, 9.4s
+22:39:50 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 9, 'ritmo': 9, 'viradas': 9, 'climax': 10, 'final': 9}
+22:39:50 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+22:39:52 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+22:39:52 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+22:40:14 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+22:40:14 [llm] INFO: gemini/gemini-3-flash-preview [provas] 2779→858 tokens, US$0.0000, 22.0s
+22:40:14 [scriptwriter] INFO: Checagem 1: 13 frases, 2 com problema, 0 para conferir
+22:40:14 [scriptwriter] INFO: Corrigindo:
+- "When researchers finally reached the site in 1927, they expected a massive crater." → sem_base: A fonte confirma que a expedição descobriu o epicentro em 1927, mas não menciona qual era a expectativa dos pesquisadores sobre encontrar uma cratera.
+- "Instead, they found eighty million trees flattened in a haunting, perfect butterfly shape." → contradiz: O roteiro afirma que 80 milhões de árvores foram derrubadas, mas a fonte diz que foram 'vários milhões' (several million).
+22:40:17 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+22:40:17 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+22:41:47 [llm] INFO: gemini/gemini-3-flash-preview travou, trocando para gemini-3.8-flash
+22:41:50 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+22:41:50 [llm] INFO: gemini/gemini-3.8-flash no limite, trocando para gemini-3.7-flash
+22:41:53 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+22:41:53 [llm] WARNING: gemini falhou (tentativa 1/1): Error code: 503
+22:41:53 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
+22:41:53 [ciclo] ERROR: Erro numa etapa do ciclo (as outras continuam)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 127, in chat
+    return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 178, in _chat
+    raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
+RuntimeError: Todos os provedores de LLM falharam: Error code: 503
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 309, in ciclo
+    etapa()
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 306, in <lambda>
+    lambda: definir_videos_do_dia(agora), avisos_telegram, produzir_aprovados, avisos_telegram,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 135, in definir_videos_do_dia
+    if situacao == "pendente" and not aprovar_automatico(arq, meta):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 110, in aprovar_automatico
+    meta = refazer(meta)
+           ^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 94, in refazer
+    return escrever(ler_json(topico))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 186, in escrever
+    roteiro, pendentes, atencao = checar_fatos(editado, fontes_txt, topico["lang"])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 159, in checar_fatos
+    roteiro = chat([{"role": "user", "content": PROMPT_CORRECAO.format(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
+    raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
+agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
+22:41:53 [produzir] INFO: ▶ Produzindo: O mistério dos aviões sem relógio no Atlântico
+22:41:53 [visual_planner] INFO: 7 imagens reais disponíveis nos artigos-fonte
+22:41:54 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+22:41:54 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+22:42:07 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+22:42:07 [llm] INFO: gemini/gemini-3-flash-preview [visual] 1313→1081 tokens, US$0.0000, 13.6s
+22:42:07 [visual_planner] INFO: 15 cenas (média 4.7s): 4 com imagem real, 11 com IA
+22:42:07 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+22:42:07 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+22:42:08 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+22:42:08 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+22:42:08 [produzir] INFO: ▶ Produzindo: The 2,000-Year-Old Greek Computer That Shouldn't Exist
+22:42:08 [produzir] INFO: Adiantado até 'plano visual': The 2,000-Year-Old Greek Computer That Shouldn't Exist
+22:42:08 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo

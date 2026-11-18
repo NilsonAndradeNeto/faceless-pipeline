@@ -44,11 +44,11 @@
   "aprovacao": "automatica",
   "data_post": "2026-11-17",
   "producao": {
-    "etapa": "aguardando cota do Gemini (qualidade em primeiro — retoma sozinho)",
+    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
     "erro": null,
     "detalhe": "",
-    "progresso": 0.1,
-    "atualizado": "2026-11-17 16:04:42"
+    "progresso": 0.18,
+    "atualizado": "2026-11-17 22:42:08"
   },
   "voz": "gemini"
 }
