@@ -42,5 +42,21 @@
       "titulo": "Epidemia de dança de 1518",
       "url": "https://pt.wikipedia.org/wiki/Epidemia_de_dan%C3%A7a_de_1518"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-18",
+  "producao": {
+    "etapa": "pronto",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 1.0,
+    "atualizado": "2026-11-18 15:52:47"
+  },
+  "voz": "gemini",
+  "creditos_imagens": [
+    "Dancingplague2 (alt).jpg — Unknown authorUnknown author (Public domain)"
+  ],
+  "imagens_ia": 16,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261118T013346Z_pt.mp4",
+  "duracao_seg": 73.2
 }

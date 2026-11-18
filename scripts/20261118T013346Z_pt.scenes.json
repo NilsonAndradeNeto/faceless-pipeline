@@ -1,0 +1,314 @@
+[
+  {
+    "n": 1,
+    "texto": "Imagine ver o sangue se acumular nos pés inchados até furar os sapatos,",
+    "inicio": 0.0,
+    "fim": 6.19,
+    "duracao": 6.19,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. Cinematic close-up of exhausted feet in ruined 16th-century leather footwear, dark damp patches soaking through the fabric, resting on cold grey cobblestones, shadows of a medieval alleyway, somber and gritty historical atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/d4dede825ee58467.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "enquanto você dança sem conseguir parar.",
+    "inicio": 6.19,
+    "fim": 9.03,
+    "duracao": 2.84,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. Lower body shot of a person in tattered 16th-century wool leggings, feet moving frantically and uncontrollably on a dusty medieval street, blurred motion to suggest speed, dramatic low-angle lighting, vertical composition., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/6177881bde498a97.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "Esse pesadelo começou em 1518, quando Frau Troffea foi para o meio da",
+    "inicio": 9.03,
+    "fim": 14.17,
+    "duracao": 5.14,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. A lone woman, Frau Troffea, wearing a 1500s bodice and long skirt, standing in the center of a narrow Strasbourg street, timber-framed houses, early morning mist, eerie silence, cinematic historical style., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/6dbb32f8f7ea4a53.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "rua em Estrasburgo. Sem nenhuma música tocando,",
+    "inicio": 14.17,
+    "fim": 17.35,
+    "duracao": 3.18,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. Wide shot of a silent, medieval timber-framed street in Strasbourg, 1518, long shadows stretching across the cobblestones, no people visible, a sense of impending dread, overcast sky, vertical frame., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/f29e18b50a90457d.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "seus braços balançavam violentamente e os olhos ficavam totalmente vazios.",
+    "inicio": 17.35,
+    "fim": 22.83,
+    "duracao": 5.48,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. Medium shot of a woman from the side, her arms flailing violently in blurred motion, wearing 16th-century peasant attire, head tilted back, dark and moody background, focus on the erratic movement of the limbs., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/7130f11c166a9b74.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "Em poucos dias, dezenas de pessoas se juntaram a ela.",
+    "inicio": 22.83,
+    "fim": 26.63,
+    "duracao": 3.8,
+    "visual": {
+      "real": {
+        "nome": "Dancingplague2 (alt).jpg",
+        "descricao": "Citizens of 1518 Strasbourg with the psychogenic disorder choreomania or 'dancing plague' dancing amid graves in a churchyard.",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Dancingplague2_%28alt%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Unknown authorUnknown author"
+      },
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. A growing crowd of 16th-century villagers dancing frantically in a public square, tattered wool clothing, distressed expressions, medieval architecture, overcast sky, cinematic historical atmosphere with high contrast., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Dancingplague2_%28alt%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/2d8dbbb210439a7f.jpg",
+      "credito": "Dancingplague2 (alt).jpg — Unknown authorUnknown author (Public domain)"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "Os médicos da época achavam que o sangue das vítimas estava superaquecido.",
+    "inicio": 26.63,
+    "fim": 31.03,
+    "duracao": 4.4,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. A 16th-century physician in a dark heavy robe holding a glass vial of dark liquid near a candle, anatomical sketches on a wooden desk, flickering light, scholarly but grim atmosphere, Strasbourg 1518., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/f7532e3e5563cc02.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "A solução das autoridades foi surreal: ergueram palcos e contrataram músicos para",
+    "inicio": 31.03,
+    "fim": 36.41,
+    "duracao": 5.38,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. A wooden outdoor stage being constructed in a medieval plaza, 16th-century carpenters working, lutes and drums resting on a bench nearby, timber-framed buildings in the background, bustling but tense atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/b62bf185a02d900c.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "todos dançarem. Só que isso piorou tudo.",
+    "inicio": 36.41,
+    "fim": 40.07,
+    "duracao": 3.66,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. Medieval musicians playing lutes and drums on a wooden stage, surrounded by a chaotic crowd of exhausted dancers, 16th-century town square, desperate atmosphere, flickering torchlight, blurred motion of the crowd., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/91ca46e244e905d6.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "Aterrorizadas com medo de uma punição divina, centenas de pessoas entraram nesse transe",
+    "inicio": 40.07,
+    "fim": 45.15,
+    "duracao": 5.08,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. Interior of a Gothic cathedral, flickering candles, shadows of dancing figures projected onto the stone walls, peasants kneeling in the foreground, atmosphere of religious terror and divine punishment, 1518., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/9e86f8b4ec246f3d.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "involuntário. Elas dançavam desesperadamente até sofrerem um ataque cardíaco ou",
+    "inicio": 45.15,
+    "fim": 50.43,
+    "duracao": 5.28,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. A person in 16th-century peasant clothing clutching their chest, slumped against a cold stone wall in a dark alley, blurred figures dancing in the distance, dramatic shadows, historical mystery, vertical shot., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/30a0ce09a5674a8c.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "caírem por exaustão. Para tentar romper a maldição,",
+    "inicio": 50.43,
+    "fim": 54.25,
+    "duracao": 3.82,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. A person collapsing onto cobblestones from exhaustion, hand reaching out, medieval townhouses in the background, cinematic lighting, abandoned objects on the ground, sense of total physical failure., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/bcd2f5c84f67a0d1.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "vestiram os dançarinos com sapatos vermelhos e cruzes.",
+    "inicio": 54.25,
+    "fim": 57.97,
+    "duracao": 3.72,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. Detailed shot of bright red dyed leather shoes on a person's feet, a simple wooden cross pendant resting against a coarse linen tunic, 16th-century craftsmanship, soft natural light, symbolic religious elements., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/dc5f5ff3720ce543.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "Alguns dizem que foi envenenamento por fungos.",
+    "inicio": 57.97,
+    "fim": 60.99,
+    "duracao": 3.02,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. Close up of moldy rye grain with dark ergot fungi in a rough wooden bowl, dark damp cellar atmosphere, 16th-century kitchen setting, macro shot focusing on the toxic texture., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/74bc91ab65da2008.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 15,
+    "texto": "Outros explicam como histeria coletiva pela fome.",
+    "inicio": 60.99,
+    "fim": 64.43,
+    "duracao": 3.44,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. An empty wooden bowl on a rough table, a thin hand reaching for it, cold light through a small window, 16th-century peasant interior, atmosphere of famine and desperation, muted colors., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/21bf3f89a39cace9.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 16,
+    "texto": "Mas o mistério daquele transe nunca foi resolvido.",
+    "inicio": 64.43,
+    "fim": 67.81,
+    "duracao": 3.38,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. An old, dusty 16th-century manuscript open on a heavy wooden desk, a quill, a single candle burning out, dark room with stone walls, sense of an unsolved historical secret., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/7dcd8c67ee2e7a36.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 17,
+    "texto": "Se você estivesse lá naquela noite, acha que conseguiria resistir ou começaria a dançar?",
+    "inicio": 67.81,
+    "fim": 73.25,
+    "duracao": 5.44,
+    "visual": {
+      "real": null,
+      "ia": "Strasbourg, Holy Roman Empire, 1518, late Medieval period, period-accurate clothing and technology. First-person POV looking down a dark, foggy medieval street in Strasbourg at night, flickering torches reflecting on wet stones, silhouettes of distant figures moving rhythmically, haunting and immersive atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/0006921d21b4e645.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  }
+]

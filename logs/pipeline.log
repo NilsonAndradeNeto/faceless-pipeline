@@ -3011,3 +3011,121 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 07:12:08 [video_builder] INFO: Música: trilha_06.mp3
 07:13:01 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261117T033430Z_pt.mp4 (70.0s)
 07:13:01 [produzir] INFO: ✅ Pronto: O mistério dos aviões sem relógio no Atlântico
+15:45:22 [ciclo] INFO: — ciclo 18/11 15:45 —
+15:45:22 [ciclo] INFO: Aprovado automaticamente: A bizarra epidemia que fez centenas dançarem em 1518
+15:45:22 [ciclo] INFO: Vídeo PT de hoje: A bizarra epidemia que fez centenas dançarem em 1518
+15:45:22 [ciclo] WARNING: 'The 1908 Explosion That Destroyed 80 Million Trees' tem frase sem base na fonte — reescrevendo (1/2)
+15:45:22 [scriptwriter] INFO: Escrevendo roteiro: The Tunguska event: the explosion that flattened 80 million trees
+15:45:24 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+15:45:24 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+15:45:41 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+15:45:41 [llm] INFO: gemini/gemini-3-flash-preview [roteiro] 2934→332 tokens, US$0.0000, 17.2s
+15:45:41 [scriptwriter] INFO: Editando para retenção...
+15:45:42 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+15:45:42 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+15:45:49 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+15:45:49 [llm] INFO: gemini/gemini-3-flash-preview [critica] 479→296 tokens, US$0.0000, 7.2s
+15:45:49 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 7, 'viradas': 8, 'climax': 7, 'final': 7}
+15:45:49 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+15:46:08 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+15:46:08 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+15:46:19 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+15:46:19 [llm] INFO: gemini/gemini-3-flash-preview [provas] 2782→997 tokens, US$0.0000, 10.9s
+15:46:19 [scriptwriter] INFO: Checagem 1: 15 frases, 1 com problema, 0 para conferir
+15:46:19 [scriptwriter] INFO: Corrigindo:
+- "Instead, they found eighty million trees flattened in the shape of giant butterfly wings." → sem_base: A fonte menciona que a explosão derrubou 'vários milhões' (several million) de árvores, mas não cita o número específico de 80 milhões.
+15:46:30 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+15:46:30 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+15:46:34 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+15:46:34 [llm] INFO: gemini/gemini-3-flash-preview no limite, trocando para gemini-3.8-flash
+15:46:36 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+15:46:36 [llm] INFO: gemini/gemini-3.8-flash no limite, trocando para gemini-3.7-flash
+15:46:50 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+15:46:50 [llm] WARNING: gemini falhou (tentativa 1/1): Error code: 503
+15:46:50 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
+15:46:50 [ciclo] ERROR: Erro numa etapa do ciclo (as outras continuam)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 127, in chat
+    return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 178, in _chat
+    raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
+RuntimeError: Todos os provedores de LLM falharam: Error code: 503
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 309, in ciclo
+    etapa()
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 306, in <lambda>
+    lambda: definir_videos_do_dia(agora), avisos_telegram, produzir_aprovados, avisos_telegram,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 135, in definir_videos_do_dia
+    if situacao == "pendente" and not aprovar_automatico(arq, meta):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 110, in aprovar_automatico
+    meta = refazer(meta)
+           ^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 94, in refazer
+    return escrever(ler_json(topico))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 186, in escrever
+    roteiro, pendentes, atencao = checar_fatos(editado, fontes_txt, topico["lang"])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 159, in checar_fatos
+    roteiro = chat([{"role": "user", "content": PROMPT_CORRECAO.format(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
+    raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
+agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
+15:46:50 [produzir] INFO: ▶ Produzindo: A bizarra epidemia que fez centenas dançarem em 1518
+15:46:51 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1069 caracteres, restam só 771) — usando a voz do Gemini
+15:47:11 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 78.6s
+15:47:15 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+15:47:15 [tts] INFO: Legenda alinhada: 163 de 165 palavras batem com o Whisper
+15:47:15 [tts] WARNING: Cortando 5.5s de fala extra no início do áudio do Gemini
+15:47:15 [tts] INFO: Narração pronta (gemini): 72.7s, 165 palavras
+15:47:16 [visual_planner] INFO: 2 imagens reais disponíveis nos artigos-fonte
+15:47:18 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+15:47:18 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+15:47:38 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+15:47:38 [llm] INFO: gemini/gemini-3-flash-preview [visual] 924→1224 tokens, US$0.0000, 19.9s
+15:47:38 [visual_planner] INFO: 17 cenas (média 4.3s): 1 com imagem real, 16 com IA
+15:47:42 [broll] INFO: Cena  1 (6.2s): ia        Imagine ver o sangue se acumular nos pés inchados até furar 
+15:47:46 [broll] INFO: Cena  2 (2.8s): ia        enquanto você dança sem conseguir parar.
+15:47:50 [broll] INFO: Cena  3 (5.1s): ia        Esse pesadelo começou em 1518, quando Frau Troffea foi para 
+15:47:57 [broll] INFO: Cena  4 (3.2s): ia        rua em Estrasburgo. Sem nenhuma música tocando,
+15:48:06 [broll] INFO: Cena  5 (5.5s): ia        seus braços balançavam violentamente e os olhos ficavam tota
+15:48:06 [broll] INFO: Cena  6 (3.8s): wikimedia Em poucos dias, dezenas de pessoas se juntaram a ela.
+15:48:16 [broll] INFO: Cena  7 (4.4s): ia        Os médicos da época achavam que o sangue das vítimas estava 
+15:48:25 [broll] INFO: Cena  8 (5.4s): ia        A solução das autoridades foi surreal: ergueram palcos e con
+15:48:38 [broll] INFO: Cena  9 (3.7s): ia        todos dançarem. Só que isso piorou tudo.
+15:48:47 [broll] INFO: Cena 10 (5.1s): ia        Aterrorizadas com medo de uma punição divina, centenas de pe
+15:48:56 [broll] INFO: Cena 11 (5.3s): ia        involuntário. Elas dançavam desesperadamente até sofrerem um
+15:49:07 [broll] INFO: Cena 12 (3.8s): ia        caírem por exaustão. Para tentar romper a maldição,
+15:49:15 [broll] INFO: Cena 13 (3.7s): ia        vestiram os dançarinos com sapatos vermelhos e cruzes.
+15:49:22 [broll] INFO: Cena 14 (3.0s): ia        Alguns dizem que foi envenenamento por fungos.
+15:49:32 [broll] INFO: Cena 15 (3.4s): ia        Outros explicam como histeria coletiva pela fome.
+15:49:43 [broll] INFO: Cena 16 (3.4s): ia        Mas o mistério daquele transe nunca foi resolvido.
+15:49:51 [broll] INFO: Cena 17 (5.4s): ia        Se você estivesse lá naquela noite, acha que conseguiria res
+15:49:51 [video_builder] INFO: Cena 1/17 (imagem, 6.2s)
+15:49:51 [video_builder] INFO: Encoder: x264
+15:49:58 [video_builder] INFO: Cena 2/17 (imagem, 2.8s)
+15:50:02 [video_builder] INFO: Cena 3/17 (imagem, 5.1s)
+15:50:09 [video_builder] INFO: Cena 4/17 (imagem, 3.2s)
+15:50:15 [video_builder] INFO: Cena 5/17 (imagem, 5.5s)
+15:50:22 [video_builder] INFO: Cena 6/17 (imagem, 3.8s)
+15:50:27 [video_builder] INFO: Cena 7/17 (imagem, 4.4s)
+15:50:33 [video_builder] INFO: Cena 8/17 (imagem, 5.4s)
+15:50:40 [video_builder] INFO: Cena 9/17 (imagem, 3.7s)
+15:50:46 [video_builder] INFO: Cena 10/17 (imagem, 5.1s)
+15:50:52 [video_builder] INFO: Cena 11/17 (imagem, 5.3s)
+15:50:59 [video_builder] INFO: Cena 12/17 (imagem, 3.8s)
+15:51:04 [video_builder] INFO: Cena 13/17 (imagem, 3.7s)
+15:51:09 [video_builder] INFO: Cena 14/17 (imagem, 3.0s)
+15:51:14 [video_builder] INFO: Cena 15/17 (imagem, 3.4s)
+15:51:19 [video_builder] INFO: Cena 16/17 (imagem, 3.4s)
+15:51:23 [video_builder] INFO: Cena 17/17 (imagem, 5.4s)
+15:51:31 [video_builder] INFO: Música: trilha_08.mp3
+15:52:47 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261118T013346Z_pt.mp4 (73.2s)
+15:52:47 [produzir] INFO: ✅ Pronto: A bizarra epidemia que fez centenas dançarem em 1518

@@ -1,0 +1,827 @@
+[
+  {
+    "palavra": "Imagine",
+    "inicio": 0.15,
+    "fim": 0.27
+  },
+  {
+    "palavra": "ver",
+    "inicio": 0.27,
+    "fim": 1.01
+  },
+  {
+    "palavra": "o",
+    "inicio": 1.01,
+    "fim": 1.19
+  },
+  {
+    "palavra": "sangue",
+    "inicio": 1.19,
+    "fim": 1.59
+  },
+  {
+    "palavra": "se",
+    "inicio": 1.59,
+    "fim": 1.77
+  },
+  {
+    "palavra": "acumular",
+    "inicio": 1.77,
+    "fim": 2.31
+  },
+  {
+    "palavra": "nos",
+    "inicio": 2.31,
+    "fim": 2.65
+  },
+  {
+    "palavra": "pés",
+    "inicio": 2.65,
+    "fim": 2.91
+  },
+  {
+    "palavra": "inchados",
+    "inicio": 2.91,
+    "fim": 3.63
+  },
+  {
+    "palavra": "até",
+    "inicio": 3.63,
+    "fim": 4.33
+  },
+  {
+    "palavra": "furar",
+    "inicio": 4.33,
+    "fim": 4.85
+  },
+  {
+    "palavra": "os",
+    "inicio": 4.85,
+    "fim": 4.99
+  },
+  {
+    "palavra": "sapatos,",
+    "inicio": 4.99,
+    "fim": 5.79
+  },
+  {
+    "palavra": "enquanto",
+    "inicio": 6.19,
+    "fim": 6.43
+  },
+  {
+    "palavra": "você",
+    "inicio": 6.43,
+    "fim": 6.75
+  },
+  {
+    "palavra": "dança",
+    "inicio": 6.75,
+    "fim": 7.15
+  },
+  {
+    "palavra": "sem",
+    "inicio": 7.15,
+    "fim": 7.61
+  },
+  {
+    "palavra": "conseguir",
+    "inicio": 7.61,
+    "fim": 7.97
+  },
+  {
+    "palavra": "parar.",
+    "inicio": 7.97,
+    "fim": 8.35
+  },
+  {
+    "palavra": "Esse",
+    "inicio": 9.03,
+    "fim": 9.23
+  },
+  {
+    "palavra": "pesadelo",
+    "inicio": 9.23,
+    "fim": 9.67
+  },
+  {
+    "palavra": "começou",
+    "inicio": 9.67,
+    "fim": 10.07
+  },
+  {
+    "palavra": "em",
+    "inicio": 10.07,
+    "fim": 10.27
+  },
+  {
+    "palavra": "1518,",
+    "inicio": 10.27,
+    "fim": 11.69
+  },
+  {
+    "palavra": "quando",
+    "inicio": 11.69,
+    "fim": 12.17
+  },
+  {
+    "palavra": "Frau",
+    "inicio": 12.17,
+    "fim": 12.67
+  },
+  {
+    "palavra": "Troffea",
+    "inicio": 12.67,
+    "fim": 13.17
+  },
+  {
+    "palavra": "foi",
+    "inicio": 13.17,
+    "fim": 13.57
+  },
+  {
+    "palavra": "para",
+    "inicio": 13.57,
+    "fim": 13.75
+  },
+  {
+    "palavra": "o",
+    "inicio": 13.75,
+    "fim": 13.83
+  },
+  {
+    "palavra": "meio",
+    "inicio": 13.83,
+    "fim": 13.99
+  },
+  {
+    "palavra": "da",
+    "inicio": 13.99,
+    "fim": 14.17
+  },
+  {
+    "palavra": "rua",
+    "inicio": 14.17,
+    "fim": 14.33
+  },
+  {
+    "palavra": "em",
+    "inicio": 14.33,
+    "fim": 14.49
+  },
+  {
+    "palavra": "Estrasburgo.",
+    "inicio": 14.49,
+    "fim": 15.35
+  },
+  {
+    "palavra": "Sem",
+    "inicio": 15.83,
+    "fim": 15.99
+  },
+  {
+    "palavra": "nenhuma",
+    "inicio": 15.99,
+    "fim": 16.29
+  },
+  {
+    "palavra": "música",
+    "inicio": 16.29,
+    "fim": 16.61
+  },
+  {
+    "palavra": "tocando,",
+    "inicio": 16.61,
+    "fim": 17.35
+  },
+  {
+    "palavra": "seus",
+    "inicio": 17.35,
+    "fim": 17.53
+  },
+  {
+    "palavra": "braços",
+    "inicio": 17.53,
+    "fim": 17.93
+  },
+  {
+    "palavra": "balançavam",
+    "inicio": 17.93,
+    "fim": 18.55
+  },
+  {
+    "palavra": "violentamente",
+    "inicio": 18.55,
+    "fim": 19.47
+  },
+  {
+    "palavra": "e",
+    "inicio": 19.47,
+    "fim": 20.01
+  },
+  {
+    "palavra": "os",
+    "inicio": 20.01,
+    "fim": 20.11
+  },
+  {
+    "palavra": "olhos",
+    "inicio": 20.11,
+    "fim": 20.39
+  },
+  {
+    "palavra": "ficavam",
+    "inicio": 20.39,
+    "fim": 20.79
+  },
+  {
+    "palavra": "totalmente",
+    "inicio": 20.79,
+    "fim": 21.19
+  },
+  {
+    "palavra": "vazios.",
+    "inicio": 21.19,
+    "fim": 22.23
+  },
+  {
+    "palavra": "Em",
+    "inicio": 22.83,
+    "fim": 22.89
+  },
+  {
+    "palavra": "poucos",
+    "inicio": 22.89,
+    "fim": 23.27
+  },
+  {
+    "palavra": "dias,",
+    "inicio": 23.27,
+    "fim": 24.11
+  },
+  {
+    "palavra": "dezenas",
+    "inicio": 24.11,
+    "fim": 24.57
+  },
+  {
+    "palavra": "de",
+    "inicio": 24.57,
+    "fim": 24.69
+  },
+  {
+    "palavra": "pessoas",
+    "inicio": 24.69,
+    "fim": 24.99
+  },
+  {
+    "palavra": "se",
+    "inicio": 24.99,
+    "fim": 25.27
+  },
+  {
+    "palavra": "juntaram",
+    "inicio": 25.27,
+    "fim": 25.65
+  },
+  {
+    "palavra": "a",
+    "inicio": 25.65,
+    "fim": 25.75
+  },
+  {
+    "palavra": "ela.",
+    "inicio": 25.75,
+    "fim": 26.29
+  },
+  {
+    "palavra": "Os",
+    "inicio": 26.63,
+    "fim": 26.81
+  },
+  {
+    "palavra": "médicos",
+    "inicio": 26.81,
+    "fim": 27.15
+  },
+  {
+    "palavra": "da",
+    "inicio": 27.15,
+    "fim": 27.29
+  },
+  {
+    "palavra": "época",
+    "inicio": 27.29,
+    "fim": 27.53
+  },
+  {
+    "palavra": "achavam",
+    "inicio": 27.53,
+    "fim": 28.09
+  },
+  {
+    "palavra": "que",
+    "inicio": 28.09,
+    "fim": 28.23
+  },
+  {
+    "palavra": "o",
+    "inicio": 28.23,
+    "fim": 28.31
+  },
+  {
+    "palavra": "sangue",
+    "inicio": 28.31,
+    "fim": 28.63
+  },
+  {
+    "palavra": "das",
+    "inicio": 28.63,
+    "fim": 28.79
+  },
+  {
+    "palavra": "vítimas",
+    "inicio": 28.79,
+    "fim": 29.11
+  },
+  {
+    "palavra": "estava",
+    "inicio": 29.11,
+    "fim": 29.45
+  },
+  {
+    "palavra": "superaquecido.",
+    "inicio": 29.45,
+    "fim": 30.45
+  },
+  {
+    "palavra": "A",
+    "inicio": 31.03,
+    "fim": 31.21
+  },
+  {
+    "palavra": "solução",
+    "inicio": 31.21,
+    "fim": 31.57
+  },
+  {
+    "palavra": "das",
+    "inicio": 31.57,
+    "fim": 31.73
+  },
+  {
+    "palavra": "autoridades",
+    "inicio": 31.73,
+    "fim": 32.31
+  },
+  {
+    "palavra": "foi",
+    "inicio": 32.31,
+    "fim": 32.57
+  },
+  {
+    "palavra": "surreal:",
+    "inicio": 32.57,
+    "fim": 33.45
+  },
+  {
+    "palavra": "ergueram",
+    "inicio": 33.79,
+    "fim": 34.19
+  },
+  {
+    "palavra": "palcos",
+    "inicio": 34.19,
+    "fim": 34.61
+  },
+  {
+    "palavra": "e",
+    "inicio": 34.61,
+    "fim": 34.95
+  },
+  {
+    "palavra": "contrataram",
+    "inicio": 34.95,
+    "fim": 35.49
+  },
+  {
+    "palavra": "músicos",
+    "inicio": 35.49,
+    "fim": 36.01
+  },
+  {
+    "palavra": "para",
+    "inicio": 36.01,
+    "fim": 36.41
+  },
+  {
+    "palavra": "todos",
+    "inicio": 36.41,
+    "fim": 36.89
+  },
+  {
+    "palavra": "dançarem.",
+    "inicio": 36.89,
+    "fim": 37.59
+  },
+  {
+    "palavra": "Só",
+    "inicio": 38.25,
+    "fim": 38.41
+  },
+  {
+    "palavra": "que",
+    "inicio": 38.41,
+    "fim": 38.53
+  },
+  {
+    "palavra": "isso",
+    "inicio": 38.53,
+    "fim": 38.69
+  },
+  {
+    "palavra": "piorou",
+    "inicio": 38.69,
+    "fim": 39.03
+  },
+  {
+    "palavra": "tudo.",
+    "inicio": 39.03,
+    "fim": 39.49
+  },
+  {
+    "palavra": "Aterrorizadas",
+    "inicio": 40.07,
+    "fim": 41.09
+  },
+  {
+    "palavra": "com",
+    "inicio": 41.09,
+    "fim": 41.21
+  },
+  {
+    "palavra": "medo",
+    "inicio": 41.21,
+    "fim": 41.51
+  },
+  {
+    "palavra": "de",
+    "inicio": 41.51,
+    "fim": 41.61
+  },
+  {
+    "palavra": "uma",
+    "inicio": 41.61,
+    "fim": 41.75
+  },
+  {
+    "palavra": "punição",
+    "inicio": 41.75,
+    "fim": 42.09
+  },
+  {
+    "palavra": "divina,",
+    "inicio": 42.09,
+    "fim": 42.95
+  },
+  {
+    "palavra": "centenas",
+    "inicio": 43.05,
+    "fim": 43.53
+  },
+  {
+    "palavra": "de",
+    "inicio": 43.53,
+    "fim": 43.69
+  },
+  {
+    "palavra": "pessoas",
+    "inicio": 43.69,
+    "fim": 44.05
+  },
+  {
+    "palavra": "entraram",
+    "inicio": 44.05,
+    "fim": 44.57
+  },
+  {
+    "palavra": "nesse",
+    "inicio": 44.57,
+    "fim": 44.79
+  },
+  {
+    "palavra": "transe",
+    "inicio": 44.79,
+    "fim": 45.15
+  },
+  {
+    "palavra": "involuntário.",
+    "inicio": 45.15,
+    "fim": 45.93
+  },
+  {
+    "palavra": "Elas",
+    "inicio": 46.41,
+    "fim": 46.63
+  },
+  {
+    "palavra": "dançavam",
+    "inicio": 46.63,
+    "fim": 47.17
+  },
+  {
+    "palavra": "desesperadamente",
+    "inicio": 47.17,
+    "fim": 48.11
+  },
+  {
+    "palavra": "até",
+    "inicio": 48.11,
+    "fim": 48.51
+  },
+  {
+    "palavra": "sofrerem",
+    "inicio": 48.51,
+    "fim": 48.99
+  },
+  {
+    "palavra": "um",
+    "inicio": 48.99,
+    "fim": 49.17
+  },
+  {
+    "palavra": "ataque",
+    "inicio": 49.17,
+    "fim": 49.35
+  },
+  {
+    "palavra": "cardíaco",
+    "inicio": 49.35,
+    "fim": 49.91
+  },
+  {
+    "palavra": "ou",
+    "inicio": 49.49,
+    "fim": 50.43
+  },
+  {
+    "palavra": "caírem",
+    "inicio": 50.43,
+    "fim": 50.79
+  },
+  {
+    "palavra": "por",
+    "inicio": 50.79,
+    "fim": 51.01
+  },
+  {
+    "palavra": "exaustão.",
+    "inicio": 51.01,
+    "fim": 51.79
+  },
+  {
+    "palavra": "Para",
+    "inicio": 52.51,
+    "fim": 52.61
+  },
+  {
+    "palavra": "tentar",
+    "inicio": 52.61,
+    "fim": 52.89
+  },
+  {
+    "palavra": "romper",
+    "inicio": 52.89,
+    "fim": 53.43
+  },
+  {
+    "palavra": "a",
+    "inicio": 53.43,
+    "fim": 53.59
+  },
+  {
+    "palavra": "maldição,",
+    "inicio": 53.59,
+    "fim": 54.25
+  },
+  {
+    "palavra": "vestiram",
+    "inicio": 54.25,
+    "fim": 54.97
+  },
+  {
+    "palavra": "os",
+    "inicio": 54.97,
+    "fim": 55.11
+  },
+  {
+    "palavra": "dançarinos",
+    "inicio": 55.11,
+    "fim": 55.57
+  },
+  {
+    "palavra": "com",
+    "inicio": 55.57,
+    "fim": 55.79
+  },
+  {
+    "palavra": "sapatos",
+    "inicio": 55.79,
+    "fim": 56.11
+  },
+  {
+    "palavra": "vermelhos",
+    "inicio": 56.11,
+    "fim": 56.61
+  },
+  {
+    "palavra": "e",
+    "inicio": 56.61,
+    "fim": 56.75
+  },
+  {
+    "palavra": "cruzes.",
+    "inicio": 56.75,
+    "fim": 57.39
+  },
+  {
+    "palavra": "Alguns",
+    "inicio": 57.97,
+    "fim": 58.29
+  },
+  {
+    "palavra": "dizem",
+    "inicio": 58.29,
+    "fim": 58.55
+  },
+  {
+    "palavra": "que",
+    "inicio": 58.55,
+    "fim": 58.69
+  },
+  {
+    "palavra": "foi",
+    "inicio": 58.69,
+    "fim": 58.89
+  },
+  {
+    "palavra": "envenenamento",
+    "inicio": 58.89,
+    "fim": 59.59
+  },
+  {
+    "palavra": "por",
+    "inicio": 59.59,
+    "fim": 59.85
+  },
+  {
+    "palavra": "fungos.",
+    "inicio": 59.85,
+    "fim": 60.51
+  },
+  {
+    "palavra": "Outros",
+    "inicio": 60.99,
+    "fim": 61.29
+  },
+  {
+    "palavra": "explicam",
+    "inicio": 61.29,
+    "fim": 61.83
+  },
+  {
+    "palavra": "como",
+    "inicio": 61.83,
+    "fim": 62.13
+  },
+  {
+    "palavra": "histeria",
+    "inicio": 62.13,
+    "fim": 62.59
+  },
+  {
+    "palavra": "coletiva",
+    "inicio": 62.59,
+    "fim": 63.11
+  },
+  {
+    "palavra": "pela",
+    "inicio": 63.11,
+    "fim": 63.39
+  },
+  {
+    "palavra": "fome.",
+    "inicio": 63.39,
+    "fim": 63.93
+  },
+  {
+    "palavra": "Mas",
+    "inicio": 64.43,
+    "fim": 64.57
+  },
+  {
+    "palavra": "o",
+    "inicio": 64.57,
+    "fim": 64.67
+  },
+  {
+    "palavra": "mistério",
+    "inicio": 64.67,
+    "fim": 65.07
+  },
+  {
+    "palavra": "daquele",
+    "inicio": 65.07,
+    "fim": 65.43
+  },
+  {
+    "palavra": "transe",
+    "inicio": 65.43,
+    "fim": 65.79
+  },
+  {
+    "palavra": "nunca",
+    "inicio": 65.79,
+    "fim": 66.29
+  },
+  {
+    "palavra": "foi",
+    "inicio": 66.29,
+    "fim": 66.67
+  },
+  {
+    "palavra": "resolvido.",
+    "inicio": 66.67,
+    "fim": 67.29
+  },
+  {
+    "palavra": "Se",
+    "inicio": 67.81,
+    "fim": 67.97
+  },
+  {
+    "palavra": "você",
+    "inicio": 67.97,
+    "fim": 68.17
+  },
+  {
+    "palavra": "estivesse",
+    "inicio": 68.17,
+    "fim": 68.53
+  },
+  {
+    "palavra": "lá",
+    "inicio": 68.53,
+    "fim": 68.77
+  },
+  {
+    "palavra": "naquela",
+    "inicio": 68.77,
+    "fim": 69.01
+  },
+  {
+    "palavra": "noite,",
+    "inicio": 69.01,
+    "fim": 69.57
+  },
+  {
+    "palavra": "acha",
+    "inicio": 69.57,
+    "fim": 70.17
+  },
+  {
+    "palavra": "que",
+    "inicio": 70.17,
+    "fim": 70.31
+  },
+  {
+    "palavra": "conseguiria",
+    "inicio": 70.31,
+    "fim": 70.85
+  },
+  {
+    "palavra": "resistir",
+    "inicio": 70.85,
+    "fim": 71.35
+  },
+  {
+    "palavra": "ou",
+    "inicio": 71.35,
+    "fim": 71.57
+  },
+  {
+    "palavra": "começaria",
+    "inicio": 71.57,
+    "fim": 72.17
+  },
+  {
+    "palavra": "a",
+    "inicio": 72.17,
+    "fim": 72.31
+  },
+  {
+    "palavra": "dançar?",
+    "inicio": 72.31,
+    "fim": 72.65
+  }
+]
