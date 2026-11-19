@@ -3237,3 +3237,12 @@ AttributeError: 'list' object has no attribute 'get'
 05:41:17 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
 05:41:17 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
 05:41:17 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+15:56:00 [ciclo] INFO: — ciclo 19/11 15:56 —
+15:56:00 [ciclo] WARNING: Sem vídeo PT hoje
+15:56:00 [ciclo] WARNING: Sem vídeo EN hoje
+15:56:00 [produzir] INFO: ▶ Produzindo: The Day the Siberian Sky Exploded
+15:56:00 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+15:56:00 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+15:56:00 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+15:56:00 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+15:56:00 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
