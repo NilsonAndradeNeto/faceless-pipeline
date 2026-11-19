@@ -1,3 +1,24 @@
 {
-  "data": "2026-11-18"
+  "data": "2026-11-18",
+  "pt": {
+    "script": null,
+    "motivo": "nenhum roteiro válido na fila",
+    "posts": {}
+  },
+  "en": {
+    "script": "20261117T033717Z_en",
+    "titulo": "The Day the Siberian Sky Exploded",
+    "aprovacao": "automatica",
+    "posts": {
+      "youtube": {
+        "estado": "vídeo ainda não ficou pronto"
+      },
+      "instagram": {
+        "estado": "vídeo ainda não ficou pronto"
+      },
+      "tiktok": {
+        "estado": "vídeo ainda não ficou pronto"
+      }
+    }
+  }
 }

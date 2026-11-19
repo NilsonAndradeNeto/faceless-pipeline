@@ -1,0 +1,179 @@
+[
+  {
+    "n": 1,
+    "texto": "Imagine reading a newspaper at midnight in London using nothing but the glow of a",
+    "inicio": 0.0,
+    "fim": 5.21,
+    "duracao": 5.21,
+    "visual": {
+      "real": null,
+      "ia": "Siberia, Russia, 1908, period-accurate clothing and technology. A man in Edwardian clothing reading a 1908 London newspaper on a dimly lit cobblestone street at midnight, illuminated by a strange atmospheric green sky glow overhead, 9:16 vertical ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "ghostly green sky. In 1908,",
+    "inicio": 5.21,
+    "fim": 9.03,
+    "duracao": 3.82,
+    "visual": {
+      "real": null,
+      "ia": "Siberia, Russia, 1908, period-accurate clothing and technology. Eerie ghostly green illumination spreading across Victorian London rooftops and chimney stacks at midnight in 1908, low angle perspective, mysterious atmospheric lighting, detailed historical scene, 9:16 vertical video., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "something screamed through the Siberian atmosphere, brighter than the midday sun,",
+    "inicio": 9.03,
+    "fim": 13.35,
+    "duracao": 4.32,
+    "visual": {
+      "real": null,
+      "ia": "Siberia, Russia, 1908, period-accurate clothing and technology. A blinding fiery meteor bolide tearing dramatically through the bright blue sky above the vast Siberian taiga wilderness in 1908, intense sunlight radiance, photorealistic cinematic look, 9:16 vertical framing., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "and then the world shattered.",
+    "inicio": 13.35,
+    "fim": 16.77,
+    "duracao": 3.42,
+    "visual": {
+      "real": null,
+      "ia": "Siberia, Russia, 1908, period-accurate clothing and technology. Shockwave tearing through a dense pine forest, trees violently snapping and bending under intense blast wave force, dramatic dust clouds and blinding white light burst, high detail cinematic 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "This wasn't just an explosion; it packed enough energy to destroy an entire major city.",
+    "inicio": 16.77,
+    "fim": 22.41,
+    "duracao": 5.64,
+    "visual": {
+      "real": null,
+      "ia": "Siberia, Russia, 1908, period-accurate clothing and technology. Aerial concept showing a massive glowing energetic blast shockwave expanding outwards, overshadowing an early 20th century European city silhouette in dramatic fire and smoke, volumetric lighting, epic scope, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "It knocked people off their feet sixty miles away, yet the impact site was so remote it",
+    "inicio": 22.41,
+    "fim": 27.59,
+    "duracao": 5.18,
+    "visual": {
+      "real": null,
+      "ia": "Siberia, Russia, 1908, period-accurate clothing and technology. An early 20th century Siberian native hunter in traditional fur coat tumbling onto the snowy taiga ground as a distant blast wave shakes the landscape, 1908 period clothing, 9:16 vertical shot., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "took nineteen years for anyone to reach it.",
+    "inicio": 27.59,
+    "fim": 30.59,
+    "duracao": 3.0,
+    "visual": {
+      "real": null,
+      "ia": "Siberia, Russia, 1908, period-accurate clothing and technology. A 1927 Russian scientific expedition team led by Leonid Kulik trekking through dense snowbound Siberian wilderness with horse-drawn sleds, winter survival gear, historical photography style, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "When explorers finally fought through the frozen marshes, they reached the site of the epicenter.",
+    "inicio": 30.59,
+    "fim": 35.91,
+    "duracao": 5.32,
+    "visual": {
+      "real": null,
+      "ia": "Siberia, Russia, 1908, period-accurate clothing and technology. Explorers wearing heavy vintage coats wading through muddy frozen Siberian bogs and fallen snow, carrying expedition gear, misty eerie atmosphere, epic horizon reveal, historical adventure photography, 9:16 vertical shot., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "Instead, they found several million trees flattened in the shape of giant butterfly wings—looking",
+    "inicio": 35.91,
+    "fim": 41.79,
+    "duracao": 5.88,
+    "visual": {
+      "real": {
+        "nome": "Tunguska Ereignis-1.jpg",
+        "descricao": "Tunguska event. Trees were knocked down and burned over hundreds of square km by the Tunguska meteoroid impact. This image is cropped from the original, taken i",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Tunguska_Ereignis-1.jpg/1280px-Tunguska_Ereignis-1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Leonid Kulik, the expedition to the Tunguska event"
+      },
+      "ia": "Siberia, Russia, 1908, period-accurate clothing and technology. Wide aerial view of millions of charred fallen pine trees lying in a vast symmetrical butterfly pattern across the Siberian taiga landscape, atmospheric morning mist, vintage monochromatic tones, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "like matchsticks scattered by a ghost. But as they reached the absolute epicenter,",
+    "inicio": 41.79,
+    "fim": 47.19,
+    "duracao": 5.4,
+    "visual": {
+      "real": null,
+      "ia": "Siberia, Russia, 1908, period-accurate clothing and technology. Close-up of fallen scorched pine trunks lying parallel like scattered wooden matchsticks across bleak tundra terrain, light snow cover, somber color palette, dramatic perspective, 9:16 vertical composition., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "the mystery turned impossible. At the very center,",
+    "inicio": 47.19,
+    "fim": 50.77,
+    "duracao": 3.58,
+    "visual": {
+      "real": null,
+      "ia": "Siberia, Russia, 1908, period-accurate clothing and technology. A vintage 1920s explorer standing in awe at the edge of an impossible landscape, holding a brass compass, looking toward a strange silent forest core, moody light, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "the trees were still standing. Every single branch was gone,",
+    "inicio": 50.77,
+    "fim": 54.53,
+    "duracao": 3.76,
+    "visual": {
+      "real": null,
+      "ia": "Siberia, Russia, 1908, period-accurate clothing and technology. Haunting grove of upright stripped tree trunks completely devoid of branches or leaves, bare wooden telegraph-pole-like trees standing in cold misty fog, eerie quiet, vertical 9:16 composition., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "leaving nothing but smooth, vertical pillars of dead wood in a silent wasteland.",
+    "inicio": 54.53,
+    "fim": 59.93,
+    "duracao": 5.4,
+    "visual": {
+      "real": null,
+      "ia": "Siberia, Russia, 1908, period-accurate clothing and technology. Tall smooth barkless dead tree trunks standing vertical like ancient pillars in a desolate gray Siberian wasteland, thick fog rolling over the barren ground, creepy silent mood, 9:16 vertical., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "After a century of searching, we still haven’t found a single fragment of the object.",
+    "inicio": 59.93,
+    "fim": 64.91,
+    "duracao": 4.98,
+    "visual": {
+      "real": {
+        "nome": "JohnStone.jpg",
+        "descricao": "Thin section of a fragment of \"John's stone\" from the epicenter of the Tunguska event. \"John's stone\" was suspected of being a Tunguska meteorite fragment, but ",
+        "licenca": "CC BY 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/JohnStone.jpg/1280px-JohnStone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Cmbrenneisen58"
+      },
+      "ia": "Siberia, Russia, 1908, period-accurate clothing and technology. A vintage magnifying lens held over a barren soil sample in a 1920s laboratory, searching for microscopic meteorite fragments, antique scientific equipment, dramatic side lighting, 9:16 vertical frame., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 15,
+    "texto": "So, was it an asteroid that vaporized, or something that was never meant to be found?",
+    "inicio": 64.91,
+    "fim": 69.92999999999999,
+    "duracao": 5.02,
+    "visual": {
+      "real": null,
+      "ia": "Siberia, Russia, 1908, period-accurate clothing and technology. A dramatic starry night sky over the mysterious Siberian taiga, a glowing faint cosmic vapor trail dissipating in the upper atmosphere, symbolic mystery lighting, cinematic vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  }
+]

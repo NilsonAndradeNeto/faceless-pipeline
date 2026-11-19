@@ -1,0 +1,902 @@
+[
+  {
+    "palavra": "Imagine",
+    "inicio": 0.15,
+    "fim": 0.55
+  },
+  {
+    "palavra": "reading",
+    "inicio": 0.55,
+    "fim": 1.01
+  },
+  {
+    "palavra": "a",
+    "inicio": 1.01,
+    "fim": 1.19
+  },
+  {
+    "palavra": "newspaper",
+    "inicio": 1.19,
+    "fim": 1.49
+  },
+  {
+    "palavra": "at",
+    "inicio": 1.49,
+    "fim": 1.93
+  },
+  {
+    "palavra": "midnight",
+    "inicio": 1.93,
+    "fim": 2.27
+  },
+  {
+    "palavra": "in",
+    "inicio": 2.27,
+    "fim": 2.69
+  },
+  {
+    "palavra": "London",
+    "inicio": 2.69,
+    "fim": 2.97
+  },
+  {
+    "palavra": "using",
+    "inicio": 2.97,
+    "fim": 3.81
+  },
+  {
+    "palavra": "nothing",
+    "inicio": 3.81,
+    "fim": 4.13
+  },
+  {
+    "palavra": "but",
+    "inicio": 4.13,
+    "fim": 4.37
+  },
+  {
+    "palavra": "the",
+    "inicio": 4.37,
+    "fim": 4.51
+  },
+  {
+    "palavra": "glow",
+    "inicio": 4.51,
+    "fim": 4.79
+  },
+  {
+    "palavra": "of",
+    "inicio": 4.79,
+    "fim": 5.09
+  },
+  {
+    "palavra": "a",
+    "inicio": 5.09,
+    "fim": 5.21
+  },
+  {
+    "palavra": "ghostly",
+    "inicio": 5.21,
+    "fim": 5.87
+  },
+  {
+    "palavra": "green",
+    "inicio": 5.87,
+    "fim": 6.17
+  },
+  {
+    "palavra": "sky.",
+    "inicio": 6.17,
+    "fim": 6.69
+  },
+  {
+    "palavra": "In",
+    "inicio": 7.77,
+    "fim": 7.93
+  },
+  {
+    "palavra": "1908,",
+    "inicio": 7.93,
+    "fim": 9.03
+  },
+  {
+    "palavra": "something",
+    "inicio": 9.03,
+    "fim": 9.27
+  },
+  {
+    "palavra": "screamed",
+    "inicio": 9.27,
+    "fim": 9.79
+  },
+  {
+    "palavra": "through",
+    "inicio": 9.79,
+    "fim": 10.33
+  },
+  {
+    "palavra": "the",
+    "inicio": 10.33,
+    "fim": 10.51
+  },
+  {
+    "palavra": "Siberian",
+    "inicio": 10.51,
+    "fim": 11.01
+  },
+  {
+    "palavra": "atmosphere,",
+    "inicio": 11.01,
+    "fim": 11.43
+  },
+  {
+    "palavra": "brighter",
+    "inicio": 11.43,
+    "fim": 12.21
+  },
+  {
+    "palavra": "than",
+    "inicio": 12.21,
+    "fim": 12.47
+  },
+  {
+    "palavra": "the",
+    "inicio": 12.47,
+    "fim": 12.57
+  },
+  {
+    "palavra": "midday",
+    "inicio": 12.57,
+    "fim": 12.89
+  },
+  {
+    "palavra": "sun,",
+    "inicio": 12.89,
+    "fim": 13.35
+  },
+  {
+    "palavra": "and",
+    "inicio": 13.35,
+    "fim": 14.13
+  },
+  {
+    "palavra": "then",
+    "inicio": 14.13,
+    "fim": 14.41
+  },
+  {
+    "palavra": "the",
+    "inicio": 14.41,
+    "fim": 15.13
+  },
+  {
+    "palavra": "world",
+    "inicio": 15.13,
+    "fim": 15.43
+  },
+  {
+    "palavra": "shattered.",
+    "inicio": 15.43,
+    "fim": 15.85
+  },
+  {
+    "palavra": "This",
+    "inicio": 16.77,
+    "fim": 16.99
+  },
+  {
+    "palavra": "wasn't",
+    "inicio": 16.99,
+    "fim": 17.29
+  },
+  {
+    "palavra": "just",
+    "inicio": 17.29,
+    "fim": 17.45
+  },
+  {
+    "palavra": "an",
+    "inicio": 17.45,
+    "fim": 17.63
+  },
+  {
+    "palavra": "explosion;",
+    "inicio": 17.63,
+    "fim": 17.97
+  },
+  {
+    "palavra": "it",
+    "inicio": 17.97,
+    "fim": 18.55
+  },
+  {
+    "palavra": "packed",
+    "inicio": 18.55,
+    "fim": 18.83
+  },
+  {
+    "palavra": "enough",
+    "inicio": 18.83,
+    "fim": 19.05
+  },
+  {
+    "palavra": "energy",
+    "inicio": 19.05,
+    "fim": 19.39
+  },
+  {
+    "palavra": "to",
+    "inicio": 19.39,
+    "fim": 19.61
+  },
+  {
+    "palavra": "destroy",
+    "inicio": 19.61,
+    "fim": 20.03
+  },
+  {
+    "palavra": "an",
+    "inicio": 20.03,
+    "fim": 20.27
+  },
+  {
+    "palavra": "entire",
+    "inicio": 20.27,
+    "fim": 20.79
+  },
+  {
+    "palavra": "major",
+    "inicio": 20.79,
+    "fim": 21.11
+  },
+  {
+    "palavra": "city.",
+    "inicio": 21.11,
+    "fim": 21.51
+  },
+  {
+    "palavra": "It",
+    "inicio": 22.41,
+    "fim": 22.63
+  },
+  {
+    "palavra": "knocked",
+    "inicio": 22.63,
+    "fim": 22.83
+  },
+  {
+    "palavra": "people",
+    "inicio": 22.83,
+    "fim": 23.09
+  },
+  {
+    "palavra": "off",
+    "inicio": 23.09,
+    "fim": 23.31
+  },
+  {
+    "palavra": "their",
+    "inicio": 23.31,
+    "fim": 23.45
+  },
+  {
+    "palavra": "feet",
+    "inicio": 23.45,
+    "fim": 23.65
+  },
+  {
+    "palavra": "sixty",
+    "inicio": 23.65,
+    "fim": 24.09
+  },
+  {
+    "palavra": "miles",
+    "inicio": 24.09,
+    "fim": 24.59
+  },
+  {
+    "palavra": "away,",
+    "inicio": 24.59,
+    "fim": 25.21
+  },
+  {
+    "palavra": "yet",
+    "inicio": 25.63,
+    "fim": 25.79
+  },
+  {
+    "palavra": "the",
+    "inicio": 25.79,
+    "fim": 25.93
+  },
+  {
+    "palavra": "impact",
+    "inicio": 25.93,
+    "fim": 26.25
+  },
+  {
+    "palavra": "site",
+    "inicio": 26.25,
+    "fim": 26.47
+  },
+  {
+    "palavra": "was",
+    "inicio": 26.47,
+    "fim": 26.69
+  },
+  {
+    "palavra": "so",
+    "inicio": 26.69,
+    "fim": 26.95
+  },
+  {
+    "palavra": "remote",
+    "inicio": 26.95,
+    "fim": 27.31
+  },
+  {
+    "palavra": "it",
+    "inicio": 27.31,
+    "fim": 27.59
+  },
+  {
+    "palavra": "took",
+    "inicio": 27.59,
+    "fim": 27.81
+  },
+  {
+    "palavra": "nineteen",
+    "inicio": 27.81,
+    "fim": 28.17
+  },
+  {
+    "palavra": "years",
+    "inicio": 28.17,
+    "fim": 28.71
+  },
+  {
+    "palavra": "for",
+    "inicio": 28.71,
+    "fim": 28.95
+  },
+  {
+    "palavra": "anyone",
+    "inicio": 28.95,
+    "fim": 29.23
+  },
+  {
+    "palavra": "to",
+    "inicio": 29.23,
+    "fim": 29.47
+  },
+  {
+    "palavra": "reach",
+    "inicio": 29.47,
+    "fim": 29.65
+  },
+  {
+    "palavra": "it.",
+    "inicio": 29.65,
+    "fim": 29.85
+  },
+  {
+    "palavra": "When",
+    "inicio": 30.59,
+    "fim": 30.79
+  },
+  {
+    "palavra": "explorers",
+    "inicio": 30.79,
+    "fim": 31.31
+  },
+  {
+    "palavra": "finally",
+    "inicio": 31.31,
+    "fim": 31.67
+  },
+  {
+    "palavra": "fought",
+    "inicio": 31.67,
+    "fim": 31.99
+  },
+  {
+    "palavra": "through",
+    "inicio": 31.99,
+    "fim": 32.19
+  },
+  {
+    "palavra": "the",
+    "inicio": 32.19,
+    "fim": 32.33
+  },
+  {
+    "palavra": "frozen",
+    "inicio": 32.33,
+    "fim": 32.59
+  },
+  {
+    "palavra": "marshes,",
+    "inicio": 32.59,
+    "fim": 33.17
+  },
+  {
+    "palavra": "they",
+    "inicio": 33.41,
+    "fim": 33.59
+  },
+  {
+    "palavra": "reached",
+    "inicio": 33.59,
+    "fim": 33.91
+  },
+  {
+    "palavra": "the",
+    "inicio": 33.91,
+    "fim": 34.15
+  },
+  {
+    "palavra": "site",
+    "inicio": 34.15,
+    "fim": 34.35
+  },
+  {
+    "palavra": "of",
+    "inicio": 34.35,
+    "fim": 34.53
+  },
+  {
+    "palavra": "the",
+    "inicio": 34.53,
+    "fim": 34.65
+  },
+  {
+    "palavra": "epicenter.",
+    "inicio": 34.65,
+    "fim": 35.05
+  },
+  {
+    "palavra": "Instead,",
+    "inicio": 35.91,
+    "fim": 36.21
+  },
+  {
+    "palavra": "they",
+    "inicio": 36.21,
+    "fim": 36.81
+  },
+  {
+    "palavra": "found",
+    "inicio": 36.81,
+    "fim": 37.11
+  },
+  {
+    "palavra": "several",
+    "inicio": 37.11,
+    "fim": 37.61
+  },
+  {
+    "palavra": "million",
+    "inicio": 37.61,
+    "fim": 38.13
+  },
+  {
+    "palavra": "trees",
+    "inicio": 38.13,
+    "fim": 38.55
+  },
+  {
+    "palavra": "flattened",
+    "inicio": 38.55,
+    "fim": 39.21
+  },
+  {
+    "palavra": "in",
+    "inicio": 39.21,
+    "fim": 39.35
+  },
+  {
+    "palavra": "the",
+    "inicio": 39.35,
+    "fim": 39.47
+  },
+  {
+    "palavra": "shape",
+    "inicio": 39.47,
+    "fim": 39.63
+  },
+  {
+    "palavra": "of",
+    "inicio": 39.63,
+    "fim": 39.77
+  },
+  {
+    "palavra": "giant",
+    "inicio": 39.77,
+    "fim": 40.13
+  },
+  {
+    "palavra": "butterfly",
+    "inicio": 40.13,
+    "fim": 40.59
+  },
+  {
+    "palavra": "wings—looking",
+    "inicio": 40.59,
+    "fim": 41.79
+  },
+  {
+    "palavra": "like",
+    "inicio": 41.79,
+    "fim": 42.03
+  },
+  {
+    "palavra": "matchsticks",
+    "inicio": 42.03,
+    "fim": 42.57
+  },
+  {
+    "palavra": "scattered",
+    "inicio": 42.57,
+    "fim": 43.01
+  },
+  {
+    "palavra": "by",
+    "inicio": 43.01,
+    "fim": 43.27
+  },
+  {
+    "palavra": "a",
+    "inicio": 43.27,
+    "fim": 43.39
+  },
+  {
+    "palavra": "ghost.",
+    "inicio": 43.39,
+    "fim": 43.65
+  },
+  {
+    "palavra": "But",
+    "inicio": 44.87,
+    "fim": 45.09
+  },
+  {
+    "palavra": "as",
+    "inicio": 45.09,
+    "fim": 45.25
+  },
+  {
+    "palavra": "they",
+    "inicio": 45.25,
+    "fim": 45.39
+  },
+  {
+    "palavra": "reached",
+    "inicio": 45.39,
+    "fim": 45.73
+  },
+  {
+    "palavra": "the",
+    "inicio": 45.73,
+    "fim": 45.95
+  },
+  {
+    "palavra": "absolute",
+    "inicio": 45.95,
+    "fim": 46.45
+  },
+  {
+    "palavra": "epicenter,",
+    "inicio": 46.45,
+    "fim": 47.19
+  },
+  {
+    "palavra": "the",
+    "inicio": 47.19,
+    "fim": 47.49
+  },
+  {
+    "palavra": "mystery",
+    "inicio": 47.49,
+    "fim": 47.77
+  },
+  {
+    "palavra": "turned",
+    "inicio": 47.77,
+    "fim": 48.29
+  },
+  {
+    "palavra": "impossible.",
+    "inicio": 48.29,
+    "fim": 48.95
+  },
+  {
+    "palavra": "At",
+    "inicio": 49.77,
+    "fim": 49.91
+  },
+  {
+    "palavra": "the",
+    "inicio": 49.91,
+    "fim": 50.01
+  },
+  {
+    "palavra": "very",
+    "inicio": 50.01,
+    "fim": 50.19
+  },
+  {
+    "palavra": "center,",
+    "inicio": 50.19,
+    "fim": 50.77
+  },
+  {
+    "palavra": "the",
+    "inicio": 50.77,
+    "fim": 51.19
+  },
+  {
+    "palavra": "trees",
+    "inicio": 51.19,
+    "fim": 51.43
+  },
+  {
+    "palavra": "were",
+    "inicio": 51.43,
+    "fim": 51.63
+  },
+  {
+    "palavra": "still",
+    "inicio": 51.63,
+    "fim": 51.83
+  },
+  {
+    "palavra": "standing.",
+    "inicio": 51.83,
+    "fim": 52.31
+  },
+  {
+    "palavra": "Every",
+    "inicio": 53.13,
+    "fim": 53.39
+  },
+  {
+    "palavra": "single",
+    "inicio": 53.39,
+    "fim": 53.63
+  },
+  {
+    "palavra": "branch",
+    "inicio": 53.63,
+    "fim": 53.91
+  },
+  {
+    "palavra": "was",
+    "inicio": 53.91,
+    "fim": 54.13
+  },
+  {
+    "palavra": "gone,",
+    "inicio": 54.13,
+    "fim": 54.53
+  },
+  {
+    "palavra": "leaving",
+    "inicio": 54.53,
+    "fim": 54.65
+  },
+  {
+    "palavra": "nothing",
+    "inicio": 54.65,
+    "fim": 54.99
+  },
+  {
+    "palavra": "but",
+    "inicio": 54.99,
+    "fim": 55.23
+  },
+  {
+    "palavra": "smooth,",
+    "inicio": 55.23,
+    "fim": 55.85
+  },
+  {
+    "palavra": "vertical",
+    "inicio": 55.85,
+    "fim": 56.39
+  },
+  {
+    "palavra": "pillars",
+    "inicio": 56.39,
+    "fim": 56.79
+  },
+  {
+    "palavra": "of",
+    "inicio": 56.79,
+    "fim": 57.09
+  },
+  {
+    "palavra": "dead",
+    "inicio": 57.09,
+    "fim": 57.29
+  },
+  {
+    "palavra": "wood",
+    "inicio": 57.29,
+    "fim": 57.55
+  },
+  {
+    "palavra": "in",
+    "inicio": 57.55,
+    "fim": 57.79
+  },
+  {
+    "palavra": "a",
+    "inicio": 57.79,
+    "fim": 57.89
+  },
+  {
+    "palavra": "silent",
+    "inicio": 57.89,
+    "fim": 58.27
+  },
+  {
+    "palavra": "wasteland.",
+    "inicio": 58.27,
+    "fim": 58.87
+  },
+  {
+    "palavra": "After",
+    "inicio": 59.93,
+    "fim": 60.17
+  },
+  {
+    "palavra": "a",
+    "inicio": 60.17,
+    "fim": 60.33
+  },
+  {
+    "palavra": "century",
+    "inicio": 60.33,
+    "fim": 60.63
+  },
+  {
+    "palavra": "of",
+    "inicio": 60.63,
+    "fim": 60.85
+  },
+  {
+    "palavra": "searching,",
+    "inicio": 60.85,
+    "fim": 61.33
+  },
+  {
+    "palavra": "we",
+    "inicio": 61.33,
+    "fim": 61.63
+  },
+  {
+    "palavra": "still",
+    "inicio": 61.63,
+    "fim": 61.87
+  },
+  {
+    "palavra": "haven’t",
+    "inicio": 61.87,
+    "fim": 62.15
+  },
+  {
+    "palavra": "found",
+    "inicio": 62.15,
+    "fim": 62.39
+  },
+  {
+    "palavra": "a",
+    "inicio": 62.39,
+    "fim": 62.61
+  },
+  {
+    "palavra": "single",
+    "inicio": 62.61,
+    "fim": 62.97
+  },
+  {
+    "palavra": "fragment",
+    "inicio": 62.97,
+    "fim": 63.37
+  },
+  {
+    "palavra": "of",
+    "inicio": 63.37,
+    "fim": 63.65
+  },
+  {
+    "palavra": "the",
+    "inicio": 63.65,
+    "fim": 63.75
+  },
+  {
+    "palavra": "object.",
+    "inicio": 63.75,
+    "fim": 64.01
+  },
+  {
+    "palavra": "So,",
+    "inicio": 64.91,
+    "fim": 65.09
+  },
+  {
+    "palavra": "was",
+    "inicio": 65.09,
+    "fim": 65.63
+  },
+  {
+    "palavra": "it",
+    "inicio": 65.63,
+    "fim": 65.73
+  },
+  {
+    "palavra": "an",
+    "inicio": 65.73,
+    "fim": 65.85
+  },
+  {
+    "palavra": "asteroid",
+    "inicio": 65.85,
+    "fim": 66.17
+  },
+  {
+    "palavra": "that",
+    "inicio": 66.17,
+    "fim": 66.41
+  },
+  {
+    "palavra": "vaporized,",
+    "inicio": 66.41,
+    "fim": 66.97
+  },
+  {
+    "palavra": "or",
+    "inicio": 67.51,
+    "fim": 67.63
+  },
+  {
+    "palavra": "something",
+    "inicio": 67.63,
+    "fim": 67.91
+  },
+  {
+    "palavra": "that",
+    "inicio": 67.91,
+    "fim": 68.11
+  },
+  {
+    "palavra": "was",
+    "inicio": 68.11,
+    "fim": 68.23
+  },
+  {
+    "palavra": "never",
+    "inicio": 68.23,
+    "fim": 68.49
+  },
+  {
+    "palavra": "meant",
+    "inicio": 68.49,
+    "fim": 68.73
+  },
+  {
+    "palavra": "to",
+    "inicio": 68.73,
+    "fim": 68.91
+  },
+  {
+    "palavra": "be",
+    "inicio": 68.91,
+    "fim": 69.01
+  },
+  {
+    "palavra": "found?",
+    "inicio": 69.01,
+    "fim": 69.33
+  }
+]

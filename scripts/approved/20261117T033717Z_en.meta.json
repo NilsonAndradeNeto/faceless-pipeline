@@ -1,0 +1,53 @@
+{
+  "id": "20261117T033717Z_en",
+  "lang": "en",
+  "tema": "The Tunguska event: the explosion that flattened 80 million trees",
+  "titulo": "The Day the Siberian Sky Exploded",
+  "hook": "Imagine reading a newspaper at midnight in London using nothing but the glow of a ghostly green sky.",
+  "descricao": "In 1908, a massive explosion flattened 80 million trees in Siberia, but left no crater and no fragments. What do you think actually happened at Tunguska?",
+  "hashtags": [
+    "tunguskaevent",
+    "siberia",
+    "unsolvedmysteries",
+    "spacehistory",
+    "astronomy",
+    "science",
+    "historyfacts"
+  ],
+  "palavras": 180,
+  "caracteres": 1085,
+  "notas_editor_antes": {
+    "gancho": 6,
+    "ritmo": 7,
+    "viradas": 8,
+    "climax": 7,
+    "final": 7
+  },
+  "checagem": {
+    "sem_comprovacao": [],
+    "conferir": [
+      "At the very center, the trees were still standing."
+    ],
+    "confianca": "media"
+  },
+  "versoes": {
+    "rascunho": "June 1908. Deep Siberia. The sky split in two and bled fire. What hit the ground that morning is still missing today. A massive object screamed through the atmosphere, brighter than the midday sun. Then, the world shattered. The blast was one thousand times more powerful than Hiroshima. It knocked people off their feet sixty miles away. In London, the sky turned a ghostly green. You could read the newspaper at midnight without any lights. But the region was so remote, no scientist reached it for nineteen years. In 1927, Leonid Kulik finally fought through the frozen marshes. He expected a massive crater. He expected a mountain of space rock. Instead, he found eighty million trees flattened in a perfect circle. They looked like giant matchsticks scattered by a ghost. But as he reached the epicenter, the mystery deepened. At the very center, the trees were still standing. Every single branch was gone. They were just smooth, vertical pillars of dead wood in a silent wasteland. After a century of searching, we still haven't found a single fragment of the object. Do you think it was an asteroid, or something that wasn't meant to be found?",
+    "editado": "Imagine reading a newspaper at midnight in London using nothing but the glow of a ghostly green sky. In 1908, something screamed through the Siberian atmosphere, brighter than the midday sun, and then the world shattered. This wasn't just an explosion; it was a blast one thousand times more powerful than Hiroshima. It knocked people off their feet sixty miles away, yet the impact site was so remote it took nineteen years for anyone to reach it. When explorers finally fought through the frozen marshes, they expected a massive crater or a mountain of space rock. Instead, they found eighty million trees flattened in a perfect, haunting circle—looking like giant matchsticks scattered by a ghost. But as they reached the absolute epicenter, the mystery turned impossible. At the very center, the trees were still standing. Every single branch was gone, leaving nothing but smooth, vertical pillars of dead wood in a silent wasteland. After a century of searching, we still haven’t found a single fragment of the object. So, was it an asteroid that vaporized, or something that was never meant to be found?"
+  },
+  "fontes": [
+    {
+      "titulo": "Tunguska event",
+      "url": "https://en.wikipedia.org/wiki/Tunguska_event"
+    }
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-18",
+  "producao": {
+    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 0.18,
+    "atualizado": "2026-11-18 22:06:51"
+  },
+  "voz": "gemini"
+}

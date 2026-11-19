@@ -3129,3 +3129,47 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 15:51:31 [video_builder] INFO: Música: trilha_08.mp3
 15:52:47 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261118T013346Z_pt.mp4 (73.2s)
 15:52:47 [produzir] INFO: ✅ Pronto: A bizarra epidemia que fez centenas dançarem em 1518
+22:01:56 [ciclo] INFO: — ciclo 18/11 22:01 —
+22:01:56 [ciclo] WARNING: Sem vídeo PT hoje
+22:01:56 [ciclo] WARNING: 'The 1908 Explosion That Destroyed 80 Million Trees' tem frase sem base na fonte — reescrevendo (1/2)
+22:01:56 [scriptwriter] INFO: Escrevendo roteiro: The Tunguska event: the explosion that flattened 80 million trees
+22:03:27 [llm] INFO: gemini/gemini-3.5-flash travou, trocando para gemini-3-flash-preview
+22:03:35 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+22:03:35 [llm] INFO: gemini/gemini-3-flash-preview [roteiro] 2934→348 tokens, US$0.0000, 7.5s
+22:03:35 [scriptwriter] INFO: Editando para retenção...
+22:05:05 [llm] INFO: gemini/gemini-3.5-flash travou, trocando para gemini-3-flash-preview
+22:05:15 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+22:05:15 [llm] INFO: gemini/gemini-3-flash-preview [critica] 495→288 tokens, US$0.0000, 9.9s
+22:05:15 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 7, 'viradas': 8, 'climax': 7, 'final': 7}
+22:05:15 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+22:05:30 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+22:05:30 [llm] INFO: gemini/gemini-3.5-flash [provas] 2774→879 tokens, US$0.0000, 15.0s
+22:05:30 [scriptwriter] INFO: Checagem 1: 11 frases, 3 com problema, 0 para conferir
+22:05:30 [scriptwriter] INFO: Corrigindo:
+- "This wasn't just an explosion; it was a blast one thousand times more powerful than Hiroshima." → sem_base: A fonte indica a energia da explosão em megatons de TNT, mas não faz menção à bomba de Hiroshima ou à comparação de ser mil vezes mais potente.
+- "When explorers finally fought through the frozen marshes, they expected a massive crater or a mountain of space rock." → sem_base: A fonte não menciona quais eram as expectativas dos exploradores antes de chegarem ao local (como encontrar uma cratera gigante ou rocha espacial).
+- "Instead, they found eighty million trees flattened in a perfect, haunting circle—looking like giant matchsticks scattered by a ghost." → contradiz: A fonte fala em 'vários milhões de árvores' (several million) e não 80 milhões. Além disso, o padrão das árvores formava a figura de 'asas de borboleta' (butterfly wings), contradizendo a afirmação de um 'círculo perfeito'.
+22:05:41 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+22:05:41 [llm] INFO: gemini/gemini-3.5-flash [correcao] 2807→231 tokens, US$0.0000, 11.5s
+22:06:07 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+22:06:07 [llm] INFO: gemini/gemini-3.5-flash [provas] 2769→663 tokens, US$0.0000, 25.6s
+22:06:07 [scriptwriter] INFO: Checagem 2: 11 frases, 0 com problema, 1 para conferir
+22:06:07 [scriptwriter] INFO: Roteiro salvo: 180 palavras, 1085 caracteres, confiança media
+22:06:07 [ciclo] INFO: Aprovado automaticamente: The Day the Siberian Sky Exploded
+22:06:07 [ciclo] INFO: Vídeo EN de hoje: The Day the Siberian Sky Exploded
+22:06:07 [produzir] INFO: ▶ Produzindo: The Day the Siberian Sky Exploded
+22:06:07 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1085 caracteres, restam só 771) — usando a voz do Gemini
+22:06:25 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 76.6s
+22:06:29 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+22:06:29 [tts] INFO: Legenda alinhada: 177 de 180 palavras batem com o Whisper
+22:06:29 [tts] WARNING: Cortando 6.5s de fala extra no início do áudio do Gemini
+22:06:29 [tts] INFO: Narração pronta (gemini): 69.3s, 180 palavras
+22:06:29 [visual_planner] INFO: 7 imagens reais disponíveis nos artigos-fonte
+22:06:51 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+22:06:51 [llm] INFO: gemini/gemini-3.5-flash [visual] 1046→1067 tokens, US$0.0000, 21.6s
+22:06:51 [visual_planner] INFO: 15 cenas (média 4.7s): 2 com imagem real, 13 com IA
+22:06:51 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+22:06:51 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+22:06:51 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+22:06:51 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+22:06:51 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
