@@ -3246,3 +3246,39 @@ AttributeError: 'list' object has no attribute 'get'
 15:56:00 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
 15:56:00 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
 15:56:00 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+22:07:32 [ciclo] INFO: — ciclo 19/11 22:07 —
+22:07:32 [produzir] INFO: ▶ Produzindo: The Day the Siberian Sky Exploded
+22:07:35 [broll] INFO: Cena  1 (5.2s): ia        Imagine reading a newspaper at midnight in London using noth
+22:07:39 [broll] INFO: Cena  2 (3.8s): ia        ghostly green sky. In 1908,
+22:07:43 [broll] INFO: Cena  3 (4.3s): ia        something screamed through the Siberian atmosphere, brighter
+22:07:55 [broll] INFO: Cena  4 (3.4s): ia        and then the world shattered.
+22:08:10 [broll] INFO: Cena  5 (5.6s): ia        This wasn't just an explosion; it packed enough energy to de
+22:08:31 [broll] INFO: Cena  6 (5.2s): ia        It knocked people off their feet sixty miles away, yet the i
+22:08:45 [broll] INFO: Cena  7 (3.0s): ia        took nineteen years for anyone to reach it.
+22:08:59 [broll] INFO: Cena  8 (5.3s): ia        When explorers finally fought through the frozen marshes, th
+22:09:00 [broll] INFO: Cena  9 (5.9s): wikimedia Instead, they found several million trees flattened in the s
+22:09:13 [broll] INFO: Cena 10 (5.4s): ia        like matchsticks scattered by a ghost. But as they reached t
+22:09:25 [broll] INFO: Cena 11 (3.6s): ia        the mystery turned impossible. At the very center,
+22:09:38 [broll] INFO: Cena 12 (3.8s): ia        the trees were still standing. Every single branch was gone,
+22:09:53 [broll] INFO: Cena 13 (5.4s): ia        leaving nothing but smooth, vertical pillars of dead wood in
+22:09:54 [broll] INFO: Cena 14 (5.0s): wikimedia After a century of searching, we still haven’t found a singl
+22:10:10 [broll] INFO: Cena 15 (5.0s): ia        So, was it an asteroid that vaporized, or something that was
+22:10:10 [video_builder] INFO: Cena 1/15 (imagem, 5.2s)
+22:10:11 [video_builder] INFO: Encoder: x264
+22:10:15 [video_builder] INFO: Cena 2/15 (imagem, 3.8s)
+22:10:18 [video_builder] INFO: Cena 3/15 (imagem, 4.3s)
+22:10:23 [video_builder] INFO: Cena 4/15 (imagem, 3.4s)
+22:10:26 [video_builder] INFO: Cena 5/15 (imagem, 5.6s)
+22:10:32 [video_builder] INFO: Cena 6/15 (imagem, 5.2s)
+22:10:37 [video_builder] INFO: Cena 7/15 (imagem, 3.0s)
+22:10:41 [video_builder] INFO: Cena 8/15 (imagem, 5.3s)
+22:10:46 [video_builder] INFO: Cena 9/15 (imagem, 5.9s)
+22:10:51 [video_builder] INFO: Cena 10/15 (imagem, 5.4s)
+22:10:56 [video_builder] INFO: Cena 11/15 (imagem, 3.6s)
+22:10:59 [video_builder] INFO: Cena 12/15 (imagem, 3.8s)
+22:11:03 [video_builder] INFO: Cena 13/15 (imagem, 5.4s)
+22:11:08 [video_builder] INFO: Cena 14/15 (imagem, 5.0s)
+22:11:13 [video_builder] INFO: Cena 15/15 (imagem, 5.0s)
+22:11:18 [video_builder] INFO: Música: trilha_05.mp3
+22:12:08 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261117T033717Z_en.mp4 (69.9s)
+22:12:08 [produzir] INFO: ✅ Pronto: The Day the Siberian Sky Exploded

@@ -43,11 +43,18 @@
   "aprovacao": "automatica",
   "data_post": "2026-11-18",
   "producao": {
-    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "etapa": "pronto",
     "erro": null,
     "detalhe": "",
-    "progresso": 0.18,
-    "atualizado": "2026-11-19 15:56:00"
+    "progresso": 1.0,
+    "atualizado": "2026-11-19 22:12:08"
   },
-  "voz": "gemini"
+  "voz": "gemini",
+  "creditos_imagens": [
+    "JohnStone.jpg — Cmbrenneisen58 (CC BY 4.0)",
+    "Tunguska Ereignis-1.jpg — Leonid Kulik, the expedition to the Tunguska event (Public domain)"
+  ],
+  "imagens_ia": 13,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261117T033717Z_en.mp4",
+  "duracao_seg": 69.9
 }
