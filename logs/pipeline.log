@@ -3282,3 +3282,85 @@ AttributeError: 'list' object has no attribute 'get'
 22:11:18 [video_builder] INFO: Música: trilha_05.mp3
 22:12:08 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261117T033717Z_en.mp4 (69.9s)
 22:12:08 [produzir] INFO: ✅ Pronto: The Day the Siberian Sky Exploded
+06:52:29 [ciclo] INFO: — ciclo 20/11 06:52 —
+06:52:29 [ciclo] INFO: Fila PT vazia — gerando roteiro
+06:52:29 [scriptwriter] INFO: Escrevendo roteiro: O túmulo perdido de Gengis Khan
+06:54:01 [llm] INFO: gemini/gemini-3.5-flash travou, trocando para gemini-3-flash-preview
+06:54:12 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+06:54:12 [llm] INFO: gemini/gemini-3-flash-preview [roteiro] 4678→397 tokens, US$0.0000, 11.5s
+06:54:12 [scriptwriter] INFO: Editando para retenção...
+06:55:42 [llm] INFO: gemini/gemini-3.5-flash travou, trocando para gemini-3-flash-preview
+06:55:58 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+06:55:58 [llm] INFO: gemini/gemini-3-flash-preview no limite, trocando para gemini-3.8-flash
+06:56:01 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+06:56:01 [llm] INFO: gemini/gemini-3.8-flash no limite, trocando para gemini-3.7-flash
+06:56:12 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+06:56:12 [llm] WARNING: gemini falhou (tentativa 1/1): Error code: 503
+06:56:12 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
+06:56:12 [scriptwriter] ERROR: Falha ao escrever roteiro de 20261119T083745Z_pt.json (tópico fica pendente)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 127, in chat
+    return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 178, in _chat
+    raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
+RuntimeError: Todos os provedores de LLM falharam: Error code: 503
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 216, in processar_pendentes
+    escrever(ler_json(arq))
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 179, in escrever
+    e = chat([{"role": "user", "content": PROMPT_CRITICA.format(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
+    raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
+agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
+06:56:12 [ciclo] INFO: Fila EN vazia — gerando roteiro
+06:56:12 [scriptwriter] INFO: Escrevendo roteiro: The Hinterkaifeck murders, Germany's unsolved farm massacre
+06:56:53 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+06:56:53 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 2985→382 tokens, US$0.0000, 41.4s
+06:56:53 [scriptwriter] INFO: Editando para retenção...
+06:58:23 [llm] INFO: gemini/gemini-3.5-flash travou, trocando para gemini-3-flash-preview
+06:58:34 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+06:58:34 [llm] INFO: gemini/gemini-3-flash-preview [critica] 491→290 tokens, US$0.0000, 10.3s
+06:58:34 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 7, 'ritmo': 6, 'viradas': 8, 'climax': 7, 'final': 6}
+06:58:34 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+06:59:45 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+06:59:45 [llm] INFO: gemini/gemini-3.5-flash [provas] 2828→919 tokens, US$0.0000, 71.4s
+06:59:45 [scriptwriter] INFO: Checagem 1: 14 frases, 1 com problema, 1 para conferir
+06:59:45 [scriptwriter] INFO: Corrigindo:
+- "The killer cooked meals and slept in their beds while the bodies lay cold nearby." → sem_base: As fontes afirmam que o assassino comeu a comida da casa, usou a lareira e alimentou os animais, mas não mencionam que ele cozinhou refeições (na verdade cita que curiosos/onlookers cozinharam na cozinha) nem que dormiu nas camas das vítimas.
+07:00:15 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+07:00:15 [llm] INFO: gemini/gemini-3.5-flash [correcao] 2736→238 tokens, US$0.0000, 29.8s
+07:01:20 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+07:01:20 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+07:02:50 [llm] INFO: gemini/gemini-3-flash-preview travou, trocando para gemini-3.8-flash
+07:03:18 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+07:03:18 [llm] INFO: gemini/gemini-3.8-flash no limite, trocando para gemini-3.7-flash
+07:04:48 [llm] WARNING: gemini falhou (tentativa 1/1): Request timed out.
+07:04:48 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
+07:04:48 [scriptwriter] ERROR: Falha ao escrever roteiro de 20261119T083903Z_en.json (tópico fica pendente)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 127, in chat
+    return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 178, in _chat
+    raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
+RuntimeError: Todos os provedores de LLM falharam: Request timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 216, in processar_pendentes
+    escrever(ler_json(arq))
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 186, in escrever
+    roteiro, pendentes, atencao = checar_fatos(editado, fontes_txt, topico["lang"])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 147, in checar_fatos
+    p = chat([{"role": "user", "content": PROMPT_PROVAS.format(fontes=fontes_txt, roteiro=roteiro)}],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
+    raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
+agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
