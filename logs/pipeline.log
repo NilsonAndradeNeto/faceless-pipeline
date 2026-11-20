@@ -3364,3 +3364,6 @@ Traceback (most recent call last):
   File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
     raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
 agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
+15:27:00 [ciclo] INFO: — ciclo 20/11 15:27 —
+15:27:00 [ciclo] WARNING: Sem vídeo PT hoje
+15:27:00 [ciclo] WARNING: Sem vídeo EN hoje
