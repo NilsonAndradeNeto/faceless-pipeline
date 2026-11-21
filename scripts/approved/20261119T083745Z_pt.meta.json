@@ -40,5 +40,22 @@
       "titulo": "Local de sepultamento de Gengis Khan",
       "url": "https://pt.wikipedia.org/wiki/Local_de_sepultamento_de_Gengis_Khan"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-21",
+  "producao": {
+    "etapa": "pronto",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 1.0,
+    "atualizado": "2026-11-21 14:21:15"
+  },
+  "voz": "gemini",
+  "creditos_imagens": [
+    "Burkhan Khaldun mount3.jpg — Ganzorig Gavaa (CC BY-SA 2.0)",
+    "YuanEmperorAlbumGenghisPortrait (cropped).jpg — Unknown authorUnknown author (Public domain)"
+  ],
+  "imagens_ia": 17,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261119T083745Z_pt.mp4",
+  "duracao_seg": 80.3
 }

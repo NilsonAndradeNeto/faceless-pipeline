@@ -1,0 +1,932 @@
+[
+  {
+    "palavra": "Dois",
+    "inicio": 0.17,
+    "fim": 0.52
+  },
+  {
+    "palavra": "mil",
+    "inicio": 0.52,
+    "fim": 0.87
+  },
+  {
+    "palavra": "escravos",
+    "inicio": 0.87,
+    "fim": 1.22
+  },
+  {
+    "palavra": "foram",
+    "inicio": 1.22,
+    "fim": 1.57
+  },
+  {
+    "palavra": "massacrados",
+    "inicio": 1.57,
+    "fim": 1.92
+  },
+  {
+    "palavra": "para",
+    "inicio": 1.92,
+    "fim": 2.27
+  },
+  {
+    "palavra": "esconder",
+    "inicio": 2.27,
+    "fim": 2.62
+  },
+  {
+    "palavra": "o",
+    "inicio": 2.62,
+    "fim": 2.97
+  },
+  {
+    "palavra": "corpo",
+    "inicio": 2.97,
+    "fim": 3.32
+  },
+  {
+    "palavra": "de",
+    "inicio": 3.32,
+    "fim": 3.34
+  },
+  {
+    "palavra": "um",
+    "inicio": 3.34,
+    "fim": 3.907
+  },
+  {
+    "palavra": "único",
+    "inicio": 3.907,
+    "fim": 4.474
+  },
+  {
+    "palavra": "homem.",
+    "inicio": 4.474,
+    "fim": 5.042
+  },
+  {
+    "palavra": "Há",
+    "inicio": 5.042,
+    "fim": 5.609
+  },
+  {
+    "palavra": "oito",
+    "inicio": 5.609,
+    "fim": 6.176
+  },
+  {
+    "palavra": "séculos,",
+    "inicio": 6.176,
+    "fim": 6.743
+  },
+  {
+    "palavra": "o",
+    "inicio": 6.743,
+    "fim": 7.311
+  },
+  {
+    "palavra": "mundo",
+    "inicio": 7.311,
+    "fim": 7.878
+  },
+  {
+    "palavra": "protege",
+    "inicio": 7.878,
+    "fim": 8.445
+  },
+  {
+    "palavra": "um",
+    "inicio": 8.445,
+    "fim": 9.012
+  },
+  {
+    "palavra": "segredo",
+    "inicio": 9.012,
+    "fim": 9.58
+  },
+  {
+    "palavra": "escrito",
+    "inicio": 9.58,
+    "fim": 10.147
+  },
+  {
+    "palavra": "com",
+    "inicio": 10.147,
+    "fim": 10.714
+  },
+  {
+    "palavra": "sangue:",
+    "inicio": 10.714,
+    "fim": 11.281
+  },
+  {
+    "palavra": "onde",
+    "inicio": 11.281,
+    "fim": 11.849
+  },
+  {
+    "palavra": "está",
+    "inicio": 11.849,
+    "fim": 12.416
+  },
+  {
+    "palavra": "o",
+    "inicio": 12.416,
+    "fim": 12.983
+  },
+  {
+    "palavra": "túmulo",
+    "inicio": 12.983,
+    "fim": 13.55
+  },
+  {
+    "palavra": "de",
+    "inicio": 13.55,
+    "fim": 14.117
+  },
+  {
+    "palavra": "Gengis",
+    "inicio": 14.117,
+    "fim": 14.685
+  },
+  {
+    "palavra": "Khan?",
+    "inicio": 14.685,
+    "fim": 15.252
+  },
+  {
+    "palavra": "O",
+    "inicio": 15.252,
+    "fim": 15.819
+  },
+  {
+    "palavra": "último",
+    "inicio": 15.819,
+    "fim": 16.386
+  },
+  {
+    "palavra": "desejo",
+    "inicio": 16.386,
+    "fim": 16.954
+  },
+  {
+    "palavra": "do",
+    "inicio": 16.954,
+    "fim": 17.521
+  },
+  {
+    "palavra": "conquistador",
+    "inicio": 17.521,
+    "fim": 18.088
+  },
+  {
+    "palavra": "foi",
+    "inicio": 18.088,
+    "fim": 18.655
+  },
+  {
+    "palavra": "cruel:",
+    "inicio": 18.655,
+    "fim": 19.223
+  },
+  {
+    "palavra": "ninguém",
+    "inicio": 19.223,
+    "fim": 19.79
+  },
+  {
+    "palavra": "jamais",
+    "inicio": 19.79,
+    "fim": 20.357
+  },
+  {
+    "palavra": "poderia",
+    "inicio": 20.357,
+    "fim": 20.924
+  },
+  {
+    "palavra": "encontrar",
+    "inicio": 20.924,
+    "fim": 21.491
+  },
+  {
+    "palavra": "seus",
+    "inicio": 21.491,
+    "fim": 22.059
+  },
+  {
+    "palavra": "restos",
+    "inicio": 22.059,
+    "fim": 22.626
+  },
+  {
+    "palavra": "mortais.",
+    "inicio": 22.626,
+    "fim": 23.193
+  },
+  {
+    "palavra": "Para",
+    "inicio": 23.193,
+    "fim": 23.76
+  },
+  {
+    "palavra": "garantir",
+    "inicio": 23.76,
+    "fim": 24.328
+  },
+  {
+    "palavra": "o",
+    "inicio": 24.328,
+    "fim": 24.895
+  },
+  {
+    "palavra": "silêncio",
+    "inicio": 24.895,
+    "fim": 25.462
+  },
+  {
+    "palavra": "eterno,",
+    "inicio": 25.462,
+    "fim": 26.029
+  },
+  {
+    "palavra": "soldados",
+    "inicio": 26.029,
+    "fim": 26.597
+  },
+  {
+    "palavra": "levaram",
+    "inicio": 26.597,
+    "fim": 27.164
+  },
+  {
+    "palavra": "o",
+    "inicio": 27.164,
+    "fim": 27.731
+  },
+  {
+    "palavra": "caixão",
+    "inicio": 27.731,
+    "fim": 28.298
+  },
+  {
+    "palavra": "até",
+    "inicio": 28.298,
+    "fim": 28.866
+  },
+  {
+    "palavra": "as",
+    "inicio": 28.866,
+    "fim": 29.433
+  },
+  {
+    "palavra": "montanhas",
+    "inicio": 29.433,
+    "fim": 30.0
+  },
+  {
+    "palavra": "geladas",
+    "inicio": 30,
+    "fim": 30.36
+  },
+  {
+    "palavra": "da",
+    "inicio": 30.36,
+    "fim": 30.54
+  },
+  {
+    "palavra": "Mongólia.",
+    "inicio": 30.54,
+    "fim": 31.16
+  },
+  {
+    "palavra": "Dizem",
+    "inicio": 31.16,
+    "fim": 32.16
+  },
+  {
+    "palavra": "que",
+    "inicio": 32.16,
+    "fim": 32.26
+  },
+  {
+    "palavra": "desviaram",
+    "inicio": 32.26,
+    "fim": 32.7
+  },
+  {
+    "palavra": "o",
+    "inicio": 32.7,
+    "fim": 32.86
+  },
+  {
+    "palavra": "curso",
+    "inicio": 32.86,
+    "fim": 33.1
+  },
+  {
+    "palavra": "de",
+    "inicio": 33.1,
+    "fim": 33.26
+  },
+  {
+    "palavra": "um",
+    "inicio": 33.26,
+    "fim": 33.34
+  },
+  {
+    "palavra": "rio",
+    "inicio": 33.34,
+    "fim": 33.5
+  },
+  {
+    "palavra": "inteiro",
+    "inicio": 33.5,
+    "fim": 33.98
+  },
+  {
+    "palavra": "para",
+    "inicio": 33.98,
+    "fim": 34.2
+  },
+  {
+    "palavra": "afogar",
+    "inicio": 34.2,
+    "fim": 34.58
+  },
+  {
+    "palavra": "o",
+    "inicio": 34.58,
+    "fim": 34.7
+  },
+  {
+    "palavra": "túmulo.",
+    "inicio": 34.7,
+    "fim": 35.48
+  },
+  {
+    "palavra": "Outros",
+    "inicio": 35.48,
+    "fim": 35.9
+  },
+  {
+    "palavra": "juram",
+    "inicio": 35.9,
+    "fim": 36.5
+  },
+  {
+    "palavra": "que",
+    "inicio": 36.26,
+    "fim": 36.64
+  },
+  {
+    "palavra": "muitos",
+    "inicio": 36.64,
+    "fim": 37.1
+  },
+  {
+    "palavra": "cavalos",
+    "inicio": 37.1,
+    "fim": 37.56
+  },
+  {
+    "palavra": "pisotearam",
+    "inicio": 37.56,
+    "fim": 38.04
+  },
+  {
+    "palavra": "a",
+    "inicio": 38.04,
+    "fim": 38.22
+  },
+  {
+    "palavra": "terra",
+    "inicio": 38.22,
+    "fim": 38.44
+  },
+  {
+    "palavra": "até",
+    "inicio": 38.44,
+    "fim": 38.98
+  },
+  {
+    "palavra": "o",
+    "inicio": 38.98,
+    "fim": 39.18
+  },
+  {
+    "palavra": "solo",
+    "inicio": 39.18,
+    "fim": 39.46
+  },
+  {
+    "palavra": "parecer",
+    "inicio": 39.46,
+    "fim": 40.02
+  },
+  {
+    "palavra": "intocado.",
+    "inicio": 40.02,
+    "fim": 40.58
+  },
+  {
+    "palavra": "Mas",
+    "inicio": 40.58,
+    "fim": 41.54
+  },
+  {
+    "palavra": "o",
+    "inicio": 41.54,
+    "fim": 41.7
+  },
+  {
+    "palavra": "verdadeiro",
+    "inicio": 41.7,
+    "fim": 42.2
+  },
+  {
+    "palavra": "horror",
+    "inicio": 42.2,
+    "fim": 42.44
+  },
+  {
+    "palavra": "veio",
+    "inicio": 42.44,
+    "fim": 42.9
+  },
+  {
+    "palavra": "depois.",
+    "inicio": 42.62,
+    "fim": 43.6
+  },
+  {
+    "palavra": "Os",
+    "inicio": 43.6,
+    "fim": 44.44
+  },
+  {
+    "palavra": "dois",
+    "inicio": 44.44,
+    "fim": 44.72
+  },
+  {
+    "palavra": "mil",
+    "inicio": 44.72,
+    "fim": 44.86
+  },
+  {
+    "palavra": "escravos",
+    "inicio": 44.86,
+    "fim": 45.34
+  },
+  {
+    "palavra": "do",
+    "inicio": 45.34,
+    "fim": 45.46
+  },
+  {
+    "palavra": "funeral",
+    "inicio": 45.46,
+    "fim": 45.72
+  },
+  {
+    "palavra": "foram",
+    "inicio": 45.72,
+    "fim": 46.18
+  },
+  {
+    "palavra": "executados",
+    "inicio": 46.18,
+    "fim": 46.78
+  },
+  {
+    "palavra": "pelos",
+    "inicio": 46.78,
+    "fim": 47.02
+  },
+  {
+    "palavra": "soldados",
+    "inicio": 47.02,
+    "fim": 47.46
+  },
+  {
+    "palavra": "da",
+    "inicio": 47.46,
+    "fim": 47.6
+  },
+  {
+    "palavra": "guarda.",
+    "inicio": 47.6,
+    "fim": 48.12
+  },
+  {
+    "palavra": "Logo",
+    "inicio": 48.12,
+    "fim": 48.76
+  },
+  {
+    "palavra": "em",
+    "inicio": 48.76,
+    "fim": 48.86
+  },
+  {
+    "palavra": "seguida,",
+    "inicio": 48.54,
+    "fim": 49.62
+  },
+  {
+    "palavra": "esses",
+    "inicio": 49.62,
+    "fim": 49.72
+  },
+  {
+    "palavra": "soldados",
+    "inicio": 49.72,
+    "fim": 50.08
+  },
+  {
+    "palavra": "foram",
+    "inicio": 50.08,
+    "fim": 50.28
+  },
+  {
+    "palavra": "mortos",
+    "inicio": 50.28,
+    "fim": 50.68
+  },
+  {
+    "palavra": "por",
+    "inicio": 50.68,
+    "fim": 50.88
+  },
+  {
+    "palavra": "um",
+    "inicio": 50.88,
+    "fim": 50.96
+  },
+  {
+    "palavra": "segundo",
+    "inicio": 50.96,
+    "fim": 51.18
+  },
+  {
+    "palavra": "grupo,",
+    "inicio": 51.18,
+    "fim": 51.68
+  },
+  {
+    "palavra": "que",
+    "inicio": 51.68,
+    "fim": 52
+  },
+  {
+    "palavra": "eliminou",
+    "inicio": 52,
+    "fim": 52.28
+  },
+  {
+    "palavra": "qualquer",
+    "inicio": 52.28,
+    "fim": 52.64
+  },
+  {
+    "palavra": "testemunha",
+    "inicio": 52.64,
+    "fim": 53.28
+  },
+  {
+    "palavra": "no",
+    "inicio": 53.28,
+    "fim": 53.4
+  },
+  {
+    "palavra": "caminho.",
+    "inicio": 53.4,
+    "fim": 53.88
+  },
+  {
+    "palavra": "No",
+    "inicio": 54.1,
+    "fim": 54.28
+  },
+  {
+    "palavra": "fim,",
+    "inicio": 54.28,
+    "fim": 54.92
+  },
+  {
+    "palavra": "os",
+    "inicio": 54.92,
+    "fim": 55.04
+  },
+  {
+    "palavra": "próprios",
+    "inicio": 55.04,
+    "fim": 55.34
+  },
+  {
+    "palavra": "guerreiros",
+    "inicio": 55.34,
+    "fim": 55.8
+  },
+  {
+    "palavra": "tiraram",
+    "inicio": 55.8,
+    "fim": 56.22
+  },
+  {
+    "palavra": "a",
+    "inicio": 56.22,
+    "fim": 56.34
+  },
+  {
+    "palavra": "vida.",
+    "inicio": 56.34,
+    "fim": 56.62
+  },
+  {
+    "palavra": "Hoje,",
+    "inicio": 57.54,
+    "fim": 58
+  },
+  {
+    "palavra": "a",
+    "inicio": 58,
+    "fim": 58.48
+  },
+  {
+    "palavra": "área",
+    "inicio": 58.48,
+    "fim": 58.7
+  },
+  {
+    "palavra": "é",
+    "inicio": 58.7,
+    "fim": 58.82
+  },
+  {
+    "palavra": "chamada",
+    "inicio": 58.82,
+    "fim": 59.18
+  },
+  {
+    "palavra": "de",
+    "inicio": 59.18,
+    "fim": 59.44
+  },
+  {
+    "palavra": "\"O",
+    "inicio": 59.44,
+    "fim": 59.8
+  },
+  {
+    "palavra": "Grande",
+    "inicio": 59.8,
+    "fim": 60.1
+  },
+  {
+    "palavra": "Tabu\".",
+    "inicio": 60.1,
+    "fim": 60.98
+  },
+  {
+    "palavra": "Drones",
+    "inicio": 61.52,
+    "fim": 61.82
+  },
+  {
+    "palavra": "detectaram",
+    "inicio": 61.82,
+    "fim": 62.38
+  },
+  {
+    "palavra": "uma",
+    "inicio": 62.38,
+    "fim": 62.54
+  },
+  {
+    "palavra": "estrutura",
+    "inicio": 62.54,
+    "fim": 62.86
+  },
+  {
+    "palavra": "misteriosa",
+    "inicio": 62.86,
+    "fim": 63.38
+  },
+  {
+    "palavra": "de",
+    "inicio": 63.38,
+    "fim": 63.64
+  },
+  {
+    "palavra": "duzentos",
+    "inicio": 63.64,
+    "fim": 63.813
+  },
+  {
+    "palavra": "e",
+    "inicio": 63.813,
+    "fim": 63.987
+  },
+  {
+    "palavra": "cinquenta",
+    "inicio": 63.987,
+    "fim": 64.16
+  },
+  {
+    "palavra": "metros",
+    "inicio": 64.16,
+    "fim": 65.08
+  },
+  {
+    "palavra": "no",
+    "inicio": 65.08,
+    "fim": 65.52
+  },
+  {
+    "palavra": "topo",
+    "inicio": 65.52,
+    "fim": 65.8
+  },
+  {
+    "palavra": "de",
+    "inicio": 65.8,
+    "fim": 65.94
+  },
+  {
+    "palavra": "uma",
+    "inicio": 65.94,
+    "fim": 66
+  },
+  {
+    "palavra": "montanha",
+    "inicio": 66,
+    "fim": 66.32
+  },
+  {
+    "palavra": "sagrada,",
+    "inicio": 66.32,
+    "fim": 66.92
+  },
+  {
+    "palavra": "mas",
+    "inicio": 67.34,
+    "fim": 67.52
+  },
+  {
+    "palavra": "o",
+    "inicio": 67.52,
+    "fim": 67.64
+  },
+  {
+    "palavra": "governo",
+    "inicio": 67.64,
+    "fim": 67.8
+  },
+  {
+    "palavra": "proíbe",
+    "inicio": 67.8,
+    "fim": 68.22
+  },
+  {
+    "palavra": "qualquer",
+    "inicio": 68.22,
+    "fim": 68.6
+  },
+  {
+    "palavra": "escavação.",
+    "inicio": 68.6,
+    "fim": 69.16
+  },
+  {
+    "palavra": "O",
+    "inicio": 69.72,
+    "fim": 69.94
+  },
+  {
+    "palavra": "sono",
+    "inicio": 69.94,
+    "fim": 70.24
+  },
+  {
+    "palavra": "do",
+    "inicio": 70.24,
+    "fim": 70.42
+  },
+  {
+    "palavra": "imperador",
+    "inicio": 70.42,
+    "fim": 70.78
+  },
+  {
+    "palavra": "continua",
+    "inicio": 70.78,
+    "fim": 71.44
+  },
+  {
+    "palavra": "protegido.",
+    "inicio": 71.44,
+    "fim": 71.98
+  },
+  {
+    "palavra": "Você",
+    "inicio": 72.88,
+    "fim": 73.14
+  },
+  {
+    "palavra": "teria",
+    "inicio": 73.14,
+    "fim": 73.32
+  },
+  {
+    "palavra": "coragem",
+    "inicio": 73.32,
+    "fim": 73.78
+  },
+  {
+    "palavra": "de",
+    "inicio": 73.78,
+    "fim": 73.98
+  },
+  {
+    "palavra": "abrir",
+    "inicio": 73.98,
+    "fim": 74.22
+  },
+  {
+    "palavra": "esse",
+    "inicio": 74.22,
+    "fim": 74.44
+  },
+  {
+    "palavra": "túmulo",
+    "inicio": 74.44,
+    "fim": 74.74
+  },
+  {
+    "palavra": "sabendo",
+    "inicio": 74.74,
+    "fim": 75.52
+  },
+  {
+    "palavra": "do",
+    "inicio": 75.52,
+    "fim": 75.68
+  },
+  {
+    "palavra": "preço",
+    "inicio": 75.68,
+    "fim": 76.08
+  },
+  {
+    "palavra": "que",
+    "inicio": 76.08,
+    "fim": 76.46
+  },
+  {
+    "palavra": "foi",
+    "inicio": 76.46,
+    "fim": 76.62
+  },
+  {
+    "palavra": "pago,",
+    "inicio": 76.62,
+    "fim": 77.08
+  },
+  {
+    "palavra": "ou",
+    "inicio": 77.48,
+    "fim": 77.72
+  },
+  {
+    "palavra": "o",
+    "inicio": 77.72,
+    "fim": 78.02
+  },
+  {
+    "palavra": "segredo",
+    "inicio": 78.02,
+    "fim": 78.54
+  },
+  {
+    "palavra": "deve",
+    "inicio": 78.54,
+    "fim": 78.98
+  },
+  {
+    "palavra": "morrer",
+    "inicio": 78.98,
+    "fim": 79.26
+  },
+  {
+    "palavra": "com",
+    "inicio": 79.26,
+    "fim": 79.42
+  },
+  {
+    "palavra": "ele?",
+    "inicio": 79.42,
+    "fim": 79.7
+  }
+]

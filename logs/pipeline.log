@@ -3451,3 +3451,61 @@ Traceback (most recent call last):
   File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
     raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
 agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
+14:14:44 [ciclo] INFO: — ciclo 21/11 14:14 —
+14:14:44 [ciclo] INFO: Aprovado automaticamente: O Segredo Sangrento do Túmulo de Gengis Khan
+14:14:44 [ciclo] INFO: Vídeo PT de hoje: O Segredo Sangrento do Túmulo de Gengis Khan
+14:14:44 [ciclo] WARNING: Sem vídeo EN hoje
+14:14:44 [produzir] INFO: ▶ Produzindo: O Segredo Sangrento do Túmulo de Gengis Khan
+14:14:45 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1124 caracteres, restam só 771) — usando a voz do Gemini
+14:15:04 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 80.2s
+14:15:06 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+14:15:06 [tts] INFO: Legenda alinhada: 125 de 186 palavras batem com o Whisper
+14:15:06 [tts] INFO: Narração pronta (gemini): 79.7s, 186 palavras
+14:15:06 [visual_planner] INFO: 3 imagens reais disponíveis nos artigos-fonte
+14:15:10 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+14:15:10 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+14:15:22 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+14:15:22 [llm] INFO: gemini/gemini-3-flash-preview [visual] 923→1203 tokens, US$0.0000, 12.3s
+14:15:22 [visual_planner] INFO: 19 cenas (média 4.2s): 2 com imagem real, 17 com IA
+14:15:26 [broll] INFO: Cena  1 (5.0s): ia        Dois mil escravos foram massacrados para esconder o corpo de
+14:15:30 [broll] INFO: Cena  2 (5.1s): ia        Há oito séculos, o mundo protege um segredo escrito
+14:15:34 [broll] INFO: Cena  3 (5.1s): ia        com sangue: onde está o túmulo de Gengis Khan?
+14:15:36 [broll] INFO: Cena  4 (4.0s): wikimedia O último desejo do conquistador foi cruel:
+14:15:49 [broll] INFO: Cena  5 (4.0s): ia        ninguém jamais poderia encontrar seus restos mortais.
+14:16:04 [broll] INFO: Cena  6 (5.1s): ia        Para garantir o silêncio eterno, soldados levaram o caixão
+14:16:06 [broll] INFO: Cena  7 (2.9s): wikimedia até as montanhas geladas da Mongólia.
+14:16:15 [broll] INFO: Cena  8 (4.3s): ia        Dizem que desviaram o curso de um rio inteiro para afogar o 
+14:16:33 [broll] INFO: Cena  9 (5.1s): ia        Outros juram que muitos cavalos pisotearam a terra até o sol
+14:16:47 [broll] INFO: Cena 10 (3.0s): ia        Mas o verdadeiro horror veio depois.
+14:17:01 [broll] INFO: Cena 11 (4.5s): ia        Os dois mil escravos do funeral foram executados pelos solda
+14:17:12 [broll] INFO: Cena 12 (3.6s): ia        Logo em seguida, esses soldados foram mortos por um segundo 
+14:17:21 [broll] INFO: Cena 13 (2.4s): ia        que eliminou qualquer testemunha no caminho.
+14:17:34 [broll] INFO: Cena 14 (3.4s): ia        No fim, os próprios guerreiros tiraram a vida.
+14:17:49 [broll] INFO: Cena 15 (4.0s): ia        Hoje, a área é chamada de "O Grande Tabu".
+14:17:59 [broll] INFO: Cena 16 (5.8s): ia        Drones detectaram uma estrutura misteriosa de duzentos e cin
+14:18:12 [broll] INFO: Cena 17 (5.5s): ia        mas o governo proíbe qualquer escavação. O sono do imperador
+14:18:22 [broll] INFO: Cena 18 (4.6s): ia        Você teria coragem de abrir esse túmulo sabendo do preço que
+14:18:33 [broll] INFO: Cena 19 (2.8s): ia        ou o segredo deve morrer com ele?
+14:18:33 [video_builder] INFO: Cena 1/19 (imagem, 5.0s)
+14:18:34 [video_builder] INFO: Encoder: x264
+14:18:39 [video_builder] INFO: Cena 2/19 (imagem, 5.1s)
+14:18:44 [video_builder] INFO: Cena 3/19 (imagem, 5.1s)
+14:18:50 [video_builder] INFO: Cena 4/19 (imagem, 4.0s)
+14:18:55 [video_builder] INFO: Cena 5/19 (imagem, 4.0s)
+14:19:00 [video_builder] INFO: Cena 6/19 (imagem, 5.1s)
+14:19:06 [video_builder] INFO: Cena 7/19 (imagem, 2.9s)
+14:19:10 [video_builder] INFO: Cena 8/19 (imagem, 4.3s)
+14:19:15 [video_builder] INFO: Cena 9/19 (imagem, 5.1s)
+14:19:20 [video_builder] INFO: Cena 10/19 (imagem, 3.0s)
+14:19:24 [video_builder] INFO: Cena 11/19 (imagem, 4.5s)
+14:19:30 [video_builder] INFO: Cena 12/19 (imagem, 3.6s)
+14:19:34 [video_builder] INFO: Cena 13/19 (imagem, 2.4s)
+14:19:37 [video_builder] INFO: Cena 14/19 (imagem, 3.4s)
+14:19:42 [video_builder] INFO: Cena 15/19 (imagem, 4.0s)
+14:19:46 [video_builder] INFO: Cena 16/19 (imagem, 5.8s)
+14:19:53 [video_builder] INFO: Cena 17/19 (imagem, 5.5s)
+14:19:59 [video_builder] INFO: Cena 18/19 (imagem, 4.6s)
+14:20:04 [video_builder] INFO: Cena 19/19 (imagem, 2.8s)
+14:20:09 [video_builder] INFO: Música: trilha_07.mp3
+14:21:15 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261119T083745Z_pt.mp4 (80.3s)
+14:21:15 [produzir] INFO: ✅ Pronto: O Segredo Sangrento do Túmulo de Gengis Khan

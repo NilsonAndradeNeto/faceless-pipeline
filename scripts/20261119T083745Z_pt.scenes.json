@@ -1,0 +1,356 @@
+[
+  {
+    "n": 1,
+    "texto": "Dois mil escravos foram massacrados para esconder o corpo de um único homem.",
+    "inicio": 0.0,
+    "fim": 5.042,
+    "duracao": 5.042,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. 13th century Mongolia, silhouettes of a massive crowd of workers in a valley at dusk, long shadows stretching across the grass, abandoned wooden carts and tools, cinematic lighting, historical atmosphere, wide shot., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/523411877ff3b5f5.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "Há oito séculos, o mundo protege um segredo escrito",
+    "inicio": 5.042,
+    "fim": 10.147,
+    "duracao": 5.105,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. Close-up of an ancient, weathered Mongolian parchment with traditional vertical script, ink stains, dimly lit by a flickering candle in a dark tent, 13th century aesthetic, mysterious atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/a5cdc327845af653.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "com sangue: onde está o túmulo de Gengis Khan?",
+    "inicio": 10.147,
+    "fim": 15.252,
+    "duracao": 5.105,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. A vast, misty Mongolian steppe at dawn, distant blue mountains, a single golden eagle flying over the horizon, mystery and scale, cinematic wide shot, vertical composition., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/0687e3ad2bd8e3ad.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "O último desejo do conquistador foi cruel:",
+    "inicio": 15.252,
+    "fim": 19.223,
+    "duracao": 3.971,
+    "visual": {
+      "real": {
+        "nome": "YuanEmperorAlbumGenghisPortrait (cropped).jpg",
+        "descricao": "Taizu, better known as Genghis Khan. Portrait cropped out of a page from an album depicting several Yuan emperors (Yuandjai di banshenxiang), now located in the",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/YuanEmperorAlbumGenghisPortrait_%28cropped%29.jpg/1280px-YuanEmperorAlbumGenghisPortrait_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Unknown authorUnknown author"
+      },
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. 13th century Mongolian emperor sitting on a throne inside a dark yurt, face obscured by shadows, wearing ornate silk and fur robes, holding a golden seal, dramatic side lighting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/YuanEmperorAlbumGenghisPortrait_%28cropped%29.jpg/1280px-YuanEmperorAlbumGenghisPortrait_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/2bc3ccb5db6772fc.jpg",
+      "credito": "YuanEmperorAlbumGenghisPortrait (cropped).jpg — Unknown authorUnknown author (Public domain)"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "ninguém jamais poderia encontrar seus restos mortais.",
+    "inicio": 19.223,
+    "fim": 23.193,
+    "duracao": 3.97,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. A dense, ancient forest at the foot of a mountain, thick fog rolling through the trees, no visible paths, untouched nature, eerie and sacred atmosphere, cinematic depth., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/4367e371981cce0c.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "Para garantir o silêncio eterno, soldados levaram o caixão",
+    "inicio": 23.193,
+    "fim": 28.298,
+    "duracao": 5.105,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. 13th century Mongolian soldiers in leather armor carrying a heavy, ornate wooden sarcophagus through a narrow mountain pass, snowy wind, dramatic lighting, low angle shot., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/451c27ecf9c1a597.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "até as montanhas geladas da Mongólia.",
+    "inicio": 28.298,
+    "fim": 31.16,
+    "duracao": 2.862,
+    "visual": {
+      "real": {
+        "nome": "Burkhan Khaldun mount3.jpg",
+        "descricao": "Burkhan Khaldun mount",
+        "licenca": "CC BY-SA 2.0",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Burkhan_Khaldun_mount3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Ganzorig Gavaa"
+      },
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. The snow-capped peaks of the Khentii Mountains in Mongolia, jagged rocks, icy winds, vast blue sky, cinematic landscape, vertical perspective of the sacred heights., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Burkhan_Khaldun_mount3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/5bbfdf84011484e8.jpg",
+      "credito": "Burkhan Khaldun mount3.jpg — Ganzorig Gavaa (CC BY-SA 2.0)"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "Dizem que desviaram o curso de um rio inteiro para afogar o túmulo.",
+    "inicio": 31.16,
+    "fim": 35.48,
+    "duracao": 4.32,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. A wide river being diverted by ancient wooden dams and stones, rushing water flooding a hidden valley, 13th century engineering, muddy banks, dramatic movement, aerial view., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/18e5658c33bef34f.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "Outros juram que muitos cavalos pisotearam a terra até o solo parecer intocado.",
+    "inicio": 35.48,
+    "fim": 40.58,
+    "duracao": 5.1,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. A massive herd of thousands of Mongolian horses galloping over a flat patch of earth, huge dust clouds rising, hoof prints being flattened, cinematic action shot, 13th century., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/f2faeb80aefc63bb.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "Mas o verdadeiro horror veio depois.",
+    "inicio": 40.58,
+    "fim": 43.6,
+    "duracao": 3.02,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. Dark silhouettes of warriors standing on a rocky ridge at night, moonlight reflecting off curved sabers, cold atmosphere, sense of impending doom, cinematic noir style., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/bd379e0c31809055.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "Os dois mil escravos do funeral foram executados pelos soldados da guarda.",
+    "inicio": 43.6,
+    "fim": 48.12,
+    "duracao": 4.52,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. Abandoned wooden shovels and simple tunics scattered on the ground, long shadows of soldiers holding spears in the distance, sunset over the steppe, somber atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/223d5e7433e76062.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "Logo em seguida, esses soldados foram mortos por um segundo grupo,",
+    "inicio": 48.12,
+    "fim": 51.68,
+    "duracao": 3.56,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. An ambush in a narrow canyon, silhouettes of archers on the high cliffs, arrows flying through the air, 13th century Mongolian armor, cinematic tension, high contrast., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/5d07b87e7ba4c341.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "que eliminou qualquer testemunha no caminho.",
+    "inicio": 51.68,
+    "fim": 54.1,
+    "duracao": 2.42,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. A lonely, winding trail through the Mongolian wilderness, discarded helmets and broken wheels on the grass, silence and desolation, cold morning light, wide shot., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/ee60a03d5cc68bb0.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "No fim, os próprios guerreiros tiraram a vida.",
+    "inicio": 54.1,
+    "fim": 57.54,
+    "duracao": 3.44,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. A row of curved Mongolian swords stuck into the ground at the edge of a cliff, a lone tattered banner fluttering in the wind, sunset, tragic and heroic atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/23b2352049a6c28d.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 15,
+    "texto": "Hoje, a área é chamada de \"O Grande Tabu\".",
+    "inicio": 57.54,
+    "fim": 61.52,
+    "duracao": 3.98,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. A modern warning sign in Mongolian and English near a restricted mountain area, barbed wire fence, vast empty landscape in the background, cold blue sky., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/c5fc31a076ca34bf.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 16,
+    "texto": "Drones detectaram uma estrutura misteriosa de duzentos e cinquenta metros no topo de uma montanha sagrada,",
+    "inicio": 61.52,
+    "fim": 67.34,
+    "duracao": 5.82,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. High-tech drone perspective showing a faint, square stone outline beneath the grass on a flat mountain top, digital scanning interface overlay, modern archaeology, cinematic tech., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/106132fd9df0ad47.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 17,
+    "texto": "mas o governo proíbe qualquer escavação. O sono do imperador continua protegido.",
+    "inicio": 67.34,
+    "fim": 72.88,
+    "duracao": 5.54,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. A modern Mongolian guard standing in front of a sacred mountain range, military uniform, distant peaks, sunset, sense of protection and secrecy, cinematic lighting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/fc57cb5d9fe536ac.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 18,
+    "texto": "Você teria coragem de abrir esse túmulo sabendo do preço que foi pago,",
+    "inicio": 72.88,
+    "fim": 77.48,
+    "duracao": 4.6,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. A close-up of a hand reaching down to touch the dry, cracked earth of the Mongolian steppe, golden hour lighting, mystery and hesitation, cinematic texture., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/9b05f87e9bd68a33.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 19,
+    "texto": "ou o segredo deve morrer com ele?",
+    "inicio": 77.48,
+    "fim": 80.3,
+    "duracao": 2.82,
+    "visual": {
+      "real": null,
+      "ia": "13th-century Mongolia, Khentii Mountains, and modern-day archaeological sites, period-accurate clothing and technology. A wide, cinematic shot of the Mongolian landscape at twilight, the Milky Way visible in the sky above the mountains, a sense of eternal peace and hidden history., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/134e151fd66a2da4.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  }
+]
