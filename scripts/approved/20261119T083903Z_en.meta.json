@@ -36,5 +36,21 @@
       "titulo": "Hinterkaifeck murders",
       "url": "https://en.wikipedia.org/wiki/Hinterkaifeck_murders"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-22",
+  "producao": {
+    "etapa": "pronto",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 1.0,
+    "atualizado": "2026-11-22 14:52:46"
+  },
+  "voz": "gemini",
+  "creditos_imagens": [
+    "Hinterkaifeck-Hof (cropped).jpg — Andreas Biegleder. According to a letter from the City Archive of Munich from Oc (Public domain)"
+  ],
+  "imagens_ia": 17,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261119T083903Z_en.mp4",
+  "duracao_seg": 80.5
 }

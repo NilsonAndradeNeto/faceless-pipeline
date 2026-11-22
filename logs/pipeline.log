@@ -3591,3 +3591,118 @@ Traceback (most recent call last):
 json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
 23:57:52 [ciclo] INFO: Instagram (PT) não conectado — falta IG_TOKEN_PT no .env
 23:57:52 [ciclo] INFO: Conta tiktok (PT) ainda não conectada
+14:42:04 [ciclo] INFO: — ciclo 22/11 14:42 —
+14:42:04 [ciclo] INFO: Aprovado automaticamente: Como a Biblioteca de Alexandria foi perdida de verdade
+14:42:04 [ciclo] INFO: Vídeo PT de hoje: Como a Biblioteca de Alexandria foi perdida de verdade
+14:42:04 [ciclo] INFO: Aprovado automaticamente: The Murderer Who Lived With His Victims
+14:42:04 [ciclo] INFO: Vídeo EN de hoje: The Murderer Who Lived With His Victims
+14:42:04 [produzir] INFO: ▶ Produzindo: The Murderer Who Lived With His Victims
+14:42:05 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1085 caracteres, restam só 771) — usando a voz do Gemini
+14:42:25 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 86.9s
+14:42:30 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+14:42:30 [tts] INFO: Legenda alinhada: 178 de 180 palavras batem com o Whisper
+14:42:30 [tts] WARNING: Cortando 6.3s de fala extra no início do áudio do Gemini
+14:42:31 [tts] INFO: Narração pronta (gemini): 79.9s, 180 palavras
+14:42:31 [visual_planner] INFO: 6 imagens reais disponíveis nos artigos-fonte
+14:42:55 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+14:42:55 [llm] INFO: gemini/gemini-3.5-flash [visual] 1036→1118 tokens, US$0.0000, 24.3s
+14:42:55 [visual_planner] INFO: 18 cenas (média 4.5s): 2 com imagem real, 16 com IA
+14:42:59 [broll] INFO: Cena  1 (5.3s): ia        Footsteps echoed from the attic, an unfamiliar newspaper app
+14:43:05 [broll] INFO: Cena  2 (5.0s): ia        the yard, and footprints led straight from the dark woods to
+14:43:05 [broll] INFO: Limite de download, aguardando 60s
+14:44:05 [broll] INFO: Limite de download, aguardando 60s
+14:45:05 [broll] INFO: Limite de download, aguardando 60s
+14:46:05 [broll] INFO: Limite de download, aguardando 60s
+14:47:05 [broll] WARNING: Cena 3: erro numa fonte (429 Client Error: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this messag), tentando a próxima
+14:47:09 [broll] INFO: Cena  3 (3.0s): ia        Bavarian farm. Terrified,
+14:47:20 [broll] INFO: Cena  4 (3.2s): ia        the maid quit, claiming the house was haunted.
+14:47:32 [broll] INFO: Cena  5 (5.3s): ia        But in March 1922, Andreas Gruber ignored the warnings and r
+14:47:42 [broll] INFO: Cena  6 (5.2s): ia        call the police. On Friday, a new maid named Maria arrived f
+14:47:43 [broll] INFO: Cena  7 (4.7s): wikimedia day. That evening, silence fell over the farmstead.
+14:47:53 [broll] INFO: Cena  8 (4.6s): ia        One by one, four family members were lured into the cold bar
+14:48:18 [broll] INFO: Cena  9 (4.3s): ia        where a heavy iron mattock crushed their skulls in the dark.
+14:48:35 [broll] INFO: Cena 10 (4.8s): ia        Inside the bedroom, Maria and two-year-old Josef died in the
+14:48:47 [broll] INFO: Cena 11 (5.3s): ia        Seven-year-old Cäzilia survived for hours, tearing her hair 
+14:48:57 [broll] INFO: Cena 12 (3.5s): ia        But the terrifying truth was just beginning.
+14:49:09 [broll] INFO: Cena 13 (5.8s): ia        The killer lived inside the house with six corpses for three
+14:49:22 [broll] INFO: Cena 14 (4.9s): ia        He ate their food, lit fires in the hearth, and fed the catt
+14:49:31 [broll] INFO: Cena 15 (5.0s): ia        Four long days passed before neighbors finally entered the q
+14:49:43 [broll] INFO: Cena 16 (5.2s): ia        Decades later, the case was officially closed, completely un
+14:49:54 [broll] INFO: Cena 17 (3.1s): ia        Why would someone slaughter an entire family,
+14:50:09 [broll] INFO: Cena 18 (2.4s): ia        yet stay to feed their livestock?
+14:50:09 [video_builder] INFO: Cena 1/18 (imagem, 5.3s)
+14:50:09 [video_builder] INFO: Encoder: x264
+14:50:13 [video_builder] INFO: Cena 2/18 (imagem, 5.0s)
+14:50:19 [video_builder] INFO: Cena 3/18 (imagem, 3.0s)
+14:50:24 [video_builder] INFO: Cena 4/18 (imagem, 3.2s)
+14:50:28 [video_builder] INFO: Cena 5/18 (imagem, 5.3s)
+14:50:34 [video_builder] INFO: Cena 6/18 (imagem, 5.2s)
+14:50:40 [video_builder] INFO: Cena 7/18 (imagem, 4.7s)
+14:50:45 [video_builder] INFO: Cena 8/18 (imagem, 4.6s)
+14:50:50 [video_builder] INFO: Cena 9/18 (imagem, 4.3s)
+14:50:55 [video_builder] INFO: Cena 10/18 (imagem, 4.8s)
+14:51:00 [video_builder] INFO: Cena 11/18 (imagem, 5.3s)
+14:51:06 [video_builder] INFO: Cena 12/18 (imagem, 3.5s)
+14:51:11 [video_builder] INFO: Cena 13/18 (imagem, 5.8s)
+14:51:17 [video_builder] INFO: Cena 14/18 (imagem, 4.9s)
+14:51:23 [video_builder] INFO: Cena 15/18 (imagem, 5.0s)
+14:51:28 [video_builder] INFO: Cena 16/18 (imagem, 5.2s)
+14:51:34 [video_builder] INFO: Cena 17/18 (imagem, 3.1s)
+14:51:38 [video_builder] INFO: Cena 18/18 (imagem, 2.4s)
+14:51:42 [video_builder] INFO: Música: trilha_04.mp3
+14:52:46 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261119T083903Z_en.mp4 (80.5s)
+14:52:46 [produzir] INFO: ✅ Pronto: The Murderer Who Lived With His Victims
+14:52:46 [produzir] INFO: ▶ Produzindo: Como a Biblioteca de Alexandria foi perdida de verdade
+14:52:46 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1168 caracteres, restam só 771) — usando a voz do Gemini
+14:52:46 [tts] WARNING: Gemini TTS falhou — gemini-3.8-flash-tts: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+14:53:16 [produzir] ERROR: Falhou na etapa narração
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 190, in narrar
+    audio, alinhamento = elevenlabs(texto, meta["lang"])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 44, in elevenlabs
+    raise CotaEsgotada(f"ElevenLabs: faltam {len(texto)} caracteres, restam só {restantes}")
+pipeline.tts.CotaEsgotada: ElevenLabs: faltam 1168 caracteres, restam só 771
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 78, in produzir
+    fn()
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 68, in <lambda>
+    etapas = [("narração", lambda: None if ja_narrado else narrar(script_id)),
+                                                           ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 199, in narrar
+    gemini_tts(texto, meta["lang"], bruto)
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 95, in gemini_tts
+    pcm = base64.b64decode(r.json()["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'content'
+14:53:16 [produzir] ERROR: Falha ao produzir 20261122T025535Z_pt (segue para o próximo)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 190, in narrar
+    audio, alinhamento = elevenlabs(texto, meta["lang"])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 44, in elevenlabs
+    raise CotaEsgotada(f"ElevenLabs: faltam {len(texto)} caracteres, restam só {restantes}")
+pipeline.tts.CotaEsgotada: ElevenLabs: faltam 1168 caracteres, restam só 771
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 119, in produzir_fila
+    produzir(sid, ate="plano visual" if sem_imagens else None)
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 78, in produzir
+    fn()
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 68, in <lambda>
+    etapas = [("narração", lambda: None if ja_narrado else narrar(script_id)),
+                                                           ^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 199, in narrar
+    gemini_tts(texto, meta["lang"], bruto)
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/tts.py", line 95, in gemini_tts
+    pcm = base64.b64decode(r.json()["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'content'

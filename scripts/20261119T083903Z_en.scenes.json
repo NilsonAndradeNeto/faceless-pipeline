@@ -1,0 +1,338 @@
+[
+  {
+    "n": 1,
+    "texto": "Footsteps echoed from the attic, an unfamiliar newspaper appeared in",
+    "inicio": 0.0,
+    "fim": 5.27,
+    "duracao": 5.27,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical shot of an old dusty wooden attic ceiling with creaking floorboards above, while below on a rustic table lies an unfamiliar vintage 1920s German newspaper, dim eerie illumination., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/05de7adae332cef3.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "the yard, and footprints led straight from the dark woods to an isolated",
+    "inicio": 5.27,
+    "fim": 10.31,
+    "duracao": 5.04,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical view of fresh footprints in light snow leading directly from a dense black pine forest toward a dark distant Bavarian farmyard, winter evening, desolate spooky mood., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/fc98a98a8d360f79.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "Bavarian farm. Terrified,",
+    "inicio": 10.31,
+    "fim": 13.31,
+    "duracao": 3.0,
+    "visual": {
+      "real": {
+        "nome": "Photo - Hinterkaifeck.jpg",
+        "descricao": "Photo - Einödhof Hinterkaifeck - before 1922.\nDepiction of the Hinterkaifeck wasteland, labelled Hint.-Kaifeck in the (official topographic) position sheet 1:25",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Photo_-_Hinterkaifeck.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Unknown authorUnknown author"
+      },
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical cinematic photo of an isolated 1920s Bavarian wooden farmhouse standing alone against a vast gloomy winter landscape under overcast grey skies, eerie quiet countryside., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/f36e20a862f6859c.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "the maid quit, claiming the house was haunted.",
+    "inicio": 13.31,
+    "fim": 16.53,
+    "duracao": 3.22,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical shot of a terrified 1920s young German housemaid wearing a traditional apron, hurriedly carrying her suitcase away down a dirt road, looking back nervously at the farm., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/6ee21982b2090927.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "But in March 1922, Andreas Gruber ignored the warnings and refused to",
+    "inicio": 16.53,
+    "fim": 21.83,
+    "duracao": 5.3,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical portrait of a stubborn elderly 1920s German farmer in wool vest standing by a frosted window, looking sternly outside, gloomy shadow cast across his face., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/f7c55eca9821af82.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "call the police. On Friday, a new maid named Maria arrived for her first",
+    "inicio": 21.83,
+    "fim": 27.07,
+    "duracao": 5.24,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical shot of a young maid carrying a woven basket walking along a cold muddy lane toward an old timber-framed farm house at twilight, late winter 1922., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/84cb1f1dd40b69ea.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "day. That evening, silence fell over the farmstead.",
+    "inicio": 27.07,
+    "fim": 31.73,
+    "duracao": 4.66,
+    "visual": {
+      "real": {
+        "nome": "Hinterkaifeck-Hof (cropped).jpg",
+        "descricao": "View of Hinterkaifeck from the south",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Hinterkaifeck-Hof_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Andreas Biegleder. According to a letter from the City Archive of Munich from Oc"
+      },
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical moody shot of a remote German farmstead at dusk, dark silhouette against a cold blue twilight sky, completely silent and still, mist rising from cold ground., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Hinterkaifeck-Hof_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/1c7a5a4489cc4d51.jpg",
+      "credito": "Hinterkaifeck-Hof (cropped).jpg — Andreas Biegleder. According to a letter from the City Archive of Munich from Oc (Public domain)"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "One by one, four family members were lured into the cold barn,",
+    "inicio": 31.73,
+    "fim": 36.31,
+    "duracao": 4.58,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical perspective inside a dark cold barn, open wooden doors revealing a moonlit night outside, flickering shadows cast over stacked hay bales and wooden beams., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/c4136078b9da472e.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "where a heavy iron mattock crushed their skulls in the dark.",
+    "inicio": 36.31,
+    "fim": 40.61,
+    "duracao": 4.3,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical close-up of a heavy rusted 1920s iron mattock tool resting on dusty barn floorboards in pitch darkness, a single shaft of faint moonlight illuminating cold metal., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/c874a11872ad3f7f.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "Inside the bedroom, Maria and two-year-old Josef died in their beds.",
+    "inicio": 40.61,
+    "fim": 45.39,
+    "duracao": 4.78,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical interior of a dimly lit 1920s farmhouse bedroom, an unmade rustic wooden bed with ruffled goose-feather blankets, pale moonlight streaming through a small window pane., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/925f2c729331113c.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "Seven-year-old Cäzilia survived for hours, tearing her hair out in the straw.",
+    "inicio": 45.39,
+    "fim": 50.73,
+    "duracao": 5.34,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical shot of a disturbed pile of straw in a dark barn corner, a tiny brass hairpin lying forgotten in the hay, sinister shadows cast along timber walls., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/19f8c446efea7c17.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "But the terrifying truth was just beginning.",
+    "inicio": 50.73,
+    "fim": 54.19,
+    "duracao": 3.46,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical shot of an antique German brass wall clock ticking in a dark wooden hallway, long eerie shadows stretching across cold stone floors, tense mystery atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/4b9740cbaafa908f.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "The killer lived inside the house with six corpses for three whole days.",
+    "inicio": 54.19,
+    "fim": 60.03,
+    "duracao": 5.84,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical dark silhouette of an anonymous figure standing silently inside a dimly lit 1920s farmhouse kitchen at midnight, view framed through a heavy oak doorway., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/066f6a7fb7c5e011.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "He ate their food, lit fires in the hearth, and fed the cattle.",
+    "inicio": 60.03,
+    "fim": 64.89,
+    "duracao": 4.86,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical shot of glowing embers inside a stone fireplace hearth in a dark room, half-eaten bread on a wooden table, warm fire light flickering ominously., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/71bc6379b0943095.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 15,
+    "texto": "Four long days passed before neighbors finally entered the quiet property.",
+    "inicio": 64.89,
+    "fim": 69.85,
+    "duracao": 4.96,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical shot of three concerned 1920s local German villagers in heavy wool coats approaching a silent, closed wooden barn door in the quiet countryside., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/dd48718a58d7f08b.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 16,
+    "texto": "Decades later, the case was officially closed, completely unsolved.",
+    "inicio": 69.85,
+    "fim": 75.03,
+    "duracao": 5.18,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical top-down shot of a thick vintage 1920s police case file stamped with official German seals lying on a dark wooden desk beside a fading photograph., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/b2cfb4ba5f8826eb.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 17,
+    "texto": "Why would someone slaughter an entire family,",
+    "inicio": 75.03,
+    "fim": 78.13,
+    "duracao": 3.1,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical dark atmospheric composition showing six flickering memorial candles burning on a dark wooden surface in front of a cold desolate Bavarian landscape., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/c08ccabbf669a71c.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 18,
+    "texto": "yet stay to feed their livestock?",
+    "inicio": 78.13,
+    "fim": 80.49,
+    "duracao": 2.36,
+    "visual": {
+      "real": null,
+      "ia": "Bavaria, Germany, March 1922, isolated farmstead, period-accurate clothing and technology. Vertical shot inside a quiet vintage stable, cattle eating hay from a wooden manger in low warm lantern light, calm yet deeply haunting mood., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/dee7edf892b9dbf3.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  }
+]

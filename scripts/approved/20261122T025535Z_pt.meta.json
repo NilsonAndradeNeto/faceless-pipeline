@@ -40,5 +40,14 @@
       "titulo": "Destruição da Biblioteca de Alexandria",
       "url": "https://pt.wikipedia.org/wiki/Destrui%C3%A7%C3%A3o_da_Biblioteca_de_Alexandria"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-22",
+  "producao": {
+    "etapa": "erro",
+    "erro": "narração: 'content'",
+    "detalhe": "",
+    "progresso": 0.0,
+    "atualizado": "2026-11-22 14:53:16"
+  }
 }
