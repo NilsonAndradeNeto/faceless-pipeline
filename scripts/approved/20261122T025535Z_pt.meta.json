@@ -44,10 +44,11 @@
   "aprovacao": "automatica",
   "data_post": "2026-11-22",
   "producao": {
-    "etapa": "erro",
-    "erro": "narração: 'content'",
+    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "erro": null,
     "detalhe": "",
-    "progresso": 0.0,
-    "atualizado": "2026-11-22 14:53:16"
-  }
+    "progresso": 0.18,
+    "atualizado": "2026-11-22 20:28:26"
+  },
+  "voz": "gemini"
 }

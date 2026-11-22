@@ -1,0 +1,248 @@
+[
+  {
+    "n": 1,
+    "texto": "A história que te contaram sobre a Biblioteca de Alexandria é uma grande mentira.",
+    "inicio": 0.0,
+    "fim": 6.37,
+    "duracao": 6.37,
+    "visual": {
+      "real": null,
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. A cinematic overhead shot of ancient parchment scrolls fading into smoke and dust over a marble floor in ancient Alexandria, dark mysterious atmosphere, historical realism, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "O fim do maior acervo do mundo antigo esconde um desfecho muito pior.",
+    "inicio": 6.37,
+    "fim": 12.51,
+    "duracao": 6.14,
+    "visual": {
+      "real": null,
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. A dramatic wide shot of abandoned stone grand hall arches with shadows, scattered papyrus scrolls lying on dust-covered mosaic floors, dim sunlight filtering through high windows., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "Tudo começou com a obsessão dos reis da dinastia ptolomaica,",
+    "inicio": 12.51,
+    "fim": 16.41,
+    "duracao": 3.9,
+    "visual": {
+      "real": {
+        "nome": "Ptolemy I Soter Louvre Ma849.jpg",
+        "descricao": "A Hellenistic bust depicting Ptolemy I Soter, 3rd century BCE, founder of the Library of Alexandria. Louvre, Paris",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Ptolemy_I_Soter_Louvre_Ma849.jpg/1280px-Ptolemy_I_Soter_Louvre_Ma849.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Marie-Lan Nguyen"
+      },
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. A Hellenistic Ptolemaic pharaoh in royal linen robes standing in a sunlit palace corridor, inspecting rolled papyrus scrolls held by courtiers, ancient Egyptian Greek architecture., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "que enviavam agentes com muito dinheiro para comprar todos os textos da Terra.",
+    "inicio": 16.41,
+    "fim": 22.19,
+    "duracao": 5.78,
+    "visual": {
+      "real": null,
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. An ancient Greek merchant trader exchanging heavy bronze coins for precious papyrus scrolls with a desert traveler at a bustling Mediterranean port, sunny day, detailed textures., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "Qualquer navio que aportava lá tinha seus livros confiscados na hora.",
+    "inicio": 22.19,
+    "fim": 26.85,
+    "duracao": 4.66,
+    "visual": {
+      "real": null,
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. Alexandrian port guards in ancient linen tunics boarding a wooden Greco-Roman merchant ship at harbor docks, carefully carrying wooden chests filled with papyrus scrolls ashore., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "Os escribas copiavam tudo, guardavam o original e entregavam a cópia ao dono.",
+    "inicio": 26.85,
+    "fim": 33.27,
+    "duracao": 6.42,
+    "visual": {
+      "real": {
+        "nome": "Maqamat hariri.jpg",
+        "descricao": "Manuscript with depiction by Yahya ibn Vaseti found in the Maqama of Hariri located at the Bibliotheque Nationale de France. Image depicts a library with pupils",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Maqamat_hariri.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Zereshk"
+      },
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. Ancient scribes sitting at wooden desks in a grand sunlit scriptorium, copying Greek text on fresh papyrus scrolls using reed pens, ink pots, quiet focused atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "Juntaram até setecentos mil rolos de papiro sob a frase:",
+    "inicio": 33.27,
+    "fim": 36.97,
+    "duracao": 3.7,
+    "visual": {
+      "real": {
+        "nome": "Ancientlibraryalex.jpg",
+        "descricao": "Artistic Rendering of the Library of Alexandria, based on some archaeological evidence.",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ancientlibraryalex.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "O. Von Corven"
+      },
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. Endless rows of high wooden shelves packed with thousands of rolled papyrus scrolls in a vast ancient library interior, grand classical columns, warm golden lighting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "o lugar da cura da alma.",
+    "inicio": 36.97,
+    "fim": 40.57,
+    "duracao": 3.6,
+    "visual": {
+      "real": {
+        "nome": "Alexandria Library Inscription.jpg",
+        "descricao": "Inscription regarding Tiberius Claudius Babillus of Rome (d. 56 CE) which confirms that the Library of Alexandria must have existed in some form in the first ce",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Alexandria_Library_Inscription.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Tomisti"
+      },
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. Ancient Greek inscription carved into a white marble stone lintel above a magnificent library doorway, soft sunlight highlighting the carved letters, tranquil scholarly environment., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "Dizem que Júlio César queimou o acervo durante a guerra civil,",
+    "inicio": 40.57,
+    "fim": 44.39,
+    "duracao": 3.82,
+    "visual": {
+      "real": {
+        "nome": "César (13667960455).jpg",
+        "descricao": "Bust of Julius Caesar. A member of the triumvirate.",
+        "licenca": "CC BY 2.0",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/C%C3%A9sar_%2813667960455%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Gautier Poupeau from Paris, France"
+      },
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. Ancient wooden harbor ships engulfing in flames at night in the port of Alexandria, thick black smoke rising into the dark sky, glowing red embers over water., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "só que a biblioteca sobreviveu. A ruína real veio devagar.",
+    "inicio": 44.39,
+    "fim": 49.31,
+    "duracao": 4.92,
+    "visual": {
+      "real": {
+        "nome": "Antikes Alexandria Karte.JPG",
+        "descricao": "Karte der antiken ägyptischen Stadt Alexandria.",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Antikes_Alexandria_Karte.JPG/1280px-Antikes_Alexandria_Karte.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Friedrich Wilhelm Putzger (1849-1913), nach O. Puchstein in Pauly, Real-Encycl."
+      },
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. A weathered ancient stone courtyard showing signs of neglect, cracked marble columns, dry winds sweeping autumn leaves and forgotten papyrus fragments across empty stone benches., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "Governantes expulsaram os filósofos e o financiamento público acabou.",
+    "inicio": 49.31,
+    "fim": 54.35,
+    "duracao": 5.04,
+    "visual": {
+      "real": null,
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. Robed scholars and philosophers carrying satchels walking away from a grand classical marble building into a dusty road, empty halls left in silhouette behind them., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "No ano trêscentos e noventa e um, revoltas religiosas saquearam o templo do Serapeu.",
+    "inicio": 54.35,
+    "fim": 60.03,
+    "duracao": 5.68,
+    "visual": {
+      "real": {
+        "nome": "Alexandria - Pompey's Pillar - view of ruins.JPG",
+        "descricao": "Alexandria - View of ruins of the Serapeum from  Pompey's Pillar.",
+        "licenca": "CC BY-SA 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Alexandria_-_Pompey%27s_Pillar_-_view_of_ruins.JPG/1280px-Alexandria_-_Pompey%27s_Pillar_-_view_of_ruins.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Daniel Mayer"
+      },
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. A dramatic exterior view of the ancient Serapeum temple of Alexandria, shadowed angry crowds in dark tunics entering grand stone gates, dramatic storm clouds above., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "O golpe final foi bizarro: relatos árabes antigos afirmam que os manuscritos",
+    "inicio": 60.03,
+    "fim": 65.23,
+    "duracao": 5.2,
+    "visual": {
+      "real": {
+        "nome": "Alexandrian World Chronicle - 6v.jpg",
+        "descricao": "Alexandrian World Chronicle - 6v - Theophilus",
+        "licenca": "Public domain",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Alexandrian_World_Chronicle_-_6v.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Unknown authorUnknown author"
+      },
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. An ancient illuminated manuscript page resting on a dark wooden scholar desk, illuminated by flickering candlelight, revealing intricate historic script and faded ink drawings., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "restantes viraram combustível.",
+    "inicio": 65.23,
+    "fim": 67.97,
+    "duracao": 2.74,
+    "visual": {
+      "real": null,
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. A close-up of a stack of old papyrus rolls stacked near a glowing stone furnace hearth, dim fiery light illuminating worn text on fibrous parchment edges., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 15,
+    "texto": "Foram necessários seis meses inteiros queimando papiro para aquecer os banhos públicos.",
+    "inicio": 67.97,
+    "fim": 74.03,
+    "duracao": 6.06,
+    "visual": {
+      "real": null,
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. Steam rising from a luxurious ancient public bathhouse with mosaic tile floors and arched stone pillars, warm orange firelight glowing from underground heating chambers., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 16,
+    "texto": "O conhecimento antigo não sumiu num grande incêndio, foi destruído aos poucos pelo tempo",
+    "inicio": 74.03,
+    "fim": 79.43,
+    "duracao": 5.4,
+    "visual": {
+      "real": null,
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. A single forgotten papyrus scroll slowly decaying into dust on a stone shelf over centuries, rays of sunlight shifting across weathered crumbling walls., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 17,
+    "texto": "e pela intolerância. Se você pudesse salvar um único livro perdido",
+    "inicio": 79.43,
+    "fim": 84.63,
+    "duracao": 5.2,
+    "visual": {
+      "real": null,
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. A lonely figure in ancient robes reaching out a hand toward a glowing golden scroll on a dusty pedestal in a dark ruined library vault., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 18,
+    "texto": "dali, qual seria?",
+    "inicio": 84.63,
+    "fim": 86.69,
+    "duracao": 2.06,
+    "visual": {
+      "real": null,
+      "ia": "Alexandria, Egypt, 3rd Century BCE to 7th Century CE, period-accurate clothing and technology. A mysterious closed ancient leather-bound book lying on an ornate marble altar, surrounded by dim candlelight, dark soft-focus background, mysterious cinematic ambiance., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  }
+]

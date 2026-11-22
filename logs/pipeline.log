@@ -3706,3 +3706,43 @@ Traceback (most recent call last):
     pcm = base64.b64decode(r.json()["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
                            ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
 KeyError: 'content'
+20:27:33 [ciclo] INFO: — ciclo 22/11 20:27 —
+20:27:33 [produzir] INFO: ▶ Produzindo: Como a Biblioteca de Alexandria foi perdida de verdade
+20:27:33 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1168 caracteres, restam só 771) — usando a voz do Gemini
+20:27:56 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 93.0s
+20:28:01 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+20:28:01 [tts] INFO: Legenda alinhada: 182 de 189 palavras batem com o Whisper
+20:28:01 [tts] WARNING: Cortando 6.3s de fala extra no início do áudio do Gemini
+20:28:02 [tts] INFO: Narração pronta (gemini): 86.1s, 189 palavras
+20:28:03 [visual_planner] INFO: 13 imagens reais disponíveis nos artigos-fonte
+20:28:25 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+20:28:25 [llm] INFO: gemini/gemini-3.5-flash [visual] 1217→1087 tokens, US$0.0000, 22.4s
+20:28:25 [visual_planner] INFO: 18 cenas (média 4.8s): 8 com imagem real, 10 com IA
+20:28:25 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+20:28:26 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+20:28:26 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+20:28:26 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+20:28:26 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+20:28:26 [ciclo] ERROR: Falha ao publicar en youtube
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 197, in publicar_no_horario
+    r = publicar(plataforma, ler_json(meta_arq), video)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 166, in publicar
+    return publicar_youtube(meta, Path(video))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 52, in publicar_youtube
+    yt = youtube_cliente(meta["lang"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 42, in youtube_cliente
+    cred = Credentials.from_authorized_user_file(str(arq), ESCOPOS_YT)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/.venv/lib/python3.11/site-packages/google/oauth2/credentials.py", line 544, in from_authorized_user_file
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
+    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
+json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)

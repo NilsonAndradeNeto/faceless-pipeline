@@ -1,0 +1,947 @@
+[
+  {
+    "palavra": "A",
+    "inicio": 0.15,
+    "fim": 0.23
+  },
+  {
+    "palavra": "história",
+    "inicio": 0.23,
+    "fim": 0.61
+  },
+  {
+    "palavra": "que",
+    "inicio": 0.61,
+    "fim": 0.93
+  },
+  {
+    "palavra": "te",
+    "inicio": 0.93,
+    "fim": 1.07
+  },
+  {
+    "palavra": "contaram",
+    "inicio": 1.07,
+    "fim": 1.63
+  },
+  {
+    "palavra": "sobre",
+    "inicio": 1.63,
+    "fim": 1.91
+  },
+  {
+    "palavra": "a",
+    "inicio": 1.91,
+    "fim": 2.03
+  },
+  {
+    "palavra": "Biblioteca",
+    "inicio": 2.03,
+    "fim": 2.73
+  },
+  {
+    "palavra": "de",
+    "inicio": 2.73,
+    "fim": 2.91
+  },
+  {
+    "palavra": "Alexandria",
+    "inicio": 2.91,
+    "fim": 3.39
+  },
+  {
+    "palavra": "é",
+    "inicio": 3.39,
+    "fim": 3.89
+  },
+  {
+    "palavra": "uma",
+    "inicio": 3.89,
+    "fim": 4.01
+  },
+  {
+    "palavra": "grande",
+    "inicio": 4.01,
+    "fim": 4.45
+  },
+  {
+    "palavra": "mentira.",
+    "inicio": 4.45,
+    "fim": 5.35
+  },
+  {
+    "palavra": "O",
+    "inicio": 6.37,
+    "fim": 6.53
+  },
+  {
+    "palavra": "fim",
+    "inicio": 6.53,
+    "fim": 6.81
+  },
+  {
+    "palavra": "do",
+    "inicio": 6.81,
+    "fim": 6.97
+  },
+  {
+    "palavra": "maior",
+    "inicio": 6.97,
+    "fim": 7.31
+  },
+  {
+    "palavra": "acervo",
+    "inicio": 7.31,
+    "fim": 7.93
+  },
+  {
+    "palavra": "do",
+    "inicio": 7.93,
+    "fim": 8.05
+  },
+  {
+    "palavra": "mundo",
+    "inicio": 8.05,
+    "fim": 8.31
+  },
+  {
+    "palavra": "antigo",
+    "inicio": 8.31,
+    "fim": 8.89
+  },
+  {
+    "palavra": "esconde",
+    "inicio": 8.89,
+    "fim": 9.57
+  },
+  {
+    "palavra": "um",
+    "inicio": 9.57,
+    "fim": 9.79
+  },
+  {
+    "palavra": "desfecho",
+    "inicio": 9.79,
+    "fim": 10.37
+  },
+  {
+    "palavra": "muito",
+    "inicio": 10.37,
+    "fim": 10.87
+  },
+  {
+    "palavra": "pior.",
+    "inicio": 10.87,
+    "fim": 11.41
+  },
+  {
+    "palavra": "Tudo",
+    "inicio": 12.51,
+    "fim": 12.65
+  },
+  {
+    "palavra": "começou",
+    "inicio": 12.65,
+    "fim": 13.11
+  },
+  {
+    "palavra": "com",
+    "inicio": 13.11,
+    "fim": 13.37
+  },
+  {
+    "palavra": "a",
+    "inicio": 13.37,
+    "fim": 13.49
+  },
+  {
+    "palavra": "obsessão",
+    "inicio": 13.49,
+    "fim": 13.99
+  },
+  {
+    "palavra": "dos",
+    "inicio": 13.99,
+    "fim": 14.23
+  },
+  {
+    "palavra": "reis",
+    "inicio": 14.23,
+    "fim": 14.51
+  },
+  {
+    "palavra": "da",
+    "inicio": 14.51,
+    "fim": 14.71
+  },
+  {
+    "palavra": "dinastia",
+    "inicio": 14.71,
+    "fim": 15.21
+  },
+  {
+    "palavra": "ptolomaica,",
+    "inicio": 15.21,
+    "fim": 16.13
+  },
+  {
+    "palavra": "que",
+    "inicio": 16.41,
+    "fim": 16.59
+  },
+  {
+    "palavra": "enviavam",
+    "inicio": 16.59,
+    "fim": 17.01
+  },
+  {
+    "palavra": "agentes",
+    "inicio": 17.01,
+    "fim": 17.53
+  },
+  {
+    "palavra": "com",
+    "inicio": 17.53,
+    "fim": 17.79
+  },
+  {
+    "palavra": "muito",
+    "inicio": 17.79,
+    "fim": 18.29
+  },
+  {
+    "palavra": "dinheiro",
+    "inicio": 18.29,
+    "fim": 18.69
+  },
+  {
+    "palavra": "para",
+    "inicio": 18.69,
+    "fim": 18.95
+  },
+  {
+    "palavra": "comprar",
+    "inicio": 18.95,
+    "fim": 19.27
+  },
+  {
+    "palavra": "todos",
+    "inicio": 19.27,
+    "fim": 19.83
+  },
+  {
+    "palavra": "os",
+    "inicio": 19.83,
+    "fim": 20.13
+  },
+  {
+    "palavra": "textos",
+    "inicio": 20.13,
+    "fim": 20.53
+  },
+  {
+    "palavra": "da",
+    "inicio": 20.53,
+    "fim": 20.67
+  },
+  {
+    "palavra": "Terra.",
+    "inicio": 20.67,
+    "fim": 21.11
+  },
+  {
+    "palavra": "Qualquer",
+    "inicio": 22.19,
+    "fim": 22.63
+  },
+  {
+    "palavra": "navio",
+    "inicio": 22.63,
+    "fim": 22.95
+  },
+  {
+    "palavra": "que",
+    "inicio": 22.95,
+    "fim": 23.15
+  },
+  {
+    "palavra": "aportava",
+    "inicio": 23.15,
+    "fim": 23.57
+  },
+  {
+    "palavra": "lá",
+    "inicio": 23.57,
+    "fim": 23.77
+  },
+  {
+    "palavra": "tinha",
+    "inicio": 23.77,
+    "fim": 24.07
+  },
+  {
+    "palavra": "seus",
+    "inicio": 24.07,
+    "fim": 24.31
+  },
+  {
+    "palavra": "livros",
+    "inicio": 24.31,
+    "fim": 24.59
+  },
+  {
+    "palavra": "confiscados",
+    "inicio": 24.59,
+    "fim": 25.31
+  },
+  {
+    "palavra": "na",
+    "inicio": 25.31,
+    "fim": 25.77
+  },
+  {
+    "palavra": "hora.",
+    "inicio": 25.77,
+    "fim": 26.23
+  },
+  {
+    "palavra": "Os",
+    "inicio": 26.85,
+    "fim": 27.03
+  },
+  {
+    "palavra": "escribas",
+    "inicio": 27.03,
+    "fim": 27.41
+  },
+  {
+    "palavra": "copiavam",
+    "inicio": 27.41,
+    "fim": 27.95
+  },
+  {
+    "palavra": "tudo,",
+    "inicio": 27.95,
+    "fim": 28.79
+  },
+  {
+    "palavra": "guardavam",
+    "inicio": 28.79,
+    "fim": 29.33
+  },
+  {
+    "palavra": "o",
+    "inicio": 29.33,
+    "fim": 29.51
+  },
+  {
+    "palavra": "original",
+    "inicio": 29.51,
+    "fim": 29.83
+  },
+  {
+    "palavra": "e",
+    "inicio": 29.83,
+    "fim": 30.51
+  },
+  {
+    "palavra": "entregavam",
+    "inicio": 30.51,
+    "fim": 31.05
+  },
+  {
+    "palavra": "a",
+    "inicio": 31.05,
+    "fim": 31.25
+  },
+  {
+    "palavra": "cópia",
+    "inicio": 31.25,
+    "fim": 31.59
+  },
+  {
+    "palavra": "ao",
+    "inicio": 31.59,
+    "fim": 31.77
+  },
+  {
+    "palavra": "dono.",
+    "inicio": 31.77,
+    "fim": 32.61
+  },
+  {
+    "palavra": "Juntaram",
+    "inicio": 33.27,
+    "fim": 33.73
+  },
+  {
+    "palavra": "até",
+    "inicio": 33.73,
+    "fim": 33.97
+  },
+  {
+    "palavra": "setecentos",
+    "inicio": 33.97,
+    "fim": 34.53
+  },
+  {
+    "palavra": "mil",
+    "inicio": 34.53,
+    "fim": 35.09
+  },
+  {
+    "palavra": "rolos",
+    "inicio": 35.09,
+    "fim": 35.51
+  },
+  {
+    "palavra": "de",
+    "inicio": 35.51,
+    "fim": 35.71
+  },
+  {
+    "palavra": "papiro",
+    "inicio": 35.71,
+    "fim": 36.15
+  },
+  {
+    "palavra": "sob",
+    "inicio": 36.15,
+    "fim": 36.43
+  },
+  {
+    "palavra": "a",
+    "inicio": 36.43,
+    "fim": 36.59
+  },
+  {
+    "palavra": "frase:",
+    "inicio": 36.59,
+    "fim": 36.97
+  },
+  {
+    "palavra": "o",
+    "inicio": 36.97,
+    "fim": 37.57
+  },
+  {
+    "palavra": "lugar",
+    "inicio": 37.57,
+    "fim": 37.95
+  },
+  {
+    "palavra": "da",
+    "inicio": 37.95,
+    "fim": 38.43
+  },
+  {
+    "palavra": "cura",
+    "inicio": 38.43,
+    "fim": 38.87
+  },
+  {
+    "palavra": "da",
+    "inicio": 38.87,
+    "fim": 39.03
+  },
+  {
+    "palavra": "alma.",
+    "inicio": 39.03,
+    "fim": 39.41
+  },
+  {
+    "palavra": "Dizem",
+    "inicio": 40.57,
+    "fim": 40.91
+  },
+  {
+    "palavra": "que",
+    "inicio": 40.91,
+    "fim": 41.03
+  },
+  {
+    "palavra": "Júlio",
+    "inicio": 41.03,
+    "fim": 41.31
+  },
+  {
+    "palavra": "César",
+    "inicio": 41.31,
+    "fim": 41.75
+  },
+  {
+    "palavra": "queimou",
+    "inicio": 41.75,
+    "fim": 42.23
+  },
+  {
+    "palavra": "o",
+    "inicio": 42.23,
+    "fim": 42.35
+  },
+  {
+    "palavra": "acervo",
+    "inicio": 42.35,
+    "fim": 42.73
+  },
+  {
+    "palavra": "durante",
+    "inicio": 42.73,
+    "fim": 43.03
+  },
+  {
+    "palavra": "a",
+    "inicio": 43.03,
+    "fim": 43.17
+  },
+  {
+    "palavra": "guerra",
+    "inicio": 43.17,
+    "fim": 43.33
+  },
+  {
+    "palavra": "civil,",
+    "inicio": 43.33,
+    "fim": 43.97
+  },
+  {
+    "palavra": "só",
+    "inicio": 44.39,
+    "fim": 44.53
+  },
+  {
+    "palavra": "que",
+    "inicio": 44.53,
+    "fim": 44.65
+  },
+  {
+    "palavra": "a",
+    "inicio": 44.65,
+    "fim": 44.71
+  },
+  {
+    "palavra": "biblioteca",
+    "inicio": 44.71,
+    "fim": 45.29
+  },
+  {
+    "palavra": "sobreviveu.",
+    "inicio": 45.29,
+    "fim": 46.05
+  },
+  {
+    "palavra": "A",
+    "inicio": 46.77,
+    "fim": 46.97
+  },
+  {
+    "palavra": "ruína",
+    "inicio": 46.97,
+    "fim": 47.27
+  },
+  {
+    "palavra": "real",
+    "inicio": 47.27,
+    "fim": 47.61
+  },
+  {
+    "palavra": "veio",
+    "inicio": 47.61,
+    "fim": 47.95
+  },
+  {
+    "palavra": "devagar.",
+    "inicio": 47.95,
+    "fim": 48.93
+  },
+  {
+    "palavra": "Governantes",
+    "inicio": 49.31,
+    "fim": 49.93
+  },
+  {
+    "palavra": "expulsaram",
+    "inicio": 49.93,
+    "fim": 50.65
+  },
+  {
+    "palavra": "os",
+    "inicio": 50.65,
+    "fim": 50.83
+  },
+  {
+    "palavra": "filósofos",
+    "inicio": 50.83,
+    "fim": 51.53
+  },
+  {
+    "palavra": "e",
+    "inicio": 51.53,
+    "fim": 51.75
+  },
+  {
+    "palavra": "o",
+    "inicio": 51.75,
+    "fim": 51.83
+  },
+  {
+    "palavra": "financiamento",
+    "inicio": 51.83,
+    "fim": 52.35
+  },
+  {
+    "palavra": "público",
+    "inicio": 52.35,
+    "fim": 52.69
+  },
+  {
+    "palavra": "acabou.",
+    "inicio": 52.69,
+    "fim": 53.13
+  },
+  {
+    "palavra": "No",
+    "inicio": 54.35,
+    "fim": 54.51
+  },
+  {
+    "palavra": "ano",
+    "inicio": 54.51,
+    "fim": 54.69
+  },
+  {
+    "palavra": "trêscentos",
+    "inicio": 54.69,
+    "fim": 55.018
+  },
+  {
+    "palavra": "e",
+    "inicio": 55.018,
+    "fim": 55.346
+  },
+  {
+    "palavra": "noventa",
+    "inicio": 55.346,
+    "fim": 55.674
+  },
+  {
+    "palavra": "e",
+    "inicio": 55.674,
+    "fim": 56.002
+  },
+  {
+    "palavra": "um,",
+    "inicio": 56.002,
+    "fim": 56.33
+  },
+  {
+    "palavra": "revoltas",
+    "inicio": 56.33,
+    "fim": 56.75
+  },
+  {
+    "palavra": "religiosas",
+    "inicio": 56.75,
+    "fim": 57.37
+  },
+  {
+    "palavra": "saquearam",
+    "inicio": 57.37,
+    "fim": 57.89
+  },
+  {
+    "palavra": "o",
+    "inicio": 57.89,
+    "fim": 58.13
+  },
+  {
+    "palavra": "templo",
+    "inicio": 58.13,
+    "fim": 58.41
+  },
+  {
+    "palavra": "do",
+    "inicio": 58.41,
+    "fim": 58.65
+  },
+  {
+    "palavra": "Serapeu.",
+    "inicio": 58.65,
+    "fim": 59.23
+  },
+  {
+    "palavra": "O",
+    "inicio": 60.03,
+    "fim": 60.23
+  },
+  {
+    "palavra": "golpe",
+    "inicio": 60.23,
+    "fim": 60.47
+  },
+  {
+    "palavra": "final",
+    "inicio": 60.47,
+    "fim": 60.83
+  },
+  {
+    "palavra": "foi",
+    "inicio": 60.83,
+    "fim": 61.05
+  },
+  {
+    "palavra": "bizarro:",
+    "inicio": 61.05,
+    "fim": 62.09
+  },
+  {
+    "palavra": "relatos",
+    "inicio": 62.27,
+    "fim": 62.73
+  },
+  {
+    "palavra": "árabes",
+    "inicio": 62.73,
+    "fim": 63.33
+  },
+  {
+    "palavra": "antigos",
+    "inicio": 63.33,
+    "fim": 63.75
+  },
+  {
+    "palavra": "afirmam",
+    "inicio": 63.75,
+    "fim": 64.31
+  },
+  {
+    "palavra": "que",
+    "inicio": 64.31,
+    "fim": 64.49
+  },
+  {
+    "palavra": "os",
+    "inicio": 64.49,
+    "fim": 64.63
+  },
+  {
+    "palavra": "manuscritos",
+    "inicio": 64.63,
+    "fim": 65.23
+  },
+  {
+    "palavra": "restantes",
+    "inicio": 65.23,
+    "fim": 65.69
+  },
+  {
+    "palavra": "viraram",
+    "inicio": 65.69,
+    "fim": 66.15
+  },
+  {
+    "palavra": "combustível.",
+    "inicio": 66.15,
+    "fim": 67.53
+  },
+  {
+    "palavra": "Foram",
+    "inicio": 67.97,
+    "fim": 68.23
+  },
+  {
+    "palavra": "necessários",
+    "inicio": 68.23,
+    "fim": 68.79
+  },
+  {
+    "palavra": "seis",
+    "inicio": 68.79,
+    "fim": 69.23
+  },
+  {
+    "palavra": "meses",
+    "inicio": 69.23,
+    "fim": 69.59
+  },
+  {
+    "palavra": "inteiros",
+    "inicio": 69.59,
+    "fim": 70.23
+  },
+  {
+    "palavra": "queimando",
+    "inicio": 70.23,
+    "fim": 70.83
+  },
+  {
+    "palavra": "papiro",
+    "inicio": 70.83,
+    "fim": 71.33
+  },
+  {
+    "palavra": "para",
+    "inicio": 71.33,
+    "fim": 71.57
+  },
+  {
+    "palavra": "aquecer",
+    "inicio": 71.57,
+    "fim": 72.05
+  },
+  {
+    "palavra": "os",
+    "inicio": 72.05,
+    "fim": 72.23
+  },
+  {
+    "palavra": "banhos",
+    "inicio": 72.23,
+    "fim": 72.49
+  },
+  {
+    "palavra": "públicos.",
+    "inicio": 72.49,
+    "fim": 73.15
+  },
+  {
+    "palavra": "O",
+    "inicio": 74.03,
+    "fim": 74.15
+  },
+  {
+    "palavra": "conhecimento",
+    "inicio": 74.15,
+    "fim": 74.67
+  },
+  {
+    "palavra": "antigo",
+    "inicio": 74.67,
+    "fim": 75.11
+  },
+  {
+    "palavra": "não",
+    "inicio": 75.11,
+    "fim": 75.29
+  },
+  {
+    "palavra": "sumiu",
+    "inicio": 75.29,
+    "fim": 75.71
+  },
+  {
+    "palavra": "num",
+    "inicio": 75.71,
+    "fim": 75.87
+  },
+  {
+    "palavra": "grande",
+    "inicio": 75.87,
+    "fim": 76.21
+  },
+  {
+    "palavra": "incêndio,",
+    "inicio": 76.21,
+    "fim": 76.89
+  },
+  {
+    "palavra": "foi",
+    "inicio": 77.43,
+    "fim": 77.61
+  },
+  {
+    "palavra": "destruído",
+    "inicio": 77.61,
+    "fim": 78.07
+  },
+  {
+    "palavra": "aos",
+    "inicio": 78.07,
+    "fim": 78.29
+  },
+  {
+    "palavra": "poucos",
+    "inicio": 78.29,
+    "fim": 78.75
+  },
+  {
+    "palavra": "pelo",
+    "inicio": 78.75,
+    "fim": 79.01
+  },
+  {
+    "palavra": "tempo",
+    "inicio": 79.01,
+    "fim": 79.43
+  },
+  {
+    "palavra": "e",
+    "inicio": 79.43,
+    "fim": 79.97
+  },
+  {
+    "palavra": "pela",
+    "inicio": 79.97,
+    "fim": 80.17
+  },
+  {
+    "palavra": "intolerância.",
+    "inicio": 80.17,
+    "fim": 80.87
+  },
+  {
+    "palavra": "Se",
+    "inicio": 81.77,
+    "fim": 81.93
+  },
+  {
+    "palavra": "você",
+    "inicio": 81.93,
+    "fim": 82.15
+  },
+  {
+    "palavra": "pudesse",
+    "inicio": 82.15,
+    "fim": 82.51
+  },
+  {
+    "palavra": "salvar",
+    "inicio": 82.51,
+    "fim": 82.87
+  },
+  {
+    "palavra": "um",
+    "inicio": 82.87,
+    "fim": 83.29
+  },
+  {
+    "palavra": "único",
+    "inicio": 83.29,
+    "fim": 83.61
+  },
+  {
+    "palavra": "livro",
+    "inicio": 83.61,
+    "fim": 83.97
+  },
+  {
+    "palavra": "perdido",
+    "inicio": 83.97,
+    "fim": 84.63
+  },
+  {
+    "palavra": "dali,",
+    "inicio": 84.63,
+    "fim": 85.17
+  },
+  {
+    "palavra": "qual",
+    "inicio": 85.17,
+    "fim": 85.77
+  },
+  {
+    "palavra": "seria?",
+    "inicio": 85.77,
+    "fim": 86.09
+  }
+]
