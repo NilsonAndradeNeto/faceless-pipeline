@@ -3535,3 +3535,59 @@ Traceback (most recent call last):
 json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
 19:56:53 [ciclo] INFO: Instagram (PT) não conectado — falta IG_TOKEN_PT no .env
 19:56:53 [ciclo] INFO: Conta tiktok (PT) ainda não conectada
+23:55:32 [ciclo] INFO: — ciclo 21/11 23:55 —
+23:55:32 [ciclo] INFO: Fila PT vazia — gerando roteiro
+23:55:32 [researcher] INFO: Tema escolhido (pt): Como a Biblioteca de Alexandria foi realmente perdida
+23:55:33 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+23:55:33 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 159→102 tokens, US$0.0000, 0.9s
+23:55:35 [researcher] INFO: Fontes: Library of Alexandria (en), Destruição da Biblioteca de Alexandria (pt)
+23:55:35 [scriptwriter] INFO: Escrevendo roteiro: Como a Biblioteca de Alexandria foi realmente perdida
+23:56:04 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:56:04 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 5328→391 tokens, US$0.0000, 29.0s
+23:56:04 [scriptwriter] INFO: Editando para retenção...
+23:56:31 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:56:31 [llm] INFO: gemini/gemini-3.5-flash [critica] 519→342 tokens, US$0.0000, 26.7s
+23:56:31 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 6, 'viradas': 7, 'climax': 8, 'final': 7}
+23:56:31 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+23:56:54 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:56:54 [llm] INFO: gemini/gemini-3.5-flash [provas] 5235→921 tokens, US$0.0000, 23.3s
+23:56:54 [scriptwriter] INFO: Checagem 1: 14 frases, 0 com problema, 0 para conferir
+23:56:54 [scriptwriter] INFO: Roteiro salvo: 189 palavras, 1168 caracteres, confiança alta
+23:56:54 [ciclo] INFO: Fila EN vazia — gerando roteiro
+23:56:54 [scriptwriter] INFO: Escrevendo roteiro: The Hinterkaifeck murders, Germany's unsolved farm massacre
+23:57:11 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:57:11 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 2985→346 tokens, US$0.0000, 16.8s
+23:57:11 [scriptwriter] INFO: Editando para retenção...
+23:57:37 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:57:37 [llm] INFO: gemini/gemini-3.5-flash [critica] 480→296 tokens, US$0.0000, 26.2s
+23:57:37 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 7, 'viradas': 7, 'climax': 7, 'final': 8}
+23:57:37 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+23:57:52 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:57:52 [llm] INFO: gemini/gemini-3.5-flash [provas] 2834→956 tokens, US$0.0000, 14.9s
+23:57:52 [scriptwriter] INFO: Checagem 1: 14 frases, 0 com problema, 0 para conferir
+23:57:52 [scriptwriter] INFO: Roteiro salvo: 180 palavras, 1085 caracteres, confiança alta
+23:57:52 [ciclo] ERROR: Falha ao publicar pt youtube
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 197, in publicar_no_horario
+    r = publicar(plataforma, ler_json(meta_arq), video)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 166, in publicar
+    return publicar_youtube(meta, Path(video))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 52, in publicar_youtube
+    yt = youtube_cliente(meta["lang"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 42, in youtube_cliente
+    cred = Credentials.from_authorized_user_file(str(arq), ESCOPOS_YT)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/.venv/lib/python3.11/site-packages/google/oauth2/credentials.py", line 544, in from_authorized_user_file
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
+    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
+json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+23:57:52 [ciclo] INFO: Instagram (PT) não conectado — falta IG_TOKEN_PT no .env
+23:57:52 [ciclo] INFO: Conta tiktok (PT) ainda não conectada
