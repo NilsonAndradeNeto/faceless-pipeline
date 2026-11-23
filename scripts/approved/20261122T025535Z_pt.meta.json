@@ -44,11 +44,22 @@
   "aprovacao": "automatica",
   "data_post": "2026-11-22",
   "producao": {
-    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "etapa": "pronto",
     "erro": null,
     "detalhe": "",
-    "progresso": 0.18,
-    "atualizado": "2026-11-23 03:56:05"
+    "progresso": 1.0,
+    "atualizado": "2026-11-23 19:10:52"
   },
-  "voz": "gemini"
+  "voz": "gemini",
+  "creditos_imagens": [
+    "Alexandria - Pompey's Pillar - view of ruins.JPG — Daniel Mayer (CC BY-SA 4.0)",
+    "Ancientlibraryalex.jpg — O. Von Corven (Public domain)",
+    "Antikes Alexandria Karte.JPG — Friedrich Wilhelm Putzger (1849-1913), nach O. Puchstein in Pauly, Real-Encycl. (Public domain)",
+    "César (13667960455).jpg — Gautier Poupeau from Paris, France (CC BY 2.0)",
+    "Maqamat hariri.jpg — Zereshk (Public domain)",
+    "Ptolemy I Soter Louvre Ma849.jpg — Marie-Lan Nguyen (Public domain)"
+  ],
+  "imagens_ia": 12,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261122T025535Z_pt.mp4",
+  "duracao_seg": 86.7
 }

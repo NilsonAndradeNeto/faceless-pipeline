@@ -3814,3 +3814,98 @@ json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): lin
 03:56:05 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
 03:56:05 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
 03:56:05 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+18:57:57 [ciclo] INFO: — ciclo 23/11 18:57 —
+18:57:57 [ciclo] WARNING: 'O mistério de como as estátuas de Páscoa andavam' tem frase sem base na fonte — reescrevendo (1/2)
+18:57:57 [scriptwriter] INFO: Escrevendo roteiro: Como os moais da Ilha de Páscoa foram movidos
+18:58:03 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+18:58:03 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+18:58:03 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+18:58:03 [llm] INFO: gemini/gemini-3-flash-preview no limite, trocando para gemini-3.8-flash
+18:58:04 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+18:58:04 [llm] INFO: gemini/gemini-3.8-flash no limite, trocando para gemini-3.7-flash
+18:58:04 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+18:58:04 [llm] WARNING: gemini falhou (tentativa 1/1): Error code: 503
+18:58:04 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
+18:58:04 [ciclo] ERROR: Erro numa etapa do ciclo (as outras continuam)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 127, in chat
+    return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 178, in _chat
+    raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
+RuntimeError: Todos os provedores de LLM falharam: Error code: 503
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 309, in ciclo
+    etapa()
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 306, in <lambda>
+    lambda: definir_videos_do_dia(agora), avisos_telegram, produzir_aprovados, avisos_telegram,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 135, in definir_videos_do_dia
+    if situacao == "pendente" and not aprovar_automatico(arq, meta):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 110, in aprovar_automatico
+    meta = refazer(meta)
+           ^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 94, in refazer
+    return escrever(ler_json(topico))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 173, in escrever
+    r = chat([{"role": "user", "content": PROMPT_ROTEIRO.format(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
+    raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
+agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
+18:58:04 [produzir] INFO: ▶ Produzindo: Como a Biblioteca de Alexandria foi perdida de verdade
+18:58:08 [broll] INFO: Cena  1 (6.4s): ia        A história que te contaram sobre a Biblioteca de Alexandria 
+18:58:12 [broll] INFO: Cena  2 (6.1s): ia        O fim do maior acervo do mundo antigo esconde um desfecho mu
+18:58:14 [broll] INFO: Cena  3 (3.9s): wikimedia Tudo começou com a obsessão dos reis da dinastia ptolomaica,
+18:58:25 [broll] INFO: Cena  4 (5.8s): ia        que enviavam agentes com muito dinheiro para comprar todos o
+18:58:38 [broll] INFO: Cena  5 (4.7s): ia        Qualquer navio que aportava lá tinha seus livros confiscados
+18:58:40 [broll] INFO: Cena  6 (6.4s): wikimedia Os escribas copiavam tudo, guardavam o original e entregavam
+18:58:42 [broll] INFO: Cena  7 (3.7s): wikimedia Juntaram até setecentos mil rolos de papiro sob a frase:
+18:58:42 [broll] INFO: Limite de download, aguardando 60s
+18:59:42 [broll] INFO: Limite de download, aguardando 60s
+19:00:42 [broll] INFO: Limite de download, aguardando 60s
+19:01:42 [broll] INFO: Limite de download, aguardando 60s
+19:02:42 [broll] WARNING: Cena 8: erro numa fonte (429 Client Error: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this messag), tentando a próxima
+19:02:53 [broll] INFO: Cena  8 (3.6s): ia        o lugar da cura da alma.
+19:02:55 [broll] INFO: Cena  9 (3.8s): wikimedia Dizem que Júlio César queimou o acervo durante a guerra civi
+19:02:57 [broll] INFO: Cena 10 (4.9s): wikimedia só que a biblioteca sobreviveu. A ruína real veio devagar.
+19:03:10 [broll] INFO: Cena 11 (5.0s): ia        Governantes expulsaram os filósofos e o financiamento públic
+19:03:11 [broll] INFO: Cena 12 (5.7s): wikimedia No ano trêscentos e noventa e um, revoltas religiosas saquea
+19:03:12 [broll] INFO: Limite de download, aguardando 60s
+19:04:12 [broll] INFO: Limite de download, aguardando 60s
+19:05:12 [broll] INFO: Limite de download, aguardando 60s
+19:06:12 [broll] INFO: Limite de download, aguardando 60s
+19:07:12 [broll] WARNING: Cena 13: erro numa fonte (429 Client Error: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this messag), tentando a próxima
+19:07:19 [broll] INFO: Cena 13 (5.2s): ia        O golpe final foi bizarro: relatos árabes antigos afirmam qu
+19:07:29 [broll] INFO: Cena 14 (2.7s): ia        restantes viraram combustível.
+19:07:39 [broll] INFO: Cena 15 (6.1s): ia        Foram necessários seis meses inteiros queimando papiro para 
+19:07:49 [broll] INFO: Cena 16 (5.4s): ia        O conhecimento antigo não sumiu num grande incêndio, foi des
+19:08:04 [broll] INFO: Cena 17 (5.2s): ia        e pela intolerância. Se você pudesse salvar um único livro p
+19:08:14 [broll] INFO: Cena 18 (2.1s): ia        dali, qual seria?
+19:08:14 [video_builder] INFO: Cena 1/18 (imagem, 6.4s)
+19:08:14 [video_builder] INFO: Encoder: x264
+19:08:20 [video_builder] INFO: Cena 2/18 (imagem, 6.1s)
+19:08:27 [video_builder] INFO: Cena 3/18 (imagem, 3.9s)
+19:08:31 [video_builder] INFO: Cena 4/18 (imagem, 5.8s)
+19:08:37 [video_builder] INFO: Cena 5/18 (imagem, 4.7s)
+19:08:42 [video_builder] INFO: Cena 6/18 (imagem, 6.4s)
+19:08:48 [video_builder] INFO: Cena 7/18 (imagem, 3.7s)
+19:08:52 [video_builder] INFO: Cena 8/18 (imagem, 3.6s)
+19:08:56 [video_builder] INFO: Cena 9/18 (imagem, 3.8s)
+19:09:00 [video_builder] INFO: Cena 10/18 (imagem, 4.9s)
+19:09:05 [video_builder] INFO: Cena 11/18 (imagem, 5.0s)
+19:09:10 [video_builder] INFO: Cena 12/18 (imagem, 5.7s)
+19:09:16 [video_builder] INFO: Cena 13/18 (imagem, 5.2s)
+19:09:21 [video_builder] INFO: Cena 14/18 (imagem, 2.7s)
+19:09:24 [video_builder] INFO: Cena 15/18 (imagem, 6.1s)
+19:09:30 [video_builder] INFO: Cena 16/18 (imagem, 5.4s)
+19:09:35 [video_builder] INFO: Cena 17/18 (imagem, 5.2s)
+19:09:41 [video_builder] INFO: Cena 18/18 (imagem, 2.1s)
+19:09:43 [video_builder] INFO: Música: trilha_06.mp3
+19:10:52 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261122T025535Z_pt.mp4 (86.7s)
+19:10:52 [produzir] INFO: ✅ Pronto: Como a Biblioteca de Alexandria foi perdida de verdade
