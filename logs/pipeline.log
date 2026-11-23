@@ -3746,3 +3746,71 @@ Traceback (most recent call last):
   File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
     raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
 json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+03:52:47 [ciclo] INFO: — ciclo 23/11 03:52 —
+03:52:47 [ciclo] INFO: Fila PT vazia — gerando roteiro
+03:52:47 [researcher] INFO: Tema escolhido (pt): Como os moais da Ilha de Páscoa foram movidos
+03:52:48 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03:52:48 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 164→205 tokens, US$0.0000, 1.2s
+03:52:49 [researcher] INFO: Fontes: Moai (en), Ilha de Páscoa (pt)
+03:52:49 [scriptwriter] INFO: Escrevendo roteiro: Como os moais da Ilha de Páscoa foram movidos
+03:53:12 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:53:12 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 5607→396 tokens, US$0.0000, 22.9s
+03:53:12 [scriptwriter] INFO: Editando para retenção...
+03:53:32 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:53:32 [llm] INFO: gemini/gemini-3.5-flash [critica] 515→331 tokens, US$0.0000, 20.3s
+03:53:32 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 5, 'viradas': 6, 'climax': 6, 'final': 7}
+03:53:32 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+03:53:50 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:53:50 [llm] INFO: gemini/gemini-3.5-flash [provas] 5497→932 tokens, US$0.0000, 17.4s
+03:53:50 [scriptwriter] INFO: Checagem 1: 11 frases, 6 com problema, 0 para conferir
+03:53:50 [scriptwriter] INFO: Corrigindo:
+- "Estátuas de oitenta e seis toneladas andaram de pé pela ilha, e a ciência provou que os anciãos estavam certos!" → sem_base: Embora a fonte mencione uma estátua de 86 toneladas, ela não afirma que as estátuas andaram de pé nem que a ciência provou uma tradição dos anciãos.
+- "Sem animais de carga ou rodas, mover essas pedras parecia impossível." → sem_base: As fontes não mencionam a ausência de animais de carga ou rodas no contexto do transporte dos moais.
+- "Estudiosos achavam que milhares de troncos rolaram as estátuas, só que a ilha nem tinha madeira para isso." → sem_base: As fontes fornecidas não mencionam a hipótese dos troncos de madeira nem a falta de madeira para esse propósito.
+- "Os anciãos mantinham a mesma resposta inacreditável: as estátuas caminharam de pé." → sem_base: As fontes não trazem relatos de anciãos afirmando que as estátuas caminhavam de pé.
+- "E o mistério ruiu quando arqueólogos modernos amarraram cordas no topo e puxaram os lados." → sem_base: As fontes não mencionam experimentos de arqueólogos utilizando cordas amarradas para mover as estátuas.
+- "A pedra gigante balançou para a frente, dando passos reais!" → sem_base: As fontes não registram tais experimentos ou o movimento das estátuas dando passos.
+03:54:17 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:54:17 [llm] INFO: gemini/gemini-3.5-flash [correcao] 5638→168 tokens, US$0.0000, 27.2s
+03:54:28 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:54:28 [llm] INFO: gemini/gemini-3.5-flash [provas] 5386→536 tokens, US$0.0000, 11.5s
+03:54:28 [scriptwriter] INFO: Checagem 2: 6 frases, 1 com problema, 0 para conferir
+03:54:28 [scriptwriter] INFO: Corrigindo:
+- "Mas no século dezenove, quase quatrocentos moais foram abandonados no vulcão e os outros foram todos derrubados." → contradiz: As fontes indicam que o período de esculpir as estátuas e o encerramento das atividades na pedreira ocorreram entre 1250 e 1500, e não no século XIX. No século XIX apenas surgiram conjecturas sobre a pedreira abandonada e ocorreu a derrubada final dos moais.
+03:54:39 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:54:39 [llm] INFO: gemini/gemini-3.5-flash [correcao] 5304→178 tokens, US$0.0000, 10.4s
+03:54:39 [scriptwriter] INFO: Roteiro salvo: 106 palavras, 626 caracteres, confiança baixa
+03:54:39 [ciclo] INFO: Fila EN vazia — gerando roteiro
+03:54:39 [researcher] INFO: Tema escolhido (en): The Wow! signal received from space in 1977
+03:54:39 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+03:54:39 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 162→234 tokens, US$0.0000, 0.8s
+03:54:40 [researcher] INFO: Fontes: Wow! signal (en)
+03:54:40 [scriptwriter] INFO: Escrevendo roteiro: The Wow! signal received from space in 1977
+03:54:54 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:54:54 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 2950→361 tokens, US$0.0000, 13.9s
+03:54:54 [scriptwriter] INFO: Editando para retenção...
+03:55:15 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:55:15 [llm] INFO: gemini/gemini-3.5-flash [critica] 483→294 tokens, US$0.0000, 21.3s
+03:55:15 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 5, 'ritmo': 6, 'viradas': 6, 'climax': 6, 'final': 5}
+03:55:15 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+03:55:31 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:55:31 [llm] INFO: gemini/gemini-3.5-flash [provas] 2796→872 tokens, US$0.0000, 16.2s
+03:55:31 [scriptwriter] INFO: Checagem 1: 12 frases, 1 com problema, 0 para conferir
+03:55:31 [scriptwriter] INFO: Corrigindo:
+- "Astronomers searched those exact stars thousands of times afterward, but nothing ever repeated." → contradiz: A fonte menciona que a busca foi realizada cerca de 50 vezes ("looked for it 50 times"), e não milhares de vezes como afirmado no roteiro.
+03:55:35 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:55:35 [llm] INFO: gemini/gemini-3.5-flash [correcao] 2674→243 tokens, US$0.0000, 4.1s
+03:55:56 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:55:56 [llm] INFO: gemini/gemini-3.5-flash [provas] 2797→1050 tokens, US$0.0000, 20.5s
+03:55:56 [scriptwriter] INFO: Checagem 2: 12 frases, 1 com problema, 0 para conferir
+03:55:56 [scriptwriter] INFO: Corrigindo:
+- "This signal hit that exact frequency." → contradiz: A fonte explica que a frequência detectada no sinal estava ligeiramente acima (50±5 kHz) da frequência exata da linha do hidrogênio.
+03:56:05 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+03:56:05 [llm] INFO: gemini/gemini-3.5-flash [correcao] 2663→246 tokens, US$0.0000, 8.8s
+03:56:05 [scriptwriter] INFO: Roteiro salvo: 169 palavras, 1113 caracteres, confiança baixa
+03:56:05 [produzir] INFO: ▶ Produzindo: Como a Biblioteca de Alexandria foi perdida de verdade
+03:56:05 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+03:56:05 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+03:56:05 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+03:56:05 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+03:56:05 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
