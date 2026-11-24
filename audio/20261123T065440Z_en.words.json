@@ -1,0 +1,917 @@
+[
+  {
+    "palavra": "In",
+    "inicio": 0.15,
+    "fim": 0.31
+  },
+  {
+    "palavra": "August",
+    "inicio": 0.31,
+    "fim": 0.67
+  },
+  {
+    "palavra": "1977,",
+    "inicio": 0.67,
+    "fim": 1.57
+  },
+  {
+    "palavra": "a",
+    "inicio": 1.57,
+    "fim": 2.51
+  },
+  {
+    "palavra": "telescope",
+    "inicio": 2.51,
+    "fim": 2.89
+  },
+  {
+    "palavra": "in",
+    "inicio": 2.89,
+    "fim": 3.21
+  },
+  {
+    "palavra": "Ohio",
+    "inicio": 3.21,
+    "fim": 3.47
+  },
+  {
+    "palavra": "recorded",
+    "inicio": 3.47,
+    "fim": 4.19
+  },
+  {
+    "palavra": "a",
+    "inicio": 4.19,
+    "fim": 4.45
+  },
+  {
+    "palavra": "radio",
+    "inicio": 4.45,
+    "fim": 4.71
+  },
+  {
+    "palavra": "signal",
+    "inicio": 4.71,
+    "fim": 5.15
+  },
+  {
+    "palavra": "thirty",
+    "inicio": 5.15,
+    "fim": 5.83
+  },
+  {
+    "palavra": "times",
+    "inicio": 5.83,
+    "fim": 6.29
+  },
+  {
+    "palavra": "stronger",
+    "inicio": 6.29,
+    "fim": 6.77
+  },
+  {
+    "palavra": "than",
+    "inicio": 6.77,
+    "fim": 7.07
+  },
+  {
+    "palavra": "background",
+    "inicio": 7.07,
+    "fim": 7.39
+  },
+  {
+    "palavra": "noise—right",
+    "inicio": 7.39,
+    "fim": 8.73
+  },
+  {
+    "palavra": "on",
+    "inicio": 8.73,
+    "fim": 8.93
+  },
+  {
+    "palavra": "fourteen",
+    "inicio": 8.93,
+    "fim": 9.45
+  },
+  {
+    "palavra": "twenty",
+    "inicio": 9.45,
+    "fim": 9.97
+  },
+  {
+    "palavra": "megahertz,",
+    "inicio": 9.97,
+    "fim": 10.83
+  },
+  {
+    "palavra": "the",
+    "inicio": 10.83,
+    "fim": 11.15
+  },
+  {
+    "palavra": "natural",
+    "inicio": 11.15,
+    "fim": 11.43
+  },
+  {
+    "palavra": "frequency",
+    "inicio": 11.43,
+    "fim": 11.93
+  },
+  {
+    "palavra": "of",
+    "inicio": 11.93,
+    "fim": 12.43
+  },
+  {
+    "palavra": "hydrogen.",
+    "inicio": 12.43,
+    "fim": 12.81
+  },
+  {
+    "palavra": "Physicists",
+    "inicio": 13.91,
+    "fim": 14.39
+  },
+  {
+    "palavra": "strongly",
+    "inicio": 14.39,
+    "fim": 14.81
+  },
+  {
+    "palavra": "believed",
+    "inicio": 14.81,
+    "fim": 15.27
+  },
+  {
+    "palavra": "any",
+    "inicio": 15.27,
+    "fim": 15.63
+  },
+  {
+    "palavra": "intelligent",
+    "inicio": 15.63,
+    "fim": 16.15
+  },
+  {
+    "palavra": "alien",
+    "inicio": 16.15,
+    "fim": 16.57
+  },
+  {
+    "palavra": "civilization",
+    "inicio": 16.57,
+    "fim": 17.07
+  },
+  {
+    "palavra": "would",
+    "inicio": 17.07,
+    "fim": 17.81
+  },
+  {
+    "palavra": "transmit",
+    "inicio": 17.81,
+    "fim": 18.23
+  },
+  {
+    "palavra": "on",
+    "inicio": 18.23,
+    "fim": 18.55
+  },
+  {
+    "palavra": "that",
+    "inicio": 18.55,
+    "fim": 18.67
+  },
+  {
+    "palavra": "exact",
+    "inicio": 18.67,
+    "fim": 19.13
+  },
+  {
+    "palavra": "channel.",
+    "inicio": 19.13,
+    "fim": 19.85
+  },
+  {
+    "palavra": "Usually,",
+    "inicio": 20.57,
+    "fim": 20.81
+  },
+  {
+    "palavra": "the",
+    "inicio": 20.81,
+    "fim": 21.03
+  },
+  {
+    "palavra": "computer",
+    "inicio": 21.03,
+    "fim": 21.31
+  },
+  {
+    "palavra": "logged",
+    "inicio": 21.31,
+    "fim": 21.71
+  },
+  {
+    "palavra": "boring,",
+    "inicio": 21.71,
+    "fim": 22.37
+  },
+  {
+    "palavra": "quiet",
+    "inicio": 22.37,
+    "fim": 22.67
+  },
+  {
+    "palavra": "static—just",
+    "inicio": 22.67,
+    "fim": 23.69
+  },
+  {
+    "palavra": "blank",
+    "inicio": 23.69,
+    "fim": 24.03
+  },
+  {
+    "palavra": "spaces",
+    "inicio": 24.03,
+    "fim": 24.49
+  },
+  {
+    "palavra": "and",
+    "inicio": 24.49,
+    "fim": 24.73
+  },
+  {
+    "palavra": "small",
+    "inicio": 24.73,
+    "fim": 24.95
+  },
+  {
+    "palavra": "numbers.",
+    "inicio": 24.95,
+    "fim": 25.31
+  },
+  {
+    "palavra": "But",
+    "inicio": 26.03,
+    "fim": 26.17
+  },
+  {
+    "palavra": "while",
+    "inicio": 26.17,
+    "fim": 26.31
+  },
+  {
+    "palavra": "sifting",
+    "inicio": 26.31,
+    "fim": 26.61
+  },
+  {
+    "palavra": "through",
+    "inicio": 26.61,
+    "fim": 26.87
+  },
+  {
+    "palavra": "stacks",
+    "inicio": 26.87,
+    "fim": 27.21
+  },
+  {
+    "palavra": "of",
+    "inicio": 27.21,
+    "fim": 27.41
+  },
+  {
+    "palavra": "printer",
+    "inicio": 27.41,
+    "fim": 27.71
+  },
+  {
+    "palavra": "paper",
+    "inicio": 27.71,
+    "fim": 28.03
+  },
+  {
+    "palavra": "a",
+    "inicio": 28.03,
+    "fim": 28.33
+  },
+  {
+    "palavra": "few",
+    "inicio": 28.33,
+    "fim": 28.45
+  },
+  {
+    "palavra": "days",
+    "inicio": 28.45,
+    "fim": 28.67
+  },
+  {
+    "palavra": "later,",
+    "inicio": 28.67,
+    "fim": 29.17
+  },
+  {
+    "palavra": "a",
+    "inicio": 29.49,
+    "fim": 29.55
+  },
+  {
+    "palavra": "volunteer",
+    "inicio": 29.55,
+    "fim": 29.89
+  },
+  {
+    "palavra": "named",
+    "inicio": 29.89,
+    "fim": 30.39
+  },
+  {
+    "palavra": "Jerry",
+    "inicio": 30.39,
+    "fim": 30.79
+  },
+  {
+    "palavra": "Ehman",
+    "inicio": 30.79,
+    "fim": 31.11
+  },
+  {
+    "palavra": "saw",
+    "inicio": 31.11,
+    "fim": 31.65
+  },
+  {
+    "palavra": "something",
+    "inicio": 31.65,
+    "fim": 32.05
+  },
+  {
+    "palavra": "impossible.",
+    "inicio": 32.05,
+    "fim": 32.91
+  },
+  {
+    "palavra": "The",
+    "inicio": 33.69,
+    "fim": 33.87
+  },
+  {
+    "palavra": "signal",
+    "inicio": 33.87,
+    "fim": 34.15
+  },
+  {
+    "palavra": "suddenly",
+    "inicio": 34.15,
+    "fim": 34.59
+  },
+  {
+    "palavra": "surged",
+    "inicio": 34.59,
+    "fim": 35.21
+  },
+  {
+    "palavra": "out",
+    "inicio": 35.21,
+    "fim": 35.45
+  },
+  {
+    "palavra": "of",
+    "inicio": 35.45,
+    "fim": 35.59
+  },
+  {
+    "palavra": "nowhere.",
+    "inicio": 35.59,
+    "fim": 35.93
+  },
+  {
+    "palavra": "The",
+    "inicio": 36.47,
+    "fim": 36.59
+  },
+  {
+    "palavra": "numbers",
+    "inicio": 36.59,
+    "fim": 36.89
+  },
+  {
+    "palavra": "climbed",
+    "inicio": 36.89,
+    "fim": 37.31
+  },
+  {
+    "palavra": "into",
+    "inicio": 37.31,
+    "fim": 37.61
+  },
+  {
+    "palavra": "letters,",
+    "inicio": 37.61,
+    "fim": 38.29
+  },
+  {
+    "palavra": "reaching",
+    "inicio": 38.29,
+    "fim": 38.53
+  },
+  {
+    "palavra": "all",
+    "inicio": 38.53,
+    "fim": 38.87
+  },
+  {
+    "palavra": "the",
+    "inicio": 38.87,
+    "fim": 39.03
+  },
+  {
+    "palavra": "way",
+    "inicio": 39.03,
+    "fim": 39.25
+  },
+  {
+    "palavra": "to",
+    "inicio": 39.25,
+    "fim": 39.53
+  },
+  {
+    "palavra": "U.",
+    "inicio": 39.53,
+    "fim": 39.97
+  },
+  {
+    "palavra": "Due",
+    "inicio": 40.53,
+    "fim": 40.67
+  },
+  {
+    "palavra": "to",
+    "inicio": 40.67,
+    "fim": 40.89
+  },
+  {
+    "palavra": "Earth’s",
+    "inicio": 40.89,
+    "fim": 41.17
+  },
+  {
+    "palavra": "natural",
+    "inicio": 41.17,
+    "fim": 41.53
+  },
+  {
+    "palavra": "spin,",
+    "inicio": 41.53,
+    "fim": 42.17
+  },
+  {
+    "palavra": "the",
+    "inicio": 42.17,
+    "fim": 42.31
+  },
+  {
+    "palavra": "telescope",
+    "inicio": 42.31,
+    "fim": 42.61
+  },
+  {
+    "palavra": "observed",
+    "inicio": 42.61,
+    "fim": 43.07
+  },
+  {
+    "palavra": "that",
+    "inicio": 43.07,
+    "fim": 43.49
+  },
+  {
+    "palavra": "spot",
+    "inicio": 43.49,
+    "fim": 43.81
+  },
+  {
+    "palavra": "in",
+    "inicio": 43.81,
+    "fim": 44.05
+  },
+  {
+    "palavra": "the",
+    "inicio": 44.05,
+    "fim": 44.13
+  },
+  {
+    "palavra": "constellation",
+    "inicio": 44.13,
+    "fim": 44.51
+  },
+  {
+    "palavra": "Sagittarius",
+    "inicio": 44.51,
+    "fim": 45.45
+  },
+  {
+    "palavra": "for",
+    "inicio": 45.45,
+    "fim": 45.93
+  },
+  {
+    "palavra": "seventy-two",
+    "inicio": 45.93,
+    "fim": 46.37
+  },
+  {
+    "palavra": "seconds.",
+    "inicio": 46.37,
+    "fim": 47.07
+  },
+  {
+    "palavra": "The",
+    "inicio": 47.87,
+    "fim": 47.93
+  },
+  {
+    "palavra": "beam",
+    "inicio": 47.93,
+    "fim": 48.11
+  },
+  {
+    "palavra": "rose",
+    "inicio": 48.11,
+    "fim": 48.49
+  },
+  {
+    "palavra": "for",
+    "inicio": 48.49,
+    "fim": 48.75
+  },
+  {
+    "palavra": "thirty-six",
+    "inicio": 48.75,
+    "fim": 49.15
+  },
+  {
+    "palavra": "seconds,",
+    "inicio": 49.15,
+    "fim": 49.95
+  },
+  {
+    "palavra": "hit",
+    "inicio": 49.95,
+    "fim": 50.07
+  },
+  {
+    "palavra": "a",
+    "inicio": 50.07,
+    "fim": 50.27
+  },
+  {
+    "palavra": "massive",
+    "inicio": 50.27,
+    "fim": 50.65
+  },
+  {
+    "palavra": "peak,",
+    "inicio": 50.65,
+    "fim": 51.17
+  },
+  {
+    "palavra": "and",
+    "inicio": 51.17,
+    "fim": 51.49
+  },
+  {
+    "palavra": "gradually",
+    "inicio": 51.49,
+    "fim": 51.95
+  },
+  {
+    "palavra": "dropped",
+    "inicio": 51.95,
+    "fim": 52.31
+  },
+  {
+    "palavra": "back",
+    "inicio": 52.31,
+    "fim": 52.61
+  },
+  {
+    "palavra": "down.",
+    "inicio": 52.61,
+    "fim": 53.03
+  },
+  {
+    "palavra": "It",
+    "inicio": 53.69,
+    "fim": 53.83
+  },
+  {
+    "palavra": "bore",
+    "inicio": 53.83,
+    "fim": 54.05
+  },
+  {
+    "palavra": "every",
+    "inicio": 54.05,
+    "fim": 54.53
+  },
+  {
+    "palavra": "single",
+    "inicio": 54.53,
+    "fim": 55.11
+  },
+  {
+    "palavra": "expected",
+    "inicio": 55.11,
+    "fim": 55.69
+  },
+  {
+    "palavra": "hallmark",
+    "inicio": 55.69,
+    "fim": 56.19
+  },
+  {
+    "palavra": "of",
+    "inicio": 56.19,
+    "fim": 56.51
+  },
+  {
+    "palavra": "an",
+    "inicio": 56.51,
+    "fim": 56.61
+  },
+  {
+    "palavra": "alien",
+    "inicio": 56.61,
+    "fim": 56.89
+  },
+  {
+    "palavra": "signal.",
+    "inicio": 56.89,
+    "fim": 57.33
+  },
+  {
+    "palavra": "Amazed",
+    "inicio": 58.37,
+    "fim": 58.77
+  },
+  {
+    "palavra": "by",
+    "inicio": 58.77,
+    "fim": 58.99
+  },
+  {
+    "palavra": "what",
+    "inicio": 58.99,
+    "fim": 59.15
+  },
+  {
+    "palavra": "he",
+    "inicio": 59.15,
+    "fim": 59.29
+  },
+  {
+    "palavra": "saw,",
+    "inicio": 59.29,
+    "fim": 60.15
+  },
+  {
+    "palavra": "Ehman",
+    "inicio": 60.15,
+    "fim": 60.35
+  },
+  {
+    "palavra": "circled",
+    "inicio": 60.35,
+    "fim": 60.73
+  },
+  {
+    "palavra": "the",
+    "inicio": 60.73,
+    "fim": 60.93
+  },
+  {
+    "palavra": "string",
+    "inicio": 60.93,
+    "fim": 61.21
+  },
+  {
+    "palavra": "6EQUJ5",
+    "inicio": 61.21,
+    "fim": 63.13
+  },
+  {
+    "palavra": "and",
+    "inicio": 63.13,
+    "fim": 63.69
+  },
+  {
+    "palavra": "wrote",
+    "inicio": 63.69,
+    "fim": 63.85
+  },
+  {
+    "palavra": "one",
+    "inicio": 63.85,
+    "fim": 64.09
+  },
+  {
+    "palavra": "word:",
+    "inicio": 64.09,
+    "fim": 64.41
+  },
+  {
+    "palavra": "Wow!",
+    "inicio": 65.07,
+    "fim": 65.31
+  },
+  {
+    "palavra": "Researchers",
+    "inicio": 66.11,
+    "fim": 66.47
+  },
+  {
+    "palavra": "searched",
+    "inicio": 66.47,
+    "fim": 66.85
+  },
+  {
+    "palavra": "that",
+    "inicio": 66.85,
+    "fim": 67.07
+  },
+  {
+    "palavra": "sky",
+    "inicio": 67.07,
+    "fim": 67.29
+  },
+  {
+    "palavra": "region",
+    "inicio": 67.29,
+    "fim": 67.65
+  },
+  {
+    "palavra": "over",
+    "inicio": 67.65,
+    "fim": 67.97
+  },
+  {
+    "palavra": "fifty",
+    "inicio": 67.97,
+    "fim": 68.33
+  },
+  {
+    "palavra": "times",
+    "inicio": 68.33,
+    "fim": 68.79
+  },
+  {
+    "palavra": "afterward,",
+    "inicio": 68.79,
+    "fim": 69.21
+  },
+  {
+    "palavra": "but",
+    "inicio": 69.21,
+    "fim": 69.89
+  },
+  {
+    "palavra": "it",
+    "inicio": 69.89,
+    "fim": 69.99
+  },
+  {
+    "palavra": "never",
+    "inicio": 69.99,
+    "fim": 70.13
+  },
+  {
+    "palavra": "returned.",
+    "inicio": 70.13,
+    "fim": 70.53
+  },
+  {
+    "palavra": "No",
+    "inicio": 71.17,
+    "fim": 71.33
+  },
+  {
+    "palavra": "space",
+    "inicio": 71.33,
+    "fim": 71.65
+  },
+  {
+    "palavra": "debris",
+    "inicio": 71.65,
+    "fim": 71.95
+  },
+  {
+    "palavra": "or",
+    "inicio": 71.95,
+    "fim": 72.17
+  },
+  {
+    "palavra": "comet",
+    "inicio": 72.17,
+    "fim": 72.51
+  },
+  {
+    "palavra": "has",
+    "inicio": 72.51,
+    "fim": 72.87
+  },
+  {
+    "palavra": "ever",
+    "inicio": 72.87,
+    "fim": 73.01
+  },
+  {
+    "palavra": "explained",
+    "inicio": 73.01,
+    "fim": 73.37
+  },
+  {
+    "palavra": "it.",
+    "inicio": 73.37,
+    "fim": 73.57
+  },
+  {
+    "palavra": "Do",
+    "inicio": 74.37,
+    "fim": 74.51
+  },
+  {
+    "palavra": "you",
+    "inicio": 74.51,
+    "fim": 74.63
+  },
+  {
+    "palavra": "think",
+    "inicio": 74.63,
+    "fim": 74.75
+  },
+  {
+    "palavra": "we",
+    "inicio": 74.75,
+    "fim": 74.89
+  },
+  {
+    "palavra": "intercepted",
+    "inicio": 74.89,
+    "fim": 75.57
+  },
+  {
+    "palavra": "an",
+    "inicio": 75.57,
+    "fim": 75.65
+  },
+  {
+    "palavra": "alien",
+    "inicio": 75.65,
+    "fim": 75.95
+  },
+  {
+    "palavra": "transmission,",
+    "inicio": 75.95,
+    "fim": 76.47
+  },
+  {
+    "palavra": "or",
+    "inicio": 76.99,
+    "fim": 77.11
+  },
+  {
+    "palavra": "was",
+    "inicio": 77.11,
+    "fim": 77.27
+  },
+  {
+    "palavra": "it",
+    "inicio": 77.27,
+    "fim": 77.33
+  },
+  {
+    "palavra": "just",
+    "inicio": 77.33,
+    "fim": 77.55
+  },
+  {
+    "palavra": "a",
+    "inicio": 77.55,
+    "fim": 77.79
+  },
+  {
+    "palavra": "cosmic",
+    "inicio": 77.79,
+    "fim": 78.21
+  },
+  {
+    "palavra": "glitch?",
+    "inicio": 78.21,
+    "fim": 78.81
+  }
+]

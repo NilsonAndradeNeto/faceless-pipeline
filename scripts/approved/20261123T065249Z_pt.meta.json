@@ -1,0 +1,62 @@
+{
+  "id": "20261123T065249Z_pt",
+  "lang": "pt",
+  "tema": "Como os moais da Ilha de Páscoa foram movidos",
+  "titulo": "O mistério das estátuas que andavam na Ilha de Páscoa",
+  "hook": "Na terra mais isolada do planeta, blocos de até oitenta toneladas atravessaram uma ilha inteira sem pernas, sem animais de carga e sem ferramentas de metal.",
+  "descricao": "Como os Rapa Nui moveram estátuas gigantescas sem animais ou ferramentas de metal? Deixe sua opinião nos comentários!",
+  "hashtags": [
+    "ilhadepascoa",
+    "moai",
+    "rapanui",
+    "misteriosdahistoria",
+    "arqueologia",
+    "historiareal"
+  ],
+  "palavras": 153,
+  "caracteres": 920,
+  "notas_editor_antes": {
+    "gancho": 6,
+    "ritmo": 5,
+    "viradas": 6,
+    "climax": 6,
+    "final": 6
+  },
+  "checagem": {
+    "sem_comprovacao": [],
+    "conferir": [],
+    "confianca": "alta"
+  },
+  "versoes": {
+    "rascunho": "Oitenta e seis toneladas de pedra atravessaram uma ilha sem pernas. E a forma como moveram tudo guarda um segredo perturbador. Na Ilha de Páscoa, a terra mais isolada do planeta, viviam os Rapa Nui. Sem instrumentos de metal ou animais de carga, eles criavam gigantes de pedra. Esculpiam a cinza vulcânica macia no vulcão Rano Raraku. As estátuas mediam quatro metros de altura e pesavam doze toneladas e meia. Tinham cabeças enormes para guardar a energia sagrada dos ancestrais. Muitas recebiam olhos de coral branco com pupilas de obsidiana. Mas a pedreira ficava no interior da ilha. Os blocos colossais precisavam viajar até as plataformas na costa. Centenas de estátuas foram esculpidas e levadas até lá. Elas ficavam de costas para o oceano, vigiando as vilas. Só que o trabalho na pedreira parou de repente. Ferramentas de pedra foram abandonadas no chão de uma hora para outra. Trezentos e noventa e quatro moais ficaram inacabados para sempre. A tradição oral afirma que as estátuas simplesmente caminhavam. Para você, como pedras de oitenta toneladas andaram pela ilha?",
+    "editado": "Na terra mais isolada do planeta, blocos de até oitenta toneladas atravessaram uma ilha inteira sem pernas, sem animais de carga e sem ferramentas de metal. Na Ilha de Páscoa, os Rapa Nui esculpiam a cinza vulcânica macia direto no vulcão Rano Raraku. Eles criavam gigantes de pedra com quatro metros de altura e doze toneladas e meia. As estátuas tinham cabeças enormes para guardar a energia sagrada dos ancestrais, e muitas recebiam olhos de coral branco com pupilas de obsidiana. Do interior, centenas dessas estátuas viajaram até as plataformas na costa, onde ficavam de costas para o oceano, vigiando as vilas. Só que o trabalho na pedreira parou de repente. Ferramentas de pedra foram abandonadas no chão de uma hora para outra, e trezentos e noventa e quatro moais ficaram inacabados para sempre. A tradição oral guarda um segredo perturbador sobre o movimento: ela afirma que as estátuas simplesmente caminhavam. Sem instrumentos de metal ou animais, como você acha que pedras de oitenta toneladas andaram?"
+  },
+  "fontes": [
+    {
+      "titulo": "Moai",
+      "url": "https://en.wikipedia.org/wiki/Moai"
+    },
+    {
+      "titulo": "Ilha de Páscoa",
+      "url": "https://pt.wikipedia.org/wiki/Ilha_de_P%C3%A1scoa"
+    }
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-24",
+  "producao": {
+    "etapa": "pronto",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 1.0,
+    "atualizado": "2026-11-24 17:48:15"
+  },
+  "voz": "gemini",
+  "creditos_imagens": [
+    "Ahu Tahai.jpg — Picture taken by Bjarte Sorensen. (CC BY-SA 3.0)",
+    "AhuTongariki.JPG — Ian Sewell (CC BY 2.5)",
+    "Cantera de moais.jpg — Dropus (CC BY-SA 4.0)"
+  ],
+  "imagens_ia": 9,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261123T065249Z_pt.mp4",
+  "duracao_seg": 59.2
+}

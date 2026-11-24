@@ -1,0 +1,236 @@
+[
+  {
+    "n": 1,
+    "texto": "Na terra mais isolada do planeta, blocos de até oitenta toneladas atravessaram uma",
+    "inicio": 0.0,
+    "fim": 5.35,
+    "duracao": 5.35,
+    "visual": {
+      "real": null,
+      "ia": "Easter Island (Rapa Nui), 13th-16th century, period-accurate clothing and technology. A massive unfinished stone moai head resting on the grassy volcanic slopes of Easter Island under a dramatic sky, surrounded by the vast Pacific Ocean in the distance., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/c3343dcd6090e933.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "ilha inteira sem pernas, sem animais de carga e sem ferramentas de metal.",
+    "inicio": 5.35,
+    "fim": 10.99,
+    "duracao": 5.64,
+    "visual": {
+      "real": null,
+      "ia": "Easter Island (Rapa Nui), 13th-16th century, period-accurate clothing and technology. Ancient Rapa Nui landscape showing dirt trails cut through green grass, rolling hills with no horses or metal tools visible, under a windy subtropical sky., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/1ed2472d7583703a.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "Na Ilha de Páscoa, os Rapa Nui esculpiam a cinza vulcânica macia direto no vulcão",
+    "inicio": 10.99,
+    "fim": 16.23,
+    "duracao": 5.24,
+    "visual": {
+      "real": null,
+      "ia": "Easter Island (Rapa Nui), 13th-16th century, period-accurate clothing and technology. Rapa Nui carvers in ancient loincloths using hand-held basalt stone pickaxes to chisel out a massive moai statue directly from the yellow-brown volcanic tuff quarry wall., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/7d8a14075bec05c1.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "Rano Raraku. Eles criavam gigantes de pedra com quatro metros de altura e",
+    "inicio": 16.23,
+    "fim": 21.77,
+    "duracao": 5.54,
+    "visual": {
+      "real": null,
+      "ia": "Easter Island (Rapa Nui), 13th-16th century, period-accurate clothing and technology. A colossal four-meter-tall stone moai statue lying horizontally within the rock quarry face, surrounded by primitive basalt stone chisels, wooden levers, and steep volcanic cliffs of Rano Raraku., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/d549980dadb97d84.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "doze toneladas e meia. As estátuas tinham cabeças enormes para guardar a energia sagrada",
+    "inicio": 21.77,
+    "fim": 26.81,
+    "duracao": 5.04,
+    "visual": {
+      "real": null,
+      "ia": "Easter Island (Rapa Nui), 13th-16th century, period-accurate clothing and technology. Low-angle cinematic shot of a giant carved moai head with elongated ears, prominent chin, and heavy brow, standing tall against a glowing sunset, evoking spiritual mana., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/641a6ef760fb9dac.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "dos ancestrais, e muitas recebiam olhos de coral branco com pupilas de obsidiana.",
+    "inicio": 26.81,
+    "fim": 32.47,
+    "duracao": 5.66,
+    "visual": {
+      "real": {
+        "nome": "Ahu Tahai.jpg",
+        "descricao": "A close up of the moai at Ahu Tahai, restored with coral eyes by the American archaeologist William Mullo. Please acknowledge name of photographer.",
+        "licenca": "CC BY-SA 3.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Ahu_Tahai.jpg/1280px-Ahu_Tahai.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Picture taken by Bjarte Sorensen."
+      },
+      "ia": "Easter Island (Rapa Nui), 13th-16th century, period-accurate clothing and technology. Close-up of a restored moai statue head inlaid with bright white coral eyes and dark glossy obsidian pupils, reflecting warm sunlight under a blue Pacific sky., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Ahu_Tahai.jpg/1280px-Ahu_Tahai.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/d80a8a3598b3784e.jpg",
+      "credito": "Ahu Tahai.jpg — Picture taken by Bjarte Sorensen. (CC BY-SA 3.0)"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "Do interior, centenas dessas estátuas viajaram até as plataformas na costa,",
+    "inicio": 32.47,
+    "fim": 36.89,
+    "duracao": 4.42,
+    "visual": {
+      "real": null,
+      "ia": "Easter Island (Rapa Nui), 13th-16th century, period-accurate clothing and technology. Ancient Rapa Nui people using thick fiber ropes tied to a standing moai statue, carefully walking and swaying it forward along a dirt pathway toward the coast., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/50021e7503864333.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "onde ficavam de costas para o oceano, vigiando as vilas.",
+    "inicio": 36.89,
+    "fim": 40.69,
+    "duracao": 3.8,
+    "visual": {
+      "real": {
+        "nome": "AhuTongariki.JPG",
+        "descricao": "Photo taken by Ian Sewell, July, 2006.\n\nAhu Tongariki on Easter Island.  These moai were restored in the 1990's by a Japanese research team after a cyclone knoc",
+        "licenca": "CC BY 2.5",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/AhuTongariki.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Ian Sewell"
+      },
+      "ia": "Easter Island (Rapa Nui), 13th-16th century, period-accurate clothing and technology. A majestic line of stone moai statues standing erect on a stone ahu platform, their backs to the roaring Pacific Ocean, facing an ancient Polynesian coastal village., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/AhuTongariki.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/40d7a35abccbe843.jpg",
+      "credito": "AhuTongariki.JPG — Ian Sewell (CC BY 2.5)"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "Só que o trabalho na pedreira parou de repente.",
+    "inicio": 40.69,
+    "fim": 43.55,
+    "duracao": 2.86,
+    "visual": {
+      "real": null,
+      "ia": "Easter Island (Rapa Nui), 13th-16th century, period-accurate clothing and technology. An abandoned volcanic quarry on Easter Island with half-carved stone moai frozen in the rock walls, silent under heavy storm clouds, completely devoid of workers., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/3fec47a53cf9e0f6.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "Ferramentas de pedra foram abandonadas no chão de uma hora para outra,",
+    "inicio": 43.55,
+    "fim": 47.45,
+    "duracao": 3.9,
+    "visual": {
+      "real": null,
+      "ia": "Easter Island (Rapa Nui), 13th-16th century, period-accurate clothing and technology. Primitive basalt stone pickaxes and rough wooden wedges lying forgotten on the dusty soil near an unfinished stone sculpture, covered in light windswept dust., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/95dfefa4b421e205.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "e trezentos e noventa e quatro moais continuam por lá em diferentes estágios de conclusão.",
+    "inicio": 47.45,
+    "fim": 52.95,
+    "duracao": 5.5,
+    "visual": {
+      "real": {
+        "nome": "Cantera de moais.jpg",
+        "descricao": "Moai quarry at Rano Raraku volcano",
+        "licenca": "CC BY-SA 4.0",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Cantera_de_moais.jpg/1280px-Cantera_de_moais.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Dropus"
+      },
+      "ia": "Easter Island (Rapa Nui), 13th-16th century, period-accurate clothing and technology. Panoramic wide view of the Rano Raraku volcano slopes filled with hundreds of partially buried, unfinished moai statues standing and lying in grassy soil., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Cantera_de_moais.jpg/1280px-Cantera_de_moais.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/ef2b12563e7689f2.jpg",
+      "credito": "Cantera de moais.jpg — Dropus (CC BY-SA 4.0)"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "Sem instrumentos de metal ou animais, como você acha que pedras de oitenta toneladas andaram?",
+    "inicio": 52.95,
+    "fim": 59.21,
+    "duracao": 6.26,
+    "visual": {
+      "real": null,
+      "ia": "Easter Island (Rapa Nui), 13th-16th century, period-accurate clothing and technology. Mysterious close-up of a massive stone moai base resting on dirt, surrounded by ancient palm ropes and wooden rollers, lit by dramatic cinematic side lighting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/2e2f82bd8a9d9e89.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "id": "20261123T065440Z_en",
+  "lang": "en",
+  "tema": "The Wow! signal received from space in 1977",
+  "titulo": "The 72-Second Deep Space Signal That Mystified Science",
+  "hook": "In August 1977, a telescope in Ohio recorded a radio signal thirty times stronger than background noise—right on fourteen twenty megahertz, the natural frequency of hydrogen.",
+  "descricao": "In 1977, a radio telescope picked up a 72-second signal from space that matched every theoretical prediction of alien origin. Was it a transmission from another world, or an unexplained cosmic anomaly?",
+  "hashtags": [
+    "wowsignal",
+    "spacemysteries",
+    "astronomy",
+    "aliencontact",
+    "seti",
+    "unexplained",
+    "spacehistory"
+  ],
+  "palavras": 183,
+  "caracteres": 1160,
+  "notas_editor_antes": {
+    "gancho": 5,
+    "ritmo": 6,
+    "viradas": 6,
+    "climax": 7,
+    "final": 7
+  },
+  "checagem": {
+    "sem_comprovacao": [],
+    "conferir": [],
+    "confianca": "alta"
+  },
+  "versoes": {
+    "rascunho": "In August 1977, a printout paper in Ohio recorded something impossible. And what was hidden inside those numbers still keeps astronomers awake today. A volunteer named Jerry Ehman was sifting through stacks of printer paper. The telescope was listening to the constellation Sagittarius. It was tuned to fourteen twenty megahertz—the natural frequency of hydrogen. Physicists believed any alien civilization would transmit on that exact channel. Usually, the computer logged quiet static—simple ones and twos. But at night, the signal suddenly surged. The numbers climbed into letters, reaching U—thirty times stronger than background noise. Due to Earth’s spin, the scope observed each spot for seventy-two seconds. The beam rose for thirty-six seconds, peaked, and gradually dropped. It bore every expected hallmark of an extraterrestrial signal. Ehman circled the string 6EQUJ5 in red ink and wrote one word: Wow! Researchers searched that sky region over fifty times afterward. It never returned. No space debris or comet has ever explained it. Do you think we intercepted an alien transmission, or was it a cosmic glitch?",
+    "editado": "In August 1977, a telescope in Ohio recorded a radio signal thirty times stronger than background noise—right on fourteen twenty megahertz, the natural frequency of hydrogen. Physicists strongly believed any intelligent alien civilization would transmit on that exact channel. Usually, the computer logged boring, quiet static—just simple ones and twos. But while sifting through stacks of printer paper that night, a volunteer named Jerry Ehman saw something impossible. The signal suddenly surged out of nowhere. The numbers climbed into letters, reaching all the way to U. Due to Earth’s natural spin, the telescope observed that spot in the constellation Sagittarius for seventy-two seconds. The beam rose for thirty-six seconds, hit a massive peak, and gradually dropped back down. It bore every single expected hallmark of an alien signal. Amazed by what he saw, Ehman circled the string 6EQUJ5 in red ink and wrote one word: Wow! Researchers searched that sky region over fifty times afterward, but it never returned. No space debris or comet has ever explained it. Do you think we intercepted an alien transmission, or was it just a cosmic glitch?"
+  },
+  "fontes": [
+    {
+      "titulo": "Wow! signal",
+      "url": "https://en.wikipedia.org/wiki/Wow!_signal"
+    }
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-24",
+  "producao": {
+    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 0.18,
+    "atualizado": "2026-11-24 17:49:13"
+  },
+  "voz": "gemini"
+}

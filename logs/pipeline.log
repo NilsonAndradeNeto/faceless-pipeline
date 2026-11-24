@@ -1,67 +1,3 @@
-17:59:51 [ciclo] INFO: — ciclo 01/11 17:59 —
-17:59:52 [produzir] INFO: ▶ Produzindo: The Dyatlov Pass: Missing Eyes, Unanswered Questions
-17:59:54 [broll] INFO: Cena  1 (5.2s): wikimedia Imagine a campsite ripped open from the inside, the canvas s
-17:59:59 [broll] INFO: Cena  2 (3.6s): ia        way out. In late January 1959,
-18:00:03 [broll] INFO: Cena  3 (5.4s): ia        Igor Dyatlov led a group of ten university students into the
-18:00:15 [broll] INFO: Cena  4 (3.3s): ia        One dropped out with a knee injury, so nine pressed on,
-18:00:28 [broll] INFO: Cena  5 (4.4s): ia        setting up on the eastern slope of Kholat Syakhl on February
-18:00:41 [broll] INFO: Cena  6 (4.4s): ia        A fierce blizzard roared through, wind screaming like a dyin
-18:00:52 [broll] INFO: Cena  7 (4.5s): ia        When dawn broke, the tent's fabric was torn, the flap yawnin
-18:01:05 [broll] INFO: Cena  8 (3.5s): ia        Footprints showed the hikers fled in socks, some barefoot,
-18:01:24 [broll] INFO: Cena  9 (3.2s): ia        into a night that hovered at minus 40 degF.
-18:01:37 [broll] INFO: Cena 10 (3.8s): ia        They abandoned boots, radios, even a half-eaten meal.
-18:01:45 [broll] INFO: Cena 11 (3.3s): ia        Search teams later uncovered five bodies near a pine,
-18:01:53 [broll] INFO: Cena 12 (3.8s): ia        shivering in only underwear. Three more lie farther down,
-18:02:07 [broll] INFO: Cena 13 (3.1s): ia        arms stretched toward the sky. The final four,
-18:02:18 [broll] INFO: Cena 14 (4.3s): ia        buried under four meters of snow, revealed the most chilling
-18:02:26 [broll] INFO: Cena 15 (4.9s): ia        two were missing eyes, another had no tongue, and one's eyeb
-18:02:38 [broll] INFO: Cena 16 (5.3s): ia        What unseen force could drive people to abandon warmth and r
-18:02:54 [broll] INFO: Cena 17 (2.7s): ia        The mystery still haunts the mountains.
-18:02:54 [video_builder] INFO: Cena 1/17 (imagem, 5.2s)
-18:02:55 [video_builder] INFO: Encoder: x264
-18:03:07 [video_builder] INFO: Cena 2/17 (imagem, 3.6s)
-18:03:18 [video_builder] INFO: Cena 3/17 (imagem, 5.4s)
-18:03:31 [video_builder] INFO: Cena 4/17 (imagem, 3.3s)
-18:03:39 [video_builder] INFO: Cena 5/17 (imagem, 4.4s)
-18:03:51 [video_builder] INFO: Cena 6/17 (imagem, 4.4s)
-18:04:02 [video_builder] INFO: Cena 7/17 (imagem, 4.5s)
-18:04:13 [video_builder] INFO: Cena 8/17 (imagem, 3.5s)
-18:04:22 [video_builder] INFO: Cena 9/17 (imagem, 3.2s)
-18:04:31 [video_builder] INFO: Cena 10/17 (imagem, 3.8s)
-18:04:40 [video_builder] INFO: Cena 11/17 (imagem, 3.3s)
-18:04:49 [video_builder] INFO: Cena 12/17 (imagem, 3.8s)
-18:04:58 [video_builder] INFO: Cena 13/17 (imagem, 3.1s)
-18:05:07 [video_builder] INFO: Cena 14/17 (imagem, 4.3s)
-18:05:17 [video_builder] INFO: Cena 15/17 (imagem, 4.9s)
-18:05:30 [video_builder] INFO: Cena 16/17 (imagem, 5.3s)
-18:05:43 [video_builder] INFO: Cena 17/17 (imagem, 2.7s)
-18:05:51 [video_builder] INFO: Música: trilha_01.mp3
-18:05:51 [produzir] ERROR: Falhou na etapa montagem
-Traceback (most recent call last):
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 78, in produzir
-    fn()
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 72, in <lambda>
-    ("montagem", lambda: montar(script_id, progresso=reportar(script_id, "montagem")))]
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/video_builder.py", line 190, in montar
-    ffmpeg([*entradas, "-filter_complex", f"[0:v]subtitles=legenda.ass:fontsdir={FONTES}[v];{audio}",
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/video_builder.py", line 47, in ffmpeg
-    raise RuntimeError(f"ffmpeg falhou: {r.stderr[-800:]}")
-RuntimeError: ffmpeg falhou: [out#0/mp4 @ 0x55ddaeb68640] Error opening output /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T203736Z_en.mp4: No such file or directory
-Error opening output file /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T203736Z_en.mp4.
-Error opening output files: No such file or directory
-
-18:05:51 [produzir] ERROR: Falha ao produzir 20261030T203736Z_en (segue para o próximo)
-Traceback (most recent call last):
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 119, in produzir_fila
-    produzir(sid, ate="plano visual" if sem_imagens else None)
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 78, in produzir
-    fn()
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 72, in <lambda>
-    ("montagem", lambda: montar(script_id, progresso=reportar(script_id, "montagem")))]
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/video_builder.py", line 190, in montar
-    ffmpeg([*entradas, "-filter_complex", f"[0:v]subtitles=legenda.ass:fontsdir={FONTES}[v];{audio}",
   File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/video_builder.py", line 47, in ffmpeg
     raise RuntimeError(f"ffmpeg falhou: {r.stderr[-800:]}")
 RuntimeError: ffmpeg falhou: [out#0/mp4 @ 0x55ddaeb68640] Error opening output /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T203736Z_en.mp4: No such file or directory
@@ -3910,3 +3846,155 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 19:10:52 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261122T025535Z_pt.mp4 (86.7s)
 19:10:52 [produzir] INFO: ✅ Pronto: Como a Biblioteca de Alexandria foi perdida de verdade
 02:48:59 [ciclo] INFO: — ciclo 24/11 02:48 —
+17:34:07 [ciclo] INFO: — ciclo 24/11 17:34 —
+17:34:07 [ciclo] WARNING: 'O mistério de como as estátuas de Páscoa andavam' tem frase sem base na fonte — reescrevendo (1/2)
+17:34:07 [scriptwriter] INFO: Escrevendo roteiro: Como os moais da Ilha de Páscoa foram movidos
+17:34:48 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:34:48 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 5607→404 tokens, US$0.0000, 40.5s
+17:34:48 [scriptwriter] INFO: Editando para retenção...
+17:35:24 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:35:24 [llm] INFO: gemini/gemini-3.5-flash [critica] 530→335 tokens, US$0.0000, 36.4s
+17:35:24 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 6, 'viradas': 7, 'climax': 6, 'final': 7}
+17:35:24 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+17:36:09 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:36:09 [llm] INFO: gemini/gemini-3.5-flash [provas] 5501→940 tokens, US$0.0000, 45.4s
+17:36:09 [scriptwriter] INFO: Checagem 1: 12 frases, 3 com problema, 1 para conferir
+17:36:09 [scriptwriter] INFO: Corrigindo:
+- "Para os nativos, isso ativava uma força espiritual sagrada chamada mana." → sem_base: As fontes citam a energia espiritual 'mana' em objetos esculpidos e preparados ritualmente, mas não afirmam que a inserção dos olhos de coral era especificamente o elemento encarregado de ativar essa força.
+- "Os antigos habitantes juravam que não arrastaram nada: as estátuas caminharam de pé." → sem_base: As fontes fornecidas não contêm relatos ou tradições orais nativas afirmando que as estátuas caminharam de pé.
+- "Hoje, cientistas tentam provar que cordas faziam a rocha balançar de um lado ao outro." → sem_base: As fontes não mencionam experimentos científicos ou teorias envolvendo o uso de cordas para fazer as estátuas balançarem.
+17:36:48 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:36:48 [llm] INFO: gemini/gemini-3.5-flash [correcao] 5498→248 tokens, US$0.0000, 38.2s
+17:37:16 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:37:16 [llm] INFO: gemini/gemini-3.5-flash [provas] 5465→849 tokens, US$0.0000, 28.3s
+17:37:16 [scriptwriter] INFO: Checagem 2: 10 frases, 1 com problema, 0 para conferir
+17:37:16 [scriptwriter] INFO: Corrigindo:
+- "Como uma estátua erguida de oitenta e seis toneladas precisou viajar por quilômetros em uma ilha isolada, sem animais de carga nem instrumentos de metal?" → sem_base: As fontes mencionam o peso de 86 toneladas, o isolamento da ilha e a ausência de instrumentos de metal, mas não mencionam a falta de animais de carga.
+17:37:41 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:37:41 [llm] INFO: gemini/gemini-3.5-flash [correcao] 5362→239 tokens, US$0.0000, 25.6s
+17:37:41 [scriptwriter] INFO: Roteiro salvo: 144 palavras, 901 caracteres, confiança baixa
+17:37:41 [ciclo] WARNING: 'Como estátuas de 86 toneladas se moveram?' tem frase sem base na fonte — reescrevendo (2/2)
+17:37:41 [scriptwriter] INFO: Escrevendo roteiro: Como os moais da Ilha de Páscoa foram movidos
+17:38:10 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:38:10 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 5607→402 tokens, US$0.0000, 28.5s
+17:38:10 [scriptwriter] INFO: Editando para retenção...
+17:38:56 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:38:56 [llm] INFO: gemini/gemini-3.5-flash [critica] 526→317 tokens, US$0.0000, 45.9s
+17:38:56 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 5, 'viradas': 6, 'climax': 6, 'final': 6}
+17:38:56 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+17:39:32 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:39:32 [llm] INFO: gemini/gemini-3.5-flash [provas] 5483→772 tokens, US$0.0000, 35.6s
+17:39:32 [scriptwriter] INFO: Checagem 1: 9 frases, 2 com problema, 0 para conferir
+17:39:32 [scriptwriter] INFO: Corrigindo:
+- "Ferramentas de pedra foram abandonadas no chão de uma hora para outra, e trezentos e noventa e quatro moais ficaram inacabados para sempre." → contradiz: A fonte indica que os 394 moais em Rano Raraku estão em 'vários estágios de conclusão' (varying states of completion), incluindo estátuas acabadas aguardando transporte, e não que todos os 394 ficaram inacabados.
+- "A tradição oral guarda um segredo perturbador sobre o movimento: ela afirma que as estátuas simplesmente caminhavam." → sem_base: As fontes não trazem a informação de que a tradição oral afirmava que as estátuas caminhavam.
+17:39:53 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:39:53 [llm] INFO: gemini/gemini-3.5-flash [correcao] 5451→240 tokens, US$0.0000, 21.4s
+17:40:37 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:40:37 [llm] INFO: gemini/gemini-3.5-flash [provas] 5462→633 tokens, US$0.0000, 44.0s
+17:40:37 [scriptwriter] INFO: Checagem 2: 8 frases, 0 com problema, 0 para conferir
+17:40:37 [scriptwriter] INFO: Roteiro salvo: 153 palavras, 920 caracteres, confiança alta
+17:40:37 [ciclo] INFO: Aprovado automaticamente: O mistério das estátuas que andavam na Ilha de Páscoa
+17:40:37 [ciclo] INFO: Vídeo PT de hoje: O mistério das estátuas que andavam na Ilha de Páscoa
+17:40:37 [ciclo] WARNING: 'The 72-Second Signal From Space That Never Returned' tem frase sem base na fonte — reescrevendo (1/2)
+17:40:37 [scriptwriter] INFO: Escrevendo roteiro: The Wow! signal received from space in 1977
+17:41:20 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:41:20 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 2950→359 tokens, US$0.0000, 42.7s
+17:41:20 [scriptwriter] INFO: Editando para retenção...
+17:42:00 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:42:00 [llm] INFO: gemini/gemini-3.5-flash [critica] 477→299 tokens, US$0.0000, 40.0s
+17:42:00 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 5, 'ritmo': 6, 'viradas': 6, 'climax': 7, 'final': 7}
+17:42:00 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+17:42:36 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:42:36 [llm] INFO: gemini/gemini-3.5-flash [provas] 2802→1073 tokens, US$0.0000, 36.1s
+17:42:36 [scriptwriter] INFO: Checagem 1: 13 frases, 3 com problema, 0 para conferir
+17:42:36 [scriptwriter] INFO: Corrigindo:
+- "Usually, the computer logged boring, quiet static—just simple ones and twos." → sem_base: A fonte indica que a intensidade de ruído de fundo entre 0 e 1 era representada por um caractere de espaço ('space character'), não mencionando que o computador registrava apenas 'números um e dois'.
+- "But while sifting through stacks of printer paper that night, a volunteer named Jerry Ehman saw something impossible." → contradiz: O roteiro diz que ele viu o registro 'naquela noite' ('that night'), mas a fonte afirma que Ehman descobriu a anomalia alguns dias depois ('a few days later').
+- "Amazed by what he saw, Ehman circled the string 6EQUJ5 in red ink and wrote one word: Wow!" → sem_base: A fonte confirma que ele circulou '6EQUJ5' e escreveu 'Wow!', mas não menciona o uso de 'tinta vermelha' ('red ink').
+17:43:04 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:43:04 [llm] INFO: gemini/gemini-3.5-flash [correcao] 2829→243 tokens, US$0.0000, 28.4s
+17:43:37 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:43:37 [llm] INFO: gemini/gemini-3.5-flash [provas] 2802→924 tokens, US$0.0000, 32.7s
+17:43:37 [scriptwriter] INFO: Checagem 2: 13 frases, 0 com problema, 0 para conferir
+17:43:37 [scriptwriter] INFO: Roteiro salvo: 183 palavras, 1160 caracteres, confiança alta
+17:43:37 [ciclo] INFO: Aprovado automaticamente: The 72-Second Deep Space Signal That Mystified Science
+17:43:37 [ciclo] INFO: Vídeo EN de hoje: The 72-Second Deep Space Signal That Mystified Science
+17:43:37 [produzir] INFO: ▶ Produzindo: O mistério das estátuas que andavam na Ilha de Páscoa
+17:43:38 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 920 caracteres, restam só 771) — usando a voz do Gemini
+17:43:54 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 64.8s
+17:43:57 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+17:43:57 [tts] INFO: Legenda alinhada: 139 de 153 palavras batem com o Whisper
+17:43:57 [tts] WARNING: Cortando 5.7s de fala extra no início do áudio do Gemini
+17:43:58 [tts] INFO: Narração pronta (gemini): 58.6s, 153 palavras
+17:43:58 [visual_planner] INFO: 21 imagens reais disponíveis nos artigos-fonte
+17:44:29 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:44:29 [llm] INFO: gemini/gemini-3.5-flash [visual] 1661→758 tokens, US$0.0000, 30.8s
+17:44:29 [visual_planner] INFO: 12 cenas (média 4.9s): 3 com imagem real, 9 com IA
+17:44:33 [broll] INFO: Cena  1 (5.3s): ia        Na terra mais isolada do planeta, blocos de até oitenta tone
+17:44:36 [broll] INFO: Cena  2 (5.6s): ia        ilha inteira sem pernas, sem animais de carga e sem ferramen
+17:44:39 [broll] INFO: Cena  3 (5.2s): ia        Na Ilha de Páscoa, os Rapa Nui esculpiam a cinza vulcânica m
+17:44:50 [broll] INFO: Cena  4 (5.5s): ia        Rano Raraku. Eles criavam gigantes de pedra com quatro metro
+17:45:02 [broll] INFO: Cena  5 (5.0s): ia        doze toneladas e meia. As estátuas tinham cabeças enormes pa
+17:45:03 [broll] INFO: Cena  6 (5.7s): wikimedia dos ancestrais, e muitas recebiam olhos de coral branco com 
+17:45:15 [broll] INFO: Cena  7 (4.4s): ia        Do interior, centenas dessas estátuas viajaram até as plataf
+17:45:16 [broll] INFO: Cena  8 (3.8s): wikimedia onde ficavam de costas para o oceano, vigiando as vilas.
+17:45:25 [broll] INFO: Cena  9 (2.9s): ia        Só que o trabalho na pedreira parou de repente.
+17:45:36 [broll] INFO: Cena 10 (3.9s): ia        Ferramentas de pedra foram abandonadas no chão de uma hora p
+17:45:37 [broll] INFO: Cena 11 (5.5s): wikimedia e trezentos e noventa e quatro moais continuam por lá em dif
+17:45:46 [broll] INFO: Cena 12 (6.3s): ia        Sem instrumentos de metal ou animais, como você acha que ped
+17:45:46 [video_builder] INFO: Cena 1/12 (imagem, 5.3s)
+17:45:47 [video_builder] INFO: Encoder: x264
+17:45:55 [video_builder] INFO: Cena 2/12 (imagem, 5.6s)
+17:46:03 [video_builder] INFO: Cena 3/12 (imagem, 5.2s)
+17:46:11 [video_builder] INFO: Cena 4/12 (imagem, 5.5s)
+17:46:18 [video_builder] INFO: Cena 5/12 (imagem, 5.0s)
+17:46:25 [video_builder] INFO: Cena 6/12 (imagem, 5.7s)
+17:46:34 [video_builder] INFO: Cena 7/12 (imagem, 4.4s)
+17:46:40 [video_builder] INFO: Cena 8/12 (imagem, 3.8s)
+17:46:46 [video_builder] INFO: Cena 9/12 (imagem, 2.9s)
+17:46:51 [video_builder] INFO: Cena 10/12 (imagem, 3.9s)
+17:46:56 [video_builder] INFO: Cena 11/12 (imagem, 5.5s)
+17:47:04 [video_builder] INFO: Cena 12/12 (imagem, 6.3s)
+17:47:13 [video_builder] INFO: Música: trilha_07.mp3
+17:48:15 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261123T065249Z_pt.mp4 (59.2s)
+17:48:15 [produzir] INFO: ✅ Pronto: O mistério das estátuas que andavam na Ilha de Páscoa
+17:48:15 [produzir] INFO: ▶ Produzindo: The 72-Second Deep Space Signal That Mystified Science
+17:48:16 [tts] WARNING: ElevenLabs indisponível (ElevenLabs: faltam 1160 caracteres, restam só 771) — usando a voz do Gemini
+17:48:36 [tts] INFO: Gemini TTS: gemini-3.8-flash-tts, voz Charon, 85.0s
+17:48:41 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+17:48:41 [tts] INFO: Legenda alinhada: 173 de 183 palavras batem com o Whisper
+17:48:41 [tts] WARNING: Cortando 5.8s de fala extra no início do áudio do Gemini
+17:48:42 [tts] INFO: Narração pronta (gemini): 78.8s, 183 palavras
+17:48:42 [visual_planner] INFO: 4 imagens reais disponíveis nos artigos-fonte
+17:49:12 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+17:49:12 [llm] INFO: gemini/gemini-3.5-flash [visual] 946→1086 tokens, US$0.0000, 30.4s
+17:49:12 [visual_planner] INFO: 17 cenas (média 4.7s): 1 com imagem real, 16 com IA
+17:49:12 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+17:49:13 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+17:49:13 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+17:49:13 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+17:49:13 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+17:49:13 [ciclo] ERROR: Falha ao publicar pt youtube
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 197, in publicar_no_horario
+    r = publicar(plataforma, ler_json(meta_arq), video)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 166, in publicar
+    return publicar_youtube(meta, Path(video))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 52, in publicar_youtube
+    yt = youtube_cliente(meta["lang"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 42, in youtube_cliente
+    cred = Credentials.from_authorized_user_file(str(arq), ESCOPOS_YT)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/.venv/lib/python3.11/site-packages/google/oauth2/credentials.py", line 544, in from_authorized_user_file
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
+    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
+json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)

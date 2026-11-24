@@ -1,0 +1,767 @@
+[
+  {
+    "palavra": "Na",
+    "inicio": 0.15,
+    "fim": 0.33
+  },
+  {
+    "palavra": "terra",
+    "inicio": 0.33,
+    "fim": 0.61
+  },
+  {
+    "palavra": "mais",
+    "inicio": 0.61,
+    "fim": 0.91
+  },
+  {
+    "palavra": "isolada",
+    "inicio": 0.91,
+    "fim": 1.57
+  },
+  {
+    "palavra": "do",
+    "inicio": 1.57,
+    "fim": 1.73
+  },
+  {
+    "palavra": "planeta,",
+    "inicio": 1.73,
+    "fim": 2.55
+  },
+  {
+    "palavra": "blocos",
+    "inicio": 2.55,
+    "fim": 2.91
+  },
+  {
+    "palavra": "de",
+    "inicio": 2.91,
+    "fim": 3.09
+  },
+  {
+    "palavra": "até",
+    "inicio": 3.09,
+    "fim": 3.27
+  },
+  {
+    "palavra": "oitenta",
+    "inicio": 3.27,
+    "fim": 3.73
+  },
+  {
+    "palavra": "toneladas",
+    "inicio": 3.73,
+    "fim": 4.39
+  },
+  {
+    "palavra": "atravessaram",
+    "inicio": 4.39,
+    "fim": 5.11
+  },
+  {
+    "palavra": "uma",
+    "inicio": 5.11,
+    "fim": 5.35
+  },
+  {
+    "palavra": "ilha",
+    "inicio": 5.35,
+    "fim": 5.49
+  },
+  {
+    "palavra": "inteira",
+    "inicio": 5.49,
+    "fim": 6.27
+  },
+  {
+    "palavra": "sem",
+    "inicio": 6.47,
+    "fim": 6.67
+  },
+  {
+    "palavra": "pernas,",
+    "inicio": 6.67,
+    "fim": 7.49
+  },
+  {
+    "palavra": "sem",
+    "inicio": 7.49,
+    "fim": 7.65
+  },
+  {
+    "palavra": "animais",
+    "inicio": 7.65,
+    "fim": 7.95
+  },
+  {
+    "palavra": "de",
+    "inicio": 7.95,
+    "fim": 8.07
+  },
+  {
+    "palavra": "carga",
+    "inicio": 8.07,
+    "fim": 8.35
+  },
+  {
+    "palavra": "e",
+    "inicio": 8.35,
+    "fim": 8.93
+  },
+  {
+    "palavra": "sem",
+    "inicio": 8.93,
+    "fim": 9.17
+  },
+  {
+    "palavra": "ferramentas",
+    "inicio": 9.17,
+    "fim": 9.79
+  },
+  {
+    "palavra": "de",
+    "inicio": 9.79,
+    "fim": 9.89
+  },
+  {
+    "palavra": "metal.",
+    "inicio": 9.89,
+    "fim": 10.11
+  },
+  {
+    "palavra": "Na",
+    "inicio": 10.99,
+    "fim": 11.15
+  },
+  {
+    "palavra": "Ilha",
+    "inicio": 11.15,
+    "fim": 11.25
+  },
+  {
+    "palavra": "de",
+    "inicio": 11.25,
+    "fim": 11.45
+  },
+  {
+    "palavra": "Páscoa,",
+    "inicio": 11.45,
+    "fim": 11.95
+  },
+  {
+    "palavra": "os",
+    "inicio": 11.95,
+    "fim": 12.41
+  },
+  {
+    "palavra": "Rapa",
+    "inicio": 12.41,
+    "fim": 12.61
+  },
+  {
+    "palavra": "Nui",
+    "inicio": 12.61,
+    "fim": 12.81
+  },
+  {
+    "palavra": "esculpiam",
+    "inicio": 12.81,
+    "fim": 13.37
+  },
+  {
+    "palavra": "a",
+    "inicio": 13.37,
+    "fim": 13.59
+  },
+  {
+    "palavra": "cinza",
+    "inicio": 13.59,
+    "fim": 13.89
+  },
+  {
+    "palavra": "vulcânica",
+    "inicio": 13.89,
+    "fim": 14.55
+  },
+  {
+    "palavra": "macia",
+    "inicio": 14.55,
+    "fim": 15.19
+  },
+  {
+    "palavra": "direto",
+    "inicio": 15.19,
+    "fim": 15.71
+  },
+  {
+    "palavra": "no",
+    "inicio": 15.71,
+    "fim": 15.85
+  },
+  {
+    "palavra": "vulcão",
+    "inicio": 15.85,
+    "fim": 16.23
+  },
+  {
+    "palavra": "Rano",
+    "inicio": 16.23,
+    "fim": 17.03
+  },
+  {
+    "palavra": "Raraku.",
+    "inicio": 17.03,
+    "fim": 17.83
+  },
+  {
+    "palavra": "Eles",
+    "inicio": 17.83,
+    "fim": 18.03
+  },
+  {
+    "palavra": "criavam",
+    "inicio": 18.03,
+    "fim": 18.41
+  },
+  {
+    "palavra": "gigantes",
+    "inicio": 18.41,
+    "fim": 18.97
+  },
+  {
+    "palavra": "de",
+    "inicio": 18.97,
+    "fim": 19.17
+  },
+  {
+    "palavra": "pedra",
+    "inicio": 19.17,
+    "fim": 19.55
+  },
+  {
+    "palavra": "com",
+    "inicio": 19.55,
+    "fim": 19.81
+  },
+  {
+    "palavra": "quatro",
+    "inicio": 19.81,
+    "fim": 20.31
+  },
+  {
+    "palavra": "metros",
+    "inicio": 20.31,
+    "fim": 20.71
+  },
+  {
+    "palavra": "de",
+    "inicio": 20.71,
+    "fim": 20.93
+  },
+  {
+    "palavra": "altura",
+    "inicio": 20.93,
+    "fim": 21.21
+  },
+  {
+    "palavra": "e",
+    "inicio": 21.21,
+    "fim": 21.77
+  },
+  {
+    "palavra": "doze",
+    "inicio": 21.77,
+    "fim": 22.13
+  },
+  {
+    "palavra": "toneladas",
+    "inicio": 22.13,
+    "fim": 22.67
+  },
+  {
+    "palavra": "e",
+    "inicio": 22.67,
+    "fim": 22.83
+  },
+  {
+    "palavra": "meia.",
+    "inicio": 22.83,
+    "fim": 23.17
+  },
+  {
+    "palavra": "As",
+    "inicio": 23.63,
+    "fim": 23.75
+  },
+  {
+    "palavra": "estátuas",
+    "inicio": 23.75,
+    "fim": 24.17
+  },
+  {
+    "palavra": "tinham",
+    "inicio": 24.17,
+    "fim": 24.39
+  },
+  {
+    "palavra": "cabeças",
+    "inicio": 24.39,
+    "fim": 24.75
+  },
+  {
+    "palavra": "enormes",
+    "inicio": 24.75,
+    "fim": 25.35
+  },
+  {
+    "palavra": "para",
+    "inicio": 25.35,
+    "fim": 25.51
+  },
+  {
+    "palavra": "guardar",
+    "inicio": 25.51,
+    "fim": 25.83
+  },
+  {
+    "palavra": "a",
+    "inicio": 25.83,
+    "fim": 25.97
+  },
+  {
+    "palavra": "energia",
+    "inicio": 25.97,
+    "fim": 26.27
+  },
+  {
+    "palavra": "sagrada",
+    "inicio": 26.27,
+    "fim": 26.81
+  },
+  {
+    "palavra": "dos",
+    "inicio": 26.81,
+    "fim": 27.03
+  },
+  {
+    "palavra": "ancestrais,",
+    "inicio": 27.03,
+    "fim": 27.83
+  },
+  {
+    "palavra": "e",
+    "inicio": 28.21,
+    "fim": 28.33
+  },
+  {
+    "palavra": "muitas",
+    "inicio": 28.33,
+    "fim": 28.65
+  },
+  {
+    "palavra": "recebiam",
+    "inicio": 28.65,
+    "fim": 29.15
+  },
+  {
+    "palavra": "olhos",
+    "inicio": 29.15,
+    "fim": 29.55
+  },
+  {
+    "palavra": "de",
+    "inicio": 29.55,
+    "fim": 29.67
+  },
+  {
+    "palavra": "coral",
+    "inicio": 29.67,
+    "fim": 29.87
+  },
+  {
+    "palavra": "branco",
+    "inicio": 29.87,
+    "fim": 30.29
+  },
+  {
+    "palavra": "com",
+    "inicio": 30.29,
+    "fim": 30.53
+  },
+  {
+    "palavra": "pupilas",
+    "inicio": 30.53,
+    "fim": 31.07
+  },
+  {
+    "palavra": "de",
+    "inicio": 31.07,
+    "fim": 31.19
+  },
+  {
+    "palavra": "obsidiana.",
+    "inicio": 31.19,
+    "fim": 31.93
+  },
+  {
+    "palavra": "Do",
+    "inicio": 32.47,
+    "fim": 32.61
+  },
+  {
+    "palavra": "interior,",
+    "inicio": 32.61,
+    "fim": 32.97
+  },
+  {
+    "palavra": "centenas",
+    "inicio": 32.97,
+    "fim": 33.87
+  },
+  {
+    "palavra": "dessas",
+    "inicio": 33.87,
+    "fim": 34.13
+  },
+  {
+    "palavra": "estátuas",
+    "inicio": 34.13,
+    "fim": 34.67
+  },
+  {
+    "palavra": "viajaram",
+    "inicio": 34.67,
+    "fim": 35.19
+  },
+  {
+    "palavra": "até",
+    "inicio": 35.19,
+    "fim": 35.39
+  },
+  {
+    "palavra": "as",
+    "inicio": 35.39,
+    "fim": 35.55
+  },
+  {
+    "palavra": "plataformas",
+    "inicio": 35.55,
+    "fim": 36.21
+  },
+  {
+    "palavra": "na",
+    "inicio": 36.21,
+    "fim": 36.33
+  },
+  {
+    "palavra": "costa,",
+    "inicio": 36.33,
+    "fim": 36.87
+  },
+  {
+    "palavra": "onde",
+    "inicio": 36.89,
+    "fim": 37.15
+  },
+  {
+    "palavra": "ficavam",
+    "inicio": 37.15,
+    "fim": 37.53
+  },
+  {
+    "palavra": "de",
+    "inicio": 37.53,
+    "fim": 37.71
+  },
+  {
+    "palavra": "costas",
+    "inicio": 37.71,
+    "fim": 38.19
+  },
+  {
+    "palavra": "para",
+    "inicio": 38.19,
+    "fim": 38.35
+  },
+  {
+    "palavra": "o",
+    "inicio": 38.35,
+    "fim": 38.43
+  },
+  {
+    "palavra": "oceano,",
+    "inicio": 38.43,
+    "fim": 39.13
+  },
+  {
+    "palavra": "vigiando",
+    "inicio": 39.13,
+    "fim": 39.51
+  },
+  {
+    "palavra": "as",
+    "inicio": 39.51,
+    "fim": 39.65
+  },
+  {
+    "palavra": "vilas.",
+    "inicio": 39.65,
+    "fim": 40.11
+  },
+  {
+    "palavra": "Só",
+    "inicio": 40.69,
+    "fim": 40.83
+  },
+  {
+    "palavra": "que",
+    "inicio": 40.83,
+    "fim": 40.95
+  },
+  {
+    "palavra": "o",
+    "inicio": 40.95,
+    "fim": 41.05
+  },
+  {
+    "palavra": "trabalho",
+    "inicio": 41.05,
+    "fim": 41.37
+  },
+  {
+    "palavra": "na",
+    "inicio": 41.37,
+    "fim": 41.53
+  },
+  {
+    "palavra": "pedreira",
+    "inicio": 41.53,
+    "fim": 41.93
+  },
+  {
+    "palavra": "parou",
+    "inicio": 41.93,
+    "fim": 42.19
+  },
+  {
+    "palavra": "de",
+    "inicio": 42.19,
+    "fim": 42.41
+  },
+  {
+    "palavra": "repente.",
+    "inicio": 42.41,
+    "fim": 43.17
+  },
+  {
+    "palavra": "Ferramentas",
+    "inicio": 43.55,
+    "fim": 44.11
+  },
+  {
+    "palavra": "de",
+    "inicio": 44.11,
+    "fim": 44.23
+  },
+  {
+    "palavra": "pedra",
+    "inicio": 44.23,
+    "fim": 44.55
+  },
+  {
+    "palavra": "foram",
+    "inicio": 44.55,
+    "fim": 44.81
+  },
+  {
+    "palavra": "abandonadas",
+    "inicio": 44.81,
+    "fim": 45.43
+  },
+  {
+    "palavra": "no",
+    "inicio": 45.43,
+    "fim": 45.63
+  },
+  {
+    "palavra": "chão",
+    "inicio": 45.63,
+    "fim": 45.83
+  },
+  {
+    "palavra": "de",
+    "inicio": 45.83,
+    "fim": 45.99
+  },
+  {
+    "palavra": "uma",
+    "inicio": 45.99,
+    "fim": 46.13
+  },
+  {
+    "palavra": "hora",
+    "inicio": 46.13,
+    "fim": 46.33
+  },
+  {
+    "palavra": "para",
+    "inicio": 46.33,
+    "fim": 46.49
+  },
+  {
+    "palavra": "outra,",
+    "inicio": 46.49,
+    "fim": 46.83
+  },
+  {
+    "palavra": "e",
+    "inicio": 47.45,
+    "fim": 47.59
+  },
+  {
+    "palavra": "trezentos",
+    "inicio": 47.59,
+    "fim": 47.842
+  },
+  {
+    "palavra": "e",
+    "inicio": 47.842,
+    "fim": 48.094
+  },
+  {
+    "palavra": "noventa",
+    "inicio": 48.094,
+    "fim": 48.346
+  },
+  {
+    "palavra": "e",
+    "inicio": 48.346,
+    "fim": 48.598
+  },
+  {
+    "palavra": "quatro",
+    "inicio": 48.598,
+    "fim": 48.85
+  },
+  {
+    "palavra": "moais",
+    "inicio": 48.85,
+    "fim": 49.25
+  },
+  {
+    "palavra": "continuam",
+    "inicio": 49.25,
+    "fim": 49.89
+  },
+  {
+    "palavra": "por",
+    "inicio": 49.89,
+    "fim": 50.09
+  },
+  {
+    "palavra": "lá",
+    "inicio": 50.09,
+    "fim": 50.43
+  },
+  {
+    "palavra": "em",
+    "inicio": 50.43,
+    "fim": 50.57
+  },
+  {
+    "palavra": "diferentes",
+    "inicio": 50.57,
+    "fim": 51.09
+  },
+  {
+    "palavra": "estágios",
+    "inicio": 51.09,
+    "fim": 51.59
+  },
+  {
+    "palavra": "de",
+    "inicio": 51.59,
+    "fim": 51.73
+  },
+  {
+    "palavra": "conclusão.",
+    "inicio": 51.73,
+    "fim": 52.69
+  },
+  {
+    "palavra": "Sem",
+    "inicio": 52.95,
+    "fim": 53.11
+  },
+  {
+    "palavra": "instrumentos",
+    "inicio": 53.11,
+    "fim": 53.65
+  },
+  {
+    "palavra": "de",
+    "inicio": 53.65,
+    "fim": 53.75
+  },
+  {
+    "palavra": "metal",
+    "inicio": 53.75,
+    "fim": 53.99
+  },
+  {
+    "palavra": "ou",
+    "inicio": 53.99,
+    "fim": 54.23
+  },
+  {
+    "palavra": "animais,",
+    "inicio": 54.23,
+    "fim": 55.21
+  },
+  {
+    "palavra": "como",
+    "inicio": 55.47,
+    "fim": 55.67
+  },
+  {
+    "palavra": "você",
+    "inicio": 55.67,
+    "fim": 55.93
+  },
+  {
+    "palavra": "acha",
+    "inicio": 55.93,
+    "fim": 56.17
+  },
+  {
+    "palavra": "que",
+    "inicio": 56.17,
+    "fim": 56.35
+  },
+  {
+    "palavra": "pedras",
+    "inicio": 56.35,
+    "fim": 56.65
+  },
+  {
+    "palavra": "de",
+    "inicio": 56.65,
+    "fim": 56.81
+  },
+  {
+    "palavra": "oitenta",
+    "inicio": 56.81,
+    "fim": 57.11
+  },
+  {
+    "palavra": "toneladas",
+    "inicio": 57.11,
+    "fim": 57.93
+  },
+  {
+    "palavra": "andaram?",
+    "inicio": 57.93,
+    "fim": 58.61
+  }
+]
