@@ -3909,3 +3909,4 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 19:09:43 [video_builder] INFO: Música: trilha_06.mp3
 19:10:52 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261122T025535Z_pt.mp4 (86.7s)
 19:10:52 [produzir] INFO: ✅ Pronto: Como a Biblioteca de Alexandria foi perdida de verdade
+02:48:59 [ciclo] INFO: — ciclo 24/11 02:48 —
