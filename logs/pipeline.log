@@ -1,123 +1,3 @@
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/video_builder.py", line 47, in ffmpeg
-    raise RuntimeError(f"ffmpeg falhou: {r.stderr[-800:]}")
-RuntimeError: ffmpeg falhou: [out#0/mp4 @ 0x55ddaeb68640] Error opening output /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T203736Z_en.mp4: No such file or directory
-Error opening output file /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T203736Z_en.mp4.
-Error opening output files: No such file or directory
-
-18:05:51 [produzir] INFO: ▶ Produzindo: O mistério da Montanha dos Mortos no Passo Dyatlov
-18:05:55 [broll] INFO: Cena  2 (2.6s): ia        escuridão a menos trinta graus?
-18:05:59 [broll] INFO: Cena  3 (3.9s): ia        No meio da noite, algo aterrorizante aconteceu ali dentro.
-18:06:13 [broll] INFO: Cena  4 (5.4s): ia        Elas não usaram a porta: rasgaram o tecido e fugiram em dire
-18:06:24 [broll] INFO: Cena  5 (5.1s): ia        mesmo sabendo que ninguém estava vestido para enfrentar aque
-18:06:41 [broll] INFO: Cena  6 (5.0s): ia        Semanas depois, os primeiros corpos apareceram caídos perto 
-18:06:56 [broll] INFO: Cena  7 (5.8s): ia        Eles estavam apenas de roupas íntimas e tinham as mãos inexp
-18:06:57 [broll] INFO: Cena  8 (4.0s): wikimedia Mas o mistério real desafiaria a lógica meses mais tarde,
-18:07:11 [broll] INFO: Cena  9 (2.9s): ia        enterrado sob quatro metros de neve.
-18:07:25 [broll] INFO: Cena 10 (5.3s): ia        Foi só quatro meses depois que encontraram os últimos integr
-18:07:35 [broll] INFO: Cena 11 (5.2s): ia        Os corpos tinham costelas partidas e crânios esmagados por u
-18:07:47 [broll] INFO: Cena 12 (4.9s): ia        idêntica ao impacto violento de um acidente de carro em alta
-18:08:00 [broll] INFO: Cena 13 (5.8s): ia        O detalhe mais perturbador: não existia nenhuma marca extern
-18:08:14 [broll] INFO: Cena 14 (4.2s): ia        Para piorar, Lyudmila estava sem os olhos e sem a língua.
-18:08:29 [broll] INFO: Cena 15 (5.4s): ia        O governo soviético culpou uma força natural esmagadora e en
-18:08:44 [broll] INFO: Cena 16 (4.5s): ia        O que faria você abandonar o abrigo e correr pelado para o g
-18:08:44 [video_builder] INFO: Cena 1/16 (imagem, 5.1s)
-18:08:56 [video_builder] INFO: Cena 2/16 (imagem, 2.6s)
-18:09:03 [video_builder] INFO: Cena 3/16 (imagem, 3.9s)
-18:09:12 [video_builder] INFO: Cena 4/16 (imagem, 5.4s)
-18:09:25 [video_builder] INFO: Cena 5/16 (imagem, 5.1s)
-18:09:38 [video_builder] INFO: Cena 6/16 (imagem, 5.0s)
-18:09:50 [video_builder] INFO: Cena 7/16 (imagem, 5.8s)
-18:10:04 [video_builder] INFO: Cena 8/16 (imagem, 4.0s)
-18:10:15 [video_builder] INFO: Cena 9/16 (imagem, 2.9s)
-18:10:22 [video_builder] INFO: Cena 10/16 (imagem, 5.3s)
-18:10:35 [video_builder] INFO: Cena 11/16 (imagem, 5.2s)
-18:10:48 [video_builder] INFO: Cena 12/16 (imagem, 4.9s)
-18:10:59 [video_builder] INFO: Cena 13/16 (imagem, 5.8s)
-18:11:14 [video_builder] INFO: Cena 14/16 (imagem, 4.2s)
-18:11:24 [video_builder] INFO: Cena 15/16 (imagem, 5.4s)
-18:11:37 [video_builder] INFO: Cena 16/16 (imagem, 4.5s)
-18:11:49 [video_builder] INFO: Música: trilha_07.mp3
-18:11:49 [produzir] ERROR: Falhou na etapa montagem
-Traceback (most recent call last):
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 78, in produzir
-    fn()
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 72, in <lambda>
-    ("montagem", lambda: montar(script_id, progresso=reportar(script_id, "montagem")))]
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/video_builder.py", line 190, in montar
-    ffmpeg([*entradas, "-filter_complex", f"[0:v]subtitles=legenda.ass:fontsdir={FONTES}[v];{audio}",
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/video_builder.py", line 47, in ffmpeg
-    raise RuntimeError(f"ffmpeg falhou: {r.stderr[-800:]}")
-RuntimeError: ffmpeg falhou: [out#0/mp4 @ 0x55c79982fe40] Error opening output /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T192006Z_pt.mp4: No such file or directory
-Error opening output file /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T192006Z_pt.mp4.
-Error opening output files: No such file or directory
-
-18:11:49 [produzir] ERROR: Falha ao produzir 20261030T192006Z_pt (segue para o próximo)
-Traceback (most recent call last):
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 119, in produzir_fila
-    produzir(sid, ate="plano visual" if sem_imagens else None)
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 78, in produzir
-    fn()
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/produzir.py", line 72, in <lambda>
-    ("montagem", lambda: montar(script_id, progresso=reportar(script_id, "montagem")))]
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/video_builder.py", line 190, in montar
-    ffmpeg([*entradas, "-filter_complex", f"[0:v]subtitles=legenda.ass:fontsdir={FONTES}[v];{audio}",
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/video_builder.py", line 47, in ffmpeg
-    raise RuntimeError(f"ffmpeg falhou: {r.stderr[-800:]}")
-RuntimeError: ffmpeg falhou: [out#0/mp4 @ 0x55c79982fe40] Error opening output /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T192006Z_pt.mp4: No such file or directory
-Error opening output file /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T192006Z_pt.mp4.
-Error opening output files: No such file or directory
-
-18:11:49 [produzir] INFO: ▶ Produzindo: The 129 Men Who Vanished in the Arctic
-18:11:50 [broll] INFO: Cena  1 (4.1s): wikimedia A crew of 129 men sailed into the freezing Arctic.
-18:11:52 [broll] INFO: Cena  2 (5.2s): wikimedia In 1845, Sir John Franklin led the most advanced ships on Ea
-18:11:54 [broll] INFO: Cena  3 (2.9s): wikimedia Passage. None of them ever came back.
-18:11:56 [broll] INFO: Cena  4 (4.7s): wikimedia Trapped in the ice near King William Island, the crew waited
-18:11:56 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
-18:11:56 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
-18:11:56 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
-18:11:56 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
-18:11:56 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo em 30 min
-18:12:54 [ciclo] INFO: — ciclo 01/11 18:12 —
-18:14:05 [ciclo] INFO: — ciclo 01/11 18:14 —
-18:14:05 [produzir] INFO: ▶ Produzindo: The Dyatlov Pass: Missing Eyes, Unanswered Questions
-18:14:06 [video_builder] INFO: Cena 1/17 (imagem, 5.2s)
-18:14:07 [video_builder] INFO: Encoder: x264
-18:14:21 [video_builder] INFO: Cena 2/17 (imagem, 3.6s)
-18:14:30 [video_builder] INFO: Cena 3/17 (imagem, 5.4s)
-18:14:43 [video_builder] INFO: Cena 4/17 (imagem, 3.3s)
-18:14:51 [video_builder] INFO: Cena 5/17 (imagem, 4.4s)
-18:15:02 [video_builder] INFO: Cena 6/17 (imagem, 4.4s)
-18:15:13 [video_builder] INFO: Cena 7/17 (imagem, 4.5s)
-18:15:24 [video_builder] INFO: Cena 8/17 (imagem, 3.5s)
-18:15:32 [video_builder] INFO: Cena 9/17 (imagem, 3.2s)
-18:15:40 [video_builder] INFO: Cena 10/17 (imagem, 3.8s)
-18:15:49 [video_builder] INFO: Cena 11/17 (imagem, 3.3s)
-18:15:58 [video_builder] INFO: Cena 12/17 (imagem, 3.8s)
-18:16:07 [video_builder] INFO: Cena 13/17 (imagem, 3.1s)
-18:16:15 [video_builder] INFO: Cena 14/17 (imagem, 4.3s)
-18:16:26 [video_builder] INFO: Cena 15/17 (imagem, 4.9s)
-18:16:38 [video_builder] INFO: Cena 16/17 (imagem, 5.3s)
-18:16:51 [video_builder] INFO: Cena 17/17 (imagem, 2.7s)
-18:16:58 [video_builder] INFO: Música: trilha_01.mp3
-18:19:20 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T203736Z_en.mp4 (68.7s)
-18:19:20 [produzir] INFO: ✅ Pronto: The Dyatlov Pass: Missing Eyes, Unanswered Questions
-18:19:20 [produzir] INFO: ▶ Produzindo: O mistério da Montanha dos Mortos no Passo Dyatlov
-18:19:20 [video_builder] INFO: Cena 1/16 (imagem, 5.1s)
-18:19:32 [video_builder] INFO: Cena 2/16 (imagem, 2.6s)
-18:19:38 [video_builder] INFO: Cena 3/16 (imagem, 3.9s)
-18:19:46 [video_builder] INFO: Cena 4/16 (imagem, 5.4s)
-18:19:59 [video_builder] INFO: Cena 5/16 (imagem, 5.1s)
-18:20:12 [video_builder] INFO: Cena 6/16 (imagem, 5.0s)
-18:20:24 [video_builder] INFO: Cena 7/16 (imagem, 5.8s)
-18:20:38 [video_builder] INFO: Cena 8/16 (imagem, 4.0s)
-18:20:48 [video_builder] INFO: Cena 9/16 (imagem, 2.9s)
-18:20:56 [video_builder] INFO: Cena 10/16 (imagem, 5.3s)
-18:21:08 [video_builder] INFO: Cena 11/16 (imagem, 5.2s)
-18:21:20 [video_builder] INFO: Cena 12/16 (imagem, 4.9s)
-18:21:32 [video_builder] INFO: Cena 13/16 (imagem, 5.8s)
-18:21:46 [video_builder] INFO: Cena 14/16 (imagem, 4.2s)
 18:21:56 [video_builder] INFO: Cena 15/16 (imagem, 5.4s)
 18:22:08 [video_builder] INFO: Cena 16/16 (imagem, 4.5s)
 18:22:20 [video_builder] INFO: Música: trilha_01.mp3
@@ -3998,3 +3878,123 @@ Traceback (most recent call last):
   File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
     raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
 json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+01:02:18 [ciclo] INFO: — ciclo 25/11 01:02 —
+01:02:18 [ciclo] INFO: Fila PT vazia — gerando roteiro
+01:02:18 [researcher] INFO: Tema escolhido (pt): O poço do dinheiro de Oak Island
+01:02:19 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:19 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 159→294 tokens, US$0.0000, 1.3s
+01:02:20 [researcher] INFO: Fontes: Oak Island (en), Ilha Oak (pt)
+01:02:20 [scriptwriter] INFO: Escrevendo roteiro: O poço do dinheiro de Oak Island
+01:02:48 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+01:02:48 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 5362→384 tokens, US$0.0000, 28.1s
+01:02:48 [scriptwriter] INFO: Editando para retenção...
+01:03:22 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+01:03:22 [llm] INFO: gemini/gemini-3.5-flash [critica] 513→311 tokens, US$0.0000, 33.8s
+01:03:22 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 5, 'ritmo': 6, 'viradas': 7, 'climax': 6, 'final': 6}
+01:03:22 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+01:03:51 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+01:03:51 [llm] INFO: gemini/gemini-3.5-flash [provas] 5238→1004 tokens, US$0.0000, 29.1s
+01:03:51 [scriptwriter] INFO: Checagem 1: 12 frases, 2 com problema, 0 para conferir
+01:03:51 [scriptwriter] INFO: Corrigindo:
+- "Uma armadilha mortal de água do oceano foi criada no passado apenas para proteger um documento secreto." → sem_base: As fontes não afirmam que a armadilha era mortal nem que foi feita exclusivamente para proteger um documento secreto, apresentando diversas hipóteses sobre o conteúdo (tesouro dos Templários, piratas, joias de Maria Antonieta, etc.).
+- "Alguém projetou uma engenharia genial só para esconder aquele documento sob o concreto." → sem_base: As fontes citam a teoria de manuscritos como apenas uma entre várias hipóteses, sem confirmar que a estrutura foi construída exclusivamente para guardar um documento.
+01:04:10 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+01:04:10 [llm] INFO: gemini/gemini-3.5-flash [correcao] 5188→258 tokens, US$0.0000, 19.3s
+01:04:39 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+01:04:39 [llm] INFO: gemini/gemini-3.5-flash [provas] 5237→796 tokens, US$0.0000, 28.8s
+01:04:39 [scriptwriter] INFO: Checagem 2: 12 frases, 1 com problema, 1 para conferir
+01:04:39 [scriptwriter] INFO: Corrigindo:
+- "E aos trinta e oito metros, atravessaram uma cúpula secreta de concreto." → contradiz: A fonte relata que a 38 m foi encontrada madeira e ferro, enquanto o domo de concreto foi descoberto entre a camada de piche (15 m) e a superfície.
+01:04:39 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+01:04:39 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+01:06:09 [llm] INFO: gemini/gemini-3-flash-preview travou, trocando para gemini-3.8-flash
+01:06:20 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+01:06:20 [llm] INFO: gemini/gemini-3.8-flash no limite, trocando para gemini-3.7-flash
+01:06:32 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+01:06:32 [llm] WARNING: gemini falhou (tentativa 1/1): Error code: 503
+01:06:32 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
+01:06:32 [scriptwriter] ERROR: Falha ao escrever roteiro de 20261125T040220Z_pt.json (tópico fica pendente)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 127, in chat
+    return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 178, in _chat
+    raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
+RuntimeError: Todos os provedores de LLM falharam: Error code: 503
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 216, in processar_pendentes
+    escrever(ler_json(arq))
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 186, in escrever
+    roteiro, pendentes, atencao = checar_fatos(editado, fontes_txt, topico["lang"])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 159, in checar_fatos
+    roteiro = chat([{"role": "user", "content": PROMPT_CORRECAO.format(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
+    raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
+agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
+01:06:32 [ciclo] INFO: Fila EN vazia — gerando roteiro
+01:06:32 [researcher] INFO: Tema escolhido (en): The Oak Island money pit
+01:06:33 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+01:06:33 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 156→345 tokens, US$0.0000, 0.9s
+01:06:33 [researcher] INFO: Fontes: Oak Island (en)
+01:06:33 [scriptwriter] INFO: Escrevendo roteiro: The Oak Island money pit
+01:06:59 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+01:06:59 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 2685→360 tokens, US$0.0000, 25.5s
+01:06:59 [scriptwriter] INFO: Editando para retenção...
+01:07:24 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+01:07:24 [llm] INFO: gemini/gemini-3.5-flash [critica] 468→285 tokens, US$0.0000, 25.2s
+01:07:24 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 5, 'ritmo': 6, 'viradas': 7, 'climax': 7, 'final': 6}
+01:07:24 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+01:07:52 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+01:07:52 [llm] INFO: gemini/gemini-3.5-flash [provas] 2531→1090 tokens, US$0.0000, 28.4s
+01:07:52 [scriptwriter] INFO: Checagem 1: 14 frases, 6 com problema, 0 para conferir
+01:07:52 [scriptwriter] INFO: Corrigindo:
+- "Ninety feet under a foggy island sits a deadly, booby-trapped flood tunnel engineered a century before official history even began." → sem_base: As fontes não mencionam que o túnel de inundação era mortal (deadly) nem que foi projetado um século antes da história oficial.
+- "Freezing seawater violently surged into the narrow shaft, drowning the pit." → sem_base: As fontes mencionam apenas que o trabalho foi interrompido por inundação (halted by flooding), sem detalhar água marinha congelante ou jorro violento.
+- "Someone had engineered a violent flood tunnel connected directly to the ocean beach." → sem_base: As fontes relatam achados em Smith's Cove, mas não confirmam a construção comprovada de um túnel de inundação projetado conectado à praia.
+- "Test results confirmed major human saltwater manipulation dating back to the late thirteen hundreds." → contradiz: O roteiro diz que os testes confirmaram a manipulação humana, enquanto a fonte indica que a manipulação humana era provável, mas não descartava uma grande tempestade.
+- "A full century before official history records European settlement, someone carved out an entire island bay." → sem_base: As fontes citam que o pântano já foi uma enseada, mas não afirmam que alguém escavou uma baía inteira na ilha.
+- "They built an unbreachable tomb to hide something they never wanted found." → sem_base: Não há menção nas fontes sobre a construção de uma tumba inexpugnável.
+01:08:19 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+01:08:19 [llm] INFO: gemini/gemini-3.5-flash [correcao] 2687→191 tokens, US$0.0000, 27.0s
+01:08:19 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 429 Too Many Requests"
+01:08:19 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
+01:09:50 [llm] INFO: gemini/gemini-3-flash-preview travou, trocando para gemini-3.8-flash
+01:09:59 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+01:09:59 [llm] INFO: gemini/gemini-3.8-flash no limite, trocando para gemini-3.7-flash
+01:10:01 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
+01:10:01 [llm] WARNING: gemini falhou (tentativa 1/1): Error code: 503
+01:10:01 [llm] WARNING: Desistindo de gemini/gemini-3.7-flash, tentando o próximo
+01:10:01 [scriptwriter] ERROR: Falha ao escrever roteiro de 20261125T040633Z_en.json (tópico fica pendente)
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 127, in chat
+    return _chat(messages, json_mode, temperature, tarefa, melhores, 1, 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 178, in _chat
+    raise RuntimeError(f"Todos os provedores de LLM falharam: {ultimo_erro}")
+RuntimeError: Todos os provedores de LLM falharam: Error code: 503
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 216, in processar_pendentes
+    escrever(ler_json(arq))
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 186, in escrever
+    roteiro, pendentes, atencao = checar_fatos(editado, fontes_txt, topico["lang"])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 147, in checar_fatos
+    p = chat([{"role": "user", "content": PROMPT_PROVAS.format(fontes=fontes_txt, roteiro=roteiro)}],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/llm_client.py", line 130, in chat
+    raise CotaEsgotada("Cota do Gemini no limite — retoma quando liberar")
+agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liberar
+01:10:01 [produzir] INFO: ▶ Produzindo: The 72-Second Deep Space Signal That Mystified Science
+01:10:01 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+01:10:01 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+01:10:01 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+01:10:01 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+01:10:01 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
