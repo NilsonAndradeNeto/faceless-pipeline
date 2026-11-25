@@ -1,12 +1,3 @@
-18:21:56 [video_builder] INFO: Cena 15/16 (imagem, 5.4s)
-18:22:08 [video_builder] INFO: Cena 16/16 (imagem, 4.5s)
-18:22:20 [video_builder] INFO: Música: trilha_01.mp3
-18:24:52 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261030T192006Z_pt.mp4 (74.8s)
-18:24:52 [produzir] INFO: ✅ Pronto: O mistério da Montanha dos Mortos no Passo Dyatlov
-18:24:52 [produzir] INFO: ▶ Produzindo: The 129 Men Who Vanished in the Arctic
-18:24:53 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
-18:24:54 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
-18:24:54 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
 18:24:54 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
 18:24:54 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
 19:50:46 [ciclo] INFO: — ciclo 01/11 19:50 —
@@ -3998,3 +3989,12 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 01:10:01 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
 01:10:01 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
 01:10:01 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+16:51:18 [ciclo] INFO: — ciclo 25/11 16:51 —
+16:51:18 [ciclo] WARNING: Sem vídeo PT hoje
+16:51:18 [ciclo] WARNING: Sem vídeo EN hoje
+16:51:18 [produzir] INFO: ▶ Produzindo: The 72-Second Deep Space Signal That Mystified Science
+16:51:18 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+16:51:18 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+16:51:18 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+16:51:18 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+16:51:18 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
