@@ -40,5 +40,15 @@
       "titulo": "Ilha Oak",
       "url": "https://pt.wikipedia.org/wiki/Ilha_Oak"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-26",
+  "producao": {
+    "etapa": "aguardando cota do Gemini (qualidade em primeiro — retoma sozinho)",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 0.1,
+    "atualizado": "2026-11-26 16:31:03"
+  },
+  "voz": "gemini"
 }
