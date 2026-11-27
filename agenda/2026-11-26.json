@@ -4,7 +4,17 @@
     "script": "20261125T040220Z_pt",
     "titulo": "O segredo mortal do Poço do Dinheiro",
     "aprovacao": "automatica",
-    "posts": {}
+    "posts": {
+      "youtube": {
+        "estado": "vídeo ainda não ficou pronto"
+      },
+      "instagram": {
+        "estado": "vídeo ainda não ficou pronto"
+      },
+      "tiktok": {
+        "estado": "vídeo ainda não ficou pronto"
+      }
+    }
   },
   "en": {
     "script": null,
