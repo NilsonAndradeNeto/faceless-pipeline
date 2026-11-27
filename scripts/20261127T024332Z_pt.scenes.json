@@ -1,0 +1,255 @@
+[
+  {
+    "n": 1,
+    "texto": "Ele saltou",
+    "inicio": 0.0,
+    "fim": 7.48,
+    "duracao": 7.48,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A dramatic cinematic night shot of a dark figure in a business suit leaping out of an airliner rear exit hatch into rain mist, deep night clouds below, mystery lighting, vertical 9:16 framing., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/7ab753b375564b86.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "de um avião comercial vestindo apenas um terno fino e carregando duzentos mil",
+    "inicio": 7.48,
+    "fim": 12.66,
+    "duracao": 5.18,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. Close-up inside a 1971 vintage airplane cabin, a man in a sleek dark business suit tightly gripping a heavy canvas briefcase packed with wrapped bundles of US currency, atmospheric dim light, vertical format., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/b77657aae3bc922f.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "dólares em dinheiro vivo. Mais de cinquenta anos se passaram e absolutamente ninguém",
+    "inicio": 12.66,
+    "fim": 18.32,
+    "duracao": 5.66,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. Macro shot of vintage 1970s twenty dollar bills stacked on a polished wooden table alongside a classic wristwatch and sunglasses, warm nostalgic glow, quiet mystery aesthetic, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/25a2225a853df72d.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "sabe como ele evaporou no ar.",
+    "inicio": 18.32,
+    "fim": 21.32,
+    "duracao": 3.0,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. An empty dark night sky with thick clouds illuminated by distant moonlight, soft white fog drifting through the misty cold air over a dense pine forest canopy, subtle cinematic mystery atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/e00b1a88caff906f.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "Tudo começou na véspera de Ação de Graças de 1971,",
+    "inicio": 21.32,
+    "fim": 25.14,
+    "duracao": 3.82,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A quiet 1971 airport terminal in Portland during a rainy autumn evening, warm glowing tungsten lamps, classic mid-century signage, passengers in retro winter coats, melancholic atmosphere, vertical frame., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/e0b102b8246e85e0.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "quando um homem chamado Dan Cooper comprou uma passagem só de ida no Oregon.",
+    "inicio": 25.14,
+    "fim": 30.24,
+    "duracao": 5.1,
+    "visual": {
+      "real": {
+        "nome": "July 2016 D.B. Cooper Plane Ticket (28379315406).jpg",
+        "descricao": "On November 24, 1971, a man calling himself Dan Cooper approached the counter of Northwest Orient Airlines in Portland, Oregon and used cash to buy a one-way ti",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/July_2016_D.B._Cooper_Plane_Ticket_%2828379315406%29.jpg/1280px-July_2016_D.B._Cooper_Plane_Ticket_%2828379315406%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Federal Bureau of Investigation (FBI)"
+      },
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. Detailed close-up of a hand in a dark suit coat receiving a vintage paper airline flight ticket at a 1970s wooden airport counter, retro typography, authentic historical mood, vertical shot., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/July_2016_D.B._Cooper_Plane_Ticket_%2828379315406%29.jpg/1280px-July_2016_D.B._Cooper_Plane_Ticket_%2828379315406%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/b627fac977ca967d.jpg",
+      "credito": "July 2016 D.B. Cooper Plane Ticket (28379315406).jpg — Federal Bureau of Investigation (FBI) (Public domain)"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "Ele caminhou até a última fileira, pediu um uísque e entregou um bilhete escrito com caneta",
+    "inicio": 30.24,
+    "fim": 35.34,
+    "duracao": 5.1,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A low angle interior view of a 1970s airplane cabin, a glass of bourbon on a small tray next to a handwritten note on plain paper written in black marker, moody shadow lighting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "de feltro: ele tinha uma bomba.",
+    "inicio": 35.34,
+    "fim": 38.08,
+    "duracao": 2.74,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. Extreme close-up of a black vinyl briefcase slightly open on a retro airliner seat, revealing complex exposed wires, battery cylindrical cells, and dynamite sticks inside, cinematic lighting, vertical 9:16., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "Sua exigência foi direta: duzentos mil dólares em notas de vinte e quatro paraquedas.",
+    "inicio": 38.08,
+    "fim": 43.98,
+    "duracao": 5.9,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A wooden tabletop spread with heavy military-grade green parachutes next to stacked bundles of vintage twenty-dollar bills in paper bands, dramatic overhead lighting, 1970s criminal investigation vibe., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "Em Seattle, Cooper libertou os passageiros e pegou a mochila com o dinheiro.",
+    "inicio": 43.98,
+    "fim": 48.48,
+    "duracao": 4.5,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. Vintage 1971 airport tarmac at night under heavy rainfall, silhouettes of passengers disembarking a Boeing airliner while a dark figure holds a heavy black duffel bag near the open door., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "Em seguida, mandou o avião decolar para o México.",
+    "inicio": 48.48,
+    "fim": 51.6,
+    "duracao": 3.12,
+    "visual": {
+      "real": {
+        "nome": "Northwest Airlines Boeing 727-51 N467US.jpg",
+        "descricao": "Taken at Miami - Int. (MIA) December 29, 1972",
+        "licenca": "GFDL 1.2",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Northwest_Airlines_Boeing_727-51_N467US.jpg/1280px-Northwest_Airlines_Boeing_727-51_N467US.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Clint Groves"
+      },
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A Boeing 727 passenger jet flying through turbulent dark storm clouds at low altitude, rainy night atmosphere, exterior view with flashing navigation lights, intense dramatic mood, vertical framing., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "Só que, voando baixo, ele abriu a escada traseira.",
+    "inicio": 51.6,
+    "fim": 55.42,
+    "duracao": 3.82,
+    "visual": {
+      "real": {
+        "nome": "Northwest Boeing 727 airstair (1975).jpg",
+        "descricao": "BOZEMAN - airport was actually ten miles west of downtown at Belgrade, MT. Northwest 727 flight from Portland landed in Spokane, Helena, Bozeman and terminated ",
+        "licenca": "CC BY 2.5",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Northwest_Boeing_727_airstair_%281975%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "autor": "Robert Rynerson from Denver, U.S.A."
+      },
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. The open ventral airstair extending from the tail section of a flying 1970s commercial jet aircraft into a dark freezing night, roaring wind mist, dramatic low-angle shot, 9:16 aspect ratio., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "Vestindo apenas um terno fino, ele saltou na escuridão total sobre uma floresta congelante.",
+    "inicio": 55.42,
+    "fim": 61.38,
+    "duracao": 5.96,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A solitary parachutist silhouette descending through icy fog over a vast dark evergreen pine forest at night, freezing winter rain, haunting eerie atmosphere, cinematic 9:16 vertical composition., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "Quando o avião pousou, acharam sua gravata preta, o alfinete e dois paraquedas.",
+    "inicio": 61.38,
+    "fim": 66.36,
+    "duracao": 4.98,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. Close-up of evidence on an empty airplane seat: a black clip-on tie, a mother-of-pearl tie pin, and discarded white parachute cords under harsh flashlight beam, retro crime scene photo aesthetic., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 15,
+    "texto": "Anos depois, poucas notas surgiram enterradas na beira de um rio.",
+    "inicio": 66.36,
+    "fim": 70.32,
+    "duracao": 3.96,
+    "visual": {
+      "real": {
+        "nome": "Money stolen by D. B. Cooper.jpg",
+        "descricao": "Some of the D. B. Cooper's stolen $20 bills found by a young boy in 1980.",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Money_stolen_by_D._B._Cooper.jpg/1280px-Money_stolen_by_D._B._Cooper.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "FBI"
+      },
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. Weathered, rotted stacks of vintage 1970s twenty dollar bills partially buried in wet riverbank sand and mud, autumn river shore, moody natural overcast lighting, detailed macro shot., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 16,
+    "texto": "O homem e a fortuna nunca foram vistos.",
+    "inicio": 70.32,
+    "fim": 73.22,
+    "duracao": 2.9,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. An abandoned dark trench coat and leather briefcase lying damp on the mossy ground of a dense Pacific Northwest pine forest, fog rolling between trees, mysterious atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  },
+  {
+    "n": 17,
+    "texto": "Para você, ele sobreviveu ao salto ou a floresta escondeu o corpo?",
+    "inicio": 73.22,
+    "fim": 77.61999999999999,
+    "duracao": 4.4,
+    "visual": {
+      "real": null,
+      "ia": "Pacific Northwest, USA, November 1971, period-accurate clothing and technology. A mysterious lone parachute hanging tangled high in dark evergreen pine trees, dense mist, icy twilight landscape, haunting unsolved historical mystery visual, dramatic 9:16 portrait composition., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    }
+  }
+]

@@ -1,0 +1,260 @@
+[
+  {
+    "n": 1,
+    "texto": "In the late thirteen hundreds, a cove on Oak Island experienced a massive saltwater intrusion,",
+    "inicio": 0.0,
+    "fim": 5.63,
+    "duracao": 5.63,
+    "visual": {
+      "real": null,
+      "ia": "Oak Island, Nova Scotia, Canada, 1300s–1790s, period-accurate clothing and technology. A dramatic 14th-century coastal scene at a foggy Canadian cove. Violent saltwater tides rush into a carved stone inlet, dark stormy sky, dense pine and oak trees, medieval wooden surveying tools half-buried in wet mud., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/8115345b879d5998.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 2,
+    "texto": "likely from human manipulation. In 1795,",
+    "inicio": 5.63,
+    "fim": 9.61,
+    "duracao": 3.98,
+    "visual": {
+      "real": null,
+      "ia": "Oak Island, Nova Scotia, Canada, 1300s–1790s, period-accurate clothing and technology. Close-up of hands in 18th-century work gloves holding vintage wooden levers and rope pulleys embedded in wet soil near a tide mark, surrounded by pine forests under overcast daylight., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/2bda8bc972262252.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 3,
+    "texto": "Daniel McInnis spotted a strange pit on an isolated island.",
+    "inicio": 9.61,
+    "fim": 13.51,
+    "duracao": 3.9,
+    "visual": {
+      "real": null,
+      "ia": "Oak Island, Nova Scotia, Canada, 1300s–1790s, period-accurate clothing and technology. A young 18th-century pioneer man in colonial clothes standing in a clearing, pointing at a sunken depression in the ground beneath a massive oak tree branch, misty woods atmosphere., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/leonardo/lucid-origin",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/dbd75661583507a7.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 4,
+    "texto": "He began digging into damp dirt, but at ten feet down,",
+    "inicio": 13.51,
+    "fim": 16.99,
+    "duracao": 3.48,
+    "visual": {
+      "real": null,
+      "ia": "Oak Island, Nova Scotia, Canada, 1300s–1790s, period-accurate clothing and technology. Low-angle shot inside a damp earth pit, 18th-century wooden shovel digging into dark wet soil, leather boots, dirt walls, light filtering down from above., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/cdae5ca853116ae5.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 5,
+    "texto": "a solid layer of oak logs blocked his path.",
+    "inicio": 16.99,
+    "fim": 19.99,
+    "duracao": 3.0,
+    "visual": {
+      "real": null,
+      "ia": "Oak Island, Nova Scotia, Canada, 1300s–1790s, period-accurate clothing and technology. Looking down into a deep earthen shaft where tightly packed, aged oak logs form a solid wooden barrier covered in dark wet mud and roots, illuminated by soft natural daylight., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/6a554758d3d51d42.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 6,
+    "texto": "He dug deeper. Every ten feet, another wooden platform blocked his way.",
+    "inicio": 19.99,
+    "fim": 25.31,
+    "duracao": 5.32,
+    "visual": {
+      "real": null,
+      "ia": "Oak Island, Nova Scotia, Canada, 1300s–1790s, period-accurate clothing and technology. Cutaway view of a deep vertical shaft carved into earth, showing multiple layers of thick oak log platforms spaced vertically down into the dark, mysterious soil., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/d6853cd4c2811cb2.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 7,
+    "texto": "Years later, excavators pushed down to ninety feet.",
+    "inicio": 25.31,
+    "fim": 28.41,
+    "duracao": 3.1,
+    "visual": {
+      "real": null,
+      "ia": "Oak Island, Nova Scotia, Canada, 1300s–1790s, period-accurate clothing and technology. 19th-century excavators in rugged Victorian work clothes operating a wooden derrick winch above a deep subterranean pit, misty morning forest background, ropes and iron tools., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/ae4c62a336ca8d41.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 8,
+    "texto": "Then the trap sprung. Flooding filled the shaft,",
+    "inicio": 28.41,
+    "fim": 32.29,
+    "duracao": 3.88,
+    "visual": {
+      "real": null,
+      "ia": "Oak Island, Nova Scotia, Canada, 1300s–1790s, period-accurate clothing and technology. Dark underground timber-framed shaft rapidly filling with turbulent, murky saltwater rising fast, water splashing against old oak beams, mysterious aquatic atmosphere, dramatic lighting., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/517381f4644fc0d0.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 9,
+    "texto": "halting their work. Near the shore, searchers found strange non-native coconut",
+    "inicio": 32.29,
+    "fim": 37.33,
+    "duracao": 5.04,
+    "visual": {
+      "real": null,
+      "ia": "Oak Island, Nova Scotia, Canada, 1300s–1790s, period-accurate clothing and technology. Abandon 19th-century excavation equipment standing idle near a foggy rocky beach, heavy ropes, wooden buckets, and overturned shovels resting on wet shore sand., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/9784efd6c76a7a8e.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 10,
+    "texto": "fibers hidden in the beach. Then, modern scientists tested core samples from the island",
+    "inicio": 37.33,
+    "fim": 42.49,
+    "duracao": 5.16,
+    "visual": {
+      "real": null,
+      "ia": "Oak Island, Nova Scotia, Canada, 1300s–1790s, period-accurate clothing and technology. Close-up of hand in work gloves pulling dark, fibrous tropical coconut husk material embedded inside wet beach gravel, tide washing ashore on a cold misty coastline., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/2f578e4736e0f54f.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 11,
+    "texto": "swamp. Saltwater invaded that basin in the late thirteen hundreds.",
+    "inicio": 42.49,
+    "fim": 47.45,
+    "duracao": 4.96,
+    "visual": {
+      "real": null,
+      "ia": "Oak Island, Nova Scotia, Canada, 1300s–1790s, period-accurate clothing and technology. Overhead view of a misty, overgrown marshland basin surrounded by dense Canadian forest, brackish ocean water seeping through muddy channels into stagnant reeds under gloomy gray skies., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/6641fadf3a0dfec5.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 12,
+    "texto": "Analysis of core samples suggests human manipulation altered the swamp long before settlers arrived.",
+    "inicio": 47.45,
+    "fim": 53.55,
+    "duracao": 6.1,
+    "visual": {
+      "real": null,
+      "ia": "Oak Island, Nova Scotia, Canada, 1300s–1790s, period-accurate clothing and technology. A close-up of a scientist in high-visibility gear holding a long acrylic sediment core sample tube, revealing distinct dark mud layers and ancient coconut fiber debris, misty marshland background., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/0c8873d045a3466b.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  },
+  {
+    "n": 13,
+    "texto": "This centuries-old obsession led to relentless searches and excavations.",
+    "inicio": 53.55,
+    "fim": 57.99,
+    "duracao": 4.44,
+    "visual": {
+      "real": {
+        "nome": "Island and Wharf, Oak Island, Nova Scotia, Canada, August 1931.jpg",
+        "descricao": "Island and Wharf, Oak Island, Nova Scotia, Canada, August 1931.\nFormat: glass plate negative; 12.5 cm x 17.5 cm.  Image appears to be double exposed.",
+        "licenca": "Public domain",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Island_and_Wharf%2C_Oak_Island%2C_Nova_Scotia%2C_Canada%2C_August_1931.jpg/1280px-Island_and_Wharf%2C_Oak_Island%2C_Nova_Scotia%2C_Canada%2C_August_1931.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "autor": "Richard McCully"
+      },
+      "ia": "Oak Island, Nova Scotia, Canada, 1300s–1790s, period-accurate clothing and technology. Historical vintage photograph style of a large wooden excavation derrick standing beside deep mud pits on Oak Island, rusty equipment, foggy pine tree shoreline in 1930s style., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "wikimedia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Island_and_Wharf%2C_Oak_Island%2C_Nova_Scotia%2C_Canada%2C_August_1931.jpg/1280px-Island_and_Wharf%2C_Oak_Island%2C_Nova_Scotia%2C_Canada%2C_August_1931.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/09d578f415912ffb.jpg",
+      "credito": "Island and Wharf, Oak Island, Nova Scotia, Canada, August 1931.jpg — Richard McCully (Public domain)"
+    }
+  },
+  {
+    "n": 14,
+    "texto": "What were they protecting beneath the fog and mud? What do you think is down there?",
+    "inicio": 57.99,
+    "fim": 62.230000000000004,
+    "duracao": 4.24,
+    "visual": {
+      "real": null,
+      "ia": "Oak Island, Nova Scotia, Canada, 1300s–1790s, period-accurate clothing and technology. Atmospheric shot of a mysterious, dark subterranean wooden chamber half-submerged in muddy water, thick fog rolling over iron-bound wooden chest barely visible beneath the murky surface., cinematic still, dark moody atmosphere, muted desaturated colors, dramatic low-key lighting, film grain, highly detailed, historically accurate, vertical composition, no text, no watermark, no gore, no modern objects, no screens, no tattoos"
+    },
+    "midia": {
+      "tipo": "imagem",
+      "fonte": "ia",
+      "modelo": "@cf/black-forest-labs/flux-2-klein-4b",
+      "arquivo": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/broll/442032ca8202c0a4.jpg",
+      "credito": "imagem gerada por IA"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "20261127T024332Z_pt",
+  "lang": "pt",
+  "tema": "D.B. Cooper: o sequestrador de avião que nunca foi encontrado",
+  "titulo": "O sequestrador de avião que evaporou no ar",
+  "hook": "Ele saltou de um avião comercial vestindo apenas um terno fino e carregando duzentos mil dólares em dinheiro vivo.",
+  "descricao": "Em 1971, Dan Cooper pulou de um Boeing 727 com 200 mil dólares e desapareceu na escuridão. O que você acha que aconteceu com ele?",
+  "hashtags": [
+    "dbcooper",
+    "misteriosreais",
+    "casossemsolucao",
+    "historiareal",
+    "crimesreais",
+    "curiosidades"
+  ],
+  "palavras": 183,
+  "caracteres": 1064,
+  "notas_editor_antes": {
+    "gancho": 5,
+    "ritmo": 6,
+    "viradas": 6,
+    "climax": 6,
+    "final": 7
+  },
+  "checagem": {
+    "sem_comprovacao": [],
+    "conferir": [
+      "Em Seattle, Cooper libertou os passageiros e pegou a mochila com o dinheiro."
+    ],
+    "confianca": "media"
+  },
+  "versoes": {
+    "rascunho": "Um homem comprou uma passagem só de ida e sumiu no ar. Mais de cinquenta anos depois, ninguém sabe como ele fez isso. Na véspera de Ação de Graças de 1971, Dan Cooper embarcou num voo no Oregon. Ele sentou na última fileira e pediu um uísque. Depois, entregou um bilhete escrito com caneta de feltro. O papel dizia que ele tinha uma bomba. Cooper exigiu duzentos mil dólares em notas de vinte e quatro paraquedas. Em Seattle, ele libertou os passageiros e pegou a mochila com o dinheiro. Em seguida, mandou o avião decolar para o México. Só que, voando baixo sob chuva forte, ele abriu a escada traseira. Ele vestia apenas um terno fino e gravata preta. Ele saltou na escuridão total sobre uma floresta congelante. Quando o avião pousou, acharam apenas a gravata dele no assento. Anos depois, poucas notas surgiram enterradas na beira de um rio. O homem e a fortuna nunca foram vistos. Para você, ele sobreviveu ao salto ou a floresta escondeu o corpo dele?",
+    "editado": "Ele saltou de um avião comercial em plena tempestade vestindo apenas um terno fino e carregando duzentos mil dólares em dinheiro vivo. Mais de cinquenta anos se passaram e absolutamente ninguém sabe como ele evaporou no ar. Tudo começou na véspera de Ação de Graças de 1971, quando um homem chamado Dan Cooper comprou uma passagem só de ida no Oregon. Ele caminhou até a última fileira, pediu um uísque e entregou um bilhete escrito com caneta de feltro: ele tinha uma bomba. Sua exigência foi direta: duzentos mil dólares em notas de vinte e quatro paraquedas. Em Seattle, Cooper libertou os passageiros e pegou a mochila com o dinheiro. Em seguida, mandou o avião decolar para o México. Só que, voando baixo sob chuva forte, ele abriu a escada traseira. Vestindo apenas um terno fino, ele saltou na escuridão total sobre uma floresta congelante. Quando o avião pousou, acharam apenas sua gravata preta no assento. Anos depois, poucas notas surgiram enterradas na beira de um rio. O homem e a fortuna nunca foram vistos. Para você, ele sobreviveu ao salto ou a floresta escondeu o corpo?"
+  },
+  "fontes": [
+    {
+      "titulo": "D. B. Cooper",
+      "url": "https://en.wikipedia.org/wiki/D._B._Cooper"
+    },
+    {
+      "titulo": "D. B. Cooper",
+      "url": "https://pt.wikipedia.org/wiki/D._B._Cooper"
+    }
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-27",
+  "producao": {
+    "etapa": "aguardando cota grátis de imagens (testa de novo a cada hora, retoma sozinho)",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 0.328,
+    "atualizado": "2026-11-27 16:34:04"
+  },
+  "voz": "gemini"
+}

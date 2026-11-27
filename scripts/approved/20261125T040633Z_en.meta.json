@@ -36,5 +36,21 @@
       "titulo": "Oak Island",
       "url": "https://en.wikipedia.org/wiki/Oak_Island"
     }
-  ]
+  ],
+  "aprovacao": "automatica",
+  "data_post": "2026-11-27",
+  "producao": {
+    "etapa": "pronto",
+    "erro": null,
+    "detalhe": "",
+    "progresso": 1.0,
+    "atualizado": "2026-11-27 16:32:03"
+  },
+  "voz": "gemini",
+  "creditos_imagens": [
+    "Island and Wharf, Oak Island, Nova Scotia, Canada, August 1931.jpg — Richard McCully (Public domain)"
+  ],
+  "imagens_ia": 13,
+  "video": "/home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261125T040633Z_en.mp4",
+  "duracao_seg": 62.2
 }

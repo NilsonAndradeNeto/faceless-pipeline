@@ -1,0 +1,767 @@
+[
+  {
+    "palavra": "In",
+    "inicio": 0.15,
+    "fim": 0.29
+  },
+  {
+    "palavra": "the",
+    "inicio": 0.29,
+    "fim": 0.43
+  },
+  {
+    "palavra": "late",
+    "inicio": 0.43,
+    "fim": 0.63
+  },
+  {
+    "palavra": "thirteen",
+    "inicio": 0.63,
+    "fim": 1.19
+  },
+  {
+    "palavra": "hundreds,",
+    "inicio": 1.19,
+    "fim": 1.75
+  },
+  {
+    "palavra": "a",
+    "inicio": 1.75,
+    "fim": 1.85
+  },
+  {
+    "palavra": "cove",
+    "inicio": 1.85,
+    "fim": 2.15
+  },
+  {
+    "palavra": "on",
+    "inicio": 2.15,
+    "fim": 2.31
+  },
+  {
+    "palavra": "Oak",
+    "inicio": 2.31,
+    "fim": 2.49
+  },
+  {
+    "palavra": "Island",
+    "inicio": 2.49,
+    "fim": 2.87
+  },
+  {
+    "palavra": "experienced",
+    "inicio": 2.87,
+    "fim": 3.35
+  },
+  {
+    "palavra": "a",
+    "inicio": 3.35,
+    "fim": 3.71
+  },
+  {
+    "palavra": "massive",
+    "inicio": 3.71,
+    "fim": 4.11
+  },
+  {
+    "palavra": "saltwater",
+    "inicio": 4.11,
+    "fim": 4.79
+  },
+  {
+    "palavra": "intrusion,",
+    "inicio": 4.79,
+    "fim": 5.67
+  },
+  {
+    "palavra": "likely",
+    "inicio": 5.63,
+    "fim": 5.91
+  },
+  {
+    "palavra": "from",
+    "inicio": 5.91,
+    "fim": 6.19
+  },
+  {
+    "palavra": "human",
+    "inicio": 6.19,
+    "fim": 6.47
+  },
+  {
+    "palavra": "manipulation.",
+    "inicio": 6.47,
+    "fim": 6.93
+  },
+  {
+    "palavra": "In",
+    "inicio": 8.13,
+    "fim": 8.25
+  },
+  {
+    "palavra": "1795,",
+    "inicio": 8.25,
+    "fim": 9.61
+  },
+  {
+    "palavra": "Daniel",
+    "inicio": 9.61,
+    "fim": 9.87
+  },
+  {
+    "palavra": "McInnis",
+    "inicio": 9.87,
+    "fim": 10.27
+  },
+  {
+    "palavra": "spotted",
+    "inicio": 10.27,
+    "fim": 10.59
+  },
+  {
+    "palavra": "a",
+    "inicio": 10.59,
+    "fim": 10.79
+  },
+  {
+    "palavra": "strange",
+    "inicio": 10.79,
+    "fim": 11.15
+  },
+  {
+    "palavra": "pit",
+    "inicio": 11.15,
+    "fim": 11.51
+  },
+  {
+    "palavra": "on",
+    "inicio": 11.51,
+    "fim": 11.79
+  },
+  {
+    "palavra": "an",
+    "inicio": 11.79,
+    "fim": 11.89
+  },
+  {
+    "palavra": "isolated",
+    "inicio": 11.89,
+    "fim": 12.27
+  },
+  {
+    "palavra": "island.",
+    "inicio": 12.27,
+    "fim": 12.71
+  },
+  {
+    "palavra": "He",
+    "inicio": 13.51,
+    "fim": 13.63
+  },
+  {
+    "palavra": "began",
+    "inicio": 13.63,
+    "fim": 13.87
+  },
+  {
+    "palavra": "digging",
+    "inicio": 13.87,
+    "fim": 14.17
+  },
+  {
+    "palavra": "into",
+    "inicio": 14.17,
+    "fim": 14.49
+  },
+  {
+    "palavra": "damp",
+    "inicio": 14.49,
+    "fim": 14.79
+  },
+  {
+    "palavra": "dirt,",
+    "inicio": 14.79,
+    "fim": 15.19
+  },
+  {
+    "palavra": "but",
+    "inicio": 15.19,
+    "fim": 15.35
+  },
+  {
+    "palavra": "at",
+    "inicio": 15.35,
+    "fim": 15.89
+  },
+  {
+    "palavra": "ten",
+    "inicio": 15.89,
+    "fim": 16.11
+  },
+  {
+    "palavra": "feet",
+    "inicio": 16.11,
+    "fim": 16.25
+  },
+  {
+    "palavra": "down,",
+    "inicio": 16.25,
+    "fim": 16.83
+  },
+  {
+    "palavra": "a",
+    "inicio": 16.99,
+    "fim": 17.11
+  },
+  {
+    "palavra": "solid",
+    "inicio": 17.11,
+    "fim": 17.43
+  },
+  {
+    "palavra": "layer",
+    "inicio": 17.43,
+    "fim": 17.65
+  },
+  {
+    "palavra": "of",
+    "inicio": 17.65,
+    "fim": 17.83
+  },
+  {
+    "palavra": "oak",
+    "inicio": 17.83,
+    "fim": 18.11
+  },
+  {
+    "palavra": "logs",
+    "inicio": 18.11,
+    "fim": 18.51
+  },
+  {
+    "palavra": "blocked",
+    "inicio": 18.51,
+    "fim": 18.83
+  },
+  {
+    "palavra": "his",
+    "inicio": 18.83,
+    "fim": 19.03
+  },
+  {
+    "palavra": "path.",
+    "inicio": 19.03,
+    "fim": 19.37
+  },
+  {
+    "palavra": "He",
+    "inicio": 19.99,
+    "fim": 20.15
+  },
+  {
+    "palavra": "dug",
+    "inicio": 20.15,
+    "fim": 20.31
+  },
+  {
+    "palavra": "deeper.",
+    "inicio": 20.31,
+    "fim": 20.59
+  },
+  {
+    "palavra": "Every",
+    "inicio": 21.51,
+    "fim": 21.73
+  },
+  {
+    "palavra": "ten",
+    "inicio": 21.73,
+    "fim": 22.01
+  },
+  {
+    "palavra": "feet,",
+    "inicio": 22.01,
+    "fim": 22.41
+  },
+  {
+    "palavra": "another",
+    "inicio": 22.41,
+    "fim": 22.79
+  },
+  {
+    "palavra": "wooden",
+    "inicio": 22.79,
+    "fim": 23.09
+  },
+  {
+    "palavra": "platform",
+    "inicio": 23.09,
+    "fim": 23.55
+  },
+  {
+    "palavra": "blocked",
+    "inicio": 23.55,
+    "fim": 23.89
+  },
+  {
+    "palavra": "his",
+    "inicio": 23.89,
+    "fim": 24.07
+  },
+  {
+    "palavra": "way.",
+    "inicio": 24.07,
+    "fim": 24.67
+  },
+  {
+    "palavra": "Years",
+    "inicio": 25.31,
+    "fim": 25.43
+  },
+  {
+    "palavra": "later,",
+    "inicio": 25.43,
+    "fim": 25.91
+  },
+  {
+    "palavra": "excavators",
+    "inicio": 25.91,
+    "fim": 26.43
+  },
+  {
+    "palavra": "pushed",
+    "inicio": 26.43,
+    "fim": 26.69
+  },
+  {
+    "palavra": "down",
+    "inicio": 26.69,
+    "fim": 26.95
+  },
+  {
+    "palavra": "to",
+    "inicio": 26.95,
+    "fim": 27.11
+  },
+  {
+    "palavra": "ninety",
+    "inicio": 27.11,
+    "fim": 27.39
+  },
+  {
+    "palavra": "feet.",
+    "inicio": 27.39,
+    "fim": 27.85
+  },
+  {
+    "palavra": "Then",
+    "inicio": 28.41,
+    "fim": 28.81
+  },
+  {
+    "palavra": "the",
+    "inicio": 28.81,
+    "fim": 29.25
+  },
+  {
+    "palavra": "trap",
+    "inicio": 29.25,
+    "fim": 29.45
+  },
+  {
+    "palavra": "sprung.",
+    "inicio": 29.45,
+    "fim": 30.17
+  },
+  {
+    "palavra": "Flooding",
+    "inicio": 30.59,
+    "fim": 31.01
+  },
+  {
+    "palavra": "filled",
+    "inicio": 31.01,
+    "fim": 31.45
+  },
+  {
+    "palavra": "the",
+    "inicio": 31.45,
+    "fim": 31.61
+  },
+  {
+    "palavra": "shaft,",
+    "inicio": 31.61,
+    "fim": 32.29
+  },
+  {
+    "palavra": "halting",
+    "inicio": 32.29,
+    "fim": 32.71
+  },
+  {
+    "palavra": "their",
+    "inicio": 32.71,
+    "fim": 32.89
+  },
+  {
+    "palavra": "work.",
+    "inicio": 32.89,
+    "fim": 33.25
+  },
+  {
+    "palavra": "Near",
+    "inicio": 34.19,
+    "fim": 34.45
+  },
+  {
+    "palavra": "the",
+    "inicio": 34.45,
+    "fim": 34.59
+  },
+  {
+    "palavra": "shore,",
+    "inicio": 34.59,
+    "fim": 34.97
+  },
+  {
+    "palavra": "searchers",
+    "inicio": 34.97,
+    "fim": 35.39
+  },
+  {
+    "palavra": "found",
+    "inicio": 35.39,
+    "fim": 35.63
+  },
+  {
+    "palavra": "strange",
+    "inicio": 35.63,
+    "fim": 36.41
+  },
+  {
+    "palavra": "non-native",
+    "inicio": 36.41,
+    "fim": 36.93
+  },
+  {
+    "palavra": "coconut",
+    "inicio": 36.93,
+    "fim": 37.33
+  },
+  {
+    "palavra": "fibers",
+    "inicio": 37.33,
+    "fim": 37.83
+  },
+  {
+    "palavra": "hidden",
+    "inicio": 37.83,
+    "fim": 38.11
+  },
+  {
+    "palavra": "in",
+    "inicio": 38.11,
+    "fim": 38.29
+  },
+  {
+    "palavra": "the",
+    "inicio": 38.29,
+    "fim": 38.39
+  },
+  {
+    "palavra": "beach.",
+    "inicio": 38.39,
+    "fim": 38.79
+  },
+  {
+    "palavra": "Then,",
+    "inicio": 39.55,
+    "fim": 40.15
+  },
+  {
+    "palavra": "modern",
+    "inicio": 40.15,
+    "fim": 40.29
+  },
+  {
+    "palavra": "scientists",
+    "inicio": 40.29,
+    "fim": 40.77
+  },
+  {
+    "palavra": "tested",
+    "inicio": 40.77,
+    "fim": 41.17
+  },
+  {
+    "palavra": "core",
+    "inicio": 41.17,
+    "fim": 41.39
+  },
+  {
+    "palavra": "samples",
+    "inicio": 41.39,
+    "fim": 41.75
+  },
+  {
+    "palavra": "from",
+    "inicio": 41.75,
+    "fim": 41.97
+  },
+  {
+    "palavra": "the",
+    "inicio": 41.97,
+    "fim": 42.09
+  },
+  {
+    "palavra": "island",
+    "inicio": 42.09,
+    "fim": 42.49
+  },
+  {
+    "palavra": "swamp.",
+    "inicio": 42.49,
+    "fim": 42.93
+  },
+  {
+    "palavra": "Saltwater",
+    "inicio": 43.55,
+    "fim": 44.01
+  },
+  {
+    "palavra": "invaded",
+    "inicio": 44.01,
+    "fim": 44.45
+  },
+  {
+    "palavra": "that",
+    "inicio": 44.45,
+    "fim": 44.69
+  },
+  {
+    "palavra": "basin",
+    "inicio": 44.69,
+    "fim": 44.99
+  },
+  {
+    "palavra": "in",
+    "inicio": 44.99,
+    "fim": 45.25
+  },
+  {
+    "palavra": "the",
+    "inicio": 45.25,
+    "fim": 45.35
+  },
+  {
+    "palavra": "late",
+    "inicio": 45.35,
+    "fim": 45.51
+  },
+  {
+    "palavra": "thirteen",
+    "inicio": 45.51,
+    "fim": 46.48
+  },
+  {
+    "palavra": "hundreds.",
+    "inicio": 46.48,
+    "fim": 47.45
+  },
+  {
+    "palavra": "Analysis",
+    "inicio": 47.45,
+    "fim": 47.95
+  },
+  {
+    "palavra": "of",
+    "inicio": 47.95,
+    "fim": 48.17
+  },
+  {
+    "palavra": "core",
+    "inicio": 48.17,
+    "fim": 48.39
+  },
+  {
+    "palavra": "samples",
+    "inicio": 48.39,
+    "fim": 48.73
+  },
+  {
+    "palavra": "suggests",
+    "inicio": 48.73,
+    "fim": 49.07
+  },
+  {
+    "palavra": "human",
+    "inicio": 49.07,
+    "fim": 49.39
+  },
+  {
+    "palavra": "manipulation",
+    "inicio": 49.39,
+    "fim": 49.85
+  },
+  {
+    "palavra": "altered",
+    "inicio": 49.85,
+    "fim": 50.59
+  },
+  {
+    "palavra": "the",
+    "inicio": 50.59,
+    "fim": 50.77
+  },
+  {
+    "palavra": "swamp",
+    "inicio": 50.77,
+    "fim": 51.01
+  },
+  {
+    "palavra": "long",
+    "inicio": 51.01,
+    "fim": 51.29
+  },
+  {
+    "palavra": "before",
+    "inicio": 51.29,
+    "fim": 51.57
+  },
+  {
+    "palavra": "settlers",
+    "inicio": 51.57,
+    "fim": 51.99
+  },
+  {
+    "palavra": "arrived.",
+    "inicio": 51.99,
+    "fim": 52.61
+  },
+  {
+    "palavra": "This",
+    "inicio": 53.55,
+    "fim": 53.63
+  },
+  {
+    "palavra": "centuries-old",
+    "inicio": 53.63,
+    "fim": 54.37
+  },
+  {
+    "palavra": "obsession",
+    "inicio": 54.37,
+    "fim": 54.85
+  },
+  {
+    "palavra": "led",
+    "inicio": 54.85,
+    "fim": 55.15
+  },
+  {
+    "palavra": "to",
+    "inicio": 55.15,
+    "fim": 55.31
+  },
+  {
+    "palavra": "relentless",
+    "inicio": 55.31,
+    "fim": 55.69
+  },
+  {
+    "palavra": "searches",
+    "inicio": 55.69,
+    "fim": 56.17
+  },
+  {
+    "palavra": "and",
+    "inicio": 56.17,
+    "fim": 56.39
+  },
+  {
+    "palavra": "excavations.",
+    "inicio": 56.39,
+    "fim": 57.13
+  },
+  {
+    "palavra": "What",
+    "inicio": 57.99,
+    "fim": 58.13
+  },
+  {
+    "palavra": "were",
+    "inicio": 58.13,
+    "fim": 58.25
+  },
+  {
+    "palavra": "they",
+    "inicio": 58.25,
+    "fim": 58.33
+  },
+  {
+    "palavra": "protecting",
+    "inicio": 58.33,
+    "fim": 58.75
+  },
+  {
+    "palavra": "beneath",
+    "inicio": 58.75,
+    "fim": 59.03
+  },
+  {
+    "palavra": "the",
+    "inicio": 59.03,
+    "fim": 59.23
+  },
+  {
+    "palavra": "fog",
+    "inicio": 59.23,
+    "fim": 59.41
+  },
+  {
+    "palavra": "and",
+    "inicio": 59.41,
+    "fim": 59.57
+  },
+  {
+    "palavra": "mud?",
+    "inicio": 59.57,
+    "fim": 59.83
+  },
+  {
+    "palavra": "What",
+    "inicio": 60.65,
+    "fim": 60.79
+  },
+  {
+    "palavra": "do",
+    "inicio": 60.79,
+    "fim": 60.87
+  },
+  {
+    "palavra": "you",
+    "inicio": 60.87,
+    "fim": 60.99
+  },
+  {
+    "palavra": "think",
+    "inicio": 60.99,
+    "fim": 61.17
+  },
+  {
+    "palavra": "is",
+    "inicio": 61.17,
+    "fim": 61.29
+  },
+  {
+    "palavra": "down",
+    "inicio": 61.29,
+    "fim": 61.45
+  },
+  {
+    "palavra": "there?",
+    "inicio": 61.45,
+    "fim": 61.63
+  }
+]
