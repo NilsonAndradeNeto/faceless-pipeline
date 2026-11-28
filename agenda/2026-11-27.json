@@ -4,12 +4,37 @@
     "script": "20261127T024332Z_pt",
     "titulo": "O sequestrador de avião que evaporou no ar",
     "aprovacao": "automatica",
-    "posts": {}
+    "posts": {
+      "youtube": {
+        "estado": "vídeo ainda não ficou pronto"
+      },
+      "instagram": {
+        "estado": "vídeo ainda não ficou pronto"
+      },
+      "tiktok": {
+        "estado": "vídeo ainda não ficou pronto"
+      }
+    }
   },
   "en": {
     "script": "20261125T040633Z_en",
     "titulo": "The 600-Year-Old Trap Beneath Oak Island",
     "aprovacao": "automatica",
-    "posts": {}
+    "posts": {
+      "youtube": {
+        "estado": "erro",
+        "erro": "Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)",
+        "tentativas": 1
+      },
+      "instagram": {
+        "estado": "publicado",
+        "quando": "23:37",
+        "id": "17983987500132478",
+        "url": "https://www.instagram.com/reel/DgRMqs8zYTd/"
+      },
+      "tiktok": {
+        "estado": "conta não conectada"
+      }
+    }
   }
 }

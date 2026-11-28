@@ -1,89 +1,3 @@
-20:31:47 [broll] INFO: Cena 17 (1.9s): ia        Drop your theory below.
-20:31:47 [video_builder] INFO: Cena 1/17 (imagem, 3.5s)
-20:31:48 [video_builder] INFO: Encoder: x264
-20:31:52 [video_builder] INFO: Cena 2/17 (imagem, 2.5s)
-20:31:57 [video_builder] INFO: Cena 3/17 (imagem, 3.6s)
-20:32:03 [video_builder] INFO: Cena 4/17 (imagem, 2.7s)
-20:32:08 [video_builder] INFO: Cena 5/17 (imagem, 5.4s)
-20:32:16 [video_builder] INFO: Cena 6/17 (imagem, 5.0s)
-20:32:23 [video_builder] INFO: Cena 7/17 (imagem, 3.4s)
-20:32:28 [video_builder] INFO: Cena 8/17 (imagem, 4.4s)
-20:32:35 [video_builder] INFO: Cena 9/17 (imagem, 2.5s)
-20:32:39 [video_builder] INFO: Cena 10/17 (imagem, 4.2s)
-20:32:45 [video_builder] INFO: Cena 11/17 (imagem, 4.4s)
-20:32:52 [video_builder] INFO: Cena 12/17 (imagem, 3.9s)
-20:32:58 [video_builder] INFO: Cena 13/17 (imagem, 3.5s)
-20:33:03 [video_builder] INFO: Cena 14/17 (imagem, 3.9s)
-20:33:09 [video_builder] INFO: Cena 15/17 (imagem, 2.7s)
-20:33:14 [video_builder] INFO: Cena 16/17 (imagem, 3.9s)
-20:33:19 [video_builder] INFO: Cena 17/17 (imagem, 1.9s)
-20:33:23 [video_builder] INFO: Música: trilha_04.mp3
-20:34:27 [video_builder] INFO: ✅ Short pronto: /home/runner/work/faceless-pipeline/faceless-pipeline/estado/shorts/ready/20261103T103300Z_en.mp4 (61.4s)
-20:34:27 [produzir] INFO: ✅ Pronto: The chilling truth behind the word CROATOAN
-20:34:28 [ciclo] ERROR: Falha ao publicar en youtube
-Traceback (most recent call last):
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 197, in publicar_no_horario
-    r = publicar(plataforma, ler_json(meta_arq), video)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 166, in publicar
-    return publicar_youtube(meta, Path(video))
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 52, in publicar_youtube
-    yt = youtube_cliente(meta["lang"])
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 42, in youtube_cliente
-    cred = Credentials.from_authorized_user_file(str(arq), ESCOPOS_YT)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/.venv/lib/python3.11/site-packages/google/oauth2/credentials.py", line 544, in from_authorized_user_file
-    data = json.load(json_file)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 293, in load
-    return loads(fp.read(),
-           ^^^^^^^^^^^^^^^^
-  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
-    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
-json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
-02:56:10 [ciclo] INFO: — ciclo 06/11 02:56 —
-02:56:10 [ciclo] INFO: Fila PT vazia — gerando roteiro
-02:56:10 [scriptwriter] INFO: Escrevendo roteiro: O desaparecimento de Amelia Earhart sobre o Pacífico
-02:56:17 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
-02:56:17 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
-02:56:33 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
-02:56:33 [llm] INFO: gemini/gemini-3-flash-preview [roteiro] 5504→399 tokens, US$0.0000, 16.6s
-02:56:33 [scriptwriter] INFO: Editando para retenção...
-02:56:38 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
-02:56:38 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
-02:57:06 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
-02:57:06 [llm] INFO: gemini/gemini-3-flash-preview [critica] 534→341 tokens, US$0.0000, 28.2s
-02:57:06 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 5, 'ritmo': 6, 'viradas': 6, 'climax': 7, 'final': 6}
-02:57:06 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
-02:57:13 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
-02:57:13 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
-02:57:25 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
-02:57:25 [llm] INFO: gemini/gemini-3-flash-preview [provas] 5408→1012 tokens, US$0.0000, 12.1s
-02:57:25 [scriptwriter] ERROR: Falha ao escrever roteiro de 20261104T025901Z_pt.json (tópico fica pendente)
-Traceback (most recent call last):
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 216, in processar_pendentes
-    escrever(ler_json(arq))
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 186, in escrever
-    roteiro, pendentes, atencao = checar_fatos(editado, fontes_txt, topico["lang"])
-                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/faceless-pipeline/faceless-pipeline/agents/scriptwriter.py", line 149, in checar_fatos
-    frases = p.get("frases", [])
-             ^^^^^
-AttributeError: 'list' object has no attribute 'get'
-02:57:25 [ciclo] INFO: Fila EN vazia — gerando roteiro
-02:57:25 [researcher] INFO: Tema escolhido (en): The Mary Celeste: a ship found intact with no one aboard
-02:57:26 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-02:57:26 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 164→286 tokens, US$0.0000, 1.1s
-02:57:26 [researcher] INFO: Fontes: Mary Celeste (en)
-02:57:26 [scriptwriter] INFO: Escrevendo roteiro: The Mary Celeste: a ship found intact with no one aboard
-02:57:29 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 503 Service Unavailable"
-02:57:29 [llm] INFO: gemini/gemini-3.5-flash no limite, trocando para gemini-3-flash-preview
-02:58:05 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
-02:58:05 [llm] INFO: gemini/gemini-3-flash-preview [roteiro] 3005→343 tokens, US$0.0000, 36.7s
-02:58:05 [scriptwriter] INFO: Editando para retenção...
-02:58:22 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
 02:58:22 [llm] INFO: gemini/gemini-3.5-flash [critica] 481→275 tokens, US$0.0000, 16.1s
 02:58:22 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 6, 'ritmo': 6, 'viradas': 7, 'climax': 7, 'final': 7}
 02:58:22 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
@@ -3998,3 +3912,89 @@ agents.llm_client.CotaEsgotada: Cota do Gemini no limite — retoma quando liber
 16:34:04 [produzir] INFO: ▶ Produzindo: O segredo mortal do Poço do Dinheiro
 16:34:04 [produzir] INFO: Adiantado até 'plano visual': O segredo mortal do Poço do Dinheiro
 16:34:04 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+23:33:45 [ciclo] INFO: — ciclo 27/11 23:33 —
+23:33:45 [ciclo] INFO: Fila PT vazia — gerando roteiro
+23:33:45 [researcher] INFO: Tema escolhido (pt): O sinal 'Wow!' captado do espaço em 1977
+23:33:46 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+23:33:46 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 164→147 tokens, US$0.0000, 1.1s
+23:33:46 [researcher] INFO: Fontes: Wow! signal (en), Sinal Wow! (pt)
+23:33:46 [scriptwriter] INFO: Escrevendo roteiro: O sinal 'Wow!' captado do espaço em 1977
+23:34:11 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:34:11 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 5462→410 tokens, US$0.0000, 24.4s
+23:34:11 [scriptwriter] INFO: Editando para retenção...
+23:34:39 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:34:39 [llm] INFO: gemini/gemini-3.5-flash [critica] 514→329 tokens, US$0.0000, 28.5s
+23:34:39 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 4, 'ritmo': 5, 'viradas': 5, 'climax': 6, 'final': 5}
+23:34:39 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+23:35:08 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:35:08 [llm] INFO: gemini/gemini-3.5-flash [provas] 5349→998 tokens, US$0.0000, 28.6s
+23:35:08 [scriptwriter] INFO: Checagem 1: 10 frases, 5 com problema, 0 para conferir
+23:35:08 [scriptwriter] INFO: Corrigindo:
+- "Em 1977, um computador antigo imprimiu a sequência de números que atordoou a ciência: 6EQUJ5." → contradiz: O código '6EQUJ5' não é uma sequência de números, mas sim uma sequência de caracteres alfanuméricos que inclui as letras E, Q, U e J.
+- "O astrônomo Jerry Ehman analisava folhas de papel contínuo naquela noite fria quando viu o que ainda nos deixa sem resposta." → contradiz: Ehman não viu o sinal na noite em que ele foi captado (15 de agosto), mas sim alguns dias depois ao revisar os dados impressos.
+- "Aquilo não era um ruído natural." → sem_base: As fontes afirmam que nenhuma explicação foi confirmada e que várias hipóteses de causas naturais (como cintilação estelar ou cometas) foram consideradas.
+- "A transmissão usava a frequência exata da emissão do hidrogênio, a linha que os físicos previam que alienígenas usariam para se comunicar." → contradiz: O sinal não estava na frequência exata do hidrogênio (1420,4058 MHz), mas sim cerca de 50 kHz acima dela (1420,4556 MHz).
+- "O pulso durou exatos setenta e dois segundos — o tempo perfeito de varredura da Terra naquele ponto — e veio da direção de uma estrela parecida com o Sol." → contradiz: Inicialmente nenhuma estrela parecida com o Sol era conhecida nas coordenadas do sinal, e a origem exata permanece incerta entre duas regiões possíveis.
+23:35:20 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:35:20 [llm] INFO: gemini/gemini-3.5-flash [correcao] 5515→262 tokens, US$0.0000, 12.2s
+23:35:30 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:35:30 [llm] INFO: gemini/gemini-3.5-flash [provas] 5338→803 tokens, US$0.0000, 9.7s
+23:35:30 [scriptwriter] INFO: Checagem 2: 9 frases, 0 com problema, 0 para conferir
+23:35:30 [scriptwriter] INFO: Roteiro salvo: 173 palavras, 1045 caracteres, confiança alta
+23:35:30 [ciclo] INFO: Fila EN vazia — gerando roteiro
+23:35:30 [researcher] INFO: Tema escolhido (en): Kaspar Hauser, the boy who appeared out of nowhere
+23:35:30 [httpx] INFO: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+23:35:30 [llm] INFO: groq/openai/gpt-oss-120b [termos_busca] 163→295 tokens, US$0.0000, 0.7s
+23:35:31 [researcher] INFO: Fontes: Kaspar Hauser (en)
+23:35:31 [scriptwriter] INFO: Escrevendo roteiro: Kaspar Hauser, the boy who appeared out of nowhere
+23:35:53 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:35:53 [llm] INFO: gemini/gemini-3.5-flash [roteiro] 2917→368 tokens, US$0.0000, 22.0s
+23:35:53 [scriptwriter] INFO: Editando para retenção...
+23:36:12 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:36:12 [llm] INFO: gemini/gemini-3.5-flash [critica] 480→279 tokens, US$0.0000, 19.2s
+23:36:12 [scriptwriter] INFO: Notas do editor (antes de reescrever): {'gancho': 5, 'ritmo': 6, 'viradas': 7, 'climax': 6, 'final': 7}
+23:36:12 [scriptwriter] INFO: Checando fatos (cada afirmação precisa de citação real da fonte)...
+23:36:39 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:36:39 [llm] INFO: gemini/gemini-3.5-flash [provas] 2751→913 tokens, US$0.0000, 26.3s
+23:36:39 [scriptwriter] INFO: Checagem 1: 11 frases, 1 com problema, 0 para conferir
+23:36:39 [scriptwriter] INFO: Corrigindo:
+- "A teenager trapped his whole life in a tiny, dark cell stumbled into the city unable to speak, repeating only one sentence: "I want to be a cavalryman."" → contradiz: As fontes afirmam que Hauser tinha algum vocabulário, sabia fazer orações, ler um pouco e repetia outras palavras como 'Horse! Horse!' e 'Don't know', contradizendo a afirmação de que ele era incapaz de falar e repetia apenas uma única frase.
+23:36:45 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:36:45 [llm] INFO: gemini/gemini-3.5-flash [correcao] 2672→220 tokens, US$0.0000, 6.5s
+23:37:00 [httpx2] INFO: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+23:37:00 [llm] INFO: gemini/gemini-3.5-flash [provas] 2744→697 tokens, US$0.0000, 14.6s
+23:37:00 [scriptwriter] INFO: Checagem 2: 11 frases, 0 com problema, 0 para conferir
+23:37:00 [scriptwriter] INFO: Roteiro salvo: 169 palavras, 1024 caracteres, confiança alta
+23:37:00 [produzir] INFO: ▶ Produzindo: O sequestrador de avião que evaporou no ar
+23:37:00 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-2-klein-4b esgotada
+23:37:00 [broll] WARNING: Cota grátis diária de @cf/leonardo/lucid-origin esgotada
+23:37:00 [broll] WARNING: Cota grátis diária de @cf/black-forest-labs/flux-1-schnell esgotada
+23:37:00 [produzir] WARNING: Cota grátis diária de imagens acabou — testa de novo a cada hora
+23:37:00 [produzir] INFO: ▶ Produzindo: O segredo mortal do Poço do Dinheiro
+23:37:00 [produzir] INFO: Adiantado até 'plano visual': O segredo mortal do Poço do Dinheiro
+23:37:00 [ciclo] INFO: Cota de imagens acabou — narração/plano adiantados; tenta de novo no próximo ciclo
+23:37:00 [ciclo] ERROR: Falha ao publicar en youtube
+Traceback (most recent call last):
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/scripts/ciclo.py", line 197, in publicar_no_horario
+    r = publicar(plataforma, ler_json(meta_arq), video)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 166, in publicar
+    return publicar_youtube(meta, Path(video))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 52, in publicar_youtube
+    yt = youtube_cliente(meta["lang"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/pipeline/publicar.py", line 42, in youtube_cliente
+    cred = Credentials.from_authorized_user_file(str(arq), ESCOPOS_YT)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/faceless-pipeline/faceless-pipeline/.venv/lib/python3.11/site-packages/google/oauth2/credentials.py", line 544, in from_authorized_user_file
+    data = json.load(json_file)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/share/uv/python/cpython-3.11.18-linux-x86_64-gnu/lib/python3.11/json/__init__.py", line 335, in loads
+    raise JSONDecodeError("Unexpected UTF-8 BOM (decode using utf-8-sig)",
+json.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
+23:37:51 [ciclo] INFO: ✅ Publicado EN instagram: https://www.instagram.com/reel/DgRMqs8zYTd/
+23:37:51 [ciclo] INFO: Conta tiktok (EN) ainda não conectada
